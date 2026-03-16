@@ -1,0 +1,9 @@
+{
+  "token_name": "SOL",
+  "cmc_slug": "solana",
+  "coingecko_id": "solana",
+  "binance_symbol": "SOLUSDT",
+  "defillama_chain": "Solana",
+  "upcoming_unlocks": [],
+  "output_prefix": "market_report_sol"
+}

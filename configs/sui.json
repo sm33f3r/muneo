@@ -1,0 +1,15 @@
+{
+  "token_name": "SUI",
+  "cmc_slug": "sui",
+  "coingecko_id": "sui",
+  "binance_symbol": "SUIUSDT",
+  "defillama_chain": "Sui",
+  "upcoming_unlocks": [
+    {
+      "date": "2026-04-01",
+      "amount_tokens": 42940000,
+      "note": "Foundation unlock"
+    }
+  ],
+  "output_prefix": "market_report_sui"
+}

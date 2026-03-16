@@ -1,0 +1,35 @@
+# =============================================================================
+# market_reporter — .gitignore
+# =============================================================================
+
+# --- API keys / secrets (NEVER commit this file) ----------------------------
+.env
+
+# --- Generated report output -------------------------------------------------
+reports/
+
+# --- Python runtime artifacts ------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Virtual environments ----------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE / editor files ------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
