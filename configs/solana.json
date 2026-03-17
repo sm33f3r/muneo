@@ -5,7 +5,7 @@
   "binance_futures_symbol": "SOLUSDT",
   "defillama_chain": "Solana",
   "cmc_slug": "solana",
-  "lunarcrush_symbol": "SOL",
+  "coinpaprika_id": "sol-solana",
   "santiment_slug": "solana",
   "upcoming_unlocks": [],
   "output_prefix": "market_report_sol"

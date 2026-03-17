@@ -56,7 +56,7 @@ class TokenConfig:
     output_prefix: str
     # Optional new fields — None means the relevant fetcher will skip gracefully
     binance_futures_symbol: Optional[str] = None
-    lunarcrush_symbol: Optional[str] = None
+    coinpaprika_id: Optional[str] = None
     santiment_slug: Optional[str] = None
 
 
@@ -72,7 +72,7 @@ def load_config(config_path: str) -> TokenConfig:
         upcoming_unlocks=raw.get("upcoming_unlocks", []),
         output_prefix=raw["output_prefix"],
         binance_futures_symbol=raw.get("binance_futures_symbol"),
-        lunarcrush_symbol=raw.get("lunarcrush_symbol"),
+        coinpaprika_id=raw.get("coinpaprika_id"),
         santiment_slug=raw.get("santiment_slug"),
     )
 
@@ -223,19 +223,37 @@ def _cmc_headers(api_key: str) -> dict:
     return {"X-CMC_PRO_API_KEY": api_key, "Accept": "application/json"}
 
 
-# Fetch 1 — CoinGecko token markets
-def fetch_cg_token_markets(coingecko_id: str, api_key: str) -> dict:
-    url = f"{CG_BASE}/coins/markets"
-    params = {"vs_currency": "usd", "ids": coingecko_id, "price_change_percentage": "24h,7d"}
+# Fetch 1 — CoinGecko token full data (price + community + developer + sentiment)
+def fetch_cg_token_full_data(coingecko_id: str, api_key: str) -> dict:
+    url = f"{CG_BASE}/coins/{coingecko_id}"
+    params = {
+        "localization": "false",
+        "tickers": "false",
+        "market_data": "true",
+        "community_data": "true",
+        "developer_data": "true",
+        "sparkline": "false",
+    }
     resp = requests.get(url, headers=_cg_headers(api_key), params=params, timeout=API_TIMEOUT)
     resp.raise_for_status()
     data = resp.json()
     if not data:
         raise ValueError(f"Empty response for {coingecko_id}")
-    return data[0]
+    return data
 
 
-# Fetch 2 — CoinGecko token OHLC 365d
+# Fetch 2 — CoinPaprika coin detail (social + developer stats, free, no auth)
+def fetch_coinpaprika_coin(coinpaprika_id: str) -> dict:
+    url = f"https://api.coinpaprika.com/v1/coins/{coinpaprika_id}"
+    resp = requests.get(url, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    if not data:
+        raise ValueError(f"Empty response for {coinpaprika_id}")
+    return data
+
+
+# Fetch 3 — CoinGecko token OHLC 365d
 # CoinGecko only accepts specific day values: 1, 7, 14, 30, 90, 180, 365.
 # Use 365 to ensure enough candles for EMA-200 and all other indicators.
 def fetch_cg_ohlc(coingecko_id: str, api_key: str) -> list:
@@ -375,27 +393,7 @@ def fetch_santiment_metric(metric: str, slug: str, api_key: str, from_dt: str, t
     return body.get("data", {}).get("getMetric", {}).get("timeseriesData", [])
 
 
-# Fetch 15 — LunarCrush coin snapshot
-def fetch_lunarcrush_coin(symbol: str, api_key: str) -> dict:
-    headers = {"Authorization": f"Bearer {api_key}"}
-    url = f"https://lunarcrush.com/api4/public/coins/{symbol}/v1"
-    resp = requests.get(url, headers=headers, timeout=API_TIMEOUT)
-    if resp.status_code == 403:
-        list_resp = requests.get(
-            "https://lunarcrush.com/api4/public/coins/list/v2",
-            headers=headers, timeout=API_TIMEOUT
-        )
-        list_resp.raise_for_status()
-        list_data = list_resp.json().get("data", [])
-        match = next((c for c in list_data if c.get("symbol", "").upper() == symbol.upper()), None)
-        if match is None:
-            raise ValueError(f"Symbol {symbol} not found in LunarCrush list")
-        return match
-    resp.raise_for_status()
-    return resp.json().get("data", {})
-
-
-# Fetches 16/17 — FRED series observations
+# Fetches 17/18 — FRED series observations
 def fetch_fred_series(series_id: str, api_key: str, limit: int = 5) -> list:
     url = f"{FRED_BASE}/series/observations"
     params = {"series_id": series_id, "sort_order": "desc", "limit": limit,
@@ -579,22 +577,12 @@ def lean_fear_greed(value: Optional[int]) -> str:
     return "neutral"
 
 
-def lean_lc_sentiment(sentiment: Optional[float]) -> Optional[str]:
-    if sentiment is None:
+def lean_sentiment_votes(up_pct: Optional[float]) -> Optional[str]:
+    if up_pct is None:
         return None
-    if sentiment > 60:
+    if up_pct > 60:
         return "bullish"
-    if sentiment < 40:
-        return "bearish"
-    return "neutral"
-
-
-def lean_galaxy_score(score: Optional[float]) -> Optional[str]:
-    if score is None:
-        return None
-    if score > 60:
-        return "bullish"
-    if score < 40:
+    if up_pct < 40:
         return "bearish"
     return "neutral"
 
@@ -805,15 +793,20 @@ def render_markdown(report: dict) -> str:
     lines.append(f"| Fear & Greed Value | {sent.get('fear_greed_value', 'N/A')} — {sent.get('fear_greed_label', 'N/A')} |")
     fg_lean = sent.get('fear_greed_lean')
     lines.append(f"| Fear & Greed Lean | {_lean_icon(fg_lean)} {fg_lean or 'N/A'} |")
-    lines.append(f"| Galaxy Score | {sent.get('lc_galaxy_score', 'N/A')} |")
-    gs_lean = sent.get('lc_galaxy_score_lean')
-    lines.append(f"| Galaxy Score Lean | {_lean_icon(gs_lean)} {gs_lean or 'null'} |")
-    lines.append(f"| Alt Rank | {sent.get('lc_alt_rank', 'N/A')} |")
-    lines.append(f"| LC Sentiment | {sent.get('lc_sentiment', 'N/A')} |")
-    s_lean = sent.get('lc_sentiment_lean')
+    lines.append(f"| CG Sentiment Votes Up | {_fmt(sent.get('cg_sentiment_votes_up_pct'), 1)}% |")
+    lines.append(f"| CG Sentiment Votes Down | {_fmt(sent.get('cg_sentiment_votes_down_pct'), 1)}% |")
+    s_lean = sent.get('sentiment_lean')
     lines.append(f"| Sentiment Lean | {_lean_icon(s_lean)} {s_lean or 'null'} |")
-    lines.append(f"| Social Dominance | {_fmt(sent.get('lc_social_dominance'), 2)} |")
-    lines.append(f"| Market Dominance | {_fmt(sent.get('lc_market_dominance'), 2)} |")
+    lines.append(f"| CG Twitter Followers | {sent.get('cg_twitter_followers', 'N/A')} |")
+    lines.append(f"| CG Reddit Subscribers | {sent.get('cg_reddit_subscribers', 'N/A')} |")
+    lines.append(f"| CG Reddit Active (48h) | {sent.get('cg_reddit_active_48h', 'N/A')} |")
+    lines.append(f"| CG Telegram Users | {sent.get('cg_telegram_users', 'N/A')} |")
+    lines.append(f"| CG GitHub Forks | {sent.get('cg_github_forks', 'N/A')} |")
+    lines.append(f"| CG GitHub Stars | {sent.get('cg_github_stars', 'N/A')} |")
+    lines.append(f"| CG GitHub Commits (4w) | {sent.get('cg_github_commits_4w', 'N/A')} |")
+    lines.append(f"| CP Reddit Subscribers | {sent.get('cp_reddit_subscribers', 'N/A')} |")
+    lines.append(f"| CP GitHub Contributors | {sent.get('cp_github_contributors', 'N/A')} |")
+    lines.append(f"| CP GitHub Stars | {sent.get('cp_github_stars', 'N/A')} |")
     lines.append("")
 
     # Upcoming Events
@@ -872,7 +865,6 @@ def build_report(
     cg_api_key: str,
     cmc_api_key: str,
     santiment_api_key: str,
-    lunarcrush_api_key: str,
     fred_api_key: str,
     alpha_vantage_api_key: str,
 ) -> dict:
@@ -886,34 +878,81 @@ def build_report(
     san_to   = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # ------------------------------------------------------------------
-    # [1/19] CoinGecko — token markets
+    # [1/19] CoinGecko — token full data (price + community + developer + sentiment)
     # ------------------------------------------------------------------
-    print("[1/19] Fetching CoinGecko — token markets...")
+    print("[1/19] Fetching CoinGecko — token full data...")
     cg_id = config.coingecko_id
     cg_token = safe_fetch(
-        "CoinGecko token markets",
-        lambda: fetch_cg_token_markets(cg_id, cg_api_key),
+        "CoinGecko token full data",
+        lambda: fetch_cg_token_full_data(cg_id, cg_api_key),
         fetch_errors,
     )
     time.sleep(2)
 
     if cg_token is None:
-        print("ERROR: CoinGecko token markets fetch failed — cannot proceed without price data.", file=sys.stderr)
+        print("ERROR: CoinGecko token full data fetch failed — cannot proceed without price data.", file=sys.stderr)
         sys.exit(1)
 
-    price_usd        = float(cg_token["current_price"])
-    price_change_24h = cg_token.get("price_change_percentage_24h_in_currency")
-    price_change_7d  = cg_token.get("price_change_percentage_7d_in_currency")
-    volume_24h       = cg_token.get("total_volume")
-    market_cap       = cg_token.get("market_cap")
-    ath_usd          = cg_token.get("ath")
-    ath_drawdown_pct = cg_token.get("ath_change_percentage")
+    _md = cg_token.get("market_data", {})
+    price_usd        = float(_md["current_price"]["usd"])
+    price_change_24h = _md.get("price_change_percentage_24h_in_currency", {}).get("usd")
+    price_change_7d  = _md.get("price_change_percentage_7d_in_currency", {}).get("usd")
+    volume_24h       = _md.get("total_volume", {}).get("usd")
+    market_cap       = _md.get("market_cap", {}).get("usd")
+    ath_usd          = _md.get("ath", {}).get("usd")
+    ath_drawdown_pct = _md.get("ath_change_percentage", {}).get("usd")
     vol_to_mcap      = (volume_24h / market_cap) if (volume_24h and market_cap and market_cap != 0) else None
 
+    _comm = cg_token.get("community_data", {})
+    cg_twitter_followers  = _comm.get("twitter_followers")
+    cg_reddit_subscribers = _comm.get("reddit_subscribers")
+    cg_reddit_active_48h  = _comm.get("reddit_active_accounts_48h")
+    cg_telegram_users     = _comm.get("telegram_channel_user_count")
+
+    cg_sentiment_votes_up_pct   = cg_token.get("sentiment_votes_up_percentage")
+    cg_sentiment_votes_down_pct = cg_token.get("sentiment_votes_down_percentage")
+
+    _dev = cg_token.get("developer_data", {})
+    cg_github_forks       = _dev.get("forks")
+    cg_github_stars       = _dev.get("stars")
+    cg_github_commits_4w  = _dev.get("commit_count_4_weeks")
+
     # ------------------------------------------------------------------
-    # [2/19] CoinGecko — token OHLC 365d
+    # [2/19] CoinPaprika — coin detail (social + developer stats)
     # ------------------------------------------------------------------
-    print("[2/19] Fetching CoinGecko — token OHLC 365d...")
+    print("[2/19] Fetching CoinPaprika — coin detail...")
+    cp_reddit_subscribers  = None
+    cp_github_contributors = None
+    cp_github_stars        = None
+
+    if config.coinpaprika_id:
+        cp_id = config.coinpaprika_id
+        cp_data = safe_fetch(
+            "CoinPaprika coin detail",
+            lambda: fetch_coinpaprika_coin(cp_id),
+            fetch_errors,
+        )
+        if cp_data:
+            try:
+                for link in cp_data.get("links_extended", []):
+                    ltype = link.get("type")
+                    stats = link.get("stats", {})
+                    if ltype == "reddit":
+                        cp_reddit_subscribers = stats.get("subscribers")
+                    elif ltype == "source_code":
+                        cp_github_contributors = stats.get("contributors")
+                        cp_github_stars        = stats.get("stars")
+            except Exception as e:
+                fetch_errors.append(f"coinpaprika:parse_error: {e}")
+    else:
+        print("  \u2717 CoinPaprika coin detail — coinpaprika_id not in config")
+        fetch_errors.append("fetch_2:coinpaprika: skipped — coinpaprika_id not in config")
+    time.sleep(1)
+
+    # ------------------------------------------------------------------
+    # [3/19] CoinGecko — token OHLC 365d
+    # ------------------------------------------------------------------
+    print("[3/19] Fetching CoinGecko — token OHLC 365d...")
     ohlc_raw = safe_fetch(
         "CoinGecko OHLC 365d",
         lambda: fetch_cg_ohlc(cg_id, cg_api_key),
@@ -937,9 +976,9 @@ def build_report(
     bb                    = compute_bollinger_bands(ohlc_raw)
 
     # ------------------------------------------------------------------
-    # [3/19] CoinGecko — token market chart 30d (volume)
+    # [4/19] CoinGecko — token market chart 30d (volume)
     # ------------------------------------------------------------------
-    print("[3/19] Fetching CoinGecko — token market chart 30d (volume)...")
+    print("[4/19] Fetching CoinGecko — token market chart 30d (volume)...")
     market_chart_raw = safe_fetch(
         "CoinGecko token market chart 30d (volume)",
         lambda: fetch_cg_market_chart(cg_id, cg_api_key),
@@ -980,9 +1019,9 @@ def build_report(
         volume_lean = None
 
     # ------------------------------------------------------------------
-    # [4/19] CoinGecko — BTC markets
+    # [5/19] CoinGecko — BTC markets
     # ------------------------------------------------------------------
-    print("[4/19] Fetching CoinGecko — BTC markets...")
+    print("[5/19] Fetching CoinGecko — BTC markets...")
     cg_btc = safe_fetch(
         "CoinGecko BTC markets",
         lambda: fetch_cg_btc_markets(cg_api_key),
@@ -994,9 +1033,9 @@ def build_report(
     btc_24h_change = cg_btc.get("price_change_percentage_24h_in_currency") if cg_btc else None
 
     # ------------------------------------------------------------------
-    # [5/19] CoinGecko — ETH/BTC ratio
+    # [6/19] CoinGecko — ETH/BTC ratio
     # ------------------------------------------------------------------
-    print("[5/19] Fetching CoinGecko — ETH/BTC ratio...")
+    print("[6/19] Fetching CoinGecko — ETH/BTC ratio...")
     eth_btc_ratio = safe_fetch(
         "CoinGecko ETH/BTC ratio",
         lambda: fetch_cg_eth_btc(cg_api_key),
@@ -1005,9 +1044,9 @@ def build_report(
     time.sleep(2)
 
     # ------------------------------------------------------------------
-    # [6/19] DeFiLlama — historical chain TVL
+    # [7/19] DeFiLlama — historical chain TVL
     # ------------------------------------------------------------------
-    print("[6/19] Fetching DeFiLlama — historical chain TVL...")
+    print("[7/19] Fetching DeFiLlama — historical chain TVL...")
     chain = config.defillama_chain
     defillama_data = safe_fetch(
         "DeFiLlama historical TVL",
@@ -1029,9 +1068,9 @@ def build_report(
             tvl_7d_change_pct = ((tvl_usd - tvl_7d_ago) / tvl_7d_ago) * 100
 
     # ------------------------------------------------------------------
-    # [7/19] CMC — global metrics latest
+    # [8/19] CMC — global metrics latest
     # ------------------------------------------------------------------
-    print("[7/19] Fetching CMC — global metrics latest...")
+    print("[8/19] Fetching CMC — global metrics latest...")
     cmc_global = safe_fetch(
         "CMC global metrics",
         lambda: fetch_cmc_global_metrics(cmc_api_key),
@@ -1048,9 +1087,9 @@ def build_report(
         total_mcap_usd = quote_usd.get("total_market_cap")
 
     # ------------------------------------------------------------------
-    # [8/19] CMC — Fear & Greed latest
+    # [9/19] CMC — Fear & Greed latest
     # ------------------------------------------------------------------
-    print("[8/19] Fetching CMC — Fear & Greed latest...")
+    print("[9/19] Fetching CMC — Fear & Greed latest...")
     fg_data = safe_fetch(
         "CMC Fear & Greed",
         lambda: fetch_cmc_fear_greed_latest(cmc_api_key),
@@ -1069,9 +1108,9 @@ def build_report(
             fetch_errors.append(f"fear_greed:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [9/19] Binance spot — CEX price + 24h stats
+    # [10/19] Binance spot — CEX price + 24h stats
     # ------------------------------------------------------------------
-    print("[9/19] Fetching Binance spot — CEX price + 24h stats...")
+    print("[10/19] Fetching Binance spot — CEX price + 24h stats...")
     bsym = config.binance_symbol
     binance_spot = safe_fetch(
         "Binance spot",
@@ -1096,9 +1135,9 @@ def build_report(
             fetch_errors.append(f"binance_spot:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [10/19] Binance Futures — token open interest
+    # [11/19] Binance Futures — token open interest
     # ------------------------------------------------------------------
-    print("[10/19] Fetching Binance Futures — token open interest...")
+    print("[11/19] Fetching Binance Futures — token open interest...")
     oi_usd = None
 
     if config.binance_futures_symbol:
@@ -1115,13 +1154,13 @@ def build_report(
                 fetch_errors.append(f"binance_futures_oi:parse_error: {e}")
     else:
         print("  \u2717 Binance Futures OI — binance_futures_symbol not in config")
-        fetch_errors.append("fetch_10:binance_futures_oi: skipped — binance_futures_symbol not in config")
+        fetch_errors.append("fetch_11:binance_futures_oi: skipped — binance_futures_symbol not in config")
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [11/19] Binance Futures — token funding rate
+    # [12/19] Binance Futures — token funding rate
     # ------------------------------------------------------------------
-    print("[11/19] Fetching Binance Futures — token funding rate...")
+    print("[12/19] Fetching Binance Futures — token funding rate...")
     funding_rate_latest = None
     funding_rate_7d_avg = None
 
@@ -1141,13 +1180,13 @@ def build_report(
                 fetch_errors.append(f"binance_funding:parse_error: {e}")
     else:
         print("  \u2717 Binance Futures funding rate — binance_futures_symbol not in config")
-        fetch_errors.append("fetch_11:binance_futures_funding: skipped — binance_futures_symbol not in config")
+        fetch_errors.append("fetch_12:binance_futures_funding: skipped — binance_futures_symbol not in config")
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [12/19] Binance Futures — BTC long/short ratio
+    # [13/19] Binance Futures — BTC long/short ratio
     # ------------------------------------------------------------------
-    print("[12/19] Fetching Binance Futures — BTC long/short ratio...")
+    print("[13/19] Fetching Binance Futures — BTC long/short ratio...")
     ls_data = safe_fetch(
         "Binance Futures BTC L/S ratio",
         lambda: fetch_binance_btc_ls_ratio(),
@@ -1168,9 +1207,9 @@ def build_report(
             fetch_errors.append(f"binance_btc_ls:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [13/19] Santiment — active addresses
+    # [14/19] Santiment — active addresses
     # ------------------------------------------------------------------
-    print("[13/19] Fetching Santiment — active addresses...")
+    print("[14/19] Fetching Santiment — active addresses...")
     active_addr_latest = None
     active_addr_7d_avg = None
 
@@ -1192,13 +1231,13 @@ def build_report(
                 active_addr_7d_avg = sum(vals) / len(vals)
     else:
         print("  \u2717 Santiment active addresses — santiment_slug not in config or key missing")
-        fetch_errors.append("fetch_13:santiment_active_addresses: skipped — santiment_slug not configured")
+        fetch_errors.append("fetch_14:santiment_active_addresses: skipped — santiment_slug not configured")
     time.sleep(3)
 
     # ------------------------------------------------------------------
-    # [14/19] Santiment — exchange inflow
+    # [15/19] Santiment — exchange inflow
     # ------------------------------------------------------------------
-    print("[14/19] Fetching Santiment — exchange inflow...")
+    print("[15/19] Fetching Santiment — exchange inflow...")
     exchange_inflow = None
 
     if config.santiment_slug and santiment_api_key:
@@ -1218,13 +1257,13 @@ def build_report(
                 exchange_inflow = vals[-1]
     else:
         print("  \u2717 Santiment exchange inflow — santiment_slug not in config or key missing")
-        fetch_errors.append("fetch_14:santiment_exchange_inflow: skipped — santiment_slug not configured")
+        fetch_errors.append("fetch_15:santiment_exchange_inflow: skipped — santiment_slug not configured")
     time.sleep(3)
 
     # ------------------------------------------------------------------
-    # [15/19] Santiment — exchange outflow
+    # [16/19] Santiment — exchange outflow
     # ------------------------------------------------------------------
-    print("[15/19] Fetching Santiment — exchange outflow...")
+    print("[16/19] Fetching Santiment — exchange outflow...")
     exchange_outflow = None
 
     if config.santiment_slug and santiment_api_key:
@@ -1244,45 +1283,12 @@ def build_report(
                 exchange_outflow = vals[-1]
     else:
         print("  \u2717 Santiment exchange outflow — santiment_slug not in config or key missing")
-        fetch_errors.append("fetch_15:santiment_exchange_outflow: skipped — santiment_slug not configured")
+        fetch_errors.append("fetch_16:santiment_exchange_outflow: skipped — santiment_slug not configured")
     time.sleep(3)
 
     exchange_net_flow = None
     if exchange_inflow is not None and exchange_outflow is not None:
         exchange_net_flow = exchange_outflow - exchange_inflow
-
-    # ------------------------------------------------------------------
-    # [16/19] LunarCrush — coin snapshot
-    # ------------------------------------------------------------------
-    print("[16/19] Fetching LunarCrush — coin snapshot...")
-    lc_galaxy_score = None
-    lc_alt_rank     = None
-    lc_sentiment    = None
-    lc_social_dom   = None
-    lc_market_dom   = None
-
-    if config.lunarcrush_symbol and lunarcrush_api_key:
-        lc_sym = config.lunarcrush_symbol
-        lc_data = safe_fetch(
-            "LunarCrush coin snapshot",
-            lambda: fetch_lunarcrush_coin(lc_sym, lunarcrush_api_key),
-            fetch_errors,
-        )
-        if lc_data is None:
-            fetch_errors.append("LunarCrush snapshot requires paid plan — all LC fields null")
-        elif lc_data:
-            try:
-                lc_galaxy_score = lc_data.get("galaxy_score")
-                lc_alt_rank     = lc_data.get("alt_rank")
-                lc_sentiment    = lc_data.get("sentiment")
-                lc_social_dom   = lc_data.get("social_dominance")
-                lc_market_dom   = lc_data.get("market_dominance")
-            except Exception as e:
-                fetch_errors.append(f"lunarcrush:parse_error: {e}")
-    else:
-        print("  \u2717 LunarCrush coin snapshot — lunarcrush_symbol not in config or key missing")
-        fetch_errors.append("fetch_16:lunarcrush: skipped — lunarcrush_symbol not configured")
-    time.sleep(2)
 
     # ------------------------------------------------------------------
     # [17/19] FRED — DXY latest
@@ -1384,7 +1390,7 @@ def build_report(
     unlock_lean = "bearish" if has_near_term else "bullish"
 
     # ------------------------------------------------------------------
-    # Compute all 19 signal leans
+    # Compute all 18 signal leans
     # ------------------------------------------------------------------
     rsi_lean_val     = lean_rsi(rsi_14)
     macd_lean_val    = lean_macd(macd_line, macd_signal)
@@ -1403,8 +1409,7 @@ def build_report(
     spy_lean_val     = lean_spy(spy_change_pct)
     vix_lean_val     = lean_vix(vix_latest, vix_prior)
     fg_lean_val      = lean_fear_greed(fg_value)
-    sent_lean_val    = lean_lc_sentiment(lc_sentiment)
-    gs_lean_val      = lean_galaxy_score(lc_galaxy_score)
+    sent_lean_val    = lean_sentiment_votes(cg_sentiment_votes_up_pct)
 
     btc_direction = lean_btc_direction(btc_24h_change)
 
@@ -1427,7 +1432,6 @@ def build_report(
         "vix_lean":              vix_lean_val,
         "fear_greed_lean":       fg_lean_val,
         "sentiment_lean":        sent_lean_val,
-        "galaxy_score_lean":     gs_lean_val,
     }
 
     available = {k: v for k, v in signals.items() if v is not None}
@@ -1522,23 +1526,29 @@ def build_report(
             "vix_lean":             vix_lean_val,
         },
         "sentiment": {
-            "fear_greed_value":     fg_value,
-            "fear_greed_label":     fg_label,
-            "fear_greed_lean":      fg_lean_val,
-            "lc_galaxy_score":      lc_galaxy_score,
-            "lc_galaxy_score_lean": gs_lean_val,
-            "lc_alt_rank":          lc_alt_rank,
-            "lc_sentiment":         lc_sentiment,
-            "lc_sentiment_lean":    sent_lean_val,
-            "lc_social_dominance":  lc_social_dom,
-            "lc_market_dominance":  lc_market_dom,
+            "fear_greed_value":             fg_value,
+            "fear_greed_label":             fg_label,
+            "fear_greed_lean":              fg_lean_val,
+            "cg_sentiment_votes_up_pct":    cg_sentiment_votes_up_pct,
+            "cg_sentiment_votes_down_pct":  cg_sentiment_votes_down_pct,
+            "sentiment_lean":               sent_lean_val,
+            "cg_twitter_followers":         cg_twitter_followers,
+            "cg_reddit_subscribers":        cg_reddit_subscribers,
+            "cg_reddit_active_48h":         cg_reddit_active_48h,
+            "cg_telegram_users":            cg_telegram_users,
+            "cg_github_forks":              cg_github_forks,
+            "cg_github_stars":              cg_github_stars,
+            "cg_github_commits_4w":         cg_github_commits_4w,
+            "cp_reddit_subscribers":        cp_reddit_subscribers,
+            "cp_github_contributors":       cp_github_contributors,
+            "cp_github_stars":              cp_github_stars,
         },
         "upcoming_events": {
             "unlocks_next_30d": unlocks_next_30d,
             "unlock_lean":      unlock_lean,
         },
         "signal_summary": {
-            "signals_evaluated": 19,
+            "signals_evaluated": 18,
             "signals_available": len(available),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1594,7 +1604,6 @@ def main() -> None:
     cg_api_key            = _key("COINGECKO_API_KEY")
     cmc_api_key           = _key("CMC_API_KEY")
     santiment_api_key     = _key("SANTIMENT_API_KEY")
-    lunarcrush_api_key    = _key("LUNARCRUSH_API_KEY")
     fred_api_key          = _key("FRED_API_KEY")
     alpha_vantage_api_key = _key("ALPHA_VANTAGE_API_KEY")
 
@@ -1619,7 +1628,6 @@ def main() -> None:
         cg_api_key=cg_api_key,
         cmc_api_key=cmc_api_key,
         santiment_api_key=santiment_api_key,
-        lunarcrush_api_key=lunarcrush_api_key,
         fred_api_key=fred_api_key,
         alpha_vantage_api_key=alpha_vantage_api_key,
     )

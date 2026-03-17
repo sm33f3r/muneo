@@ -5,7 +5,7 @@
   "binance_futures_symbol": "SUIUSDT",
   "defillama_chain": "Sui",
   "cmc_slug": "sui",
-  "lunarcrush_symbol": "SUI",
+  "coinpaprika_id": "sui-sui",
   "santiment_slug": "sui-network",
   "upcoming_unlocks": [
     {
