@@ -1,9 +1,12 @@
 {
   "token_name": "SUI",
-  "cmc_slug": "sui",
   "coingecko_id": "sui",
   "binance_symbol": "SUIUSDT",
+  "binance_futures_symbol": "SUIUSDT",
   "defillama_chain": "Sui",
+  "cmc_slug": "sui",
+  "lunarcrush_symbol": "SUI",
+  "santiment_slug": "sui-network",
   "upcoming_unlocks": [
     {
       "date": "2026-04-01",
