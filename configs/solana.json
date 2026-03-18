@@ -6,6 +6,7 @@
   "defillama_chain": "Solana",
   "cmc_slug": "solana",
   "coinpaprika_id": "sol-solana",
+  "cryptopanic_symbol": "SOL",
   "upcoming_unlocks": [],
   "output_prefix": "market_report_sol"
 }

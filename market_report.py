@@ -57,6 +57,7 @@ class TokenConfig:
     # Optional new fields — None means the relevant fetcher will skip gracefully
     binance_futures_symbol: Optional[str] = None
     coinpaprika_id: Optional[str] = None
+    cryptopanic_symbol: Optional[str] = None
 
 
 def load_config(config_path: str) -> TokenConfig:
@@ -72,6 +73,7 @@ def load_config(config_path: str) -> TokenConfig:
         output_prefix=raw["output_prefix"],
         binance_futures_symbol=raw.get("binance_futures_symbol"),
         coinpaprika_id=raw.get("coinpaprika_id"),
+        cryptopanic_symbol=raw.get("cryptopanic_symbol"),
     )
 
 
@@ -251,7 +253,24 @@ def fetch_coinpaprika_coin(coinpaprika_id: str) -> dict:
     return data
 
 
-# Fetch 3 — CoinGecko token OHLC 365d
+# Fetch 3 — CryptoPanic token news (developer/v2, free developer plan)
+def fetch_cryptopanic_news(symbol: str, api_key: str) -> dict:
+    url = "https://cryptopanic.com/api/developer/v2/posts/"
+    params = {
+        "auth_token": api_key,
+        "currencies": symbol,
+        "kind": "news",
+        "public": "true",
+    }
+    resp = requests.get(url, params=params, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    if not data:
+        raise ValueError(f"Empty response for {symbol}")
+    return data
+
+
+# Fetch 4 — CoinGecko token OHLC 365d
 # CoinGecko only accepts specific day values: 1, 7, 14, 30, 90, 180, 365.
 # Use 365 to ensure enough candles for EMA-200 and all other indicators.
 def fetch_cg_ohlc(coingecko_id: str, api_key: str) -> list:
@@ -311,7 +330,19 @@ def fetch_defillama_historical_tvl(chain: str) -> list:
     return data
 
 
-# Fetch 6 — CMC global metrics latest
+# Fetch 6 — DeFiLlama chain fees overview
+def fetch_defillama_chain_fees(chain: str) -> dict:
+    url = f"https://api.llama.fi/overview/fees/{chain}"
+    params = {"excludeTotalDataChart": "false", "excludeTotalDataChartBreakdown": "true"}
+    resp = requests.get(url, params=params, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    if not data:
+        raise ValueError(f"Empty fees response for {chain}")
+    return data
+
+
+# Fetch 7 — CMC global metrics latest
 def fetch_cmc_global_metrics(api_key: str) -> dict:
     url = f"{CMC_BASE}/v1/global-metrics/quotes/latest"
     resp = requests.get(url, headers=_cmc_headers(api_key), timeout=API_TIMEOUT)
@@ -615,6 +646,7 @@ def render_markdown(report: dict) -> str:
     tech    = report["technical_indicators"]
     deriv   = report["derivatives"]
     onchain = report["on_chain"]
+    news    = report.get("news", {})
     macro   = report["macro"]
     sent    = report["sentiment"]
     events  = report["upcoming_events"]
@@ -706,6 +738,25 @@ def render_markdown(report: dict) -> str:
     lines.append(f"| TVL 7d Change | {_pct(onchain.get('tvl_7d_change_pct'))} |")
     tvl_lean = onchain.get('tvl_lean')
     lines.append(f"| TVL Lean | {_lean_icon(tvl_lean)} {tvl_lean or 'N/A'} |")
+    lines.append(f"| Chain Fees 24h (USD) | {_usd(onchain.get('chain_fees_24h_usd'))} |")
+    lines.append(f"| Chain Fees 7d Avg (USD) | {_usd(onchain.get('chain_fees_7d_avg_usd'))} |")
+    cf_lean = onchain.get('chain_fees_lean')
+    lines.append(f"| Chain Fees Lean | {_lean_icon(cf_lean)} {cf_lean or 'null'} |")
+    lines.append("")
+
+    # News
+    lines.append("## News")
+    lines.append("| Metric | Value |")
+    lines.append("|---|---|")
+    lines.append(f"| Articles (24h) | {news.get('news_article_count_24h', 'N/A')} |")
+    lines.append(f"| Bullish Votes (24h) | {news.get('news_bullish_votes_24h', 'N/A')} |")
+    lines.append(f"| Bearish Votes (24h) | {news.get('news_bearish_votes_24h', 'N/A')} |")
+    lines.append(f"| Important Votes (24h) | {news.get('news_important_votes_24h', 'N/A')} |")
+    lines.append(f"| Sentiment Ratio | {_fmt(news.get('news_sentiment_ratio'), 4)} |")
+    nv_lean = news.get('news_volume_lean')
+    lines.append(f"| News Volume Lean | {_lean_icon(nv_lean)} {nv_lean or 'null'} |")
+    spike_val = news.get('news_spike')
+    lines.append(f"| Spike (>10 articles) | {'Yes' if spike_val else 'No'} |")
     lines.append("")
 
     # Macro
@@ -814,15 +865,16 @@ def build_report(
     cmc_api_key: str,
     fred_api_key: str,
     alpha_vantage_api_key: str,
+    cryptopanic_api_key: str = "",
 ) -> dict:
     fetch_errors: list = []
     now_utc = datetime.now(timezone.utc)
     today   = now_utc.date()
 
     # ------------------------------------------------------------------
-    # [1/16] CoinGecko — token full data (price + community + developer + sentiment)
+    # [1/18] CoinGecko — token full data (price + community + developer + sentiment)
     # ------------------------------------------------------------------
-    print("[1/16] Fetching CoinGecko — token full data...")
+    print("[1/18] Fetching CoinGecko — token full data...")
     cg_id = config.coingecko_id
     cg_token = safe_fetch(
         "CoinGecko token full data",
@@ -860,9 +912,9 @@ def build_report(
     cg_github_commits_4w  = _dev.get("commit_count_4_weeks")
 
     # ------------------------------------------------------------------
-    # [2/16] CoinPaprika — coin detail (social + developer stats)
+    # [2/18] CoinPaprika — coin detail (social + developer stats)
     # ------------------------------------------------------------------
-    print("[2/16] Fetching CoinPaprika — coin detail...")
+    print("[2/18] Fetching CoinPaprika — coin detail...")
     cp_reddit_subscribers  = None
     cp_github_contributors = None
     cp_github_stars        = None
@@ -892,9 +944,77 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [3/16] CoinGecko — token OHLC 365d
+    # [3/18] CryptoPanic — token news 24h
     # ------------------------------------------------------------------
-    print("[3/16] Fetching CoinGecko — token OHLC 365d...")
+    print("[3/18] Fetching CryptoPanic — token news 24h...")
+    news_article_count_24h    = None
+    news_bullish_votes_24h    = None
+    news_bearish_votes_24h    = None
+    news_important_votes_24h  = None
+    news_sentiment_ratio      = None
+    news_volume_lean          = None
+    news_spike                = False
+
+    if config.cryptopanic_symbol and cryptopanic_api_key:
+        cp_sym = config.cryptopanic_symbol
+        cp_news_data = safe_fetch(
+            "CryptoPanic — token news 24h",
+            lambda: fetch_cryptopanic_news(cp_sym, cryptopanic_api_key),
+            fetch_errors,
+        )
+        if cp_news_data is not None:
+            try:
+                results = cp_news_data.get("results", [])
+                articles_24h = []
+                for article in results:
+                    published_str = article.get("published_at", "")
+                    try:
+                        published_dt = datetime.fromisoformat(
+                            published_str.replace("Z", "+00:00")
+                        )
+                        hours_ago = (now_utc - published_dt).total_seconds() / 3600
+                        if hours_ago <= 24:
+                            articles_24h.append(article)
+                    except (ValueError, TypeError):
+                        continue
+
+                news_article_count_24h   = len(articles_24h)
+                total_liked     = sum(a.get("votes", {}).get("liked", 0) for a in articles_24h)
+                total_disliked  = sum(a.get("votes", {}).get("disliked", 0) for a in articles_24h)
+                total_important = sum(a.get("votes", {}).get("important", 0) for a in articles_24h)
+                news_bullish_votes_24h   = total_liked
+                news_bearish_votes_24h   = total_disliked
+                news_important_votes_24h = total_important
+
+                total_votes = total_liked + total_disliked
+                if total_votes > 0:
+                    news_sentiment_ratio = round(total_liked / total_votes, 4)
+                else:
+                    news_sentiment_ratio = None
+
+                if news_sentiment_ratio is not None:
+                    if news_sentiment_ratio > 0.65:
+                        news_volume_lean = "bullish"
+                    elif news_sentiment_ratio < 0.35:
+                        news_volume_lean = "bearish"
+                    else:
+                        news_volume_lean = "neutral"
+                else:
+                    news_volume_lean = "neutral"
+
+                news_spike = news_article_count_24h > 10
+            except Exception as e:
+                fetch_errors.append(f"CryptoPanic — fetch failed: {e}")
+        else:
+            fetch_errors.append(f"CryptoPanic — fetch failed: no data returned")
+    elif not config.cryptopanic_symbol:
+        pass  # cryptopanic_symbol absent — skip silently, all fields remain None/False
+    time.sleep(2)
+
+    # ------------------------------------------------------------------
+    # [4/18] CoinGecko — token OHLC 365d
+    # ------------------------------------------------------------------
+    print("[4/18] Fetching CoinGecko — token OHLC 365d...")
     ohlc_raw = safe_fetch(
         "CoinGecko OHLC 365d",
         lambda: fetch_cg_ohlc(cg_id, cg_api_key),
@@ -918,9 +1038,9 @@ def build_report(
     bb                    = compute_bollinger_bands(ohlc_raw)
 
     # ------------------------------------------------------------------
-    # [4/16] CoinGecko — token market chart 30d (volume)
+    # [5/18] CoinGecko — token market chart 30d (volume)
     # ------------------------------------------------------------------
-    print("[4/16] Fetching CoinGecko — token market chart 30d (volume)...")
+    print("[5/18] Fetching CoinGecko — token market chart 30d (volume)...")
     market_chart_raw = safe_fetch(
         "CoinGecko token market chart 30d (volume)",
         lambda: fetch_cg_market_chart(cg_id, cg_api_key),
@@ -961,9 +1081,9 @@ def build_report(
         volume_lean = None
 
     # ------------------------------------------------------------------
-    # [5/16] CoinGecko — BTC markets
+    # [6/18] CoinGecko — BTC markets
     # ------------------------------------------------------------------
-    print("[5/16] Fetching CoinGecko — BTC markets...")
+    print("[6/18] Fetching CoinGecko — BTC markets...")
     cg_btc = safe_fetch(
         "CoinGecko BTC markets",
         lambda: fetch_cg_btc_markets(cg_api_key),
@@ -975,9 +1095,9 @@ def build_report(
     btc_24h_change = cg_btc.get("price_change_percentage_24h_in_currency") if cg_btc else None
 
     # ------------------------------------------------------------------
-    # [6/16] CoinGecko — ETH/BTC ratio
+    # [7/18] CoinGecko — ETH/BTC ratio
     # ------------------------------------------------------------------
-    print("[6/16] Fetching CoinGecko — ETH/BTC ratio...")
+    print("[7/18] Fetching CoinGecko — ETH/BTC ratio...")
     eth_btc_ratio = safe_fetch(
         "CoinGecko ETH/BTC ratio",
         lambda: fetch_cg_eth_btc(cg_api_key),
@@ -986,9 +1106,9 @@ def build_report(
     time.sleep(2)
 
     # ------------------------------------------------------------------
-    # [7/16] DeFiLlama — historical chain TVL
+    # [8/18] DeFiLlama — historical chain TVL
     # ------------------------------------------------------------------
-    print("[7/16] Fetching DeFiLlama — historical chain TVL...")
+    print("[8/18] Fetching DeFiLlama — historical chain TVL...")
     chain = config.defillama_chain
     defillama_data = safe_fetch(
         "DeFiLlama historical TVL",
@@ -1010,9 +1130,41 @@ def build_report(
             tvl_7d_change_pct = ((tvl_usd - tvl_7d_ago) / tvl_7d_ago) * 100
 
     # ------------------------------------------------------------------
-    # [8/16] CMC — global metrics latest
+    # [9/18] DeFiLlama — chain fees overview
     # ------------------------------------------------------------------
-    print("[8/16] Fetching CMC — global metrics latest...")
+    print("[9/18] Fetching DeFiLlama — chain fees overview...")
+    chain_fees_24h_usd    = None
+    chain_fees_7d_avg_usd = None
+    chain_fees_lean       = None
+
+    fees_data = safe_fetch(
+        "DeFiLlama — chain fees overview",
+        lambda: fetch_defillama_chain_fees(chain),
+        fetch_errors,
+    )
+    time.sleep(1)
+
+    if fees_data:
+        total_data_chart = fees_data.get("totalDataChart", [])
+        if total_data_chart:
+            chain_fees_24h_usd = float(total_data_chart[-1][1])
+            last_7 = total_data_chart[-7:]
+            chain_fees_7d_avg_usd = sum(float(e[1]) for e in last_7) / len(last_7)
+            if chain_fees_24h_usd > chain_fees_7d_avg_usd * 1.15:
+                chain_fees_lean = "bullish"
+            elif chain_fees_24h_usd < chain_fees_7d_avg_usd * 0.85:
+                chain_fees_lean = "bearish"
+            else:
+                chain_fees_lean = "neutral"
+        else:
+            fetch_errors.append(f"DeFiLlama fees: no data available for chain {chain}")
+    elif fees_data is None:
+        fetch_errors.append(f"DeFiLlama fees: no data available for chain {chain}")
+
+    # ------------------------------------------------------------------
+    # [10/18] CMC — global metrics latest
+    # ------------------------------------------------------------------
+    print("[10/18] Fetching CMC — global metrics latest...")
     cmc_global = safe_fetch(
         "CMC global metrics",
         lambda: fetch_cmc_global_metrics(cmc_api_key),
@@ -1029,9 +1181,9 @@ def build_report(
         total_mcap_usd = quote_usd.get("total_market_cap")
 
     # ------------------------------------------------------------------
-    # [9/16] CMC — Fear & Greed latest
+    # [11/18] CMC — Fear & Greed latest
     # ------------------------------------------------------------------
-    print("[9/16] Fetching CMC — Fear & Greed latest...")
+    print("[11/18] Fetching CMC — Fear & Greed latest...")
     fg_data = safe_fetch(
         "CMC Fear & Greed",
         lambda: fetch_cmc_fear_greed_latest(cmc_api_key),
@@ -1050,9 +1202,9 @@ def build_report(
             fetch_errors.append(f"fear_greed:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [10/16] Binance spot — CEX price + 24h stats
+    # [12/18] Binance spot — CEX price + 24h stats
     # ------------------------------------------------------------------
-    print("[10/16] Fetching Binance spot — CEX price + 24h stats...")
+    print("[12/18] Fetching Binance spot — CEX price + 24h stats...")
     bsym = config.binance_symbol
     binance_spot = safe_fetch(
         "Binance spot",
@@ -1077,9 +1229,9 @@ def build_report(
             fetch_errors.append(f"binance_spot:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [11/16] Binance Futures — token open interest
+    # [13/18] Binance Futures — token open interest
     # ------------------------------------------------------------------
-    print("[11/16] Fetching Binance Futures — token open interest...")
+    print("[13/18] Fetching Binance Futures — token open interest...")
     oi_usd = None
 
     if config.binance_futures_symbol:
@@ -1100,9 +1252,9 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [12/16] Binance Futures — token funding rate
+    # [14/18] Binance Futures — token funding rate
     # ------------------------------------------------------------------
-    print("[12/16] Fetching Binance Futures — token funding rate...")
+    print("[14/18] Fetching Binance Futures — token funding rate...")
     funding_rate_latest = None
     funding_rate_7d_avg = None
 
@@ -1126,9 +1278,9 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [13/16] Binance Futures — BTC long/short ratio
+    # [15/18] Binance Futures — BTC long/short ratio
     # ------------------------------------------------------------------
-    print("[13/16] Fetching Binance Futures — BTC long/short ratio...")
+    print("[15/18] Fetching Binance Futures — BTC long/short ratio...")
     ls_data = safe_fetch(
         "Binance Futures BTC L/S ratio",
         lambda: fetch_binance_btc_ls_ratio(),
@@ -1149,9 +1301,9 @@ def build_report(
             fetch_errors.append(f"binance_btc_ls:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [14/16] FRED — DXY latest
+    # [16/18] FRED — DXY latest
     # ------------------------------------------------------------------
-    print("[14/16] Fetching FRED — DXY latest...")
+    print("[16/18] Fetching FRED — DXY latest...")
     dxy_latest = None
     dxy_prior  = None
 
@@ -1173,9 +1325,9 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [15/16] FRED — VIX latest
+    # [17/18] FRED — VIX latest
     # ------------------------------------------------------------------
-    print("[15/16] Fetching FRED — VIX latest...")
+    print("[17/18] Fetching FRED — VIX latest...")
     vix_latest = None
     vix_prior  = None
 
@@ -1197,9 +1349,9 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [16/16] Alpha Vantage — SPY compact
+    # [18/18] Alpha Vantage — SPY compact
     # ------------------------------------------------------------------
-    print("[16/16] Fetching Alpha Vantage — SPY compact...")
+    print("[18/18] Fetching Alpha Vantage — SPY compact...")
     spy_close      = None
     spy_prev_close = None
     spy_change_pct = None
@@ -1248,7 +1400,7 @@ def build_report(
     unlock_lean = "bearish" if has_near_term else "bullish"
 
     # ------------------------------------------------------------------
-    # Compute all 16 signal leans
+    # Compute all 18 signal leans
     # ------------------------------------------------------------------
     rsi_lean_val     = lean_rsi(rsi_14)
     macd_lean_val    = lean_macd(macd_line, macd_signal)
@@ -1258,14 +1410,16 @@ def build_report(
     oi_lean_val      = None  # requires period comparison
     funding_lean_val = lean_funding_rate(funding_rate_7d_avg)
     btc_ls_lean_val  = lean_btc_ls(btc_ls_ratio)
-    tvl_lean_val     = lean_tvl(tvl_7d_change_pct)
-    dom_lean_val     = lean_btc_dominance(btc_dominance)
+    tvl_lean_val        = lean_tvl(tvl_7d_change_pct)
+    chain_fees_lean_val = chain_fees_lean
+    dom_lean_val        = lean_btc_dominance(btc_dominance)
     eth_btc_lean_val = "neutral"  # single snapshot — direction indeterminate
     dxy_lean_val     = lean_dxy(dxy_latest, dxy_prior)
     spy_lean_val     = lean_spy(spy_change_pct)
     vix_lean_val     = lean_vix(vix_latest, vix_prior)
     fg_lean_val      = lean_fear_greed(fg_value)
     sent_lean_val    = lean_sentiment_votes(cg_sentiment_votes_up_pct)
+    news_volume_lean_val = news_volume_lean
 
     btc_direction = lean_btc_direction(btc_24h_change)
 
@@ -1279,12 +1433,14 @@ def build_report(
         "funding_lean":          funding_lean_val,
         "btc_ls_lean":           btc_ls_lean_val,
         "tvl_lean":              tvl_lean_val,
+        "chain_fees_lean":       chain_fees_lean_val,
         "btc_dominance_lean":    dom_lean_val,
         "eth_btc_lean":          eth_btc_lean_val,
         "dxy_lean":              dxy_lean_val,
         "spy_lean":              spy_lean_val,
         "vix_lean":              vix_lean_val,
         "fear_greed_lean":       fg_lean_val,
+        "news_volume_lean":      news_volume_lean_val,
         "sentiment_lean":        sent_lean_val,
     }
 
@@ -1352,9 +1508,21 @@ def build_report(
             "btc_ls_lean":           btc_ls_lean_val,
         },
         "on_chain": {
-            "tvl_usd":           round(tvl_usd, 2)           if tvl_usd           is not None else None,
-            "tvl_7d_change_pct": round(tvl_7d_change_pct, 4) if tvl_7d_change_pct is not None else None,
-            "tvl_lean":          tvl_lean_val,
+            "tvl_usd":               round(tvl_usd, 2)               if tvl_usd               is not None else None,
+            "tvl_7d_change_pct":     round(tvl_7d_change_pct, 4)     if tvl_7d_change_pct     is not None else None,
+            "tvl_lean":              tvl_lean_val,
+            "chain_fees_24h_usd":    round(chain_fees_24h_usd, 2)    if chain_fees_24h_usd    is not None else None,
+            "chain_fees_7d_avg_usd": round(chain_fees_7d_avg_usd, 2) if chain_fees_7d_avg_usd is not None else None,
+            "chain_fees_lean":       chain_fees_lean,
+        },
+        "news": {
+            "news_article_count_24h":   news_article_count_24h,
+            "news_bullish_votes_24h":   news_bullish_votes_24h,
+            "news_bearish_votes_24h":   news_bearish_votes_24h,
+            "news_important_votes_24h": news_important_votes_24h,
+            "news_sentiment_ratio":     news_sentiment_ratio,
+            "news_volume_lean":         news_volume_lean,
+            "news_spike":               news_spike,
         },
         "macro": {
             "btc_price_usd":        round(btc_price_usd, 2)   if btc_price_usd  is not None else None,
@@ -1396,7 +1564,7 @@ def build_report(
             "unlock_lean":      unlock_lean,
         },
         "signal_summary": {
-            "signals_evaluated": 16,
+            "signals_evaluated": 18,
             "signals_available": len(available),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1453,6 +1621,7 @@ def main() -> None:
     cmc_api_key           = _key("CMC_API_KEY")
     fred_api_key          = _key("FRED_API_KEY")
     alpha_vantage_api_key = _key("ALPHA_VANTAGE_API_KEY")
+    cryptopanic_api_key   = _key("CRYPTOPANIC_API_KEY")
 
     if not cg_api_key:
         print("ERROR: COINGECKO_API_KEY is not set — cannot fetch price data.", file=sys.stderr)
@@ -1476,6 +1645,7 @@ def main() -> None:
         cmc_api_key=cmc_api_key,
         fred_api_key=fred_api_key,
         alpha_vantage_api_key=alpha_vantage_api_key,
+        cryptopanic_api_key=cryptopanic_api_key,
     )
 
     ts        = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
