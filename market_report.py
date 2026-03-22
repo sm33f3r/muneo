@@ -18,6 +18,7 @@ API KEY SETUP
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import os
 import sys
@@ -75,6 +76,57 @@ def load_config(config_path: str) -> TokenConfig:
         coinpaprika_id=raw.get("coinpaprika_id"),
         cryptopanic_symbol=raw.get("cryptopanic_symbol"),
     )
+
+
+# ---------------------------------------------------------------------------
+# GitHub push
+# ---------------------------------------------------------------------------
+
+def push_report_to_github(filepath):
+    """Push a report file to the Muneo GitHub repo. Non-blocking."""
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+
+    if not token or not repo:
+        print("  \u26a0 GitHub push skipped — GITHUB_TOKEN or GITHUB_REPO not set in .env")
+        return
+
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        filename = os.path.basename(filepath)
+        github_path = f"reports/{filename}"
+        api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github.v3+json"
+        }
+        encoded = base64.b64encode(content.encode()).decode()
+
+        sha = None
+        check = requests.get(api_url, headers=headers, timeout=10)
+        if check.status_code == 200:
+            sha = check.json().get("sha")
+
+        payload = {
+            "message": f"Add report: {filename}",
+            "content": encoded,
+            "branch": branch
+        }
+        if sha:
+            payload["sha"] = sha
+
+        response = requests.put(api_url, json=payload, headers=headers, timeout=15)
+
+        if response.status_code in (200, 201):
+            print(f"  \u2713 GitHub push — {github_path}")
+        else:
+            print(f"  \u2717 GitHub push failed — HTTP {response.status_code}: {response.text[:100]}")
+
+    except Exception as e:
+        print(f"  \u2717 GitHub push failed — {str(e)}")
 
 
 # ---------------------------------------------------------------------------
@@ -1657,11 +1709,15 @@ def main() -> None:
         json.dump(report, f, indent=2, default=str)
     print(f"\nJSON report saved: {json_path}")
 
+    # Push to GitHub (non-blocking)
+    push_report_to_github(str(json_path))
+
     if args.md:
         md_content = render_markdown(report)
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(md_content)
         print(f"Markdown report saved: {md_path}")
+        push_report_to_github(str(md_path))
         print()
         print(md_content)
 
