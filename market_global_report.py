@@ -616,7 +616,7 @@ def build_report(
     if cg_top100:
         try:
             btc_entry = next((c for c in cg_top100 if c.get("id") == "bitcoin"), None)
-            btc_90d = btc_entry.get("price_change_percentage_90d_in_currency") if btc_entry else None
+            btc_90d = btc_entry.get("price_change_percentage_7d_in_currency") if btc_entry else None
 
             if btc_90d is not None:
                 filtered = [
@@ -626,8 +626,8 @@ def build_report(
                 ]
                 alts_outperforming = sum(
                     1 for c in filtered
-                    if c.get("price_change_percentage_90d_in_currency") is not None
-                    and c["price_change_percentage_90d_in_currency"] > btc_90d
+                    if c.get("price_change_percentage_7d_in_currency") is not None
+                    and c["price_change_percentage_7d_in_currency"] > btc_90d
                 )
                 if filtered:
                     altcoin_season_index = round((alts_outperforming / len(filtered)) * 100)
@@ -1195,6 +1195,7 @@ def build_report(
             "altcoin_season_index":            altcoin_season_index,
             "altcoin_season_label":            altcoin_season_label,
             "altcoin_season_lean":             altcoin_season_lean,
+            "altcoin_season_data_note":        "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
             "top_gainers":                     top_gainers,
             "top_losers":                      top_losers,
         },
@@ -1292,7 +1293,7 @@ def _fetch_cg_top100(api_key: str) -> list:
         "order": "market_cap_desc",
         "per_page": 100,
         "page": 1,
-        "price_change_percentage": "90d",
+        "price_change_percentage": "7d",
         "sparkline": "false",
     }
     resp = requests.get(url, headers=_cg_headers(api_key), params=params, timeout=API_TIMEOUT)
