@@ -1,0 +1,250 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-24T16:42:05 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2473690844945.91,
+    "total_market_cap_change_24h_pct": -0.7761,
+    "total_volume_24h_usd": 93308685036.48,
+    "btc_dominance_pct": 56.4157,
+    "eth_dominance_pct": 10.4113,
+    "total2_usd": 1078141776858.94,
+    "total3_usd": 820598265785.83,
+    "active_cryptocurrencies": 18020,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SN3",
+        "name": "\u03c4emplar",
+        "price_change_24h_pct": 19.1116,
+        "price_usd": 29.92,
+        "market_cap_usd": 125855826
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price_change_24h_pct": 11.5238,
+        "price_usd": 314.36,
+        "market_cap_usd": 3023498763
+      },
+      {
+        "symbol": "UDS",
+        "name": "Undeads Games",
+        "price_change_24h_pct": 11.0565,
+        "price_usd": 1.79,
+        "market_cap_usd": 223351833
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": 9.9542,
+        "price_usd": 2.22,
+        "market_cap_usd": 561094806
+      },
+      {
+        "symbol": "SN64",
+        "name": "Chutes",
+        "price_change_24h_pct": 9.3084,
+        "price_usd": 27.47,
+        "market_cap_usd": 127869997
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -56.0689,
+        "price_usd": 1.027,
+        "market_cap_usd": 754704674
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -8.4884,
+        "price_usd": 0.319951,
+        "market_cap_usd": 144427505
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -8.0453,
+        "price_usd": 23.52,
+        "market_cap_usd": 459769005
+      },
+      {
+        "symbol": "ATH",
+        "name": "Aethir",
+        "price_change_24h_pct": -7.0665,
+        "price_usd": 0.00676627,
+        "market_cap_usd": 124684879
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": -6.8935,
+        "price_usd": 0.322267,
+        "market_cap_usd": 298200020
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 69417,
+    "price_change_24h_pct": -1.4171,
+    "price_change_7d_pct": -6.6633,
+    "market_cap_usd": 1392486439118,
+    "volume_24h_usd": 37874116310,
+    "direction": "bearish",
+    "oi_usd": 5930825627.72,
+    "funding_rate_latest": 3.056e-05,
+    "funding_rate_7d_avg": -7.621904761904762e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6103,
+    "long_account_pct": 61.69,
+    "short_account_pct": 38.31,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2124.01,
+    "price_change_24h_pct": -0.2739,
+    "price_change_7d_pct": -9.3858,
+    "market_cap_usd": 256654014404,
+    "volume_24h_usd": 17593397791,
+    "eth_btc_ratio": 0.030598,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95783157731.59,
+    "stablecoin_market_cap_usd": 314316823371.3,
+    "stablecoin_dominance_pct": 12.7064
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 55,
+    "headlines": [
+      {
+        "headline": "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+        "summary": "JPMorgan Chase CEO Jamie Dimon issued an optimistic viewpoint on Middle East peace, weeks into the war with Iran.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/jamie-dimon-iran-war-middle-east-peace-prospects-long-term.html",
+        "published_at": "2026-03-24T16:27:24Z"
+      },
+      {
+        "headline": "Iran war fuel crisis gives electric cars a long-term boost - Reuters",
+        "summary": "Iran war fuel crisis gives electric cars a long-term boost\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ09GTmJFYThjN2paNUZHeGZUVkRFNEJmMDJyQXJWeGhPZmVYdm16UWhPdnpaSHBYLTJIWTRDR2R0RDNfbmZ3ZVdiNnV5WWRhR1hVSi0xeGszVWFPQTJFUV9vOHc5U1JCeHllaTJYNnJQanZBSmRWdE5iMjBBZFBUN1RzcmlFZTFrNWxFZjVBRmd4QThVRFRJNlJucWtHUFBfSWdtdDlXcVkxLVJEMHhIUFln?oc=5",
+        "published_at": "2026-03-24T14:52:08Z"
+      },
+      {
+        "headline": "Home flippers see smallest profits since the Great Recession, real estate data firm says",
+        "summary": "The typical home flip netted investors just $65,981 in gross profit last year, or a 25.5% return on investment, according to real estate data provider ATTOM.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/home-flippers-see-smallest-profits-since-great-recession-data-firm-says.html",
+        "published_at": "2026-03-24T14:00:02Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+        "summary": "The rally in oil prices has resumed, and close Nvidia partner Arm Holdings is hosting an AI computing event.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published_at": "2026-03-24T13:14:17Z"
+      },
+      {
+        "headline": "Iran toughens negotiating stance amid mediation efforts, sources say - Reuters",
+        "summary": "Iran toughens negotiating stance amid mediation efforts, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU3UwNkI5VlBmMzc4aXhPQzgyVE5hYTdVTk9sZHJ3Y2RpZlZyNXV5ZGpBazE2MlFUZ3UxMGx1cWZsV1BwQmJHMF9mZFBfWEczb0NOTC1xY1NRbHk1M3YxWHFZc21yNElwWlJTenF4ZC1IeDJBTHh1ZDU0SlRHRUh6d2prMGw4WHpPcGk4aExWSnB6SmpEeHRTRzZxclV2NzlNbENJQ3RBZmFweVVJSnRwYjBMTmdfeU85amVOalN3?oc=5",
+        "published_at": "2026-03-24T13:11:04Z"
+      },
+      {
+        "headline": "More women are entering wealth management, but few are in advisory roles, study finds",
+        "summary": "Women have yet to gain ground in client-facing roles that are better-paid and more likely to lead to executive roles, per a recent study.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/women-wealth-management-advisory-roles.html",
+        "published_at": "2026-03-24T13:00:01Z"
+      },
+      {
+        "headline": "Qatar is not directly mediating between US and Iran, ministry spokesperson says - Reuters",
+        "summary": "Qatar is not directly mediating between US and Iran, ministry spokesperson says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSGkwa1dUcUVJNll4TzBSckJWODd0RjB4UjhXZl9GRl85NGJQY3Q3TmJLejZmdFBqTzZXeGwzaUs3bnN4NWV0bmVaYzkxQzlFUktMdXRuTWJWUlEyVXlLdE9TbTRYQjB5MC1wUkpYMy1IU2haakE0ZlZ4SWVuZW9jNlFVVjd1Mm1STWFrYUg2VDBHTGNKQWVtV2NWaV9WZ0FZTGFYdGJmb2V6b0w3T21xWWdEb0NseGtOck5BODRyZEVuNHhqYVFv?oc=5",
+        "published_at": "2026-03-24T12:10:14Z"
+      },
+      {
+        "headline": "Pro Padel League raises $15 million as investors bet on sport\u2019s U.S. growth",
+        "summary": "The Pro Padel League has raised $15 million in new funding as it looks to accelerate its next phase of growth in the U.S.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/pro-padel-league-raises-15-million-us-growth.html",
+        "published_at": "2026-03-24T12:00:01Z"
+      },
+      {
+        "headline": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+        "summary": "United will have new cabins on smaller planes with premium seats, including those that convert into a bed, to win more sales from high-spending travelers.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/united-airlines-premium-seats.html",
+        "published_at": "2026-03-24T12:00:01Z"
+      },
+      {
+        "headline": "Britain responds to Iran war energy shock by requiring solar panels and heat pumps in all new homes",
+        "summary": "The move comes as part of Britain's response to the Iran war, with the conflict triggering the largest supply disruption in the history of the oil market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/24/iran-war-britain-new-homes-solar-heat-pumps-energy-crisis.html",
+        "published_at": "2026-03-24T11:20:24Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 655.38,
+    "spy_change_pct": 1.05,
+    "spy_lean": "bullish",
+    "vix_close": 26.15,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 31,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "news_article_count_24h": 0,
+    "news_bullish_votes_24h": 0,
+    "news_bearish_votes_24h": 0,
+    "news_important_votes_24h": 0,
+    "news_sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
