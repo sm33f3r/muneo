@@ -1,0 +1,252 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-26T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2445140121266.43,
+    "total_market_cap_change_24h_pct": -2.6875,
+    "total_volume_24h_usd": 106233608703.86,
+    "btc_dominance_pct": 56.4903,
+    "eth_dominance_pct": 10.2175,
+    "total2_usd": 1063873674771.43,
+    "total3_usd": 814041481579.76,
+    "active_cryptocurrencies": 18012,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 3.4978,
+        "price_usd": 0.04656649,
+        "market_cap_usd": 771713017
+      },
+      {
+        "symbol": "XCN",
+        "name": "Onyxcoin",
+        "price_change_24h_pct": 2.7391,
+        "price_usd": 0.00535092,
+        "market_cap_usd": 200760596
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 2.61,
+        "price_usd": 0.213365,
+        "market_cap_usd": 213257078
+      },
+      {
+        "symbol": "EURS",
+        "name": "STASIS EURO",
+        "price_change_24h_pct": 1.8916,
+        "price_usd": 1.24,
+        "market_cap_usd": 153424773
+      },
+      {
+        "symbol": "ADI",
+        "name": "ADI",
+        "price_change_24h_pct": 1.768,
+        "price_usd": 4.09,
+        "market_cap_usd": 327533464
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -26.7989,
+        "price_usd": 16.0,
+        "market_cap_usd": 315594083
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -24.1692,
+        "price_usd": 1.68,
+        "market_cap_usd": 1221716351
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -14.824,
+        "price_usd": 0.210474,
+        "market_cap_usd": 379203777
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -10.5571,
+        "price_usd": 0.01240672,
+        "market_cap_usd": 695791846
+      },
+      {
+        "symbol": "SN3",
+        "name": "\u03c4emplar",
+        "price_change_24h_pct": -10.249,
+        "price_usd": 28.54,
+        "market_cap_usd": 120006662
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 69015,
+    "price_change_24h_pct": -2.729,
+    "price_change_7d_pct": -2.0943,
+    "market_cap_usd": 1381181544693,
+    "volume_24h_usd": 51339423893,
+    "direction": "bearish",
+    "oi_usd": 6017992399.88,
+    "funding_rate_latest": -2.103e-05,
+    "funding_rate_7d_avg": 2.6514285714285717e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.096,
+    "long_account_pct": 67.7,
+    "short_account_pct": 32.3,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2072.02,
+    "price_change_24h_pct": -4.2065,
+    "price_change_7d_pct": -3.4419,
+    "market_cap_usd": 249936618029,
+    "volume_24h_usd": 17186355754,
+    "eth_btc_ratio": 0.030023,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 94157198520.75,
+    "stablecoin_market_cap_usd": 314108619095.65,
+    "stablecoin_dominance_pct": 12.8462
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 53,
+    "headlines": [
+      {
+        "headline": "Trump says he will pause attacks on Iran's energy plants, talks going 'very well' - Reuters",
+        "summary": "Trump says he will pause attacks on Iran's energy plants, talks going 'very well'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd1QzUkJtTks1Y0d2UG56bzMxdnpIVzhFVGNYcDBaTkVTMUN4Sl9qOVVrS3JvSUprdkNGSXJNS0xuT0p6OUhoUjlaOTdVUW1GYzA3bkJJeklpMUl0aTFBeEIyeGtsTldVLUdZcFBjWjhCVjFuN3R1LXh6VGpOZkJCRllSM0luVzRnVXdrbC1KamYySkQ4VFBfdHhvWXpqN3NWUUdjbTFiR3pHN0JmSmtFanpZUUtoZ1REZUxOWE9YdWd4bThn?oc=5",
+        "published_at": "2026-03-26T20:26:00Z"
+      },
+      {
+        "headline": "Netflix raises prices across all streaming plans",
+        "summary": "The price hike comes as Netflix has been investing heavily in its content, including new ventures into the live events space and launching video podcasts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/26/netflix-raises-prices-across-all-streaming-plans.html",
+        "published_at": "2026-03-26T20:07:53Z"
+      },
+      {
+        "headline": "Iran war cools early summer tourist interest in Cyprus, Greece - Reuters",
+        "summary": "Iran war cools early summer tourist interest in Cyprus, Greece\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnRuMTNoN3hTbUdwWGxaaXo0ekVITFVlbTRtcTJPOW9XYk1iMU51QkUwRDhaZVdaZ2xWS1RrRlY3OC1KSHZBYUwwZG9WOVlIVGlFZGVMMGJsbElaYWx3RWhmalVyWkdNZzhWWlB2eTI2emtuSHN0dHFVaEttbXhfcm9FSmhSblFlR2tEMU5RZDloakJ3NHlnMkZUaEVQQ0JhUWJrZ1FGbVRIa00?oc=5",
+        "published_at": "2026-03-26T19:59:21Z"
+      },
+      {
+        "headline": "Big Oil to reap billions from Iran war windfall after a month of soaring energy prices - Reuters",
+        "summary": "Big Oil to reap billions from Iran war windfall after a month of soaring energy prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmNnRThDRmxzS01hODY0UVJPM0M5ZEdSTlBRMHM1b29YbXhjX1JhM05FZXZrRFc0YTJ6bHZ2R0pGRHlDODdWSlNoWWpjMHMtRFVYa3lodUVlTTdIZlM4c3F6bDhQbjRCY1RDVU9vS25Vamc2S1RSX3h0WjhNdDk4Qm1wNWhyaV9kcWJWRzFyR0VBNTM3X3lNQTVuNks1SVdTTkFqMWFiSVBWYVg4Ym9ZSDdOZmdWR1BjUW9Xb3o4bDBtX0RYTXc?oc=5",
+        "published_at": "2026-03-26T19:42:49Z"
+      },
+      {
+        "headline": "Why memory chip stocks are getting hit hard for the second day in a row",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/26/why-memory-chip-stocks-are-getting-hit-hard-for-the-second-day-in-a-row.html",
+        "published_at": "2026-03-26T18:56:52Z"
+      },
+      {
+        "headline": "Iran says it is receptive to any request from Spain, alluding to Hormuz transit - Reuters",
+        "summary": "Iran says it is receptive to any request from Spain, alluding to Hormuz transit\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTDBCTTJYMmdnVTBDRVIzYnlwZW9qUl93emo1T0FMRklBTU9WVEJMZG5zd2hGVWlodW1oY29hWElOUkRNMjJtNFR5V2hFbUNPY2oyOFVnV3U0dHJ5NF9KVHVMcFpMNktKRTViVHpiZG9jSkc0YmR0cjhtS1U4V1ZsVWktd0k1RlpuLVdObU9fWDZDcG1hZGRTTXA5Z0FiNzhvaEtRUWtQR1hxYnZOeEJr?oc=5",
+        "published_at": "2026-03-26T18:40:04Z"
+      },
+      {
+        "headline": "Trump says Iran's 'present' to US was allowing 10 oil tankers through Hormuz - Reuters",
+        "summary": "Trump says Iran's 'present' to US was allowing 10 oil tankers through Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVWtnUUR6TkNuX09mY0xTWW1kZVF0S0hoZUFQY0ZJTzUyX0lBTk1XS04zMEszandKck50ZnNObWFlaF9hSGwxNmh0a09xcTVsdXBzMk5IMVBNbGk4M1ZyZ3ZnQlczMUlrcy1mQ2JyNDZVRWdLY19wZUFVNmtKbV8tVEpLQXBYQ2pzWVJoUTNVWGlqaVI2aWNpVXJqZ2M0VmRhQlBybG1lVEp3aUI5SEpsdi1PRFlLRmVqZWZoREVB?oc=5",
+        "published_at": "2026-03-26T17:26:29Z"
+      },
+      {
+        "headline": "Iran hardliners ramp up calls for a nuclear bomb, sources say - Reuters",
+        "summary": "Iran hardliners ramp up calls for a nuclear bomb, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjZEejhxWTZxaHV0b0lHaWtnQjV0aDAtcGpiQ3FJVm9PNWF4Q2lsTFdxUjlWODNLRVhydHBEVDY2dDBoWUFfRnY1c0l3SHlLazB3LXlJeVUyR254cl9KbkZiaGotel9ONHd3UEpoMTNjSE8zMmZnVjNmckI2TURMN2ROcWJJLXFRRFhHXzZkSl9uQlVBdktZX1lDLUJaSjd2b09kWnZkWVI2LUpBOVpTS3U5MA?oc=5",
+        "published_at": "2026-03-26T17:24:07Z"
+      },
+      {
+        "headline": "United Airlines, flight attendants reach labor deal for first raises since pandemic",
+        "summary": "United Airlines and its flight attendants union reached a new labor deal.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/26/united-airlines-flight-attendants-labor-deal.html",
+        "published_at": "2026-03-26T17:02:29Z"
+      },
+      {
+        "headline": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
+        "summary": "Several changes await MLB after this season, including its CBA's expiration, new media partners, and potential expansion and league realignment.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/26/mlb-faces-historic-shift-as-potential-lockout-media-rights-and-league-changes-loom.html",
+        "published_at": "2026-03-26T16:18:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 645.17,
+    "spy_change_pct": -1.7737,
+    "spy_lean": "bearish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 29,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "news_article_count_24h": 0,
+    "news_bullish_votes_24h": 0,
+    "news_bearish_votes_24h": 0,
+    "news_important_votes_24h": 0,
+    "news_sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
