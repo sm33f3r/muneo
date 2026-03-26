@@ -1,0 +1,181 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-26T06:50:58 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2478386876398.41,
+    "total_market_cap_change_24h_pct": -1.3891,
+    "total_volume_24h_usd": 89319480790.51,
+    "btc_dominance_pct": 56.489,
+    "eth_dominance_pct": 10.3257,
+    "total2_usd": 1078370489511.73,
+    "total3_usd": 822460152735.92,
+    "active_cryptocurrencies": 18023,
+    "altcoin_season_index": 50,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 43.1772,
+        "price_usd": 2.47,
+        "market_cap_usd": 4315801746
+      },
+      {
+        "symbol": "RSR",
+        "name": "Reserve Rights",
+        "price_change_24h_pct": 9.1265,
+        "price_usd": 0.00183858,
+        "market_cap_usd": 115135882
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 7.1254,
+        "price_usd": 0.02737552,
+        "market_cap_usd": 224547495
+      },
+      {
+        "symbol": "ADI",
+        "name": "ADI",
+        "price_change_24h_pct": 6.8086,
+        "price_usd": 4.06,
+        "market_cap_usd": 325130529
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 6.7953,
+        "price_usd": 0.101454,
+        "market_cap_usd": 861790659
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -10.2624,
+        "price_usd": 0.11885,
+        "market_cap_usd": 118842726
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -10.0299,
+        "price_usd": 1.9,
+        "market_cap_usd": 1390094394
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -9.1005,
+        "price_usd": 0.334749,
+        "market_cap_usd": 151022686
+      },
+      {
+        "symbol": "SN3",
+        "name": "\u03c4emplar",
+        "price_change_24h_pct": -8.8978,
+        "price_usd": 30.18,
+        "market_cap_usd": 126996633
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": -8.5982,
+        "price_usd": 0.531169,
+        "market_cap_usd": 138989467
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 70045,
+    "price_change_24h_pct": -1.5553,
+    "price_change_7d_pct": -1.1096,
+    "market_cap_usd": 1400145391191,
+    "volume_24h_usd": 36285931327,
+    "direction": "bearish",
+    "oi_usd": 6063978397.4,
+    "funding_rate_latest": 2.448e-05,
+    "funding_rate_7d_avg": 2.135714285714286e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4752,
+    "long_account_pct": 59.6,
+    "short_account_pct": 40.4,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2120.5,
+    "price_change_24h_pct": -2.3374,
+    "price_change_7d_pct": -3.1629,
+    "market_cap_usd": 255733245488,
+    "volume_24h_usd": 16686065041,
+    "eth_btc_ratio": 0.030273,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96023210709.73,
+    "stablecoin_market_cap_usd": 314600621269.49,
+    "stablecoin_dominance_pct": 12.6938
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 0,
+    "headlines": []
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 656.82,
+    "spy_change_pct": 0.5573,
+    "spy_lean": "bullish",
+    "vix_close": 26.95,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 32,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "news_article_count_24h": 0,
+    "news_bullish_votes_24h": 0,
+    "news_bearish_votes_24h": 0,
+    "news_important_votes_24h": 0,
+    "news_sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "Finnhub macro news \u2014 HTTP 503"
+  ]
+}
