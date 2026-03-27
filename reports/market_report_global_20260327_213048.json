@@ -1,0 +1,250 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-27T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2363267472476.42,
+    "total_market_cap_change_24h_pct": -3.2457,
+    "total_volume_24h_usd": 111527033635.8,
+    "btc_dominance_pct": 55.9635,
+    "eth_dominance_pct": 10.1499,
+    "total2_usd": 1040699773272.86,
+    "total3_usd": 800831107291.56,
+    "active_cryptocurrencies": 17997,
+    "altcoin_season_index": 64,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "XFLOKI",
+        "name": "NEW X CEO IS BACK",
+        "price_change_24h_pct": 547291.2102,
+        "price_usd": 0.129627,
+        "market_cap_usd": 138902122
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 14.2249,
+        "price_usd": 0.312395,
+        "market_cap_usd": 122084042
+      },
+      {
+        "symbol": "ICNT",
+        "name": "Impossible Cloud Network Token",
+        "price_change_24h_pct": 12.8667,
+        "price_usd": 0.440774,
+        "market_cap_usd": 111510690
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": 6.0138,
+        "price_usd": 0.304763,
+        "market_cap_usd": 258810803
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": 4.5446,
+        "price_usd": 71.42,
+        "market_cap_usd": 269772892
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -51.6197,
+        "price_usd": 0.809495,
+        "market_cap_usd": 588393515
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -21.3468,
+        "price_usd": 12.59,
+        "market_cap_usd": 246737137
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": -12.7575,
+        "price_usd": 0.01638297,
+        "market_cap_usd": 118525438
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -12.3509,
+        "price_usd": 0.184658,
+        "market_cap_usd": 332453448
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -11.4128,
+        "price_usd": 0.258659,
+        "market_cap_usd": 803475878
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66106,
+    "price_change_24h_pct": -4.232,
+    "price_change_7d_pct": -5.7499,
+    "market_cap_usd": 1322398001572,
+    "volume_24h_usd": 52389046056,
+    "direction": "bearish",
+    "oi_usd": 6277285020.33,
+    "funding_rate_latest": -5.841e-05,
+    "funding_rate_7d_avg": -2.2861904761904757e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.6179,
+    "long_account_pct": 72.36,
+    "short_account_pct": 27.64,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1987.56,
+    "price_change_24h_pct": -3.9608,
+    "price_change_7d_pct": -6.7954,
+    "market_cap_usd": 239859167501,
+    "volume_24h_usd": 18854728488,
+    "eth_btc_ratio": 0.030066,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92053350330.2,
+    "stablecoin_market_cap_usd": 314012719104.25,
+    "stablecoin_dominance_pct": 13.2872
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 56,
+    "headlines": [
+      {
+        "headline": "Iran-linked hackers breach FBI director's personal email, publish photos and documents - reuters.com",
+        "summary": "Iran-linked hackers breach FBI director's personal email, publish photos and documents\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZnl4Mkp5MnI3ZDg3X1RYMk1aX1JpWkhKLUN5czJlUGtoaU9NZE9RM2dQZlJkMXNQMWtfRElSU0tjMTdZaWN2UnNUb0dIcEZLZjB0RThIdEpQMW5WWkxWblMzNmszZElmcjE2WXNnMXBjNHA0NE15V0dYMVZhYmNjcm8ySjlUZkVIaWZURW1aQmhLNEk4TDV6d1g3SXpJV1psSTBxZTViRE5iSU9WYzRXbjhrUDZ2Um93MDFYNkpDUQ?oc=5",
+        "published_at": "2026-03-27T20:37:27Z"
+      },
+      {
+        "headline": "Tech stocks suffer worst week in nearly a year, driven down by war worries, Meta legal woes",
+        "summary": "Meta's twin legal defeats this week and a big selloff in Micron spurred a drop in technology stocks, which were broadly hit by rising oil prices.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html",
+        "published_at": "2026-03-27T20:24:53Z"
+      },
+      {
+        "headline": "Stocks tumble to lowest close in over six months as Middle East tensions drag - reuters.com",
+        "summary": "Stocks tumble to lowest close in over six months as Middle East tensions drag\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb09zaXpJQWtLeTJUeG82MC1qTks1Y2t4TnlhMk56bEpIT2JwQzJVWEx5eFQ3RFdVbG0wQUt2WGNxY3VzdG1xcVVuWUo2MUpMNVhXU2dRWEtwTW9PRHRRcV9HaUhFYXZzeE44Zjhnc2Mxdkw3VUh0TkhTTXlzTmNMTGVrZmV6b1c4NnU4SUJ4bDFSSWdGZkxtaDl0X1hFeE84UFhwUkM5VC1wLUp2c0E?oc=5",
+        "published_at": "2026-03-27T20:01:16Z"
+      },
+      {
+        "headline": "Tiger Woods involved in rollover car crash, Florida Sheriff's office says",
+        "summary": "Tiger Woods was involved in a rollover car crash in Florida on Friday, the Martin County Sheriff said in a statement.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/27/tiger-woods-rollover-car-crash-florida.html",
+        "published_at": "2026-03-27T19:56:24Z"
+      },
+      {
+        "headline": "Exclusive: U.S. can only confirm about a third of Iran's missile arsenal destroyed, sources say - reuters.com",
+        "summary": "Exclusive: U.S. can only confirm about a third of Iran's missile arsenal destroyed, sources say\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbUNTSTMyWHI1bGtJdHhmRW9JUGZyTTBiRWRiRkw3TGFaVV9RUVBuRkhSaEN3SGpDbXozQlY2S2xJcEJSVjAxb01NVUFIRXFtdUpPckd5b2tlaTlPU3ZWb19pSWx2WkFEWHdmYVVoZHRFOUVmb1BvTUhCRUhLckxXd1l1RXdVaXdRM2lXMWxXTlNlQ0pIM3RLbXZKVEpGcHljZl9hU0lscjU4VXRpTnBqR3dZQWYxR2xXSlA2WWFfcXotVTNmMzB0Wg?oc=5",
+        "published_at": "2026-03-27T19:18:55Z"
+      },
+      {
+        "headline": "Musk joined Trump and Modi call on Iran, says New York Times - reuters.com",
+        "summary": "Musk joined Trump and Modi call on Iran, says New York Times\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRGI0ejQ0SFl4THRqM2t1STZ5Q0U1Yk9xbHE0LTU4NzRFQk84U0J1dFZnV2MxUzlZWTlYZGN0ZlBKb2xWenJjTDY4ekRqVmNZUnctRE9aalFIRERpcjBOUXF5YVFLdHVBLTdJZVdkZ3NGUFNBZEZIZWxwbmE2V1R5by1zWDFJSVRiVW9Mc1l2ZUZ1clJDQmtfQ19n?oc=5",
+        "published_at": "2026-03-27T19:18:54Z"
+      },
+      {
+        "headline": "Cholera aid for African countries stalled by Iran conflict - reuters.com",
+        "summary": "Cholera aid for African countries stalled by Iran conflict\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDJkbWZqNGltZW81R2hLdXRiS2pJTm94UnhiajBEUEkxMGZSaVJoNGp4ek15NF9EOHI2ckM0Sjg3ODNGVG9nSE1pNU1PcEY2YVNrNTNMNjZWZHVOb1NwNkFwcm5kc25CMkpMNW1tLUpHZnZ0SF9lcVIyOHdVQml5ZHg4SnpGN2ZJWm5tSHRiMnk0VEozM1VJcmVJVHdqWUJFd2hDaXFIeTJrZkJCR24tREpFVkpsYmF5eE9fZkFRZ24zX1RS?oc=5",
+        "published_at": "2026-03-27T19:16:04Z"
+      },
+      {
+        "headline": "UN moves to create mechanism to safeguard Hormuz trade in face of Iran war - reuters.com",
+        "summary": "UN moves to create mechanism to safeguard Hormuz trade in face of Iran war\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb0dkQnc1ZjB1eGdHeXpLaTVJTXJVbVNoWkstZFNTajNtRTVPTmtZakt6aUZVaHFscXBING02OHJkSUVsdXRNUWwwOWExQmpKcFJwYWxyVUMwX1NRS2JVaUVsa25UT1hBVlBvV2JSd3hnSnZFWUlSVWxzU0lrU3hBcFROTXB0R0xfLWRsSnBNRmVZZkpGTHNzb19IeGJ2NF9WVWVUekdTUQ?oc=5",
+        "published_at": "2026-03-27T18:58:52Z"
+      },
+      {
+        "headline": "Iran's response to US peace proposal expected Friday, source says - reuters.com",
+        "summary": "Iran's response to US peace proposal expected Friday, source says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdVpTQmJMSGo4by1WSVhpSXJRQjhtcGRiSGd1Q19meU9sdVFRR0xzaWhfRHJ4aXZPdmxmTGwyUW5hcEtINmM2aWNFVWJpeVlqcjJ6eTFWajBXQTdkbUdvYWU5dmszd29QWF80XzNHa3k5bHhQMXZRNjJ6Sy1OZ0U2b1VwYUxINXRQRmI5cEZXNjFjZmkxVHdSVHZWTHVpQzVZdUl0cnE3WnBxVzhtZG9yb2lFMzFaUQ?oc=5",
+        "published_at": "2026-03-27T18:04:35Z"
+      },
+      {
+        "headline": "Services firms feel the squeeze as oil rally from Iran war fails to spur drilling - reuters.com",
+        "summary": "Services firms feel the squeeze as oil rally from Iran war fails to spur drilling\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTjJUODdya25tZFRjSm8wVVFPVTlfd1FoeW1hVGdfNFMxMW1lMHIyRkNaM28wRzI3QjhuZWVUSnlNUTIyMGdZSl9DR3dtc1E3VzI2RGxMX2ZJYUxDdXFORGJ4NEgtbnMzYmZnOU9XLVJ6RHI1SjFuQTZDU0JMQlVxRVpLcEQydV9GS2w0YnFLTm9qN2JtU2FvdS1SRnM3THF4eVM2OEpQSnhYOEFIMk9MRW9hYnpYS00tLWc?oc=5",
+        "published_at": "2026-03-27T18:04:20Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 634.18,
+    "spy_change_pct": -1.6912,
+    "spy_lean": "bearish",
+    "vix_close": 27.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 23,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "news_article_count_24h": 0,
+    "news_bullish_votes_24h": 0,
+    "news_bearish_votes_24h": 0,
+    "news_important_votes_24h": 0,
+    "news_sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
