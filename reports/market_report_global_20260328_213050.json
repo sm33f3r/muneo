@@ -1,0 +1,250 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-28T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2387267759045.1,
+    "total_market_cap_change_24h_pct": 1.1337,
+    "total_volume_24h_usd": 58497718915.95,
+    "btc_dominance_pct": 55.9693,
+    "eth_dominance_pct": 10.2105,
+    "total2_usd": 1051130265381.16,
+    "total3_usd": 807378410758.96,
+    "active_cryptocurrencies": 17982,
+    "altcoin_season_index": 65,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "NOON",
+        "name": "Noon",
+        "price_change_24h_pct": 6156.4765,
+        "price_usd": 1.17,
+        "market_cap_usd": 418101381
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 110.348,
+        "price_usd": 1.69,
+        "market_cap_usd": 1234508033
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 16.7099,
+        "price_usd": 0.04152441,
+        "market_cap_usd": 426451001
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 15.6808,
+        "price_usd": 0.01376198,
+        "market_cap_usd": 773510821
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 12.2084,
+        "price_usd": 0.051082,
+        "market_cap_usd": 847807468
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -9.184,
+        "price_usd": 0.167677,
+        "market_cap_usd": 301440186
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -6.4175,
+        "price_usd": 0.29238,
+        "market_cap_usd": 114828203
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -4.6556,
+        "price_usd": 0.515861,
+        "market_cap_usd": 110914175
+      },
+      {
+        "symbol": "APT",
+        "name": "Aptos",
+        "price_change_24h_pct": -3.9376,
+        "price_usd": 0.942683,
+        "market_cap_usd": 748358918
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -3.3004,
+        "price_usd": 7.14,
+        "market_cap_usd": 334056639
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66779,
+    "price_change_24h_pct": 1.0218,
+    "price_change_7d_pct": -5.208,
+    "market_cap_usd": 1336132535375,
+    "volume_24h_usd": 24618963860,
+    "direction": "bullish",
+    "oi_usd": 6347240843.22,
+    "funding_rate_latest": -1.73e-06,
+    "funding_rate_7d_avg": -9.299047619047618e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.4722,
+    "long_account_pct": 71.2,
+    "short_account_pct": 28.8,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2018.02,
+    "price_change_24h_pct": 1.5326,
+    "price_change_7d_pct": -6.3799,
+    "market_cap_usd": 243558401860,
+    "volume_24h_usd": 8320748088,
+    "eth_btc_ratio": 0.030219,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93165519012.41,
+    "stablecoin_market_cap_usd": 314512425774.66,
+    "stablecoin_dominance_pct": 13.1746
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Don't strike a deal with Iran's current leaders, opposition figure Pahlavi warns - Reuters",
+        "summary": "Don't strike a deal with Iran's current leaders, opposition figure Pahlavi warns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV3JXLTE5ejVPRHFJUHg4Nzc4T2VPWHhnVzhUTVd3d2dCSjViMUwyTjJsOEtrLXNuNFJRdXoyR3pidlYwY09tSkg3b0tWNFBvX29sSUNwMWx4UVkyeDAxLXRreF9NTGh3ZzZ1M2dGUlVSSDNDSUxacUhtVHp5MFZySXMzWVFvWnhVLXY2eFExV1FodHFmWThXMmp1UkZiWWVLbFJFR1NmdWdCY3p5azFTZkxIdzdIZG9qRlRFbDhaSy1KTkgxelBFTkJyX0Y3Z3c?oc=5",
+        "published_at": "2026-03-28T19:56:16Z"
+      },
+      {
+        "headline": "One month into Iran war, only hard choices for Trump - Reuters",
+        "summary": "One month into Iran war, only hard choices for Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUowNVVxX09hcFM0a3lfN2s3MkZrV0gydk5Ea3gweXZJYnZ1d3FvYkdqT2QzTGJaSjQwZldwb19qQjFHbWgzQnR6OWp5T2VMRFpYa3NxYVhRRVV0Ui12bHdEZjJaTTl0SzRkUWpPZXFTZG5uVldwWVpQdmphWmdRSHJnWUlOMG9mdTdHNjUzSlYyd0tkcEh4eG9hWjFEYzI5azlJ?oc=5",
+        "published_at": "2026-03-28T17:20:46Z"
+      },
+      {
+        "headline": "Pakistan to host talks with Saudi Arabia, Turkey, Egypt amid Iran war diplomacy - Reuters",
+        "summary": "Pakistan to host talks with Saudi Arabia, Turkey, Egypt amid Iran war diplomacy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaC1yVzNjb09FMzkyS2JnX0FUblA3LUU4U2pEdWdZNXpRaTVKazVMRE1xcG81RUF1WGN3YUhaY2Q5NG9sQ3Z0UXdLVXkxeXhUSFpVaHA1UTZqcXJKTktobTZhRmo0bW1uUGlxZVhhV0t6eGd2VkVBRl9JZW5jUXdmTGx5c0pUdWtHaFJqSzBYdlhKbDVWSWljSHpVZXJWOGlhRm5ySFZMVlkwWF9rbFFuVE1VQ2gyVzRoejhpUktKQUxnSXQzTWdETQ?oc=5",
+        "published_at": "2026-03-28T16:39:43Z"
+      },
+      {
+        "headline": "Kuwait airport hit by drones, radar system damaged, no casualties reported - Reuters",
+        "summary": "Kuwait airport hit by drones, radar system damaged, no casualties reported\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV0pfaXJWRndFa0RqX3VuN2hEQ0MwWmRIWFdJZS1ULTVRc1NtYWZwcWZyYVpWd1F5dnFBY252OFM0SmJqQmdIQldYd2ZxU0pxdkdTbmx0RXpNUUVmdTV1REljT2xJUHFVVFhFOVBYN01UM0M0QW5hTjVqeGxnbUs3bjl5TmktYVJ2V1RnbmZ0aGxYdXRIWjRsWTFGbEdKOS01bkRGZDMwSVU4STNMV3M4a3pPdEdpUXBDQjhMeDNtT0ZtTU5aVVdsbFk2RXgxLXM?oc=5",
+        "published_at": "2026-03-28T15:53:00Z"
+      },
+      {
+        "headline": "Here are 3 themes that drove another super challenging week for stocks",
+        "summary": "The Iran war carnage on Wall Street is ever-widening.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/28/here-are-3-themes-that-drove-another-super-challenging-week-for-stocks.html",
+        "published_at": "2026-03-28T15:42:21Z"
+      },
+      {
+        "headline": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes - Reuters",
+        "summary": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeVlXMm1salRYUzVodlRtY3JWeHItekRGTFRiTjhHRnBXWWV3aGVsYTVRY1V3UWNObjFiNHZJbzd4aFg4OEdKcnRGNDNHc2djeklLOV9kRGxWRTRXeURMYkU0ZDFKYVpRTktPSllPLXVycWpRYjNRR0o5dWNzRU5nM3RmeDJRTWMwdnVkeTVOeFZxWU5PMlhnZU1XeWVMVTZYVGhhblUwSXlKZk9lU3VoMWNYN0V3TEYzRkd1QkV2aw?oc=5",
+        "published_at": "2026-03-28T15:03:43Z"
+      },
+      {
+        "headline": "Baghdad orders probe after drone targets Kurdistan president\u2019s home - Reuters",
+        "summary": "Baghdad orders probe after drone targets Kurdistan president\u2019s home\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOalBOcmdMejV5YlA1YXJYWjNDa1dpVWRFM1FtbnNaQzhBQTdqYWpmOFY4b0ZSVWliZFA3YUQ3ZGo5VjFSaTZmQndlVkpBc3Zqck1YWXc2TlZORUs3cjFaeHpvMmxLSzA3aFNQVWJKeEVZbU1CZmc3Q3BDU1EyNXduMGF0ZWJkV3A1SlVVcWVJYlFYXzlUVmRlY0dXRGdvYl9taE9PWlBWUDE1N25xU0ZtVkNIYXh5WmowVXN2NA?oc=5",
+        "published_at": "2026-03-28T14:33:06Z"
+      },
+      {
+        "headline": "Worried about Strait of Hormuz inflation to come? The world economy has one word for you: Plastics",
+        "summary": "Worried about consumer inflation to come from Strait of Hormuz closure? The economy has one word for you other than oil: plastics.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/28/iran-war-strait-of-hormuz-petrochemicals-oil-plastics.html",
+        "published_at": "2026-03-28T13:57:37Z"
+      },
+      {
+        "headline": "Rosatom says situation at Iran's Bushehr nuclear power plant keeps deteriorating - Reuters",
+        "summary": "Rosatom says situation at Iran's Bushehr nuclear power plant keeps deteriorating\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckVzYWVXYVlIZ2lGS1BtMlRieFFGNVY0MWJiWS1ocU5FcVZDY0dWOVJVRmk2S0pRQjZTWHk4YnJlTWUwZXhBYWprazZ5Vl9ERHRFRURwU295ZDFnR3VmQjlTR1AtZlBjc1pPdjFfRkxzTjlvYjlEdktGdE1DSWVrV0kteUZPSm9OMFlmQ000T1hQQTQyUnJnTDNRaDRKZHcwZXlVZzdEcGZkV0ZnMEZnUzA1MDREYkNBX1JKM2dZY1hzSjNWelFTWUh3?oc=5",
+        "published_at": "2026-03-28T13:39:10Z"
+      },
+      {
+        "headline": "'Gut-wrenching': She says her poor credit cost her a promotion\u2014why employers may check and how to improve your credit",
+        "summary": "Brittany Greene helps individuals build and repair their credit as head of community at Self Financial. She knows first hand what poor credit can cost you.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/28/employee-lost-promotion-due-to-credit-history.html",
+        "published_at": "2026-03-28T13:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 634.09,
+    "spy_change_pct": -1.7052,
+    "spy_lean": "bearish",
+    "vix_close": 27.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 24,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "news_article_count_24h": 0,
+    "news_bullish_votes_24h": 0,
+    "news_bearish_votes_24h": 0,
+    "news_important_votes_24h": 0,
+    "news_sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
