@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-29T04:36:37 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2381981707528.69,
+    "total_market_cap_change_24h_pct": 0.7481,
+    "total_volume_24h_usd": 57658051599.4,
+    "btc_dominance_pct": 56.0822,
+    "eth_dominance_pct": 10.1602,
+    "total2_usd": 1046114502088.24,
+    "total3_usd": 804099870611.25,
+    "active_cryptocurrencies": 17980,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 12.0262,
+        "price_usd": 0.04037869,
+        "market_cap_usd": 414494093
+      },
+      {
+        "symbol": "QUBIC",
+        "name": "Qubic",
+        "price_change_24h_pct": 10.4427,
+        "price_usd": 1.04e-06,
+        "market_cap_usd": 142185714
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price_change_24h_pct": 9.9097,
+        "price_usd": 0.154582,
+        "market_cap_usd": 5898699193
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 9.2513,
+        "price_usd": 0.272135,
+        "market_cap_usd": 843198644
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 8.3819,
+        "price_usd": 0.050527,
+        "market_cap_usd": 840728838
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -15.1411,
+        "price_usd": 0.00970715,
+        "market_cap_usd": 545613426
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -8.2172,
+        "price_usd": 0.160966,
+        "market_cap_usd": 289871877
+      },
+      {
+        "symbol": "ATH",
+        "name": "Aethir",
+        "price_change_24h_pct": -4.3238,
+        "price_usd": 0.00695257,
+        "market_cap_usd": 127633009
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": -3.3632,
+        "price_usd": 0.080115,
+        "market_cap_usd": 609453644
+      },
+      {
+        "symbol": "GALA",
+        "name": "GALA",
+        "price_change_24h_pct": -2.9622,
+        "price_usd": 0.00283574,
+        "market_cap_usd": 134788940
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66774,
+    "price_change_24h_pct": 0.8199,
+    "price_change_7d_pct": -3.6512,
+    "market_cap_usd": 1335518620142,
+    "volume_24h_usd": 23824375811,
+    "direction": "neutral",
+    "oi_usd": 6315320188.54,
+    "funding_rate_latest": -3.68e-05,
+    "funding_rate_7d_avg": -1.1435238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.3956,
+    "long_account_pct": 70.55,
+    "short_account_pct": 29.45,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2005.11,
+    "price_change_24h_pct": 0.7689,
+    "price_change_7d_pct": -4.6757,
+    "market_cap_usd": 241896131373,
+    "volume_24h_usd": 9126212920,
+    "eth_btc_ratio": 0.030028,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92858893638.22,
+    "stablecoin_market_cap_usd": 313788361560.67,
+    "stablecoin_dominance_pct": 13.1734
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 21,
+    "headlines": [
+      {
+        "headline": "Pentagon preparing for weeks of ground operations in Iran, Washington Post reports - Reuters",
+        "summary": "Pentagon preparing for weeks of ground operations in Iran, Washington Post reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMFFvVHdDWHVRdFAwSVRTU3VvYmM3cm82QkRnRXl6OWdYRzlHZW5neGhyUG8wdHdveFJncGlxcnBUd21JWFNvTFpSWGpNUzYzVHZhRmg2dk1YaXcyVlZ3S1k0Z19DRnlMZDFMcVRxc21aeHdlaDc4dzI3dGItcHhWTDNTUXdRNlllRVJUVVZqRS1WdklJVmd3UFE5bU55YjlCa2xrVVQxZ2NyY1pGVGNKMVhMR3BLem11NEhTWlFvMnRxT0k?oc=5",
+        "published_at": "2026-03-29T00:44:00Z"
+      },
+      {
+        "headline": "Yemen's Houthis enter Iran war with attacks on Israel, while US Marines arrive in region - Reuters",
+        "summary": "Yemen's Houthis enter Iran war with attacks on Israel, while US Marines arrive in region\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbGZJMUdyVUtHd0VTaE5QTnhITmJGNE5EMDdwMVZsV2h5UFdDenF6bGpMdVBPdUN0MkZMM1RwOThuVTgxV1dLY0Zsbmdyck5oUUZYd3JSVExjNy1lR0dMZE5KVTdBTjJXeVhWS0J1RlVBOGlReTdpUmJlTThLaEdmVld5S2JYOHB1eTkxSEU0aVNneWlBaVg5RkNFUlprR1I3em41bWtDdXFWUDJZV3czX1hZSktrRDhMWHE5OW03N0pWYUtSX0sxblZPM0lvakZS?oc=5",
+        "published_at": "2026-03-28T23:14:00Z"
+      },
+      {
+        "headline": "Don't strike a deal with Iran's current leaders, opposition figure Pahlavi warns - Reuters",
+        "summary": "Don't strike a deal with Iran's current leaders, opposition figure Pahlavi warns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV3JXLTE5ejVPRHFJUHg4Nzc4T2VPWHhnVzhUTVd3d2dCSjViMUwyTjJsOEtrLXNuNFJRdXoyR3pidlYwY09tSkg3b0tWNFBvX29sSUNwMWx4UVkyeDAxLXRreF9NTGh3ZzZ1M2dGUlVSSDNDSUxacUhtVHp5MFZySXMzWVFvWnhVLXY2eFExV1FodHFmWThXMmp1UkZiWWVLbFJFR1NmdWdCY3p5azFTZkxIdzdIZG9qRlRFbDhaSy1KTkgxelBFTkJyX0Y3Z3c?oc=5",
+        "published_at": "2026-03-28T19:56:16Z"
+      },
+      {
+        "headline": "Houthis fire missiles at Israel, Iran's missile toll revealed and Tiger Woods arrest - Reuters",
+        "summary": "Houthis fire missiles at Israel, Iran's missile toll revealed and Tiger Woods arrest\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdE9pQTE0Mjk2cGF0cEo3dkFaU2RDWXJraG1LYWNDZ2tJOXhscWJFZnFGeG1VLTFqU0lDT0tVZzZhcldIa0NHOXFwazV3U2t3T21GX2FMNzFITTh1WFNKUzBSX0hJSktXdWtTR1Qwd3JrQmpKbTVNZ09HZ3F6RGpsTWFrNHZ1cldHVVl2VFN6dTRYbXhZN01MNXF1U0I5U1ktaW81eGVyWVUxZmdXT083bmh6b3d5Mk9jcHZOVA?oc=5",
+        "published_at": "2026-03-28T18:31:17Z"
+      },
+      {
+        "headline": "Six injured in Abu Dhabi after missile intercepted near KEZAD, authorities say - Reuters",
+        "summary": "Six injured in Abu Dhabi after missile intercepted near KEZAD, authorities say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOThlc25sanlQb3djODRpbm0xd0ZtWlgyamdOU3IxLVU3YkRGSFR1Zk5pLUlDQXpMOEFSZVhKZUk4Qjl1YVJIcGYtaFZIUlhkaW1QdUpJU1R1VUYtbTVpMW5kMUsxWDJxVHdLemoxZ1RRWlVfVHNzN01BMWpKeVhUdklnc093dk92ZkhTdnBsWXUtS1lPR3d0bG5ZckJ0OVRac3h0OTZLTG5qTl9tUzdNYmFiOWRzMDVSQkhHM0VCeW1zYTZUQTdUaw?oc=5",
+        "published_at": "2026-03-28T17:54:52Z"
+      },
+      {
+        "headline": "Pakistan to host talks with Saudi Arabia, Turkey, Egypt amid Iran war diplomacy - Reuters",
+        "summary": "Pakistan to host talks with Saudi Arabia, Turkey, Egypt amid Iran war diplomacy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaC1yVzNjb09FMzkyS2JnX0FUblA3LUU4U2pEdWdZNXpRaTVKazVMRE1xcG81RUF1WGN3YUhaY2Q5NG9sQ3Z0UXdLVXkxeXhUSFpVaHA1UTZqcXJKTktobTZhRmo0bW1uUGlxZVhhV0t6eGd2VkVBRl9JZW5jUXdmTGx5c0pUdWtHaFJqSzBYdlhKbDVWSWljSHpVZXJWOGlhRm5ySFZMVlkwWF9rbFFuVE1VQ2gyVzRoejhpUktKQUxnSXQzTWdETQ?oc=5",
+        "published_at": "2026-03-28T16:39:43Z"
+      },
+      {
+        "headline": "Kuwait airport hit by drones, radar system damaged, no casualties reported - Reuters",
+        "summary": "Kuwait airport hit by drones, radar system damaged, no casualties reported\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV0pfaXJWRndFa0RqX3VuN2hEQ0MwWmRIWFdJZS1ULTVRc1NtYWZwcWZyYVpWd1F5dnFBY252OFM0SmJqQmdIQldYd2ZxU0pxdkdTbmx0RXpNUUVmdTV1REljT2xJUHFVVFhFOVBYN01UM0M0QW5hTjVqeGxnbUs3bjl5TmktYVJ2V1RnbmZ0aGxYdXRIWjRsWTFGbEdKOS01bkRGZDMwSVU4STNMV3M4a3pPdEdpUXBDQjhMeDNtT0ZtTU5aVVdsbFk2RXgxLXM?oc=5",
+        "published_at": "2026-03-28T15:53:00Z"
+      },
+      {
+        "headline": "Here are 3 themes that drove another super challenging week for stocks",
+        "summary": "The Iran war carnage on Wall Street is ever-widening.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/28/here-are-3-themes-that-drove-another-super-challenging-week-for-stocks.html",
+        "published_at": "2026-03-28T15:42:21Z"
+      },
+      {
+        "headline": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes - Reuters",
+        "summary": "Emirates Global Aluminium reports 'significant damage' from Iranian strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeVlXMm1salRYUzVodlRtY3JWeHItekRGTFRiTjhHRnBXWWV3aGVsYTVRY1V3UWNObjFiNHZJbzd4aFg4OEdKcnRGNDNHc2djeklLOV9kRGxWRTRXeURMYkU0ZDFKYVpRTktPSllPLXVycWpRYjNRR0o5dWNzRU5nM3RmeDJRTWMwdnVkeTVOeFZxWU5PMlhnZU1XeWVMVTZYVGhhblUwSXlKZk9lU3VoMWNYN0V3TEYzRkd1QkV2aw?oc=5",
+        "published_at": "2026-03-28T15:03:43Z"
+      },
+      {
+        "headline": "Baghdad orders probe after drone targets Kurdistan president\u2019s home - Reuters",
+        "summary": "Baghdad orders probe after drone targets Kurdistan president\u2019s home\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOalBOcmdMejV5YlA1YXJYWjNDa1dpVWRFM1FtbnNaQzhBQTdqYWpmOFY4b0ZSVWliZFA3YUQ3ZGo5VjFSaTZmQndlVkpBc3Zqck1YWXc2TlZORUs3cjFaeHpvMmxLSzA3aFNQVWJKeEVZbU1CZmc3Q3BDU1EyNXduMGF0ZWJkV3A1SlVVcWVJYlFYXzlUVmRlY0dXRGdvYl9taE9PWlBWUDE1N25xU0ZtVkNIYXh5WmowVXN2NA?oc=5",
+        "published_at": "2026-03-28T14:33:06Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 634.09,
+    "spy_change_pct": -1.7052,
+    "spy_lean": "bearish",
+    "vix_close": 27.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 25,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 5,
+    "negative_count": 2,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.5,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Handel in Shoreditch: a Tamerlano Triumph \u2013 Opera Today",
+        "url": "https://op...(+62 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:35:00.000Z",
+        "source": "operatod...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.26
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Today's Horoscope Prediction \u2013 29th March, 2026: Leo, Libra, etc Zodiac Sunshine Birthday Forecast",
+        "url": "https://ww...(+131 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:33:51.000Z",
+        "source": "sentinel...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Assam: SSA orders monitoring of smart classes, ICT labs",
+        "url": "https://ww...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:33:34.000Z",
+        "source": "sentinel...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Haj 2026 pilgrims told to clear final dues by March 31 or risk losing flight bookings",
+        "url": "https://ww...(+118 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:33:27.000Z",
+        "source": "sentinel...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Azu Ishiekwene\u2019s mischievous essay - Realnews Magazine",
+        "url": "https://re...(+53 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:31:50.000Z",
+        "source": "realnews...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "IPL 2026: MI vs KKR Playing XI, Match No. 2 Preview & Fantasy Tips",
+        "url": "https://cr...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:31:07.000Z",
+        "source": "zippo.co...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Repurpose rooms and breathe new life into a home",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:30:21.000Z",
+        "source": "observer...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CIBN elects Alabi President, Jaiz Bank MD treasurer - Realnews Magazine",
+        "url": "https://re...(+70 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:29:56.000Z",
+        "source": "realnews...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Top five quickest players to reach 500 career goals in 21st century ft. Harry Kane",
+        "url": "https://kh...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:27:41.000Z",
+        "source": "khelnow....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gaza Checkpoints Hit: 6 Killed in Israeli Strikes - Archyworldys",
+        "url": "https://ww...(+68 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T04:27:22.000Z",
+        "source": "archywor...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.23
+        },
+        "is_breaking": true
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
