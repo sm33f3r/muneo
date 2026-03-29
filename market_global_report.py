@@ -488,11 +488,12 @@ def render_markdown(report: dict) -> str:
     lines.append("## News")
     lines.append("| Metric | Value |")
     lines.append("|---|---|")
-    lines.append(f"| Articles (24h) | {news.get('news_article_count_24h', 'N/A')} |")
-    lines.append(f"| Bullish Votes (24h) | {news.get('news_bullish_votes_24h', 'N/A')} |")
-    lines.append(f"| Bearish Votes (24h) | {news.get('news_bearish_votes_24h', 'N/A')} |")
-    lines.append(f"| Important Votes (24h) | {news.get('news_important_votes_24h', 'N/A')} |")
-    lines.append(f"| Sentiment Ratio | {_fmt(news.get('news_sentiment_ratio'), 4)} |")
+    lines.append(f"| Source | {news.get('source', 'N/A')} |")
+    lines.append(f"| Articles (24h) | {news.get('article_count_24h', 'N/A')} |")
+    lines.append(f"| Positive | {news.get('positive_count', 'N/A')} |")
+    lines.append(f"| Negative | {news.get('negative_count', 'N/A')} |")
+    lines.append(f"| Neutral | {news.get('neutral_count', 'N/A')} |")
+    lines.append(f"| Sentiment Ratio | {_fmt(news.get('sentiment_ratio'), 4)} |")
     nv_lean = news.get('news_volume_lean')
     lines.append(f"| News Volume Lean | {_lean_icon(nv_lean)} {nv_lean or 'null'} |")
     spike_val = news.get('news_spike')
@@ -503,14 +504,15 @@ def render_markdown(report: dict) -> str:
     if headlines:
         lines.append("### Top Headlines")
         for h in headlines:
-            votes = h.get("votes", {})
+            sent = h.get("sentiment", {})
+            polarity = sent.get("polarity", "neutral")
+            score = sent.get("score", 0.0)
             lines.append(
                 f"- **[{h.get('title', 'No title')}]({h.get('url', '#')})** "
                 f"— {h.get('source', 'Unknown')} "
                 f"({h.get('published_at', '')[:10]}) "
-                f"| \U0001f44d {votes.get('liked', 0)} "
-                f"\U0001f44e {votes.get('disliked', 0)} "
-                f"\u2757 {votes.get('important', 0)}"
+                f"| sentiment: {polarity} ({score:+.2f})"
+                + (" \u26a0\ufe0f BREAKING" if h.get("is_breaking") else "")
             )
         lines.append("")
 
@@ -556,7 +558,7 @@ def build_report(
     cmc_api_key: str,
     fred_api_key: str,
     alpha_vantage_api_key: str,
-    cryptopanic_api_key: str,
+    apitube_api_key: str,
 ) -> dict:
     fetch_errors: list = []
     now_utc = datetime.now(timezone.utc)
@@ -864,91 +866,70 @@ def build_report(
     fear_greed_lean = lean_fear_greed(fg_value)
 
     # ------------------------------------------------------------------
-    # [10/17] CryptoPanic — global news feed
+    # [10/17] APITube — global crypto news feed
     # ------------------------------------------------------------------
-    print("[10/17] Fetching CryptoPanic — global news feed...")
+    print("[10/17] Fetching APITube — global crypto news feed...")
 
-    news_article_count_24h   = None
-    news_bullish_votes_24h   = None
-    news_bearish_votes_24h   = None
-    news_important_votes_24h = None
-    news_sentiment_ratio     = None
-    news_volume_lean         = "neutral"
-    news_spike               = False
-    top_headlines: list      = []
+    news_article_count_24h = 0
+    news_positive_count    = 0
+    news_negative_count    = 0
+    news_neutral_count     = 0
+    news_sentiment_ratio   = None
+    news_volume_lean       = "neutral"
+    news_spike             = False
+    top_headlines: list    = []
 
-    if cryptopanic_api_key:
-        cp_data = safe_fetch(
-            "CryptoPanic global news feed",
-            lambda: _fetch_cryptopanic_global(cryptopanic_api_key),
+    if apitube_api_key:
+        at_data = safe_fetch(
+            "APITube global crypto news feed",
+            lambda: _fetch_apitube_global(apitube_api_key),
             fetch_errors,
         )
-        if cp_data is not None:
+        if at_data is not None:
             try:
-                results = cp_data.get("results", [])
-                now_for_filter = datetime.now(timezone.utc)
-                cutoff = now_for_filter - timedelta(hours=24)
-                articles_24h = []
+                results = at_data.get("results", [])
+                news_article_count_24h = len(results)
+
                 for article in results:
-                    try:
-                        pub_at = dateutil_parser.parse(article.get("published_at", ""))
-                        if pub_at.tzinfo is None:
-                            pub_at = pub_at.replace(tzinfo=timezone.utc)
-                        if pub_at >= cutoff:
-                            articles_24h.append(article)
-                    except (ValueError, TypeError):
-                        continue
+                    polarity = article.get("sentiment", {}).get("overall", {}).get("polarity", "neutral")
+                    if polarity == "positive":
+                        news_positive_count += 1
+                    elif polarity == "negative":
+                        news_negative_count += 1
+                    else:
+                        news_neutral_count += 1
 
-                news_article_count_24h   = len(articles_24h)
-                total_liked     = sum(a.get("votes", {}).get("liked", 0) for a in articles_24h)
-                total_disliked  = sum(a.get("votes", {}).get("disliked", 0) for a in articles_24h)
-                total_important = sum(a.get("votes", {}).get("important", 0) for a in articles_24h)
-                news_bullish_votes_24h   = total_liked
-                news_bearish_votes_24h   = total_disliked
-                news_important_votes_24h = total_important
-
-                total_votes = total_liked + total_disliked
-                if total_votes > 0:
-                    news_sentiment_ratio = round(total_liked / total_votes, 4)
+                if news_article_count_24h > 0:
+                    news_sentiment_ratio = round(news_positive_count / news_article_count_24h, 4)
                 else:
                     news_sentiment_ratio = None
 
                 news_volume_lean = lean_news_volume(news_sentiment_ratio)
                 news_spike = news_article_count_24h > 20
 
-                # Build top headlines sorted by liked + important descending
-                def _headline_score(a):
-                    v = a.get("votes", {})
-                    return v.get("liked", 0) + v.get("important", 0)
-
-                sorted_articles = sorted(articles_24h, key=_headline_score, reverse=True)
-                for article in sorted_articles[:10]:
+                for article in results[:10]:
                     try:
-                        pub_str = article.get("published_at", "")
-                        # validate parse
-                        dateutil_parser.parse(pub_str)
-                        votes = article.get("votes", {})
-                        source_title = article.get("source", {}).get("title", "Unknown")
+                        sentiment = article.get("sentiment", {}).get("overall", {})
                         top_headlines.append({
-                            "title": article.get("title", ""),
-                            "url": article.get("url", ""),
-                            "published_at": pub_str,
-                            "source": source_title,
-                            "votes": {
-                                "liked": votes.get("liked", 0),
-                                "disliked": votes.get("disliked", 0),
-                                "important": votes.get("important", 0),
+                            "title":        article.get("title", ""),
+                            "url":          article.get("href", ""),
+                            "published_at": article.get("published_at", ""),
+                            "source":       article.get("source", {}).get("domain", ""),
+                            "sentiment": {
+                                "polarity": sentiment.get("polarity", "neutral"),
+                                "score":    sentiment.get("score", 0.0),
                             },
+                            "is_breaking":  article.get("is_breaking", False),
                         })
                     except Exception:
                         continue
             except Exception as e:
-                fetch_errors.append(f"CryptoPanic global:parse_error: {e}")
+                fetch_errors.append(f"APITube global:parse_error: {e}")
         else:
-            fetch_errors.append("CryptoPanic global — fetch failed: no data returned")
+            fetch_errors.append("APITube global — fetch failed: no data returned")
     else:
-        print("  \u2717 CryptoPanic global news feed — CRYPTOPANIC_API_KEY not set")
-        fetch_errors.append("fetch_10:cryptopanic: skipped — CRYPTOPANIC_API_KEY not set")
+        print("  \u2717 APITube global crypto news feed — APITUBE_API_KEY not set")
+        fetch_errors.append("fetch_10:apitube: skipped — APITUBE_API_KEY not set")
     time.sleep(2)
 
     # ------------------------------------------------------------------
@@ -1249,14 +1230,15 @@ def build_report(
             "fear_greed_lean":  fear_greed_lean,
         },
         "news": {
-            "news_article_count_24h":   news_article_count_24h,
-            "news_bullish_votes_24h":   news_bullish_votes_24h,
-            "news_bearish_votes_24h":   news_bearish_votes_24h,
-            "news_important_votes_24h": news_important_votes_24h,
-            "news_sentiment_ratio":     news_sentiment_ratio,
-            "news_volume_lean":         news_volume_lean,
-            "news_spike":               news_spike,
-            "top_headlines":            top_headlines,
+            "source":           "apitube",
+            "article_count_24h": news_article_count_24h,
+            "positive_count":    news_positive_count,
+            "negative_count":    news_negative_count,
+            "neutral_count":     news_neutral_count,
+            "sentiment_ratio":   news_sentiment_ratio,
+            "news_volume_lean":  news_volume_lean,
+            "news_spike":        news_spike,
+            "top_headlines":     top_headlines,
         },
         "signal_summary": {
             "signals_evaluated": 12,
@@ -1377,18 +1359,22 @@ def _fetch_cmc_fear_greed(api_key: str) -> dict:
     return data
 
 
-def _fetch_cryptopanic_global(api_key: str) -> dict:
-    url = "https://cryptopanic.com/api/developer/v2/posts/"
+def _fetch_apitube_global(api_key: str) -> dict:
+    url = "https://api.apitube.io/v1/news/everything"
     params = {
-        "auth_token": api_key,
-        "kind": "news",
-        "public": "true",
+        "topic.id":          "industry.crypto_news",
+        "language.code":     "en",
+        "published_at.start": "NOW-1DAY",
+        "sort.by":           "published_at",
+        "sort.order":        "desc",
+        "per_page":          10,
+        "is_duplicate":      0,
     }
-    resp = requests.get(url, params=params, timeout=API_TIMEOUT)
+    resp = requests.get(url, params=params, headers={"X-API-Key": api_key}, timeout=API_TIMEOUT)
     resp.raise_for_status()
     data = resp.json()
-    if not data:
-        raise ValueError("Empty CryptoPanic response")
+    if data.get("status") != "ok":
+        raise ValueError(f"APITube non-ok status: {data.get('status')}")
     return data
 
 
@@ -1501,7 +1487,7 @@ def main() -> None:
     cmc_api_key           = _key("CMC_API_KEY", required=True)
     fred_api_key          = _key("FRED_API_KEY")
     alpha_vantage_api_key = _key("ALPHA_VANTAGE_API_KEY")
-    cryptopanic_api_key   = _key("CRYPTOPANIC_API_KEY")
+    apitube_api_key       = _key("APITUBE_API_KEY")
 
     print(f"Fetching global crypto market data (v{SCRIPT_VERSION})...")
 
@@ -1510,7 +1496,7 @@ def main() -> None:
         cmc_api_key=cmc_api_key,
         fred_api_key=fred_api_key,
         alpha_vantage_api_key=alpha_vantage_api_key,
-        cryptopanic_api_key=cryptopanic_api_key,
+        apitube_api_key=apitube_api_key,
     )
 
     ts        = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
