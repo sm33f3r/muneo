@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-29T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2373351269876.68,
+    "total_market_cap_change_24h_pct": -0.3777,
+    "total_volume_24h_usd": 51748768983.91,
+    "btc_dominance_pct": 56.0785,
+    "eth_dominance_pct": 10.1761,
+    "total2_usd": 1042410682198.96,
+    "total3_usd": 800896403011.47,
+    "active_cryptocurrencies": 17961,
+    "altcoin_season_index": 60,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 15.7684,
+        "price_usd": 0.01881026,
+        "market_cap_usd": 135282784
+      },
+      {
+        "symbol": "WEMIX",
+        "name": "WEMIX",
+        "price_change_24h_pct": 6.0242,
+        "price_usd": 0.263781,
+        "market_cap_usd": 121868381
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 5.813,
+        "price_usd": 1.79,
+        "market_cap_usd": 1309538540
+      },
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": 4.5099,
+        "price_usd": 148.56,
+        "market_cap_usd": 354506246
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": 4.1559,
+        "price_usd": 14.54,
+        "market_cap_usd": 284951277
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -18.2667,
+        "price_usd": 0.01123382,
+        "market_cap_usd": 631841058
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -7.2833,
+        "price_usd": 0.02402191,
+        "market_cap_usd": 512023456
+      },
+      {
+        "symbol": "CFX",
+        "name": "Conflux",
+        "price_change_24h_pct": -7.1054,
+        "price_usd": 0.053544,
+        "market_cap_usd": 278007050
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -7.1025,
+        "price_usd": 0.02227343,
+        "market_cap_usd": 241105650
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price_change_24h_pct": -6.3494,
+        "price_usd": 0.03266692,
+        "market_cap_usd": 891744135
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66599,
+    "price_change_24h_pct": -0.2608,
+    "price_change_7d_pct": -2.3212,
+    "market_cap_usd": 1332569558997,
+    "volume_24h_usd": 21446009289,
+    "direction": "neutral",
+    "oi_usd": 6347465709.68,
+    "funding_rate_latest": 2.677e-05,
+    "funding_rate_7d_avg": -4.803333333333333e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2,
+    "long_account_pct": 68.75,
+    "short_account_pct": 31.25,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2003.23,
+    "price_change_24h_pct": -0.6882,
+    "price_change_7d_pct": -2.7137,
+    "market_cap_usd": 241746520102,
+    "volume_24h_usd": 7758842896,
+    "eth_btc_ratio": 0.030079,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93056037847.94,
+    "stablecoin_market_cap_usd": 314128166132.24,
+    "stablecoin_dominance_pct": 13.2356
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 17,
+    "headlines": [
+      {
+        "headline": "The problem for investors: We don't know how Trump wants the Iran war to end",
+        "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer argues that the S&P 500 is likely to see further declines during the Iran war.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/29/the-problem-for-investors-we-dont-know-how-trump-wants-the-iran-war-to-end.html",
+        "published_at": "2026-03-29T20:57:42Z"
+      },
+      {
+        "headline": "Pakistan hosts regional powers for Iran talks, with focus on Hormuz proposals - reuters.com",
+        "summary": "Pakistan hosts regional powers for Iran talks, with focus on Hormuz proposals\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVXh1dERsNEVKcm5tY1MxSUtaRi1UUzN6T2lvR2g2VnQ0aWhXSHczMVJfQWh4Ym4xbnY1YkpmcFdOLWtvZ1cxd2JmQ0F4bzh1T0FBMnBrWXJncGozaDRCWUI1dUpBRGtMeU5qTVhoUUc0MTljaUMwZ3ItT2hoWS1MR3h6amdhSHB5Q1M0SmdKaTU0bERlOGxKNXBMd0FrX25EZ1VqcHpONjdtRHprWEs2ZjFiMUZ3THR0RERFZDJlVnI1UQ?oc=5",
+        "published_at": "2026-03-29T17:25:43Z"
+      },
+      {
+        "headline": "Pope Leo says God rejects prayers of leaders who wage wars - reuters.com",
+        "summary": "Pope Leo says God rejects prayers of leaders who wage wars\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTDA3aDRmNUY0djJKTTJNMlNWSkpLRm5XTlAxdE5iZ0ptb3BDS1JRWXZ6QXhMdkgySkRiWTNTamNseklnSGg3cW5jM01qTWg2RG4tWmJDc0E4bi13bnFBc0NCRDhjRjlYUjN2MlhLeWVTMEVabDRaZ2NoRGtweXpRSEZaODRVTGRuTHZZa2tzWnoxZkEwRGJVNjZaMkVOdw?oc=5",
+        "published_at": "2026-03-29T17:06:09Z"
+      },
+      {
+        "headline": "ADAMA chemicals plant in southern Israel hit by Iranian missile or debris - reuters.com",
+        "summary": "ADAMA chemicals plant in southern Israel hit by Iranian missile or debris\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTlV5RXVqcTN2cW0wYXZFc3p6bWxnSnZrUVYzYTBNdDJJV0V2SExCM3BleEZmV0FFemw2ZWZtOU5nS2h3Q2dRZUZ5ZlhZNmp0cUgxaE90ek5LZ1JtRTMwelFuaEhlWGdOc3cwM05SZkdiaFhJbGk2cEFMYXJQUUtrSGQwdXA3TUdTY2xUams0b0lkX21fR19HT0RnZ0hvWFFTbUItZnJIWVA5aW1OWUp5eXJRdmRuMUxCRTctbXZwMm9Ldw?oc=5",
+        "published_at": "2026-03-29T16:30:39Z"
+      },
+      {
+        "headline": "Iran warns against ground attack, 'No Kings' protests and robot umpires - reuters.com",
+        "summary": "Iran warns against ground attack, 'No Kings' protests and robot umpires\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUIwWVh6Wnpta3cwRXQzZXN0bUJOc1lsWGo2YXowcVlnNFp4VXdfZGVrVEtXU2w0bEpGa3lwakZGbDU5d0FtNzJWcVJEQTNDeGJWdzA3RTE5R0s4TmMyakJzN0hkVXAtUHhKanM2OWMzVVh0X2VQVU5ZeTRDUnRTY0RyaGU3NFFabjRacWQxLUdEWndya21PTFZ2cmQzN0d5QzNfMnNWWmlmQWl4RGc?oc=5",
+        "published_at": "2026-03-29T16:25:44Z"
+      },
+      {
+        "headline": "Israeli police block Catholic cardinal from Jerusalem's Holy Sepulchre on Palm Sunday - reuters.com",
+        "summary": "Israeli police block Catholic cardinal from Jerusalem's Holy Sepulchre on Palm Sunday\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWxQQk1vbHZqd2xiR00yR0wzUGlHZHFsY0UyU3N6ZWpMNGZSNS1Mbklyam53dUdwY3NqY1BsaEgycXY4UjVMUk9WWC1laXJJTnFERHJPa0h2OC15ZGI5NjU1c0hYT2Z6NFN0MG5xRzA3YVpfcF9SX2Zla0t2QS1fSnM3M2pjUWFoQjhZcktwU05pc1l2dm9ocmIwYkt2ZXpBWUpWUkF3WXZHQnJlbnpaY0tFa1pFTlRackVjOEM3Q3BhZzFZeXEtRFBR?oc=5",
+        "published_at": "2026-03-29T15:26:15Z"
+      },
+      {
+        "headline": "Back-up care benefits at work go beyond kids, aging parents as more employers pay for pets",
+        "summary": "Companies are expanding employee benefits to cover a wide variety of caregiving needs, including back-up care for children, aging parents, and pets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/29/backup-care-benefits-employees-kids-seniors-pets.html",
+        "published_at": "2026-03-29T13:51:08Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The war in Iran remains the biggest market driver. But a fresh batch of jobs data and earnings from Club name Nike matter, too.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/29/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-03-29T13:50:38Z"
+      },
+      {
+        "headline": "'JD or Marco?\u2019: Iran war raises 2028 stakes as Trump weighs Vance vs. Rubio - reuters.com",
+        "summary": "'JD or Marco?\u2019: Iran war raises 2028 stakes as Trump weighs Vance vs. Rubio\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMG1wX3BaYkRGekduZURYQmNnQTU2NDY3Q2hiLUpDMnJRY1NsS2d4UlhOb01zeUJvaDl1LUtOMHdTR1dYWkdpSEk3ZlJ4S0V2YXc2em9ldDNVWEl6X1JFVFlBVzJiVkN6V3UwSE5zZ2ZEd2dGYjExTFZWQTRLUU9GV1VyVk92dDV3SU1lb2wtdUFlcnA2QVJJVWhPWlI5THNkc3JRQTRVb1MtbHdveTB1QkVR?oc=5",
+        "published_at": "2026-03-29T13:17:08Z"
+      },
+      {
+        "headline": "Most Gulf markets ease on fears of broader Iran conflict - reuters.com",
+        "summary": "Most Gulf markets ease on fears of broader Iran conflict\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSzFpX09KaTR1TkNabEpFcXVQNTlhbmtCcnB6MTF5ZzFKcFRGUUY0eThaX3hQQy1qMmRucFBkenBBUUFabG5zZ2EzbE9QSG9sVUdPV3RmSHd4Z0FOaFpQZHgzZmVQNndpRVJGQUFiRVdyNkxJVWJmUWdLZC1TTjhVazQ5UDRrRkJ5cFJlQ3lEVHhKOG44Vk9oSGdQLUFnXzdVVjdZSEZUbw?oc=5",
+        "published_at": "2026-03-29T12:54:08Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.2757,
+    "dxy_lean": "neutral",
+    "spy_close": 634.09,
+    "spy_change_pct": -1.7052,
+    "spy_lean": "bearish",
+    "vix_close": 27.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 24,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "How GMX derivatives exposure complicates AML compliance across jurisdictions \u2013 Siphonic Solutions | Construction Company",
+        "url": "https://ww...(+95 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:26:32.000Z",
+        "source": "siphonic...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @AmirMushich on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:59.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @tanvi_ratna on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:58.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @Mylovanov on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:58.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @TrentTelenko on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:55.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Workshop report\u2014Vulnerability in multi-hazard risks: Addressing its complexity and dynamics",
+        "url": "https://pu...(+31 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:51.000Z",
+        "source": "pure.iia...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Beyond access: clean energy use in low-income and middle-income countries",
+        "url": "https://pu...(+31 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:25:46.000Z",
+        "source": "pure.iia...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wildcats softball climbs to . 500 on the season",
+        "url": "https://th...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:24:59.000Z",
+        "source": "theorion...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chico joins nationwide protest: The Festival for Democracy",
+        "url": "https://th...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:24:59.000Z",
+        "source": "theorion...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "At 50, Apple confronts its next big challenge: AI",
+        "url": "https://ww...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-29T21:24:50.000Z",
+        "source": "enca.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
