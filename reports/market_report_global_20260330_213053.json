@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-30T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2389075019682.34,
+    "total_market_cap_change_24h_pct": 0.4754,
+    "total_volume_24h_usd": 96996464465.01,
+    "btc_dominance_pct": 56.0422,
+    "eth_dominance_pct": 10.3135,
+    "total2_usd": 1050184235549.74,
+    "total3_usd": 803786052283.71,
+    "active_cryptocurrencies": 17942,
+    "altcoin_season_index": 71,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": 13.7434,
+        "price_usd": 16.52,
+        "market_cap_usd": 323829361
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": 9.8255,
+        "price_usd": 0.074286,
+        "market_cap_usd": 257191054
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 9.071,
+        "price_usd": 7.91,
+        "market_cap_usd": 370128715
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 8.6772,
+        "price_usd": 0.04328303,
+        "market_cap_usd": 445338333
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 7.7127,
+        "price_usd": 2.31,
+        "market_cap_usd": 4044461658
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": -11.5247,
+        "price_usd": 0.04348666,
+        "market_cap_usd": 719247396
+      },
+      {
+        "symbol": "AB",
+        "name": "AB",
+        "price_change_24h_pct": -7.2096,
+        "price_usd": 0.00178478,
+        "market_cap_usd": 176285330
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -6.6444,
+        "price_usd": 0.01048737,
+        "market_cap_usd": 590249911
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -6.5148,
+        "price_usd": 0.00783201,
+        "market_cap_usd": 3746147950
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -4.6446,
+        "price_usd": 1.4,
+        "market_cap_usd": 227645603
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66815,
+    "price_change_24h_pct": 0.3267,
+    "price_change_7d_pct": -5.46,
+    "market_cap_usd": 1337063715888,
+    "volume_24h_usd": 41236573457,
+    "direction": "neutral",
+    "oi_usd": 5962806991.47,
+    "funding_rate_latest": 7.58e-06,
+    "funding_rate_7d_avg": -1.7880952380952376e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9326,
+    "long_account_pct": 65.9,
+    "short_account_pct": 34.1,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2040.88,
+    "price_change_24h_pct": 1.8061,
+    "price_change_7d_pct": -5.2626,
+    "market_cap_usd": 246350734203,
+    "volume_24h_usd": 19280424737,
+    "eth_btc_ratio": 0.030545,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93182521796.53,
+    "stablecoin_market_cap_usd": 314229134536.96,
+    "stablecoin_dominance_pct": 13.1528
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Nike has a lot to prove to keep investors in its corner. Here's where it needs to start",
+        "summary": "Nike's performance in China will be under the microscope.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/30/nike-has-a-lot-to-prove-to-keep-investors-in-its-corner-heres-where-it-needs-to-start.html",
+        "published_at": "2026-03-30T20:24:56Z"
+      },
+      {
+        "headline": "Global bonds stagger toward steep monthly losses as war's economic toll mounts - Reuters",
+        "summary": "Global bonds stagger toward steep monthly losses as war's economic toll mounts\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSWRMdGlxdk45V24tQ3BiUjVYbHpBT1FBdmV5eU9BUlN0VDdDZHJPa2o4RTNWMFh5cUVESW5OdkJtcVo2Q0VaekZTalFSb2hpeEcyLTdQZ295WEl1ci1PTkdGU0dpMi1UeXJkU0NjN0xyU1hfbDBQemJuemR1dVN0T09lb2djeVllYl9Kd0JaVFZhY0diWXNTLWJZc016dlpULXZWX2ItS3duUFBQSHhrX0tkczdVbmJ3ZzBnUjZ3eWkyQlNxVHVoMTd3SlM?oc=5",
+        "published_at": "2026-03-30T20:09:23Z"
+      },
+      {
+        "headline": "Trump interested in calling on Arab states to help pay for Iran war, White House says - Reuters",
+        "summary": "Trump interested in calling on Arab states to help pay for Iran war, White House says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRXg1X09GZWRmYUg4T2JiMUJ6MUk5REFQTHNZd1lNNmQtcFBQaUEtVW0zX1NvODJxWWhXeTQ1RGVEZkdBMlZHdDg3TmM4c09STEh3WVgwdGdlRm5ReXlDSWZQUm4wTEJPellOc3ExZWVadzZKT0p5dUJaZi04UGktQkZRazJ2TFkzbWxlVnVUazJDNEd3YW0zcWZ6dXpCa0VETXlvQURqZ0hpQnhkVzZ5LTRGajQxUGZZeVdIZTFCbHdpd0k?oc=5",
+        "published_at": "2026-03-30T19:01:41Z"
+      },
+      {
+        "headline": "Crypto fuels drone purchases in Russia and Iran, report says - Reuters",
+        "summary": "Crypto fuels drone purchases in Russia and Iran, report says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdkRYaXowSzU4X0x2NnVINWpLVVRVc19nbkNUV1NIOEh3UHFEdE4xa05Vb1lPNUtiQ1Z2bko5OHNUOU1XN0prNlFmS0QzUUhYOVVKY2NxOEstU3dLYktxNG5ZUnBRaUZqMHNPQVRwSW54MjAxZU5hS1BScjhLYVEtNm9BM3dZaVJKVlVOU0ltb2JUWGRuX2Zuc0I4V1FSV2oy?oc=5",
+        "published_at": "2026-03-30T18:46:37Z"
+      },
+      {
+        "headline": "Palo Alto shares pop as CEO Nikesh Arora buys stock for first time in years",
+        "summary": "Cybersecurity stocks have plunged this year on worries that AI will disrupt their business models.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
+        "published_at": "2026-03-30T18:23:10Z"
+      },
+      {
+        "headline": "Fearing economic collapse after war, Iran cracks down on dissent - Reuters",
+        "summary": "Fearing economic collapse after war, Iran cracks down on dissent\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjJRSUUwMUw5T3BQNzJOaFRNVmZ5U1RDbThjOHV5dEZlOUFqTVBZRmJPMFIycnBKM24yV3EtWXVjWDZvMERMWTNRcFRuLThFMlRTSy05NEhMcDlOOEVuT1IxVzAzaHdjV0lieDIxUWdtR2hVVi1acTNzeFd3X0cwd2I1X1VNYWJiR3RPd09VUl9Bbmh1OVZhbkJmMExDaUxJbzZLOWNjSnozY254Qm1HMzVPVDM?oc=5",
+        "published_at": "2026-03-30T17:53:41Z"
+      },
+      {
+        "headline": "NFL asks prediction market operators to refrain from 'objectionable bets'",
+        "summary": "Unlike leagues such as the NHL, MLB and MLS that have embraced platforms like Kalshi and Polymarket, the NFL is taking a more cautious stance.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/30/nfl-asks-prediction-markets-to-refrain-from-objectionable-bets.html",
+        "published_at": "2026-03-30T17:42:25Z"
+      },
+      {
+        "headline": "Thousands of US Army paratroopers arrive in Middle East as buildup intensifies - Reuters",
+        "summary": "Thousands of US Army paratroopers arrive in Middle East as buildup intensifies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY0VHYmh5TEZ0V01kVUxMblpKTjhiOXJtTFlhdGRzSjlsc19RWUltNUlDVEc4LVZYbFlyQ1dXeERlZGZVWC1WeWl3bzM0Yi04RE16Z291bk1lem1saDNqV2ZOUU52WWJxQWstaVNVU0VNSUEzVmltc2ZTQ2dnLVY4TE1nOXI3VlVYVUxvU013NWdPeGE4eWVZVHRkU0hEM2Y2MTJHeHltRGlPTlJwR2x5M21GX05LTnl4Y0FGZk1lTlk?oc=5",
+        "published_at": "2026-03-30T17:15:23Z"
+      },
+      {
+        "headline": "Iran blows hole in US aluminium supply chain with smelter strikes - Reuters",
+        "summary": "Iran blows hole in US aluminium supply chain with smelter strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNkZFSjVaNllMYVNEcXlFc3FFUUhSeVRLR09qWHl2NG16dGUzY2MyakVWZkZ4QTM3MmI0MmVWcG1UZUxFb2FKajBVVzVqWFNjNlIyekpZV09GZkRlb2lrS251SjdSU19jZnRZc2NZMDh5enRLRGJTQkZmTG5MdmlPMk1ZcVFicVZJY0U2TkZqNGhQbUZJRkZGWDRsYUtrVW5kY3ZfbTJMZUdYVU1EX1BvWWpUUEdLUjg?oc=5",
+        "published_at": "2026-03-30T17:11:43Z"
+      },
+      {
+        "headline": "Turkey says NATO defences down missile from Iran - Reuters",
+        "summary": "Turkey says NATO defences down missile from Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTXJtWko5UE1RTFU0QjBBMWZPa0VxU2IxWk41bXkyRzh6cThsN2h3Qkk1dUNRQ05ZZzJ1Zko0NU9JZzRmaDdXTWNReHZWUndZSHBoQndxaTZCczBvdG9HT1VjdzdnYUI5ZTg4TDN1TWE3NUV0dGxGV0pfd1pEREtzMmt1Nl81RFk2Rk5Kam5yclZ1c3g0ekNkdGNjU0xTNkJ4ajlfOXZEMUlEYTVZMWR5MjZxS2N5M0xE?oc=5",
+        "published_at": "2026-03-30T17:03:57Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 631.99,
+    "spy_change_pct": -0.3312,
+    "spy_lean": "neutral",
+    "vix_close": 31.05,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 26,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Does Dry Pouring Concrete Hold Up? \u2013 OtrasVocesenEducacion. org",
+        "url": "https://ot...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:34.000Z",
+        "source": "otrasvoc...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Does Dry Pouring Concrete Hold Up? \u2013 OtrasVocesenEducacion. org",
+        "url": "https://ot...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:34.000Z",
+        "source": "otrasvoc...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NEWS: An Iconic Attraction Has Been REMOVED from Early Entry at Magic . . .",
+        "url": "https://ww...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:18.000Z",
+        "source": "disneyfo...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How An Insurtech Unicorn Closes The Global Protection Gap | International Insurance Society",
+        "url": "https://in...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:42:38.000Z",
+        "source": "internat...(+18 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Technical Scoop: Rounding Top, Rising Oil, Bottoming Gold",
+        "url": "https://si...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:41:46.000Z",
+        "source": "silverSe...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.47
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Enhancing payments security training and intelligence to combat emerging payments fraud",
+        "url": "https://ct...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:40:03.000Z",
+        "source": "ctmfile....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.26
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Doing Business Internationally: Why Your International Lawyer Should Handle Your Domestic Work Too - Harris Sliwoski LLP",
+        "url": "https://ha...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:48.000Z",
+        "source": "chinalaw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LCV Action Fund Announces Latest Endorsements for U. S. Senate and House",
+        "url": "https://ww...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:28.000Z",
+        "source": "lcv.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Droga5 shines a light on the threats to marine conservation through a series of handcrafted original screen-printed artworks \u2013 Marketing Communication News",
+        "url": "https://ma...(+139 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:18.000Z",
+        "source": "marcommn...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Better the hide, better the hunt \u2013 Marketing Communication News",
+        "url": "https://ma...(+46 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:37:45.000Z",
+        "source": "marcommn...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
