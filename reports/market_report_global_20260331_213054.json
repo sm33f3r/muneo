@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-31T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2416879870532.58,
+    "total_market_cap_change_24h_pct": 1.35,
+    "total_volume_24h_usd": 117745617471.18,
+    "btc_dominance_pct": 56.221,
+    "eth_dominance_pct": 10.457,
+    "total2_usd": 1058086573944.28,
+    "total3_usd": 805353589420.05,
+    "active_cryptocurrencies": 17926,
+    "altcoin_season_index": 47,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "QRL",
+        "name": "Quantum Resistant Ledger",
+        "price_change_24h_pct": 48.1304,
+        "price_usd": 1.67,
+        "market_cap_usd": 131294806
+      },
+      {
+        "symbol": "KTA",
+        "name": "Keeta",
+        "price_change_24h_pct": 26.4119,
+        "price_usd": 0.228502,
+        "market_cap_usd": 117089271
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 26.0244,
+        "price_usd": 0.662292,
+        "market_cap_usd": 139490521
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price_change_24h_pct": 11.2291,
+        "price_usd": 0.092132,
+        "market_cap_usd": 818168320
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price_change_24h_pct": 11.0448,
+        "price_usd": 0.631824,
+        "market_cap_usd": 168873605
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -54.5869,
+        "price_usd": 0.785743,
+        "market_cap_usd": 577043147
+      },
+      {
+        "symbol": "TWT",
+        "name": "Trust Wallet",
+        "price_change_24h_pct": -14.7127,
+        "price_usd": 0.363106,
+        "market_cap_usd": 151189207
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -9.857,
+        "price_usd": 0.154671,
+        "market_cap_usd": 278357759
+      },
+      {
+        "symbol": "AB",
+        "name": "AB",
+        "price_change_24h_pct": -6.8112,
+        "price_usd": 0.00166299,
+        "market_cap_usd": 164252213
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -5.5177,
+        "price_usd": 0.00989265,
+        "market_cap_usd": 557128252
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 67961,
+    "price_change_24h_pct": 1.7153,
+    "price_change_7d_pct": -1.9274,
+    "market_cap_usd": 1358786512520,
+    "volume_24h_usd": 56160681152,
+    "direction": "bullish",
+    "oi_usd": 6035402740.62,
+    "funding_rate_latest": -2.763e-05,
+    "funding_rate_7d_avg": -9.182380952380953e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.73,
+    "long_account_pct": 63.37,
+    "short_account_pct": 36.63,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2097.03,
+    "price_change_24h_pct": 2.7522,
+    "price_change_7d_pct": -0.8376,
+    "market_cap_usd": 252986526397,
+    "volume_24h_usd": 21129068627,
+    "eth_btc_ratio": 0.030856,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 94624186109.68,
+    "stablecoin_market_cap_usd": 314457511917.78,
+    "stablecoin_dominance_pct": 13.0109
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 59,
+    "headlines": [
+      {
+        "headline": "U.S. Army suspends Kid Rock helicopter flyby crews from flight duties",
+        "summary": "Kid Rock is a prominent supporter of President Donald Trump and performed at the 2024 Republican National Convention.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/31/kid-rock-army-helicopter-suspended.html",
+        "published_at": "2026-03-31T20:57:17Z"
+      },
+      {
+        "headline": "Tom Brady, famed health nut, explains his junk food endorsements in retirement: 'Moderation in all things'",
+        "summary": "Tom Brady has struck a new partnership with chocolate maker Ferrero pegged to the 2026 World Cup.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/31/tom-brady-junk-food-endorsements-retirement.html",
+        "published_at": "2026-03-31T20:46:06Z"
+      },
+      {
+        "headline": "Here is why Nvidia's partnership and investment in Marvell is such a big deal",
+        "summary": "Nvidia's deal with Marvell Technology is yet another reason to stick with the AI giant's sluggish stock.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/31/here-is-why-nvidias-partnership-and-investment-in-marvell-is-such-a-big-deal.html",
+        "published_at": "2026-03-31T20:19:08Z"
+      },
+      {
+        "headline": "Wall Street soars as traders bet on potential war off-ramp - Reuters",
+        "summary": "Wall Street soars as traders bet on potential war off-ramp\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcXVxVmE4NDB2clUydHU5WE9ucGltalVzLXhRd1ByNDNVMksyQzRUSEpkeWg1UjIyUG5nQWlGOWJ3bXJzanVDN3ZpNlpQR25QN1NSQV9sUGlWVWY3S0ROWWlZRE5qUGRQUEJ1MlBkUHA0bEZVZHpjS1RkVzB2MDRHcG1TLXpsVGtCZDRQQmx2cmphajlOb01ZUEM4SU1QM29xNHRLelkwOVY3eXoxUlJxWk12aXhPZ1RBSm5rYQ?oc=5",
+        "published_at": "2026-03-31T20:01:13Z"
+      },
+      {
+        "headline": "Pentagon declines to reaffirm NATO's collective defense, says up to Trump - Reuters",
+        "summary": "Pentagon declines to reaffirm NATO's collective defense, says up to Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0FDTWR1ZG04UEtZRWV0a1V2ZzBTcThPN2xKdFVQNi15NFduMzhsLWpVdUp2cDlGcmJKU0VuWWlXVWNTRDRhWHpIc1RMeVR0VWxmbUNIdGdXLTNzYzFNZGRCVDhjdWtzTzBJbFBKWTN6YWlmNW1KUUUxX1d1cEI2TTNFVng5WHRCMUR3OUoyQ1lTdE41dC1CWTFyVXYyM0I1eTByaWdXUzJxZEpmZ3NQZnlWWlNxZURYUlZrMkVxbTJmZjFlbFVz?oc=5",
+        "published_at": "2026-03-31T19:24:12Z"
+      },
+      {
+        "headline": "Pope Leo urges Trump to find 'off-ramp' to end Iran war - Reuters",
+        "summary": "Pope Leo urges Trump to find 'off-ramp' to end Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRU80eTVJWUtHQWdsUmp6cVlEWFhFMGxJT2M3LVU3b0JLX2hybEpzNHlmTWxwbE9YX2FISnpjNUFxZ2p6bmxNZ00tUTZvSXBKVUtQd1VtWUZlWnJtdnE4RDYzLXliU29TRjdBQlU4Q2NBazVfQkk0RzFpUnZfVnhZU2pQTGwzRDZTQlZodG1Pa3c1Vng2RmNFd2ttaFZnYUlxeXc0?oc=5",
+        "published_at": "2026-03-31T19:08:09Z"
+      },
+      {
+        "headline": "US ready to thwart Iran attacks after IRGC threats to American firms - Reuters",
+        "summary": "US ready to thwart Iran attacks after IRGC threats to American firms\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUNMc2JFaU1kZjBQY3g3OUJWaTZhd0ExcTdCWWN6VHNDMDQzSG5rQk51Tk1Tby1XV2FsMkxNNDREX0RVNVV5VkhuNG1CRFE2UFBCRm51R2RmVTlZWHdfY1laOHhjSTdOVXlTU2VHaWxMSEJ3eW1KY1pBSVNOMU9TQ2ZHZFZ0ZnZHZUhPOVctVG5uamI2UmZDaXo3RFVGQ3VXaEtXSWpMUlNmeVhqQzh1YkRpVE42QlZEcmc0Q1pISXhMYnM?oc=5",
+        "published_at": "2026-03-31T19:07:43Z"
+      },
+      {
+        "headline": "US warns Americans in Saudi Arabia to shelter in place after threats - Reuters",
+        "summary": "US warns Americans in Saudi Arabia to shelter in place after threats\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWG1pQW1LLUZIVTZQdFRGUW5uQ1N2V2ZxUC1hVHplZUhQSkZRTHg5NlZDMUNzOVktbTl2cXVsMkZfUnZObV9RTkNwTk5zU2o0TkhveTMzRDUxaTZMTng0WkNDbWJheXprSW5Od1ZOOWx2LUxUcUlrZXV5Z1lNa1pQR0xRSHhhNzZ0cVZXSENvMk9LMGRnNWNuVDlMV3pRcmR0b0t2Y3pSYTFpQWdsMUpCZGdRbw?oc=5",
+        "published_at": "2026-03-31T18:49:28Z"
+      },
+      {
+        "headline": "Europe pushes back on some US military operations as concerns over Iran war mount - Reuters",
+        "summary": "Europe pushes back on some US military operations as concerns over Iran war mount\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTGI1RDRzSnZ0MW9jTlhyd0tGNFdjQk5EQkwtS3U3UjJXUzFxR05NRVlmT01WLUtEeGlTZzhiUExVbEpENElQT05YckFqcS1URTRZQUZtMzZ1UF9YSXFUYVNlT2ttbjRaTFlhUXVkQmJHVV9oUUFtNjA2N1VzVFpOS0QxNFkzeWozYmFOYWx0bFZ3YzJESUtxZ2RfREtYR2RiaWFQS2VBRzdhcUpUNTBVRGQyMkYweHFHd0Ew?oc=5",
+        "published_at": "2026-03-31T18:00:29Z"
+      },
+      {
+        "headline": "Women are making strides in education and employment. But an investing glass ceiling remains",
+        "summary": "Women haven't broken through the glass ceiling when it comes to participation in the stock market. Societal norms and ongoing pay disparities are to blame.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/31/women-stock-market-investing-gap.html",
+        "published_at": "2026-03-31T17:57:35Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 650.17,
+    "spy_change_pct": 2.8799,
+    "spy_lean": "bullish",
+    "vix_close": 30.61,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 29,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Does Dry Pouring Concrete Hold Up? \u2013 OtrasVocesenEducacion. org",
+        "url": "https://ot...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:34.000Z",
+        "source": "otrasvoc...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Does Dry Pouring Concrete Hold Up? \u2013 OtrasVocesenEducacion. org",
+        "url": "https://ot...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:34.000Z",
+        "source": "otrasvoc...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NEWS: An Iconic Attraction Has Been REMOVED from Early Entry at Magic . . .",
+        "url": "https://ww...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:43:18.000Z",
+        "source": "disneyfo...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How An Insurtech Unicorn Closes The Global Protection Gap | International Insurance Society",
+        "url": "https://in...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:42:38.000Z",
+        "source": "internat...(+18 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Technical Scoop: Rounding Top, Rising Oil, Bottoming Gold",
+        "url": "https://si...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:41:46.000Z",
+        "source": "silverSe...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.47
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Enhancing payments security training and intelligence to combat emerging payments fraud",
+        "url": "https://ct...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:40:03.000Z",
+        "source": "ctmfile....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.26
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Doing Business Internationally: Why Your International Lawyer Should Handle Your Domestic Work Too - Harris Sliwoski LLP",
+        "url": "https://ha...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:48.000Z",
+        "source": "chinalaw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LCV Action Fund Announces Latest Endorsements for U. S. Senate and House",
+        "url": "https://ww...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:28.000Z",
+        "source": "lcv.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Droga5 shines a light on the threats to marine conservation through a series of handcrafted original screen-printed artworks \u2013 Marketing Communication News",
+        "url": "https://ma...(+139 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:38:18.000Z",
+        "source": "marcommn...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Better the hide, better the hunt \u2013 Marketing Communication News",
+        "url": "https://ma...(+46 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T14:37:45.000Z",
+        "source": "marcommn...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
