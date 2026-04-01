@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-01T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2439314151528.63,
+    "total_market_cap_change_24h_pct": 0.6319,
+    "total_volume_24h_usd": 108147027988.36,
+    "btc_dominance_pct": 56.162,
+    "eth_dominance_pct": 10.6725,
+    "total2_usd": 1069347744482.11,
+    "total3_usd": 809011598392.61,
+    "active_cryptocurrencies": 17916,
+    "altcoin_season_index": 51,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ONT",
+        "name": "Ontology",
+        "price_change_24h_pct": 63.6414,
+        "price_usd": 0.126887,
+        "market_cap_usd": 118557902
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 18.084,
+        "price_usd": 0.109459,
+        "market_cap_usd": 259723583
+      },
+      {
+        "symbol": "VSN",
+        "name": "Vision",
+        "price_change_24h_pct": 14.0134,
+        "price_usd": 0.05955,
+        "market_cap_usd": 217997498
+      },
+      {
+        "symbol": "S",
+        "name": "Sonic",
+        "price_change_24h_pct": 12.02,
+        "price_usd": 0.04573607,
+        "market_cap_usd": 173002159
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price_change_24h_pct": 11.5339,
+        "price_usd": 0.102762,
+        "market_cap_usd": 913466947
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -68.037,
+        "price_usd": 0.25112,
+        "market_cap_usd": 182971552
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -8.2242,
+        "price_usd": 15.17,
+        "market_cap_usd": 297012412
+      },
+      {
+        "symbol": "QUBIC",
+        "name": "Qubic",
+        "price_change_24h_pct": -7.8026,
+        "price_usd": 9.55044e-07,
+        "market_cap_usd": 130385308
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price_change_24h_pct": -5.7188,
+        "price_usd": 0.142865,
+        "market_cap_usd": 5463496773
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": -5.5865,
+        "price_usd": 16.77,
+        "market_cap_usd": 161817865
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 68459,
+    "price_change_24h_pct": 0.7557,
+    "price_change_7d_pct": -3.3114,
+    "market_cap_usd": 1368331350673,
+    "volume_24h_usd": 50777788637,
+    "direction": "neutral",
+    "oi_usd": 6109947129.15,
+    "funding_rate_latest": 5.77e-06,
+    "funding_rate_7d_avg": -1.4629047619047618e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5094,
+    "long_account_pct": 60.15,
+    "short_account_pct": 39.85,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2155.65,
+    "price_change_24h_pct": 2.611,
+    "price_change_7d_pct": -0.6046,
+    "market_cap_usd": 260259554750,
+    "volume_24h_usd": 18710459865,
+    "eth_btc_ratio": 0.031488,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 94632225713.43,
+    "stablecoin_market_cap_usd": 315072271216.89,
+    "stablecoin_dominance_pct": 12.9164
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 58,
+    "headlines": [
+      {
+        "headline": "Here are 3 ways to ignite a rally in beaten-down bank stocks like Wells Fargo and Goldman",
+        "summary": "Private credit risks, mass AI adoption and the U.S.-Iran war have all weighed on banks in 2026.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/01/here-are-3-ways-to-ignite-a-2026-rally-in-beaten-down-bank-stocks.html",
+        "published_at": "2026-04-01T20:27:36Z"
+      },
+      {
+        "headline": "Wall Street ends higher on speculation about end to Iran war - Reuters",
+        "summary": "Wall Street ends higher on speculation about end to Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcTdIT01VWG5hRkZza3JnUHVuRUJnUXJTOWYyU2pHOWpOUUFQWjlOTktJcDNqR3I1OWY4WXdyd1htSjRkVHhYaDkyYUFUOWg3Q2daTXBYRTR6RzVBVlR2d3IwblR3NWFxWDVxME9wRVdrdHpBZlhaenBGOHpJZW9ubFd2QlN6ZlY4QUMtamRnU2hSU05XQ1M2TEhpYV8xa2xZaEtHNHVrYUxOLXlFaS0xbGl1Sm5kUQ?oc=5",
+        "published_at": "2026-04-01T20:21:26Z"
+      },
+      {
+        "headline": "Eli Lilly secures long-awaited FDA approval for its obesity pill. Here's what to know",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/01/eli-lilly-secures-long-awaited-fda-approval-for-its-obesity-pill-heres-what-to-know.html",
+        "published_at": "2026-04-01T18:55:45Z"
+      },
+      {
+        "headline": "Walmart-owned Sam's Club raises its annual membership fee to $60",
+        "summary": "Sam's Club is hiking membership fees as its annual sales and membership grow and as high gas prices call attention to one of its key perks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/01/sam.html",
+        "published_at": "2026-04-01T18:55:22Z"
+      },
+      {
+        "headline": "Iranian president says in letter that Iran harbors no enmity towards ordinary Americans - Reuters",
+        "summary": "Iranian president says in letter that Iran harbors no enmity towards ordinary Americans\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR1RGTUd1WTN3VldnYndfb0hOdUFZT2p6VW1hdWVCV3hLZmU1Mm5DeEttUDY1by1WOWJVZEdQeE9TQVdTQ09CbUZYODNmYXBGM2Y2MGoyYnNmazg3YzBnSmZYZWhzeGZnV3Fja2xQb1hWaW44QnMtMmFsOHpCZTVoNm5mWkN6UUFfUFBoc055VHFlWjVISnFTcU5OUmVfdHZBeEY1anJVNXhNVU9JRGlocjI4ajM1Uy1ycUFLM3BWQWVvZGRzRDdj?oc=5",
+        "published_at": "2026-04-01T18:54:41Z"
+      },
+      {
+        "headline": "Tiger Woods\u2019 future in golf is uncertain as he faces recovery after Florida crash",
+        "summary": "The latest developments leave Woods at least temporarily at the fringes of the sport that made him a household name.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/01/tiger-woods-golf-future-uncertain-recovery-crash.html",
+        "published_at": "2026-04-01T18:48:43Z"
+      },
+      {
+        "headline": "A war meant to break Iran could leave Tehran stronger, and Gulf exposed - Reuters",
+        "summary": "A war meant to break Iran could leave Tehran stronger, and Gulf exposed\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXpyZ0FBdkhCMjlBSVIyZmNldVdraGhZYUpFVG5raGk0YmNJc1pfSmFqSTlHYWtHY0pabmRCMnd4QlBha0JtWlZlRktJLVhoa1p4MWx2VHJpXy1wdTNEQThDZjBjRWZwMVdCcjAtTURRR0dZbGd2elRkVEFqZW5tS2N1ZnBuUmM4azBDdGZGZXplQXJCbzRjWDBvS3FPdmJnU1JiYVdHSVNuV3Zsb3gwTExHNFRVZw?oc=5",
+        "published_at": "2026-04-01T18:23:44Z"
+      },
+      {
+        "headline": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters - Reuters",
+        "summary": "US to leave Iran 'pretty quickly' and return if needed, Trump tells Reuters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQkNNSHlXV2dyc2dEWng3bm84T3dGdEhpdTVqNFFoQXNydDhsUzdYRkVYT1FmNUsxQlhWR1p1bHFRendVVGFrb0RJdVB2Zjhydno2MHFId05HYmtKb1Vfei1Ha0dLYW0wWU8xSlRIRHU3dWRQSXN2OVFNT0VFTlIyaHEwYlUyR1BFWFV1VXp2bGlLcE9NZGJXbExUbzE2eHVldVFGWWVSSl9vX0NneURyeFp0WjFER0VzOFZ3?oc=5",
+        "published_at": "2026-04-01T16:29:10Z"
+      },
+      {
+        "headline": "US Vice President Vance spoke to intermediaries about Iran conflict as recently as Tuesday, source says - Reuters",
+        "summary": "US Vice President Vance spoke to intermediaries about Iran conflict as recently as Tuesday, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaHZPbWM1TUhHOEpFWFNxWUUtX2NWWHN2eEE1OWJtU3Z6ckVHcGtTZlg5N0JLdmlMM1FKZ21fand6T2tJUEVDYnpHNFluX29xV24xV3JmaXNPRXNJNm1MSkFCR0lvczVVLUtuaVNmeFBSS3BGY2tRT3MydVFPZmFRQXdXYVhsYk92SzRCNHM3SE5CZUJBM3UtVFNfcjZ5QmwyV29CdndYQV9CUGprTVliaGpDWGFZRmhoN0E?oc=5",
+        "published_at": "2026-04-01T15:56:04Z"
+      },
+      {
+        "headline": "Amazon's cloud business in Bahrain damaged in Iran strike, FT reports - Reuters",
+        "summary": "Amazon's cloud business in Bahrain damaged in Iran strike, FT reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjFGSThkUWxFdXpNUGNPU1JZUUFHOXZtQUpibFNJemVOaV80TUlsZEpDT29DVVIwMllLM25xd3ROR2JCc1VkZFJ3bWJhM2tmR09QNWFwN3l0c3Q3VjktTHcxYVd2Q1ZvYzVOeDloeHVnXzc2WmJMVW9WOGd6SDJENFlSX0xBVmkwdGNwVmtTRXFMc2JXWUdJWjAtSlc2dndvTVhZYTAySHdLSnRwRXJGTXdfN09YUQ?oc=5",
+        "published_at": "2026-04-01T15:02:53Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 655.19,
+    "spy_change_pct": 0.7458,
+    "spy_lean": "bullish",
+    "vix_close": 25.25,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 1,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "New Partnership Leads to Successful Health and Wellness Workshop",
+        "url": "https://io...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:48:18.000Z",
+        "source": "iod.unh....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.22
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former BP CEO To Lead Prometheus Hyperscale\u2019s $30B Wyoming Data Center Buildout | Cowboy State Daily",
+        "url": "https://co...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:47:07.000Z",
+        "source": "gendread...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Concern vaping study will drive people back to cigarettes",
+        "url": "https://ev...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:45:24.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New York Grilling Laws: What You CAN'T Do This Spring",
+        "url": "https://wz...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:44:28.000Z",
+        "source": "articlex...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OGGI COME IERI, QUARTO ANNO. CON SILVIA BALDO",
+        "url": "https://ww...(+46 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:44:28.000Z",
+        "source": "radiopiu...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Seher Hone Ko Hai : Seher discovers truth behind Mahid\u2019s mother\u2019s death",
+        "url": "https://ww...(+100 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:44:19.000Z",
+        "source": "data.gov...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.08
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Too Loud? New York State Cracking Down on These Noises",
+        "url": "https://wz...(+51 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:44:19.000Z",
+        "source": "articlex...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @RapidResponse47 on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:42:57.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ENDURANCE Paxton Cycling/MTB L/S Jersey - Cycling Jersey Women's | Buy online | Alpinetrek",
+        "url": "https://ww...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:42:31.000Z",
+        "source": "alpinetr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Skinner Matthews \u2013 Five Poems",
+        "url": "https://th...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-01T19:42:04.000Z",
+        "source": "thegalwa...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500"
+  ]
+}
