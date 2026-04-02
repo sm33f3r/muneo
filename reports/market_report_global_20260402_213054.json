@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-02T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2393085108893.57,
+    "total_market_cap_change_24h_pct": -1.726,
+    "total_volume_24h_usd": 110299815649.0,
+    "btc_dominance_pct": 55.8949,
+    "eth_dominance_pct": 10.387,
+    "total2_usd": 1055471555829.65,
+    "total3_usd": 806902282616.85,
+    "active_cryptocurrencies": 17887,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LILPEPE",
+        "name": "Little Pepe",
+        "price_change_24h_pct": 769330.9136,
+        "price_usd": 10.26,
+        "market_cap_usd": 12745110714
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 13.5592,
+        "price_usd": 0.123925,
+        "market_cap_usd": 295604607
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 10.4496,
+        "price_usd": 0.764928,
+        "market_cap_usd": 269231566
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 9.8731,
+        "price_usd": 0.969518,
+        "market_cap_usd": 243384842
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 8.0583,
+        "price_usd": 0.01130024,
+        "market_cap_usd": 637249939
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -27.3412,
+        "price_usd": 0.182079,
+        "market_cap_usd": 132780986
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -20.2468,
+        "price_usd": 12.06,
+        "market_cap_usd": 236346844
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -16.4596,
+        "price_usd": 0.128566,
+        "market_cap_usd": 231848153
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price_change_24h_pct": -13.7958,
+        "price_usd": 3.13,
+        "market_cap_usd": 1981853932
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -12.7208,
+        "price_usd": 0.275399,
+        "market_cap_usd": 109501941
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66843,
+    "price_change_24h_pct": -2.3413,
+    "price_change_7d_pct": -2.5264,
+    "market_cap_usd": 1337294770404,
+    "volume_24h_usd": 49048028083,
+    "direction": "bearish",
+    "oi_usd": 6029273157.83,
+    "funding_rate_latest": -7.398e-05,
+    "funding_rate_7d_avg": -1.6893809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8686,
+    "long_account_pct": 65.14,
+    "short_account_pct": 34.86,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2059.54,
+    "price_change_24h_pct": -4.5205,
+    "price_change_7d_pct": 0.5499,
+    "market_cap_usd": 248559498587,
+    "volume_24h_usd": 20332967555,
+    "eth_btc_ratio": 0.030812,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92610140014.02,
+    "stablecoin_market_cap_usd": 315284155660.35,
+    "stablecoin_dominance_pct": 13.1748
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 46,
+    "headlines": [
+      {
+        "headline": "Near-term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran - Reuters",
+        "summary": "Near-term oil prices hit record premium over later deliveries after Trump vows more attacks on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSl9iNnZrUjdNbHhsTUhJeUxNUkFHNWU0SE9oa0tndXk4ODJCTjFWMEJuOXk0OUlsUzRYNWVTU1NiRGdRYlZacXpKM0JCMmRrV0d4c1dhYmRfNDN2ejRDTThWdklSVzJIdGtISmJBRXZKY3JiM0w2YnBzeDA3U09uMXRBZjU4dm01WS1pdkVfenJ4Z1R6ejZSZUVGRk9FdXBhU2xja3ZrM1Mxa0tIeklmbUJIZ21tN0I0aXR4NmVmMzhoMWRJTnVoeWp3?oc=5",
+        "published_at": "2026-04-02T20:09:49Z"
+      },
+      {
+        "headline": "Wall Street ends mixed as worries linger before Holiday break - Reuters",
+        "summary": "Wall Street ends mixed as worries linger before Holiday break\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzZMOVRDU0NuWFBVVHF2MEtHZWVrMEpRRU9OTzRiRk1sYkF1YmFaelI1S2dWa0pBZ0NOZmVXS20tZ3Vrek1kUnhUNE9ObjhMbExSU1J3Z0dpdkVQLXQtZ3A0RU9Bd0ktcTNER1FCdnRRZU9LT0RDR21ELTRVLUVtdGxJOW1iNzduYk5QMG91NTNGSDVVeFhSZzJoS2ZiMVdlTmVKU2NqQml4N1VDb054eEtfNA?oc=5",
+        "published_at": "2026-04-02T20:02:50Z"
+      },
+      {
+        "headline": "Medical needs surging in Iran and supplies under threat, Red Cross warns - Reuters",
+        "summary": "Medical needs surging in Iran and supplies under threat, Red Cross warns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2ExcllfdGhwSmMyWDlYUkJCNlU1UGtDTmplMVJFbDZtRTJubEViQjAzQmVlLTY2NWpNbmJPZ3VSbnF0dldfenIwVDFyRmhmQ1RDaDI0U2Q3cWFoYUJuaXdJWGNXdTlDVmd1TXpWQ0VBX3pZOGJCRmN3TFBvck1LcWJyejZHaEdFQk1EcXVqWFNYZU5WczE4YWtULXd6NDFMa3BMa2NPWjVrb1FxVjFsT1hKNE5NQmNjNUE?oc=5",
+        "published_at": "2026-04-02T19:15:00Z"
+      },
+      {
+        "headline": "SpaceX's IPO could be the largest-ever public offering\u2014what to know before investing, from experts",
+        "summary": "Elon Musk's rocket and sattelite firm is on track to become the largest U.S. public offering in history.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/02/how-to-invest-initial-public-offering.html",
+        "published_at": "2026-04-02T18:01:08Z"
+      },
+      {
+        "headline": "Federal commission sues 3 states over prediction market regulation",
+        "summary": "The Commodity Futures Trading Commission said it was suing Arizona, Connecticut and Illinois over its ability to exclusively regulate prediction markets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
+        "published_at": "2026-04-02T17:52:15Z"
+      },
+      {
+        "headline": "Bahrain hopes for Hormuz vote in UN, but China opposes authorization of force - Reuters",
+        "summary": "Bahrain hopes for Hormuz vote in UN, but China opposes authorization of force\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUR4TFgxVWFlck9xY25ycXRWQTJvd1JtWGNELWZmM0xFeG1PWkczb01jdEpibi11cTY1bTh1UlJ6eG9hRjJNaVlUV2VDcTkxenNnQUpTM0F4Q09KV1pwbmVjakhPZ0FYaC0zOTQ0VDhCbGdoNEhWb0YyTjUxZks5eEpOSHRMWVRPOVUxekdQeHhTY1BJOTNzU0s3cmtWdGFCdXFERHhwNC0?oc=5",
+        "published_at": "2026-04-02T17:40:17Z"
+      },
+      {
+        "headline": "Britain says 40 countries discuss reopening Strait of Hormuz after Iran blockade - Reuters",
+        "summary": "Britain says 40 countries discuss reopening Strait of Hormuz after Iran blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX2wteXFwajNBQUdCX0xBSmZ2bi02Nld6dERJODNsQVozQVgxVzhxTDlkdXNBN0dWby1lSGpxWjJ0YTF0OHdSRFY0M1RXUEJJWHNiWlZRcDNhUF9MUTdhMEVHWW9qZGR6SkhpcGwyNmRKZHlGR2ZwMHNuS2VIa3pFVmw3cUFxX1BkQlctRnRuNzV5YXRSTlVKeEY0dk15RklyM0RCQjNfUlJnX1pMZ3g5NmxOTjVrVHI3Z3RIV28xRW8?oc=5",
+        "published_at": "2026-04-02T16:29:27Z"
+      },
+      {
+        "headline": "The mood of the stock market is changing fast during Iran war. How to navigate the confusion",
+        "summary": "Long-term investors need to stay in the game despite the confusion and frustration of this market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/02/the-mood-of-the-stock-market-is-changing-fast-during-iran-war-how-to-navigate-the-confusion.html",
+        "published_at": "2026-04-02T15:43:51Z"
+      },
+      {
+        "headline": "Austria denies US use of airspace for Iran military operations - Reuters",
+        "summary": "Austria denies US use of airspace for Iran military operations\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT3Ixa0drM2E4c0JKcnc5dm51c3FzOFBpUFBKNEJXQzFHNHB1RThqT2Q3R3drX0ZMNVNqb2ZhVmpUbWdrejEzNWQ5RGc4Y1k5NFE0ejEzaFJBYzhBWTFkRWdjb0REZkxTNUNNcmI3aTBPVWU4WWtLVUJ0d21xZDc5d3QwU1MzZVR0R0dxNXhOSkMyTjRuX0k4MWdrYU12OXRpZzlFWks3aWNQZmU1eFVXclRzTUpraTFGNFVIMUJhdlZ0SlBLTUJkTG1UTno2LWs?oc=5",
+        "published_at": "2026-04-02T15:38:52Z"
+      },
+      {
+        "headline": "Regional sports networks are faltering even as ratings soar",
+        "summary": "A group of regional sports networks is set to wind down, marking the demise of a once lucrative business that's faced significant pressure.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/02/regional-sports-networks-are-faltering-even-as-ratings-soar.html",
+        "published_at": "2026-04-02T14:40:57Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 655.94,
+    "spy_change_pct": 0.1068,
+    "spy_lean": "neutral",
+    "vix_close": 24.54,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Animal Care hosts Paws and Partners Collaboration Summit - Welcome to San Bernardino County",
+        "url": "https://ma...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:28:01.000Z",
+        "source": "wp.sbcou...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.25
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Egypt Central Bank Holds Interest Rates Amid . . . | Forex News 2026. 04. 02 (en)",
+        "url": "https://ww...(+35 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:30.000Z",
+        "source": "instafor...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Alberta introduces bill to reduce child access to sex images in public libraries",
+        "url": "https://ww...(+124 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:11.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MUT marks key milestone with successful submission of Institutional Improvement Plan report - Mangosuthu University of Technology",
+        "url": "https://ww...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:08.000Z",
+        "source": "mut.ac.z...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.23
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ottawa saying little about Toronto's call to block ICE from World Cup",
+        "url": "https://ww...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:02.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MUT Engineering showcases research at national ECSA symposium - Mangosuthu University of Technology",
+        "url": "https://ww...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:01.000Z",
+        "source": "mut.ac.z...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "B. C. Appeals Court sides with First Nation over Aboriginal title on Nootka Island",
+        "url": "https://ww...(+123 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:27:00.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Family of teen killed in Montreal drive-by asks for justice during sentencing hearing",
+        "url": "https://ww...(+129 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:26:59.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.16
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Barrie's 40-room modular housing project to see first residents soon",
+        "url": "https://ww...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:26:57.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Province looks to shrink Simcoe County council, give Warden more powers",
+        "url": "https://ww...(+111 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-02T21:26:52.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
