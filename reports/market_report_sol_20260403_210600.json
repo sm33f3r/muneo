@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-03T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 80.21,
+    "price_change_24h_pct": 1.2802,
+    "price_change_7d_pct": -3.0191,
+    "volume_24h_usd": 2361151073,
+    "market_cap_usd": 45939088722,
+    "volume_to_mcap_ratio": 0.051397,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -72.6553,
+    "cex_price_usd": 80.12,
+    "cex_24h_high": 80.91,
+    "cex_24h_low": 78.63,
+    "cex_dex_spread_pct": -0.112205,
+    "volume_on_up_days_usd": 4205051932.4507675,
+    "volume_on_down_days_usd": 2985377747.907204,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 36.5578,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -14.29572,
+      "signal_line": -16.195697,
+      "histogram": 1.899977
+    },
+    "macd_lean": "bullish",
+    "sma_50": 138.3184,
+    "price_vs_sma50_pct": -42.0106,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 139.626495,
+      "mid": 97.1495,
+      "lower": 54.672505,
+      "width_pct": 87.4467,
+      "position": 0.3342
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 805007719.18,
+    "oi_lean": null,
+    "funding_rate_latest": 4.323e-05,
+    "funding_rate_7d_avg": -0.00010086666666666667,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.7382,
+    "btc_long_account_pct": 63.48,
+    "btc_short_account_pct": 36.52,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 5442616577.0,
+    "tvl_7d_change_pct": -14.9837,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 5022943.0,
+    "chain_fees_7d_avg_usd": 6017043.86,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 3,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Circle\u2019s response to the $285 million Drift protocol hack sparks debate over USDC intervention powers",
+        "url": "https://en...(+115 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T19:32:28.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dune Launches dbt Integration for Direct Blockchain Data Warehouse Delivery",
+        "url": "https://bi...(+109 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T19:26:23.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google\u2019s Documentation Talks About XRP And You Won\u2019t Believe What It Says",
+        "url": "https://bi...(+41 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T18:00:59.000Z",
+        "source": "bitcoini...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle let over $440 million in stolen USDC move freely, ZachXBT says",
+        "url": "https://cr...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T17:27:33.000Z",
+        "source": "cryptobr...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana's Drift Protocol drained of $285 million through fake token and governance hijack",
+        "url": "https://an...(+59 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T17:25:19.000Z",
+        "source": "hackerne...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.19
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana vs other Layer 1 blockchain networks: 7 key differences",
+        "url": "https://me...(+50 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T17:24:37.000Z",
+        "source": "metamask...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Add $9 Million While Ether Sees $71 Million Exit \u2013 Markets and Prices Bitcoin News",
+        "url": "https://bi...(+122 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T16:47:19.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle faces scrutiny as delayed USDC freezes linked to up to $420M in exploitable losses",
+        "url": "https://bi...(+119 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T16:34:08.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @zachxbt on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T16:18:29.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ZachXBT flags $420m in alleged USDC compliance lapses, raising questions over Circle's enforcement",
+        "url": "https://am...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-03T15:31:22.000Z",
+        "source": "ambcrypt...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 66841.0,
+    "btc_24h_change_pct": -0.1428,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.0455,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2304280139957.0415,
+    "eth_btc_ratio": 0.030716,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 655.83,
+    "spy_change_pct": 0.09,
+    "spy_lean": "neutral",
+    "vix_close": 24.54,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 77.78,
+    "cg_sentiment_votes_down_pct": 22.22,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
