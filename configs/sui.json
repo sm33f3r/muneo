@@ -7,6 +7,8 @@
   "cmc_slug": "sui",
   "coinpaprika_id": "sui-sui",
   "cryptopanic_symbol": "SUI",
+  "apitube_org_name": null,
+  "apitube_title_search": "\"Sui Network\"",
   "upcoming_unlocks": [
     {
       "date": "2026-04-01",
