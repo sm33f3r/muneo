@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-04T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2396049330981.3,
+    "total_market_cap_change_24h_pct": 0.3904,
+    "total_volume_24h_usd": 49284970367.45,
+    "btc_dominance_pct": 56.1722,
+    "eth_dominance_pct": 10.3963,
+    "total2_usd": 1050134712943.47,
+    "total3_usd": 801034559562.12,
+    "active_cryptocurrencies": 17839,
+    "altcoin_season_index": 29,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "OM",
+        "name": "MANTRA [Old]",
+        "price_change_24h_pct": 427.4761,
+        "price_usd": 0.066884,
+        "market_cap_usd": 323975684
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 411.8937,
+        "price_usd": 0.752796,
+        "market_cap_usd": 531158280
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": 16.5727,
+        "price_usd": 0.00289045,
+        "market_cap_usd": 283280849
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": 14.1292,
+        "price_usd": 0.15851,
+        "market_cap_usd": 285821835
+      },
+      {
+        "symbol": "BSV",
+        "name": "Bitcoin SV",
+        "price_change_24h_pct": 11.5593,
+        "price_usd": 16.56,
+        "market_cap_usd": 330971048
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -23.7903,
+        "price_usd": 0.865493,
+        "market_cap_usd": 302917107
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": -5.4062,
+        "price_usd": 0.299019,
+        "market_cap_usd": 133761330
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": -5.3438,
+        "price_usd": 72.81,
+        "market_cap_usd": 1059053088
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -5.2041,
+        "price_usd": 2.6,
+        "market_cap_usd": 4553610046
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -5.1378,
+        "price_usd": 11.94,
+        "market_cap_usd": 233997525
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 67257,
+    "price_change_24h_pct": 0.5459,
+    "price_change_7d_pct": 0.5409,
+    "market_cap_usd": 1345785632155,
+    "volume_24h_usd": 21314529501,
+    "direction": "neutral",
+    "oi_usd": 6170224437.0,
+    "funding_rate_latest": 1.651e-05,
+    "funding_rate_7d_avg": -9.285714285714291e-07,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5641,
+    "long_account_pct": 61.0,
+    "short_account_pct": 39.0,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2066.67,
+    "price_change_24h_pct": 0.466,
+    "price_change_7d_pct": 2.1598,
+    "market_cap_usd": 249255232687,
+    "volume_24h_usd": 5876437956,
+    "eth_btc_ratio": 0.030728,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92875101951.84,
+    "stablecoin_market_cap_usd": 315550046899.96,
+    "stablecoin_dominance_pct": 13.1696
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 20,
+    "headlines": [
+      {
+        "headline": "US says its agents arrested Qassem Soleimani's relatives after revoking green cards - Reuters",
+        "summary": "US says its agents arrested Qassem Soleimani's relatives after revoking green cards\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZXRVJHOE5oclhKaGVjcGlFVkpyd09HTmxlZlQzLXY0X0RZb2I0R2RJSUZadVhsbVQzSjdZanJhdjlJLWhINE1HRG43Z2liOVVrQzVxcUh2ODdkRTFtV1MtYjlvOWNMUmY0NlZpVEFQYkplZGdSMmk3X1FKaXVHT2VzaElpSm1aRV9EYm14WjBMZm1RMzBYXzhyUE45MU9jZndFemZyeC1VM0NVUC1JbXNCeElURlJjUEp0ZGdn?oc=5",
+        "published_at": "2026-04-04T19:34:44Z"
+      },
+      {
+        "headline": "Israel preparing for attacks on Iranian energy sites, awaits US green light, official says - Reuters",
+        "summary": "Israel preparing for attacks on Iranian energy sites, awaits US green light, official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTUNjM1NDenFRZlpxODM1SDgyTDdCa3hUT2NWWUtKdGZZWnVMQ2RybVpxbThtbEhNR3RMYXpQSERrYTJXRGlHS1hHbUFrQzZ1Y1ZoVmlSRzV4TDI0Ri03SDZIYnlYUktZcjMzTU1rV0dTSVZtbGxZN2lxTjdPMF9Cb1ZaQ0p6TVRraXNWOEtfRHE3WHFrNWNMenNJXzV6Z1JwTlRIVVBBRkxxVFNwOEROTWxObG5zdmlyaXhfWWpKVGw4TDdBUFJXNUNR?oc=5",
+        "published_at": "2026-04-04T17:50:34Z"
+      },
+      {
+        "headline": "Iraq-Iran border crossing at Shalamcheh returns to normal after closure due to air strikes - Reuters",
+        "summary": "Iraq-Iran border crossing at Shalamcheh returns to normal after closure due to air strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVUg4MWFyLXVDTDR0ZlMwMk1SRWprMHpFVjE3a0hKYmthSDlWcjk4X2J5NFVqcTc3Q1JjUVAtbW5Fa2h4SVZfaUFyR1N5NEhHM25JTy13eWNzb1U0UjIyNVdkWGhhVjlaNFlLRU8xWEFRbnV0ZG01OXVzRnZVaTBOV2tXYlB3dHVqRUlNMGZ5NTRVRVU2OHV1N0RSOGJORDdLRjlvbUxmRGhJX0FWYkhlTzhnd0ZITjczNFpWUkFjTTc?oc=5",
+        "published_at": "2026-04-04T17:19:56Z"
+      },
+      {
+        "headline": "Russia evacuates 198 more staff from Iran's Bushehr nuclear plant, agencies report - Reuters",
+        "summary": "Russia evacuates 198 more staff from Iran's Bushehr nuclear plant, agencies report\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYzcyWkgyMU9vOGM3VlI0cjU4QmNJMEp2Y2RUOFNZMW1LME9EbGRxZUpVR0M1U0ZZazB5bGlIVXFBY1pNQjQ1UTNuZ2VNdzl5YUNZdUJCeTFrT3htREJhQjB6cG9rUHBHSm02QzVFVTFjbEhDQU0xTWxqc2lrZU1Xekp3N2xkOVlvcnNHU19WMUJ6Vnlma3o2UG9JbVFXQ1paaHRndVphTE1UVTF3cmFYSElpc3M4RGtD?oc=5",
+        "published_at": "2026-04-04T16:29:48Z"
+      },
+      {
+        "headline": "Iran says Iraq exempt from any Strait of Hormuz restrictions - Reuters",
+        "summary": "Iran says Iraq exempt from any Strait of Hormuz restrictions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGdJa3BuRG1za3pMa1NVU3VSXy1JN2xjcTZwekFSYjcyZHBvNkxTVjh2bmRncnZGRWs4WkJ6VlQ0VXBUNTNlcGRvR1A3ZzRXXzZ6QWhueHFraER4am9jM1hpY2R6QWpJcEhlM0FCSUJyVkRWVFFQUmF3Y2Z2QVdVckFWam1JTS1VWXUxRk9DMXI3NXZXR1ZKLVRxQTNHRl9xUGQ2X3NjYU9EQQ?oc=5",
+        "published_at": "2026-04-04T16:26:12Z"
+      },
+      {
+        "headline": "Exclusive: Five EU countries call for windfall tax on energy companies - Reuters",
+        "summary": "Exclusive: Five EU countries call for windfall tax on energy companies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQM3NQM0lpZExNQ1ZqalgwbzU2c1EyV0RJaGNsQ1ZiZDNYLVJWb0JOY0xYMzgzZjJ0aERhUVNITnV2TU83V3NGOEZNYnNYbmZ3dUtqSm4yTnE1aWtudF9aTE54b2FTWUM4ZkFEaklQN1hINWZtLVhLczNsMjZMVEgtaWNpdjl3Xzk5S3FKaG1TRXJGSjQ4cHZBSE1zWHVQS2VLOWRuWGlwYW1oUVdZYmlfbG1nb0Z6MUh5Z3Zmb2dhLTdRamZ1RUpyN1lXSTlfd2lCMDhDdmNCZ2s4QkU?oc=5",
+        "published_at": "2026-04-04T15:42:47Z"
+      },
+      {
+        "headline": "India makes first Iranian oil buy in seven years with no payment problems - Reuters",
+        "summary": "India makes first Iranian oil buy in seven years with no payment problems\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV1liQ3JRLUJKZlo1Ri1xUEZ6UUFldGdOV0hqUkdZRTBDOWQxTVpybzdlSHR4bDNTTGxQMkhtdFgxVWtSa1pQYWV1bkZ6NlRkVzhvS3plblRWX2M5aG1TVFI0V2JfNF9RWXVhbUM1eE53elRlV21TaDlwTTZPa2lQMkI4Rk1vR1N2WjRxRDdKRlNmSjJaQThtbDVWbXZzRnp5Qm1uQ1VPX0JMZU5hSmR0X1FrbVNkS2RHMzYtNw?oc=5",
+        "published_at": "2026-04-04T13:52:56Z"
+      },
+      {
+        "headline": "The PWHL is growing, and the success of women's hockey in the Olympics may be just what it needed",
+        "summary": "Women's hockey is growing, and the PWHL is aiming to become the first professional women's hockey league to have long-term success.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/04/pwhl-womens-hockey-growth.html",
+        "published_at": "2026-04-04T13:48:22Z"
+      },
+      {
+        "headline": "Iran says new air defence system used to target US fighter jet - Reuters",
+        "summary": "Iran says new air defence system used to target US fighter jet\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1VrSVBydUxWZy0zaTFmUnhJeTBYQU02WWVTYXpQMTQ2S3puTFA2VndfbGxSdWF5RDhaUk1sak1wQmFXVzVRbUd2ZUdINmZPTGFZQnJjWkRsUEtXbnJUSkhaZzJ1Q1pXVTN3a3FRRHo3SEdvMkc4eUQxTnZJRnhBeXAyWHNudjZPUXlNLW5jNk9pdDFGT2pXeGEyalVaSm9JaWZXNHZuSkdnREdoZGxORmtINA?oc=5",
+        "published_at": "2026-04-04T13:08:07Z"
+      },
+      {
+        "headline": "My friends owe me money from 8 months ago\u2014is it too late for me to ask? What etiquette experts say",
+        "summary": "Asking for money after a long layoff can feel uncomfortable, but etiquette pros say it's not impolite to circle back with your friends who owe.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/04/etiquette-asking-friends-for-money.html",
+        "published_at": "2026-04-04T13:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 655.83,
+    "spy_change_pct": 0.09,
+    "spy_lean": "neutral",
+    "vix_close": 24.54,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 30,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "A warm welcome to WFTGA\u2019s new National Trainers \u2013 WFTGA",
+        "url": "https://wf...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:26:19.000Z",
+        "source": "wftga.or...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chinese Research Vessels \u2013 Canadian Naval Review",
+        "url": "https://ww...(+50 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:25:50.000Z",
+        "source": "navalrev...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Schachtman Law \u00bb A Bayesian Toehold in the New Reference Guide to Epidemiology",
+        "url": "https://sc...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:20:55.000Z",
+        "source": "schachtm...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FanDuel Promo Code: Get $3,000 Bonus For Final Four Games",
+        "url": "https://ww...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:18.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DraftKings Promo Code: Get $200 Bonus For Illinois vs. UConn, Arizona-Michigan",
+        "url": "https://ww...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:17.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bet365 Bonus Code WEEK365: Get $365 Bonus For Final Four, MLB Games",
+        "url": "https://ww...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:17.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LeBron James responds to public outcry over his comments about 2 NBA cities",
+        "url": "https://ww...(+106 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:15.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korean volleyball twins dropped amid bullying scandal",
+        "url": "https://ww...(+95 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:06.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.36
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Iran nuclear deal: Clock ticks as rivals square up",
+        "url": "https://ww...(+119 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:06.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blue Ivy Carter shines in mom Beyonc's new campaign",
+        "url": "https://ww...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-04T21:18:03.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
