@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-07T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2459642512408.85,
+    "total_market_cap_change_24h_pct": 0.1757,
+    "total_volume_24h_usd": 103643241991.41,
+    "btc_dominance_pct": 56.714,
+    "eth_dominance_pct": 10.4722,
+    "total2_usd": 1064679690026.79,
+    "total3_usd": 807102050192.37,
+    "active_cryptocurrencies": 17761,
+    "altcoin_season_index": 22,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 18.9736,
+        "price_usd": 1.084,
+        "market_cap_usd": 380738198
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": 12.2081,
+        "price_usd": 2.04,
+        "market_cap_usd": 514598216
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 11.1124,
+        "price_usd": 283.94,
+        "market_cap_usd": 4735983326
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 10.5749,
+        "price_usd": 0.00729522,
+        "market_cap_usd": 3492897723
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": 7.7857,
+        "price_usd": 0.185278,
+        "market_cap_usd": 185680418
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -11.21,
+        "price_usd": 11.13,
+        "market_cap_usd": 218740786
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -7.0278,
+        "price_usd": 0.177502,
+        "market_cap_usd": 177493497
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -5.73,
+        "price_usd": 1.2,
+        "market_cap_usd": 193868292
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price_change_24h_pct": -5.5407,
+        "price_usd": 0.113423,
+        "market_cap_usd": 1010812867
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_change_24h_pct": -4.7035,
+        "price_usd": 8.86,
+        "market_cap_usd": 3831765735
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 69560,
+    "price_change_24h_pct": -0.1544,
+    "price_change_7d_pct": 2.0884,
+    "market_cap_usd": 1395426825201,
+    "volume_24h_usd": 50418518368,
+    "direction": "neutral",
+    "oi_usd": 6174765379.6,
+    "funding_rate_latest": 7.393e-05,
+    "funding_rate_7d_avg": 1.6196190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3267,
+    "long_account_pct": 57.02,
+    "short_account_pct": 42.98,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2130.64,
+    "price_change_24h_pct": -0.6833,
+    "price_change_7d_pct": 1.2099,
+    "market_cap_usd": 257118361240,
+    "volume_24h_usd": 17764299078,
+    "eth_btc_ratio": 0.03063,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93068871349.13,
+    "stablecoin_market_cap_usd": 316428958507.69,
+    "stablecoin_dominance_pct": 12.8648
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 71,
+    "headlines": [
+      {
+        "headline": "USDA Secretary Brooke Rollins sent Easter email to staff touting 'Jesus' and 'God'",
+        "summary": "Defense Secretary Pete Hegseth on Monday compared the rescue of a downed U.S. airman in Iran to the story of Jesus's resurrection.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/07/usda-brooke-rollins-easter-jesus-god.html",
+        "published_at": "2026-04-07T21:10:11Z"
+      },
+      {
+        "headline": "Levi Strauss beats expectations on the top and bottom lines, raises guidance",
+        "summary": "Levi Strauss beat expectations on the top and bottom lines but its guidance doesn't take into account recent tariff rollbacks from the Supreme Court.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
+        "published_at": "2026-04-07T20:10:54Z"
+      },
+      {
+        "headline": "Pakistan PM seeks two-week extension to Trump's deadline on Iran - reuters.com",
+        "summary": "Pakistan PM seeks two-week extension to Trump's deadline on Iran\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcllYOEthNEVMQW9TZmtvd2pYNzVxRVl5NkJHMTVSZUxIOVBsZVpQbkphLWpwcFhvanJXVXBjMExCZ25senFBX1lqQXVnRmxvd3BxbjhRT1IzSm5nbGwzUXBQRkhNQmVFU3dKU0E5V19XclFxVURvWEpWTzlOcnNXdEVFNTVYSDJjblZzTUppQU1MWFVkRS1xdS00ZlZDTm5HdFhwcWxYc1RDanktOEFXZjh3?oc=5",
+        "published_at": "2026-04-07T19:45:06Z"
+      },
+      {
+        "headline": "'A whole civilization will die tonight,' Trump says as Iran defies looming deadline - reuters.com",
+        "summary": "'A whole civilization will die tonight,' Trump says as Iran defies looming deadline\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONkdoNUg5eFdxOVZFWkhrMEtYUzl5VUtmUjJNZm5SWE5PbGFFUWVydUcyNHp3Q1E5ckJUaXpUUmZsU3NRcUxCY05lZEQwN2FFQldsUzJ3Mmt3NktrUU5MaDVsRHZicTE3M1NEZlJaNVo3WW00bWlYdFYzYUpZaWllOFZ6ZFNQQy11YlVvdEpRMjNEZmJfbm5sT1VtcGJGdw?oc=5",
+        "published_at": "2026-04-07T19:31:44Z"
+      },
+      {
+        "headline": "Pope Leo calls Trump's threat against Iran 'truly unacceptable' - reuters.com",
+        "summary": "Pope Leo calls Trump's threat against Iran 'truly unacceptable'\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdXdiMU9JX2NKUmp6ajBtQlM1Sm9nSVRQeU1oTUtTVk9uaGE4ajJqeGUyMmY4VkdXdHpEX21SVHZ2THMycng2WmZaclNZQm9aWnFSSVpXOXdRdlBMZDNBLXN1NGRNQzVrbFhlVk1vYVhGRXFMWWlyY2psSHZZamRmMFVTalBuNVB0TGE3U2VOQ2hYWlBMbTBOaTNxUVJuS2phcEtfZ2lfWERZMERUMFE?oc=5",
+        "published_at": "2026-04-07T19:21:04Z"
+      },
+      {
+        "headline": "US short-term credit market shows early signs of stress as Iran war persists - reuters.com",
+        "summary": "US short-term credit market shows early signs of stress as Iran war persists\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUW12bEpUdTFzMDJLM2tCRFJXOUZTMFZ6ZTJ4dUFSRmtfbTEtNUpIa2xaUnUyakd5RllWdHhRMVh3ZkYtWEx4anMyVVJWbVZNcDlkYl9MYmhHbHVITkJjcnkzMy1IUVp4NFgxSWstU29wbWptc2g5akdmY0IzZW84Qnc2UkJQTElPQTBzTlVqY0R4dHhmSDFxLVcxUVlzRmc5UHhPWTZva0U5dWhjT1dnaGZ6WDcxWE1qOGc3MDJXV0g?oc=5",
+        "published_at": "2026-04-07T19:09:43Z"
+      },
+      {
+        "headline": "Wall Street off session lows as Trump's Iran deadline looms - reuters.com",
+        "summary": "Wall Street off session lows as Trump's Iran deadline looms\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUndxdEZZYkw0UTcxeDlIdDFmU29YYVRRRFRxWG83Y3M5bmtYQUI1d1VYNXFYdGZfYjFhcHhiZXpYSElWcTJrazFUTi1YQVB0WUdnYm5xbkx0aUREV25zRDFfaVJHYXppbnpoTzRTclJjd3U5SzBVN2dqemVvX1VpWF9jQlVIamVzdmt3Yi1GYnB0WU02Nm9EQUMwbzJXWTE3TXRrcjBGQnBNcjlaUTJZ?oc=5",
+        "published_at": "2026-04-07T19:08:39Z"
+      },
+      {
+        "headline": "French nationals leave Iran after three and a half years amid softer France tone on war - reuters.com",
+        "summary": "French nationals leave Iran after three and a half years amid softer France tone on war\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVDVnSmFrbmhaQWF1WnlzdldxZHpycXZyb3NoYW1kUTlNa3c5RWJzVnpJMXN6SHBjOFRIcnZNZ0ZWc2VqRzZiT0J2RmFneDkyYXQyMk41RlU5eGE0eEZ3MlRacGFBNWQxUmliWmtUZV9vVUdBa2pfYkRmc2N2bHJpNlhfcTRZVFlSeTg4SDZYTFhhcFJIZkR5UWZyUVh3eTRhQ2JCaElMNTV4MzFY?oc=5",
+        "published_at": "2026-04-07T19:03:48Z"
+      },
+      {
+        "headline": "The strategy P&G calls its 'lifeblood' and why it's key to the stock's turnaround",
+        "summary": "It starts and ends with what P&G calls its \"lifeblood\": innovation. Here is what that means in practice.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/07/jim-cramer-investing-club-procter-gamble-innovation-strategy.html",
+        "published_at": "2026-04-07T19:03:28Z"
+      },
+      {
+        "headline": "French Foreign Minister Barrot hopes Trump does not go ahead with threat against Iran - reuters.com",
+        "summary": "French Foreign Minister Barrot hopes Trump does not go ahead with threat against Iran\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObnQtNFhCejRPWnVBZ1VPMzhZUUlhMGJ5c0VkSkMwWHNueURyWm1kUWtWbEtJZ0plLXBBdUkyc1VlREF1alRNV3NYVjlEVnZQWkJPaTJYQzlqSUVhemRQbHJPcVRfc3paTUlzNmZ6QUw0bGh2V3FfazlLc1ZXazVEazNXRDVsQ3hCLTZIVm9tRzJVSDRYLXNfbTN3SklHQXBqSlNHNkdaN096SzdMOW52QlVVRGJkMkM1aUVLVGZEVQ?oc=5",
+        "published_at": "2026-04-07T18:44:42Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 659.22,
+    "spy_change_pct": 0.044,
+    "spy_lean": "neutral",
+    "vix_close": 24.17,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "With hope for healing, women incarcerated on Cape Cod are writing their life stories",
+        "url": "https://ww...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:39.000Z",
+        "source": "wbur.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EMEA Private Debt (Mid - Market) - Nordic Language Speaking - Associate - London at BlackRock",
+        "url": "https://ca...(+119 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:21.000Z",
+        "source": "magazine...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Beyond the thread: NI\u00f1OfRANCO and Catriona Gray weave cultural pride",
+        "url": "https://tr...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:14.000Z",
+        "source": "tribune....(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Price Today: Bitcoin Near $70K, Ethereum at $2,050",
+        "url": "https://in...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:12.000Z",
+        "source": "industry...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Swift Fox and the Coyote Twins | Ep. 321",
+        "url": "https://ww...(+56 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:11.000Z",
+        "source": "wbur.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Gratuity Rules 2026: Calculation, Eligibility, and One-Year Rule Explained",
+        "url": "https://in...(+106 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:10.000Z",
+        "source": "industry...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FinTech Alliance PH names 2026 board",
+        "url": "https://tr...(+60 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:07.000Z",
+        "source": "tribune....(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Helium Air Bags Raises $2 Million to Push Smart, Cost-Efficient Cooling in India",
+        "url": "https://in...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:04.000Z",
+        "source": "industry...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ARC ICON 100 highlights Filipino architecture",
+        "url": "https://tr...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:04.000Z",
+        "source": "tribune....(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Valdez, Baron rally, climb PVL All-Star ranking",
+        "url": "https://tr...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-07T21:28:03.000Z",
+        "source": "tribune....(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
