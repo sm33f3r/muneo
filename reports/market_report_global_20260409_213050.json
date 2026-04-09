@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-09T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2533095424680.82,
+    "total_market_cap_change_24h_pct": 0.7889,
+    "total_volume_24h_usd": 89769564029.68,
+    "btc_dominance_pct": 57.1251,
+    "eth_dominance_pct": 10.5423,
+    "total2_usd": 1086062188348.78,
+    "total3_usd": 819015319728.18,
+    "active_cryptocurrencies": 17728,
+    "altcoin_season_index": 18,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 115.3212,
+        "price_usd": 0.682049,
+        "market_cap_usd": 163031776
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 26.6066,
+        "price_usd": 0.716963,
+        "market_cap_usd": 519730727
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 15.7902,
+        "price_usd": 377.97,
+        "market_cap_usd": 6310060196
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": 14.1634,
+        "price_usd": 37.24,
+        "market_cap_usd": 471615175
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 11.7924,
+        "price_usd": 7.61,
+        "market_cap_usd": 345384230
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -15.8477,
+        "price_usd": 0.184155,
+        "market_cap_usd": 184151156
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": -10.2931,
+        "price_usd": 84.82,
+        "market_cap_usd": 130957246
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -7.5503,
+        "price_usd": 0.079746,
+        "market_cap_usd": 276970348
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -5.2158,
+        "price_usd": 10.73,
+        "market_cap_usd": 210367346
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -5.1141,
+        "price_usd": 0.0103033,
+        "market_cap_usd": 583783080
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 72231,
+    "price_change_24h_pct": 0.7379,
+    "price_change_7d_pct": 7.7953,
+    "market_cap_usd": 1446644835784,
+    "volume_24h_usd": 37215924665,
+    "direction": "neutral",
+    "oi_usd": 6743080294.01,
+    "funding_rate_latest": -1.986e-05,
+    "funding_rate_7d_avg": 2.6244761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8875,
+    "long_account_pct": 47.02,
+    "short_account_pct": 52.98,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2210.93,
+    "price_change_24h_pct": -0.3574,
+    "price_change_7d_pct": 7.0565,
+    "market_cap_usd": 266894983607,
+    "volume_24h_usd": 16763759375,
+    "eth_btc_ratio": 0.030609,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95657315900.85,
+    "stablecoin_market_cap_usd": 315977452459.73,
+    "stablecoin_dominance_pct": 12.474
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 50,
+    "headlines": [
+      {
+        "headline": "Keir Starmer: 'I'm fed up' with Trump and Putin affecting UK energy costs",
+        "summary": "Iran effectively closed the Strait of Hormuz during the war with U.S. and Israel, creating an oil supply crunch and sending global energy prices soaring.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/09/keir-starmer-fed-up-trump-putin-uk-energy-costs.html",
+        "published_at": "2026-04-09T19:29:09Z"
+      },
+      {
+        "headline": "How married filing separately could affect Trump's tax breaks this season",
+        "summary": "The married filing separately status could affect eligibility for President Donald Trump's tax breaks this season. Here's what filers need to know.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/09/married-filing-separately-trumps-tax-breaks.html",
+        "published_at": "2026-04-09T19:25:59Z"
+      },
+      {
+        "headline": "UK's Starmer says Iran conflict shows Britain must take a new path - Reuters",
+        "summary": "UK's Starmer says Iran conflict shows Britain must take a new path\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTJIenV2el8xdGYwSWxGMTNZTThhbUlwVFdhY2EzUmlGOGk3RHBsOXdXeU1PdGZzeVk5Q0RBMFltZXFjdmx0UFRsckh5SGNfMGlwMUxuLUV0Mk9lc0V3RjhvRXp4OGdfNHotVHdyc1Q1eGduTy1rcHYzMm5IX25MMWE2UmNYSVRtZXVoOE4wSFFuR3JacUVNYnM5eTlHbUZyTFJ1QWsxZkd5WF9QNDZVcFJ3?oc=5",
+        "published_at": "2026-04-09T19:19:45Z"
+      },
+      {
+        "headline": "47% of college students have seriously considered changing majors due to AI: Survey",
+        "summary": "AI's potential impact on the job market is a major area of concern for college students.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/09/47percent-of-college-students-have-seriously-considered-changing-majors-due-to-ai-survey.html",
+        "published_at": "2026-04-09T19:07:13Z"
+      },
+      {
+        "headline": "US Republicans block bid to rein in Trump Iran war powers - Reuters",
+        "summary": "US Republicans block bid to rein in Trump Iran war powers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGRhQ1RvRUdRYUI5d25PdUxIbTAyVHBOWWJuNFlUM2UteTg5cU5Bdmg3OEk1NkNmQk9fTGFrS1FrWGhpTk5GVWhKTnVISHZVbGpJRVZteF9GOUQtUGhuenpIcGJlT3lGanpRNzdoMEhyMVJ0MGhZY3Fya2pFTlBCY2wyZ21CV1Uzc0s3ZUZDcW9uQ2ZyVmhYQzgxSWh5SWJEUjdGT2dMRQ?oc=5",
+        "published_at": "2026-04-09T18:47:37Z"
+      },
+      {
+        "headline": "Costco shares rise on impressive monthly sales. We still have one big question",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/09/costco-rises-on-impressive-monthly-sales-we-still-have-one-question.html",
+        "published_at": "2026-04-09T18:18:13Z"
+      },
+      {
+        "headline": "Iran war raises demand for US fuel, boosting Gulf Coast refining margins - Reuters",
+        "summary": "Iran war raises demand for US fuel, boosting Gulf Coast refining margins\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTkk1ZFlSTHFEUEU3M1pLMnA0MHB0VExuMURUUXNZLTBUak1ka2JDN2g0aTN1MnFqajIxN0MzaGRzWmpnMDRxSVprY2pkOEpzTm13ZTJnaGtKS0FTd25OWm5pN1lrdFo2bHhWX2pqWlRmVUJNVU4tSVJ2amZwUDdmX0FKMVJieWk0TUNfajZpNXd0UW82MElRWndwY3BrNl95Z0ZKOGljdGVhdERQc2I3TFF2NkE2MzZXb1dB?oc=5",
+        "published_at": "2026-04-09T18:17:40Z"
+      },
+      {
+        "headline": "Hormuz at near standstill as Iran warns ships to keep to its waters - Reuters",
+        "summary": "Hormuz at near standstill as Iran warns ships to keep to its waters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbTJQR3N1VWw2dXc3bm5YbUQ1NkQwakVtMHNkbUtjVWU1VDlRWTdiSHhVNndZQk1nd3RXZm5RdjJnNE1OMmRZaFhNeF9TaWc2V2lNX1lLMmM3R080RTRlaVBfajZMQ09QQWVvcnRwWDkzQmFCSEZOMjE4LU9LWkxtaHQ4MlY4UFZJRUU2R3lGcU5Tdm1jTEgzMWdfYW00UG5xRjhWcks0aGZEcWFsam1VYWZSS3JUNzJVaWdsbXh3MFRNWWhPaTVhcmJOVU1OZw?oc=5",
+        "published_at": "2026-04-09T18:08:02Z"
+      },
+      {
+        "headline": "Pakistan's high-stakes Iran peace bid is fraught with risk - Reuters",
+        "summary": "Pakistan's high-stakes Iran peace bid is fraught with risk\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZjBhZ0FXRkpGVEdDUG5IMTVNUmhUTjdVekR2UkV4dlg2NHN1dmpzZzJFZTZCZkZnWGd5YXc5Y1RlemFIemVwU1A4Mm1LZk9rLUhRUHN3b1ZWZFI1cjY3SFYtb3NSOGd5QnhvTDFtUVhQSUdtbWtUdDd6Qlc3cUY2YktRMnJIaUctSW9PUXBXMldGRnh2UnNELXVtSHJ0ZHdGZHEydzhIcDhxZEZSWEVmWnpn?oc=5",
+        "published_at": "2026-04-09T18:00:09Z"
+      },
+      {
+        "headline": "DOJ launches probe into NFL over media rights packages and antitrust concerns",
+        "summary": "The Department of Justice is raising concerns about the NFL's offerings across various platforms and affordability of consumers.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/09/doj-investigating-nfl-media-rights-antitrust.html",
+        "published_at": "2026-04-09T17:56:44Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 679.97,
+    "spy_change_pct": 0.5858,
+    "spy_lean": "bullish",
+    "vix_close": 21.04,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 46,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 6,
+    "negative_count": 0,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.6,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "We88 online casino in Malaysia overview. 1769 (2) | modabot",
+        "url": "http://www...(+58 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:55.000Z",
+        "source": "modabot....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Six Crypto Casino Platforms with Diverse Game Libraries in 2026 - Crypto Economy",
+        "url": "https://cr...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:46.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Highridge Medical Enters Exclusive Distribution Agreement for the Waypoint GPS Enabling Technology Platform \u2013 Ortho Spine News",
+        "url": "https://or...(+136 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:43.000Z",
+        "source": "orthospi...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Did City\u2019s $100M Favor to San Diego Unified Get It? A Stab in the Back",
+        "url": "https://ob...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:33.000Z",
+        "source": "obrag.or...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Orthofix Realigns Spine Leadership to Strengthen Focus and Execution \u2013 Ortho Spine News",
+        "url": "https://or...(+97 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:09.000Z",
+        "source": "orthospi...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Judge Rules Against City\u2019s Attempt to Throw Out Legal Challenge to San Diego\u2019s Trash Fee",
+        "url": "https://ob...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:07.000Z",
+        "source": "obrag.or...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BVB | Gaels Head to Stockton for Four Matches in Penultimate Week of the Regular Season - SMC California Athletics",
+        "url": "https://sm...(+134 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:04.000Z",
+        "source": "smcgaels...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bill Would Create \u2018State Surfing Reserves\u2019 in California",
+        "url": "https://ob...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:27:03.000Z",
+        "source": "obrag.or...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What is the Buzz Around Dexter and The Moonrocks Now?",
+        "url": "https://ra...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:24:23.000Z",
+        "source": "rainhill...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VFL and NFL Great Alvin Kamara Commits Large Philanthropic Gift To Tennessee Athletics - University of Tennessee Athletics",
+        "url": "https://ut...(+120 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-09T21:23:07.000Z",
+        "source": "utsports...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500"
+  ]
+}
