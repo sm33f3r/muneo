@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-13T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2556968341976.86,
+    "total_market_cap_change_24h_pct": 1.9888,
+    "total_volume_24h_usd": 105249160632.68,
+    "btc_dominance_pct": 57.2816,
+    "eth_dominance_pct": 10.6444,
+    "total2_usd": 1092294821510.57,
+    "total3_usd": 820121787255.97,
+    "active_cryptocurrencies": 17658,
+    "altcoin_season_index": 23,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 84.4036,
+        "price_usd": 10.77,
+        "market_cap_usd": 2693306902
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 61.4692,
+        "price_usd": 0.533373,
+        "market_cap_usd": 172470858
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 25.4342,
+        "price_usd": 0.220749,
+        "market_cap_usd": 220426471
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": 14.0231,
+        "price_usd": 98.46,
+        "market_cap_usd": 154118113
+      },
+      {
+        "symbol": "ATH",
+        "name": "Aethir",
+        "price_change_24h_pct": 13.4913,
+        "price_usd": 0.00648639,
+        "market_cap_usd": 124413536
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -10.4796,
+        "price_usd": 0.075654,
+        "market_cap_usd": 667300111
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -10.4127,
+        "price_usd": 7.52,
+        "market_cap_usd": 147165824
+      },
+      {
+        "symbol": "0G",
+        "name": "0G",
+        "price_change_24h_pct": -5.0865,
+        "price_usd": 0.585645,
+        "market_cap_usd": 124805359
+      },
+      {
+        "symbol": "IP",
+        "name": "Story",
+        "price_change_24h_pct": -4.5606,
+        "price_usd": 0.486145,
+        "market_cap_usd": 171590353
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price_change_24h_pct": -4.5297,
+        "price_usd": 1.19,
+        "market_cap_usd": 1988388571
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73170,
+    "price_change_24h_pct": 2.5975,
+    "price_change_7d_pct": 4.9508,
+    "market_cap_usd": 1464654461747,
+    "volume_24h_usd": 47196687270,
+    "direction": "bullish",
+    "oi_usd": 6819215343.75,
+    "funding_rate_latest": -5.409e-05,
+    "funding_rate_7d_avg": -5.629523809523809e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8932,
+    "long_account_pct": 47.18,
+    "short_account_pct": 52.82,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2254.74,
+    "price_change_24h_pct": 2.0509,
+    "price_change_7d_pct": 5.1384,
+    "market_cap_usd": 272200789547,
+    "volume_24h_usd": 18028833131,
+    "eth_btc_ratio": 0.030815,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96582095649.13,
+    "stablecoin_market_cap_usd": 317822564602.28,
+    "stablecoin_dominance_pct": 12.4297
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 51,
+    "headlines": [
+      {
+        "headline": "Pope says he will continue to speak out against war after Trump attack - Reuters",
+        "summary": "Pope says he will continue to speak out against war after Trump attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd2N1ZENvMVBLeGY2QTdJWUZsZHk0aDdCQlRmUmRhVjg3UWV2NURiU3I1eGhtcFZMRWlncF9ENmlrd3VaQ3Z4Ulc2TkRUQTJtbHo2YmtoTzNaRVFRV21KT0xiM1dzNmcyNFVJX2V4VUd3TV9hbzdycWc0ajRFWnRBMlVXSDVMNWdOTnpOWGFnV2NfUEgtMFg2OFVIdDNDOTNJcjhuUXJQSGU4SWhVa1E?oc=5",
+        "published_at": "2026-04-13T19:58:27Z"
+      },
+      {
+        "headline": "US details bounds of Hormuz blockade as at least two ships turn around - Reuters",
+        "summary": "US details bounds of Hormuz blockade as at least two ships turn around\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0szdHBSYkhSUGpQeEpwN2thWDdKdGI1ZkZhWmhkcjliLUhuWGJIbXpWdWhET2lyY0xZZG44LU1qYUhTdm5vTHBOUjNnZndIOWJXLW1aQy1fQzhKZEt6MXVwd2s3X2tBNEM5WC1ya2tjZG52cm5oODYzZWVXS3g5NlE5QWNjZFRDQjVxT01PQlI0clo0NjljeWwwNGw4MnRBaDdRZVRyLUhTelh4R1MwTEVFWQ?oc=5",
+        "published_at": "2026-04-13T19:41:31Z"
+      },
+      {
+        "headline": "Wall Street indexes gain as investors hold out hope for US-Iran resolution - Reuters",
+        "summary": "Wall Street indexes gain as investors hold out hope for US-Iran resolution\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnlHODRfWHZBSmRTd0hYTjBoVndLOTk4dm8tS1Q5WmVlQVZ5NEtoYU9wUFZKdXdMOXlYc0d4RU5jMEFyTUthSTZaMTlGMEJEaHdtNWh1YndGQnlRWjhQMnJzVmZFNTFhZ2FQX3JESzhxc1NaMXRiclVmNHlaZkIwT3dhWTJ6eFgtZ3ZQVDBZV2FoQ3RPWlRCbm5ZSDNSX2tqV0NjWE9EM0JLaENHRTNj?oc=5",
+        "published_at": "2026-04-13T18:55:59Z"
+      },
+      {
+        "headline": "The indicator guiding our next move as stocks shake off breakdown in peace talks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/13/the-indicator-guiding-our-next-move-as-stocks-shake-off-breakdown-in-peace-talks.html",
+        "published_at": "2026-04-13T18:44:16Z"
+      },
+      {
+        "headline": "Trump says Iran wants to make a deal - Reuters",
+        "summary": "Trump says Iran wants to make a deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMG1mVWtlWThDR1VQZWtfRHhPejY5QTdLOUI5VlN4UFlnRmVyODZNWm1BXzY1OUtBU0djcThrNXItNHB2OG9PdEtzRGZKeU8xSkZYOWdUc0ZhUWFpNU9YMmNiZWZuWUJNZjI5UXZ0MWhhdGN2Sm1MSDlmWDZVSFlPX1J1VjV5dHJTNDc3VnJR?oc=5",
+        "published_at": "2026-04-13T18:43:15Z"
+      },
+      {
+        "headline": "Trump says Iranian 'fast-attack' ships that come close to US 'blockade' will be eliminated - Reuters",
+        "summary": "Trump says Iranian 'fast-attack' ships that come close to US 'blockade' will be eliminated\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcUFhRWpjbmlzLTR5cU45RW05aEp2T1dTcXAxb3hrMm5PbzZoaUlKZUNqeGNFbENpQmdwNTB4dGQteWY2cVdRYkFsVHNldkZyOUVwbEhZa3EwV2IzSEt1M0p5T2NXOWFzd1JDdzdxUUR2SzZnNXlpVWpFNVR5TjdVZUZwRlF5WHo0NWZoUXlPNnloTHZCanZsb3FSbTZ3a3JtUjRlNlBMWXZfRWJRaGlZZVVPdDA2WkQ4dUdpVXFVMmd6c25R?oc=5",
+        "published_at": "2026-04-13T18:31:29Z"
+      },
+      {
+        "headline": "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
+        "summary": "The \"big beautiful bill\" introduced a tax provision that allows some workers to deduct the tips they earn. The IRS released the final rule on who qualifies.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/13/irs-tax-on-tips-big-beautiful-bill.html",
+        "published_at": "2026-04-13T18:21:24Z"
+      },
+      {
+        "headline": "Oracle pops 11%, leading bounce back rally in software stocks",
+        "summary": "Oracle has lost more than a fifth of its value this year on AI disruption concerns.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/13/oracle-orcl-stock-rally-software-ai-risk.html",
+        "published_at": "2026-04-13T17:58:02Z"
+      },
+      {
+        "headline": "LVMH reports sales hit from Iran war in blow to hopes for luxury revival - Reuters",
+        "summary": "LVMH reports sales hit from Iran war in blow to hopes for luxury revival\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2RrTlY2ejRkVFN3ZTU1OEI1Zk1uVGtIOGF2NEtRVnJwbmx0N1d4Y1R4LWVlQmhvVUVEdGJYVi1ydDNUQjlyVGtGWGwzS0FOa2RNX1QxQkhDc0NxLXI5R1pwNW9oWVlFNmlYcERucUcwTHQ1MzNuQUxmUjg2WGFwLWdPdnhpTDFON2V5LV8zYS1jczkzM1NWRGRCUmJwMG5CUEJpak5MOHZJaURQSTlzS213?oc=5",
+        "published_at": "2026-04-13T17:48:04Z"
+      },
+      {
+        "headline": "NATO allies refuse to join Trump's Iranian port blockade - Reuters",
+        "summary": "NATO allies refuse to join Trump's Iranian port blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVUt5eDRaWkRBTTAtbDVmZUFWVUVhcmR3WFVIRWZuemxyMzhYWVU2dVNvaXBhWjBMQTBPeFQzYjFJOElnZ2FvWldGMW9WcjhUZlBwODFBS1llajMyZHRvNENjSl8wYXRLVTA3ZFVNSk9rOUZDOHBlVjFtVGI0ek9vaGU5ZWo0Rl93NE9wUl9BeFVxM0Fxa0ROeHh0ZTZ0bk1YTkdpag?oc=5",
+        "published_at": "2026-04-13T16:47:20Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 686.03,
+    "spy_change_pct": 0.9669,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Where to Chow Down in Chattanooga | TNVacation",
+        "url": "https://ww...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:28:16.000Z",
+        "source": "tnvacati...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Slawburgers, Whiskey and a Good Time in Fayetteville, TN | TNVacation",
+        "url": "https://ww...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:28:15.000Z",
+        "source": "tnvacati...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Best Places to Take Holiday Family Photos in TN | TNVacation",
+        "url": "https://ww...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:27:43.000Z",
+        "source": "tnvacati...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Falcons Wrap Up Action at Kit Mayer Classic - Air Force Academy Athletics",
+        "url": "https://go...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:27:30.000Z",
+        "source": "goairfor...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Air Force Rallies To Defeat North Dakota 5-2 On Senior Day - Air Force Academy Athletics",
+        "url": "https://go...(+105 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:27:02.000Z",
+        "source": "goairfor...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Women\u2019s Tennis Downs Utah State 4-2 - Air Force Academy Athletics",
+        "url": "https://go...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:27:01.000Z",
+        "source": "goairfor...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Air Force Secures Series with Ten-Run Inning to Defeat Fresno State, 15-13 - Air Force Academy Athletics",
+        "url": "https://go...(+117 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:27:00.000Z",
+        "source": "goairfor...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Falcons Rally Past Fresno State, 10-5, to Complete Mountain West Sweep - Air Force Academy Athletics",
+        "url": "https://go...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:26:56.000Z",
+        "source": "goairfor...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Summer Ball 2026",
+        "url": "https://ww...(+37 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:26:48.000Z",
+        "source": "su.rhul....(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Four ways asphalt can be colorized for aesthetics and functionality - Asphalt magazine",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-13T21:26:11.000Z",
+        "source": "asphaltm...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
