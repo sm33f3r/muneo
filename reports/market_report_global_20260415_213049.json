@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-15T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2607985983595.11,
+    "total_market_cap_change_24h_pct": 0.6212,
+    "total_volume_24h_usd": 97293991525.67,
+    "btc_dominance_pct": 57.2916,
+    "eth_dominance_pct": 10.877,
+    "total2_usd": 1113828227454.05,
+    "total3_usd": 830157634412.68,
+    "active_cryptocurrencies": 17637,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "OM",
+        "name": "MANTRA [Old]",
+        "price_change_24h_pct": 426.0274,
+        "price_usd": 0.065876,
+        "market_cap_usd": 320574460
+      },
+      {
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "price_change_24h_pct": 59.509,
+        "price_usd": 0.089638,
+        "market_cap_usd": 172755899
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 19.8247,
+        "price_usd": 12.07,
+        "market_cap_usd": 564259640
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 16.9309,
+        "price_usd": 0.795281,
+        "market_cap_usd": 579887990
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 14.0703,
+        "price_usd": 0.109086,
+        "market_cap_usd": 199342833
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -24.7754,
+        "price_usd": 11.9,
+        "market_cap_usd": 2961306418
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -17.7122,
+        "price_usd": 7.38,
+        "market_cap_usd": 144707334
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -11.3637,
+        "price_usd": 0.06805,
+        "market_cap_usd": 581511397
+      },
+      {
+        "symbol": "GEKKO",
+        "name": "GEKKO",
+        "price_change_24h_pct": -5.2199,
+        "price_usd": 6.58969e-07,
+        "market_cap_usd": 131780828
+      },
+      {
+        "symbol": "ULTIMA",
+        "name": "Ultima",
+        "price_change_24h_pct": -4.6822,
+        "price_usd": 4156.96,
+        "market_cap_usd": 157045883
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74671,
+    "price_change_24h_pct": 0.7462,
+    "price_change_7d_pct": 4.7208,
+    "market_cap_usd": 1494184552360,
+    "volume_24h_usd": 40873938107,
+    "direction": "neutral",
+    "oi_usd": 7254713946.74,
+    "funding_rate_latest": -7.151e-05,
+    "funding_rate_7d_avg": -3.0542380952380955e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7957,
+    "long_account_pct": 44.31,
+    "short_account_pct": 55.69,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2353.56,
+    "price_change_24h_pct": 1.4135,
+    "price_change_7d_pct": 6.6019,
+    "market_cap_usd": 283930288755,
+    "volume_24h_usd": 15781726578,
+    "eth_btc_ratio": 0.031519,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 98314286368.09,
+    "stablecoin_market_cap_usd": 318216770607.48,
+    "stablecoin_dominance_pct": 12.2016
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 52,
+    "headlines": [
+      {
+        "headline": "S&P 500 closes at fresh record, recovering all losses since start of US-Iran war - Reuters",
+        "summary": "S&P 500 closes at fresh record, recovering all losses since start of US-Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR2NRdUlXMXp1NDdUYm9Ga0VkSlVjSVVhclU3Q0psVUE4ZDM4M3Y0Y0Zfdlc3OHdyT3NMZ1ZkUEtLaUtaMHZXZFJuc1k0V2VOV0NZSS1jSGdNelZCWHNMTVAxWXRTMnN3bVBreUFWeFFNdFVRcHZnTFBYVlJ6QVd0M2dJRHpfZkpycE0zWndocWNKOVpMTWNWY1hXWTJuMWM?oc=5",
+        "published_at": "2026-04-15T20:27:13Z"
+      },
+      {
+        "headline": "US Senate Republicans block latest bid to rein in Trump Iran war powers - Reuters",
+        "summary": "US Senate Republicans block latest bid to rein in Trump Iran war powers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjBWMHdBM1ZVMXZXX1c0ekt4ZXFrVG5INXBMYTgwV3dIN1lBc2RGQlh3Mm9VcjExM2c2QlNibE1Nc0JUNzh0eGNYSWhLTktDeEJyempmYmJpVlc4SFU4WE1MbF9lbUpoS0lkZG9OaXktbW41ZEhTQlpMUXQ5b2c0RVF3Ml9Ya0ltYWpDUHA1endIVW0tbllmTkpGMWg0cy13SEowcmJ5bHAwcWZheTE4Z0RTLTlsTUJZTGlFRg?oc=5",
+        "published_at": "2026-04-15T20:01:05Z"
+      },
+      {
+        "headline": "US optimistic of deal with Iran as it increases economic pressure - Reuters",
+        "summary": "US optimistic of deal with Iran as it increases economic pressure\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbGpCaU9NdC1EQ05JdmlTSzhYOHBBMllIclREbldIcDBYNi1sZmhQVHktOC1oWnBaNE43TWtIT29ZWE1BYXlzVWc3QjhvVEJHMmo0YTBjRUJBMmQ0ejloY05FakdvYk1NZXpBaExOeVBtSWV3WVVLNTdxYmhNbFlQNW04VzVXajJVNlZWS0hjbTN1NDlRWHd6Y3pwdzhmRURMM3hhYjlGLVctOEFoa1pRZzVlS2doRHdV?oc=5",
+        "published_at": "2026-04-15T19:56:06Z"
+      },
+      {
+        "headline": "US targets Iran's oil transportation infrastructure with sanctions - Reuters",
+        "summary": "US targets Iran's oil transportation infrastructure with sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdkVLU2x6LWQ5V3NfVmpCN0lVYmhqWjNJMUxKZ1l1YWNUTy15bnRIcVdXM1hKUVdiUDl2RFVXeU81MnJHREdlWnRPS3Z2YTQxOTdlQ2VyYUtuT2l2Y1lfcWVjTWNXTGFFa3g4SkIzRmdRS0xzallnOXVSMjhWMEx0N2tsbEx3TFRHWUJWNlRISlJVU1RvckR0eUJUVGVTUnJkX0U5MUpwemhRQVhGYmpKUlhjeWFTVGs?oc=5",
+        "published_at": "2026-04-15T19:13:37Z"
+      },
+      {
+        "headline": "US probes suspicious oil trades made before Trump Iran pivots, source says - Reuters",
+        "summary": "US probes suspicious oil trades made before Trump Iran pivots, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObEFvSkkyTHhwcFNwbTkyQW41S0hJRDFlZko1VTVEY09SNU1MYnFQYVczUXVHWk4zMnExT08yb0hYRi1GanB1azdIQ284NkpOLWlnLXpqa0NheWpILUxibzhCLXdWWW9RTlZTY2czdnotaUYwS3J5QjNJYWVQWF9aZzhrNU1YUTBjWU85SzB3TnAybDJhQzZnaGxzXzlnRmlMYnJLRFZUU3JDX3hWcDRNSlFxc3I1SEVXN2xXS0VwM0lxUGc?oc=5",
+        "published_at": "2026-04-15T19:01:19Z"
+      },
+      {
+        "headline": "For cruise lines, Iran conflict and oil prices threaten to dent profits",
+        "summary": "Even as the industry navigates choppy seas, cruise companies are looking for their next avenues for growth.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/15/iran-conflict-oil-prices-cruise-lines.html",
+        "published_at": "2026-04-15T18:43:04Z"
+      },
+      {
+        "headline": "Exclusive: Iran offers proposal allowing ships to exit Oman side of Hormuz free of attack, source says - Reuters",
+        "summary": "Exclusive: Iran offers proposal allowing ships to exit Oman side of Hormuz free of attack, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOelhWMXh6eHhoaTFxUEMxS3RGR2lOeTl0MkZWMXJjWWxWaDUyUWlUZVE0WE9pMUozQngyekJNLWlMRTJSVVhPcWNpWmpxeG5SRVRLT3UzUkpfTVFRYmx1d29jQWowUjVrQ05odWpxSmVTY2RKVjNyRjRmZndiZ2NzYjNzNXZsNExWYU14MlNyRHZURXZEWFV1M2ljaG5hTW1uSTk1QndhS0JOekxMSHI0aDZWYVM2YUpaRE9jU1FqZnpza21PcjZSR0RR?oc=5",
+        "published_at": "2026-04-15T18:40:22Z"
+      },
+      {
+        "headline": "Kremlin says US has rejected its proposal that Russia take Iranian uranium stocks - Reuters",
+        "summary": "Kremlin says US has rejected its proposal that Russia take Iranian uranium stocks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU0ZSZktxQ3pWTTZCaUs1dWlvNDBaVm1uYXdvYjlWVnZERFRHY2dBX01sVGg5RVZRMktwZFpOelcxY2lPRkZpa0I1VnVlRVdsd2lRMmZxQlBySUFTVjZJVGNTa0Q0RTRwZmJsLTZjOUlrLUFEMlg3c00xX3RuSGdLTE93cUZQdGFTNXVFSnFITjFFeXBBeVlGV2kzcXNmUDVmSEt4bWVJYlFFR1hBYXVZRWZzMnBJS0NDQmhsVDlGdlNMbkg0bVZN?oc=5",
+        "published_at": "2026-04-15T18:02:56Z"
+      },
+      {
+        "headline": "Iran can go up to two months without oil exports before cutting output, analysts say - Reuters",
+        "summary": "Iran can go up to two months without oil exports before cutting output, analysts say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQnhPTDc2bkJPaXBGQ1VJb0JycWE0VzJSOTNERnlaYmtmbjBkZldRR1RWSW9ockdCUnl3UFptZWxRLTlReGl6cjJFQUZNWU4xZXlyVVRTenJFMGFGNVpVQ3ZmMkV3RXFfeU5ZakZjbU9OcmRBYnR1TWtFd2RKT01JTENERkhJOERyYlktVDN1bWdoT3dqTUtHd21OSW9vUzNNVGhJVXIzbmVJckRFUGFqY2NIaUVKdkZBQ2oyRDBiYzQyM2lwNExhaG5tRkk?oc=5",
+        "published_at": "2026-04-15T17:04:34Z"
+      },
+      {
+        "headline": "US import prices increase below expectations; sharp rise anticipated due to Iran war - Reuters",
+        "summary": "US import prices increase below expectations; sharp rise anticipated due to Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSXY4M2hFTFh4SS1kbGMyTUhuM3JZLWJQbTdkemlkNHVvOXA1QWYyRmh6V0NLcTRZWURPV213Wl9zalhhV01wRnBQZ0Rsa1pfY2kza1pCZTNRdDFTekJsVGZST0tJWTYwRkg0U01oTUJ2aWswLS14X0FOVV9pMWVTa1N5U3UtUW1USGlBdE00N0xvNTZHMUE1aXVaZV9Ndw?oc=5",
+        "published_at": "2026-04-15T16:19:27Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 699.89,
+    "spy_change_pct": 0.7819,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 55,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 0,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm",
+        "url": "https://si...(+63 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:28:11.000Z",
+        "source": "sifted.e...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Custom Beanies for Businesses: A Smart Branding Strategy | evere",
+        "url": "https://ev...(+65 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:27:35.000Z",
+        "source": "socialbe...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Falcons Vega, Stallions Lyra advances in Game Changers SEA Split 1",
+        "url": "https://te...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:27:22.000Z",
+        "source": "technolo...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The latest Roblox Paradox Codes to become the strongest in this Bleach-inspired experience | Inquirer Technology",
+        "url": "https://te...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:27:18.000Z",
+        "source": "technolo...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Indonesia to implement e-cigarette regulation in July",
+        "url": "https://en...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:25:58.000Z",
+        "source": "beautynu...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Made In Minnesota Expo Returns To Rivers Edge Convention Center In November",
+        "url": "https://wj...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:23:42.000Z",
+        "source": "wjon.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Our Favorite Canned THC Drinks to Celebrate 4/20",
+        "url": "https://ww...(+46 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:23:41.000Z",
+        "source": "kosmonau...(+19 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.33
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EuroLeague Weekly Dose: Week 27 \u2013 SportsEthos",
+        "url": "https://sp...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:23:39.000Z",
+        "source": "sportset...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Earth Day Marathon Highlights Weekend Activities in St. Cloud",
+        "url": "https://wj...(+30 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:23:38.000Z",
+        "source": "wjon.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "euNetworks named as connectivity partner for the AWS European Sovereign Cloud",
+        "url": "https://ne...(+114 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-15T21:23:19.000Z",
+        "source": "newswire...(+21 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
