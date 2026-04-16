@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-16T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2633326380635.69,
+    "total_market_cap_change_24h_pct": 0.7555,
+    "total_volume_24h_usd": 121453152350.65,
+    "btc_dominance_pct": 56.9586,
+    "eth_dominance_pct": 10.7351,
+    "total2_usd": 1133421217941.17,
+    "total3_usd": 850730228265.06,
+    "active_cryptocurrencies": 17617,
+    "altcoin_season_index": 33,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ORDI",
+        "name": "ORDI",
+        "price_change_24h_pct": 113.8415,
+        "price_usd": 6.96,
+        "market_cap_usd": 146012976
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 101.2322,
+        "price_usd": 1.6,
+        "market_cap_usd": 1182876793
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 38.3494,
+        "price_usd": 16.44,
+        "market_cap_usd": 4086995696
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 33.0254,
+        "price_usd": 0.160051,
+        "market_cap_usd": 159602135
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 31.0211,
+        "price_usd": 3.71,
+        "market_cap_usd": 6531350498
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "price_change_24h_pct": -16.0139,
+        "price_usd": 0.075526,
+        "market_cap_usd": 147511246
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -10.2895,
+        "price_usd": 0.324153,
+        "market_cap_usd": 322427086
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -8.1407,
+        "price_usd": 11.08,
+        "market_cap_usd": 518259960
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -4.4211,
+        "price_usd": 0.064984,
+        "market_cap_usd": 555915586
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -3.2536,
+        "price_usd": 8.46,
+        "market_cap_usd": 385859405
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74923,
+    "price_change_24h_pct": 0.3364,
+    "price_change_7d_pct": 3.959,
+    "market_cap_usd": 1499531468547,
+    "volume_24h_usd": 44763223922,
+    "direction": "neutral",
+    "oi_usd": 7321923749.39,
+    "funding_rate_latest": -2.225e-05,
+    "funding_rate_7d_avg": -3.606142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7446,
+    "long_account_pct": 42.68,
+    "short_account_pct": 57.32,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2340.86,
+    "price_change_24h_pct": -0.5391,
+    "price_change_7d_pct": 5.5979,
+    "market_cap_usd": 282494772445,
+    "volume_24h_usd": 20367582765,
+    "eth_btc_ratio": 0.031244,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 98017062244.24,
+    "stablecoin_market_cap_usd": 318903612688.55,
+    "stablecoin_dominance_pct": 12.1103
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 51,
+    "headlines": [
+      {
+        "headline": "Exclusive: US to delay weapons deliveries to some European countries due to Iran war, sources say - Reuters",
+        "summary": "Exclusive: US to delay weapons deliveries to some European countries due to Iran war, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNekhrWUgwUjRtSHRUYWxHTXBDeVZIaERrNEtMMGhqcGoxUFlEWUVGWXdmWElMbVdMQmU4Y3ZycEx1SnB5LWpGYmhwZmN3ZndHMVZNWW8zYWVMaU9ieGhnVjR2NWZ4VnkwS3dpRXBHcWI0Z012WWd0R1hkdmRuaUs4aGIwWktTTVhUNm5OcUlmMndxZW8wWTE2aWFkUnhaOGk1MmNvaEJRNFBwcUFiVGJWT1pSekNTRndqajRhaThTcnJzMm4wa0NESE5ybHRhQQ?oc=5",
+        "published_at": "2026-04-16T20:31:41Z"
+      },
+      {
+        "headline": "Trump says it is important for Pope to understand Iran is a global threat - Reuters",
+        "summary": "Trump says it is important for Pope to understand Iran is a global threat\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOEtjU25EWDRhYlRBSEJuelprSWEycGxrZEJLU3QzS1RCZzlzQm1nTnNldHI2SUQwbjFrSzJMVWRuaFM1VXF1anVWX1pna2JKc0dmYU9RbGs0YTNNQ19kUGt0SXR2MDhFVUpOek9jd2pUQXlHTXY0STE0eVRjNXcxQ0c3SFVJc0tNQnlmbEUyYW5aM0hyN09VM1BJcWNFQk54NzR0SzVqcG9FbzlfWlJiZkNGMTFBYWNhU0d0NlRn?oc=5",
+        "published_at": "2026-04-16T19:26:50Z"
+      },
+      {
+        "headline": "Trump says he may go to Islamabad if Iran deal reached - Reuters",
+        "summary": "Trump says he may go to Islamabad if Iran deal reached\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzIzTU5vTTBXZ1JfQU9ZVTlleGxaZHZNQXd1WWp1LUFIZHJtTFN5VmlGOEVOYV8zcmNYQnBZS045Sy02dmlybS1uUkFWSjNhU2ZsWk1qUnZlRXVUYnZMSVFWRVNHUFVLMW9Ic1l6S01wTjlLN25GOHdWZXNES2RrT20xaXB3cTZ5NWN6dWk5cVR3OUhUOVd0NjBIOV8wbm1nU3N2S1ZXVHpic2Z6QnlMM012U1E?oc=5",
+        "published_at": "2026-04-16T18:43:48Z"
+      },
+      {
+        "headline": "G7 finance leaders ready to act to mitigate Iran war fallout, Lescure says - Reuters",
+        "summary": "G7 finance leaders ready to act to mitigate Iran war fallout, Lescure says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGppVTFnSXVsdTk0MFZXdXptWWE5RVBUcHdrSEtDUWJjcmFBcmJ1VkRYRHVPc1BnTFJ2N05XZHRNZWNNZWFDekcyT1BzVUpPdTZ3MXJ2eDFIM1N1dWtEVFdiM1hvc01NT0Q4NzZ4NHhKZ0RDN1FDN1N4LVZKMUh5NTk3dzUtdlk4X2JYejlKc0pmT2NkdnppcU56aHp3elVQVFhMVFZBMHhoZEcwcVhmY2lEd3RPQQ?oc=5",
+        "published_at": "2026-04-16T18:34:09Z"
+      },
+      {
+        "headline": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
+        "summary": "Linking Gemini directly to a user's photo library represents a bigger step in the AI chatbot link to private information.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/16/google-photo-gemini-chatbot-nano-banana.html",
+        "published_at": "2026-04-16T17:59:34Z"
+      },
+      {
+        "headline": "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
+        "summary": "Sen. Elizabeth Warren, D-Mass., is calling attention to potential issues in the Fed chair nominee's financial disclosures.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/16/fed-kevin-warsh-elizabeth-warren-financial-disclosures.html",
+        "published_at": "2026-04-16T17:57:43Z"
+      },
+      {
+        "headline": "'You're an idiot': Apollo's Marc Rowan has a word for lenders who can't meet private credit fund redemptions",
+        "summary": "As private credit market fears lead to rising redemption requests, Apollo Global billionaire CEO Marc Rowan has harsh words for lending peers and investors.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/16/apollo-global-marc-rowan-private-credit-funds-redemptions.html",
+        "published_at": "2026-04-16T17:27:17Z"
+      },
+      {
+        "headline": "Hegseth invokes Bible to compare reporters to enemies of Jesus - Reuters",
+        "summary": "Hegseth invokes Bible to compare reporters to enemies of Jesus\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEJ4d3VoRVdnOFRQdHoyV1M5Nld3YTNpaUR4T3p0UnhTTTA4TU1sS1Jkd3BrT29USVZaWndlTUY2QkJvNmFIUzZuZEJhU0tGT0V2NmJEVTM5YlIyUEszWlVMQ2VubnlSZVZQX0ZBQnRzalBjZmMySXNsZVRpbEN6Wl93T2R4Z3dMUF82VF9RQUR4YzV4RjhybDYtV2VsdDd4YzhOam1qckVINzZfOVFPRVBR?oc=5",
+        "published_at": "2026-04-16T17:01:20Z"
+      },
+      {
+        "headline": "Iran war clouds Europe Inc outlook as earnings season gives first glimpse of impact - Reuters",
+        "summary": "Iran war clouds Europe Inc outlook as earnings season gives first glimpse of impact\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQi1JRERoWEhlaDBDYmVvUVF4dnNmTTh0bWFhQUJwNzFaT3V2bWwyeWxfMkJ0aXJNQkI2ZXdjeU1VeXRpei1ZU0FuMFR6UVdiT3N2SHVFWmhGRm5oeUFaUlB2b2hzcW9hY2c4YUQwYWJQSE9TWVg3eUJtQktVMWF3cTAxUGJfY1A5eHpsSnhsenRLYXN6dHNOdmtsQjhrcDF2anNHMmJIdkh1bzZUaTRBc2YxT19uY1U?oc=5",
+        "published_at": "2026-04-16T17:00:09Z"
+      },
+      {
+        "headline": "US House Republicans block latest bid to rein in Trump Iran war powers - Reuters",
+        "summary": "US House Republicans block latest bid to rein in Trump Iran war powers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX20zWlRGV0tGNjgxdkM1V2tqcmRFckt5ZWhVWHJEQlFQSk55ZUNBcWZlVjJxZ3hkRUNfQWxKYk1SNktvZUpwQXpMZ0pfbUVFQnZqQTRSZkkwNmY5bzRXOG5pM0ZMX1RJWmE4c29nS1AyZUktVmNqSHNHY3dBcWF4c0lJR2laRGhZRk9Ecng4dm0wUlFXeGRsWG5DVXZTRmpoRy03Zm92WWR4NlFkanc?oc=5",
+        "published_at": "2026-04-16T16:38:27Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 701.54,
+    "spy_change_pct": 0.2286,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 1,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Overall Winners 2026 | World Photography Organisation",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:28:12.000Z",
+        "source": "tuudor.f...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sony World Photography Awards 2026: Overall winners announced | World Photography Organisation",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:28:11.000Z",
+        "source": "tuudor.f...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MVHS student and teacher-led bands trace their roots",
+        "url": "https://el...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:27:34.000Z",
+        "source": "elestoqu...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XAVIAN LA BOEMA \u2014 A TRIBUTE TO THE CZECH REPUBLIC \u2013 Ultimate High-Fidelity",
+        "url": "https://ww...(+68 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:46.000Z",
+        "source": "monoands...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FilmWatch Weekly: \u2018The Christophers,\u2019 \u2018Lorne,\u2019 \u2018Normal,\u2019 and a whole lot more \u2022 Oregon ArtsWatch",
+        "url": "https://ww...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:27.000Z",
+        "source": "orartswa...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Did Meghan Trainor Just Cancel Concerts in Philly & NYC?",
+        "url": "https://wp...(+36 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:22.000Z",
+        "source": "sasknow....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Rejection Sensitive Dysphoria: The Iceberg Under the Surface",
+        "url": "https://ww...(+116 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:17.000Z",
+        "source": "Psycholo...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EUROPEAN TASK FORCE FOR LEBANON (ETFL) | Association of Accredited Public Policy Advocates to the European Union",
+        "url": "https://ww...(+43 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:16.000Z",
+        "source": "aalep.eu...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chesterfield FC agree partnership with Maltese FA | Chesterfield FC",
+        "url": "https://ch...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:15.000Z",
+        "source": "chesterf...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What's next for Chief Resident Dr. Adam Koraym?",
+        "url": "https://ww...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T21:26:07.000Z",
+        "source": "medicine...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 0,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
