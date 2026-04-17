@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-17T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2704285005833.14,
+    "total_market_cap_change_24h_pct": 2.7367,
+    "total_volume_24h_usd": 140950170950.79,
+    "btc_dominance_pct": 57.3636,
+    "eth_dominance_pct": 10.8617,
+    "total2_usd": 1153010783976.18,
+    "total3_usd": 859280574120.29,
+    "active_cryptocurrencies": 17609,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 32.9471,
+        "price_usd": 21.69,
+        "market_cap_usd": 5381409426
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 21.9247,
+        "price_usd": 0.395612,
+        "market_cap_usd": 393567922
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 19.7715,
+        "price_usd": 0.135905,
+        "market_cap_usd": 248032487
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 18.6353,
+        "price_usd": 0.084284,
+        "market_cap_usd": 176821012
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 17.5366,
+        "price_usd": 0.133683,
+        "market_cap_usd": 1172647854
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -60.3325,
+        "price_usd": 0.653316,
+        "market_cap_usd": 474850982
+      },
+      {
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "price_change_24h_pct": -16.2743,
+        "price_usd": 0.063324,
+        "market_cap_usd": 123771926
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -11.3683,
+        "price_usd": 0.01091941,
+        "market_cap_usd": 621993882
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -9.3241,
+        "price_usd": 0.286911,
+        "market_cap_usd": 940051428
+      },
+      {
+        "symbol": "LUX",
+        "name": "Luxxcoin",
+        "price_change_24h_pct": -7.8034,
+        "price_usd": 0.00129193,
+        "market_cap_usd": 129237201
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77448,
+    "price_change_24h_pct": 3.3392,
+    "price_change_7d_pct": 5.7422,
+    "market_cap_usd": 1549996277057,
+    "volume_24h_usd": 60406312456,
+    "direction": "bullish",
+    "oi_usd": 8309224295.23,
+    "funding_rate_latest": -0.00010789,
+    "funding_rate_7d_avg": -3.862952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.5992,
+    "long_account_pct": 37.47,
+    "short_account_pct": 62.53,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2430.2,
+    "price_change_24h_pct": 3.7818,
+    "price_change_7d_pct": 7.7979,
+    "market_cap_usd": 293404367675,
+    "volume_24h_usd": 24624573585,
+    "eth_btc_ratio": 0.031378,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 100317600334.12,
+    "stablecoin_market_cap_usd": 319542813916.79,
+    "stablecoin_dominance_pct": 11.8162
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 44,
+    "headlines": [
+      {
+        "headline": "How 50 days of the Iran war led to the loss of $50 billion worth of oil - Reuters",
+        "summary": "How 50 days of the Iran war led to the loss of $50 billion worth of oil\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOekdYZjBPOUt4UEN4MUpmR2FOTEM0dk5fUlRNTEtuOVNNbW9EQmFPR0xfdWQwRkFWZ2ZYZktkTVo0bmx2WjAyWW9Ec1RhRTBERHFQOTBCWVhGc1B5c2hzN0MwOWd3Wko3SS1fX2NUTDdneUpxOXdZS3d6LTFVZHd5eXNRMUxFS2loNmNUSmdTX0VSTGxIN1NIQkx5NVZ5N2k4aFU3TA?oc=5",
+        "published_at": "2026-04-17T20:17:36Z"
+      },
+      {
+        "headline": "Banks weathered the storm of the Iran war. How did they do it and can they keep doing it?",
+        "summary": "Bank earnings confirmed one thing this week: The Iran war may be a geopolitical upheaval, but not a financial one. At least not yet.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/17/banks-weathered-the-iran-war-how-did-they-do-it-and-can-they-keep-doing-it.html",
+        "published_at": "2026-04-17T19:52:58Z"
+      },
+      {
+        "headline": "US to recover uranium from Iran at a 'leisurely pace', Trump tells Reuters - Reuters",
+        "summary": "US to recover uranium from Iran at a 'leisurely pace', Trump tells Reuters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVFpeDIwQ1plZkRnNkRFcnczSUhhbVMzNHpSYUhpaFdwVHNsYlk1V2tyMldzVE1vSUNMUGtOamZxTXhBM0NMdDRGbGJqR0xXSklZMTJ1VlhlNnRLS2lqaXhFTXpRX25qSTZpM0VLT3luSGRGYlhXcnJDbG5zUlJUS1NJNEM5d3JMX25WR1ZKcDJ5QkdyenRoSDUxMVNNUQ?oc=5",
+        "published_at": "2026-04-17T19:48:37Z"
+      },
+      {
+        "headline": "Wall Street indexes rally after Iran says Strait of Hormuz 'completely open' - Reuters",
+        "summary": "Wall Street indexes rally after Iran says Strait of Hormuz 'completely open'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmVUZzZ0d0gwanlQYnNiN0xkNjdKOF9zOHU2WWMyUnV1NDZHRHFuU09KNlZMRGpwWGZ1RjBsRklTS1hzRVlZY0dVeV9MQmdJTUttS01ZRzlYVDNsbmlBM0E2OVQ3NE0yUUF1ODhtZmdIaVhfaDR1UUJNVXZwcFpCUG00X2NrQkJGQVptRDBfVHdPQ25USGR4NjJGQVdGbjVDR0ZmVGJXeXI3Q19PdG9DQXZzR0xyRkVrMHIyM0E2OVM?oc=5",
+        "published_at": "2026-04-17T19:24:28Z"
+      },
+      {
+        "headline": "Here's what we like about our two newest additions to the Bullpen watchlist",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/17/heres-what-we-like-about-our-two-newest-additions-to-the-bullpen-watchlist.html",
+        "published_at": "2026-04-17T18:13:55Z"
+      },
+      {
+        "headline": "Significant differences remain between Iran-US, including on nuclear issues, senior Iranian official says - Reuters",
+        "summary": "Significant differences remain between Iran-US, including on nuclear issues, senior Iranian official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZjhKLUd1Q09BWUd2cXZxTzVJekR4ZmhqVXg2d0VZTnpacnJ2ODRBUGR6aG5ZaWFZVFpaZ2x4UGFxWjdvTlU0UUdrdWlsN3JDVFQtQnBtdXJ2clZmaUxLSVp4V00tZmkwNm1pZ3l2X1F4TXFUTUdzaHpReWk2MEdEZTNFVnFuVmFjcVpMQWN2RFB2VFRHYlFDeFg0VE1kUXFPLWtWVElWRjZPYzJGLXBRTDNhbWI1YXZqUlBzMjk4eHRoX21pY2gxb3pDX0t5Zw?oc=5",
+        "published_at": "2026-04-17T17:50:33Z"
+      },
+      {
+        "headline": "US buyers redirect imported fertilizer overseas as Iran war drives up global prices - Reuters",
+        "summary": "US buyers redirect imported fertilizer overseas as Iran war drives up global prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNGg2TVROVFIxSFFZZWNId2xvWVdRdGxOcVRWR0xBQlVMVDE4Z19UODlrR096OHk1eHhtb1Q1SFIwVDVFaWVQWnUycVE0Qkc4MVl3V3AyS0hJTDM1eTJTXzRIYzJxMXlUak5BVkZrVk5RQ1MtRWxqN1I2MlQ0R0tJZTRGNmZWWlM1QVdER25ramplSGltTWFPZm1OX3cyUmlOY25aalp5WjVJQW8tRTlaTmpVUjZtU3NhZmpDaC1LbFlBREU?oc=5",
+        "published_at": "2026-04-17T17:23:43Z"
+      },
+      {
+        "headline": "Exclusive: EU to push for jet fuel diversification as Iran war threatens supply - Reuters",
+        "summary": "Exclusive: EU to push for jet fuel diversification as Iran war threatens supply\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM3lkWXJWczd6MEVxdWJxZHdFeG1fTWpMNHV3eVhiSTZsYTNBT0ctS2Zuc0xRY29aaGx4NEJSY2dnN0hoSVhzcHpGVjRuam5CTXNDX0JuWmJRazJfTWNQYWRfT3ZTZ3JBYllsZVhOMGR2STREVzBfcThGREZOX2hfeDB3ckEwcWY3YU1UNkxqWTJDckkxeGVURWliU1JuQU5RM3VuQWk2UGY2WWVDak9YZHAxdGNYWlZXdXZSbGRCM25RQQ?oc=5",
+        "published_at": "2026-04-17T17:05:00Z"
+      },
+      {
+        "headline": "Ships crossing Hormuz need OK from IRGC, unfreezing funds part of deal, Iran official says - Reuters",
+        "summary": "Ships crossing Hormuz need OK from IRGC, unfreezing funds part of deal, Iran official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVjA0VDdEb1VnMjRYRmZ3NU1RSlFUZWZkTkpWN3lFdjlGeThabzEwY0ZzZGtqZm84ZTdSV2pQdkhJb1JOMkFfY29Pbm12MFV1MV8zNV93NmxVdEg2Y0RVTXd4Q0lMb0dJM0VBbHpSVHFNb3FudTFTTzF6WGNVc0FXUUlfbmt1cWF6amZRRVd0QWJodkVYREw5VTRkZkFaX0ozU3MtaWYyNDdYT2dVRTVOSERTTUpvZHBhYWV0UWdvaVR2TlI0SnlyNUNB?oc=5",
+        "published_at": "2026-04-17T17:01:32Z"
+      },
+      {
+        "headline": "Jim Cramer says investors will soon 'gravitate' back to this megacap stock",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/17/cramer-says-investors-will-soon-gravitate-back-to-this-megacap-stock.html",
+        "published_at": "2026-04-17T16:57:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 710.05,
+    "spy_change_pct": 1.1957,
+    "spy_lean": "bullish",
+    "vix_close": 17.94,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 63,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 2,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "URC Round 15 Team Announcements",
+        "url": "https://ww...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:27:01.000Z",
+        "source": "unitedru...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gemma Collins 'quits' I'm A Celebrity without hesitation after Harry Redknapp's clever prank",
+        "url": "https://ww...(+117 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:25:59.000Z",
+        "source": "entertai...(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Examining stress Tolerance and Self-Efficacy in Soldiers",
+        "url": "https://ds...(+36 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:25:46.000Z",
+        "source": "csdm-asi...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$311 Million Approved for New UT College of Medicine Building",
+        "url": "https://ti...(+18 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:23:07.000Z",
+        "source": "knoxvill...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Leading Through the Polycrisis: Security, AI, and the Rise of the Polymath CEO | DisrupTV Ep. 435",
+        "url": "https://ww...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:23:06.000Z",
+        "source": "constell...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "TN employers shed 9,200 jobs in February",
+        "url": "https://ti...(+18 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:23:06.000Z",
+        "source": "knoxvill...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fire ignited by Stalin scorched Delhi, severe blow to Modi, says Stalin",
+        "url": "https://ww...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:22:15.000Z",
+        "source": "newsdrum...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.2
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Power tariffs under BESCOM to rise from May 1",
+        "url": "https://ww...(+77 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:21:56.000Z",
+        "source": "newsdrum...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Police Report - 4/18/26",
+        "url": "https://ww...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:21:42.000Z",
+        "source": "statesbo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Domestic help, accomplices hold family hostage in Delhi's Golf Links, flee with jewellery worth Rs 25 lakh",
+        "url": "https://ww...(+135 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-17T21:21:41.000Z",
+        "source": "newsdrum...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 6,
+    "bearish_count": 0,
+    "neutral_count": 6,
+    "overall_lean": "slight_bullish",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
