@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-20T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2639165776257.01,
+    "total_market_cap_change_24h_pct": 1.6412,
+    "total_volume_24h_usd": 118246790944.38,
+    "btc_dominance_pct": 57.6236,
+    "eth_dominance_pct": 10.6315,
+    "total2_usd": 1118384353650.6,
+    "total3_usd": 837801608293.13,
+    "active_cryptocurrencies": 17567,
+    "altcoin_season_index": 22,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 23.8921,
+        "price_usd": 0.00038842,
+        "market_cap_usd": 163319311
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 14.786,
+        "price_usd": 0.04765331,
+        "market_cap_usd": 491513179
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": 8.9782,
+        "price_usd": 0.107666,
+        "market_cap_usd": 160916942
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 8.8601,
+        "price_usd": 0.146453,
+        "market_cap_usd": 146124258
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 8.5939,
+        "price_usd": 1.4,
+        "market_cap_usd": 488515384
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -27.098,
+        "price_usd": 1.009,
+        "market_cap_usd": 229959581
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -12.6127,
+        "price_usd": 0.160084,
+        "market_cap_usd": 159786953
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -11.2698,
+        "price_usd": 0.092962,
+        "market_cap_usd": 195219387
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -11.0668,
+        "price_usd": 0.570621,
+        "market_cap_usd": 191749923
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -10.7212,
+        "price_usd": 13.96,
+        "market_cap_usd": 652760692
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75960,
+    "price_change_24h_pct": 1.5935,
+    "price_change_7d_pct": 3.7665,
+    "market_cap_usd": 1520526233467,
+    "volume_24h_usd": 49657656081,
+    "direction": "bullish",
+    "oi_usd": 7097546226.24,
+    "funding_rate_latest": -2.745e-05,
+    "funding_rate_7d_avg": -4.8997142857142855e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8302,
+    "long_account_pct": 45.36,
+    "short_account_pct": 54.64,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2320.97,
+    "price_change_24h_pct": 1.4896,
+    "price_change_7d_pct": 2.9682,
+    "market_cap_usd": 280072259313,
+    "volume_24h_usd": 22196141812,
+    "eth_btc_ratio": 0.030555,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86061327305.82,
+    "stablecoin_market_cap_usd": 319143412604.21,
+    "stablecoin_dominance_pct": 12.0926
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 48,
+    "headlines": [
+      {
+        "headline": "Wall Street closes slightly down on renewed tensions between US, Iran - Reuters",
+        "summary": "Wall Street closes slightly down on renewed tensions between US, Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMjU2TlFwQnBjVlAzdFJFUENydUg2ZmFkc3dtVnRtOHhfZDVKNkN6SnZzdE9iOG45Mm01UUJnbVU4RHFjNUFZMVlicFZwMks0OTNOMDFiQWZfM3BfZm1tSVNRakg4ZWh6REtwNVRIQ1NLOGhSMDA5VE5nM3FGRTFkXy14Q09HZ0VNc0ZuQVNPRmZ3TE14UkhvbnNJTmliTlR4RWVn?oc=5",
+        "published_at": "2026-04-20T20:18:27Z"
+      },
+      {
+        "headline": "Gulf worries US-Iran talks may cement Tehran's 'golden' grip on Hormuz - Reuters",
+        "summary": "Gulf worries US-Iran talks may cement Tehran's 'golden' grip on Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc1EtUC1KOU1jd0lOaXZwVFB0V2x3MEx3YWxwcTJLdXNfQjJBTXY5RjEwQk4yWmtIRWNrOEhOeU5iZzlINTZkeU5JT2dRM3I4eWg2WnJCbmJLQUpEREdfclBSR2FacGJVenRFSW5WcmFHU0hpR3FMdXlzaVBfckgyZnYzNEkybzdJdFdQSi0xTTNzTm5YUElqeVkyZW1GTDFsdXM2T2lIZ0ZJMWRhZUZMZW10WXQzSnc?oc=5",
+        "published_at": "2026-04-20T18:49:42Z"
+      },
+      {
+        "headline": "Hormuz disruptions hit China\u2019s Christmas capital \u2014 and holiday spending",
+        "summary": "Manufacturers told CNBC that shoppers will likely have to pay higher prices to match rising costs of plastic and other materials.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/20/hormuz-china-christmas-capital-holiday-spending.html",
+        "published_at": "2026-04-20T18:40:02Z"
+      },
+      {
+        "headline": "Eli Lilly taps into its GLP-1 windfall, while Honeywell sheds a lower-margin unit",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/20/eli-lilly-taps-into-its-glp-1-windfall-while-honeywell-sheds-a-lower-margin-unit.html",
+        "published_at": "2026-04-20T18:26:10Z"
+      },
+      {
+        "headline": "Pakistan confident Iran will attend US talks, senior Pakistani government source says - Reuters",
+        "summary": "Pakistan confident Iran will attend US talks, senior Pakistani government source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSXo0NGZmSm13WVBtSmdqRnFoaDhfQlpBV0JDQ1Z2X3k1bVlLRmJ6dVFxSWdhX25HZ19JUVlqOFFCc0tOVzVFLXBvUnltQXdEdElIWHc3dFVycU5aSnJ2YnhaSlRuS04zQVpVWmVPSUtTci1CNXVEVzUxQ1FOUXhKb2JhZ1pPdUFROEJNaHNycmNITUtNZWJGdzZDa1M4RnVVUmxjelF1ckNpWlNLTXJSdVFja1BvbEtad1JVRi1HWGZkdHF0enBnVWkxZEo4Vm8?oc=5",
+        "published_at": "2026-04-20T18:22:11Z"
+      },
+      {
+        "headline": "Trump: New deal with Iran will be better than old one - Reuters",
+        "summary": "Trump: New deal with Iran will be better than old one\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUHpaOFB6bEptN3VsODBhZTZfQ1lBS1JSZklOc3VCMkJ1RmlqRTN5RHdMX3RrRUVJOWdYRVNMMmtQVFZ4WTI3TmN5bllrRVNWWUtzZjg5MjE0MHYxQVNBUmlKTi1RbFBVeTRZcFBoQ082d21udDJmeW9PWmQzTmlIdjRLd0ZDYlRpMFRPcm5TMzBLeGxiRmlWdVRR?oc=5",
+        "published_at": "2026-04-20T18:15:54Z"
+      },
+      {
+        "headline": "We're starting a position in a chip designer poised to roar in the era of AI agents",
+        "summary": "We're calling up this one up from our Bullpen stocks to watch list.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/20/were-starting-a-position-in-a-chip-designer-poised-to-roar-in-the-era-of-ai-agents.html",
+        "published_at": "2026-04-20T17:11:47Z"
+      },
+      {
+        "headline": "Trump says energy chief 'wrong,' expects lower gas prices as soon as Iran war ends - Reuters",
+        "summary": "Trump says energy chief 'wrong,' expects lower gas prices as soon as Iran war ends\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVI0c1lVZEsyNDRVVmZFVlJVbUtjdzZ0RFlVRkpEUVk5elNsYVlsaFZxSHA5QzJWMnEwWmFPZTFTNUZ2c3gzSWJvYTVrUEc0QkpwM3lTekpqWFVZTzVtQm0yVmFEUGJIdXdkQ2NObFhKVmRNMlZsc1hVMFdMcElBbGdCTldtcUZiUExib2x4b3JYSXI1TTltaDgzUF9tNWNJcDFjV1dYYUVNbmhELTFwbndVallrLUpsU1BDajZkM0RoQ2s?oc=5",
+        "published_at": "2026-04-20T17:01:41Z"
+      },
+      {
+        "headline": "Hormuz shipping again near standstill after shots and seizure - Reuters",
+        "summary": "Hormuz shipping again near standstill after shots and seizure\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZklJTEJXMTV5c3o3REtYRTJCTmFRRVFWZEYzY2p2OEtGSTc2S3BnUVBLcmVDanltVGpvUVR1OWUydnJONTdETElIampPT1pCeXpiaVM0bXl4Tnk4YWtLQTdGM04tekZDUlg2SHdXX0lCNHBGSjlteUpJR05HbXRCV0NXNFZVNkpTay1sTGxoZXJ3ckhVRG5ZOVM0NWNTTDlybUdsbnlJTE1nMHdIZmpJbXJvbHF5VmNZZ1NwUEppOG8?oc=5",
+        "published_at": "2026-04-20T16:59:00Z"
+      },
+      {
+        "headline": "UK stocks slip as uncertainty over US-Iran ceasefire lifts oil prices - Reuters",
+        "summary": "UK stocks slip as uncertainty over US-Iran ceasefire lifts oil prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ0pBdUpUOU5QTmV0LUw2WUhVclk4NGwxak1Zd1QzWU1jUm50ZUFvcUZTcl93bXU2dVRJNk9QSDZKSk5LQUVFZTFwRi1jZXhqNE9GeDBYeGRYXzBFbU9EZHpHXzgweFNTZ2FMbFZjc05sMnRPbTVWUDVtVUVtX2NKYnBOZnhELUlJSjhWU0xvcVlDWkxFenNuMGJDM3Q1RFpFeG5mZ2lPUGhoMHlJTW8zWl9meHhGQzllVVFR?oc=5",
+        "published_at": "2026-04-20T16:21:48Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 708.76,
+    "spy_change_pct": -0.1943,
+    "spy_lean": "neutral",
+    "vix_close": 17.48,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 55,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 3,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Military hits 30-year recruitment high but still falls short on key trades",
+        "url": "https://ww...(+118 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:36.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gunman at pyramids north of Mexico City kills Canadian tourist, injures 6 others",
+        "url": "https://ww...(+123 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:33.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gov. Gen. Mary Simon addresses United Nations forum on Indigenous rights",
+        "url": "https://ww...(+114 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:31.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Shooting at pyramids north of Mexico City leaves 1 Canadian tourist dead, injures 6 people",
+        "url": "https://ww...(+130 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:30.000Z",
+        "source": "orilliam...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Norway Case Adds Insight Into Long-Term HIV Remission After Stem Cell Transplant \u2013 Patient Worthy",
+        "url": "https://pa...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:13.000Z",
+        "source": "patientw...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Beach Replenishment and Other Improvements Elevate Coastal Texas Meetings | Meetings Today",
+        "url": "https://ww...(+109 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:27:04.000Z",
+        "source": "meetings...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Finding Serenity In Montana's Backcountry With Forest Service Maps",
+        "url": "https://z1...(+54 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:26:47.000Z",
+        "source": "trashmoo...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A Geoarchaeological Investigation of Agriculture in the Mesilla-phase Creekside Village Site in Southern New Mexico",
+        "url": "https://hd...(+24 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:26:25.000Z",
+        "source": "digital....(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Prof. Schlevogt\u2019s Compass No. 55: Fortification via the V-Strategy \u2013 The Poisoned Chalice Equation \u2014 RT World News",
+        "url": "https://ww...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:26:19.000Z",
+        "source": "rt.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Defining Private Villa Hospitality",
+        "url": "https://re...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-20T21:26:16.000Z",
+        "source": "resident...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
