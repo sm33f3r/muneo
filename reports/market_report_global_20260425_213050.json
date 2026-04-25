@@ -1,0 +1,348 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-25T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2669312883014.16,
+    "total_market_cap_change_24h_pct": -0.2047,
+    "total_volume_24h_usd": 51794124628.07,
+    "btc_dominance_pct": 58.1368,
+    "eth_dominance_pct": 10.4751,
+    "total2_usd": 1117460934973.61,
+    "total3_usd": 837848281174.07,
+    "active_cryptocurrencies": 17540,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 65.8266,
+        "price_usd": 0.690169,
+        "market_cap_usd": 147490488
+      },
+      {
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "price_change_24h_pct": 36.6862,
+        "price_usd": 1.55,
+        "market_cap_usd": 262055825
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 27.6693,
+        "price_usd": 0.00034164,
+        "market_cap_usd": 143375510
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 27.2216,
+        "price_usd": 0.127373,
+        "market_cap_usd": 126977529
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 10.1827,
+        "price_usd": 0.726586,
+        "market_cap_usd": 528773355
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CHIP",
+        "name": "USD.AI",
+        "price_change_24h_pct": -18.251,
+        "price_usd": 0.072385,
+        "market_cap_usd": 144946758
+      },
+      {
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "price_change_24h_pct": -12.0033,
+        "price_usd": 0.209806,
+        "market_cap_usd": 120829464
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": -11.9674,
+        "price_usd": 2.57,
+        "market_cap_usd": 596861024
+      },
+      {
+        "symbol": "APE",
+        "name": "ApeCoin",
+        "price_change_24h_pct": -11.4286,
+        "price_usd": 0.159465,
+        "market_cap_usd": 159316936
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -11.1453,
+        "price_usd": 1.29,
+        "market_cap_usd": 449901916
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77509,
+    "price_change_24h_pct": -0.1663,
+    "price_change_7d_pct": 2.4297,
+    "market_cap_usd": 1551809271250,
+    "volume_24h_usd": 18507959839,
+    "direction": "neutral",
+    "oi_usd": 7431640816.55,
+    "funding_rate_latest": -5.699e-05,
+    "funding_rate_7d_avg": -4.925380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8077,
+    "long_account_pct": 44.68,
+    "short_account_pct": 55.32,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2316.45,
+    "price_change_24h_pct": -0.0493,
+    "price_change_7d_pct": -1.4211,
+    "market_cap_usd": 279580822024,
+    "volume_24h_usd": 6418308391,
+    "eth_btc_ratio": 0.029886,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84203990395.78,
+    "stablecoin_market_cap_usd": 319500591989.42,
+    "stablecoin_dominance_pct": 11.9694
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 8,
+    "headlines": [
+      {
+        "headline": "Iran talks, Jerome Powell and the White House Correspondents' Dinner - Reuters",
+        "summary": "Iran talks, Jerome Powell and the White House Correspondents' Dinner\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYWx5a2x6Zkd3TlVGa3RfNC1tWjlidXBuV2E2YVFJQzAxTTFkaUZoRGtPdVo5Mkd5LWV2a2JWOUJWQzV4SWRPTjdpSTdkVHFWLTdLc25RSi1oVTZmMWRWendLWktNRFg1enI2VWJiX05XLWRoNFRxN1ZQVHM0cl93OXJXVUtoZUxTalJOS1R1RmRYWEwzTWxVRUFoNndFUXp6WFNhWHUzX0xTR1ZWajNsVllXQVNFbkIteV9ablJTdw?oc=5",
+        "published_at": "2026-04-25T20:10:51Z"
+      },
+      {
+        "headline": "Trump says he canceled US negotiators' trip to Pakistan for Iran talks, Fox News reports - Reuters",
+        "summary": "Trump says he canceled US negotiators' trip to Pakistan for Iran talks, Fox News reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOUNLQW9pQXUzUlhFWlVxXzNmaUtEQWQzSmRvdzBxcXFpalRnZUI3Q2Q2SmVKeTVIQmtHOGFNX25mb0dUZmQzZkE4QV85aXRrSEo5U1d6SGQwRkNacHdnNGxrUkxnZktmYm43MUFOUW1MZjZCVHg0OWZBcTk1Q01kRkVhMEYxLUFPdjgzVTZqREJXLXR5SnZXOXVkTGxqRDFEX0pac1BLR2F2U3NBTTc2Wlc4V0NlZTFDLWRUcVhQWGQ5T19Xcmt1U3VBLUNBOVE?oc=5",
+        "published_at": "2026-04-25T15:58:16Z"
+      },
+      {
+        "headline": "3 forces that drove another historic \u2013 yet volatile \u2013 week for the S&P 500",
+        "summary": "The Iran war wasn't the only focus. Corporate earnings and a split between hardware and software stocks caught our attention as well.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/25/3-forces-that-drove-another-historic-yet-volatile-week-for-the-sp-500.html",
+        "published_at": "2026-04-25T15:55:09Z"
+      },
+      {
+        "headline": "Turkey may consider role in Hormuz demining after Iran-US deal, minister says - Reuters",
+        "summary": "Turkey may consider role in Hormuz demining after Iran-US deal, minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQak1SNlRWX3RCamRXXzF4SlNtTmNjaUt1UW1kVkZxcjhwbEtMMkdaRGlqa1pNanFGZTJqNzI0VWt2ZnZOOFk2LTd3VHJGNDNLeTMxVlFNTkZjZ2hrWGN3X0hSZTlrb0VRWllCSk02V2VoYUZwczdRc3ZLbkVwYkVzWWdleDI2SmRFOXBJSHh3NE9MNlBFM0gxdjFsN0lfVjRrZXZGMmMwUlNGNHhmallibGN2RW9nMkJ3VlpNdEtaMENoNU5qTGc?oc=5",
+        "published_at": "2026-04-25T08:00:12Z"
+      },
+      {
+        "headline": "Iran says it has hanged agent working for Israel over sabotage in protests - Tasnim - Reuters",
+        "summary": "Iran says it has hanged agent working for Israel over sabotage in protests - Tasnim\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFRNQmhxQ0NZTHpUX3RUb3FIUDFDMVRkNUptZjZkRWg4LTJzd1JLN3Q1Z2gtME5Bc3RHYzB3dFJ4TkFra1pvVU9iMzFfeEV4YlB1bnhJM1ZHdi1sYl8zWGJvZFcxaURLa1FpdGpSLUo5NDRiQjR2N2NFMlMwZVBJTENiRlFHZWtxUWxlckZENlRaYXNtbHQxYlB3cjktUlZtcGZ3VmhjSUFybXFyY3J1eENlQXZNS1k3cDRnQ1F0VUNraVR6ekUw?oc=5",
+        "published_at": "2026-04-25T06:56:00Z"
+      },
+      {
+        "headline": "Trump cancels envoys' Pakistan trip, in blow to hopes for Iran war breakthrough - Reuters",
+        "summary": "Trump cancels envoys' Pakistan trip, in blow to hopes for Iran war breakthrough\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1l3OXozS3NuMlR6czlyeGgtU3lnQ25mMEUxT3c0SUFHTzgwTXAzdmxiX2E1YjVkVVU3UjZoTHd2VHFDNzI2ZjQwUlRJQ2dfWG9aU3B2dndDQ29lSmxwMWlReWl6Znk3U0tuOWthNzRmZE9WcmZwYWY4TEFyYU52Z21RSzdocWZ0bldKbzRZb1ZsS0hYMy1aV2s4MVljdGl3US04QXozQU90RTg?oc=5",
+        "published_at": "2026-04-25T05:12:00Z"
+      },
+      {
+        "headline": "How the restaurant group behind NYC's Carbone is overcoming young people shunning alcohol",
+        "summary": "Major Food Group CEO Mario Carbone said younger consumers are spending less on alcohol and more on experiences, which is playing into his company's strategy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/24/how-the-restaurant-group-behind-nycs-carbone-is-overcoming-young-people-shunning-alcohol.html",
+        "published_at": "2026-04-24T22:45:20Z"
+      },
+      {
+        "headline": "Iran to make offer aimed at satisfying US demands, Trump says - Reuters",
+        "summary": "Iran to make offer aimed at satisfying US demands, Trump says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVU1IdW84VV9hWU1fLV9oenFqamNXZkFsUHZQN19mMllqRzFLOEhRMUI3NHpaVHJKV1NlN3ZETFA2SkJBOHpsV1I2RXRkaHZFZkdERW4zZk5Hc3JJeHlwdUg0aVNNbHRvX21ZWVdjdmd1ekZqcFBBU0M0WVhnaDVSNWNnUEh2RllnOHRyRFpBemdxX1NFOXBNZFMxSTFwRnk3a1dONVJzaDk3YUc5RFlNTUVNZlRMemVZ?oc=5",
+        "published_at": "2026-04-24T21:31:23Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 713.94,
+    "spy_change_pct": 0.7749,
+    "spy_lean": "bullish",
+    "vix_close": 19.31,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 44,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "The Commentary B-Side",
+        "url": "https://ww...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:29:15.000Z",
+        "source": "michigan...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gold Beats Maroon, 31-7, in Spring Game - University of Minnesota Athletics",
+        "url": "https://go...(+76 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:26:41.000Z",
+        "source": "orgasmic...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Three Sentenced In Hawai\u02bbi County Bribery Scheme",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:26:36.000Z",
+        "source": "bigislan...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Average Payout for Dental Negligence in Las Vegas",
+        "url": "https://ww...(+70 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:24:00.000Z",
+        "source": "ladahlaw...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cantonment Murder Suspect Extradited From Arizona; Shooting Linked To Winning $20K Sports Bet : NorthEscambia. com",
+        "url": "http://www...(+116 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:19:42.000Z",
+        "source": "northesc...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "\u2018Trump Is Running The Show\u2019 Blatter Hits Out \u2014 Claims Infantino Has Changed The Soul Of The World Cup | Sports247 Nigeria",
+        "url": "https://ww...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:17:04.000Z",
+        "source": "sports24...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Brooke Hogan Addresses Netflix Leaving Out A Lot In New Hulk Hogan Docu-Series | Rajah. com",
+        "url": "https://ra...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:16:16.000Z",
+        "source": "fhsg.ch...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Eurojackpot: A szerencsej\u00e1t\u00e9k cs\u00facsa \u2013 Friss nyer\u0151sz\u00e1mok \u00e9s tippek - Lo Strillone News",
+        "url": "https://ww...(+47 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:15:25.000Z",
+        "source": "lostrill...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "PlaySimple Games files Rs 3,150 crore IPO papers, MTG to sell stake via OFS",
+        "url": "https://in...(+107 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:13:42.000Z",
+        "source": "indianst...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "London Marathon 2026: How to Watch Live From Anywhere",
+        "url": "https://ww...(+91 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T21:13:34.000Z",
+        "source": "CNET.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
