@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-26T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2696781063909.95,
+    "total_market_cap_change_24h_pct": 1.0299,
+    "total_volume_24h_usd": 53024478607.75,
+    "btc_dominance_pct": 58.1109,
+    "eth_dominance_pct": 10.5938,
+    "total2_usd": 1129656704464.04,
+    "total3_usd": 843963824399.76,
+    "active_cryptocurrencies": 17532,
+    "altcoin_season_index": 18,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "OM",
+        "name": "MANTRA [Old]",
+        "price_change_24h_pct": 374.0068,
+        "price_usd": 0.066586,
+        "market_cap_usd": 330850862
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 25.4146,
+        "price_usd": 0.363827,
+        "market_cap_usd": 162294849
+      },
+      {
+        "symbol": "UMXM",
+        "name": "Manadia",
+        "price_change_24h_pct": 24.2093,
+        "price_usd": 1.63,
+        "market_cap_usd": 342265218
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 24.096,
+        "price_usd": 0.122783,
+        "market_cap_usd": 256735752
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": 16.4321,
+        "price_usd": 0.436984,
+        "market_cap_usd": 369581257
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": -7.9254,
+        "price_usd": 0.00031423,
+        "market_cap_usd": 132491568
+      },
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": -7.3798,
+        "price_usd": 148.15,
+        "market_cap_usd": 353513754
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -7.0844,
+        "price_usd": 0.678679,
+        "market_cap_usd": 493565569
+      },
+      {
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "price_change_24h_pct": -6.8965,
+        "price_usd": 1.43,
+        "market_cap_usd": 244777877
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -6.5697,
+        "price_usd": 0.186403,
+        "market_cap_usd": 186103414
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78237,
+    "price_change_24h_pct": 0.9529,
+    "price_change_7d_pct": 4.7494,
+    "market_cap_usd": 1567140068030,
+    "volume_24h_usd": 19134456751,
+    "direction": "neutral",
+    "oi_usd": 7524957413.85,
+    "funding_rate_latest": 1.95e-06,
+    "funding_rate_7d_avg": -3.569238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7544,
+    "long_account_pct": 43.0,
+    "short_account_pct": 57.0,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2366.79,
+    "price_change_24h_pct": 2.2154,
+    "price_change_7d_pct": 2.8917,
+    "market_cap_usd": 285769661690,
+    "volume_24h_usd": 7863039085,
+    "eth_btc_ratio": 0.030252,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85398184693.85,
+    "stablecoin_market_cap_usd": 318954423474.23,
+    "stablecoin_dominance_pct": 11.8272
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Cramer: Why all the money flowing to AI stocks is a problem \u2014 and how it can be fixed",
+        "summary": "Just as anything peripherally involved with the data center is blessed, anything even tangentially associated with pharma is a nightmare.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/cramer-the-money-to-ai-stocks-is-a-problem-and-how-it-can-be-fixed.html",
+        "published_at": "2026-04-26T16:47:00Z"
+      },
+      {
+        "headline": "Trump tells Fox News Iran can call US if it wants to negotiate - Reuters",
+        "summary": "Trump tells Fox News Iran can call US if it wants to negotiate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSEwzUWFuMXB1eXNPcm15bzZCcEpvTlJuZVFibEpGVXo4MnVmZEtQdUFiSl9ERURqWGxEZkhCNTF3N1dRVmhaZVJnWGtoWldyV3BvY0xFOEgzZXZncTJVQXl0VXJYV0JfZzhtT09hN0tucmdaZHpRcnBVU2RxekZRcjFmN1pUTGc2X3Y0WnZNM2hQMm94QmVrTDFoZGFDeXlnYUt5cFZXSXlhOVpGeWdhOUtaWQ?oc=5",
+        "published_at": "2026-04-26T16:34:08Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The busiest week of the earnings season is upon us.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-04-26T14:54:56Z"
+      },
+      {
+        "headline": "I\u2019ve studied over 200 kids\u2014parents who have the closest relationships with their adult kids never do 6 things",
+        "summary": "Every parent hopes their adult child will still want to call, still want to come home, and still choose to let them in. Child psychologist Reem Raouda, who has studied over 200 kids, shares what not to do if you want your kids to stay close with you later on in life.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/psychologist-parents-who-have-close-bonds-with-their-adult-kids-never-do-6-things.html",
+        "published_at": "2026-04-26T12:50:48Z"
+      },
+      {
+        "headline": "Iran's Araqchi discusses efforts to end war and Hormuz security with Oman - Reuters",
+        "summary": "Iran's Araqchi discusses efforts to end war and Hormuz security with Oman\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0dPOXZSMDAzdFNTT2tRUW43eDlxMFhNa2NiX2daQlFGVUo3aFBUUDdZVDgyUzZWa01LM2lqN3ppc0tteDUxWWQ1MmZ6SkRtdHBObHYxUlpiRDZKOWU0dHpHNXQ0YWI3ZjRpS1NXWm11VUZMQ0hVME5UaW1IQWQ4YWR3WHNsZ3NPNnk1NHQ4M1hLV2VEamVvODRXX0Y5cDUzLVg2TlRjVXp2NlQ0d1JWNld0ZVVKNGdtV3N3?oc=5",
+        "published_at": "2026-04-26T11:33:43Z"
+      },
+      {
+        "headline": "China's Hengli Petrochemical denies trade with Iran in response to US sanctions - Reuters",
+        "summary": "China's Hengli Petrochemical denies trade with Iran in response to US sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU1p0SFVlSExOVVpncXI1SEZpUkxnQ1BHUTFfQlVnRUt3QW5SY0dLdndfamFfbzI3WDdqcEk4M1VfWjF4N2ZWN1ZxLTA0cEdONWdsYmo2aTZscjlyZE11MXBDZzFfWEloaER2S0hOMm9LODNreE9mbC1kNWNRZmJDdUxFMmx1czN4WS0tUENfU3ZXSFdHdXF3STNYRjZtR2VtSWtHV0lWQ1Z6eWUxczlCbWFuN3ZYZ3paZVB4aVhtLThYUQ?oc=5",
+        "published_at": "2026-04-26T11:16:08Z"
+      },
+      {
+        "headline": "Shots fired at the White House Correspondents Dinner, U.S.-Iran, and condom prices surge - Reuters",
+        "summary": "Shots fired at the White House Correspondents Dinner, U.S.-Iran, and condom prices surge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbHdBcHU1R0VweC1zaU5kUXZzZXktWTZXdlI2Z2p3TE5DRm9jX0dBZzJFOFJ0MmNtbG5sQWpWSG95aklHSVI4eVhkWTVjbDRRYU5mUmxzaWlLMzRxNWlMZTJDZTVITE5PVzFobWFtUEM0dGN5X0NjOW1sVjlzYnZHdmdCSjdIeXlDaUQ0WG12UW9uSzRCV01RSkVlajVaWXRtTnJLdk83MnQ3RGFIMXZaVFh0R19XblVjSHc?oc=5",
+        "published_at": "2026-04-26T11:15:31Z"
+      },
+      {
+        "headline": "Egypt economic outlook trimmed slightly due to Iran war: Reuters poll - Reuters",
+        "summary": "Egypt economic outlook trimmed slightly due to Iran war: Reuters poll\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGxHY0FYUlpRV2MtNVBUZXFZaGRDTVNKMEJhRXNkN09BWGtIVVlKYmw4RVJsSkp0T3U5dFVRbC11NzBVdmRUakwyOFJBRnhTYW95ZmpvSWE2MXp4NnlyVzhOdGh5OVRFdU9oTVlYZ1FkSHJ6bEJsZHFEYlpYLTNoNVUzV19od0d3aUlRdS1MY1JIVTFUU3hKN0YzcnZ0c3lwdUV6dHBHRkpHdw?oc=5",
+        "published_at": "2026-04-26T06:03:00Z"
+      },
+      {
+        "headline": "Iran executes man linked to militant group, Tasnim reports - Reuters",
+        "summary": "Iran executes man linked to militant group, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWk9ZaV9UamZwMHMtUjVTbUNYbWNzdmVnZHluM2RDSEVFZmJLbWk1N2M4djNRRExINlN0SVFtY25LWnE3YVRqVTNUaWJ1WVRpdkpETlNsQV9zek95aVBvQ2xKV3VtRVgtUFFVZmlnTUNNbnBjclNhX3dWX19fV2haeThCb3JmX1V6UHNrZlY3cHdiZU5zVUVLeG45LXdLV0xzYkE?oc=5",
+        "published_at": "2026-04-26T04:37:00Z"
+      },
+      {
+        "headline": "US intercepts sanctioned merchant vessel in Arabian Sea, Central Command says - Reuters",
+        "summary": "US intercepts sanctioned merchant vessel in Arabian Sea, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYVd1MEJ3aWtsdUtHQ3QyVUdlbzFXSllSUjJvX0pYVFFGLUZ4YjRSZDIwWVhSUmtKdXl6cDlEZ1J5dTBfT0I3dkRhWWNPOFpVb3cxd0E1Rnh5VVlMZjBjdkE1OVd5ZnpBckZtRF9XZEMwU1lpNXFVejRPVWZNSUlldGxyY1EtZ1pCZDBibHl3ZzZ1WEliM01oTGktNlpqN1B3bktVTmJGSThIUWRQV0sxVlNzalJfRmk5RlhZbmtpTS1mLUhFVUE?oc=5",
+        "published_at": "2026-04-26T02:21:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 713.94,
+    "spy_change_pct": 0.7749,
+    "spy_lean": "bullish",
+    "vix_close": 19.31,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Why do Somali-Americans keep running for office?",
+        "url": "https://ww...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:28:45.000Z",
+        "source": "somalisp...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Do yall believe this? (Paranormal)",
+        "url": "https://ww...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:28:44.000Z",
+        "source": "somalisp...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USFSP commuter students talk campus inclusion and resources \u2013 The Crow's Nest",
+        "url": "https://cr...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:25:46.000Z",
+        "source": "crowsnes...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USFSP Dean of Students Jacob Diaz announces resignation \u2013 The Crow's Nest",
+        "url": "https://cr...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:25:29.000Z",
+        "source": "crowsnes...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Scandinavian Approach to Stress\u2014Calm, Clarity & Boundaries 2026",
+        "url": "https://th...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:24:29.000Z",
+        "source": "divinema...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump was likely target of shooting at White House Correspondents\u2019 dinner, says US official",
+        "url": "https://th...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:21:46.000Z",
+        "source": "thefront...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "FIFA set to increase 2026 World Cup prize money",
+        "url": "https://th...(+66 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:21:19.000Z",
+        "source": "thefront...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wooden rims, cork brake blocks. . . a rooster perching on a wheel hub? Feast your eyes on Ciclo Galmozzi's eccentric Super Competizione from 1973",
+        "url": "https://ro...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:45.000Z",
+        "source": "road.cc...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SQUARE ENIX ANNOUNCES EVERCOLD\u2014 LATEST FINAL FANTASY XIV EXPANSION SET FOR JANUARY 2027",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:40.000Z",
+        "source": "gamespre...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CCP Games Announces Winners of $80,000 EVE Frontier \u00d7 Sui 2026 Hackathon",
+        "url": "https://ww...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:34.000Z",
+        "source": "gamespre...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
