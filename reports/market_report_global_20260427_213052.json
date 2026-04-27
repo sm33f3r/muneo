@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-27T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2648122220347.27,
+    "total_market_cap_change_24h_pct": -1.8816,
+    "total_volume_24h_usd": 102726065036.13,
+    "btc_dominance_pct": 58.1162,
+    "eth_dominance_pct": 10.4296,
+    "total2_usd": 1109135471120.61,
+    "total3_usd": 832947789663.97,
+    "active_cryptocurrencies": 17522,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "XCN",
+        "name": "Onyxcoin",
+        "price_change_24h_pct": 28.1148,
+        "price_usd": 0.00608263,
+        "market_cap_usd": 229888026
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 19.903,
+        "price_usd": 0.01246147,
+        "market_cap_usd": 714953615
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 13.4325,
+        "price_usd": 6.543e-05,
+        "market_cap_usd": 360245994
+      },
+      {
+        "symbol": "UMXM",
+        "name": "Manadia",
+        "price_change_24h_pct": 12.0654,
+        "price_usd": 1.82,
+        "market_cap_usd": 382747788
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 9.864,
+        "price_usd": 0.3202,
+        "market_cap_usd": 132162412
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -19.5647,
+        "price_usd": 0.09808,
+        "market_cap_usd": 204968094
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": -16.6665,
+        "price_usd": 0.302306,
+        "market_cap_usd": 135201431
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -12.1305,
+        "price_usd": 3.79,
+        "market_cap_usd": 4902174327
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -11.1786,
+        "price_usd": 0.153148,
+        "market_cap_usd": 153289850
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -10.6804,
+        "price_usd": 0.166455,
+        "market_cap_usd": 165747388
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76899,
+    "price_change_24h_pct": -1.7147,
+    "price_change_7d_pct": 0.7648,
+    "market_cap_usd": 1538932866365,
+    "volume_24h_usd": 42379768226,
+    "direction": "bearish",
+    "oi_usd": 7458055974.52,
+    "funding_rate_latest": -5.678e-05,
+    "funding_rate_7d_avg": -3.662095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9142,
+    "long_account_pct": 47.76,
+    "short_account_pct": 52.24,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2289.84,
+    "price_change_24h_pct": -2.9332,
+    "price_change_7d_pct": -1.8535,
+    "market_cap_usd": 276179661840,
+    "volume_24h_usd": 18064443694,
+    "eth_btc_ratio": 0.029777,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 83507723635.96,
+    "stablecoin_market_cap_usd": 318593909690.68,
+    "stablecoin_dominance_pct": 12.0309
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 48,
+    "headlines": [
+      {
+        "headline": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week - Reuters",
+        "summary": "S&P 500, Nasdaq, close slightly higher in cautious start to a heavy earnings week\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEs3OVpOYnhkaGZjal9qUlRkLWlyTFdYQUduUENEcFdwNDBZLVhSUWRBbnI1cUxPblpnaVk0NURRUFY1aVhlRno3VTBXWWU1ckM2VTFQd3RzQzczV3hiZVgwRVAzaXZjY1U4Yk9pRE1WZzRPOWRHam16M2RlQzVqTmlsRWQ2VEhuU1p1LUd6ZkNKeHh4R2lmUXBOa3ZXUGlHaHk0?oc=5",
+        "published_at": "2026-04-27T20:37:51Z"
+      },
+      {
+        "headline": "Micron and Sandisk continue rally as demand for memory expected to persist",
+        "summary": "Shares of Micron and Sandisk jumped after Melius Research said in a report that demand for memory will remain strong through the end of the decade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/27/micron-and-sandisk-pop-as-memory-demand-to-remain-high-through-2030.html",
+        "published_at": "2026-04-27T20:26:31Z"
+      },
+      {
+        "headline": "Renewables in vogue as Iran war drives up Europe power prices - Reuters",
+        "summary": "Renewables in vogue as Iran war drives up Europe power prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMG1vMGszUnhJWmVHaUtuSU1EM3pnV2JDRHU1NzRhUFd0TlpFbVZFVnpScl8yQmJ6NUY0Ql9pbVNQWjR2bXhKMVE2WVAtM0dEbFVZQnZuVnI2ay1HSHRsRE12SEQxLTYxQW9QYXBkR19BQ2ZkVlVDcmQ2QXpOcG9JbnJFUUxlNmNGamFuRERNVloybF9hbHczdWw3RVNBRkhWOHFpNjBCREFsWkpkVUIybzBSb1A1MDJUUWpQYUoyeUJrdnlia3ZKM0NjSQ?oc=5",
+        "published_at": "2026-04-27T20:18:51Z"
+      },
+      {
+        "headline": "King Charles arrives in US for trip overshadowed by Iran quarrel and shooting - Reuters",
+        "summary": "King Charles arrives in US for trip overshadowed by Iran quarrel and shooting\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMG5Idm5fMEU3X3Jfc1R2N051WWRRUzVVZ1pfd01BVFFSZHBNNUU4LXBnTUhuLTNrRnQzWnl2YzNPU1hMTDgxQXBVSUNEQzAxYll4ZXRab3Z2N2VxeGdaZ3U0YWJXYWxiemYtVVZGcWMySDRtNGJCQV9vaTRlVDlubVZmU3RTVDF1dEpXTVA3T0tmRU1CZkNXR0xrakxtY0tEekxjYTJCc0RrYkIw?oc=5",
+        "published_at": "2026-04-27T19:38:23Z"
+      },
+      {
+        "headline": "Biggest winner of the amended Microsoft-OpenAI deal \u2014 plus, mixed news for Eli Lilly",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/27/biggest-winner-of-the-amended-microsoft-openai-deal-plus-mixed-news-for-lilly.html",
+        "published_at": "2026-04-27T19:09:28Z"
+      },
+      {
+        "headline": "Trump discussed new Iran proposal with national security aides on Monday, White House says - Reuters",
+        "summary": "Trump discussed new Iran proposal with national security aides on Monday, White House says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcDVQb3N0d1ItOUVyeGVBcDlTdVpqRFpHQy1qekpod3UwU2FjajVtMUx6aWtORnJNOEZpN3B0VDdoemh2OTI2WDJvNkZUS1E0Rm9yRkFSa0xoOTlmZWltMVJGRUNqX0ZHYk1XM1lLbTFLb3FqRWJpbjlqdWlZeWYxVVh1dzhmazZObGMwWXZrSEl6M183MDFzQnlncVdwZVl4cXR6SXZkbE9LMVBEbGlCVnVGM0VLY1R1MkNJS1JaVmpNNERlWmZhUg?oc=5",
+        "published_at": "2026-04-27T17:45:45Z"
+      },
+      {
+        "headline": "Putin praises Iranian people for resistance to US in talks with Araqchi - Reuters",
+        "summary": "Putin praises Iranian people for resistance to US in talks with Araqchi\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSzMxUTRuM3NKN2dxREJ2Z05OTklkX2ZKbHJ6eDRHaWp6NEtTVkx2bXcwXzVnRVM4bU14MlU5eVJwYzVsRTR6TmFvZmhJSTFQUnBtVU85UnMxZkN0U1Q4OWxtTlltYjhMU3NUNGJRcDRzOHNvQTdvWlMyVnZ2aFhtRzRfbmhuQUdCZXZvVjdMQUQxWDF3TnphNXQ4dnhNamtxNTRYMG43ZGx6bmVjVDdsbEZaaXdIcWtMaUVzM3IzZFZpUlZHVHpNWjhmcw?oc=5",
+        "published_at": "2026-04-27T17:07:17Z"
+      },
+      {
+        "headline": "Germany's Merz says Iran is humiliating US as talks stall - Reuters",
+        "summary": "Germany's Merz says Iran is humiliating US as talks stall\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbkZuazVRSDloUjJ2R0ZWQzlMWkRON0FkZHppaWx4WjBscXdqMUVZNXFSZTJHcXBBMU10TDBxX0N0aF96S2drZVJEb09VeF9YMDQ2MTdxcm1XUWNWRGFJc01xVVh2LW9XamFESE1sNGRoNm00RmltWjMxSEpRWmpKTXZva2tIOEVQcmVvcWFMb1I2TTNlT1BaVXR4eFlJRXQ0Q3R3bjh4LWhLRHBX?oc=5",
+        "published_at": "2026-04-27T17:01:15Z"
+      },
+      {
+        "headline": "Bahrain revokes citizenship of 69 people for 'glorifying or sympathising with' Iranian attacks - Reuters",
+        "summary": "Bahrain revokes citizenship of 69 people for 'glorifying or sympathising with' Iranian attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUzRWeDcxME9vY2hTS3pYSE5lb3BMNjREOGtCdHYxTVI2R1c4QXJYQVNKSHFETFllUEJzYWVjOEs0TzFoOGVVbjhhNEZ2TVZnSTZPdmtMUmlKNjA5cWVYM2N1eG5CWDRkb2hZTGFEb2tnWl9ZZUNHTGZvQ3V3aWFhZEswT0dkdms2LWNuLUl5SVdhaG9xalgyV3VlcU42Z19rdFJkMDI2TVdEQlVQWFpENF92NUFLcWxMb1NJWg?oc=5",
+        "published_at": "2026-04-27T16:37:59Z"
+      },
+      {
+        "headline": "Nations meet to discuss fossil fuel exit as Iran war drives up prices - Reuters",
+        "summary": "Nations meet to discuss fossil fuel exit as Iran war drives up prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVW5IenhOUWk5M2h5ZVlQczdIYXFIcmFYNEd2c0stMmtlY0RuZS0yQllNVzdOcDk0bngyM0RjellrRS1aYkxNWG9Pc2hZX29BY1dXbDA5dmtrai11R05iUWxZcWNUUkNNNEpWSlFwS1VUZDVCR08tc2Zkb21sM3V2NnRabFpfZXRRVkQxNkZjS2lSTUt4UmlNMFdMQkdOeVJUdnJnSF9rQUg2VUZTVUJiRTJjWDNjaG5Zd2J4aENpU3drZ3k0S1d6R0xFZDNiRklqS1k2YVJ3?oc=5",
+        "published_at": "2026-04-27T16:10:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7294,
+    "dxy_lean": "neutral",
+    "spy_close": 715.18,
+    "spy_change_pct": 0.1737,
+    "spy_lean": "neutral",
+    "vix_close": 18.71,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 42,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Repositorio Institucional de la Universidad Polit\u00e9cnica Salesiana: Percepci\u00f3n del lavado verde y su influencia en la lealtad de compra del consumidor en supermercados de Guayaquil",
+        "url": "http://dsp...(+37 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:28:54.000Z",
+        "source": "dspace.u...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Weigand, Webb, Diffey, Johnson, and More on PulpMX Show Tonight to Talk Philadelphia SX - Racer X",
+        "url": "https://ra...(+77 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:28:25.000Z",
+        "source": "hdradio....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Silent Breakthroughs: Upgrades in Valvetrain Components",
+        "url": "https://ww...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:28:07.000Z",
+        "source": "performa...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Road Racing, Transmissions and More Featured in May/June Issue of PRI Magazine",
+        "url": "https://ww...(+119 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:27:55.000Z",
+        "source": "performa...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @JonathanTurley on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:27:53.000Z",
+        "source": "bor0.wor...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NASCAR Names Steve O'Donnell CEO, Ben Kennedy COO",
+        "url": "https://ww...(+105 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:27:49.000Z",
+        "source": "performa...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What to Look for in a Technology Partner When Scaling Operations Across the UK",
+        "url": "https://bu...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:27:00.000Z",
+        "source": "openbusi...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Israeli Strikes Hit East Lebanon as Hezbollah Vows to Continue Fight",
+        "url": "https://je...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:26:56.000Z",
+        "source": "jewishpo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "From Curiosity to Calling: Flagler Senior Turns Passion for Science into Veterinary Future",
+        "url": "https://ww...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:26:56.000Z",
+        "source": "flagler....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hezbollah Embeds Terror Apparatus in Lebanon\u2019s Health System",
+        "url": "https://je...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-27T21:26:52.000Z",
+        "source": "jewishpo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.18
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
