@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-12T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2506887133934.29,
+    "total_market_cap_change_24h_pct": -2.495,
+    "total_volume_24h_usd": 71855321988.62,
+    "btc_dominance_pct": 56.9409,
+    "eth_dominance_pct": 10.6417,
+    "total2_usd": 1079443508941.08,
+    "total3_usd": 812668139417.32,
+    "active_cryptocurrencies": 17656,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 168.5803,
+        "price_usd": 5.87,
+        "market_cap_usd": 1455839676
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": 20.6984,
+        "price_usd": 0.084094,
+        "market_cap_usd": 741436634
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 20.073,
+        "price_usd": 0.175834,
+        "market_cap_usd": 175976741
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 18.3301,
+        "price_usd": 0.131848,
+        "market_cap_usd": 131791737
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 17.5446,
+        "price_usd": 0.128885,
+        "market_cap_usd": 129056808
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -12.4429,
+        "price_usd": 0.078577,
+        "market_cap_usd": 183904701
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": -10.0578,
+        "price_usd": 41.69,
+        "market_cap_usd": 528075899
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": -9.7268,
+        "price_usd": 0.302947,
+        "market_cap_usd": 282042196
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -9.5107,
+        "price_usd": 0.899551,
+        "market_cap_usd": 314842715
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -9.0669,
+        "price_usd": 1.081,
+        "market_cap_usd": 270240595
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 71317,
+    "price_change_24h_pct": -2.7845,
+    "price_change_7d_pct": 5.9498,
+    "market_cap_usd": 1427423340394,
+    "volume_24h_usd": 28680428462,
+    "direction": "bearish",
+    "oi_usd": 6497413947.65,
+    "funding_rate_latest": -3.35e-06,
+    "funding_rate_7d_avg": 3.3542857142857142e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1482,
+    "long_account_pct": 53.45,
+    "short_account_pct": 46.55,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2209.43,
+    "price_change_24h_pct": -3.9197,
+    "price_change_7d_pct": 7.2357,
+    "market_cap_usd": 266693273833,
+    "volume_24h_usd": 13824081223,
+    "eth_btc_ratio": 0.03098,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95233716291.4,
+    "stablecoin_market_cap_usd": 318760022673.41,
+    "stablecoin_dominance_pct": 12.7154
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 12,
+    "headlines": [
+      {
+        "headline": "Dollar jumps as failed US/Iran peace talks spark fresh safe-haven push - Reuters",
+        "summary": "Dollar jumps as failed US/Iran peace talks spark fresh safe-haven push\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVa1Y5VkktOERjcEtSR0xYQkVPSVJyckhVVDhwZDk0dnJXcGpFX1k2OHJrVDFxVTRiX2FEdkxZVHVaa2pCbEtSNlZIbXZPUjhtNHdrVl9sNE04eHV2U1NKT3dVdXE3MngydWctREx6UGU4OGpKVWEyUHRsdS1uQQ?oc=5",
+        "published_at": "2026-04-12T19:41:02Z"
+      },
+      {
+        "headline": "Why the stock market has stayed resilient despite the Iran war and software stock rout",
+        "summary": "In his Sunday column, Jim Cramer explored key battleground issues for the stock market such as the Iran war and software sell-off.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/12/jim-cramer-iran-war-software-stock-selloff-earnings-season-investing-club.html",
+        "published_at": "2026-04-12T19:40:10Z"
+      },
+      {
+        "headline": "Trump says gas prices may remain high through November midterm election - Reuters",
+        "summary": "Trump says gas prices may remain high through November midterm election\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3I3U21xU29jUFBkX2loNlFCQ3NsaGhrMHByU2VCTGxuaVowU1JZVEUxNFBhempjenlHRFNOUlpNTml2cXItZGZxMGoyNzlDazhfbmN4d3ItN3otbDBqQkhKeTRwdk9FVTdlRVVJR1VYM1RSeU12MHJJRk1vMVVDRXA1NldxTzRULTJOd3JNZkxNOHJMYXh0OWVCNjU4cmo2?oc=5",
+        "published_at": "2026-04-12T18:00:22Z"
+      },
+      {
+        "headline": "Iran's Guards will view military vessels approaching strait as ceasefire breach - Reuters",
+        "summary": "Iran's Guards will view military vessels approaching strait as ceasefire breach\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVkVE9wRmVnQ0pmS2g0RzNsSGtkU09RS0NTczlXVy11MDFHNGRrVXNuQloyQ3FXeW1fLXlObk1zbzA0TEh3VlZRTEtObzlXdzFmdVpsYnlXWms2UncxTjJMdGZ1MTFMcE5rczZyR0s1TFMwRnBVNjhhNzVqWmZjNlg4SFltOC1kbDRpOUY4S2N6UERjNFZybkxBMzlaMkUyNE5kYXllUVNET3pnMDI0TXpHV0lWemVNWGZhWnZKQlA4Z2tYOW41Uw?oc=5",
+        "published_at": "2026-04-12T16:52:47Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market this week",
+        "summary": "Earnings season kicks off as investors remain focused on Middle East conflict.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-04-12T14:57:42Z"
+      },
+      {
+        "headline": "Iran war has cost Israel $11.5 billion in budgetary expenses, ministry says - Reuters",
+        "summary": "Iran war has cost Israel $11.5 billion in budgetary expenses, ministry says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRDFEMUE0bWdtaC1adkdsOGtmeExiZkJVbDh3Q3JSNHhvT3JRT1hzQ0M2dHYydGxIdDFTY2pDdkRKcUVUYjRaY2g2M2FKRk02X0ljTmFJcmpGYVBGSUlRSDBNRF9Xc3NHbVBXMXhNdV9vNlN4YmxCSjBRM0hzSkZDalA4Yy13WmM3aUREai1QdEdzZGNUOGtEdjAzeGxQOFdJaGVjWHZjYWtiT1RSLTg0ZktmdFlWQTZ5dWY0RWl2bWc?oc=5",
+        "published_at": "2026-04-12T13:40:47Z"
+      },
+      {
+        "headline": "Equities subdued as US-Iran talks falter, ceasefire concerns renewed - Reuters",
+        "summary": "Equities subdued as US-Iran talks falter, ceasefire concerns renewed\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlZ5X19tUWI2blRNMGlsdjczRTE4RlZzNWZNNGpYc1ZpTU4tdlVDNTN1Szh0enJreDZ0Z2JpTklhWndPeWY4ODhTbU5qUE1ZeWxQWVh1VzYySG1OcFVUOE15UjdRbk1MUE9GT3Y1aGFGb0RoNmRkd2NOa0hnWHNjalczVWRIQWxZN01mZXRiVmRFYTczb3hwY2p5c3JJQUJjNlVmMk0zNGJtbkd3VXNGVmppMTF4U1pLMUxv?oc=5",
+        "published_at": "2026-04-12T13:05:09Z"
+      },
+      {
+        "headline": "This morning routine is key to a successful day, says mental performance coach\u2014and it only takes 4 minutes",
+        "summary": "Start the day strong by focusing on gratitude and purpose, says mental performance coach Cindra Kamphoff.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/12/this-4-minute-morning-routine-is-key-to-a-successful-day-mental-performance-coach.html",
+        "published_at": "2026-04-12T12:46:01Z"
+      },
+      {
+        "headline": "Couples who are 'emotionally secure' regularly talk about 8 things, says Harvard-trained psychologist",
+        "summary": "Building a trusting relationship is the goal for most couples. Harvard-trained psychologist Dr. Cortney Warren shares eight things emotionally secure couples talk about to have a happy and successful relationship.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/12/harvard-psychologist-couples-who-are-emotionally-secure-regularly-talk-about-8-things.html",
+        "published_at": "2026-04-12T12:36:44Z"
+      },
+      {
+        "headline": "ADNOC CEO says Strait of Hormuz not Iran\u2019s to control - Reuters",
+        "summary": "ADNOC CEO says Strait of Hormuz not Iran\u2019s to control\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEFZZXlhaHJDZG9qYmx6T1NSM0JyZTF0cDVKX0VwN29lbURodTNsN2lEVF9WZTd3Z25KWVo5U25RdDFDRWQwUHYtbVBFVURjUTBsY0p2SjB3Z281VTlndnNBOWtyYWRjbzd6T0pjSHBocENVaUdySThNQjllUVRVSVZ4SGw2RzY2UnR2X1hDbEJKbDJCOW5WZU1tM3ZqR0E?oc=5",
+        "published_at": "2026-04-12T12:11:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 679.46,
+    "spy_change_pct": -0.0662,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 44,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 3,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Lander Midwife Has Delivered More Than 3,000 Babies Over 20 Years | Cowboy State Daily",
+        "url": "https://co...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:24:19.000Z",
+        "source": "dancarli...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Taniya Chatterjee claims Yuzvendra Chahal called her \u2018cute\u2019 in DM, video goes viral",
+        "url": "https://ww...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:22:51.000Z",
+        "source": "indiafor...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Salman Khan honours Asha Bhosle, remembers her as an irreplaceable voice",
+        "url": "https://ww...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:22:34.000Z",
+        "source": "indiafor...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Earthquake in Hungary: Orb\u00e1n defeated after 16 years in power",
+        "url": "http://www...(+27 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:22:25.000Z",
+        "source": "radiesse...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Orange Drop Series Finale to Boston College - Syracuse University Athletics",
+        "url": "https://cu...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:22:24.000Z",
+        "source": "suathlet...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pitt Drops Series Finale to Clemson - Pitt Panthers #H2P",
+        "url": "https://pi...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:20:07.000Z",
+        "source": "pittsbur...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mark Wauck\u2019s compilation: So, Blockade Is Plan \u2026 C, D? \u2013 The Occidental Observer",
+        "url": "https://ww...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:17:36.000Z",
+        "source": "theoccid...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ella Langley Has Good Old Boys Barking On IG Over Her Lake Content, Masters Gnomes Street Hustler & MEAT!",
+        "url": "https://ww...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:17:19.000Z",
+        "source": "outkick....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Scottie Scheffler Calls Out Reporter's 'Awful' Question At The Masters, Is Now Even More Likable",
+        "url": "https://ww...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:17:12.000Z",
+        "source": "outkick....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jazz Chisholm Lost A Game For The Yankees By Not Knowing The Rules Of Baseball",
+        "url": "https://ww...(+79 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-12T21:16:55.000Z",
+        "source": "outkick....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.11
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

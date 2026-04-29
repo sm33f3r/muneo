@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-25T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 85.96,
+    "price_change_24h_pct": -1.0198,
+    "price_change_7d_pct": -0.2373,
+    "volume_24h_usd": 1691651589,
+    "market_cap_usd": 49494181324,
+    "volume_to_mcap_ratio": 0.034179,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -70.6938,
+    "cex_price_usd": 85.99,
+    "cex_24h_high": 86.94,
+    "cex_24h_low": 85.53,
+    "cex_dex_spread_pct": 0.0349,
+    "volume_on_up_days_usd": 3794145648.4716244,
+    "volume_on_down_days_usd": 2915987605.2191286,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 41.3002,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -10.192051,
+      "signal_line": -12.870197,
+      "histogram": 2.678146
+    },
+    "macd_lean": "bullish",
+    "sma_50": 121.1064,
+    "price_vs_sma50_pct": -29.0211,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 92.572223,
+      "mid": 84.789,
+      "lower": 77.005777,
+      "width_pct": 18.359,
+      "position": 0.5919
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 786686563.53,
+    "oi_lean": null,
+    "funding_rate_latest": -5.575e-05,
+    "funding_rate_7d_avg": 7.652380952380961e-07,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.8077,
+    "btc_long_account_pct": 44.68,
+    "btc_short_account_pct": 55.32,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5539678629.0,
+    "tvl_7d_change_pct": -4.6617,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 4572765.0,
+    "chain_fees_7d_avg_usd": 5436942.71,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitcoin, Solana, XRP ETFs see inflows; Ethereum faces $75. 9M outflow",
+        "url": "https://cr...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T18:51:29.000Z",
+        "source": "cryptobr...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Ledger Surges Past Ethereum in 30-Day Capital Flows, Takes the Lead",
+        "url": "https://co...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T18:40:52.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin surges past $77,000 as Iran reopens Strait of Hormuz",
+        "url": "https://cr...(+76 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T16:38:03.000Z",
+        "source": "cryptobr...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SOL Technical Analysis Apr 25",
+        "url": "https://en...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T14:01:05.000Z",
+        "source": "en.coino...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Flash trade Review: Is it worth it? (April 2026) - CoinCodeCap",
+        "url": "https://co...(+32 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T13:52:14.000Z",
+        "source": "blog.coi...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana tightens near $86 as market awaits breakout move",
+        "url": "https://en...(+70 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T13:14:45.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Range Tightens: $90 Breakout Could Ignite Next Rally",
+        "url": "https://co...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T12:13:51.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Your Wallet IS Your Identity: Understanding Identity on Solana (for Web2 Devs)",
+        "url": "https://de...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T10:42:08.000Z",
+        "source": "dev.to...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Paul Sztorc to Launch eCash Bitcoin Hard Fork in August",
+        "url": "https://bi...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T09:56:41.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Morgan Stanley Launches Stablecoin Reserve Fund",
+        "url": "https://cr...(+58 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-25T09:50:00.000Z",
+        "source": "crypto.n...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 77524.0,
+    "btc_24h_change_pct": -0.2551,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 59.9851,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2586964455524.6562,
+    "eth_btc_ratio": 0.029865,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 713.94,
+    "spy_change_pct": 0.7749,
+    "spy_lean": "bullish",
+    "vix_close": 19.31,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 44,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 79.17,
+    "cg_sentiment_votes_down_pct": 20.83,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}

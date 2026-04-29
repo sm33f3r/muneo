@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-11T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2569831193531.77,
+    "total_market_cap_change_24h_pct": 0.4288,
+    "total_volume_24h_usd": 63000860168.02,
+    "btc_dominance_pct": 57.1745,
+    "eth_dominance_pct": 10.8034,
+    "total2_usd": 1100543421009.62,
+    "total3_usd": 822914207648.49,
+    "active_cryptocurrencies": 17680,
+    "altcoin_season_index": 18,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 33.8424,
+        "price_usd": 2.18,
+        "market_cap_usd": 521410617
+      },
+      {
+        "symbol": "ARIA",
+        "name": "Aria.AI",
+        "price_change_24h_pct": 32.081,
+        "price_usd": 0.771079,
+        "market_cap_usd": 140945584
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 29.3136,
+        "price_usd": 0.069443,
+        "market_cap_usd": 121225996
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 23.5527,
+        "price_usd": 0.14646,
+        "market_cap_usd": 147478160
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 12.7884,
+        "price_usd": 8.45,
+        "market_cap_usd": 383974113
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -22.4647,
+        "price_usd": 0.089748,
+        "market_cap_usd": 209881832
+      },
+      {
+        "symbol": "FT",
+        "name": "Flying Tulip",
+        "price_change_24h_pct": -7.6884,
+        "price_usd": 0.080736,
+        "market_cap_usd": 119370463
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -6.3983,
+        "price_usd": 0.09414,
+        "market_cap_usd": 171797227
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": -4.6616,
+        "price_usd": 8.6,
+        "market_cap_usd": 131525883
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": -3.7324,
+        "price_usd": 0.04575936,
+        "market_cap_usd": 263107113
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73362,
+    "price_change_24h_pct": 0.3247,
+    "price_change_7d_pct": 9.0828,
+    "market_cap_usd": 1468511518932,
+    "volume_24h_usd": 24809780162,
+    "direction": "neutral",
+    "oi_usd": 7212948245.26,
+    "funding_rate_latest": -6.755e-05,
+    "funding_rate_7d_avg": 1.2992857142857143e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7483,
+    "long_account_pct": 42.8,
+    "short_account_pct": 57.2,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2299.56,
+    "price_change_24h_pct": 2.2715,
+    "price_change_7d_pct": 11.3088,
+    "market_cap_usd": 277563176564,
+    "volume_24h_usd": 12290230499,
+    "eth_btc_ratio": 0.031345,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 97731196030.8,
+    "stablecoin_market_cap_usd": 316986469092.87,
+    "stablecoin_dominance_pct": 12.3349
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 22,
+    "headlines": [
+      {
+        "headline": "Pope Leo urges end to 'madness of war' as US, Iran start talks - Reuters",
+        "summary": "Pope Leo urges end to 'madness of war' as US, Iran start talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZXpPT0NLSDVfcjcxQTBGUTB6M3Q2VEhhYmtKa0w1Y2NTSlBaVWEwdEJoLWJCYVJuV0tzaEFnb0VwUXNuWVZlZmpTR2xOTHVHMllPeFZHNmkwVVJfaFFuSWNMT0NuLVV3S2J3VG13X0VQd1J5aFN2NWp0REVxalM1b2Nsb2Zad0Q0N1BZZ25pbkJhM096SjhR?oc=5",
+        "published_at": "2026-04-11T17:14:47Z"
+      },
+      {
+        "headline": "US military 'setting conditions' to clear mines from Strait of Hormuz - Reuters",
+        "summary": "US military 'setting conditions' to clear mines from Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?oc=5",
+        "published_at": "2026-04-11T16:58:11Z"
+      },
+      {
+        "headline": "Pakistan sends fighter jets to Saudi Arabia under mutual defence pact - Reuters",
+        "summary": "Pakistan sends fighter jets to Saudi Arabia under mutual defence pact\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkY1emFRQ1NpMERkM1JEdG81bzYwTWN5TXFrN21UR2oteC05RHA5OVg3VVExTkYtQ1UtTWViempVMUVLSkoyTUxHRk5yRXl3ck1MNmNfYnhQUkI3Mzl3NFhzVWx6X19TZTJJNHd3cGw5Nmg2TVJxZWM5VjUwc3AwY2FGN1FmNTk1bVliWEdHYUJrMGxHWWJmbGJDZUxIdFc5b042YThEZ2lDbW9yUGNsamJ6MVQ4dkxRaW9MWEJVN0IxOE9DVHc?oc=5",
+        "published_at": "2026-04-11T16:13:55Z"
+      },
+      {
+        "headline": "Stocks gain on Iran ceasefire, plus 3 more things that drove last week's market",
+        "summary": "Although the market rally cooled on Friday, the S&P 500 still ended the week 3.6% higher.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/11/stocks-gain-on-iran-ceasefire-plus-3-things-that-drove-last-weeks-market.html",
+        "published_at": "2026-04-11T15:34:20Z"
+      },
+      {
+        "headline": "Iraqi parliament elects Nizar Amedi as country's new president - Reuters",
+        "summary": "Iraqi parliament elects Nizar Amedi as country's new president\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0JHTW5uYnpXakRYVFk0MjNwUDUwRGJ2c2x4bEdfX0VLNzNjbjRrQXFFNzUyR0FDSGp2MXJRcHJ0ZlUwUkhsdVpmMEZCSG5DTHEyVFlQTTRnQ3BBMEtTX0Rrc2lfb2R5Vmc5OFZIaVVRSnhhcG5kTTk2VndJV00yVC1uTlZLZ0NLN3R3QVFaUnpXME9aZW5rWFBUZTFSZE1Tdjk0X1lQUWE1T0tNN2I3cGh3?oc=5",
+        "published_at": "2026-04-11T15:16:55Z"
+      },
+      {
+        "headline": "Iran talks, Artemis splashdown, Hungary elections - Reuters",
+        "summary": "Iran talks, Artemis splashdown, Hungary elections\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQmUyc3VIeWNfZk5zcVZra0h3T2owTHB1T0ZKWUFSYVlwRWwzZ3FZOWZ5Rmlab2J2Ukg2cjN0cmpFZmZEbVo1Mm1MZ1NpLXd5UTAxVGFKaXhVX2d3MFZJVjZZX3NXOXRYYmN2QUdzdG9CaGVnZW1uQU05WFNVWmo3bnFVMUp3LXl2SkJ4dTB3OHBHeUZqOFpV?oc=5",
+        "published_at": "2026-04-11T15:08:08Z"
+      },
+      {
+        "headline": "Tankers exit Gulf via Strait of Hormuz as US-Iran talks begin - Reuters",
+        "summary": "Tankers exit Gulf via Strait of Hormuz as US-Iran talks begin\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXVJTXB6QVRMOFItaVNJWWpGME1WcXpzSzhEY1V6NGs4UFJKb0ozb0pYQW9xTUxQNDRWcW1UTTZCN1RZcnJaNHg0Wm9TMkt0STZsQzRwRVMzeDFtRzVsV2hpbHhPRGdDbmc1aFVCUlpHaXMwbV8yZTBDQTNENTM0eWNyaDdLSUs5eklySU9GVnduQm5hN1k0b3VfMkY1djJHVllpMUNVaw?oc=5",
+        "published_at": "2026-04-11T14:30:55Z"
+      },
+      {
+        "headline": "Americans weigh in on the Iran war, gas prices and their fears - Reuters",
+        "summary": "Americans weigh in on the Iran war, gas prices and their fears\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTEFEbVhyc2hHNG9OUFhtWHU2Yl92YTVEZkR3aFVOcmhfdDQtbWs2UFBmOC05XzRCbXFLYXFjYkUydkVISm5JX1UxcGhsMmduNTRYSTRCSTRNY0xaX1AtRU4wLVQ3ZG9KSkRIOUpSZFhwVHl6Zjk3M1NVQlFWTXJZTExrcXhOUWZuYW83UDZUNGl1NFVZOWs4?oc=5",
+        "published_at": "2026-04-11T13:24:14Z"
+      },
+      {
+        "headline": "How to help kids form healthy relationships with money: They 'end up in much better financial shape' as adults, psychologist says",
+        "summary": "Amid rising costs and a tighter economic climate, more parents are teaching their kids financial literacy lessons that could serve them well later in life.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/11/how-to-help-kids-form-healthy-relationships-with-money-psychologist.html",
+        "published_at": "2026-04-11T13:05:02Z"
+      },
+      {
+        "headline": "Pakistani five-star hotel becomes unlikely site for US-Iran talks - Reuters",
+        "summary": "Pakistani five-star hotel becomes unlikely site for US-Iran talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0FGeTlkdlV6NGFyT1diSVhTdThBeFVUQ0VDNGVWVU1tRXhFWDhMOHRjR0U1OUZWYUFfemFuOFBCdVNQWW13OEdIRTAyU05pTFo3Y0Y5dWZzbVZGVjZQcHlJc1A5NG5jUnBuR09uTDZCYXc3QVNnU2pFSm9rbzJWRjg1ZlplZktqa25qMjU4Y1A1VEdCcEk1bWR4cVVvMG53NEw2ZFdGa3RrYUExWmo2SnBNdUF0Qk0?oc=5",
+        "published_at": "2026-04-11T12:35:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 679.46,
+    "spy_change_pct": -0.0662,
+    "spy_lean": "neutral",
+    "vix_close": 19.49,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 52,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 6,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "CHARACTERS WHO LOVE BOOKS: NATIONAL DROP EVERYTHING AND READ DAY!",
+        "url": "https://ri...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:56.000Z",
+        "source": "rissiwri...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Epic Market Flash Crash Killed Bull Market: Is Crypto Healthier Now?",
+        "url": "https://co...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:54.000Z",
+        "source": "cointele...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.25
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Heroes Return: Artemis II Crew Celebrated In Houston After Historic Mission",
+        "url": "https://pa...(+58 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:45.000Z",
+        "source": "patriotf...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.29
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "When spouses give excuses to avoid sex",
+        "url": "https://ww...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:07.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pennsylvania police officer charged in the Capitol riot posted video of the insurrection and has 'no regrets",
+        "url": "https://ww...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:07.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.28
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New York prosecutors subpoenaed a property tax agency as part of a criminal investigation into Trump's business dealings",
+        "url": "https://ww...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:28:06.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Lynx fans mourn the StudBudz splitting up in WNBA free agency",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:27:11.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Scottie Scheffler surges up Masters leaderboard after rough start",
+        "url": "https://ww...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:27:08.000Z",
+        "source": "mag.news...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Watchdog group: NY hasn't fixed its voter registration form to comply with federal election law",
+        "url": "https://ju...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:27:00.000Z",
+        "source": "opensour...(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Staff At Minnesota Deportation Hub Received \u2018Obscene\u2019 Trump-Themed Challenge Coins Adorned With Skulls",
+        "url": "https://ta...(+125 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-11T21:25:59.000Z",
+        "source": "talkingp...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.18
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500"
+  ]
+}

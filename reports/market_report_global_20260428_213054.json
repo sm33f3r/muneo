@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-28T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2636669937489.89,
+    "total_market_cap_change_24h_pct": -0.3839,
+    "total_volume_24h_usd": 80714668227.25,
+    "btc_dominance_pct": 57.9733,
+    "eth_dominance_pct": 10.4781,
+    "total2_usd": 1108106229856.22,
+    "total3_usd": 831833063385.46,
+    "active_cryptocurrencies": 17517,
+    "altcoin_season_index": 33,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BCAP",
+        "name": "Blockchain Capital",
+        "price_change_24h_pct": 27.7791,
+        "price_usd": 105.75,
+        "market_cap_usd": 963605738
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 24.0375,
+        "price_usd": 0.206267,
+        "market_cap_usd": 204510334
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 23.889,
+        "price_usd": 0.176639,
+        "market_cap_usd": 320678528
+      },
+      {
+        "symbol": "APE",
+        "name": "ApeCoin",
+        "price_change_24h_pct": 14.5703,
+        "price_usd": 0.16126,
+        "market_cap_usd": 161802181
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 12.9943,
+        "price_usd": 0.844821,
+        "market_cap_usd": 181805427
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": -13.1124,
+        "price_usd": 0.00337741,
+        "market_cap_usd": 330892287
+      },
+      {
+        "symbol": "PROS",
+        "name": "Pharos",
+        "price_change_24h_pct": -12.7945,
+        "price_usd": 0.960871,
+        "market_cap_usd": 130522293
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -11.9849,
+        "price_usd": 3.35,
+        "market_cap_usd": 4334157545
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -9.2544,
+        "price_usd": 0.08905,
+        "market_cap_usd": 187009130
+      },
+      {
+        "symbol": "SFP",
+        "name": "SafePal",
+        "price_change_24h_pct": -8.972,
+        "price_usd": 0.34404,
+        "market_cap_usd": 172016016
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76299,
+    "price_change_24h_pct": -0.7978,
+    "price_change_7d_pct": 0.7079,
+    "market_cap_usd": 1528343410005,
+    "volume_24h_usd": 33517762993,
+    "direction": "neutral",
+    "oi_usd": 7441605207.65,
+    "funding_rate_latest": 5.242e-05,
+    "funding_rate_7d_avg": -2.8959047619047616e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9685,
+    "long_account_pct": 49.2,
+    "short_account_pct": 50.8,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2287.99,
+    "price_change_24h_pct": -0.1233,
+    "price_change_7d_pct": -0.4117,
+    "market_cap_usd": 276287746176,
+    "volume_24h_usd": 13007265704,
+    "eth_btc_ratio": 0.029987,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 83869341135.46,
+    "stablecoin_market_cap_usd": 319579280401.91,
+    "stablecoin_dominance_pct": 12.1206
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 52,
+    "headlines": [
+      {
+        "headline": "First Vegas-style casino opens in New York City",
+        "summary": "New York City's first full-scale casino with live table games opened to gamblers more than a decade after New York voters approved an expansion of gambling.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/resorts-world-casino-opens-in-new-york-city.html",
+        "published_at": "2026-04-28T21:02:30Z"
+      },
+      {
+        "headline": "U.S. airlines are hiking fares \u2014 and travelers keep booking",
+        "summary": "Executives say travelers keep booking despite big jumps in airfare as they seek to cover the cost of fuel.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/airlines-fares-fuel.html",
+        "published_at": "2026-04-28T20:28:17Z"
+      },
+      {
+        "headline": "Exclusive: Trump approval sinks to new low as war with Iran drives cost-of-living concerns - Reuters",
+        "summary": "Exclusive: Trump approval sinks to new low as war with Iran drives cost-of-living concerns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQalN2R2Rsay1qbGw4a0hHYWF5MlBmSUlMRERsajItcV9aYVBvTXJSQWNYblJ3VHVFSThrYXFaVl9lcUFjVEZOV3BhUlAzaUhORE5hYXZScWpQQkNBdXRjaWdBQ09nTC1nQ0tEb2RBM3JlTFpRTjhyZ0RDNWRCcDRvemU1NEFUTnpMd25vY3h3VER6NTF4bnRCbXB6WTFiaU1RdDdERWxobzAzejV0b0MtaGZra2pqZU1jNUNqd2R3?oc=5",
+        "published_at": "2026-04-28T20:23:54Z"
+      },
+      {
+        "headline": "Trump, unhappy with latest peace proposal, says Iran 'figuring out its leadership' - Reuters",
+        "summary": "Trump, unhappy with latest peace proposal, says Iran 'figuring out its leadership'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzJwYTUtVF9BUVRoM0hkbHlMeXdXaDhVXzk0dUpsYXpBdmNUc2ladEtLT3ZJVk9EeXU3SlVfWlFiWGFYVGRRbXZ5bWtacUVfNElXUHhfVFhQWFZxUnBNaF9hVjBLWkFJR0dsU3hDS0pFanhNSzRaaE5NQmVrcVBFTV9NWHNJSzVYUm1LQ29XN25ZMkk3VEM4UlNnNDUxMUlNRUNDb2sxcmJsSVhQU21sSE8yUVNya1dPdVF4UC13?oc=5",
+        "published_at": "2026-04-28T19:52:50Z"
+      },
+      {
+        "headline": "Red-hot Corning shares slide on earnings. Why that's a gift to investors",
+        "summary": "The stock's massive rally in 2026 established a high bar for Tuesday's results.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/red-hot-corning-shares-slide-on-earnings-why-thats-a-gift-to-investors.html",
+        "published_at": "2026-04-28T19:20:38Z"
+      },
+      {
+        "headline": "Exclusive: US spy agencies examine how Iran would react to Trump declaring victory - Reuters",
+        "summary": "Exclusive: US spy agencies examine how Iran would react to Trump declaring victory\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakxPaFJWcW50Y0lld2U3MmxqdFBLM1ZibW5QWTRwTlpSUzZBLXRTdlpJTVFSaHhTTHI4Q21UNjZEY0VXN0FCbE0tUWYweGwwM0U5ZWdMMGRTbHNURmotMHhLaTFTZTdGQzJ5SGFEd1diT2xaTUJoM1huTHd1T1VhNW95Q0tZdklQYkFjVHhOZzJFUVJDVnViRE9vUVlKVzZEYk9yRHI1T1RpYlVmWWJFQWlVWQ?oc=5",
+        "published_at": "2026-04-28T18:57:53Z"
+      },
+      {
+        "headline": "US imposes sanctions on 35 individuals, entities for aiding Iran's sanctions evasions - Reuters",
+        "summary": "US imposes sanctions on 35 individuals, entities for aiding Iran's sanctions evasions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcVk3REZRcV85OXdkbXhkUUtocGdLSld3OWN6VVEzYTFPRlJEdV9IczlLSjA0VEVvSmNCOGlWQVh3T0o5cmpRSzdvN3Y3RnFuVXg4ai0zODJuTUhIVWhyeExzSzQ3T1Z6enBPV0MtT3FBODNUQ1hEV2tNSksyZ3Y3LWNxSGltc184c3FUejZhQXd6MVVKSno3RVZUSUdEd2FUNmMwbG1qNFk3aVNHN19PbUlGbktxbnRLeDBFQkFwSHRiY2VmN2NFNA?oc=5",
+        "published_at": "2026-04-28T18:25:44Z"
+      },
+      {
+        "headline": "A good investing lesson on parabolic stock moves in Tuesday's market downswing",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/a-good-investing-lesson-on-parabolic-stock-moves-in-tuesdays-downswing.html",
+        "published_at": "2026-04-28T18:16:44Z"
+      },
+      {
+        "headline": "GM: Iran war causing cost increases, but pricey vehicles continue to sell",
+        "summary": "GM CEO Mary Barra said the Detroit automaker continues to monitor any change in customer spending, but so far, the company's vehicle mix has remained healthy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/gm-iran-war-vehicle-sales.html",
+        "published_at": "2026-04-28T18:11:06Z"
+      },
+      {
+        "headline": "US pump prices near 4-year high on Iran war disruption, refinery outages - Reuters",
+        "summary": "US pump prices near 4-year high on Iran war disruption, refinery outages\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQXy1va2liUDd1dVk3MDU1S1R1LUFvc2ZSdVBiV2Y0MkxRcDEwUlR5UzFJN1Rrd0ZScDRha042MzY1ZWJtNGQtNi16M0p1SVRfR0pmNGpDOU5zUXlMQ3RJUG1hMmhfckh2cXIyUkszTVFVS3pxWnVQVVJtdG85aWh2dW9pS0RDQmxCUElIWXRqRHJEeHZteGdfdzFnbXMzNWE1eF9hTFd4OElzMnlqeGQzTFVlOA?oc=5",
+        "published_at": "2026-04-28T17:58:22Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 711.69,
+    "spy_change_pct": -0.4866,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 41,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 4,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Carly Pearce's 'You Can Have Him' is a Cheatin' Song Without the Tears",
+        "url": "https://ta...(+54 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:28:25.000Z",
+        "source": "tasteofc...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kacey Musgraves to Play Three Shows With a Mariachi Band Detained By ICE",
+        "url": "https://ki...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:28:02.000Z",
+        "source": "kicks105...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Cardio-metabolic diseases: A burden that can\u2019t just be sweated off",
+        "url": "https://ww...(+107 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:26:07.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Prepare against heat's impact on food supply",
+        "url": "https://ww...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:26:05.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "No place for double standards, terror epicentres no longer immune: Rajnath Singh at SCO",
+        "url": "https://ww...(+126 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:58.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'Iran is in state of collapse': Trump says Tehran requested US to open Strait of Hormuz",
+        "url": "https://ww...(+125 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:56.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Salary expectations outpace reality for freshers",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:55.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Supplies from SEZs to DTA eligible for duty drawbacks if re-exported: CBIC",
+        "url": "https://ww...(+117 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:48.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Industrial output growth slows to 4. 1% in March",
+        "url": "https://ww...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:48.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LASTMA To Investigate 11,300 Extortion AllegationGeneral Manager",
+        "url": "https://ww...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-28T21:25:39.000Z",
+        "source": "latestni...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 1,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

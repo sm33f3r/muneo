@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-22T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2707982307680.38,
+    "total_market_cap_change_24h_pct": 2.948,
+    "total_volume_24h_usd": 116526746682.23,
+    "btc_dominance_pct": 58.1029,
+    "eth_dominance_pct": 10.6743,
+    "total2_usd": 1134565210780.84,
+    "total3_usd": 845507684139.19,
+    "active_cryptocurrencies": 17550,
+    "altcoin_season_index": 16,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CHIP",
+        "name": "CHIP",
+        "price_change_24h_pct": 71.9224,
+        "price_usd": 0.108524,
+        "market_cap_usd": 218677356
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 49.3393,
+        "price_usd": 0.071253,
+        "market_cap_usd": 177479457
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": 20.4701,
+        "price_usd": 1.96,
+        "market_cap_usd": 152876305
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 17.9292,
+        "price_usd": 0.04397439,
+        "market_cap_usd": 257374091
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 17.5606,
+        "price_usd": 0.00040519,
+        "market_cap_usd": 170461031
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -20.6912,
+        "price_usd": 0.368356,
+        "market_cap_usd": 367953371
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -13.0076,
+        "price_usd": 0.104743,
+        "market_cap_usd": 220073036
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -11.154,
+        "price_usd": 1.14,
+        "market_cap_usd": 281437800
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -9.7894,
+        "price_usd": 0.644349,
+        "market_cap_usd": 468754735
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -5.9863,
+        "price_usd": 0.01055348,
+        "market_cap_usd": 603852379
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78596,
+    "price_change_24h_pct": 3.9621,
+    "price_change_7d_pct": 5.0067,
+    "market_cap_usd": 1573212798614,
+    "volume_24h_usd": 49814333749,
+    "direction": "bullish",
+    "oi_usd": 8197701757.73,
+    "funding_rate_latest": -7.49e-06,
+    "funding_rate_7d_avg": -4.305619047619047e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.5133,
+    "long_account_pct": 33.92,
+    "short_account_pct": 66.08,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2398.08,
+    "price_change_24h_pct": 3.6267,
+    "price_change_7d_pct": 1.4562,
+    "market_cap_usd": 289415091027,
+    "volume_24h_usd": 21391493722,
+    "eth_btc_ratio": 0.030511,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86864872380.41,
+    "stablecoin_market_cap_usd": 319319804726.73,
+    "stablecoin_dominance_pct": 11.7918
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "S&P, Nasdaq close at records on Iran ceasefire extension, earnings - Reuters",
+        "summary": "S&P, Nasdaq close at records on Iran ceasefire extension, earnings\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTE1IRDNDTDNBUmcwZFVXOW40dldfSmc0YzU3WHZGb3pxZzJCY1RVWmotelJHa0g4SURfUHQwdFh3cTk5LTUwR283Z2NxWE5IdjVrUnNScERKaU56TkpnbkhaTk5ucGZCWHpDVVRmdUpGMjRDUjBHV3BSSGdDSFdrbzB4NVd3T0doSnhzajQwMWFYdjRRRVpxLU4tSm04R05WR0IzbUNTNA?oc=5",
+        "published_at": "2026-04-22T20:59:49Z"
+      },
+      {
+        "headline": "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
+        "summary": "IBM CEO Arvind Krishna said he expects others to quickly catch up to the power and performance of Anthropic's Mythos AI model.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/22/ibm-ceo-arvind-krishna-earnings-iran-anthropic.html",
+        "published_at": "2026-04-22T20:51:17Z"
+      },
+      {
+        "headline": "Lululemon names former Nike exec Heidi O'Neill as new CEO",
+        "summary": "Lululemon announced on Wednesday that it has chosen former Nike executive Heidi O'Neill as its new CEO, effective in September.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/22/lululemon-names-former-nike-exec-heidi-oneill-as-new-ceo.html",
+        "published_at": "2026-04-22T20:43:30Z"
+      },
+      {
+        "headline": "Trump administration nears $500 million Spirit rescue as Iran fuel shock hits airlines - Reuters",
+        "summary": "Trump administration nears $500 million Spirit rescue as Iran fuel shock hits airlines\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdVFJUVI0OFBPRU9CUEpUY3JTVV9EaVh4MWtTVnFnNVIwaHZJeUQtaUFfbjY1MGZuQkRfa1RLUXl4RHdXWVFjM3ZuZTdLLXk2QmVXRFpKSnU2R0lYUlRINkxOZnUtM1pNREQ4ZG1QTGtoaVg5V3p4UEJrdXhveHFaTWttY25LYXRKS2tWa1hwVldnc29UWGp4QVhINm8wM280QlR5SnEyRGZvcWRfQ2ptWA?oc=5",
+        "published_at": "2026-04-22T20:28:10Z"
+      },
+      {
+        "headline": "Iran seizes two container ships attempting to leave Gulf - Reuters",
+        "summary": "Iran seizes two container ships attempting to leave Gulf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOek56STB6bE5kUE9aLUU4RmtzZmxhTmM1SFRSWHRlMF8xbWFiQlR0MUI1QldvdUZmbGlrYmpucWVvWEVxWi01d1pzSDVzU3E2WDlod3ppRTZIcnBlc09vd0ROSDVBNkk3V1BjaFBBQ0ZuQ3B4aE90Rm9TUWZxeWxUeFhKRkMtS3lmNzMxdFB3WHdnOTdoUGVuMEJxQVBJUkJxSm1TTg?oc=5",
+        "published_at": "2026-04-22T20:16:17Z"
+      },
+      {
+        "headline": "From paint to flights, Iran war lifts costs, darkens outlooks - Reuters",
+        "summary": "From paint to flights, Iran war lifts costs, darkens outlooks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPckdQdEFnWENVbDVDNjJ0bzhkbnJLNGpBS29PQjZacktrT1NZOWdvTHUteGhLMHVYRzY5R1dVUExmZnVrYTRjNmZMSFlnSGJXSVBpdXR4clNjZ05QT2FuajNaV1NMVFJlSm1tdGtLdER6eFJWNTBfVXAtb3hWS0tSNEhvSHpUT2tJSEx4eEx5bnN5dV9GSWNxNUNhaks1bmxCbHI1REVJVGQ?oc=5",
+        "published_at": "2026-04-22T19:56:28Z"
+      },
+      {
+        "headline": "US wants to see unified response from Iran, White House says - Reuters",
+        "summary": "US wants to see unified response from Iran, White House says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXBnNVdyS1FweGxjVTlxZmVFOThEVmVSOTA5ZHV6b2twWUpVS3hzRXV4Q3BqV3duRTFxRXdqME1CWG04eTAxVEtsZ3FPUlVISVZtZlhaUU5hMUc4U0o2WkhCUWpaOTRtUUxrbERsRjVlcnRQamhjaUR4V2Q4cEhFR01HV1N5amtnMWdFZzFCVFJtTUlibVN5TjVnSmFEYWprbHFMOWpuRklSSWhydHRF?oc=5",
+        "published_at": "2026-04-22T19:33:20Z"
+      },
+      {
+        "headline": "We're adding a speculative stock to our Bullpen that can benefit from the AI data center boom",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/22/were-adding-a-speculative-stock-to-our-bullpen-that-can-benefit-from-the-ai-boom.html",
+        "published_at": "2026-04-22T19:03:16Z"
+      },
+      {
+        "headline": "Rivian hits production milestone for R2 EV ahead of customer deliveries",
+        "summary": "Rivian Automotive on Wednesday said it has started production of its new R2 all-electric vehicle for customers at its plant in Normal, Illinois.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/22/rivian-r2-ev.html",
+        "published_at": "2026-04-22T18:22:16Z"
+      },
+      {
+        "headline": "US breach of commitments, blockade of ports main obstacles to 'genuine negotiation', Iranian president says - Reuters",
+        "summary": "US breach of commitments, blockade of ports main obstacles to 'genuine negotiation', Iranian president says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWE5MNnkxT0JuN3hkTWRUbU41cEFKT0YwdUhIT3lLZXB5ZDVxUmdsb3NmWXEzcVY3NTJENVg0cm1Wclh4VGFQZk5OWmp2TnNkNFZrTHFwQzhaaEgydkVSOFlpWHdveVY3WWh4eFRVUXk3WWF3aDFpVEFCdU5qcmExNGZkQklkbndtc3NZWXROaEhFUHhWQmdoajVOcjRBVTVVd3E5UjJxc3ota3RVUWxfSXktRVA2VHRjcDZtckdVaWQydmNLZGpyLXQxejVIdw?oc=5",
+        "published_at": "2026-04-22T18:01:44Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 711.18,
+    "spy_change_pct": 1.0084,
+    "spy_lean": "bullish",
+    "vix_close": 19.5,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 62,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 5,
+    "negative_count": 1,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.5,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Senior Developer (Laravel/React)",
+        "url": "https://la...(+19 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:28:07.000Z",
+        "source": "larajobs...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nebraska Students Awarded Seals of Biliteracy \u2013 Nebraska Department of Education",
+        "url": "https://ww...(+82 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:27:46.000Z",
+        "source": "educatio...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Frontier League is getting new name in 2027",
+        "url": "https://ww...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:26:26.000Z",
+        "source": "observer...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How a Bear Became a Book: The Collaboration That Created Winnie-the-Pooh by Annette Bay Pimental, Illustrated by Faith Pray \u2013 Unleashing Readers",
+        "url": "https://ww...(+29 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:48.000Z",
+        "source": "unleashi...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Reposit\u00f3rio Institucional da Universidade de Aveiro: Creative thinking by analogy in constructive geometry: new insights into the history of regular polygons",
+        "url": "http://hdl...(+23 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:48.000Z",
+        "source": "ria.ua.p...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Long May It Wave | Baseball Hall of Fame",
+        "url": "https://ba...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:22.000Z",
+        "source": "baseball...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Megyn Kelly: \"I've been watching what Alex Jones has been doing lately, and I actually really appreciate it\"",
+        "url": "https://ww...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:21.000Z",
+        "source": "mediamat...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "West Greene Junior High honor roll",
+        "url": "https://ww...(+91 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:12.000Z",
+        "source": "observer...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "5. 11 Joins Pro Motocross in SMX League Partnership, Title Sponsor for 2026 RedBud National - Racer X",
+        "url": "https://ra...(+114 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:07.000Z",
+        "source": "hdradio....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Navy Veteran Charged In Series Of Atlanta-Area Shootings Dies In Jail",
+        "url": "https://ww...(+117 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T21:25:07.000Z",
+        "source": "juliasil...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.19
+        },
+        "is_breaking": true
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}

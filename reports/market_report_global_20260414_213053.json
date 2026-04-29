@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-14T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2587213815990.61,
+    "total_market_cap_change_24h_pct": 1.0812,
+    "total_volume_24h_usd": 146742850690.34,
+    "btc_dominance_pct": 57.3497,
+    "eth_dominance_pct": 10.8178,
+    "total2_usd": 1103454995526.29,
+    "total3_usd": 823574896262.04,
+    "active_cryptocurrencies": 17653,
+    "altcoin_season_index": 15,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 51.191,
+        "price_usd": 0.333848,
+        "market_cap_usd": 333592575
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 47.8264,
+        "price_usd": 16.02,
+        "market_cap_usd": 3964876034
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": 19.8807,
+        "price_usd": 8.97,
+        "market_cap_usd": 175926452
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 12.3459,
+        "price_usd": 0.122662,
+        "market_cap_usd": 122632287
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 10.6511,
+        "price_usd": 0.982113,
+        "market_cap_usd": 343739607
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -38.8931,
+        "price_usd": 0.112136,
+        "market_cap_usd": 112401118
+      },
+      {
+        "symbol": "ULTIMA",
+        "name": "Ultima",
+        "price_change_24h_pct": -16.1884,
+        "price_usd": 4361.16,
+        "market_cap_usd": 164734564
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -12.7518,
+        "price_usd": 0.680117,
+        "market_cap_usd": 494630598
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -10.4278,
+        "price_usd": 0.0110935,
+        "market_cap_usd": 630636348
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -8.4123,
+        "price_usd": 0.135601,
+        "market_cap_usd": 135548883
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74118,
+    "price_change_24h_pct": 1.3023,
+    "price_change_7d_pct": 7.4483,
+    "market_cap_usd": 1483161038300,
+    "volume_24h_usd": 63093401776,
+    "direction": "bullish",
+    "oi_usd": 7415559857.9,
+    "funding_rate_latest": -5.234e-05,
+    "funding_rate_7d_avg": -1.4742380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.6562,
+    "long_account_pct": 39.62,
+    "short_account_pct": 60.38,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2320.15,
+    "price_change_24h_pct": 2.9012,
+    "price_change_7d_pct": 9.8761,
+    "market_cap_usd": 280021677922,
+    "volume_24h_usd": 29801021830,
+    "eth_btc_ratio": 0.031303,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 97556391362.81,
+    "stablecoin_market_cap_usd": 317864847336.19,
+    "stablecoin_dominance_pct": 12.286
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 52,
+    "headlines": [
+      {
+        "headline": "Exclusive: US will not renew waiver on Iranian oil as it mounts pressure on Tehran, sources say - Reuters",
+        "summary": "Exclusive: US will not renew waiver on Iranian oil as it mounts pressure on Tehran, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWZpWDVqMEVHQ1QzTi1RS3l3YVk0MkUydTdOZ2MxSGVvekNuVG1Cd2xHM2lranBReWJreHFIWHgyLWYxSmQtdG1NbWQ5OWxzOElSeXY2RG5tUGh2UTV6aXhUSzMtNER6ejhEZjRLTy1DVkdreWFTZTRVci12RDlQZmYxdDdLSEx3dGQ3OS1pQW8xMzhpVmNCVnRIaFdQc3ZDX2hLQXFFMVRNUEZOOWdN?oc=5",
+        "published_at": "2026-04-14T19:34:20Z"
+      },
+      {
+        "headline": "IMF slashes growth forecast for Middle East as Gulf exporters reel from impact of war - Reuters",
+        "summary": "IMF slashes growth forecast for Middle East as Gulf exporters reel from impact of war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYjRGcWpUQ3I4LThQYTkxR2FxanBacV9YOFd6ZHdjTmtpazltbDlCRlJBMUN4ZG9FaTB1cDk1aXB0d0E1WE1Bal91dDlOLUJMU0ttS1pZb0hxZTdNN0pNQ3FUT25qaHBncURVcHJOR1VRbzgwcFZKcVd2T1hWUW0tOVdDU1NGdjZFZWxrT0Z0NVU2VThVV0R6QUMySnItRUIxOXc1eGlzbUYyTUFzcTVzcy1SQXhwTW4zTmZDRDVXdw?oc=5",
+        "published_at": "2026-04-14T19:25:21Z"
+      },
+      {
+        "headline": "Wall Street rallies on renewed hopes for US-Iran talks, earnings boost - Reuters",
+        "summary": "Wall Street rallies on renewed hopes for US-Iran talks, earnings boost\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnl4MW04VzZlWE1mWVBMdFdCQWFwZjNoQmZuSU5lVkRIaWgyQ3czMFkzcEJlMmhEdVpkZmVwdll0MEl1VjA3emZoWkJyNlFZcl9UNlVpZTRsVWJSRXF0VTdDb2ZSbFFyWjJXMEFwN2wxa0h5Q05VRnFOVTVCQzA2ampLcWhZeEVLZVcwUXhJNTJPMU5xWjJUcEYybGFWS0ExMzgwWlo1azBEMzhFNG9Zc1FCMGxlRjQ?oc=5",
+        "published_at": "2026-04-14T19:07:48Z"
+      },
+      {
+        "headline": "Stocks keep the rally going and oil tumbles. Here's why we have some trepidation",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/14/stocks-keep-the-rally-going-and-oil-tumbles-heres-why-we-have-some-trepidation-.html",
+        "published_at": "2026-04-14T19:06:48Z"
+      },
+      {
+        "headline": "US truckers' diesel spending hits record high on Middle East conflict - Reuters",
+        "summary": "US truckers' diesel spending hits record high on Middle East conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHRtMFJaV1FBbmEwZzYyV0VzVWg2d2VVbHZQUy1PVUk0Y1VrWmNyXy1Gb1B3bDVFZENhM2VuaHJNaE1JbHJMd1FQLWQxNGh5Wjc5U3JYRGpHVXY3Wlc3YUpSeDUzTzJNVG54VnhYOTFZWTJqNl9OTHpXV2tadWtBUVlMVEstY3dVcDZVUXRDU0RLQnVfOWdFS2pYZzVTMzVJZ180TTJFbmNZblNpTkFjWWRlT1M?oc=5",
+        "published_at": "2026-04-14T18:40:12Z"
+      },
+      {
+        "headline": "IMF cuts growth outlook, warns world already drifting toward more adverse scenario - Reuters",
+        "summary": "IMF cuts growth outlook, warns world already drifting toward more adverse scenario\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcmNiNzBrS0RzczdCcVIwbHZiUkpaZEZhM05IU2FFbWFjX21ZdlA1ampGV1lfM1lwX1l4SnM3dVY0VHBtLUdMY3ZneFpVVkVIbFNTVUllWHZUSDBKdUhpa1pWT3NVMGdSeFRaMFdENHlWc1prUFVma0JXZEhGSmtJaHl5MFRhX001QklYcEpxczltLUNfQXlETUdPNXNlTEhGTTVEand1WVg3QUF3R2Z3a2xMa1I5SXlIc1QwdmFB?oc=5",
+        "published_at": "2026-04-14T17:47:00Z"
+      },
+      {
+        "headline": "UN's Guterres says highly probable Iran talks will restart - Reuters",
+        "summary": "UN's Guterres says highly probable Iran talks will restart\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkh1OGZreVBQdnF2LS1vdm50N0dDeF9XMW1vekNlcWk5MGs1VTdzdzFXUjBCZ01iYjU5dGhyZm1YNGs0QUtaYjlGU3VJaENhNU1DWU9jWUdDVXFvanFaVGZVU3dOZlJiNDNFNVBrd3p5V0ZxeUROUmFPbk1VeUZYQ3ZtWGdxYmlyODJReGVmekNxbENialVpS1hpUXRwcGhMZlVwY0d3SDc2VWlWRG5XUldB?oc=5",
+        "published_at": "2026-04-14T17:34:32Z"
+      },
+      {
+        "headline": "Six ships turned around as part of Strait of Hormuz blockade, US military says - Reuters",
+        "summary": "Six ships turned around as part of Strait of Hormuz blockade, US military says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdXR6TlRNWmdLV2c4bTZPVGZCcmcxNW8wR21CRGFtSEFFdGlrUlAyekQ2STdhUjh0YkdUa2htUV80bXE2RDk0b2ROU3ZFU1RVMVM1eGc3U21Ob2Z2RkptX3ZYTTljekF0aE56SGtvTk5QMFV6TEZRMXg2RldvQ2dpVVEwd2plRk1fVGp6QXFWVm9pOTB1U0U3OXJrTnlkdXJrUzJObGZGXzJtYTNXVXA4MXNNWEU5Zi1RTGpxSEtzRQ?oc=5",
+        "published_at": "2026-04-14T17:31:13Z"
+      },
+      {
+        "headline": "Iran war allows Australia to revive green iron ambitions - Reuters",
+        "summary": "Iran war allows Australia to revive green iron ambitions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaGtEcG9oTzBTQkQ2S3ZyN0Q4dFE5dm1SYWdabEdHRGgteHpoRC1uS2ZHLXBSSF9qX3Ayd0pJNTNnYTJGYV9JMjhmWE5yNTJLRHJGa2dfeVhUU2NnYm9Fd01XUUtKOTI4M0ZRWFhjOER1LThvSGtwVjFPblNQWnd1eW9pQXdOdW04UUJFbEFmbnpwWEZoOS1fZWliclRnTlB0Nk14ZWtidllLUC13bnc?oc=5",
+        "published_at": "2026-04-14T17:03:52Z"
+      },
+      {
+        "headline": "UK hit with big IMF growth downgrade as Iran war fuels inflation - Reuters",
+        "summary": "UK hit with big IMF growth downgrade as Iran war fuels inflation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUk9hTGpCa05VR0d1OWtDWnZQSjgtV0FDdmR6VTBRc1NiUHZab1BfNG9aQzRDS1F1Y2FZMFFKbnFfblRRTFpETnY4a0kxS1BzVXdyS3dOZDhwUEdDYnpCa0xocTd5OUpEYjRIM09xYlhMOG9NU0tPWklfVnU4NHdQMjR5WTA1MGtsZFowZ2R5X3dpRTU1VEJDUmpJSUtDY21QNjdWbUl4a3dhUQ?oc=5",
+        "published_at": "2026-04-14T17:01:10Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 694.44,
+    "spy_change_pct": 1.2156,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 53,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Authorities concerned at hydrocarbon project in Bazaruto \u2013 aimnews. org",
+        "url": "https://ai...(+78 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:28:16.000Z",
+        "source": "aimnews....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Earvin \u2018Magic\u2019 Johnson brings 10,000-megawatt smile and inspiration to UIC Chair Chats | UIC today",
+        "url": "https://to...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:27:43.000Z",
+        "source": "today.ui...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crain\u2019s Chicago Business recognizes notable UIC leaders | UIC today",
+        "url": "https://to...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:27:43.000Z",
+        "source": "today.ui...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NARFE Questions USPS Decision to Suspend FERS Employer Contributions",
+        "url": "https://po...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:27:42.000Z",
+        "source": "postalti...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "On-Device Multi-Type Disfluency Detection with Sub-Millisecond Inference on Apple Silicon | Engineering Archive",
+        "url": "https://en...(+28 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:26:13.000Z",
+        "source": "engrxiv....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BH selectmen appoint new planning board alternate",
+        "url": "https://ww...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:25:23.000Z",
+        "source": "boothbay...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bengaluru Gardener Shows How To Grow Pomegranates in Buckets at Home",
+        "url": "https://th...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:24:30.000Z",
+        "source": "thebette...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dembele Double Ends Liverpool\u2019s European Dream Against PSG",
+        "url": "https://ep...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:23:07.000Z",
+        "source": "eplindex...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "One-of-a-kind Fred Eaglesmith hits Knox Hall on April 17",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:21:53.000Z",
+        "source": "sudbury....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jury deliberating in inquest into Sudbury\u2019s man workplace death",
+        "url": "https://ww...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-14T21:21:52.000Z",
+        "source": "sudbury....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.11
+        },
+        "is_breaking": true
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 4,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

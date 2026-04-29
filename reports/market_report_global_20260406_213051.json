@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-06T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2459500444995.37,
+    "total_market_cap_change_24h_pct": 2.6499,
+    "total_volume_24h_usd": 103208850886.14,
+    "btc_dominance_pct": 56.6998,
+    "eth_dominance_pct": 10.5307,
+    "total2_usd": 1064968874856.64,
+    "total3_usd": 805965348234.35,
+    "active_cryptocurrencies": 17794,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": 14.3022,
+        "price_usd": 12.54,
+        "market_cap_usd": 245644873
+      },
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price_change_24h_pct": 11.0587,
+        "price_usd": 1.61,
+        "market_cap_usd": 891314525
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": 10.7041,
+        "price_usd": 0.15346,
+        "market_cap_usd": 276243383
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 10.2597,
+        "price_usd": 0.303362,
+        "market_cap_usd": 171403712
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 9.3701,
+        "price_usd": 0.582549,
+        "market_cap_usd": 424284143
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -13.3365,
+        "price_usd": 1.27,
+        "market_cap_usd": 205652225
+      },
+      {
+        "symbol": "QRL",
+        "name": "Quantum Resistant Ledger",
+        "price_change_24h_pct": -6.3906,
+        "price_usd": 1.5,
+        "market_cap_usd": 117678984
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -4.2421,
+        "price_usd": 0.01084672,
+        "market_cap_usd": 613337192
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -3.6285,
+        "price_usd": 0.08208,
+        "market_cap_usd": 285046576
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": -3.4927,
+        "price_usd": 0.0025813,
+        "market_cap_usd": 253335699
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 69667,
+    "price_change_24h_pct": 3.286,
+    "price_change_7d_pct": 4.6246,
+    "market_cap_usd": 1394148519629,
+    "volume_24h_usd": 48710537420,
+    "direction": "bullish",
+    "oi_usd": 6611559788.11,
+    "funding_rate_latest": 4.23e-06,
+    "funding_rate_7d_avg": 8.887142857142856e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0218,
+    "long_account_pct": 50.54,
+    "short_account_pct": 49.46,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2145.93,
+    "price_change_24h_pct": 4.1968,
+    "price_change_7d_pct": 6.0735,
+    "market_cap_usd": 259037534410,
+    "volume_24h_usd": 18922305226,
+    "eth_btc_ratio": 0.030803,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93676575309.82,
+    "stablecoin_market_cap_usd": 316026497465.42,
+    "stablecoin_dominance_pct": 12.8492
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 46,
+    "headlines": [
+      {
+        "headline": "Trump says Iran could be 'taken out' on Tuesday, Hegseth says major strikes to come - reuters.com",
+        "summary": "Trump says Iran could be 'taken out' on Tuesday, Hegseth says major strikes to come\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ1JuNHlScmVxUm9PUGhabTBxNEtnUXZSZkwzZ2RnQ3Zrd1FWdHBhSFhQR3UxcXM4LTIxTmM4SFdhWldRdXg5Y3VRS19KZkpQUy1odHdxdEpEOGdiOHFhX1h4dldmaW4tZTNBei1URVJWRGIxblZpNXlYMDlZajR5M01DSEM2aFpoRDd6cWJHNWIzRFBfcU5sdQ?oc=5",
+        "published_at": "2026-04-06T20:25:02Z"
+      },
+      {
+        "headline": "Trump threatens jail for reporter who revealed Iran airman rescue - reuters.com",
+        "summary": "Trump threatens jail for reporter who revealed Iran airman rescue\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZGtocXAxc3dkX19CUEpMOG5zMFlxQzRJdW0taTF2aUlqdnRvQjY4bzFmdUxzOEctTmx2THRSMmpPbjhFaWtGelVfVHl1dGREbFZydU9jdkpNMnNpNFF3Z05IZEVjaGFjMUNDNFdoUUFRNDJLU1RvZUNLdDNuRGR1Y2otOVFLbm1WajlVRTZwYVR0YlBFbWtnaFFVN2xQa2JBcHBkOGM3MU9JQ01RZGtoaWhPVl92NHNQOTgzdg?oc=5",
+        "published_at": "2026-04-06T20:01:45Z"
+      },
+      {
+        "headline": "Iran halts two Qatar LNG tankers it previously cleared to transit Strait of Hormuz, source says - reuters.com",
+        "summary": "Iran halts two Qatar LNG tankers it previously cleared to transit Strait of Hormuz, source says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZE5BeVdUSnFHSU5xN0gySDY2a253Y2hSUG5NOWt4d3U4bVlaR3FiS2FMZ0hiMGxjTC1WdWx0OEtrMnN5cWpJWFVBLUdkRk5scGM2cTZOczdEaGxMVG94bFdCSVFvdHVDcEwzVzdSWkIzRC1pS0E5cmx3SE1XV2FjT1NmR2xfZl9vS2hMZEF1Nm00V1UxQmJ6ajcyeDFkOUI4MEE2dnVHM25qekxDcUY2Qkw0OVlLeWJlUDlEQ2ZsRzdRcC1SSmZ0OS1QZmhzZw?oc=5",
+        "published_at": "2026-04-06T19:07:04Z"
+      },
+      {
+        "headline": "Wall St clings to gains as investors assess US-Iran negotiations, threats - reuters.com",
+        "summary": "Wall St clings to gains as investors assess US-Iran negotiations, threats\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUXJrYzYxUlR4aWZ1eWJIWHRabGpZNldYUm9BYi1jdXp4Q3RTa1k0Sk9oOHN6VDdBb0dMTk5YcVdiMExzbWstWFRRWnE5UTdHY3hVb3dPTUQ2NWFHaGljX0lBcEVyS2NlNHlGWTh3UWx2bm50WHI0QzRZN3gzQWNiUEhUMFZ2STZvdVB1eEpRWkoxVWJQbnJqMVg3a3VCSWJFNmRrYWRYQ290UERuUnhiYmpjTE8?oc=5",
+        "published_at": "2026-04-06T18:33:14Z"
+      },
+      {
+        "headline": "S&P 500 aims to extend win streak \u2014 plus, a CFO switch at one of our key names",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/06/sp-500-aims-to-extend-win-streak-plus-a-cfo-switch-at-one-of-our-key-names.html",
+        "published_at": "2026-04-06T18:24:54Z"
+      },
+      {
+        "headline": "JPMorgan's Dimon warns Iran war may drive inflation and interest rates higher - reuters.com",
+        "summary": "JPMorgan's Dimon warns Iran war may drive inflation and interest rates higher\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOFItZ1lCRWJEZ3hkWlpnaGpFR0R3cTRtTTR5Z1dtemlwSVkxMzVFc3JVRUFpY1FMYzJQakRHLWo2Rl95SDJuN0ptWkhZbHhtdVU4emRLanFFS2kyZGcyQ2x1enJXM0pqa2hnYjNrUEVIMm5OTXdDejVDNFVZa3pTd01xZTZQbGJ4NVhyeXpDR3JWNHFsQ05iNlk5MmlNR3FFZldMZU5SS0xRaGM1TlFVdTMtZW9OUWxwVGdzdTNtcU5WYzg?oc=5",
+        "published_at": "2026-04-06T18:01:57Z"
+      },
+      {
+        "headline": "No longer CEO, Warren Buffett still goes into the office daily\u2014what to do when a former boss now reports to you, work experts say",
+        "summary": "Berkshire Hathaway's Warren Buffett still goes into the office daily, highlighting an unusual dynamic: a leader having a second act within their company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/06/buffett-abel-berkshire-hathaway-former-boss-now-reports-to-you.html",
+        "published_at": "2026-04-06T17:51:58Z"
+      },
+      {
+        "headline": "Four killed in Israel's Haifa after Iranian missile strike - reuters.com",
+        "summary": "Four killed in Israel's Haifa after Iranian missile strike\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR3RTdkNwOHlSZXlkWUJqdXdYOXdrWEsyR00tcndjc1RCcV85OFZGU3VxYVNYRTl3aTNGUldsSTg3blI4OTRUUWlvWTlBODR1aWI5c215dlBBTWQ3a1VLRnNhNmQ2RWlOTXROcDQtYzhBaWNIellkLV9BeThsZW8zY2dNUW5zWk5ZMU1EdWZvX0xqZkdQdzRzMk1OYm1jN2NCUk0tRVAxWmxmQ1V5?oc=5",
+        "published_at": "2026-04-06T17:45:36Z"
+      },
+      {
+        "headline": "US service sector cools in March, inflation heating up amid Iran war - reuters.com",
+        "summary": "US service sector cools in March, inflation heating up amid Iran war\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDRqY0NjWnFXcGtMbVgtS0VsWU9TTEItcDFvelh4dno0d2pkT0xyYXNzOGN1OExlcTRUNVhlUWhBdnA4NTVjODZXNmRFSkp6QmQ5bE5id2ZHUUZpbjVSMGNjTzBMU1BuS1ViMmY2Q2ZVZk9xaVhiUE94Y0JZbHE5YnBMQWlIdlAzbnhYS1dFSTJGalRRcmd5ZFpxWXp6a1duSnBrOVktSHVCWEplNmJKdVdn?oc=5",
+        "published_at": "2026-04-06T17:10:09Z"
+      },
+      {
+        "headline": "Trump says he is upset with Iran, they will pay a big price - reuters.com",
+        "summary": "Trump says he is upset with Iran, they will pay a big price\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGs3eE1pQzdfX1BRQXJIZUZpWUFyUVR5TU5nWXpsNUZqZXFPV2tqYzdFb1AyVF9HNUdNM0w4U3JDTENMMjZ1VzZaZW90bmZiU29hb25vVzFlRk13Y0RHY1k3M3ZDTDdxaVFnNHp2MWtkRGNYM1R5SmtnMTVkWkRhV0xscm1EWlpjUDQ5SHRLSG1KQWxsdF9YYldHMXNZUVNVNjJYWDFGUFlZb2ZnYjdJ?oc=5",
+        "published_at": "2026-04-06T17:09:11Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 658.94,
+    "spy_change_pct": 0.4742,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "SNEAK PEEK: Cardi B's Setlist for Philly 2026",
+        "url": "https://wp...(+41 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:27:02.000Z",
+        "source": "sasknow....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Families Denied Access to Main Street, U. S. A. , Magic Kingdom Change in Effect This Spring | Disney Dining",
+        "url": "https://ww...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:25:46.000Z",
+        "source": "disneydi...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Looking for help doing the heat exchanger bypass",
+        "url": "https://pr...(+76 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:25:11.000Z",
+        "source": "priuscha...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Taylor Frankie Paul Says She\u2019s Stepping Away From Mormon Church Amid Legal Challenges",
+        "url": "https://ww...(+131 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:24:42.000Z",
+        "source": "hallels....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Best Antivirus for Ransomware Protection: How to Stop Encryption Before It Starts \u2013 BO2K",
+        "url": "https://bo...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:24:35.000Z",
+        "source": "bo2k.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Forrest Frank Turns $10K Prize Into $30K Donation to Fight Child Trafficking",
+        "url": "https://ww...(+120 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:24:10.000Z",
+        "source": "hallels....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Judge Rules Against Glas\u2019s Habeas Corpus Bid as Defense Warns of Severe Malnutrition",
+        "url": "https://or...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:21:51.000Z",
+        "source": "whimsyso...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @KaiserLoengramm on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:21:43.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @iyad_elbaghdadi on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:21:39.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New York Lawsuit: Popular Health Food Contains More Calories",
+        "url": "https://li...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T21:21:21.000Z",
+        "source": "aztlanvi...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

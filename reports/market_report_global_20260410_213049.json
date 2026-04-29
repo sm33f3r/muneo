@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-10T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2554522511764.62,
+    "total_market_cap_change_24h_pct": 0.885,
+    "total_volume_24h_usd": 95033785419.34,
+    "btc_dominance_pct": 57.2784,
+    "eth_dominance_pct": 10.6135,
+    "total2_usd": 1091332629914.59,
+    "total3_usd": 820208662054.55,
+    "active_cryptocurrencies": 17707,
+    "altcoin_season_index": 15,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 138.5046,
+        "price_usd": 1.63,
+        "market_cap_usd": 384148782
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 63.4296,
+        "price_usd": 0.116275,
+        "market_cap_usd": 274164908
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 49.3482,
+        "price_usd": 0.118943,
+        "market_cap_usd": 118790608
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": 20.2338,
+        "price_usd": 44.78,
+        "market_cap_usd": 566114438
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 15.2391,
+        "price_usd": 0.100586,
+        "market_cap_usd": 183647602
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price_change_24h_pct": -21.3317,
+        "price_usd": 263.16,
+        "market_cap_usd": 2524247946
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -18.9424,
+        "price_usd": 8.71,
+        "market_cap_usd": 171004748
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": -12.137,
+        "price_usd": 0.0818,
+        "market_cap_usd": 2598235884
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": -6.6542,
+        "price_usd": 9.01,
+        "market_cap_usd": 137317878
+      },
+      {
+        "symbol": "GEKKO",
+        "name": "GEKKO",
+        "price_change_24h_pct": -4.5712,
+        "price_usd": 6.48961e-07,
+        "market_cap_usd": 129792282
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73123,
+    "price_change_24h_pct": 1.2381,
+    "price_change_7d_pct": 9.4104,
+    "market_cap_usd": 1463837749265,
+    "volume_24h_usd": 39107055851,
+    "direction": "bullish",
+    "oi_usd": 7102745349.69,
+    "funding_rate_latest": -2.187e-05,
+    "funding_rate_7d_avg": 2.7083333333333335e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7391,
+    "long_account_pct": 42.5,
+    "short_account_pct": 57.5,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2248.49,
+    "price_change_24h_pct": 1.6988,
+    "price_change_7d_pct": 9.5319,
+    "market_cap_usd": 271372244037,
+    "volume_24h_usd": 17076167168,
+    "eth_btc_ratio": 0.030749,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96441777991.87,
+    "stablecoin_market_cap_usd": 316440113379.1,
+    "stablecoin_dominance_pct": 12.3874
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 39,
+    "headlines": [
+      {
+        "headline": "US likely to extend Russian oil waiver to temper Iran war shock, sources say - Reuters",
+        "summary": "US likely to extend Russian oil waiver to temper Iran war shock, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOEVUck5QUzVwZG9KUzZvLVZRMzd6aHhWOWFvMzJIX2RYZHQteHpkV19JU240b3hhOExHTXNvWG9CU3V4cDgxVmhjUHowQzBBVml0MEs0TDRNaGdERTVHZFphZzZMay1xTDJjRzFIYllDOVFzZzJVa05tZTRDbm5KWHRMekc2NmF0UXFTOVZpaEIzOGVtLVBkd29EbnB3RUFiRkVzMGNfTmVtbWNIdGJpdFV6eWxfb2RmMnp6cmhR?oc=5",
+        "published_at": "2026-04-10T20:49:24Z"
+      },
+      {
+        "headline": "Sam Altman's house hit with Molotov cocktail, OpenAI San Francisco headquarters threatened",
+        "summary": "Police arrested a suspect at OpenAI's headquarters for allegedly threatening arson after an attack on CEO Sam Altman's home.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/10/sam-altman-house-hit-with-molotov-cocktail-openai-office-threatened.html",
+        "published_at": "2026-04-10T19:59:58Z"
+      },
+      {
+        "headline": "Ceasefire sends dollar toward weekly drop with US-Iran talks in focus - Reuters",
+        "summary": "Ceasefire sends dollar toward weekly drop with US-Iran talks in focus\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTBueU9NQ0psWHZaZnNkNGthMG9Qc1VjZjZJUWJoQmI3c25jYnZaMHFXbVRYcy0wdDA3clpTWXRrSEt3dEdqRW5uLXZual9ybGRUYUY5R0ZBbXd5ak5FVmdTN0VBQWZYVmpMdTZ5UHNsOVZOUkdGMk9rdlJJNjJoX0doanExclNPTTlfQ2ZuTC1rQ2JBNHFqYjg5VFVUYUQwNHFBRGx3?oc=5",
+        "published_at": "2026-04-10T19:28:00Z"
+      },
+      {
+        "headline": "We're raising our price targets for 4 stocks and cutting them for 2 others",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/10/were-raising-our-price-targets-for-4-stocks-and-cutting-them-for-2-others.html",
+        "published_at": "2026-04-10T18:28:10Z"
+      },
+      {
+        "headline": "Iran war raises demand for US fuel, boosting Gulf Coast refining margins - Reuters",
+        "summary": "Iran war raises demand for US fuel, boosting Gulf Coast refining margins\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTkk1ZFlSTHFEUEU3M1pLMnA0MHB0VExuMURUUXNZLTBUak1ka2JDN2g0aTN1MnFqajIxN0MzaGRzWmpnMDRxSVprY2pkOEpzTm13ZTJnaGtKS0FTd25OWm5pN1lrdFo2bHhWX2pqWlRmVUJNVU4tSVJ2amZwUDdmX0FKMVJieWk0TUNfajZpNXd0UW82MElRWndwY3BrNl95Z0ZKOGljdGVhdERQc2I3TFF2NkE2MzZXb1dB?oc=5",
+        "published_at": "2026-04-10T18:22:45Z"
+      },
+      {
+        "headline": "US labor market holds steady; inflation firmer before Iran war - Reuters",
+        "summary": "US labor market holds steady; inflation firmer before Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcUtyZllvWGFQOGoxQW1WTmZBb0J6U1ktUjVSSGNTNUdzTjdBdDVLb0xMUk9kV2p5enFrU1BtZFQxU0pmQWpfWUZLNXRzRnBXZDNnU3FfLUlSN0llU3MyRkd2Z3RSd0czdktlLURJSDgyTlNPS1R3cFVHOTBtWk9uWHowQTZUMHF1RkotenQzWnFUcGZ5WEg4?oc=5",
+        "published_at": "2026-04-10T18:22:45Z"
+      },
+      {
+        "headline": "Oil whiplash: Iran war shock to flip market to deficit in 2026, analysts say - Reuters",
+        "summary": "Oil whiplash: Iran war shock to flip market to deficit in 2026, analysts say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU19Ed2lZbkZ0QTktZDNoSjVMSWZoV0k2aWR5MTBCV0M0dFI3YTRQT21oMFlpdXM0YmxGVzJVNW5UTGhNZEhOUnpuMkpRdW9Md0hzdWhyWW1WRVFJR1U4cUU2N2dVZEY1bnpGakJtYlJfX21EX1AtS0RqUmkxeVBxcEVDTUNxV1MxQVktRjRxTUlzYl9NVDF2OVIzNFF5ZnFmeHMtTVlXRDA4TWcxREVHUGVlU3JndTZs?oc=5",
+        "published_at": "2026-04-10T18:11:15Z"
+      },
+      {
+        "headline": "Iran wanted to negotiate with Vance. They got their wish - Reuters",
+        "summary": "Iran wanted to negotiate with Vance. They got their wish\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONlVfSlRKVTVUbnJiOTBtTFd2Q1c5OS00N2ZyQjljUnNoVGJscWJEcU40RG85UzFMVF8zNzNLZEg1a2NQVzRhZU1CR1J3V2hYQTFqNGYxMkpveWpTMG5sN1ozdC1fWU85T29wSFVnQ3FnYWFqLXMwQmdxMEg3REtMRmx4c25fY21mcGJ4a0FrWmc4YWVZaGRDOFpSRzYxTk1xSnl6V3ZLWm0yYjA?oc=5",
+        "published_at": "2026-04-10T17:42:25Z"
+      },
+      {
+        "headline": "After years of war with Russia, Ukraine's farmers are hit by Iran conflict - Reuters",
+        "summary": "After years of war with Russia, Ukraine's farmers are hit by Iran conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPczlQSC01QnYwZXJjeDhTOXpMdEtkalI2QVFaZXQtTzlHNjVhQlYwanpGdXhsZkh0dU8tMm5QV05md1Y2R2xQSU42cDlfX0tSMTdtY0JyYzh6aUs1MkhoakhzSkRSLVdIUmp0NHJpSWpqNzljRHFnZHJNa3BENkoxWngzcVNSVmdieWU4cVJqS013anVoano5VDFuV1hpQkJvRnBsazMzVEwyMV84a0o0X01XQjIwOE1ZTklKMnB3?oc=5",
+        "published_at": "2026-04-10T16:50:29Z"
+      },
+      {
+        "headline": "Mapping the Strait of Hormuz at near standstill after ceasefire - Reuters",
+        "summary": "Mapping the Strait of Hormuz at near standstill after ceasefire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3Y0hEbUhxS05DSGxmRXpTZ2c5WkxvclROSi1yT3NYUWdhM0FSMGFBNFVDNm9YV012ckpRTFlNOFp0Ykh0T0oxNUdUbHhmME1ZR1EwdERWQ0RFSGgxLWh2MTRaaHc5ZUw0R1hEakFXdw?oc=5",
+        "published_at": "2026-04-10T16:03:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 679.46,
+    "spy_change_pct": -0.0662,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Anthropic's potent new AI model is a \"wake-up call,\" security experts say",
+        "url": "https://ww...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:27:08.000Z",
+        "source": "nabbw.co...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Emme Rain Ignites Momentum with New Single Lux (Run It Up) \u2013 SoundLooks",
+        "url": "https://so...(+78 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:25:39.000Z",
+        "source": "soundloo...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump says Iran has 'no cards' beyond Strait of Hormuz as Vance heads to Pakistan for peace talks",
+        "url": "https://gu...(+133 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:25:13.000Z",
+        "source": "gulfnews...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Best Antivirus for Mac in 2026: Top Picks for Security, Privacy, and Performance \u2013 BO2K",
+        "url": "https://bo...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:24:30.000Z",
+        "source": "bo2k.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How to Remove a Virus From a Laptop: Student Step-by-Step Cleanup and Recovery Checklist \u2013 BO2K",
+        "url": "https://bo...(+95 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:24:25.000Z",
+        "source": "bo2k.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Legal Assistant | ASU Lodestar Center for Philanthropy and Nonprofit",
+        "url": "https://lo...(+51 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:23:37.000Z",
+        "source": "lodestar...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Albion 0-0 Millwall | West Bromwich Albion",
+        "url": "https://ww...(+38 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:23:23.000Z",
+        "source": "wba.co.u...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Inside a Nevada Brothel Town | RocaNews \u2013 Archyde",
+        "url": "https://ww...(+52 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:23:23.000Z",
+        "source": "planners...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Adam Sanders Told Us What He Did With the $250,000 He Won on 'The Road'!",
+        "url": "https://ki...(+66 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:19:54.000Z",
+        "source": "kicks105...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "King James | Kindred Cocktails",
+        "url": "https://ki...(+38 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-10T21:19:50.000Z",
+        "source": "kindredc...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

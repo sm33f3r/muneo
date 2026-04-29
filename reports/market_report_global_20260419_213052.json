@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-19T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2604725718152.3,
+    "total_market_cap_change_24h_pct": -1.4805,
+    "total_volume_24h_usd": 115098752644.33,
+    "btc_dominance_pct": 57.4512,
+    "eth_dominance_pct": 10.586,
+    "total2_usd": 1108279294868.73,
+    "total3_usd": 832543254976.01,
+    "active_cryptocurrencies": 17567,
+    "altcoin_season_index": 17,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 121.572,
+        "price_usd": 1.32,
+        "market_cap_usd": 316022507
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 9.5198,
+        "price_usd": 15.62,
+        "market_cap_usd": 730113408
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": 9.0175,
+        "price_usd": 1.24,
+        "market_cap_usd": 200335558
+      },
+      {
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "price_change_24h_pct": 7.1259,
+        "price_usd": 0.271284,
+        "market_cap_usd": 155618853
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "price_change_24h_pct": 4.5558,
+        "price_usd": 0.00586167,
+        "market_cap_usd": 290253848
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -78.316,
+        "price_usd": 0.686644,
+        "market_cap_usd": 172718982
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -15.9233,
+        "price_usd": 0.6671,
+        "market_cap_usd": 485518276
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -13.4622,
+        "price_usd": 0.640592,
+        "market_cap_usd": 214829477
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price_change_24h_pct": -12.8018,
+        "price_usd": 90.37,
+        "market_cap_usd": 1371600973
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -11.5119,
+        "price_usd": 0.898062,
+        "market_cap_usd": 224398284
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74751,
+    "price_change_24h_pct": -1.2633,
+    "price_change_7d_pct": 5.1254,
+    "market_cap_usd": 1495644247201,
+    "volume_24h_usd": 58674100764,
+    "direction": "bearish",
+    "oi_usd": 7247651394.75,
+    "funding_rate_latest": -0.00012276,
+    "funding_rate_7d_avg": -4.599142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8829,
+    "long_account_pct": 46.89,
+    "short_account_pct": 53.11,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2287.17,
+    "price_change_24h_pct": -2.7496,
+    "price_change_7d_pct": 4.0133,
+    "market_cap_usd": 275634140241,
+    "volume_24h_usd": 15199140923,
+    "eth_btc_ratio": 0.030597,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87849580577.29,
+    "stablecoin_market_cap_usd": 319921062614.37,
+    "stablecoin_dominance_pct": 12.2823
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 15,
+    "headlines": [
+      {
+        "headline": "UK police examine Iran links to arson attacks on Jewish targets - Reuters",
+        "summary": "UK police examine Iran links to arson attacks on Jewish targets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkp0YTRsVnR6LTdRMmxhMFhUVDkzVXdvNjBZbjIzQ1YwV1dRaHdwc0YyNEJxSUNVS2NOQkliUlFoVHhya292andqVTdRRUlLWW1MZ0hWN1NOdDBTNlRqLVMzbjdreXV3Z1lwQXZtX3ZJbDcza1J4dnA3Ym50TEY4Sy1McEh0M2VoMkI1N2dCZHdSRGdXRWRtT1JpTk9mMjQ0Q0JwRkxJcXJiYzA?oc=5",
+        "published_at": "2026-04-19T18:48:46Z"
+      },
+      {
+        "headline": "FBI Director Kash Patel vows to sue The Atlantic over article claiming he abuses alcohol",
+        "summary": "The Atlantic on Friday published a detailed article citing more than two-dozen sources that made bombshell claims about the FBI director's behavior.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/19/kash-patel-atlantic-lawsuit-alcohol.html",
+        "published_at": "2026-04-19T18:21:49Z"
+      },
+      {
+        "headline": "1 big thing we're watching in this week's market just as important as Iran",
+        "summary": "A jam-packed earnings calendar will put the market's monster rally to the test.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/19/1-big-thing-were-watching-in-this-weeks-market-just-as-important-as-iran.html",
+        "published_at": "2026-04-19T17:05:25Z"
+      },
+      {
+        "headline": "Amazon, USPS and the risk of a widening delivery divide in rural America",
+        "summary": "The new deal between Amazon and the U.S. Postal Service has many implications, maybe none greater than what it means for package delivery to rural Americans.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/19/amazon-usps-package-delivery-costs-rural-america.html",
+        "published_at": "2026-04-19T14:09:16Z"
+      },
+      {
+        "headline": "Iran currently has no decision to send a negotiating delegation to Pakistan, Tasnim reports - Reuters",
+        "summary": "Iran currently has no decision to send a negotiating delegation to Pakistan, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaGZ4cm5iSVRwckFQbEZ1cGlqTFNzdUJ0cnE3NFBBLXZvSFRtSlRIOVJoeVMyOXR6RTFPYTNJRkRpNERPaDJaaTJBbFIxMUJNTWdCc2lqZjNUTzFFeEdaeDRkZ0R1eEZxNklQZ0hEOGFkamQ3MFVKMGx6TE82S2JQVFFKbmlQeWhDZWM3Mk1rbktGVEY4bkRIQkl6SWpmc0NWTFI4OVVmTVFEcVdTU2taLXFtaWU4YjZCV3h4UUFYNllGdmFoNFNDYw?oc=5",
+        "published_at": "2026-04-19T14:07:51Z"
+      },
+      {
+        "headline": "I'm a psychologist who studies couples: People in the happiest relationships do 5 things on Sundays\u2014that most neglect",
+        "summary": "Before a new week begins, the happiest couples pause. Mark Travers, a psychologist who studies couples, shares the five simple check-ins help them stay close and emotionally in sync.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/19/psychologist-who-studies-couples-people-in-the-happiest-relationships-do-5-things-on-sundays.html",
+        "published_at": "2026-04-19T13:32:35Z"
+      },
+      {
+        "headline": "Allies fear a rushed US\u2013Iran framework deal could backfire, leaving technical deadlock - Reuters",
+        "summary": "Allies fear a rushed US\u2013Iran framework deal could backfire, leaving technical deadlock\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMHluTkd2OFoza29ZMUhBUzlPYmdSVUFYRFhxb3NpSFVSa1hzY2V6RmJsaXBUWkZrUnNBTTV4RUNqeGNQZFhTbkt4TVFqajVQcDRxTi1hdWN1eWxUU1JlUldVb1NWUnd1S0lzQ3dLZ25nRDhDR1daR0R3UGFSRjdvMnVkZWgweTJ6TF91dU9mSzhUQjlLZHpPaExpX01pZXozTk1LblkxTnkyUUF6dWhrWEU5TkZaNnh3a0V0TTlvWDQ3VkhkdjNR?oc=5",
+        "published_at": "2026-04-19T12:56:57Z"
+      },
+      {
+        "headline": "Two foreigners arrested in Iran for importing Starlink technology, Tasnim reports - Reuters",
+        "summary": "Two foreigners arrested in Iran for importing Starlink technology, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTE1MWnhTa0ZIVE14eWF6eGhsb21IdEY0V01YcEN3R2FKRzNlQ1NXQ2pON1gxTFNUejVTcFRsVXMtdGhud2VRZzQ2dUtrbmg0clpMMlZVa20yNm9kLVBFazBsQkFkREJzaHdmNHJVQ2xTQndPQm1ObmZXQ0JZVTF2bmhnT1NGelFjMWg2TERhcXh2enVGdHEtZkxmOC1WWDZKb3UzN2VYcGEwNUdSXzRrME9BRWc2eDdnZDNOZjIyMzFaZEtIQnc?oc=5",
+        "published_at": "2026-04-19T10:54:25Z"
+      },
+      {
+        "headline": "Iran replenishes launchers at higher rate than pre-war, guards commander says - Reuters",
+        "summary": "Iran replenishes launchers at higher rate than pre-war, guards commander says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaXZmWnQzcWFEOElFSmNNUF9lNENIQ2J4Yy1sMVRhVlZBZ2F6cFpranJuSkxIOW5CNWNfWFpDWmhpenA2T0Y2RHQ4XzRvQ3lGamI2ejF6ZEpEX0s2Ylo3TklPZFVtc0lnLUpIYnM0ZzgtTEJVVXB2bkZ4Q3dNSC01WGZVY0JXbG9fMkxQcDRpdHZ0LWNlWHQ5clE2TWdCQjJjUUREVU05bFpwZzI3RldsanQ1elFRRmx3RnlySUc3YVhrYmpSd2c?oc=5",
+        "published_at": "2026-04-19T10:36:52Z"
+      },
+      {
+        "headline": "Iranian President insists on country's nuclear rights, ISNA reports - Reuters",
+        "summary": "Iranian President insists on country's nuclear rights, ISNA reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ2dRUmdKTGV0UnZ5NjBfREctVTdadThHZ3diQnV2RXpPOHo0OWdLUk1jZjZJbW5rOHZyajZTQ055Mnp1Z1VRdUJoZng3QXpaOWY0ZjhscGp6TEt5YThVd3FXV1RIODVnUHZ3bTdzUnlGQ2hyUE9oUlpQYmFLS05FMHI3SE1qOF96eTZxd3dyN3Q4dEZhd2lnalFwTU1QQ0R2WVVKb1FST3FNQkJTNHlHM0xpWWdUaFk?oc=5",
+        "published_at": "2026-04-19T07:42:49Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 710.14,
+    "spy_change_pct": 1.2086,
+    "spy_lean": "bullish",
+    "vix_close": 17.94,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 52,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 6,
+    "negative_count": 1,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.6,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "SB Walks Off with a Pivotal Series Win Against Utah - Baylor",
+        "url": "https://ba...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:27:42.000Z",
+        "source": "off-grid...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.21
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "India Presses Iran for Pre-Clearance Assurances After \u2018Unintentional\u2019 Firing On Indian-Flagged Ships in Hormuz",
+        "url": "https://ww...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:27:06.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zombee: Indrajaal\u2019s AI-Powered Kinetic Interceptor To Strengthen India\u2019s Anti-Drone Shield",
+        "url": "https://ww...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:27:05.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why PTC Industries Is Capable of Manufacturing Single Crystal \u2018Ready\u2011To\u2011Fit\u2019 Turbine Blades SMTC",
+        "url": "https://ww...(+68 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:59.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hijacker Satellites: US, Russia and China Develop Spacecraft To Capture Rival Assets; India's Perspective",
+        "url": "https://ww...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:59.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "India\u2019s ADC-S Project: VEDA Aeronautics Developing Transport-Launched Air-Dropped Cannisterised \u2013 Swarm (ADC-S), To Redefine Aerial Warfare",
+        "url": "https://ww...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:58.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "India-Russia Troop Pact: 3,000 Soldiers, 5 Warships, 10 Aircraft Each In Other's Turf",
+        "url": "https://ww...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:57.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "India\u2019s Electronics Sector Flips The Supply Chain Cart: From Import Reliance To Component Export Power",
+        "url": "https://ww...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:57.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VEM Technologies\u2019 Indigenous ISTAR Drone 'Chaser' To Strengthen India\u2019s Surveillance And Target Acquisition Capabilities",
+        "url": "https://ww...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:55.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "IAF Chief-Air Chief Marshal AP Singh Flies USAF F-15EX At Nellis Air Base, Strengthens Indo-US Air Power Cooperation",
+        "url": "https://ww...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-19T21:26:52.000Z",
+        "source": "indiande...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}

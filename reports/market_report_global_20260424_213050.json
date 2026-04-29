@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-24T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2675550046391.56,
+    "total_market_cap_change_24h_pct": -0.3381,
+    "total_volume_24h_usd": 86041944158.55,
+    "btc_dominance_pct": 58.0984,
+    "eth_dominance_pct": 10.4539,
+    "total2_usd": 1121098851103.85,
+    "total3_usd": 841399057899.73,
+    "active_cryptocurrencies": 17555,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 69.3254,
+        "price_usd": 0.58358,
+        "market_cap_usd": 126815276
+      },
+      {
+        "symbol": "SKR",
+        "name": "Seeker",
+        "price_change_24h_pct": 37.6558,
+        "price_usd": 0.01991367,
+        "market_cap_usd": 124238423
+      },
+      {
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "price_change_24h_pct": 22.7357,
+        "price_usd": 0.07115,
+        "market_cap_usd": 139232182
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": 19.8561,
+        "price_usd": 0.158777,
+        "market_cap_usd": 132537359
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": 17.7157,
+        "price_usd": 0.0344096,
+        "market_cap_usd": 751400863
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -15.3308,
+        "price_usd": 0.966095,
+        "market_cap_usd": 241257059
+      },
+      {
+        "symbol": "CHIP",
+        "name": "CHIP",
+        "price_change_24h_pct": -11.4488,
+        "price_usd": 0.095372,
+        "market_cap_usd": 191527217
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -10.6975,
+        "price_usd": 0.822196,
+        "market_cap_usd": 189358405
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -9.3149,
+        "price_usd": 0.637683,
+        "market_cap_usd": 214570131
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": -7.4624,
+        "price_usd": 0.00029982,
+        "market_cap_usd": 126297438
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77638,
+    "price_change_24h_pct": -0.3263,
+    "price_change_7d_pct": 0.2603,
+    "market_cap_usd": 1554325849366,
+    "volume_24h_usd": 32859235358,
+    "direction": "neutral",
+    "oi_usd": 7487771600.01,
+    "funding_rate_latest": -3.152e-05,
+    "funding_rate_7d_avg": -5.247047619047619e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7596,
+    "long_account_pct": 43.17,
+    "short_account_pct": 56.83,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2317.6,
+    "price_change_24h_pct": -0.3934,
+    "price_change_7d_pct": -4.6649,
+    "market_cap_usd": 279688649951,
+    "volume_24h_usd": 12954313749,
+    "eth_btc_ratio": 0.029851,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84074238684.24,
+    "stablecoin_market_cap_usd": 318715878141.29,
+    "stablecoin_dominance_pct": 11.9122
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Special Forces Sgt. in Polymarket Maduro raid bet case released; Kalshi says it blocked him",
+        "summary": "Sgt. Gannon Ken Van Dyke was involved in planning the U.S. raid to capture Nicol\u00e1s Maduro even as he made bets that paid off from that raid, an indictment says.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/24/special-forces-van-dyke-polymarket-bets-maduro-raid-kalshi.html",
+        "published_at": "2026-04-24T20:52:03Z"
+      },
+      {
+        "headline": "S&P 500, Nasdaq close at records on tech lift, Iran peace talk hopes - Reuters",
+        "summary": "S&P 500, Nasdaq close at records on tech lift, Iran peace talk hopes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeFI0QnNnNVVVckNHY3RrNk9MQTd1aS1ZRzFVZ2FzZEIycjhqSjdndzdyYkdXdGNPSThqc1lrSURHeUdQQk9JLW1KTHlUWkZweGxibG1YRVJhN2F6b0dhb0loZGo1NUtWU3FOeVNIcG1oWDY2QnppRXdVTkh5LTE4MkZoaGxWNmFTQ3JoQkxGWWRVb0c2TjRSTnMxUzA3cHp5ZDc2N1d1Z2tMOThqcFE?oc=5",
+        "published_at": "2026-04-24T20:21:57Z"
+      },
+      {
+        "headline": "Iran to make offer aimed at satisfying US demands, Trump tells Reuters - Reuters",
+        "summary": "Iran to make offer aimed at satisfying US demands, Trump tells Reuters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVU1IdW84VV9hWU1fLV9oenFqamNXZkFsUHZQN19mMllqRzFLOEhRMUI3NHpaVHJKV1NlN3ZETFA2SkJBOHpsV1I2RXRkaHZFZkdERW4zZk5Hc3JJeHlwdUg0aVNNbHRvX21ZWVdjdmd1ekZqcFBBU0M0WVhnaDVSNWNnUEh2RllnOHRyRFpBemdxX1NFOXBNZFMxSTFwRnk3a1dONVJzaDk3YUc5RFlNTUVNZlRMemVZ?oc=5",
+        "published_at": "2026-04-24T19:52:29Z"
+      },
+      {
+        "headline": "Oil prices end volatile session mixed but up sharply for the week on supply worries - Reuters",
+        "summary": "Oil prices end volatile session mixed but up sharply for the week on supply worries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1hFdFBWbnRDYkJIN01UakRzSG9Nb2duY0Zoakh6M3NIcHU4NzU4VERXU2lYRktUT1ZfSWNvY2JJZWh1elpHSmgtQTJkdkYwM0VFbGlnX3dfaGROamM2dnVLcF9OQW5tRkFPYWlQR2hQZjZqTURyMFloZlBTOUNZcER1NkIyc0dzNmUwUFozeDdoYklaRzhoOWRxTGN2c1I0UHEwM2RrZEZsVTQ2QmZ6TUFQc2hxeDQ?oc=5",
+        "published_at": "2026-04-24T19:26:57Z"
+      },
+      {
+        "headline": "Iran's foreign minister arrives in Pakistan, raising hopes for US peace talks - Reuters",
+        "summary": "Iran's foreign minister arrives in Pakistan, raising hopes for US peace talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSnpNOVBIV2pyZjNCd1lNdTlINmtvbWFHTV95NDh6U1pyOXZ1bWlDZzgydUtJS3FsWjBpNmowRjJ6ZkEtb3FsUXRfSzJaWVRFcHQ4WEtFUHlYMlpvdmctRHZaXy1fY25USE15NVR2M0gxd2pZcHd5ZlVNdW1kVXhma2RJRHo0cWhKemtsTV9iQmswbVhmd3F4aTM2dlFzdlgzMnhoMVh1VUJfdXVKdXVMM1RTMHpZLUh2?oc=5",
+        "published_at": "2026-04-24T19:19:49Z"
+      },
+      {
+        "headline": "Witkoff and Kushner headed to Pakistan for Iran talks, White House says - Reuters",
+        "summary": "Witkoff and Kushner headed to Pakistan for Iran talks, White House says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc2o2MElWYkdYMmwtWVN2eDdIVjlUTlJvWF9OcXl0WWFVNFVlZ2Q2Vzd5WHpKb2NSNzNTZm5xNzAzTVQ2czkybGtaandhNHdWeDZjd1NON0FUOUVaak5FcHhuaUd5dzhNZ0lGOUxDV01ZRzdlWUtuYnl5aE1wbUkwaVo4V2Z1el96NXdCUjQ5WnVyUHJkaG5XekJsWGpOWFJ1bFNkOEctZVBGcncxOHAxX3FuY3I?oc=5",
+        "published_at": "2026-04-24T18:41:47Z"
+      },
+      {
+        "headline": "SLB seeks to pass on costs as Iran war disrupts supply chains - Reuters",
+        "summary": "SLB seeks to pass on costs as Iran war disrupts supply chains\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVHRLMnNmYmdLUlZ4U3lXNWUxemJUcXhHdDJoYjBjZXpBVmN4UktHTjlqTVZ6Y09NU3E5MnNNd2syQk41eXQxUFBEY09PMk1GOFE0NVNhUDBzQlhFV2VxNThtZ09ydk50cFdpNjBqYVYtMlN2VUtRYlJ0bXFuV01pSHpycEdmWXpIcmpCYWdVR1dzMGZnRXdyVUVNTmNRSnZnUEh6ZXhXYWdoUnFlUGlxbFZxdS1iMVVDUW9oYlFSaGVoZw?oc=5",
+        "published_at": "2026-04-24T18:39:34Z"
+      },
+      {
+        "headline": "We're raising our price target on chipmaker Arm after its blistering rally",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/24/were-raising-our-price-target-on-chipmaker-arm-after-its-blistering-rally-.html",
+        "published_at": "2026-04-24T18:38:06Z"
+      },
+      {
+        "headline": "Analysis: The threat to the Fed's independence isn't over",
+        "summary": "President Donald Trump has waged a long campaign to rein in the Fed. Prosecutors' decision to drop an investigation into Jerome Powell isn't the end.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/24/fed-kevin-warsh-jerome-powell.html",
+        "published_at": "2026-04-24T17:54:35Z"
+      },
+      {
+        "headline": "Pentagon chief Hegseth says US blockade on Iran 'going global' - Reuters",
+        "summary": "Pentagon chief Hegseth says US blockade on Iran 'going global'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWkQzQXpoTkYtYjNKYU1xUWFVcGEzQlVuVktfZGVBM0pHU3dxMTNPME5WcmcyNkZ5YnZrd19UYm1lYmstaUZITUhZX1VaNktlY0NqRDdldHVlWHJ3MC1XU3loQXUxQnRwQ016U0Z5Uy1DLW1GY1ZmdWdfUlJsYXU0cmNWc2UzN0RMdk15S1hCZUJNOFNxTUx0LUN2bGdhZ2d4dkxBOE1aR2xQN2p4VzNpRVJR?oc=5",
+        "published_at": "2026-04-24T17:43:45Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 713.96,
+    "spy_change_pct": 0.7778,
+    "spy_lean": "bullish",
+    "vix_close": 19.31,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 44,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 6,
+    "negative_count": 1,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.6,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Algo Trading Space Launches Expert Advisor Portfolio Course",
+        "url": "https://pr...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:43.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Swift Restoration and Remodeling Addresses Rising Storm and Flood Risks with 24/7 Emergency Response Services",
+        "url": "https://pr...(+129 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:42.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.09
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "The Wedding Planner Hong Kong Shares Overview of Party Planning Services and Event Coordination Approach",
+        "url": "https://pr...(+129 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:40.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gabe Evans Celebrates (Big Tobacco) Jobs | Colorado Pols",
+        "url": "https://ww...(+70 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:40.000Z",
+        "source": "colorado...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.23
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Haller Enterprises Maintains Plumbing Services in York Community",
+        "url": "https://pr...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:39.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elevated Roofing Expands Regional Roofing Services",
+        "url": "https://pr...(+79 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:39.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grand Opening of Lice Charmers Lice Clinic",
+        "url": "https://pr...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:39.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.24
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Search Intent Analysis Explained: Inside G-Stacker\u2019s Structured Content and Authority Ecosystem Framework",
+        "url": "https://pr...(+129 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:31.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tortilla Town Expands Mexican Food Catering Infrastructure Across Paso Robles Region",
+        "url": "https://pr...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:30.000Z",
+        "source": "pressadv...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VF Corporation adds inventory visibility technology from Nedap",
+        "url": "https://ww...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-24T21:27:28.000Z",
+        "source": "sqlmaria...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}

@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-23T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2682186790989.13,
+    "total_market_cap_change_24h_pct": -1.2068,
+    "total_volume_24h_usd": 107041437292.56,
+    "btc_dominance_pct": 58.1352,
+    "eth_dominance_pct": 10.4575,
+    "total2_usd": 1122890841809.92,
+    "total3_usd": 842400583131.73,
+    "active_cryptocurrencies": 17556,
+    "altcoin_season_index": 12,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 36.7285,
+        "price_usd": 0.231332,
+        "market_cap_usd": 231103468
+      },
+      {
+        "symbol": "SPK",
+        "name": "Spark",
+        "price_change_24h_pct": 29.6217,
+        "price_usd": 0.051613,
+        "market_cap_usd": 134100571
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 17.804,
+        "price_usd": 0.02059127,
+        "market_cap_usd": 148966103
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": 16.7679,
+        "price_usd": 0.03078971,
+        "market_cap_usd": 679601217
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 11.0132,
+        "price_usd": 0.146491,
+        "market_cap_usd": 266758826
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -28.6842,
+        "price_usd": 0.050626,
+        "market_cap_usd": 126432587
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": -17.7371,
+        "price_usd": 0.0003327,
+        "market_cap_usd": 138827338
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -13.5474,
+        "price_usd": 0.873097,
+        "market_cap_usd": 200542029
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": -11.6679,
+        "price_usd": 1.73,
+        "market_cap_usd": 135100808
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -9.5541,
+        "price_usd": 1.033,
+        "market_cap_usd": 256343244
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77894,
+    "price_change_24h_pct": -0.9778,
+    "price_change_7d_pct": 3.5265,
+    "market_cap_usd": 1559386202741,
+    "volume_24h_usd": 43932448474,
+    "direction": "neutral",
+    "oi_usd": 7675231153.67,
+    "funding_rate_latest": -6.696e-05,
+    "funding_rate_7d_avg": -4.764428571428571e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.6644,
+    "long_account_pct": 39.92,
+    "short_account_pct": 60.08,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2323.85,
+    "price_change_24h_pct": -3.1377,
+    "price_change_7d_pct": -1.557,
+    "market_cap_usd": 280457815885,
+    "volume_24h_usd": 18809968145,
+    "eth_btc_ratio": 0.029833,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84448497598.47,
+    "stablecoin_market_cap_usd": 319132747255.54,
+    "stablecoin_dominance_pct": 11.8982
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "What the Trump administration's move to reclassify marijuana means for investors",
+        "summary": "The Department of Justice said it will immediately move FDA-approved marijuana from Schedule I to Schedule III under the Controlled Substances Act.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/23/what-cannabis-reclassification-means-for-investors.html",
+        "published_at": "2026-04-23T20:46:26Z"
+      },
+      {
+        "headline": "NYC Mayor Mamdani knocked Ken Griffin in pied-a-terre tax promo. His firm calls the move 'shameful'",
+        "summary": "Chief Operating Officer Gerald Beeson saying in a memo that targeting Griffin showed \"ignorance and disdain\" toward contributors to the city's economy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/23/nyc-mayor-mamdani-knocked-ken-griffin-in-pied-a-terre-tax-promo-his-firm-calls-the-move-shameful.html",
+        "published_at": "2026-04-23T20:42:50Z"
+      },
+      {
+        "headline": "Regeneron inks drug pricing deal with Trump, will offer new hearing-loss therapy for free",
+        "summary": "Regeneron is the latest in a string of major drugmakers to make pricing concessions for new and existing medicines under agreements with Trump.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/23/regeneron-inks-drug-pricing-deal-with-trump-will-offer-hearing-loss-therapy-for-free.html",
+        "published_at": "2026-04-23T19:40:29Z"
+      },
+      {
+        "headline": "Stocks weaken on dimming hopes for Iran deal, mixed quarterly earnings - Reuters",
+        "summary": "Stocks weaken on dimming hopes for Iran deal, mixed quarterly earnings\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc09RTW5BS211ZlFNcWU3bEN5YkZwUWdNcUd4NEhpeldpUEhOa2tpaFNuenNwSjR0azBNZ0xoS1hRNW12RTlnLW53SGJuRE5zTG0zOVhma3gwYXZfSFJZdl9tVjgta0N2VlQzU2FlZ1RFZE95czZmRUhrNzFMZ0hGRk4zVklOZE9DM28wMFhmSzV2bmZfZ3ZUamZWVE1kSVVBbTNr?oc=5",
+        "published_at": "2026-04-23T18:51:00Z"
+      },
+      {
+        "headline": "Pope condemns killing of protesters in Iran, reaffirms stance against war - Reuters",
+        "summary": "Pope condemns killing of protesters in Iran, reaffirms stance against war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFlpeHJMUzU4UEhJeHJnQTdaV2NkRktEcENrMC0tNXl0ZUl4NlFWWkxrQkRiNmtaOVp6X3lrNjB4cU85THBDTmpUbVhveGRCYTJtQ1UyTlVqUGpjMHhCN1Z3X1RSTzQybXNvOXhPMDNWMzJkamd1ZGZIa012UlVQTWF4S0dNVjZJWV84MkdiVm9rckxTalBDWjFLSWxNNTRaX1MxZkdLeUtldjRu?oc=5",
+        "published_at": "2026-04-23T17:53:43Z"
+      },
+      {
+        "headline": "Iran fast-boat swarms add to Hormuz threats for shipping - Reuters",
+        "summary": "Iran fast-boat swarms add to Hormuz threats for shipping\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWUlMWGtuQjJnNndadUZGNlQwdlRWM2xyTUEtZUJoc202VzktYTR4QUpMWGVFNm5ZcTdnNHczcmNJNFNHdnNJQXJvQ3hYN0tLZ0ticDNhdWY0dmVINHFtNUg5NTkxUzJUdlhaeEZ3Z1o4azY0YWV1eTNrcV8tSWlOR2NDd09MOTRxUnQwYS1PTFRPODFYT0YycGxpcjZHVl9ieTQwSGNVRQ?oc=5",
+        "published_at": "2026-04-23T17:49:36Z"
+      },
+      {
+        "headline": "Iran's Mehr says air defences heard 'engaging hostile targets' in Tehran - Reuters",
+        "summary": "Iran's Mehr says air defences heard 'engaging hostile targets' in Tehran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUpzTlRZSk1uVnYyNFVfeEQzQjBuSV9yNXdyaUNMWlZ1WVdtakJGZk5tV0JrSE1uc3U2OTRwRmhNd29yNU5kLWg4Qkg5V2JmdDQ1ZS1kalpGQ0tieURhbHpFODRBOTJiYkNOazRSNEprc1VfenpvTE5rVlQ1NjlpT3VSTmppSlpLbXJsbTJNT0F4bG9ibE5VZGVzZ0FmamZKUzB5Z3pfSlRvY1UwUXhBRmQycjBmWkxCTEFvNXBR?oc=5",
+        "published_at": "2026-04-23T17:41:52Z"
+      },
+      {
+        "headline": "New grads are finding jobs faster despite a competitive job market, says report",
+        "summary": "New grads are finding jobs faster despite a competitive job market, especially in these fields, according to a report from ZipRecruiter.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/23/new-grads-are-finding-jobs-faster-despite-a-competitive-job-market-says-report.html",
+        "published_at": "2026-04-23T17:32:34Z"
+      },
+      {
+        "headline": "Cramer wants to 'buy more' of this household name if the stock price goes a bit lower",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/23/cramer-wants-to-buy-more-of-this-household-name-if-the-stock-price-goes-a-bit-lower.html",
+        "published_at": "2026-04-23T16:25:34Z"
+      },
+      {
+        "headline": "US oil executives expect crude output to rise as Iran war continues, survey shows - Reuters",
+        "summary": "US oil executives expect crude output to rise as Iran war continues, survey shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjA2eTRucEtFX0FvOXBwUVdzWWZTTTBLMkhpQXlqQUxfYlZ5bi0waTM0ZzRmdGtuVDVIZ1VqZkFaOU4wNWNOSERSdTZCTk55VVQ2OXBXSDJ1bkpFQ3IwQV9PSXl0UmdLdkNxSjNJamxRYjI3MWlCS1o5eU9jNFJnZ0hRQzEwZW9HUG55cmhCQ3Nabnc2YjBwZ05HRnU0V2p4UzF1Zl9EUEJSUEs4UV8xVVdjYV9OYjcxdUo4NTExMGw5LTQybXZPSQ?oc=5",
+        "published_at": "2026-04-23T15:54:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 708.36,
+    "spy_change_pct": -0.4007,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 59,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 7,
+    "negative_count": 1,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.7,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "San Bruno\u2019s Belle Air neighborhood holds city\u2019s first-ever Resilience Fair \u2013 Peninsula Press",
+        "url": "https://pe...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:27:38.000Z",
+        "source": "peninsul...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Could Gladys Be Your New Best Friend?",
+        "url": "https://99...(+35 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:27:01.000Z",
+        "source": "wsrkfm.c...(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.34
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ronnie O\u2019Sullivan Chases History: Can Snooker\u2019s Greatest Showman Win a Record Eighth World Title? \u2013 Journalist Association of India (JAI)",
+        "url": "https://ww...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:21:28.000Z",
+        "source": "jaoi.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.19
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "World Cup Controversy : When Politics Meets Football, Fans Around the World Ask\u2014Should Sport Stay Neutral? \u2013 Journalist Association of India (JAI)",
+        "url": "https://ww...(+122 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:21:21.000Z",
+        "source": "jaoi.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "When your membership is done and you may confirmed, you\ufffdre now willing to help make your earliest deposit | stock11. de",
+        "url": "http://sto...(+132 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:21:00.000Z",
+        "source": "stock11....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Having real time game, you don\u2019t have to head to a casino to try out for the real date | stock11. de",
+        "url": "http://sto...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:21:00.000Z",
+        "source": "stock11....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "not, an effective range of five-hundred+ is best to offer many choices to pick from | stock11. de",
+        "url": "http://sto...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:20:58.000Z",
+        "source": "stock11....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spot BTC ETF inflows top $335 million in one day",
+        "url": "https://en...(+63 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:20:48.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New court date to be set for Kamloops mayor as legal troubles mount",
+        "url": "https://ww...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:20:46.000Z",
+        "source": "thenelso...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Five-year jail sentence for woman who killed partner",
+        "url": "https://ww...(+82 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-23T21:20:45.000Z",
+        "source": "thenelso...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.38
+        },
+        "is_breaking": true
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

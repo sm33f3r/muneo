@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-18T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2639411463822.71,
+    "total_market_cap_change_24h_pct": -2.3417,
+    "total_volume_24h_usd": 117798321364.1,
+    "btc_dominance_pct": 57.4023,
+    "eth_dominance_pct": 10.7537,
+    "total2_usd": 1124328568088.41,
+    "total3_usd": 840494640842.29,
+    "active_cryptocurrencies": 17576,
+    "altcoin_season_index": 22,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 690.9653,
+        "price_usd": 0.00035735,
+        "market_cap_usd": 143686912
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 23.0202,
+        "price_usd": 0.596008,
+        "market_cap_usd": 136088007
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 20.0661,
+        "price_usd": 0.101228,
+        "market_cap_usd": 212894450
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 19.711,
+        "price_usd": 0.787421,
+        "market_cap_usd": 573900366
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 16.9317,
+        "price_usd": 14.27,
+        "market_cap_usd": 667029165
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -85.97,
+        "price_usd": 3.05,
+        "market_cap_usd": 781699905
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": -20.1361,
+        "price_usd": 6.18,
+        "market_cap_usd": 121317059
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -18.5022,
+        "price_usd": 0.110664,
+        "market_cap_usd": 202069493
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": -15.9355,
+        "price_usd": 0.112629,
+        "market_cap_usd": 267480114
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -11.6631,
+        "price_usd": 0.338098,
+        "market_cap_usd": 190572898
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75707,
+    "price_change_24h_pct": -2.2383,
+    "price_change_7d_pct": 3.0753,
+    "market_cap_usd": 1515398153410,
+    "volume_24h_usd": 64783157559,
+    "direction": "bearish",
+    "oi_usd": 7470435617.58,
+    "funding_rate_latest": -4.586e-05,
+    "funding_rate_7d_avg": -3.8488095238095244e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7813,
+    "long_account_pct": 43.86,
+    "short_account_pct": 56.14,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2351.94,
+    "price_change_24h_pct": -3.2216,
+    "price_change_7d_pct": 2.5351,
+    "market_cap_usd": 283839298136,
+    "volume_24h_usd": 15774486531,
+    "eth_btc_ratio": 0.031066,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95868146220.11,
+    "stablecoin_market_cap_usd": 320451705908.84,
+    "stablecoin_dominance_pct": 12.141
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 21,
+    "headlines": [
+      {
+        "headline": "India flags 'deep concerns' over attack on two Indian ships in Strait of Hormuz - Reuters",
+        "summary": "India flags 'deep concerns' over attack on two Indian ships in Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2I5YVh3NkNkejg1bTg0NnZOM1Vyc2I5SGlNMUEtNWV4VzNPNEhoMGJZalhVWm92Y3RBUi0tdFlQT0U5Mmk5VHdMdzRsbmRuVklmNG9UQXRyVXQyNnhKelUwVFlBSTZubmtKSlpfekZiSHBTek4tOG00OHBLUkRhenVDSG9OZUFzempUQWFSTzNqZkFvNnRWMUwxZHgybkxpWlNtc0dmaUhQVDNYOG5xc05wLVc0SmFyLW96MnRB?oc=5",
+        "published_at": "2026-04-18T15:29:04Z"
+      },
+      {
+        "headline": "US military prepares to board Iran-linked ships in coming days, WSJ reports - Reuters",
+        "summary": "US military prepares to board Iran-linked ships in coming days, WSJ reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSnlDT0RuaDRMaTA1STVRSDU3NzJOWnQxUmJFVzl4czJFZUpJclJzNGVIclc5YThaY0xpQ0YxM1BNaHRjRVRXQnp6MEV6YlBJZ0xpOTFSSzJkdjlTTV9Ha1dwRHBsV1lZc3cyVFUyYjFMMzhDZUxPcnRWTXZoSmthdUdpYVpEWDJ3UHowNXFZRjJGZ01tN3pHMGZFVUVOZFowQWRQZlZYdVhwbG5DWDdvZXlwT19wSlN1MWg4NWtEaw?oc=5",
+        "published_at": "2026-04-18T15:19:10Z"
+      },
+      {
+        "headline": "Two Indian-flagged ships attacked while crossing Strait of Hormuz, government confirms - Reuters",
+        "summary": "Two Indian-flagged ships attacked while crossing Strait of Hormuz, government confirms\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODhmdWlGZjBFM3BhZXJMWExEb3ZzdnIwUzlqay1tVENHSm5LM0xGRWx3SnI3c3BZbjNCb3NfSHNaNWhER0tQckF5YWlWdWprU1FGQUQxVnJrcEdMeVowNm5zcDlRQ0tYLUp0ODBpV3ZjSS1RWnM1T3VUWHFQQlB3cEpLUkM3RGdWdjdTdTBwb0lmak1hQmhINHV3aDhiWm5wZkUxWlpRREtPTEN4bXItUXZCRUVUa2p6T3A5RlEzNTJydHRFNW00?oc=5",
+        "published_at": "2026-04-18T15:07:43Z"
+      },
+      {
+        "headline": "Iran war, $4 gas prices, took all the fun right out of the U.S. consumer economy",
+        "summary": "Consumers are still spending amid U.S.-Iran war and $4 gas prices, but there's a pullback at entertainment and dining venues hitting local economies hard.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/18/iran-war-gas-prices-consumer-spending-economy.html",
+        "published_at": "2026-04-18T13:31:50Z"
+      },
+      {
+        "headline": "Child psychologist: This common issue can hurt kids' future success, happiness\u2014they won't just 'grow out of it'",
+        "summary": "Test anxiety can hurt your child's academic performance and, if left unchecked, their future success and well-being, says clinical psychologist Tram Huynh.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/18/child-psychologist-how-parents-can-help-kids-manage-anxiety.html",
+        "published_at": "2026-04-18T13:05:01Z"
+      },
+      {
+        "headline": "How to tell if your dating standards are too high\u2014or too low: Harvard-trained psychologist",
+        "summary": "Ask yourself, where do your standards come from, says psychologist Sabrina Romanoff.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/18/how-to-have-the-right-standards-when-youre-dating.html",
+        "published_at": "2026-04-18T13:00:01Z"
+      },
+      {
+        "headline": "Iran's navy tells ships Strait of Hormuz shut again, two vessels report gunfire - Reuters",
+        "summary": "Iran's navy tells ships Strait of Hormuz shut again, two vessels report gunfire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ1h5S05McURVN0xuMXhMcW1JVk5MaUdmQ2lyREVuVUxzSTBIX2VaSXJBaHBwdlgzaFZtaFRRMWlkczhHekZONlpXVmFjTlp3bnN2dmMwYjEyaGk1NG5QbjNNZWktRUVKMzJFUTNPZTAxejBfeV90b01ScXdJVDdYc1lNQlR4MW00c3pmd3ZpUV9jV0dXSGpuVUhjazRxVXlsbzJ1bnNIVVl4VlZOcVBmYmNPUXBwOS13eVhkMC1QTDQ?oc=5",
+        "published_at": "2026-04-18T11:56:35Z"
+      },
+      {
+        "headline": "US forces turn 23 vessels back to Iran, enforcing blockade, military says - Reuters",
+        "summary": "US forces turn 23 vessels back to Iran, enforcing blockade, military says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGZDcnB1c0VnSDBkYU1XYzNES3N0cVBKRE1mX1lOc0FjNWs3ck5BZWdzQnlPRTZ2ZFhkektJR1lhS1ZHN014VGtXMGdpczA1ZWlxdEpDcXVUcDhWcmxjZzhMMVdkMlRKRGxybWpfLWd0eW5QcUhfYWtqNlgxVmtxYTBGTlMxbDhJY05EdVB0eEdvSE1DZjhTNnFIb3h2aThtZTlTU21MeklXa1RDd0lUMmdPcGRHVEJFZEppOVhocw?oc=5",
+        "published_at": "2026-04-18T11:56:09Z"
+      },
+      {
+        "headline": "Iran says no date set for next round of negotiations with US - Reuters",
+        "summary": "Iran says no date set for next round of negotiations with US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHRtczRBS3NCa1YwNllTeEhuUW5HUUoyc2k5Z0p4Yk9yRFYxYUg0am1XUVFRZjgyMGp4RVM5SWExVXNXR3JuQl96WVV3QUlxb3E5MExSd3REcUdDbDZNNmtGRXVJNEpXY3hrbFRDM1BFNTBhQVo4YmVLeEJ4MTJkeG96eVJWX3NaT1VWS18tR2lyS1U4NHl6V0dEWVQ5WkVMRU05SVQ0MHlNeXBL?oc=5",
+        "published_at": "2026-04-18T11:45:43Z"
+      },
+      {
+        "headline": "Merchant vessels report gunfire as they attempt to cross Hormuz, shipping sources say - Reuters",
+        "summary": "Merchant vessels report gunfire as they attempt to cross Hormuz, shipping sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRmRWZFlxdFo5SkRvcHM2SkdCSXVMdl94X0FiUzAzX3JaVUFZd1o2aVZnUDZVV1hEM0xhbUE5N1Frc0pYa0s2RXE3V0xBZENSTEljQmZGVG5QRWRkVE5BcDZOdTZKMkxMUUhKa01HcENnNFFsbGNSX0xLMjktaHotajhUUUsyeF9yeXl4bm1DS0labXc3UnBYZjRMVWx6R0tRek9MamVRNlBpZ3FrOUs4ckM3cmVCTDBDTXUzNWZpVHJCWjdrNjdzM3RiREo?oc=5",
+        "published_at": "2026-04-18T10:49:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 710.14,
+    "spy_change_pct": 1.2086,
+    "spy_lean": "bullish",
+    "vix_close": 17.94,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 57,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Verified Hangame Poker & Alba Heaven Accounts for Sale \u2013 Archyde",
+        "url": "https://ww...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:25:26.000Z",
+        "source": "planners...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Conway Stepping Back from SV Angel Activities \u2013 Archyde",
+        "url": "https://ww...(+60 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:24:34.000Z",
+        "source": "planners...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hug Your Parents! Now! (27 pics)",
+        "url": "https://iz...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:24:27.000Z",
+        "source": "izismile...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.19
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BREAKING: Pieverse (PIEVERSE) Surges 22. 4% To $0. 588 In 24 Hours",
+        "url": "https://bl...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:23:35.000Z",
+        "source": "blockcha...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Richard Sale & Steve Watson, The Peregrine Falcon \u2013 British Ornithologists' Club",
+        "url": "https://bo...(+59 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:23:02.000Z",
+        "source": "boc-onli...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Team Agency For Sale After Epstein File Leak \u2013 Archyde",
+        "url": "https://ww...(+63 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:22:30.000Z",
+        "source": "planners...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Alcoa nears deal to sell Massena East plant for Bitcoin mining",
+        "url": "https://en...(+78 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:22:23.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thrive and Be the Author of Your Own Story with Rand Selig | SUCCESSGRID",
+        "url": "https://su...(+20 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:21:32.000Z",
+        "source": "successg...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Exercise actually moves the mental health needle",
+        "url": "https://ww...(+76 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:21:24.000Z",
+        "source": "bdtechta...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Corneal Sensitivity Testing to Avoid Neurotrophic Keratitis \u2013 Archyde",
+        "url": "https://ww...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-18T21:20:40.000Z",
+        "source": "planners...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.05
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 4,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500"
+  ]
+}

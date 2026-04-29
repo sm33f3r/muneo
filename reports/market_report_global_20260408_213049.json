@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-08T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2518411808006.14,
+    "total_market_cap_change_24h_pct": 2.0343,
+    "total_volume_24h_usd": 123091527374.73,
+    "btc_dominance_pct": 56.9779,
+    "eth_dominance_pct": 10.6432,
+    "total2_usd": 1083473798617.44,
+    "total3_usd": 815435254068.29,
+    "active_cryptocurrencies": 17741,
+    "altcoin_season_index": 16,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LUX",
+        "name": "Luxxcoin",
+        "price_change_24h_pct": 42.6651,
+        "price_usd": 0.00128638,
+        "market_cap_usd": 128564092
+      },
+      {
+        "symbol": "ARIA",
+        "name": "Aria.AI",
+        "price_change_24h_pct": 27.644,
+        "price_usd": 0.668146,
+        "market_cap_usd": 122789695
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": 19.4308,
+        "price_usd": 0.22175,
+        "market_cap_usd": 219066515
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": 15.1673,
+        "price_usd": 0.03165739,
+        "market_cap_usd": 341978884
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 14.6406,
+        "price_usd": 326.61,
+        "market_cap_usd": 5414739322
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -10.9304,
+        "price_usd": 7.69,
+        "market_cap_usd": 359618912
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -8.4594,
+        "price_usd": 0.135516,
+        "market_cap_usd": 244265362
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -7.3043,
+        "price_usd": 1.004,
+        "market_cap_usd": 351297126
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -6.2175,
+        "price_usd": 1.025,
+        "market_cap_usd": 256134074
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -4.7692,
+        "price_usd": 0.564694,
+        "market_cap_usd": 411783566
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 71702,
+    "price_change_24h_pct": 3.11,
+    "price_change_7d_pct": 5.205,
+    "market_cap_usd": 1433326666471,
+    "volume_24h_usd": 50698118914,
+    "direction": "bullish",
+    "oi_usd": 6513651889.36,
+    "funding_rate_latest": 4.048e-05,
+    "funding_rate_7d_avg": 2.3321904761904763e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.952,
+    "long_account_pct": 48.77,
+    "short_account_pct": 51.23,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2220.9,
+    "price_change_24h_pct": 4.0853,
+    "price_change_7d_pct": 3.6609,
+    "market_cap_usd": 268049861179,
+    "volume_24h_usd": 26041318904,
+    "eth_btc_ratio": 0.030974,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95594065959.12,
+    "stablecoin_market_cap_usd": 315713592609.79,
+    "stablecoin_dominance_pct": 12.5362
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 82,
+    "headlines": [
+      {
+        "headline": "Modelo maker Constellation Brands withdraws 2028 guidance due to uncertainty",
+        "summary": "Modelo maker Constellation Brands withdrew its previously issued fiscal 2028 outlook on Wednesday and reported \"subdued\" demand across its categories.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
+        "published_at": "2026-04-08T20:54:30Z"
+      },
+      {
+        "headline": "Israeli strikes pummel Lebanon, killing 250 in deadliest day of war - Reuters",
+        "summary": "Israeli strikes pummel Lebanon, killing 250 in deadliest day of war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnlTSjZwS0l0RGROMkRsOEx2RHMxMnRjUGw5a211NkQ1WTdoRHBTS0hHZXczcTJ4NlBHSHllYTY2Z24wdHdFRUNDSEtkUElXWHI2SE9WMUxpbTVBQXBrUko5TENjNFZ5ZEJKSFl4ZDFQTWlfMVVHM25QMDRqWVNOOHUtY3VQMWRWQU85M3pYa0R5U0VFR21NWEhmYUNJSWVCMWFGSnRVZTNaQ0NjaGdacjExWHcwUWpSVnA4bGRJcVptT2c2?oc=5",
+        "published_at": "2026-04-08T20:29:17Z"
+      },
+      {
+        "headline": "Wall Street ends sharply higher on US-Iran ceasefire - Reuters",
+        "summary": "Wall Street ends sharply higher on US-Iran ceasefire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXN1Q3ZqM2RJWXFYbG5vMTJ2dnpGb3B6dGZ3LUx0SmlDd2FQaThhb2hvaC1xSjdJci1acG4tMUhrSXZrZnhNbFJUdElVVW5rWnFVdzNkajV3QVJGNkRoczdPS1ZDejc1RDlhYXhIaXFmOXJnOGIwM2pSNXM2S0dRaHpaVFB4ei1jWkU4TTNsdXBpdWw2NzViaEN3?oc=5",
+        "published_at": "2026-04-08T20:27:25Z"
+      },
+      {
+        "headline": "US Senate to vote on resolution to curb Trump's Iran war powers - Reuters",
+        "summary": "US Senate to vote on resolution to curb Trump's Iran war powers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTjhFVDJsSE91QkxpRU5vZnpFbG5JZl9HX0lIcVQ0OWVmVTRtd3pxRzE0SlM3RmlwY2lhb243eWpmUXdYNHprdmlUdjFLcHVzS2Q0bHg0bVlQSVdSUWlaRTNXSlJxT0pJczU5ak51NWhYMVYzNXFUT2VjQm1EcFR2RnF0RjFwdFpacWFXMXhfaHlnUUtTbkNSLXlFT2tWeDQ?oc=5",
+        "published_at": "2026-04-08T20:12:54Z"
+      },
+      {
+        "headline": "White House rebukes NATO over Iran as Trump meets alliance chief - Reuters",
+        "summary": "White House rebukes NATO over Iran as Trump meets alliance chief\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTElYZGVPMjJlcV9uMGNqaGlXUURCZFFQZnppNmFnNnAzbEM5NlQzQ3Z2MWdnclFobmhuMUUzUV90dFZpWGdmckV4TnZiTkpNUmtBZUtqMG1XYml5eGktMW1MOTVGdkJFcHo1eVh3UnQzWnJqRzdSTlZuMGpab3JBcFVSODRaclVzR0V2Nmc1Mzh3UWtNX0pJczNMU1Q5Ty1t?oc=5",
+        "published_at": "2026-04-08T20:04:06Z"
+      },
+      {
+        "headline": "'Talks were almost dead': Pakistan's last-ditch effort to secure Iran war truce - Reuters",
+        "summary": "'Talks were almost dead': Pakistan's last-ditch effort to secure Iran war truce\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZng1R1VuN25yR0hSR19mNnBUUk15aUlXeDk2NUFjaVpER3RuSjVhc0ZadHBpQnVaSEZ6NFJBaTA3c2VSXzFtZ04wbVlYQkFUU3JNOUt5RnJuaExpYmk5ZjA2ZDVaNncwRjBZZWtxNDZaTVg4Z3lKRzU0RjhqcXRBX1l2eHduYUtNaFpyYzNxRUppODhISW5SZHFUU2N4cVFEa2RnWGdfTGRndWlMdGQzc1hwRFJ3MVd5LTJZVnVGWGExOThBVnc?oc=5",
+        "published_at": "2026-04-08T20:00:25Z"
+      },
+      {
+        "headline": "Evangelicals amplify Trump's religious framing of Iran war - Reuters",
+        "summary": "Evangelicals amplify Trump's religious framing of Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ0NzcEoyYlRrbjFkSGVXV0ZpZVcyNjROZm9mdzQ5SjNIUlN1UmY5OW5mTnRPUDVQbXpuUGxqVEpYR1dBQnJHUkdiRkI0UWhleFVtTV83LWtMTGN3VzlZbUdGRm1YU3RCY0ZocW1EUGtUSUFXSTMySjhvWW1ZYXNvWVVyZDF5QWVTX3JyUzhCX25Sc2t0VXM0QTJaY3RBMUlxUjNpOGNIdUJQNzA1?oc=5",
+        "published_at": "2026-04-08T19:58:12Z"
+      },
+      {
+        "headline": "Pirro's Powell probe faces a difficult road to appeal, former prosecutors say",
+        "summary": "Federal Reserve chair nominee Kevin Warsh may be in limbo while the legal process plays out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/08/fed-jeanine-pirro-fed-jerome-powell-appeal-kevin-warsh.html",
+        "published_at": "2026-04-08T19:50:27Z"
+      },
+      {
+        "headline": "Explainer: US-Iran ceasefire: what we know - Reuters",
+        "summary": "Explainer: US-Iran ceasefire: what we know\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbW95emZzTlpaX2lCbEE1QVNNcGEzZ2oybG1VUUNkNzQ1elNyeGFBNXk0LXVDU1hXQVdLbklGUTJXNDM3aURzbGFxVDdQdmw4ZGU4enhzT0J5cURhSzF0SUFNUGJnU2tCSzRDZC1yS0JKWUtTQWFjUENTbWlGRXVPNTdBVGZxRlk2U2QyMnhR?oc=5",
+        "published_at": "2026-04-08T19:43:57Z"
+      },
+      {
+        "headline": "Vance to lead US delegation to Iran talks on Saturday - Reuters",
+        "summary": "Vance to lead US delegation to Iran talks on Saturday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLVZ2aXNYWERoaVZBdWlxUWpCX3BMQlVCWjd3ZEpQZ2dKN21aR3lwMGdDWkVSM0Z3T2JvVzA4ZjZMcXFRSWtrUjJ3cno0MHFwQ0phWkdGdkIzY0Z5RFhkNlBpQTRsSjNUTk10emVzaEZ3NlhxQjU5Tkxsa3NTRU5VQUVMamkwUU9GeVR2WTA3MUt4dTM0QjFVQ1hESXliT0s2ZEtPVHNkVnBKb1lrWXdqdlZBRTBEVGJLVGlRVzhvNXdscFUwanloQTVwb1VOUQ?oc=5",
+        "published_at": "2026-04-08T19:36:53Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 676.06,
+    "spy_change_pct": 2.5545,
+    "spy_lean": "bullish",
+    "vix_close": 25.78,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 3,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "New Idaho Law Shields Execution Procedures from Judicial Review and Public Scrutiny | Death Penalty Information Center",
+        "url": "https://de...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:28:08.000Z",
+        "source": "balkangr...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "A Few Thoughts on Trump\u2019s Pre-Deal With Iran",
+        "url": "https://ta...(+70 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:26:43.000Z",
+        "source": "talkingp...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Building a robust CCS: Do settle plates require locking lids?",
+        "url": "https://ww...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:26:43.000Z",
+        "source": "bombmaga...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hollywood Scandals 2026: Pepsi Cancels Sponsorship of U. K. Fest due to Kanye West\u2019s Antisemitic Remarks",
+        "url": "https://em...(+127 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:26:43.000Z",
+        "source": "emanuell...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Super Mario Galaxy Movie, The: Family-Friendly Sequel Scores in U. S. and Abroad",
+        "url": "https://em...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:26:42.000Z",
+        "source": "emanuell...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Oscar Actors: Streep, Meryl\u2013Inspired by Two Directors in \u201cThe Devil Wears Prada\u201d",
+        "url": "https://em...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:26:09.000Z",
+        "source": "emanuell...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Drug cartels put Mexican government on notice \u2013 Sheila Copps",
+        "url": "https://sh...(+59 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:25:39.000Z",
+        "source": "sheilaco...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tumbler Ridge tragedy, U. S. attacks on Canada are showing a different side of Pierre Poilievre \u2013 Sheila Copps",
+        "url": "https://sh...(+106 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:25:26.000Z",
+        "source": "sheilaco...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.06
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Good fresh fruit Enjoy Programs online Gamble \u2013 AGP Pharma",
+        "url": "https://ag...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:24:46.000Z",
+        "source": "agp.com....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.36
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Celebrity Trip Wikipedia \u2013 AGP Pharma",
+        "url": "https://ag...(+34 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-08T21:24:43.000Z",
+        "source": "agp.com....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}
