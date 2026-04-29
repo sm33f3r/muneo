@@ -33,3 +33,9 @@ ENV/
 *~
 .DS_Store
 Thumbs.db
+
+test_*.py
+
+project_status*.json
+
+CLAUDE.md
