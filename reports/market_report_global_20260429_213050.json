@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-29T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2615888667780.15,
+    "total_market_cap_change_24h_pct": -0.7927,
+    "total_volume_24h_usd": 105362299315.88,
+    "btc_dominance_pct": 58.0588,
+    "eth_dominance_pct": 10.368,
+    "total2_usd": 1097134107402.65,
+    "total3_usd": 825919930627.43,
+    "active_cryptocurrencies": 17509,
+    "altcoin_season_index": 75,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 27.8485,
+        "price_usd": 0.26454,
+        "market_cap_usd": 266247567
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 19.0885,
+        "price_usd": 0.063947,
+        "market_cap_usd": 160036792
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 15.1823,
+        "price_usd": 0.00030481,
+        "market_cap_usd": 128202944
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 11.0309,
+        "price_usd": 0.132836,
+        "market_cap_usd": 132822220
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 10.6556,
+        "price_usd": 7.055e-05,
+        "market_cap_usd": 388878452
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -13.5378,
+        "price_usd": 0.456122,
+        "market_cap_usd": 153254121
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": -13.3533,
+        "price_usd": 0.064147,
+        "market_cap_usd": 2037555594
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -12.149,
+        "price_usd": 0.02556856,
+        "market_cap_usd": 302294263
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -11.4377,
+        "price_usd": 0.01113672,
+        "market_cap_usd": 639424548
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -9.9643,
+        "price_usd": 0.03276209,
+        "market_cap_usd": 729163119
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75802,
+    "price_change_24h_pct": -0.6802,
+    "price_change_7d_pct": -3.9829,
+    "market_cap_usd": 1518477914848,
+    "volume_24h_usd": 42707063208,
+    "direction": "neutral",
+    "oi_usd": 7197345170.96,
+    "funding_rate_latest": 3.571e-05,
+    "funding_rate_7d_avg": -2.826285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0513,
+    "long_account_pct": 51.25,
+    "short_account_pct": 48.75,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2246.84,
+    "price_change_24h_pct": -1.8518,
+    "price_change_7d_pct": -6.339,
+    "market_cap_usd": 271229805979,
+    "volume_24h_usd": 19839733263,
+    "eth_btc_ratio": 0.029641,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82931814953.23,
+    "stablecoin_market_cap_usd": 318025465179.81,
+    "stablecoin_dominance_pct": 12.1575
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 28,
+    "headlines": [
+      {
+        "headline": "Amazon's cloud unit reports 28% sales growth, topping estimates",
+        "summary": "Amazon Web Services now accounts for over 20% of its parent company's total revenue.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
+        "published_at": "2026-04-29T20:51:20Z"
+      },
+      {
+        "headline": "Trump holds talks on prolonged Iran blockade, urges Tehran to reach a deal - Reuters",
+        "summary": "Trump holds talks on prolonged Iran blockade, urges Tehran to reach a deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXN0aG5nUkg5TEU5emxCMG9TYjFfRm1mVmp3WFM5Q1hkOGtWbVlxSG45QXBtcXRjb1JfMGE1bjk4SW1Qbk1qRkVvUmdtNmpiRnJQU1hiSXRxeURIbTZrdEtZUnhXdjNDYVY5UWdnaDdUQ29qbFpDdlQxVXlmOTZFN2ljTUFwcWJtc0NuNW5CQTF6alhndnRKcWU1THJrNVctaHlsMGNSQ1k3ejJ0TEdkcFlsZ3ZTaXBsamJsckdxZTBMeXdL?oc=5",
+        "published_at": "2026-04-29T19:42:09Z"
+      },
+      {
+        "headline": "Iranian FIFA Congress delegation claims 'inappropriate behavior' at Toronto airport - Reuters",
+        "summary": "Iranian FIFA Congress delegation claims 'inappropriate behavior' at Toronto airport\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ3VSeUtPcnhDNGxTakFYc3g3WWp2YWptcjJRdE1JUnhOUF90czJqa2d6Y28wNTBxdnk3LU5DWk5Ibi1HbFdXazBjcUlFNmlwYTNBRDUyTEpyY0IySEp3WmQ1QkFZYUJWZFFVYU9WTzlzOHdPS3lIQmQzT2NmaEJSbzBoQlNicUYwRVZJdFlReTBNRjE4RjNlTFduXzFnZnhTb2RTdGtfZUdGZVRMdTBBcWJ6NGF3cFFubVF3eFduSWU2WlUy?oc=5",
+        "published_at": "2026-04-29T19:35:49Z"
+      },
+      {
+        "headline": "Major Fed rate dissent, Powell to stay on \u2014 plus, Boeing takes an unwarranted hit",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/29/major-fed-rate-dissent-powell-to-stay-on-plus-boeing-takes-an-unwarranted-hit.html",
+        "published_at": "2026-04-29T19:07:12Z"
+      },
+      {
+        "headline": "US war in Iran has cost $25 billion so far, says Pentagon official - Reuters",
+        "summary": "US war in Iran has cost $25 billion so far, says Pentagon official\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0pxNmpQTG80bzB6MDFrTi1IcHBXZEZEc2hoNEc5bTZ2cFllZ3ExcWZYSzVaVGJmbGVra0plRDFVdlUxX0VDM0hxSGdiTzE1M3hXaXg4allzazM4SllWUkU3RDBBZVg4YTRaRzZLVkhqS3VlSE50blp1UVpOdGt1VWNzVmpseGtmdXY5SFJxLWJBcWZpWFllMGJ1dVpJUmtQbVJXVF9ndFNVc2VENmk3ZjRkbUpJQQ?oc=5",
+        "published_at": "2026-04-29T18:29:09Z"
+      },
+      {
+        "headline": "The next big leg of the Starbucks story \u2014 and how CEO Brian Niccol plans to get there",
+        "summary": "The optimism in Starbucks' margin recovery story it remains \"the best non-data center stock\" in the portfolio, Jim Cramer said.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/29/the-next-leg-of-starbucks-story-and-how-brian-niccol-plans-to-get-there.html",
+        "published_at": "2026-04-29T17:54:44Z"
+      },
+      {
+        "headline": "Paramount CEO David Ellison wants to release 30 films annually. History and Hollywood say it's unrealistic",
+        "summary": "While David Ellison has set a lofty goal for Paramount to release 30 films a year, there's no recent precedent for such a haul.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/29/david-ellison-paramount-warner-bros-30-film-releases.html",
+        "published_at": "2026-04-29T17:14:14Z"
+      },
+      {
+        "headline": "Jim Cramer calls this Mag 7 stock a battleground; urges new investors to buy Corning",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/29/cramer-calls-microsoft-a-battleground-urges-new-investors-to-buy-corning.html",
+        "published_at": "2026-04-29T16:23:48Z"
+      },
+      {
+        "headline": "Hormuz shipping traffic remains at a trickle as US-Iran deadlock deepens - Reuters",
+        "summary": "Hormuz shipping traffic remains at a trickle as US-Iran deadlock deepens\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMDBXVTc2T0p2eU9nX1JnMTBpTlVVdWE3UW9GaXFYRi1NSGFKZE42N1FUUjBiSUtYU2dudzZWVFp4R3Fna3ROQXlWTnV2MFpidmdRRkJ4UDEwMUw4SHNtSzRWbk9PSmVFVG5Xankza2FNN2hLNms5Z25VeGtNcnRSbkFuZTVYb3hDSHNBY29vd3Y4THhTNHZVb3B4dEQxU2pZVjdPdVA5YVAzNkN3eHB0VFh2WWcxRnVGZlE?oc=5",
+        "published_at": "2026-04-29T15:46:36Z"
+      },
+      {
+        "headline": "Trump met with oil firms on possible months-long extension of Iran blockade - Reuters",
+        "summary": "Trump met with oil firms on possible months-long extension of Iran blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmxPMkVKbHB4bTl6bWcwVXE0eTJ0UXNNUEJwRThKc0ZjemliN1VWcm4zNDI0Z1c2cDNlRVRjWDgyVG01cDdwbXloTGhoa2F0cjJ6UTBNX05NcXY0ZU1EVmlPZlR5MTBwd3Jua2NEUFBnakd4SUdXME4xdmlHbjBqUm9Ca2UtZDBCZFN1UmdMZnZETmZxMWlWVGpKeWExZXhNT1EyZm9hTHY?oc=5",
+        "published_at": "2026-04-29T15:01:53Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 711.63,
+    "spy_change_pct": -0.0084,
+    "spy_lean": "neutral",
+    "vix_close": 17.83,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 1,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "The worst trend on New Jersey roads might be bumper stickers",
+        "url": "https://nj...(+34 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:27:18.000Z",
+        "source": "nj1015.c...(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Torres, Rakis Tabbed to American All-Conference Teams - Charlotte Athletics",
+        "url": "https://ch...(+100 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:27:05.000Z",
+        "source": "charlott...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Top Takeaways: Cougs leapfrog the Lobos in the Mountain West",
+        "url": "https://da...(+91 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:21:54.000Z",
+        "source": "dailyeve...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sirma Group (0IAK) | Sirma Delivers 31% Revenue Growth in 2025 and Advances AI Platform Strategy",
+        "url": "https://ww...(+120 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:21:38.000Z",
+        "source": "keyw.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "PH, US soldiers learn AI use in cyber defense | Global News",
+        "url": "https://gl...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:21:27.000Z",
+        "source": "globalna...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mostbet. com. 965 | Muhammadanism",
+        "url": "https://mu...(+32 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:21:06.000Z",
+        "source": "muhammad...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Cats wash out against Islanders, drop midweek contest",
+        "url": "https://un...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:21:01.000Z",
+        "source": "universi...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Witt Construction wraps construction of D-BAT baseball and softball training facility in Ashwaubenon \u2013 REJournals",
+        "url": "https://re...(+114 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:20:52.000Z",
+        "source": "rejourna...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mostbet casino Pakistan. 2952 | Muhammadanism",
+        "url": "https://mu...(+45 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:20:48.000Z",
+        "source": "muhammad...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Facejug: When a high school band sticks together",
+        "url": "https://th...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-29T21:18:49.000Z",
+        "source": "theorion...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500"
+  ]
+}
