@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-30T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2631937914503.39,
+    "total_market_cap_change_24h_pct": 0.4695,
+    "total_volume_24h_usd": 78974078334.0,
+    "btc_dominance_pct": 58.1388,
+    "eth_dominance_pct": 10.3667,
+    "total2_usd": 1101761822768.07,
+    "total3_usd": 828916859506.12,
+    "active_cryptocurrencies": 17499,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 34.1268,
+        "price_usd": 0.352448,
+        "market_cap_usd": 350837336
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 34.0986,
+        "price_usd": 0.611841,
+        "market_cap_usd": 131614052
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 15.1802,
+        "price_usd": 0.107961,
+        "market_cap_usd": 225498440
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 13.1281,
+        "price_usd": 0.02300041,
+        "market_cap_usd": 188537997
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 11.0106,
+        "price_usd": 0.505921,
+        "market_cap_usd": 169803203
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MEGA",
+        "name": "MegaETH",
+        "price_change_24h_pct": -26.7602,
+        "price_usd": 0.164716,
+        "market_cap_usd": 185128454
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -11.5802,
+        "price_usd": 0.686661,
+        "market_cap_usd": 157962109
+      },
+      {
+        "symbol": "UMXM",
+        "name": "Manadia",
+        "price_change_24h_pct": -9.9423,
+        "price_usd": 1.66,
+        "market_cap_usd": 349396578
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -8.9951,
+        "price_usd": 0.712655,
+        "market_cap_usd": 176528581
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -7.2942,
+        "price_usd": 0.889828,
+        "market_cap_usd": 222610070
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76322,
+    "price_change_24h_pct": 0.6856,
+    "price_change_7d_pct": -1.8473,
+    "market_cap_usd": 1528902595357,
+    "volume_24h_usd": 32806097865,
+    "direction": "neutral",
+    "oi_usd": 7280050139.36,
+    "funding_rate_latest": -2.904e-05,
+    "funding_rate_7d_avg": -2.390190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9026,
+    "long_account_pct": 47.44,
+    "short_account_pct": 52.56,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2257.37,
+    "price_change_24h_pct": 0.3855,
+    "price_change_7d_pct": -2.8679,
+    "market_cap_usd": 272612840092,
+    "volume_24h_usd": 11821569840,
+    "eth_btc_ratio": 0.029577,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84153953210.07,
+    "stablecoin_market_cap_usd": 317391413726.9,
+    "stablecoin_dominance_pct": 12.0592
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Rivian renegotiates DOE loan down to $4.5 billion, adjusts capacity plans for Georgia plant",
+        "summary": "The DOE loan was previously set to support two phases of production for a total of 400,000 units annually.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/rivian-renegotiates-doe-loan-adjusts-capacity-plans-for-georgia-plant.html",
+        "published_at": "2026-04-30T20:28:47Z"
+      },
+      {
+        "headline": "Iran threatens painful response if US renews attacks - Reuters",
+        "summary": "Iran threatens painful response if US renews attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNjVNVmMxVmlmYk9ic3V2RkNRTFlHWkFuZVdrSVlsX1FSSV8ybnM4TmNRWHF1UW5aOGdjOW5OUmhoVHdBOWZ0akMzUUdPdW9heDhpenUwNTlEYU9uWHZJcDNrMnY4R0RTQ3Q5Q2M2WUtuN2M3MVpQVFNQTG5GamZYNW9TXzhMQmw4OER6SlJUMnVSQThhbG5aOEYtTWlNMkd5TmRyOWhULUdrYXg4cnpQaGt6SXlQX1ZCZXNr?oc=5",
+        "published_at": "2026-04-30T20:10:31Z"
+      },
+      {
+        "headline": "Oil retreats after hitting four-year high on concern of US-Iran war escalation - Reuters",
+        "summary": "Oil retreats after hitting four-year high on concern of US-Iran war escalation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZE4xSU9Nd09RUzAxanktcnJlQnJoUElDdGtZOXZUcHVSdDVNaU9iZFpHeU10aFp6NXM1SVVnNHVvQXRRWnlyUG95bzl0eWphR2xQd3ZoTXFpZzhrV2plNWlkdFV3S2JvVEdMVzhEYzlfQW9WeFRuTkJOMFlFQ3VxVWtwNkNROF90RjRROVRFcUhHV2tYU21DcTQ0emUtMDl4SGk1VHlSU19yN0tldElSMUpiT05EamV2ZFBWYXNySVlXQQ?oc=5",
+        "published_at": "2026-04-30T19:19:18Z"
+      },
+      {
+        "headline": "Iranian economic collapse may come too late for Trump - Reuters",
+        "summary": "Iranian economic collapse may come too late for Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0pDUUdWMVNxRHhvSVpqRGI4OElkMFdKcXBPVno0YWlWb0pmTzE2cUwtS244MkM4S2ZQaU9WNjRUMzRTY2c0U0FvdnpTLWtqYUVnSERXRzZpVFJIVnhzODlicVFoUld1MUY0bjVNTXRrQkhmZEhQMnNrRW5wMTZmV3M2Z2E3bFZPeWstLWlaT2hHYkZnbVRIclBhbmt5MVVLSmt5NE93?oc=5",
+        "published_at": "2026-04-30T18:46:22Z"
+      },
+      {
+        "headline": "Trump administration finalizes federal student loan caps\u2014what it means for borrowers",
+        "summary": "The final regulation keeps a narrow definition of professional degrees that are subject to the higher annual and lifetime graduate loan limits.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/grad-school-loan-caps-final-rule.html",
+        "published_at": "2026-04-30T18:37:12Z"
+      },
+      {
+        "headline": "Cardinal Health is getting pummeled on mixed results \u2014 here's our plan for stock",
+        "summary": "We wish we hadn't initiated the stock ahead of the quarter, in early March, but hindsight is 20/20.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/cardinal-health-is-getting-pummeled-on-mixed-results-our-plan-for-stock.html",
+        "published_at": "2026-04-30T18:25:00Z"
+      },
+      {
+        "headline": "Trump taps Nicole Saphier for surgeon general after pulling Casey Means nomination",
+        "summary": "Means' nomination had stalled in the Senate over concerns about her controversial stances on vaccines, birth control, pesticides and psychedelics.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/trump-taps-nicole-saphier-for-surgeon-general-after-pulling-casey-means.html",
+        "published_at": "2026-04-30T17:54:30Z"
+      },
+      {
+        "headline": "Pricey NFL, NBA ownership stakes are pushing investors to smaller leagues and driving valuations higher",
+        "summary": "Priced out of the NBA and NFL, investors are asking bankers about opportunities to buy minority stakes in teams with lower valuations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/pricey-nfl-nba-ownership-stakes-investors-leagues-valuations.html",
+        "published_at": "2026-04-30T17:00:14Z"
+      },
+      {
+        "headline": "Pivotal US-Iran war deadline approaches with no end in sight for conflict - Reuters",
+        "summary": "Pivotal US-Iran war deadline approaches with no end in sight for conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSlVoZFkzV1B1ZjE5RXVLeVlnTm8xNlNvSVVKeFlOX1RxNE5iU3N5WGd5YVRfTzd0ZlQ1VGRiblpnZ2dLa19yZS01SUdVVWhoNmxDa2Vrb2MwR29Xb2FHV3dnOW1zRXdKRnp6QkZKeUxWdzZVcE11cE5Ka0RaQXBCb3N6Z1d2QW1QTUhoZ0JKQnZQcGZwdDVjTHEyVlNHTVhZUzFHTkpua1lIR2xUbzZXZg?oc=5",
+        "published_at": "2026-04-30T16:33:43Z"
+      },
+      {
+        "headline": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX loan",
+        "summary": "Blue Owl said it's made 10 times its investment in SpaceX, which is headed for a record IPO later this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/blue-owl-shares-private-credit-spacex-gains.html",
+        "published_at": "2026-04-30T16:27:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 718.66,
+    "spy_change_pct": 0.995,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 0,
+    "negative_count": 3,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Intimate partner violence is a hidden contributor to women\u2019s suicide",
+        "url": "https://ev...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:26:12.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.32
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former National MP Chris Finlayson calls for \u2018war\u2019 on NZ First",
+        "url": "https://ev...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:25:49.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Were enormous octopuses apex predators in ancient oceans?",
+        "url": "https://ev...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:25:47.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Latest From Broome County Sheriff\u2019s Department This Week",
+        "url": "https://wn...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:25:37.000Z",
+        "source": "wnbf.com...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Hearing on CBD by the FDA: 5 Things We Learned \u2013 Corante",
+        "url": "https://co...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:59.000Z",
+        "source": "crossdre...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Relationship Between CBD And The Government \u2013 Corante",
+        "url": "https://co...(+62 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:50.000Z",
+        "source": "crossdre...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Future of CBD Strains \u2013 Corante",
+        "url": "https://co...(+40 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:43.000Z",
+        "source": "crossdre...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How to Use CBD Oil to Aid in Sleep \u2013 Corante",
+        "url": "https://co...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:43.000Z",
+        "source": "crossdre...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Open (Not Ukraine or Iran) Thread 2026-087 \u2013 Moon of Alabama",
+        "url": "https://ww...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:30.000Z",
+        "source": "moonofal...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nidhi Shah was CONFIRMED to play Smriti Irani\u2019s onscreen daughter in Kyunki 2 before Shagun Sharma: \u2018Didn\u2019t. . \u2019",
+        "url": "https://ww...(+133 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-30T21:23:11.000Z",
+        "source": "data.gov...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
