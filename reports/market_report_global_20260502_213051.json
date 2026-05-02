@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-02T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2688610625127.32,
+    "total_market_cap_change_24h_pct": 0.4409,
+    "total_volume_24h_usd": 48236302975.15,
+    "btc_dominance_pct": 58.4439,
+    "eth_dominance_pct": 10.3768,
+    "total2_usd": 1117282023749.45,
+    "total3_usd": 838290466241.02,
+    "active_cryptocurrencies": 17486,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 272.6571,
+        "price_usd": 3.18,
+        "market_cap_usd": 237222259
+      },
+      {
+        "symbol": "BIO",
+        "name": "Bio Protocol",
+        "price_change_24h_pct": 43.6223,
+        "price_usd": 0.0602,
+        "market_cap_usd": 129330493
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 42.7526,
+        "price_usd": 0.523659,
+        "market_cap_usd": 523127231
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 40.7872,
+        "price_usd": 0.00128618,
+        "market_cap_usd": 139798620
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 39.002,
+        "price_usd": 0.163552,
+        "market_cap_usd": 405396876
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MEGA",
+        "name": "MegaETH",
+        "price_change_24h_pct": -12.6342,
+        "price_usd": 0.138557,
+        "market_cap_usd": 156763173
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -5.6451,
+        "price_usd": 0.657949,
+        "market_cap_usd": 163213414
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": -4.4745,
+        "price_usd": 22.97,
+        "market_cap_usd": 222039393
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": -3.9218,
+        "price_usd": 0.00313526,
+        "market_cap_usd": 307019003
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -3.3039,
+        "price_usd": 10.37,
+        "market_cap_usd": 484730948
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78478,
+    "price_change_24h_pct": 0.6011,
+    "price_change_7d_pct": 1.2805,
+    "market_cap_usd": 1571098484194,
+    "volume_24h_usd": 18408816328,
+    "direction": "neutral",
+    "oi_usd": 8004101022.61,
+    "funding_rate_latest": -2.54e-05,
+    "funding_rate_7d_avg": -1.881e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.5969,
+    "long_account_pct": 37.38,
+    "short_account_pct": 62.62,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2312.85,
+    "price_change_24h_pct": 1.0024,
+    "price_change_7d_pct": -0.0257,
+    "market_cap_usd": 279022394969,
+    "volume_24h_usd": 4460955563,
+    "eth_btc_ratio": 0.029471,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85293581553.94,
+    "stablecoin_market_cap_usd": 320197111069.33,
+    "stablecoin_dominance_pct": 11.9094
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 14,
+    "headlines": [
+      {
+        "headline": "Iran offers Strait deal; Trump dissatisfied but prefers non-military path - Reuters",
+        "summary": "Iran offers Strait deal; Trump dissatisfied but prefers non-military path\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUozQmZGUTZjZElkcVg4NGRnUVJCSlluVnZiSTk5bXBaUlp6ekJtb2dOMWduY2xRUlIxNC1BdnhzY1JzMTl5emVTOGhjN1YyOThpNG9XYVFYeTFmX25CZmk4cThSZDY0NFlRNnNJNHZ1Mk5STnM0YTZZSVZHV0NiWjF5eGQybHVobVJyMDJfNlVUZThYeEtMajRHNWJlandILXJDelBsTlBNWXZQT3JJeHpmUHlhNE55a193NlZaOC0?oc=5",
+        "published_at": "2026-05-02T18:07:02Z"
+      },
+      {
+        "headline": "Germany says US troop drawdown should spur Europe, but top Republicans worried - Reuters",
+        "summary": "Germany says US troop drawdown should spur Europe, but top Republicans worried\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeng2WUI0R1hXdmJicTZHd21sUXBER3lWbExOeHNPQnQ2U2t2UDNYNlBIZ1RzWTlYeEJqM0tha1pJanl1SU5CcHhUUzcyTEVvdjcwTDNycTFUWHFMaXEySkhhazBNOUkzZHdmZE5FRHBGWXZyZm44b3ppRFd5UG1yLW1OdDhNNnR0YTJOYUU3ZFh5SGhMU0hXV1ZWTlJhQmQzWlB4Tkd3Ty1NSmU0aERIcEtwaXlJQmFkdktWbG5YZXBFbnlPS1AyRTItWVo0RkNkVDJ6amlB?oc=5",
+        "published_at": "2026-05-02T17:17:26Z"
+      },
+      {
+        "headline": "Air India CEO search narrows to Singapore Air exec Kannan and insider Aggarwal, sources say - Reuters",
+        "summary": "Air India CEO search narrows to Singapore Air exec Kannan and insider Aggarwal, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX1p6NVBtc2ZPUThhZ2RkbXZQSS01MWNwWHE5MEJFRUZFWUotMno5SHJrc0UtdEtMMC15VlJVVGdPd3ZKOGFvRDBaNE1ZTEpVcDlJV1F2cTVDemlNQzVPdkoySUVlTUt2MHlJdnJtTnBTWkN1dFVpcm11cHRmSVZvbVZwQ0VkYzBMWHgwVEZYdy03SDM1NDVmSWMyUWlOaWRuczhFRzNySmgwazZkLThDc0FReUpuUmstUmVNeVlFdlR4Znc4ZWZrblY5ZzhNUWM?oc=5",
+        "published_at": "2026-05-02T13:44:35Z"
+      },
+      {
+        "headline": "The U.S.-Iran war is coming for your credit score and mortgage application",
+        "summary": "The U.S.-Iran war and Strait of Hormuz closure have caused a global economic ripple effect, your credit score included as banks and lenders get tighter.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html",
+        "published_at": "2026-05-02T13:17:18Z"
+      },
+      {
+        "headline": "Iranian proposal rejected by Trump would open strait before nuclear talks, Iran official says - Reuters",
+        "summary": "Iranian proposal rejected by Trump would open strait before nuclear talks, Iran official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOY3RkdWg1QTVlQmNRQkpSRFhLSmU3QTZsZmtHV016RHB2cG5FOW05bUdPN3N6ZExBVjdCR1RkdXlwLW0yZ1VGazdOVkJKNkEyWVN2V2NBUWJBX3JhREUwUUQwNlQ2RGhsaUhyb193bVRRbGVSejZZTm5QWUlBcThCRlJuajBlTXgwLXNGRmNYelNWRWFYczBDVTFDUkliRFVkQmd0UFRBZFdoOVM2YXp3eU9EZi1DNThYenRnVUE2UnY2bHNXU3FkWkVQRXg?oc=5",
+        "published_at": "2026-05-02T11:36:21Z"
+      },
+      {
+        "headline": "Iran executes two for spying for Israel - Reuters",
+        "summary": "Iran executes two for spying for Israel\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTZ6MVlYOW9YNzN6OXdzb0Fvbjk1WnY4Z3Z3ejdtRXFSY3NrTHhndHllel9xR0ZJM0k1SkFicnFpQS1wZC1HSXg2aU9yN1RENVRUYlB4M1FRV1Nub1lTUGFFc2R6ZlJZMTQ3Z0JBS0gtSTA5Sk9NWXZYM29SMDhxMVl6Yk1VMWt5dzFvLUxB?oc=5",
+        "published_at": "2026-05-02T07:03:24Z"
+      },
+      {
+        "headline": "Nobel laureate Mohammadi's life in Iran's hands, Nobel committee chief says - Reuters",
+        "summary": "Nobel laureate Mohammadi's life in Iran's hands, Nobel committee chief says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS1F2ZWN6cV82RGNKcVFVSlE1YWVST2xLQmZGMU9HU0NwRlg3cFU0RVZPYWs3Qkl3WHJPaTFNSU5CMi1URjgzajBTbGhOYVhKLWxZTFdZWGdwU0phS25fNThqaUZQZzB1MGVRdXZHcGNiTFFtUGxHMlM3RTktdVV1UloyZUJzdHJtMWJFUUpyNFNTSEh0MDF5TGUwakpWa0F3OUowVkJVNlowLTJOTXE2dlBXdE5WOXRuMFNTdWRyVk5fV2ZDeEdxUQ?oc=5",
+        "published_at": "2026-05-02T06:48:00Z"
+      },
+      {
+        "headline": "Iran standoff could leave Trump worse off than before he went to war - Reuters",
+        "summary": "Iran standoff could leave Trump worse off than before he went to war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0F5dU0yQWlzdGU4SlE5TVpWQlQ0X2RCMTgtYW5iYk9kZ0F2ekstUEpfYUdnS3FqOGlkbGNLY0RLR0YzTjNYMGUtREY2ZWtuQmF3Z2xWaDJMbkxMWklaOEJtQm80SXJKZGFta1FJTk43Y09sLTExUFVaTFNUdEo5bmdldy1DalR0NmhiNVh6YnJKdW9ZN1JmclRGOUpQLUsxT0ZuQ2xnSTJHWk1qODYwOGRic0RJV3JK?oc=5",
+        "published_at": "2026-05-02T05:02:00Z"
+      },
+      {
+        "headline": "Trump says US Navy acting 'like pirates' to carry out naval blockade of Iranian ports - Reuters",
+        "summary": "Trump says US Navy acting 'like pirates' to carry out naval blockade of Iranian ports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVc1ZkgxV3lpblVzQXlQU0oxM2xSbG15WmdYd0NscGg2Yy1xZVA2VFJ3RTJnTXpWQnhjRWdLQnBlSDlYTnBnS0NieGg4bXhYUEVFZGFkaHhfVlhEZ3ptNVk3dEZneTV5MmR0Y1A5dlpIczlxMGJtY3l3a1JRY1RPZGxPSWdfZFlBUVRnc0pPOE12WnN5X2I5MXpBYW5TWUkzWkNnRWJfelMzVGdYcmJkWWRuTnFlMk1UblNpSXFYcw?oc=5",
+        "published_at": "2026-05-02T02:00:00Z"
+      },
+      {
+        "headline": "Spirit Airlines could shut down overnight. Here's what travelers need to know",
+        "summary": "What travelers who are ticketed on Spirit Airlines need to know if the carrier shuts down.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/01/spirit-airlines-flights-shut-down.html",
+        "published_at": "2026-05-02T00:26:40Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 720.65,
+    "spy_change_pct": 0.2769,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 46,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 2,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Morocco Photo Tour: The Roman Ruins of Volubilis",
+        "url": "https://bl...(+63 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:27:01.000Z",
+        "source": "blog.jef...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Building Materials & Process: Agribusiness In Nigeria",
+        "url": "https://fa...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:26:29.000Z",
+        "source": "farmonau...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Westmoreland athletes of the week: Greensburg Salem\u2019s Bella Dinkel, Belle Vernon\u2019s Ryan Kent | Trib HSSN",
+        "url": "https://tr...(+109 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:26:14.000Z",
+        "source": "tribhssn...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Youth movement: Westmoreland County schools turn to young coaches to lead programs | Trib HSSN",
+        "url": "https://tr...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:26:12.000Z",
+        "source": "tribhssn...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Thread by @sunnshiiny on Thread Reader App",
+        "url": "https://th...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:25:26.000Z",
+        "source": "lgnetwor...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CRAVEA Coffee Brand Identity and Packaging Design",
+        "url": "https://ab...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:25:19.000Z",
+        "source": "abduzeed...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ayushmann Khurrana says his kids watched the film edit, denies infidelity angle",
+        "url": "https://ww...(+111 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:24:55.000Z",
+        "source": "data.gov...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Does Rio Tinto Mine Lithium? Future Mines & Sustainability",
+        "url": "https://fa...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:24:11.000Z",
+        "source": "farmonau...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Artists take to TigerCon to show off creations",
+        "url": "https://vi...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:23:13.000Z",
+        "source": "viewpoin...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wyoming Jobs: What James Lambert Has Learned After Driving A UPS Truck For 33 Years | Cowboy State Daily",
+        "url": "https://co...(+105 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-02T21:20:20.000Z",
+        "source": "cowboyst...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
