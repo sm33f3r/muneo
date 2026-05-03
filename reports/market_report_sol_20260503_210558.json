@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-03T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 84.28,
+    "price_change_24h_pct": 0.1174,
+    "price_change_7d_pct": -3.0024,
+    "volume_24h_usd": 1727122932,
+    "market_cap_usd": 48587824049,
+    "volume_to_mcap_ratio": 0.035546,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -71.2676,
+    "cex_price_usd": 84.32,
+    "cex_24h_high": 84.97,
+    "cex_24h_low": 83.58,
+    "cex_dex_spread_pct": 0.047461,
+    "volume_on_up_days_usd": 3451791758.1705074,
+    "volume_on_down_days_usd": 2660267902.1884604,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 40.2826,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -9.075039,
+      "signal_line": -11.594915,
+      "histogram": 2.519876
+    },
+    "macd_lean": "bullish",
+    "sma_50": 116.6206,
+    "price_vs_sma50_pct": -27.7315,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 92.110737,
+      "mid": 84.861,
+      "lower": 77.611263,
+      "width_pct": 17.0861,
+      "position": 0.4648
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 793019618.51,
+    "oi_lean": null,
+    "funding_rate_latest": -1.872e-05,
+    "funding_rate_7d_avg": -2.3761904761904765e-06,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.5891,
+    "btc_long_account_pct": 37.07,
+    "btc_short_account_pct": 62.93,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5492106547.0,
+    "tvl_7d_change_pct": -1.5456,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 4369844.0,
+    "chain_fees_7d_avg_usd": 6018638.86,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "8 Platforms to Discover New Coin Listings for Trading - CoinCodeCap",
+        "url": "https://co...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T19:51:44.000Z",
+        "source": "blog.coi...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Padre Review : Best Trading Terminal? (May 2026) - CoinCodeCap",
+        "url": "https://co...(+26 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T19:50:10.000Z",
+        "source": "blog.coi...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.19
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This is What You Need to Watch in Altcoins This Week",
+        "url": "https://en...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T18:18:07.000Z",
+        "source": "en.bitco...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Millions of Americans have lost access to their crypto account. Could you be one of them?",
+        "url": "https://nj...(+37 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T17:56:15.000Z",
+        "source": "nj1015.c...(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korea's Crypto Hack Playbook Won't Work on Canton Network, Says Digital Asset CEO - Decrypt",
+        "url": "https://de...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T15:33:30.000Z",
+        "source": "decrypt....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Millions of Americans have lost access to their crypto account. Could you be one of them?",
+        "url": "https://wp...(+53 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T15:22:44.000Z",
+        "source": "opencour...(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cryptocurrency Trends May 2026: Institutional Influx and the Evolution of Digital Assets - QUE. com",
+        "url": "https://qu...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T15:08:29.000Z",
+        "source": "fighthis...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NYSE moves closer to tokenized stocks under DTC pilot",
+        "url": "https://cr...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T14:08:18.000Z",
+        "source": "cancerac...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u201cThe War Is Over\u201d: Top Solana Executive Declares XRP Integration Beats XRP vs. SOL Rivarly",
+        "url": "https://zy...(+98 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T13:34:19.000Z",
+        "source": "zycrypto...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana faces $87 short squeeze risk as open interest spikes",
+        "url": "https://en...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T13:01:51.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 78863.0,
+    "btc_24h_change_pct": 0.5008,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 60.371,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2615571986311.746,
+    "eth_btc_ratio": 0.029499,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.7294,
+    "dxy_lean": "neutral",
+    "spy_close": 720.65,
+    "spy_change_pct": 0.2769,
+    "spy_lean": "neutral",
+    "vix_close": 16.89,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 46,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 72.97,
+    "cg_sentiment_votes_down_pct": 27.03,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
