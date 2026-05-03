@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-03T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2701571819790.57,
+    "total_market_cap_change_24h_pct": 0.1787,
+    "total_volume_24h_usd": 54634149217.96,
+    "btc_dominance_pct": 58.4951,
+    "eth_dominance_pct": 10.409,
+    "total2_usd": 1121285683867.68,
+    "total3_usd": 840079545071.04,
+    "active_cryptocurrencies": 17470,
+    "altcoin_season_index": 23,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 24.914,
+        "price_usd": 0.425321,
+        "market_cap_usd": 428003968
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 19.163,
+        "price_usd": 0.627729,
+        "market_cap_usd": 211211201
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": 16.5673,
+        "price_usd": 0.00365319,
+        "market_cap_usd": 357836417
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 15.4386,
+        "price_usd": 0.00148302,
+        "market_cap_usd": 161482633
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": 13.7045,
+        "price_usd": 0.638827,
+        "market_cap_usd": 187378832
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -28.3028,
+        "price_usd": 0.117742,
+        "market_cap_usd": 294185635
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -26.7318,
+        "price_usd": 2.29,
+        "market_cap_usd": 176216551
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -11.2422,
+        "price_usd": 0.464086,
+        "market_cap_usd": 464913712
+      },
+      {
+        "symbol": "MEGA",
+        "name": "MegaETH",
+        "price_change_24h_pct": -9.8424,
+        "price_usd": 0.125217,
+        "market_cap_usd": 141149583
+      },
+      {
+        "symbol": "GNO",
+        "name": "Gnosis",
+        "price_change_24h_pct": -7.3889,
+        "price_usd": 129.43,
+        "market_cap_usd": 340688705
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78910,
+    "price_change_24h_pct": 0.5468,
+    "price_change_7d_pct": 0.8546,
+    "market_cap_usd": 1580617273599,
+    "volume_24h_usd": 19885040064,
+    "direction": "neutral",
+    "oi_usd": 8150951003.52,
+    "funding_rate_latest": 7.03e-06,
+    "funding_rate_7d_avg": -1.833095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.5891,
+    "long_account_pct": 37.07,
+    "short_account_pct": 62.93,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2330.22,
+    "price_change_24h_pct": 0.6988,
+    "price_change_7d_pct": -1.6026,
+    "market_cap_usd": 281226318305,
+    "volume_24h_usd": 8574204957,
+    "eth_btc_ratio": 0.02953,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85425031239.62,
+    "stablecoin_market_cap_usd": 319811621333.86,
+    "stablecoin_dominance_pct": 11.838
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "Big Tech earnings show how big, smart spending can be rewarded by the market",
+        "summary": "It's obvious from this quarter that the bubble talk has been proven wrong.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
+        "published_at": "2026-05-03T19:20:18Z"
+      },
+      {
+        "headline": "Hezbollah pays steep price in battle to reverse its fortunes - Reuters",
+        "summary": "Hezbollah pays steep price in battle to reverse its fortunes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOW44VFRZOE1Sa2czY01kaFRUM3RHYnFnNEpHX3Q0S3NmcjZ2Z0ZMbzdVS0ZIUWg3bkhaNWlKdDktRGFrN2FCekNLOTlPejRubkVDRGJ2UEVEUzdCOEhPNjdXbVNsNllWcHVTSEE4MTVFOTVWem1JbjVVdHk3TFNnTXRzUzBkVFhnMy1ULXVhejZhbmgzREpXc2sySmhYbWZlZzh0YzJQMWpDWGh3S2c?oc=5",
+        "published_at": "2026-05-03T18:43:35Z"
+      },
+      {
+        "headline": "Nobel laureate Mohammadi remains in critical condition in Iran, foundation says - Reuters",
+        "summary": "Nobel laureate Mohammadi remains in critical condition in Iran, foundation says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc3hKVzRFWlk2NTlEVG5seXEzMnk2QVVuNEpTOV9oWmszT3ctWGZZQ0R1OGRkRFRuUmdlQkdoRnNrQlVReWhTSGhJQ3ZXTXhqcGtqQzBBTjVoaTRhTzNQMW9ZTzZxTlNqZnVuaGt1MEJjZkhJdEtfaFVGbHhEUG9kMGJaTFBsMlpKeUNBUjE2MVppS2pEN0ZmaEFmODFvU2VzalZiR0NVMlB4MFJfdktBM1E3Q2hNcnZuYWFqbDV4RnFHR3Fu?oc=5",
+        "published_at": "2026-05-03T15:26:09Z"
+      },
+      {
+        "headline": "Healthcare cost surge makes generous parental paid leave benefits a target of workplace cuts",
+        "summary": "As healthcare costs soar and companies search for savings, generous paid parental leave is a benefit being cut, with recent examples from Zoom and Deloitte.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/03/healthcare-costs-parental-paid-leave-employee-benefits-cuts.html",
+        "published_at": "2026-05-03T13:23:44Z"
+      },
+      {
+        "headline": "Gulf bourses close higher, but U.S.-Iran uncertainty caps upside - Reuters",
+        "summary": "Gulf bourses close higher, but U.S.-Iran uncertainty caps upside\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVEw1RGVIVC1UUlFuYWlVTXdKNXRjdlp2WTVPMGhDdWpvRUZUUHpJSWE3MUxSS013MWZHMUdaa0Q1amhTcUtvTG9yMFdLdVpnVkVvQ3EzSXRrN2Q4Unc2SFRuR0hrcnlBT1UzcTdIWDVKUVRGd0phUEstcUtiXzA3a0wzUFRwaGJUcGRWa0R6d3dFWVlyZlRZMlVxeHI5bnZxLS1rREthb1ZLR2dZckV4Mg?oc=5",
+        "published_at": "2026-05-03T13:13:43Z"
+      },
+      {
+        "headline": "Fewer features, more value: Why some Americans are buying simpler cars",
+        "summary": "Cloth seats, manual controls and analog gauges are back as buyers look for cars with sticker prices closer to $30,000.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/03/why-some-americans-are-buying-simpler-cars.html",
+        "published_at": "2026-05-03T13:00:01Z"
+      },
+      {
+        "headline": "Slovakia's PM Fico to attend Victory Day parade in Moscow, Russian TV says - Reuters",
+        "summary": "Slovakia's PM Fico to attend Victory Day parade in Moscow, Russian TV says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWm5ZNUN3cmxaNFBmcXk0cFU4SVFfd0FzdWMxZ3hEazl2eEZpamdpSEdlWWNaQjZic0dGMTQwd29OMDlVd2UtR2xmVmV5VkdvNWNUUl9UV2M0ZEpxMHJtLTM5YkhOSDYzX21FRHpDOVA2Ymp0cmRQRjVDdFpJVUpHQ0ltUThDNW91d3F3VEIwQkI5V0U2UVJsQmxSb2ZkR1dDaDNUSzRhUUdfY25t?oc=5",
+        "published_at": "2026-05-03T10:35:43Z"
+      },
+      {
+        "headline": "Iran executes man convicted over killing of security officer in 2022 unrest - Reuters",
+        "summary": "Iran executes man convicted over killing of security officer in 2022 unrest\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTjR5MVc5U1lSbUF5U1NwWXYxY0JPYld2SGdhZVN5a2RoOUZ1aFI0aWh6N1BwRHVjSm5oNW9WVW8zNnlEeXBmM3cwT0F0RFFlQWxjRjVjV2JJY2FGbENrWnY0WjlHTXprMnFzb3liR0R6bWhMTnN6ZFFlRkEyR1RuUVdJZEJGUnRsRTF2MFN5SVBqbnVqQ3Bxc1Q0ek9Oak5NZ1dIRHBaanhlWHlNWnJ4emV1QWpaUlVpcWZmbkZtbGE?oc=5",
+        "published_at": "2026-05-03T07:17:09Z"
+      },
+      {
+        "headline": "Germany says US troop drawdown should spur Europe, but top Republicans worried - Reuters",
+        "summary": "Germany says US troop drawdown should spur Europe, but top Republicans worried\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeng2WUI0R1hXdmJicTZHd21sUXBER3lWbExOeHNPQnQ2U2t2UDNYNlBIZ1RzWTlYeEJqM0tha1pJanl1SU5CcHhUUzcyTEVvdjcwTDNycTFUWHFMaXEySkhhazBNOUkzZHdmZE5FRHBGWXZyZm44b3ppRFd5UG1yLW1OdDhNNnR0YTJOYUU3ZFh5SGhMU0hXV1ZWTlJhQmQzWlB4Tkd3Ty1NSmU0aERIcEtwaXlJQmFkdktWbG5YZXBFbnlPS1AyRTItWVo0RkNkVDJ6amlB?oc=5",
+        "published_at": "2026-05-02T23:03:45Z"
+      },
+      {
+        "headline": "Trump says there is possibility US could restart strikes on Iran - Reuters",
+        "summary": "Trump says there is possibility US could restart strikes on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3BPYWlZX3JROTNwdmo0b3dEcFVOMkNMMlFFb1NCeFlQYVpxMFFSbXZVYXRTUXJLdkZBT1dPbU55RHVTM0NJSDdBQVlrcUFFNTR4ZjhoT2RaT3ZDOEs2M1BWUG9Ycm9LVDBFSXluS215bWlkNjJscWxuS0hKMUVBTUVDaGxxM080ajdmcWtXWUh3akhtTFZlV2lhM0lnUWhkckVObmlR?oc=5",
+        "published_at": "2026-05-02T22:41:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7294,
+    "dxy_lean": "neutral",
+    "spy_close": 720.65,
+    "spy_change_pct": 0.2769,
+    "spy_lean": "neutral",
+    "vix_close": 16.89,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 46,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Kalshi Promo Code FOXSPORTS Unlocks $10 Bonus For Pistons vs. Magic, Raptors vs. Cavaliers",
+        "url": "https://ww...(+114 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:28:57.000Z",
+        "source": "foxsport...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Real Madrid to Release Dani Carvajal, Clearing Way for Trent Alexander-Arnold",
+        "url": "https://ww...(+100 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:28:56.000Z",
+        "source": "foxsport...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sir Alex Ferguson Hospitalized Before Man United Vs Liverpool",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:28:49.000Z",
+        "source": "foxsport...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.05
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "NCAA Run Ends Against Defending Champion Georgia - Charlotte Athletics",
+        "url": "https://ch...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:28:36.000Z",
+        "source": "charlott...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Assessment of Kamel Rezigue and Algeria\u2019s Export Challenge \u2013 International Supermarket News",
+        "url": "https://in...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:27:51.000Z",
+        "source": "internat...(+24 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Weekly Watch | caucus99percent",
+        "url": "https://ca...(+42 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:25:48.000Z",
+        "source": "fisalpin...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How to Make the Most of 45 Minutes in a Busy Gym",
+        "url": "https://ww...(+48 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:21:59.000Z",
+        "source": "ellegrif...(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "4 May: Blesseds Angel Maria Prat Hostench, Lucas of St. Joseph Tristany Pujol, Priests, and Companions",
+        "url": "https://ca...(+45 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:21:53.000Z",
+        "source": "carmelit...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Beyond the Bonus A Detailed Look at Gameplay and Rewards with Captain Spins Casino. | Vietnam Veterans of America",
+        "url": "https://vv...(+73 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:21:41.000Z",
+        "source": "vva.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Amplify Your Fortune Strategically Drop & Win Big with Plinkos Thrilling Cascade. | Vietnam Veterans of America",
+        "url": "https://vv...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-03T21:21:38.000Z",
+        "source": "vva.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.23
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
