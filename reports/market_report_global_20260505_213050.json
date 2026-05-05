@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-05T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2779130109391.41,
+    "total_market_cap_change_24h_pct": 1.5559,
+    "total_volume_24h_usd": 96174609622.53,
+    "btc_dominance_pct": 58.7754,
+    "eth_dominance_pct": 10.3238,
+    "total2_usd": 1145686284034.9,
+    "total3_usd": 858773358722.82,
+    "active_cryptocurrencies": 17418,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 87.1744,
+        "price_usd": 2.79,
+        "market_cap_usd": 213374354
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 27.201,
+        "price_usd": 3.47,
+        "market_cap_usd": 4506685413
+      },
+      {
+        "symbol": "TON",
+        "name": "Toncoin",
+        "price_change_24h_pct": 26.8147,
+        "price_usd": 1.96,
+        "market_cap_usd": 5247204038
+      },
+      {
+        "symbol": "RIV",
+        "name": "RIV Coin",
+        "price_change_24h_pct": 26.0829,
+        "price_usd": 0.03572404,
+        "market_cap_usd": 145312604
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 22.7827,
+        "price_usd": 519.51,
+        "market_cap_usd": 8691414605
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -12.8748,
+        "price_usd": 0.715718,
+        "market_cap_usd": 177384791
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -6.7636,
+        "price_usd": 0.366284,
+        "market_cap_usd": 170724322
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": -5.6069,
+        "price_usd": 0.598268,
+        "market_cap_usd": 174785674
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -4.1202,
+        "price_usd": 0.375816,
+        "market_cap_usd": 376231332
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": -3.755,
+        "price_usd": 115.88,
+        "market_cap_usd": 160427939
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81559,
+    "price_change_24h_pct": 1.6881,
+    "price_change_7d_pct": 6.8358,
+    "market_cap_usd": 1633728891129,
+    "volume_24h_usd": 39850514076,
+    "direction": "bullish",
+    "oi_usd": 9214999319.8,
+    "funding_rate_latest": -8.24e-05,
+    "funding_rate_7d_avg": -1.655095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.4957,
+    "long_account_pct": 33.14,
+    "short_account_pct": 66.86,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2377.65,
+    "price_change_24h_pct": 0.7707,
+    "price_change_7d_pct": 3.5725,
+    "market_cap_usd": 287124379250,
+    "volume_24h_usd": 15742071294,
+    "eth_btc_ratio": 0.029153,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86291828031.74,
+    "stablecoin_market_cap_usd": 321495928371.73,
+    "stablecoin_dominance_pct": 11.5682
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 46,
+    "headlines": [
+      {
+        "headline": "US and Bahrain push UN-backed action for Hormuz as Washington seeks maritime coalition - Reuters",
+        "summary": "US and Bahrain push UN-backed action for Hormuz as Washington seeks maritime coalition\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcExoM1d6aklFTjE2XzI0aGc1ckRETkpybV9JVHZnZzVSY1NES1JpX2ZFbXdiRzZwdW1US1NmcC1hTHExTklKZllaTVl1dDdlbm9sNlAwZkFIcnhEVjdFYlRia1VDZ2tSS1NDNnM3V2h3VkdURXBuM3F0MnBfSU9oX1lUUHpJSkd4NE56ZHNzRnNzM1EyemU2XzlCNkVJWXFfeVZrc2hfLWQySFJfZjVEVWdPVmU2OEM0Nmlra01QdnE?oc=5",
+        "published_at": "2026-05-05T19:31:16Z"
+      },
+      {
+        "headline": "Pope Leo rejects latest Trump attack as Rubio expects 'frank' meeting on Thursday - Reuters",
+        "summary": "Pope Leo rejects latest Trump attack as Rubio expects 'frank' meeting on Thursday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2UyTUswbHZscHZDZFpyNGxKSTFQNXZydXFsRDM0MzRUMUQ0RFcwaG9tNk95M0hwQVdzNTNEdlkxajgwRzg3YS1EaTFDVE9pQmFNUkhlUGtSeHZ3THZCYUpqeWlTbExDU1JGbE01UERBeFc3MHUwOTFiNkp2TTdJdl93N3UyR19kWnZ5c1NnQ183WHhzVF9wbHlITmdvYUJlbDRPMkxIM1pqRFd6ZGJlN3pnV0R0VzZJQWc?oc=5",
+        "published_at": "2026-05-05T19:05:23Z"
+      },
+      {
+        "headline": "UAE air defences engage missiles, drones; Tehran denies attacking UAE - Reuters",
+        "summary": "UAE air defences engage missiles, drones; Tehran denies attacking UAE\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeTMwVFFqRDBsTzlWTk9fZkljc3NJYl9hSkhrSkZxRVNfU1hMeWVGcXgzdThfZWhXaEJ5b1dkc3JfYldxZUJFNzFEaURzdXl3ZTZSakVRZFhYazJFLVIxMnBFb1ZzS3JrbjBVTm1XR3ZhVnNUeVdEejJsbDVMRko1a1BOQm5wYXpWY0dvWFNmVFFMXzhJWXRobm1Td0hISHhfcmwzWmFoUk1BbG5JMWNkekVYYzZZZw?oc=5",
+        "published_at": "2026-05-05T19:04:55Z"
+      },
+      {
+        "headline": "Intel and Micron are poised to break major milestones",
+        "summary": "Options traders can't get enough of semiconductor stocks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/05/intel-and-micron-are-poised-to-break-major-milestones.html",
+        "published_at": "2026-05-05T18:55:16Z"
+      },
+      {
+        "headline": "MasterClass CEO: I've interviewed hundreds of successful people\u2014they taught me to stop believing a common myth about hard work",
+        "summary": "Hard work, on its own, won't automatically make you successful, says MasterClass co-founder and CEO David Rogier. Here's what else you need, he says.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/05/masterclass-ceo-david-rogier-common-myths-success-failure-hard-work.html",
+        "published_at": "2026-05-05T18:39:19Z"
+      },
+      {
+        "headline": "US says Iran ceasefire holds despite exchange of fire; UAE under attack - Reuters",
+        "summary": "US says Iran ceasefire holds despite exchange of fire; UAE under attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjY4eVh4Y0MzcE5FOGdNRTZqS1pOTV9Za3ZsUjRiR3c3ZGg3dklxT1BTLTRzUlNPUFJEai1HQXIyM2hNNkhxU0tGdnZxVzd2Y3I3TXF6dlFoMVJYYTlubDlZaG1JQ0tFOFZPNXpTMmR0akItbVBrbGJFLS0ybzJNUTFmdFlHcGRmVXh6NEtfQUNUa2pFejFrZ0pyMlV6MXlzQ3Q0RHFwRmFqaS1udGdRRzNSRjQ?oc=5",
+        "published_at": "2026-05-05T18:37:08Z"
+      },
+      {
+        "headline": "Johnson & Johnson reaches a milestone for one of its most exciting pipeline products",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/05/johnson-johnson-reaches-a-milestone-for-one-of-its-most-exciting-pipeline-products.html",
+        "published_at": "2026-05-05T18:34:53Z"
+      },
+      {
+        "headline": "Nasdaq hits record as AI chip stocks surge - Reuters",
+        "summary": "Nasdaq hits record as AI chip stocks surge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXJmbTJ1QXlUbzNTS1ZhOXF6RHZmZjJGekJSRzZHRWRYQ05FSmEzMnlCaHJpbG0zSVB5WGRTNzUyYWtzY0JtSVNkRWdpWVo0Z2VrM1JLSW02UzRLWXQwaEhoMWgzYnNLdkhRdktMbGJlRnFxY2s5SzNDYkF3Y3ExVWdHTjJuMy1qT200WVo1WmxlT2hnYXJPWmpPTTlXWXhPTnI3N0dn?oc=5",
+        "published_at": "2026-05-05T18:31:38Z"
+      },
+      {
+        "headline": "Spirit starts monthslong process of dismantling airline after biggest collapse in a generation",
+        "summary": "Spirit Airlines was back in bankruptcy court to start dismantling the airline.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/05/spirit-airlines-bankruptcy-costs.html",
+        "published_at": "2026-05-05T18:00:46Z"
+      },
+      {
+        "headline": "Iran sets up new mechanism to manage vessel transit through Hormuz - Reuters",
+        "summary": "Iran sets up new mechanism to manage vessel transit through Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0NSNjJhWU4zcy1MX25YN3hVT1J0QjBEa3pNWU5POU93NUZKUllNaUtaeXpfZjZZa3FQNnh2N0t5QVc0RnM3SmhwUl9HM0NmT0lRTktOdFFxVHV3ZDl3YU5FT2tmNlBSdWJZRVV2R0dpSGwyM1JYMEE3SEVRS19oNU1xQnEzZmkyZUFMSFF5MzJjQjRuSEtJT2piR2thSGpZVThUN2NIZFZoc3p5SWp3eFE0SEkybFBL?oc=5",
+        "published_at": "2026-05-05T17:42:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.3926,
+    "dxy_lean": "neutral",
+    "spy_close": 723.7,
+    "spy_change_pct": 0.7925,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 0,
+    "negative_count": 1,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "New Repurposed Furniture Shop Full Circle Opens On W Gore Boulevard In Lawton",
+        "url": "https://kl...(+26 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:45.000Z",
+        "source": "exhibiti...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Vemod (2LP Vinyl)",
+        "url": "https://ww...(+35 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:30.000Z",
+        "source": "lasercd....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The EURUSD and GBPUSD are both higher but the GBPUSD is looking more bullish technically | investingLive",
+        "url": "https://in...(+133 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:30.000Z",
+        "source": "forexliv...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USDCHF sellers remain in control. Price tests 100 hour MA twice and finds willing sellers | investingLive",
+        "url": "https://in...(+133 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:29.000Z",
+        "source": "forexliv...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hell Awaits (3CD Earbook Preorder)",
+        "url": "https://ww...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:24.000Z",
+        "source": "lasercd....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.49
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Live At Womad 1982",
+        "url": "https://ww...(+32 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:21.000Z",
+        "source": "lasercd....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Master Of The Skies",
+        "url": "https://ww...(+29 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:19.000Z",
+        "source": "lasercd....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Breakout time for Cryptos? Bitcoin at $80K; BTC and Ethereum (ETH) Technical Outlook",
+        "url": "https://ww...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:18.000Z",
+        "source": "marketpu...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Silent Architect",
+        "url": "https://ww...(+33 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:18.000Z",
+        "source": "lasercd....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kaufman & Broad SA: ORDINARY AND EXTRAORDINARY SHAREHOLDERS'MEETING OF 2026, MAY 5",
+        "url": "https://ww...(+138 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T21:25:11.000Z",
+        "source": "finanzna...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
