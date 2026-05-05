@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-05T21:05:03 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 86.73,
+    "price_change_24h_pct": 3.1741,
+    "price_change_7d_pct": 3.5147,
+    "volume_24h_usd": 3350846421,
+    "market_cap_usd": 49918646936,
+    "volume_to_mcap_ratio": 0.067126,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -70.4301,
+    "cex_price_usd": 86.84,
+    "cex_24h_high": 86.93,
+    "cex_24h_low": 84.02,
+    "cex_dex_spread_pct": 0.12683,
+    "volume_on_up_days_usd": 3420408561.4161115,
+    "volume_on_down_days_usd": 2983030209.1311245,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 40.2826,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -9.075039,
+      "signal_line": -11.594915,
+      "histogram": 2.519876
+    },
+    "macd_lean": "bullish",
+    "sma_50": 116.6206,
+    "price_vs_sma50_pct": -25.6306,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 92.110737,
+      "mid": 84.861,
+      "lower": 77.611263,
+      "width_pct": 17.0861,
+      "position": 0.4648
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 855346268.63,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 3.279095238095238e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.4957,
+    "btc_long_account_pct": 33.14,
+    "btc_short_account_pct": 66.86,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5524369643.0,
+    "tvl_7d_change_pct": 1.2345,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 5690537.0,
+    "chain_fees_7d_avg_usd": 6047153.0,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 1,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana and Google Cloud Launch Stablecoin Payments Service for AI Agents - Decrypt",
+        "url": "https://de...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T20:10:09.000Z",
+        "source": "decrypt....(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Western Union launches USDPT digital dollar on Solana",
+        "url": "https://en...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T19:47:54.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MoonPay Acquires DFlow, Powering Trades for Coinbase and Phantom - Crypto Economy",
+        "url": "https://cr...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T19:44:29.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana eyes $145 after holding steady above $85",
+        "url": "https://en...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T19:25:02.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jito Labs Unveils JTX, a Self\u2011Custodial Trading Platform Built for Solana Traders - Crypto Economy",
+        "url": "https://cr...(+98 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T19:21:34.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Btc eyes $90,000 as key resistance levels tested",
+        "url": "https://en...(+62 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T19:16:54.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Burwick Law sues Iggy Azalea on behalf of MOTHER memecoin buyers",
+        "url": "https://cr...(+53 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T18:35:58.000Z",
+        "source": "cryptobr...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "State Street and Galaxy Launch Tokenized Cash-Management Fund for Onchain Liquidity - Crypto Economy",
+        "url": "https://cr...(+63 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T18:21:31.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MoonPay acquires DFlow in $100M deal to boost Solana infrastructure",
+        "url": "https://cr...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T18:07:04.000Z",
+        "source": "cryptobr...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OnRe Finance raises $5M as Forward lines up $25M ONyc buy",
+        "url": "https://cr...(+66 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-05T18:00:00.000Z",
+        "source": "crypto.n...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 81675.0,
+    "btc_24h_change_pct": 2.049,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 60.6789,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2696197579046.786,
+    "eth_btc_ratio": 0.029178,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.3926,
+    "dxy_lean": "neutral",
+    "spy_close": 723.7,
+    "spy_change_pct": 0.7925,
+    "spy_lean": "bullish",
+    "vix_close": 18.29,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 69.09,
+    "cg_sentiment_votes_down_pct": 30.91,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
