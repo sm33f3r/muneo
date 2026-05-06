@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-06T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2781638213881.18,
+    "total_market_cap_change_24h_pct": 0.1918,
+    "total_volume_24h_usd": 119374801771.91,
+    "btc_dominance_pct": 58.6071,
+    "eth_dominance_pct": 10.1896,
+    "total2_usd": 1151401099407.1,
+    "total3_usd": 867963782242.99,
+    "active_cryptocurrencies": 17433,
+    "altcoin_season_index": 37,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 54.9451,
+        "price_usd": 4.28,
+        "market_cap_usd": 327472434
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 50.4751,
+        "price_usd": 0.070782,
+        "market_cap_usd": 167364902
+      },
+      {
+        "symbol": "TON",
+        "name": "Toncoin",
+        "price_change_24h_pct": 20.7233,
+        "price_usd": 2.4,
+        "market_cap_usd": 6424345541
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 18.6692,
+        "price_usd": 12.1,
+        "market_cap_usd": 555471960
+      },
+      {
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "price_change_24h_pct": 18.6432,
+        "price_usd": 0.283979,
+        "market_cap_usd": 163894457
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -19.3774,
+        "price_usd": 0.321089,
+        "market_cap_usd": 321066479
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -10.2093,
+        "price_usd": 0.643383,
+        "market_cap_usd": 159587563
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": -10.1118,
+        "price_usd": 0.00010366,
+        "market_cap_usd": 572074527
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": -7.2194,
+        "price_usd": 0.200223,
+        "market_cap_usd": 147419479
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -5.7414,
+        "price_usd": 0.150638,
+        "market_cap_usd": 151026967
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81419,
+    "price_change_24h_pct": -0.147,
+    "price_change_7d_pct": 7.5521,
+    "market_cap_usd": 1630418102977,
+    "volume_24h_usd": 45182963895,
+    "direction": "neutral",
+    "oi_usd": 8665331352.34,
+    "funding_rate_latest": -3.756e-05,
+    "funding_rate_7d_avg": -2.6596190476190475e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.5828,
+    "long_account_pct": 36.82,
+    "short_account_pct": 63.18,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2350.46,
+    "price_change_24h_pct": -0.9535,
+    "price_change_7d_pct": 4.7798,
+    "market_cap_usd": 283697706022,
+    "volume_24h_usd": 21215811688,
+    "eth_btc_ratio": 0.028869,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86112238650.07,
+    "stablecoin_market_cap_usd": 320687602628.69,
+    "stablecoin_dominance_pct": 11.5287
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 49,
+    "headlines": [
+      {
+        "headline": "Will Elon Musk win his lawsuit against Sam Altman's OpenAI? Here's what prediction markets think",
+        "summary": "Out of all live events related to Elon Musk, trading activity on his suit against OpenAI is the second highest out of all contracts related to the billionaire.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/06/elon-musk-odds-low-to-win-openai-suit.html",
+        "published_at": "2026-05-06T20:32:33Z"
+      },
+      {
+        "headline": "Warner Bros. Discovery books $2.9 billion net loss tied to Paramount deal, restructuring costs",
+        "summary": "Paramount agreed to pay a Netflix termination fee, but the cost lives on WBD's books until the close of the deal.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/06/warner-bros-discovery-net-loss-paramount-deal.html",
+        "published_at": "2026-05-06T20:20:57Z"
+      },
+      {
+        "headline": "Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty",
+        "summary": "Snap reported first-quarter earnings and provided cautious sales guidance while revealing it no longer has a deal with the generative AI startup Perplexity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/06/snap-q1-earnings-report-2026.html",
+        "published_at": "2026-05-06T20:13:17Z"
+      },
+      {
+        "headline": "Gulf's fragile trade lifeline hangs on two eastern UAE ports - Reuters",
+        "summary": "Gulf's fragile trade lifeline hangs on two eastern UAE ports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdmJxb1ZDcGt5MVZzS2dCRlB4YXh0R01NenV2SmRoZW80Szg5S0ZOWmQ1ZHB4RFhrN0dUVktxQUJDWTFxOTRDTFBVZkpnS2xlbnRvUkpCWmJGRWF5VldFVktHMWlPZFh1TkQ3Q21ZaWFjMi1EZHV6OWFGZkdDRXRJNmh1cHQ1c1VPd2kzbWE3ODhQcGJoajE0YUU4c3NBdElwQm5xbVdqYnV1bG5uZVE0?oc=5",
+        "published_at": "2026-05-06T19:22:14Z"
+      },
+      {
+        "headline": "Trump says US had very good talks with Iran in last 24 hours - Reuters",
+        "summary": "Trump says US had very good talks with Iran in last 24 hours\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSjV1T3VGTFFicTdBUm14aWNNb1NHMEVrd0RXVTZCem10U0k3SzZfeXZoRW1rMXJIR2k5NzhzZ1J3MEhjM0llLWtiV3RPeTRXVTFnVDFyWWZKNTBqU3FEUHlCWExQaDBkZzdKQnZyM0lDZW5jdVg1NUdGcTIzWjBFR2pGaTR2YVJUcmNQUUp0Q0VVVTVBT0d5YnU2TnZoZzlabVFaZHk1aXlYMDUwMXhoeQ?oc=5",
+        "published_at": "2026-05-06T19:07:43Z"
+      },
+      {
+        "headline": "Why Boeing and Honeywell are rallying \u2014 plus, the AI trade gets another boost",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/06/why-boeing-and-honeywell-are-rallying-plus-the-ai-trade-gets-a-boost-.html",
+        "published_at": "2026-05-06T18:58:39Z"
+      },
+      {
+        "headline": "Trump says United States will get uranium from Iran - Reuters",
+        "summary": "Trump says United States will get uranium from Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNjJGSzc4U0o1Rmh2dzRuSFVTaU1JT2h2cFY3V0JGMjh5RFhNRG9uRVZWckRDUllxS1VVRXRYWVgwWkN1bE5YdGZpUVdCNkM3a1ZVR2g0MGk3eGNIYk9rN3c5R2Y2LUJ3ZFJTUnhaamZvN2NmZjA4MWo2a3c3cGE0ZXJldlNuVVR2Z0tkb1BkY04zZ1ZPWXJER0NnNmxGS1Vfc1E?oc=5",
+        "published_at": "2026-05-06T18:50:33Z"
+      },
+      {
+        "headline": "S&P 500 and Nasdaq hit records; AMD results spark AI stock rally - Reuters",
+        "summary": "S&P 500 and Nasdaq hit records; AMD results spark AI stock rally\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3V5RlZkMXFBanpJNkJ0YVlKRkxYamlXOF9kbjl4RDJtZjctOTd2cHZucnI4ckdCbXZ3LUhCQjdnckU4SVZwVU9jeE54Zzk0dy03RGlBMFFLZVRreHdBemhuOFpnY2dIWVVCdTZva3JFWHViN2dlclF1TnYwSWZSMlp4RjFWZHZKa1cxanM2SG5xVHZzN0VxNG5sQUF0UENxbERpdGpKbXFzakVn?oc=5",
+        "published_at": "2026-05-06T18:30:42Z"
+      },
+      {
+        "headline": "One CMA CGM vessel hit in Strait of Hormuz, another exits Gulf - Reuters",
+        "summary": "One CMA CGM vessel hit in Strait of Hormuz, another exits Gulf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM2IwVlNkTldxSHk5VmRFYWtaVTdIOEJLeWU5RTJka1prZTBMbllzQWwyMVdwRU90eHhLeVNUZkdIZWZ6ZHdacnM5VUVMMzNLall0M2swb0RMWFAxZ2RGaWYxR3ZGTmdxSFhNODdWUzlXNlc4bTRNSWVCS0VCWk5hNDEydjhCeDEyMEVBWVZKcnB1UUpRa2pTMW5vVWo?oc=5",
+        "published_at": "2026-05-06T18:27:01Z"
+      },
+      {
+        "headline": "Macron says he discussed Hormuz situation with Iran's president - Reuters",
+        "summary": "Macron says he discussed Hormuz situation with Iran's president\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2ZXbHRMRWZueWlLM1k0ZVFBdk10bXFvckZ1eHd1aHF2ZHJCWVFQSGlXWnUxcmhza0ZOVjgtUnN4YXNSSlhsU2ZUVmppeW9JeE8ydXhKZnBpazZURjZQQnRFZm1CcEFvRk0yZmdUamZNUlpRREI4SzFXSVFKWkNCNkpWZnlib3RFcDhzMV9xZENuRlhFOXVYZkhtVjZ6VE1ZQ2RvMVFVU2t5M2JsdFN4eGd0aFlXcGs?oc=5",
+        "published_at": "2026-05-06T18:23:34Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 733.86,
+    "spy_change_pct": 1.3941,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Riedel Expands Leadership Structure, Appoints Marc Engroff as CFO; Frank Eischet Transitions to Group COO Role - Broadcast Beat",
+        "url": "https://ww...(+129 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:29:42.000Z",
+        "source": "broadcas...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Australian World Athletics Relays Team By The Numbers, a recipe for success | NSW Institute of Sport (NSWIS)",
+        "url": "https://ww...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:29:33.000Z",
+        "source": "nswis.co...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Applied Analytics, Vice President - Aladdin PAG at BlackRock",
+        "url": "https://ca...(+95 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:24:17.000Z",
+        "source": "triangle...(+24 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Princess in Roland Mouret Today & a Solo Trip to Italy Next Week",
+        "url": "https://wh...(+93 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:24:17.000Z",
+        "source": "whatkate...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Batangue\u00f1a tops PMA graduating class",
+        "url": "https://ne...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:23:32.000Z",
+        "source": "newsinfo...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "007 First Light: Everything We Learned From IO Interactive's Developer Livestream",
+        "url": "https://ww...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:23:31.000Z",
+        "source": "gfinitye...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The ajiaco of mambo: transnational pathways in the Mexico City mambo bands of D\u00e1maso P\u00e9rez Prado",
+        "url": "https://hd...(+23 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:22:49.000Z",
+        "source": "qspace.l...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google releases Android 17 QPR1 Beta 2 for Pixel",
+        "url": "https://9t...(+51 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:22:36.000Z",
+        "source": "9to5goog...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Supply Chain Execs Transforming Supply Chain",
+        "url": "https://ww...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:22:20.000Z",
+        "source": "mhlnews....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solod v0. 1: Go ergonomics, practical stdlib, native C interop",
+        "url": "https://an...(+20 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-06T21:22:14.000Z",
+        "source": "antonz.o...(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
