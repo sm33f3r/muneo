@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-07T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2737201515730.93,
+    "total_market_cap_change_24h_pct": -1.794,
+    "total_volume_24h_usd": 106402051614.75,
+    "btc_dominance_pct": 58.4168,
+    "eth_dominance_pct": 10.0974,
+    "total2_usd": 1138216890271.8,
+    "total3_usd": 861830327604.34,
+    "active_cryptocurrencies": 17421,
+    "altcoin_season_index": 39,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": 36.4795,
+        "price_usd": 0.579147,
+        "market_cap_usd": 271665023
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": 26.0242,
+        "price_usd": 0.189479,
+        "market_cap_usd": 158938042
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 19.099,
+        "price_usd": 0.987291,
+        "market_cap_usd": 717908395
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 12.9937,
+        "price_usd": 0.360869,
+        "market_cap_usd": 366047539
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 11.3534,
+        "price_usd": 0.04573013,
+        "market_cap_usd": 269261865
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -23.0894,
+        "price_usd": 0.570258,
+        "market_cap_usd": 568948689
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": -19.364,
+        "price_usd": 0.00033707,
+        "market_cap_usd": 142406852
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -19.0759,
+        "price_usd": 0.121772,
+        "market_cap_usd": 304429277
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": -14.1786,
+        "price_usd": 8.897e-05,
+        "market_cap_usd": 493513030
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": -9.1243,
+        "price_usd": 49.99,
+        "market_cap_usd": 633997224
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79899,
+    "price_change_24h_pct": -1.8624,
+    "price_change_7d_pct": 4.4907,
+    "market_cap_usd": 1599371753584,
+    "volume_24h_usd": 38854413783,
+    "direction": "bearish",
+    "oi_usd": 8297844808.22,
+    "funding_rate_latest": -3.014e-05,
+    "funding_rate_7d_avg": -2.872809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.74,
+    "long_account_pct": 42.53,
+    "short_account_pct": 57.47,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2292.47,
+    "price_change_24h_pct": -2.4671,
+    "price_change_7d_pct": 1.3818,
+    "market_cap_usd": 276498720732,
+    "volume_24h_usd": 21894283172,
+    "eth_btc_ratio": 0.028692,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85389694389.31,
+    "stablecoin_market_cap_usd": 321242435906.07,
+    "stablecoin_dominance_pct": 11.7362
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "Datadog stock soars 31% on blockbuster earnings as AI winners emerge in software",
+        "summary": "Datadog's results fueled shares of other cloud infrastructure names like Snowflake and MongoDB.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/ai-winners-software-datadog-stock.html",
+        "published_at": "2026-05-07T20:28:12Z"
+      },
+      {
+        "headline": "Exclusive: Oil-price bets ahead of Iran war news totalled $7 billion, reporting shows - Reuters",
+        "summary": "Exclusive: Oil-price bets ahead of Iran war news totalled $7 billion, reporting shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ1NvbTlocks5a09OV1ZQOWtGY1JrbVgxZmxJSjQ5VnBQVWVQWTNVNnFvb1d6ZGdOSXNqaXAyT3FTQlZGMDNrNWxpSFh4NV9WOWNDUDhEamtXZk15UUFtMEppd1JyS2tqOGN3ZWw0R3A0YTY5SUNYWGRWTk9JOGs4SUMyeUNyMmNrYjJYaFRLSEgwS0owYW1VdFZsZlBuSk14NFVMY2x0MVA5bkdNdE9GZTRNeVF2UlZPYTRjT0tFUHkwOFRYQnVmcVZkZkNDSFEtSzJRd09SWVIyVnVxWXc?oc=5",
+        "published_at": "2026-05-07T20:01:15Z"
+      },
+      {
+        "headline": "Iran still reviewing new U.S. peace proposal as Trump predicts war will 'be over quickly': Reports",
+        "summary": "Senior Iranian official Mohsen Rezaee reportedly said Tehran would not let the U.S. reopen the Strait of Hormuz with \"an unrealistic plan.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/trump-iran-war-peace-hormuz-strait.html",
+        "published_at": "2026-05-07T19:41:07Z"
+      },
+      {
+        "headline": "Iran's Fars news agency says sounds of explosions heard near Bandar Abbas city - Reuters",
+        "summary": "Iran's Fars news agency says sounds of explosions heard near Bandar Abbas city\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZFRlZXAzcjhrRklnR3MtZnV5YlF1T1hySm5MMVpMc2VKYU9maUVMNk5GaWxEM3VOYzZfaEx6d3NaOS1sODNadWZoSjlOcWpkREJMeXNicnVENUlXQklfa0ZpWDBEQ2tyTm5xS3JidEg0MUpyX1BUcldQSUpVUmdnUC1qMVR0Y3F1Y1JaTXZLUk1jVG5kQ0tCaHpDd2VBZUdKSHFTTkFqOWpyd21UWTZObGtKcC1TdTZGdktLZGhhTjlYb3ppYkNr?oc=5",
+        "published_at": "2026-05-07T18:54:11Z"
+      },
+      {
+        "headline": "Software stocks stage a comeback. Plus, why Boeing's CEO going to China matters",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/software-stocks-stage-a-comeback-plus-why-boeings-ceo-going-to-china-matters-.html",
+        "published_at": "2026-05-07T18:46:12Z"
+      },
+      {
+        "headline": "While many international brands retreat, McDonald\u2019s is supersizing its China business",
+        "summary": "McDonald's plans to have 10,000 locations in China by the end of 2028, and the country is its second largest market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/mcd-earnings-mcdonalds-expands-in-china.html",
+        "published_at": "2026-05-07T18:37:20Z"
+      },
+      {
+        "headline": "US targets Iraq oil official and militias with sanctions for aiding Iran - Reuters",
+        "summary": "US targets Iraq oil official and militias with sanctions for aiding Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdlktdk1TSHNxMnpibXJ6ZHR5OE5WMUNoSk5uQ1V1emRjZUppOThfM3J1YTNKMHBjMFNtcW9WREw4ZW5ELXRSUk5GRGpWZFZ5QlhHRFEwRE1PdjVKR3ZBdW02SzFrQ0ZtRV91X2NFZVpzX0JMZmVvV0s2bXZTeVFWNzlUMklCM0w0WnNKMUVlUEVrTVNqRWxtU1o3NElvNlJJeHR6VHZhRmZiRVJpaVB6bDVpV3FEZjBacmVj?oc=5",
+        "published_at": "2026-05-07T16:46:30Z"
+      },
+      {
+        "headline": "Arm CEO looks to set the record straight after the stock's post-earnings tumble",
+        "summary": "Arm chief Rene Haas said he was \"confident\" the company would be able to secure additional supply of its new CPUs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/arm-ceo-looks-to-set-record-straight-after-stocks-post-earnings-fall.html",
+        "published_at": "2026-05-07T16:44:30Z"
+      },
+      {
+        "headline": "Jim Cramer: This partnership could be a 'seismic shift' in AI and 2 of our stocks",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/07/jim-cramer-this-partnership-could-be-a-seismic-shift-in-ai-and-2-of-our-stocks.html",
+        "published_at": "2026-05-07T16:05:56Z"
+      },
+      {
+        "headline": "McDonald's warns rising costs due to Iran war will dent long-term demand - Reuters",
+        "summary": "McDonald's warns rising costs due to Iran war will dent long-term demand\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSmhXdS1FQVhnZjh3UUxFNVN6WDhJUmp2WGx3eXpZNjdmN2RseENpaVJJd2JtaVhQMmpEQl9FRDllTnlKbWRESXhJdzg2dDVSdTRUbk5Nd2lsX2k4T00xdEJDaW5KX1NVaWtmT3dpdjhPbmhSd2JaaHNJTlQ1clF2bHhMR2hGVkx1Yl9JYlRGWWtCTDdkaFJEdk5MX19ETnRNa3ptOXdvSnRBc1owQzVJRl9XSQ?oc=5",
+        "published_at": "2026-05-07T15:22:46Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.3926,
+    "dxy_lean": "neutral",
+    "spy_close": 731.57,
+    "spy_change_pct": -0.308,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 47,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "USC Rossier scholars reflect on AERA 2026",
+        "url": "https://to...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:28:56.000Z",
+        "source": "tfm.usc....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Daraxonrasib Delivers Landmark Survival Gains in Previously Treated Metastatic Pancreatic Cancer \u2013 Patient Worthy",
+        "url": "https://pa...(+124 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:26:42.000Z",
+        "source": "patientw...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.19
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aston Villa's road to Istanbul - the inside story",
+        "url": "https://ww...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:24:06.000Z",
+        "source": "birmingh...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "More than 30 roles on chopping block at Maritime NZ \u2013 PSA says \u2013 Evening Report",
+        "url": "https://ev...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:23:51.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Iran war has become a lesson in how power really works \u2013 Evening Report",
+        "url": "https://ev...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:23:33.000Z",
+        "source": "eveningr...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Partner with Kitware to Accelerate Medical Software Product Development",
+        "url": "https://ww...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:22:46.000Z",
+        "source": "mikedash...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fox Factory\u2019s Q1 Hampered by Tariffs, Inventory Destocking in IBD Channel | SGB Media Online",
+        "url": "https://sg...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:20:31.000Z",
+        "source": "colorado...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kyiv to Expand Its Outreach to National Minorities within Russia - Jamestown",
+        "url": "https://ja...(+77 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:20:30.000Z",
+        "source": "jamestow...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Georgian State Security Faces Rising Challenges - Jamestown",
+        "url": "https://ja...(+60 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:20:20.000Z",
+        "source": "jamestow...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Black Diamond Parent to Explore Sale | SGB Media Online",
+        "url": "https://sg...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-07T21:20:13.000Z",
+        "source": "colorado...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.05
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
