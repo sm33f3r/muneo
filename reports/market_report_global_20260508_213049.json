@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-08T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2758017695693.57,
+    "total_market_cap_change_24h_pct": 0.7635,
+    "total_volume_24h_usd": 98040310561.08,
+    "btc_dominance_pct": 58.236,
+    "eth_dominance_pct": 10.1036,
+    "total2_usd": 1151859306459.22,
+    "total3_usd": 873200407254.24,
+    "active_cryptocurrencies": 17423,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 33.2638,
+        "price_usd": 0.630253,
+        "market_cap_usd": 139888976
+      },
+      {
+        "symbol": "CHIP",
+        "name": "USD.AI",
+        "price_change_24h_pct": 29.0877,
+        "price_usd": 0.072254,
+        "market_cap_usd": 144677133
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 26.1647,
+        "price_usd": 0.057507,
+        "market_cap_usd": 338777509
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": 25.7297,
+        "price_usd": 0.439824,
+        "market_cap_usd": 2145662236
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 25.183,
+        "price_usd": 0.090228,
+        "market_cap_usd": 217582477
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -8.9365,
+        "price_usd": 0.182063,
+        "market_cap_usd": 332876333
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -6.8419,
+        "price_usd": 0.113817,
+        "market_cap_usd": 284307318
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -6.278,
+        "price_usd": 3.54,
+        "market_cap_usd": 4601932376
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": -5.6095,
+        "price_usd": 0.179751,
+        "market_cap_usd": 150636881
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -3.9158,
+        "price_usd": 0.082935,
+        "market_cap_usd": 708577825
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80181,
+    "price_change_24h_pct": 0.3526,
+    "price_change_7d_pct": 2.241,
+    "market_cap_usd": 1605611104462,
+    "volume_24h_usd": 35510894982,
+    "direction": "neutral",
+    "oi_usd": 8088943441.46,
+    "funding_rate_latest": -1.542e-05,
+    "funding_rate_7d_avg": -2.7696666666666665e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.78,
+    "long_account_pct": 43.82,
+    "short_account_pct": 56.18,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2309.81,
+    "price_change_24h_pct": 0.7417,
+    "price_change_7d_pct": 0.1711,
+    "market_cap_usd": 278650573222,
+    "volume_24h_usd": 19414776352,
+    "eth_btc_ratio": 0.028807,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85514517687.48,
+    "stablecoin_market_cap_usd": 319691962730.9,
+    "stablecoin_dominance_pct": 11.5914
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Dunkin' owner Inspire Brands confidentially files for IPO",
+        "summary": "The restaurant company owns Dunkin', Arby's, Buffalo Wild Wings, Baskin Robbins, Sonic Drive-In and Jimmy John's.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/08/dunkin-owner-inspire-brands-confidentially-files-for-ipo.html",
+        "published_at": "2026-05-08T19:52:42Z"
+      },
+      {
+        "headline": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags",
+        "summary": "Intel, AMD and Micron surged double digits this week as investors bet on CPU makers and memory companies powering the next stage of AI",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
+        "published_at": "2026-05-08T19:23:01Z"
+      },
+      {
+        "headline": "What an Apple deal to buy Intel chips would mean for the iPhone maker",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/08/what-an-apple-deal-to-buy-intel-chips-would-mean-for-the-iphone-maker.html",
+        "published_at": "2026-05-08T18:47:37Z"
+      },
+      {
+        "headline": "Wall St Week Ahead: Data, Iran, US-China meeting in focus for scorching US stock market - Reuters",
+        "summary": "Wall St Week Ahead: Data, Iran, US-China meeting in focus for scorching US stock market\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVm1NRGVCTU9VOWx2YmpPRV91WVVQeHh5WGhFeDdfTVVodi1QdUgzUVNScHlCRVY2c1ZkbVZHQlFlVHREWG91c1YxMkhkSTNfcXBtazZfQ3NReloycDJMYUlKWFRMMTd4dXJnTWtjQ3RCTXJmbmNab21xQjgwd2h1TDZkeU1zNzMyVkdxSU9vcTRzUnd5bnVqZG9tb2lrSXpsSG1CUS1WekZJcVNMODFGRlA0RWx2MEVvXzV4UkpXMENmT1U?oc=5",
+        "published_at": "2026-05-08T18:38:35Z"
+      },
+      {
+        "headline": "Stock pullbacks can be an opportunity to make your money back and then some. Here's how",
+        "summary": "Following its Q1 2026 earnings release, Fluor is pulling back by 15%.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/08/stock-pullbacks-can-be-an-opportunity-to-make-your-money-back-and-then-some-heres-how.html",
+        "published_at": "2026-05-08T17:18:55Z"
+      },
+      {
+        "headline": "Rubio questions allies' support on Iran following Italy talks - Reuters",
+        "summary": "Rubio questions allies' support on Iran following Italy talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY0hJakNXX2htd0RtTDNZbW5icEZRTkN0RVBjdlRZbDh3TUhhaTdOMFo4UE9JQlRQY24xZzI2TUVjVUpQeGVBYXhjYnZQNE5DSlhCXzd0aWFNVVdxWlM3WVhSYUdXQ0M2MkV6ZjAwSkpSWEhIMHpiU29TZzdBb2lRMDRUZ0hCWnFiQnp5OXNmWmVUbjctU0E?oc=5",
+        "published_at": "2026-05-08T17:15:19Z"
+      },
+      {
+        "headline": "US expects Iranian response to peace proposal on Friday, fighting flares in Gulf - Reuters",
+        "summary": "US expects Iranian response to peace proposal on Friday, fighting flares in Gulf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaG9nWFIyNS0xRHQ0VDZFdnNHQTZtMjQtbzhOUS1HWjg0MG9CLXBBb0Y0WjNFVGppR2hUWjllMllXSjNJMGdfUEluSklFNktiR1FQM1VRVnlDa1JVUmZsSFpZRDJBNGdOZzk1clRKc3NIZGpOX0VQMTlha1R3TVUtS0daUGQyRUNHVEtqa2txSFlmVEtqT0wtaW5qRGpxeFRxWnhxWlZkcTVOYnlsR2UwNHBvVmJTRXZKM1k0UWlFLVRTR2xCdUE?oc=5",
+        "published_at": "2026-05-08T17:06:32Z"
+      },
+      {
+        "headline": "Jim Cramer says this struggling stock could remain under pressure in AI-driven market",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/08/cramer-this-struggling-stock-may-remain-challenged-in-ai-driven-market.html",
+        "published_at": "2026-05-08T15:55:12Z"
+      },
+      {
+        "headline": "US forces strike two empty Iranian oil tankers, Central Command says - Reuters",
+        "summary": "US forces strike two empty Iranian oil tankers, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMm9uUVVaam9aUzBNT2x5d1R2MGJSN2dZVllZOFBzd0llQWNOdDk4N2d6aDRRRVV2dDh2dm1WOFc4NVpUSktMaEotSGNnYlhqajZHZDltXzBwUF9lTjFUUUtJNy1XSnpqdjlvd0RCS2RNQkJMbW1LVS1LcXAwd0wtY0xQWEZwU3llUTE4NDVYTUtQV3BWY1prOWtPbzB5VUUzSUIxZ1R1ZkVYNG9GS1U1d3NxUXBrVm1nNmVQTm1R?oc=5",
+        "published_at": "2026-05-08T14:46:16Z"
+      },
+      {
+        "headline": "Iran seizes oil tanker Ocean Koi in Gulf of Oman, state media says - Reuters",
+        "summary": "Iran seizes oil tanker Ocean Koi in Gulf of Oman, state media says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY055dVIwM0R5QmY0VFNaTlZnNGF1cVdvR3FRUkE1Yk5jdDR0MHM2ZG9qTWpQaWYtNkZsTUtWSV9JR2pLeDlUUUh1MnNRNDRlb1ZvcGg3MDNUYkc0MThaQ25LdGNnczA3UVItcnRicXBmMWpEa0ZhVkw2QWVLWVpmSThzMFl6Nk1JWE1ESVJlMWFIenFvakdCVmpJWGFHcmZVdmFPVHhvMnVIeXBadmNOQ3pPVQ?oc=5",
+        "published_at": "2026-05-08T14:03:05Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.3926,
+    "dxy_lean": "neutral",
+    "spy_close": 737.53,
+    "spy_change_pct": 0.8133,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 48,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 5,
+    "negative_count": 1,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.5,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "\u201cRock Music,\u201d Anti-Poptimism, and Neoreactionary Masculine Resilience",
+        "url": "https://ww...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:27:05.000Z",
+        "source": "coldteac...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Josiah Queen Declares Bold Faith on Fiery New Anthem \u201cmake heaven crowded\u201d",
+        "url": "https://ww...(+118 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:26:41.000Z",
+        "source": "hallels....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.21
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Older Men Date Younger Women: An Evolutionary Lens on Modern Romance",
+        "url": "https://ww...(+125 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:26:15.000Z",
+        "source": "smobserv...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "My Insurance Won\u2019t Cover GLP-1 Drugs. What Now?",
+        "url": "https://ww...(+91 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:25:55.000Z",
+        "source": "bow-inte...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "WSG welcomes new Science Communications Fellow Emily Bjornsgard",
+        "url": "https://ws...(+47 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:25:45.000Z",
+        "source": "wsg.wash...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Shorting BTC to hedge the stock market, part 2 , Free hedging with STRC \u2013 Grey Enlightenment",
+        "url": "https://gr...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:25:22.000Z",
+        "source": "greyenli...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NYC Renaming Street After Iconic Artist Jack Kirby",
+        "url": "https://ma...(+25 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:25:19.000Z",
+        "source": "marvelou...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "iN THE RECORD: Boultbee accuses Kelowna MLA of unfairly targeting women",
+        "url": "https://in...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:24:39.000Z",
+        "source": "socure.c...(+2 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fondant Potatoes Recipe: Buttery, Crispy French Style Potatoes",
+        "url": "https://ww...(+50 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:24:19.000Z",
+        "source": "notquite...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EVE Online Studio Rebrands and Partners with Google DeepMind AI - Archynewsy",
+        "url": "https://ww...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-08T21:23:48.000Z",
+        "source": "archynew...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
