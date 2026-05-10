@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-10T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2779528984724.01,
+    "total_market_cap_change_24h_pct": 0.103,
+    "total_volume_24h_usd": 76721724118.12,
+    "btc_dominance_pct": 58.1864,
+    "eth_dominance_pct": 10.123,
+    "total2_usd": 1162222514252.21,
+    "total3_usd": 880850836742.3,
+    "active_cryptocurrencies": 17428,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "price_change_24h_pct": 24.6172,
+        "price_usd": 1.33,
+        "market_cap_usd": 5342128689
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 17.2764,
+        "price_usd": 0.455929,
+        "market_cap_usd": 455697311
+      },
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": 12.5948,
+        "price_usd": 8.51e-06,
+        "market_cap_usd": 169765380
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 12.0589,
+        "price_usd": 0.130281,
+        "market_cap_usd": 325711195
+      },
+      {
+        "symbol": "SEI",
+        "name": "Sei",
+        "price_change_24h_pct": 8.3634,
+        "price_usd": 0.074868,
+        "market_cap_usd": 503445910
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -13.3725,
+        "price_usd": 0.539995,
+        "market_cap_usd": 536940170
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": -11.4728,
+        "price_usd": 0.705233,
+        "market_cap_usd": 174767784
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": -10.5409,
+        "price_usd": 1.44e-06,
+        "market_cap_usd": 301807425
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -10.4271,
+        "price_usd": 1.14,
+        "market_cap_usd": 831790352
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -7.7575,
+        "price_usd": 1.12,
+        "market_cap_usd": 875873459
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80769,
+    "price_change_24h_pct": -0.0221,
+    "price_change_7d_pct": 2.3911,
+    "market_cap_usd": 1617445211002,
+    "volume_24h_usd": 22461196299,
+    "direction": "neutral",
+    "oi_usd": 7940473970.56,
+    "funding_rate_latest": 5.764e-05,
+    "funding_rate_7d_avg": -1.862809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.6734,
+    "long_account_pct": 40.24,
+    "short_account_pct": 59.76,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2332.09,
+    "price_change_24h_pct": 0.0996,
+    "price_change_7d_pct": 0.132,
+    "market_cap_usd": 281451859411,
+    "volume_24h_usd": 15369566771,
+    "eth_btc_ratio": 0.028874,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86925270454.87,
+    "stablecoin_market_cap_usd": 320609014077.44,
+    "stablecoin_dominance_pct": 11.5347
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "It's not too late to start buying the data center winners. Here's why",
+        "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer pushes back on the idea that it's too late to start buying AI winners.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/10/jim-cramer-why-its-not-too-late-to-start-buying-red-hot-ai-stocks.html",
+        "published_at": "2026-05-10T17:15:20Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+        "summary": "Qnity Electronics reports earnings, and April inflation data is due out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/10/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-05-10T15:46:51Z"
+      },
+      {
+        "headline": "At 103 years old, I\u2019m the \u2018world\u2019s oldest doctor\u2019: My 3 rules for a long, happy life are so simple\u2014I tell it to 'all my patients'",
+        "summary": "Dr. Howard Tucker left behind an impressive legacy. At 103, he was named the oldest doctor in the world \u2014 and quite possibly the happiest. Shortly before passing away, he shared his rules for living a long, happy and healthy life. They're very simple, he says.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/10/at-103-years-old-im-the-worlds-oldest-doctor-my-3-rules-for-a-long-happy-life-are-simple.html",
+        "published_at": "2026-05-10T13:34:45Z"
+      },
+      {
+        "headline": "Iran sends its response to US proposal aimed at ending the war, IRNA says - Reuters",
+        "summary": "Iran sends its response to US proposal aimed at ending the war, IRNA says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRTVYY01aTFVfdnI2Z0pyRWhRcGI4X3dlTlJLX2RzaWdTZnZMRkFHRjNTb3FCR25IZW1SNE83al92N1VRR2E1UXpES3djcF9SS2N3VHdib3dqcWRGOXZzVkN5R0JLTVNRb3hCcFhvUFVSTmlweFZsVTZNVmlJNTJTRExmVm00Zlk2T2RDZ0lEeW1KaWlWLVNfTGZVZUM5Wk9uNS0yZDhBTTJ0QUJ5Qk5uOC1DRklTYUFa?oc=5",
+        "published_at": "2026-05-10T13:13:43Z"
+      },
+      {
+        "headline": "With Netflix new ad-free standard plan at $20, streaming's tipping point into old TV is getting closer",
+        "summary": "The economics of streaming are nearing the point where cheaper plans with ads make as much if not more money for services like Netflix.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/10/netflix-20-dollar-streaming-plan-price.html",
+        "published_at": "2026-05-10T13:00:01Z"
+      },
+      {
+        "headline": "UAE says air defences dealt with two drones coming from Iran - Reuters",
+        "summary": "UAE says air defences dealt with two drones coming from Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3h3em5fQjl1ZHFCMTFqdUNZT1FaeWV4X25HcGZXVWczWVpGSzVaWUxlM0hVUXJ2LTNJVTJZUWVpLXVNVlY4ZjRLTl9reXdBZk9HRWtQRE84NnI2b0lXQmZ0YWFmbndzRlNVQmNDVlI3OWtjX19hbjQtWnBITlM3SlJqelhsUHNUVnprVE5Bd3YybkhvMjhkWlEzdmpKa2dCNzFvRHdRSG52QV9ZRlE?oc=5",
+        "published_at": "2026-05-10T12:19:32Z"
+      },
+      {
+        "headline": "Iran denies reports of oil leak near Kharg Island export hub - Reuters",
+        "summary": "Iran denies reports of oil leak near Kharg Island export hub\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY1pvNHpjRnNkcVQtQ2JIYlZfbFR1ckZUMWV4UmYtN2wyWmRORERhSUF6VllWTFp3QmtiVTYwQmxfUDNOcjFBdTZqY2pfWmZXVWZpUjA0ZzhMQUhWY1A5Z2tMOTVJUFZwMWJfVzFJRzdjdzllTjJONmxLdDdvRzhsMFNtUnRNYmhpcGtwT2pVSGRPV3BpOXV2SGE2S2xPTHFKNlBJemdCczUxNDFNZ0E?oc=5",
+        "published_at": "2026-05-10T12:19:24Z"
+      },
+      {
+        "headline": "Kuwait's army says it has intercepted hostile drones over airspace - Reuters",
+        "summary": "Kuwait's army says it has intercepted hostile drones over airspace\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHk3NjJ3T0IxUHJ6bm1lVzFocEowZUxiX3UwTGZpbDJVZWJRV2owMXFLeDUzdHg2aXQxczZMOG1WVlU5QjZ2QlFoazZOU18xdHBKNW1WZkRoUG1qeXdGTFktLVRMcERscjVsZW8zdllzWXRPSGRaVzYtSjJYQ0lrd0JzX1NUV0lpcGk0SEJRUG5KTC1LdzBBaGVJZkZVWGN4N2MxU0pzdw?oc=5",
+        "published_at": "2026-05-10T11:41:53Z"
+      },
+      {
+        "headline": "Iran's Supreme Leader briefs military chief on 'new guiding measures', Fars agency says - Reuters",
+        "summary": "Iran's Supreme Leader briefs military chief on 'new guiding measures', Fars agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWlHeDZWa2hYMWN4b29IUEx4dXlqbEZHc0tCZ2JmcWVKMl9nVTU4N0JKVXg2MklOZ0ZIYndIMkNIU2gzSGpPbVJMRHFqdVE0cG9IX0tlclpnNnFhX2RFa0FxR1o3QWJYX1o4SjdKNFdNT0hmMWJ5Q1JiMnhoUlBTUnh1bC1JcDVmSUhOVU5mOU9FRHhRUW42SVVuc0NoX1RlczYtT2FOU3BIaWRZYU4zcUdtSVRmZ2JDN1lIb1JjM3kxdHlYQnMyazA0ODFKZEE?oc=5",
+        "published_at": "2026-05-10T10:33:59Z"
+      },
+      {
+        "headline": "Qatar says cargo vessel coming from Abu Dhabi attacked in its waters - Reuters",
+        "summary": "Qatar says cargo vessel coming from Abu Dhabi attacked in its waters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSE96bUZWYWdjX3dMWjhTdkY5eWEwOXI1eElSalVKUnFCNmRYVUdBUkY4d2NPd3huN3VndUoyMWFzZDdBMXU5S0l3SjhoYVNBYkMyWUw2Tkd3WEtyWk44czQ3c2YweHBfRnI2UFc3dkFhS0U2bnVXeFJaNFcxcC1kZFB3WGphYWdBSkpxSldNaEhZUVdaU2lZN2RrUjhkSUtYWFFpUDF6UmJUSEhicnJjSXdUT2g?oc=5",
+        "published_at": "2026-05-10T05:24:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.3926,
+    "dxy_lean": "neutral",
+    "spy_close": 737.62,
+    "spy_change_pct": 0.8256,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 7,
+    "negative_count": 0,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.7,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Aduku Confident Falconets Will Have Easier Task Against Malawi",
+        "url": "https://ni...(+81 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:28:33.000Z",
+        "source": "nigerias...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OPCW releases landmark report on AI and the Chemical Weapons Convention",
+        "url": "https://ww...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:28:22.000Z",
+        "source": "opcw.org...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NNL Super Four: Matchday Two Fixtures Set for Decisive Showdowns",
+        "url": "https://ni...(+82 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:28:12.000Z",
+        "source": "nigerias...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.22
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Media, Feed Platforms to Maximize CHOZN\u00ae Elite Performance",
+        "url": "https://ww...(+116 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:26:24.000Z",
+        "source": "bioproce...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bispecific Antibody Purification: Strategies for Managing Complex Impurity Profiles",
+        "url": "https://bp...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:26:20.000Z",
+        "source": "bioproce...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Driving High-Density CHO-K1 Production and Reliable Scale-Up",
+        "url": "https://ww...(+135 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:26:18.000Z",
+        "source": "bioproce...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USDCAD runs up to key resistance target and finds willing sellers | investingLive",
+        "url": "https://in...(+110 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:26:17.000Z",
+        "source": "forexliv...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AUDUSD bounces off support keeps the buyers in firm control | investingLive",
+        "url": "https://in...(+104 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:26:15.000Z",
+        "source": "forexliv...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Architectural Affordances_2023 \u2013 lablog",
+        "url": "https://ww...(+53 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:25:19.000Z",
+        "source": "lablog.o...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018We didn\u2019t allow over 10. 5 lakh listings due to overpricing concerns\u2019",
+        "url": "https://ww...(+109 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-10T21:24:10.000Z",
+        "source": "newindia...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.05
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 1,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
