@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-11T21:05:03 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 97.65,
+    "price_change_24h_pct": 3.3593,
+    "price_change_7d_pct": 16.1582,
+    "volume_24h_usd": 4817485169,
+    "market_cap_usd": 56412998923,
+    "volume_to_mcap_ratio": 0.085397,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -66.7089,
+    "cex_price_usd": 97.63,
+    "cex_24h_high": 98.41,
+    "cex_24h_low": 94.3,
+    "cex_dex_spread_pct": -0.020481,
+    "volume_on_up_days_usd": 3913403016.9855833,
+    "volume_on_down_days_usd": 2983030209.1311245,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 50.8279,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -6.744249,
+      "signal_line": -10.074878,
+      "histogram": 3.330629
+    },
+    "macd_lean": "bullish",
+    "sma_50": 112.9796,
+    "price_vs_sma50_pct": -13.5685,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 94.66821,
+      "mid": 85.7245,
+      "lower": 76.78079,
+      "width_pct": 20.8662,
+      "position": 1.1018
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 1165095249.44,
+    "oi_lean": null,
+    "funding_rate_latest": 6.498e-05,
+    "funding_rate_7d_avg": 5.248714285714286e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.6163,
+    "btc_long_account_pct": 38.13,
+    "btc_short_account_pct": 61.87,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5926867469.0,
+    "tvl_7d_change_pct": 8.7103,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 6352926.0,
+    "chain_fees_7d_avg_usd": 7502960.57,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 0,
+    "negative_count": 1,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "0x acquires Flood. bid to optimize trade execution on Solana and Ethereum",
+        "url": "https://we...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:53.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Rumpel Engineering Team Joins 0x",
+        "url": "https://we...(+42 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:52.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Efficient trading infrastructure for tokenized equities",
+        "url": "https://we...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:51.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "PropAMM Shenanigans",
+        "url": "https://we...(+46 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:49.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "0x 101: Introduction to Monad",
+        "url": "https://we...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:47.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "2025 Revisited: Ship and Scale",
+        "url": "https://we...(+41 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:25.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "App spotlight: DEXTools",
+        "url": "https://we...(+58 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:19.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "App spotlight: Zerion",
+        "url": "https://we...(+56 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:26:18.000Z",
+        "source": "blog.0x....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Huma Finance legacy V1 contract on Polygon exploited for $101,400 USDC",
+        "url": "https://cr...(+79 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T20:00:00.000Z",
+        "source": "cancerac...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana as Global Payment Rail: Why Stablecoin Infrastructure Is Moving On-Chain \u2013 Syracuse New Times",
+        "url": "https://sy...(+98 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-11T19:38:14.000Z",
+        "source": "syracuse...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 81819.0,
+    "btc_24h_change_pct": 1.1746,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 60.1707,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2723385919968.6904,
+    "eth_btc_ratio": 0.028583,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.26,
+    "spy_change_pct": 0.2223,
+    "spy_lean": "neutral",
+    "vix_close": 17.19,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 52,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 77.63,
+    "cg_sentiment_votes_down_pct": 22.37,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
