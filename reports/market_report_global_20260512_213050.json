@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-12T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2771201673017.09,
+    "total_market_cap_change_24h_pct": -1.3817,
+    "total_volume_24h_usd": 91380381184.57,
+    "btc_dominance_pct": 58.2998,
+    "eth_dominance_pct": 9.9504,
+    "total2_usd": 1155596411105.95,
+    "total3_usd": 879849554865.5,
+    "active_cryptocurrencies": 17408,
+    "altcoin_season_index": 84,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 30.9615,
+        "price_usd": 0.187338,
+        "market_cap_usd": 454685527
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": 28.6712,
+        "price_usd": 0.00285864,
+        "market_cap_usd": 271860656
+      },
+      {
+        "symbol": "SAHARA",
+        "name": "Sahara AI",
+        "price_change_24h_pct": 21.2862,
+        "price_usd": 0.04427389,
+        "market_cap_usd": 144867527
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 19.5035,
+        "price_usd": 0.166292,
+        "market_cap_usd": 415865647
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 17.2884,
+        "price_usd": 0.933972,
+        "market_cap_usd": 213495534
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -13.0784,
+        "price_usd": 0.01054838,
+        "market_cap_usd": 558227723
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -10.6461,
+        "price_usd": 0.232607,
+        "market_cap_usd": 232575786
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -9.5261,
+        "price_usd": 0.929158,
+        "market_cap_usd": 232521785
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": -9.0396,
+        "price_usd": 9.272e-05,
+        "market_cap_usd": 513584566
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": -8.7807,
+        "price_usd": 0.392284,
+        "market_cap_usd": 1906909843
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80623,
+    "price_change_24h_pct": -1.1782,
+    "price_change_7d_pct": -1.2094,
+    "market_cap_usd": 1614719079359,
+    "volume_24h_usd": 32258365199,
+    "direction": "bearish",
+    "oi_usd": 8535179613.74,
+    "funding_rate_latest": 5.822e-05,
+    "funding_rate_7d_avg": -2.060476190476191e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.7507,
+    "long_account_pct": 42.88,
+    "short_account_pct": 57.12,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2285.56,
+    "price_change_24h_pct": -2.1925,
+    "price_change_7d_pct": -3.6611,
+    "market_cap_usd": 275864257400,
+    "volume_24h_usd": 14512256759,
+    "eth_btc_ratio": 0.028349,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86327817468.6,
+    "stablecoin_market_cap_usd": 320863852401.79,
+    "stablecoin_dominance_pct": 11.5785
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Iran could enrich uranium to weapons grade if attacked, lawmaker warns - Reuters",
+        "summary": "Iran could enrich uranium to weapons grade if attacked, lawmaker warns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHgxWndxenFOTWNkNGptZ2ZMUThMREN5YXpDV1kyNEt3cTRkb2hHQjRldjFUZXNJLXFUZXdmOEdTWThDNEk1cUhfTVhBZkhiZzhoUS12dzBoZTE3QlhnbmtmbkRHME03bnpwTFJSUWJVemQzS1ZnMVJrRl93dV9zZ2h6dm85Y0hsNnhEZDNpazlvZVRBT2lLallzSzZvWlI5MnRzUEttWEVKb2tEUXpZTzlEVkNHOUdiWi1uZg?oc=5",
+        "published_at": "2026-05-12T20:28:06Z"
+      },
+      {
+        "headline": "Auto-state lawmakers seek to keep Chinese EV parts out of U.S. as Trump heads to Beijing",
+        "summary": "Michigan lawmakers introduced a bipartisan bill to ban Chinese-connected vehicles and technology from the U.S. market over security concerns.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/12/trump-congress-china-evs-byd.html",
+        "published_at": "2026-05-12T20:11:56Z"
+      },
+      {
+        "headline": "China's US ethane imports hit record as Iran war cut rival feedstock supply - Reuters",
+        "summary": "China's US ethane imports hit record as Iran war cut rival feedstock supply\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTGhJNG9rcWFYRENfeDFkVXA4a2VaeDNMbjc4SDF5Uy1uMHpmLUxwMjI3Vk5fRExlU0Q1WkdmREtiTWZuLTU2UmN5bkVsNW8zNWNtQ3g1eHNsZ2NleXMtakpDUG4wbGZibmhQTFl3ckw4WGE0VXUyUlJ1enVPd3BTSjlXRE1sTUhPZGJsZmxfQlpFSWg1dWNOZ2I0Z09zanl4T09HemVtdUY5TUdWbVpxRU01ZEt3WjhvR3E0bVZ3c0g?oc=5",
+        "published_at": "2026-05-12T20:08:40Z"
+      },
+      {
+        "headline": "US war in Iran has cost $29 billion so far, Pentagon says - Reuters",
+        "summary": "US war in Iran has cost $29 billion so far, Pentagon says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2EtR0tSX2d2UjN4SmlxWnVKRzllTkFjdHRiV3B4VDVOQ3U0WmN5ZHpodk8yS05SR0cxWW5idjhFd2drVk1STENFaENRZk5LRmhZdmxwX2RaRlUzMDd2NHFtRkVSM3hsQi1lNzlGbDRqeXBjX1JCalZDa2ZnczBIODFwRHZNcHZfX2FsTnBaZkYtZ28wRVVpRjhGM2V5bTNB?oc=5",
+        "published_at": "2026-05-12T20:06:09Z"
+      },
+      {
+        "headline": "Trump says he doesn't need Xi's help on Iran - Reuters",
+        "summary": "Trump says he doesn't need Xi's help on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM3BOVTNEenFfNTh0QnRxV0VKSUZObVc2RVZnVGd2N0MzV05OWnEzQW9RcVZvMWpXeEtKQU5ZZk01bVJ3T0RwcGVkeE1ZVE5lZ3pwRmpsZ2RrZGo1ckFwcDBKdzF5V2o0RGRBM0wyOFRHNG1RYkhONHVUOHhiTmM2Sm9hNEpRTXpvcENvS0I3MlU?oc=5",
+        "published_at": "2026-05-12T19:28:40Z"
+      },
+      {
+        "headline": "US consumer inflation expected to have increased further in April amid Iran war - Reuters",
+        "summary": "US consumer inflation expected to have increased further in April amid Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazJLUlB0MFZIdGRtOTJtcXZEVTJfOEFqcDVUWWJBSjdudTZCLXNZSGNRWFFRU1pFZlYxUTc2SXpJOXEzMHpYX2syMUZJYTZ2S1hIUDBIdkluaDhna0RfQldJWWFRYVg5UVN6MjNfUXRkXzhOQ25UQ2JBeFpkTF9TUDAtMklZT1lnWFhtLW9CMmxCSjR1UXFPOENKU3R2VkJHM2dReGtnQ1ZjLTkxX2RncV9HcmhxMnI2Q0E?oc=5",
+        "published_at": "2026-05-12T19:27:30Z"
+      },
+      {
+        "headline": "Here's what the latest pickup in Boeing deliveries means for investors",
+        "summary": "New data offers a promising sign for the metric Wall Street cares most about for a Boeing turnaround.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/12/heres-what-the-latest-pickup-in-boeing-deliveries-means-for-investors-.html",
+        "published_at": "2026-05-12T19:17:53Z"
+      },
+      {
+        "headline": "China and US agree on opposing Hormuz tolls, State Department says - Reuters",
+        "summary": "China and US agree on opposing Hormuz tolls, State Department says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPazFmY0d5dHM4NVdkYW56UzFGd1lBUFVrVXQ5Rkx0NlJ4LWlHYkxISFYyRUNwcFBTTVBWamJyTjRoV1U4ZDJlS09MOC11dHdwQmxuSVdBSzBDbjlFeWY4Rk1lMEpGVXpRSDNvbnFTaDFnY0JGYUJyYkt0dkRKaG1jd1hJZTJhT01SLXNGRVJDWGl1WllXMjJ5djVZOGloNUNla1hnUEl4MjAzQQ?oc=5",
+        "published_at": "2026-05-12T18:57:45Z"
+      },
+      {
+        "headline": "Exclusive: Saudi Arabia launched covert attacks on Iran as regional war widened, sources say - Reuters",
+        "summary": "Exclusive: Saudi Arabia launched covert attacks on Iran as regional war widened, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDVqZjdxVDZDeDdnNjd1RndvV0NwNTF4U1Y2cFpVRFMyMzI2WG9mQVFUTnM4YlI3NmVRcGozODRLUUhGbU5wVURWU2dBa0hvNFBxQUc5T0hOUmJENHNBWDg0ZTR2ZWZham5IYVJOY3djZmJia0J6cFg5OWV3ZzluenhIRkVXeW1HRWhYREh0Q181NG1Ncl9aV3FPZU8yQVVTT1VTblpjVjE4bW94bWhVWXpWblpMTDdGeEJVZkxzaW1ZRFU?oc=5",
+        "published_at": "2026-05-12T18:40:20Z"
+      },
+      {
+        "headline": "Wall Street slips as inflation, Iran tensions weigh - Reuters",
+        "summary": "Wall Street slips as inflation, Iran tensions weigh\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeDRSdFhfX2dwTkYzSGtmMkZZSzY3enF2bjVVdEhkdm9DbnBIZVJ3V3ZhM1g1VzQwc1E1NGRxa2ZFMkphR01EYTJjLWhPcFFSZWhkT21Qa1VIckpYOUtoN1NudTdvMXVENUs5SzhlUkV0dkZRcElYcEdjLUR5ODJ6b3p1Rzc4Uk5RZU5RSElxLTlUWS1BazZHUEowUzd5TUFwVFJj?oc=5",
+        "published_at": "2026-05-12T18:38:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 738.17,
+    "spy_change_pct": -0.1528,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 0,
+    "negative_count": 3,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Driver Vanishes After Deadly Louisiana Crash",
+        "url": "https://10...(+55 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:59:58.000Z",
+        "source": "outandab...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.47
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Shooting Incident In Krotz Springs Leads To Arrest",
+        "url": "https://10...(+53 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:59:56.000Z",
+        "source": "outandab...(+17 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "The Swipe Is Dying. What Comes Next May Be Worse.",
+        "url": "https://ww...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:12.000Z",
+        "source": "kosmonau...(+19 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.27
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump urges Congress to pass bill to prevent corporations from scooping up single-family homes",
+        "url": "https://no...(+115 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:01.000Z",
+        "source": "notthebe...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ingredients from Alex's Studies",
+        "url": "https://ww...(+60 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:01.000Z",
+        "source": "inkandsw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "03 \u00b7 Fine-grained provenance",
+        "url": "https://ww...(+40 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:01.000Z",
+        "source": "inkandsw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "00 \u00b7 Keyhive Background",
+        "url": "https://ww...(+39 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:00.000Z",
+        "source": "inkandsw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pixelpusher: Real-time peer-to-peer collaboration with React",
+        "url": "https://ww...(+31 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:58:00.000Z",
+        "source": "inkandsw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "B. C. nurses vote for strike, as union boss raises prospect of dispute amid World Cup",
+        "url": "https://ww...(+119 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:57:59.000Z",
+        "source": "sootoday...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Upwelling: Combining real-time collaboration with version control for writers.",
+        "url": "https://ww...(+29 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-12T20:57:59.000Z",
+        "source": "inkandsw...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 500",
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
