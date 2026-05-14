@@ -1,0 +1,262 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-14T21:05:01 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 92.69,
+    "price_change_24h_pct": 1.6742,
+    "price_change_7d_pct": 4.7831,
+    "volume_24h_usd": 3369871061,
+    "market_cap_usd": 53598374554,
+    "volume_to_mcap_ratio": 0.062873,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -68.3971,
+    "cex_price_usd": 92.7,
+    "cex_24h_high": 93.68,
+    "cex_24h_low": 89.82,
+    "cex_dex_spread_pct": 0.010789,
+    "volume_on_up_days_usd": 3624305980.6163683,
+    "volume_on_down_days_usd": 3022029367.7957177,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 50.8279,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -6.744249,
+      "signal_line": -10.074878,
+      "histogram": 3.330629
+    },
+    "macd_lean": "bullish",
+    "sma_50": 112.9796,
+    "price_vs_sma50_pct": -17.9586,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 94.66821,
+      "mid": 85.7245,
+      "lower": 76.78079,
+      "width_pct": 20.8662,
+      "position": 1.1018
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 942147554.13,
+    "oi_lean": null,
+    "funding_rate_latest": -5.361e-05,
+    "funding_rate_7d_avg": 1.3030952380952382e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.6192,
+    "btc_long_account_pct": 38.24,
+    "btc_short_account_pct": 61.76,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 6142632542.0,
+    "tvl_7d_change_pct": 10.0229,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": null,
+    "chain_fees_7d_avg_usd": null,
+    "chain_fees_lean": null
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 6,
+    "negative_count": 1,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.6,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Volume Shows Big Players Are Reloading On Solana As They Push For 4-Month Highs",
+        "url": "https://bi...(+45 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T19:30:57.000Z",
+        "source": "bitcoini...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CME Launches Crypto Index Futures Featuring XRP & Bitcoin",
+        "url": "https://bi...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T17:54:40.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken Custody expands SPL token support for Solana builders and institutions",
+        "url": "https://bl...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T17:01:49.000Z",
+        "source": "pythnetw...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CME expands beyond Bitcoin with first market-cap-weighted crypto futures - AMBCrypto",
+        "url": "https://am...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:55:47.000Z",
+        "source": "ambcrypt...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Azure Was Running a Ripple Validator Years Ago \u2014 Inside the Quiet Blockchain Infrastructure Play",
+        "url": "https://co...(+122 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:53:14.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana\u2019s Speed Advantage: Why It Matters (And How to Actually Achieve It) - KickassFacts",
+        "url": "https://ww...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:48:02.000Z",
+        "source": "kickassf...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canadian crypto pioneer takes stake in Polymarket",
+        "url": "https://th...(+78 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:41:43.000Z",
+        "source": "themarke...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Not all dollar stablecoins carry the same risk",
+        "url": "https://cr...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:08:27.000Z",
+        "source": "crystalb...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid Withdraw Guide Secure Fast Transactions - Iran Times",
+        "url": "https://ir...(+65 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:05:36.000Z",
+        "source": "iran-tim...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid USDC Deposit Process and Benefits Explained - Iran Times",
+        "url": "https://ir...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T15:05:23.000Z",
+        "source": "iran-tim...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 81372.0,
+    "btc_24h_change_pct": 2.1903,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 60.2259,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2706131757477.3174,
+    "eth_btc_ratio": 0.028222,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 748.17,
+    "spy_change_pct": 0.7894,
+    "spy_lean": "bullish",
+    "vix_close": 17.87,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 81.82,
+    "cg_sentiment_votes_down_pct": 18.18,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 16,
+    "signals_null": 2,
+    "bullish_count": 7,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": null,
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "DeFiLlama \u2014 chain fees overview \u2014 timeout",
+    "DeFiLlama fees: no data available for chain Solana"
+  ]
+}
