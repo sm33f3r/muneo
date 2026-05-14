@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-14T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2790801246529.2,
+    "total_market_cap_change_24h_pct": 2.1534,
+    "total_volume_24h_usd": 107395090021.28,
+    "btc_dominance_pct": 58.3751,
+    "eth_dominance_pct": 9.919,
+    "total2_usd": 1161668147347.4,
+    "total3_usd": 884848470938.53,
+    "active_cryptocurrencies": 17400,
+    "altcoin_season_index": 43,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TROLL",
+        "name": "TROLL",
+        "price_change_24h_pct": 16.8555,
+        "price_usd": 0.140327,
+        "market_cap_usd": 140426958
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": 15.2739,
+        "price_usd": 0.0031883,
+        "market_cap_usd": 303503650
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": 13.1903,
+        "price_usd": 43.88,
+        "market_cap_usd": 10449095575
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 11.9386,
+        "price_usd": 0.144533,
+        "market_cap_usd": 303507508
+      },
+      {
+        "symbol": "RIVER",
+        "name": "River",
+        "price_change_24h_pct": 11.5602,
+        "price_usd": 7.42,
+        "market_cap_usd": 145515737
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -48.0811,
+        "price_usd": 0.576939,
+        "market_cap_usd": 421068870
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -26.8661,
+        "price_usd": 0.47712,
+        "market_cap_usd": 479472550
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -22.1594,
+        "price_usd": 0.373001,
+        "market_cap_usd": 371966100
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -7.9435,
+        "price_usd": 0.00122271,
+        "market_cap_usd": 132248430
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -7.2975,
+        "price_usd": 0.079479,
+        "market_cap_usd": 185827616
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81371,
+    "price_change_24h_pct": 2.5143,
+    "price_change_7d_pct": 1.6037,
+    "market_cap_usd": 1629248507545,
+    "volume_24h_usd": 42499335721,
+    "direction": "bullish",
+    "oi_usd": 9000740384.79,
+    "funding_rate_latest": 4.094e-05,
+    "funding_rate_7d_avg": 2.4606190476190475e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.6192,
+    "long_account_pct": 38.24,
+    "short_account_pct": 61.76,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2293.89,
+    "price_change_24h_pct": 1.7344,
+    "price_change_7d_pct": 0.2261,
+    "market_cap_usd": 276807575271,
+    "volume_24h_usd": 15748432348,
+    "eth_btc_ratio": 0.028191,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86881999551.06,
+    "stablecoin_market_cap_usd": 320685639269.48,
+    "stablecoin_dominance_pct": 11.4908
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 43,
+    "headlines": [
+      {
+        "headline": "What's good for Cisco is good for Broadcom. 3 reasons both stocks are soaring",
+        "summary": "Cisco investors aren't the only victors from the network company's blowout earnings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/whats-good-for-cisco-is-good-for-broadcom-3-reasons-both-stocks-are-up.html",
+        "published_at": "2026-05-14T20:25:22Z"
+      },
+      {
+        "headline": "White House scrambles for gas-price relief as Iran war drags on - Reuters",
+        "summary": "White House scrambles for gas-price relief as Iran war drags on\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
+        "published_at": "2026-05-14T20:08:24Z"
+      },
+      {
+        "headline": "Kenya raises retail prices for fuel due to Iran conflict - Reuters",
+        "summary": "Kenya raises retail prices for fuel due to Iran conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOTNpTTJ2SGtjRGt0d0MzN04yU25QRDAwWnJTYjZvN1ZwZDg4My05dWJnMEg4LVdaU2V2ZW94dzlOS3ZTTUJjWnlNM1g4MWVBbUZwWFRVTFVZSGp2Tk1ybHhjSVB3T2FNb09DN2s1X2RQMF9LX1oyMEM2Zm02bXB4cmsxdDJPTzdXR1IxSlBZUEN4dEVMalF5NGxvOHFIR09rbmY0UWNlVDZ0RFVKU0RuUU5kbnlEbGtMUk1wei1tWmkzY2M?oc=5",
+        "published_at": "2026-05-14T19:45:43Z"
+      },
+      {
+        "headline": "Nearly 40% chances of stagflation by end of 2026, traders say",
+        "summary": "Traders are not optimistic about the state of economy by the end of this year, placing high chances of stagflation, a mix of high inflation and unemployment.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/nearly-40percent-chances-of-stagflation-by-end-of-2026-traders-say-.html",
+        "published_at": "2026-05-14T19:28:14Z"
+      },
+      {
+        "headline": "Fed Governor Miran submits resignation, throws support behind Warsh as new chair",
+        "summary": "Miran served as a contrarian voice on the rate-setting Federal Open Market Committee.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/fed-governor-miran-submits-resignation-throws-support-behind-warsh-as-new-chair.html",
+        "published_at": "2026-05-14T18:50:31Z"
+      },
+      {
+        "headline": "A Starbucks upgrade tackles a thorny issue pushed by the stock's skeptics",
+        "summary": "TD Cowen is optimistic that Starbucks is on its way to mounting a successful turnaround, but execution is key.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/a-starbucks-upgrade-tackles-a-thorny-issue-pushed-by-the-stocks-skeptics.html",
+        "published_at": "2026-05-14T18:16:46Z"
+      },
+      {
+        "headline": "Boeing lands a long-awaited jet order from China. Why the stock is falling anyway",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/boeing-lands-a-long-awaited-jet-order-from-china-why-the-stock-is-falling-anyway.html",
+        "published_at": "2026-05-14T18:06:10Z"
+      },
+      {
+        "headline": "Retail investors have a new 'toy' for speculation, Barclays says",
+        "summary": "Barclays analysts said predictions markets are seeing trading volume that rivals other speculative investments popular with retail traders.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/prediction-markets-retail-investors-have-a-new-toy-for-speculation.html",
+        "published_at": "2026-05-14T17:30:13Z"
+      },
+      {
+        "headline": "These three artworks could sell for $100 million each next week as May auctions begin",
+        "summary": "The wild card for the May auctions is the Middle East, with the Iran war clouding buyer expectations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/may-art-auctions-sales-estimates.html",
+        "published_at": "2026-05-14T17:22:59Z"
+      },
+      {
+        "headline": "Crypto industry scores win as Clarity Act regulation bill clears Senate hurdle",
+        "summary": "The Senate Banking Committee advanced a rules-of-the-road crypto bill known as the Clarity Act by a vote of 15-9.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/14/clarity-act-congress-crypto-senate.html",
+        "published_at": "2026-05-14T16:53:46Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 748.17,
+    "spy_change_pct": 0.7894,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Frontiers Conference 2026 \u2013 CfP |",
+        "url": "https://pa...(+40 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:58:50.000Z",
+        "source": "paas.org...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SiC 2026 \u2013 CfP |",
+        "url": "https://pa...(+23 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:58:46.000Z",
+        "source": "paas.org...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Teaching English in a Changing World \u2013 CfP |",
+        "url": "https://pa...(+51 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:58:38.000Z",
+        "source": "paas.org...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Orthopaedic Device Recall Dashboard - Orthopaedic Surgery Patient Safety - AAOS",
+        "url": "https://ww...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:32.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Data Submission Support Resources | AAOS",
+        "url": "https://ww...(+56 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:29.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Disaster Preparedness Resources - American Academy of Orthopaedic Surgeons",
+        "url": "https://ww...(+54 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:28.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Join Team AAOS Benefits and Wellness",
+        "url": "https://ww...(+47 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:27.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.34
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Registry Analytics Institute | AAOS",
+        "url": "https://ww...(+51 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:27.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pediatrics \u2013 Resident Curriculum (ROCK) | American Academy of Orthopaedic Surgeons",
+        "url": "https://ww...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:27.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hand and Wrist \u2013 Resident Curriculum (ROCK) | American Academy of Orthopaedic Surgeons",
+        "url": "https://ww...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-14T20:57:27.000Z",
+        "source": "unitypar...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 1,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}
