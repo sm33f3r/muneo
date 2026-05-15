@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-15T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2719378551637.94,
+    "total_market_cap_change_24h_pct": -2.6206,
+    "total_volume_24h_usd": 99229254594.05,
+    "btc_dominance_pct": 58.2543,
+    "eth_dominance_pct": 9.8528,
+    "total2_usd": 1135222654446.07,
+    "total3_usd": 867287171752.83,
+    "active_cryptocurrencies": 17406,
+    "altcoin_season_index": 46,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "IRYS",
+        "name": "Irys",
+        "price_change_24h_pct": 19.4111,
+        "price_usd": 0.062351,
+        "market_cap_usd": 124784256
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 13.8315,
+        "price_usd": 0.00033913,
+        "market_cap_usd": 143512566
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 12.8324,
+        "price_usd": 0.235188,
+        "market_cap_usd": 589215390
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 11.3079,
+        "price_usd": 0.088604,
+        "market_cap_usd": 207047290
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 9.0761,
+        "price_usd": 0.157619,
+        "market_cap_usd": 329534531
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -21.0146,
+        "price_usd": 4.55,
+        "market_cap_usd": 350542896
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "price_change_24h_pct": -14.7962,
+        "price_usd": 0.504325,
+        "market_cap_usd": 176965871
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": -12.9388,
+        "price_usd": 0.386465,
+        "market_cap_usd": 359783164
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -11.5372,
+        "price_usd": 0.456325,
+        "market_cap_usd": 214759824
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -11.3497,
+        "price_usd": 0.092818,
+        "market_cap_usd": 321663438
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79099,
+    "price_change_24h_pct": -2.8355,
+    "price_change_7d_pct": -1.2691,
+    "market_cap_usd": 1584320557013,
+    "volume_24h_usd": 38829309266,
+    "direction": "bearish",
+    "oi_usd": 8072869330.78,
+    "funding_rate_latest": 1.548e-05,
+    "funding_rate_7d_avg": 2.5534285714285716e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0816,
+    "long_account_pct": 51.96,
+    "short_account_pct": 48.04,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2220.26,
+    "price_change_24h_pct": -3.2586,
+    "price_change_7d_pct": -3.7243,
+    "market_cap_usd": 267949757035,
+    "volume_24h_usd": 17110901773,
+    "eth_btc_ratio": 0.028069,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85954402714.96,
+    "stablecoin_market_cap_usd": 320878237562.87,
+    "stablecoin_dominance_pct": 11.7997
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 31,
+    "headlines": [
+      {
+        "headline": "Trump touted Palantir on Truth Social after buying the company's stock, records show",
+        "summary": "During the first three months of the year, Trump purchased between $630,000 and $247,008 worth of Palantir stock and sold at least $1.1 million.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/trump-palantir-stock-truth-social.html",
+        "published_at": "2026-05-15T19:29:28Z"
+      },
+      {
+        "headline": "What you need to know about Nvidia competitor Cerebras after wild IPO",
+        "summary": "Nvidia competitor Cerebras made a stunning debut on Wall Street Thursday, signaling unstoppable demand for AI chips. Here's how its chips compete with Nvidia's.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html",
+        "published_at": "2026-05-15T19:11:02Z"
+      },
+      {
+        "headline": "Democrats blast Trump over 'slush fund' in possible IRS lawsuit settlement",
+        "summary": "ABC News reported President Donald Trump could settle a lawsuit against the IRS in exchange for a $1.7 billion fund to compensate his allies.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/trump-irs-taxes-democrats.html",
+        "published_at": "2026-05-15T18:42:09Z"
+      },
+      {
+        "headline": "Can the S&P 500 hold on for a 7th weekly gain? Plus, Friday's best and worst stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/can-the-sp-500-hold-on-for-a-7th-weekly-gain-plus-fridays-best-and-worst-stocks.html",
+        "published_at": "2026-05-15T18:31:27Z"
+      },
+      {
+        "headline": "BRICS talks end without joint statement, exposing divisions over war in Iran - Reuters",
+        "summary": "BRICS talks end without joint statement, exposing divisions over war in Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUlBvVS1CSFpOWHFpd3NPbEROQlhLVDMxMm9PN1BBNjlzYVFPMnlFUW9na3JoMkxoQlo0bXQwcFVtZGY0VjNIcExteXNhNm8xSmJydkNHTDlWOFlZUjQybjJGWGx1Wks5MEJlREJYc2o2Yy1hbWpvY013Q2M3N3RfZmplMml3NFdvRmJYZjFkT1NOVWNlMjc5OWdHX3BGMmNETjk3bHFXTW9TTnFwRFZCTmdIbVFudWdzeFBDTDY3SXc?oc=5",
+        "published_at": "2026-05-15T17:28:11Z"
+      },
+      {
+        "headline": "NFL wants certain trading contracts banned from prediction markets like 'first play of game,' injuries",
+        "summary": "The letter, which was reviewed by CNBC, calls for banning certain contracts and raising the age requirements for participation on sports-related contracts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/prediction-markets-nfl-letter-wants-certain-betting-contracts-banned.html",
+        "published_at": "2026-05-15T16:27:26Z"
+      },
+      {
+        "headline": "Jim Cramer says it's time to trim this volatile AI chipmaker",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/jim-cramer-says-its-time-to-trim-this-volatile-ai-chipmaker-.html",
+        "published_at": "2026-05-15T16:10:06Z"
+      },
+      {
+        "headline": "Pakistan says 11 citizens, 20 Iranian nationals being repatriated from vessels seized by US - Reuters",
+        "summary": "Pakistan says 11 citizens, 20 Iranian nationals being repatriated from vessels seized by US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR1BvQW1UWl9lZVc1QjhRdGVDWl9aV1NERXdBY2VmZTBPYUg5a09MMFI0ck5HUXZjNWt3alV6RnlNMDdhU1JHMmxKTjdPTzFxZHVTSVp1bzZZa1VXdFloaGlrVE1aR0dsbWljY1lJaWVYWlVza1dwT0l5S2JlMVFGMHliRWJzTm52QnZsYXI2TmctWEpkdlkyWld5ZkQxNEY3UzNoc2E0ZFJpZDhNdGE4WWpuNXI0OWtEVlRIZnVBQXJ5Zjhza3ZPdmpBS2swcjg?oc=5",
+        "published_at": "2026-05-15T15:45:08Z"
+      },
+      {
+        "headline": "We're snapping up this retail stock that has fallen 10% from its April high",
+        "summary": "Our general rule of thumb is that a 10% pullback in a high-quality company like TJX represents an opportunity to nibble on shares.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/15/were-snapping-up-this-retail-stock-thats-fallen-10percent-from-april-.html",
+        "published_at": "2026-05-15T15:25:18Z"
+      },
+      {
+        "headline": "Trump says he is losing patience with Iran, did not ask China for any favours - Reuters",
+        "summary": "Trump says he is losing patience with Iran, did not ask China for any favours\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeFFlcklCYWQwZUZGc2xjSF9QWjJvMU1PWFVtakpUVDljdTFCMzJqN2lULXMycUVxS2V2Q0I4X3h3ZndCczNqZ2JKTEFwdW1tTlBMMGlJRWRiT05jT3otM1BtT3F6YmxNQ1hEM1hjVnZPTEdXX1JlWk9lWWJLd3BvQlozTDFDQnQtbFU5ZUZzakE4Q0RPTHA5QWVmbXluVkFSRVQtZjlmdkRNUHVhR29v?oc=5",
+        "published_at": "2026-05-15T14:32:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.12,
+    "spy_change_pct": -1.2096,
+    "spy_lean": "bearish",
+    "vix_close": 17.26,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 0,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "ORD# FY2027 Budget 1st Reading \u2013 City of Erlanger",
+        "url": "https://er...(+43 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:59:38.000Z",
+        "source": "erlanger...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "More could be done for sustainability in Budget, say industry groups",
+        "url": "https://ww...(+138 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:33.000Z",
+        "source": "sustaina...(+20 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Translation Is a Lifeline in the Capital Region",
+        "url": "https://ac...(+78 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:31.000Z",
+        "source": "trucotec...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Subsidy - Small Farmer's Journal",
+        "url": "https://sm...(+30 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:30.000Z",
+        "source": "smallfar...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Airbus Racer races ahead - Pilot",
+        "url": "https://pi...(+42 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:24.000Z",
+        "source": "pilotweb...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Making Hay with Horses part 2 - Small Farmer's Journal",
+        "url": "https://sm...(+52 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:22.000Z",
+        "source": "smallfar...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Light Up Your Command Center: The Panasonic Evangelion LED Desk Lamp - Japan Trends",
+        "url": "https://ww...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:58:15.000Z",
+        "source": "japantre...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goodwood safety forum announced - Pilot",
+        "url": "https://pi...(+49 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:57:56.000Z",
+        "source": "pilotweb...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Green schemes take a hit in federal Budget 2026",
+        "url": "https://ww...(+116 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:57:45.000Z",
+        "source": "sustaina...(+20 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Making Hay with Horses part 3 - Small Farmer's Journal",
+        "url": "https://sm...(+52 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-05-15T20:57:44.000Z",
+        "source": "smallfar...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
