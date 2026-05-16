@@ -32,6 +32,7 @@ import pandas as pd
 import requests
 from dateutil import parser as dateutil_parser
 from dotenv import load_dotenv
+from rss_utils import fetch_rss_feeds, score_sentiment, CRYPTO_RSS_FEEDS
 
 SCRIPT_VERSION = "2.0.0"
 SCHEMA_VERSION = "1.0.0"
@@ -59,8 +60,7 @@ class TokenConfig:
     binance_futures_symbol: Optional[str] = None
     coinpaprika_id: Optional[str] = None
     cryptopanic_symbol: Optional[str] = None
-    apitube_org_name: Optional[str] = None
-    apitube_title_search: Optional[str] = None
+    rss_keywords: Optional[list] = None
 
 
 def load_config(config_path: str) -> TokenConfig:
@@ -77,8 +77,7 @@ def load_config(config_path: str) -> TokenConfig:
         binance_futures_symbol=raw.get("binance_futures_symbol"),
         coinpaprika_id=raw.get("coinpaprika_id"),
         cryptopanic_symbol=raw.get("cryptopanic_symbol"),
-        apitube_org_name=raw.get("apitube_org_name"),
-        apitube_title_search=raw.get("apitube_title_search"),
+        rss_keywords=raw.get("rss_keywords"),
     )
 
 
@@ -309,31 +308,18 @@ def fetch_coinpaprika_coin(coinpaprika_id: str) -> dict:
     return data
 
 
-# Fetch 3 — APITube token news (organization-filtered or title-search, last 24h)
-def fetch_apitube_token_news(config: "TokenConfig", api_key: str) -> dict:
-    url = "https://api.apitube.io/v1/news/everything"
-    params = {
-        "language.code":      "en",
-        "published_at.start": "NOW-1DAY",
-        "sort.by":            "published_at",
-        "sort.order":         "desc",
-        "per_page":           10,
-        "is_duplicate":       0,
-    }
-    if config.apitube_org_name:
-        params["organization.name"] = config.apitube_org_name
-    elif config.apitube_title_search:
-        params["title"] = config.apitube_title_search
-    resp = requests.get(url, params=params, headers={"X-API-Key": api_key}, timeout=API_TIMEOUT)
-    # 400 means org name not found in APITube taxonomy — treat as empty results
-    if resp.status_code == 400:
-        return {"status": "ok", "results": []}
-    resp.raise_for_status()
-    data = resp.json()
-    if data.get("status") != "ok":
-        raise ValueError(f"APITube non-ok status: {data.get('status')}")
-    return data
 
+
+# Fetch 3 — RSS token news (keyword-filtered, last 24h)
+def fetch_rss_token_news(keywords: list, max_age_hours: int = 24) -> list:
+    """Fetch RSS crypto news and filter by token keyword match in title."""
+    articles = fetch_rss_feeds(CRYPTO_RSS_FEEDS, max_age_hours=max_age_hours)
+    matched = []
+    for article in articles:
+        title_lower = article["title"].lower()
+        if any(kw.lower() in title_lower for kw in keywords):
+            matched.append(article)
+    return matched
 
 # Fetch 4 — CoinGecko token OHLC 365d
 # CoinGecko only accepts specific day values: 1, 7, 14, 30, 90, 180, 365.
@@ -948,7 +934,6 @@ def build_report(
     fred_api_key: str,
     alpha_vantage_api_key: str,
     cryptopanic_api_key: str = "",
-    apitube_api_key: str = "",
 ) -> dict:
     fetch_errors: list = []
     now_utc = datetime.now(timezone.utc)
@@ -1027,9 +1012,10 @@ def build_report(
     time.sleep(1)
 
     # ------------------------------------------------------------------
-    # [3/18] APITube — token news 24h
+    # [3/18] RSS — token news 24h (keyword-filtered)
     # ------------------------------------------------------------------
-    print("[3/18] Fetching APITube — token news 24h...")
+    print("[3/18] Fetching RSS — token news 24h (keyword-filtered)...")
+
     news_article_count_24h = 0
     news_positive_count    = 0
     news_negative_count    = 0
@@ -1039,19 +1025,21 @@ def build_report(
     news_spike             = False
     top_headlines: list    = []
 
-    if (config.apitube_org_name or config.apitube_title_search) and apitube_api_key:
-        at_news_data = safe_fetch(
-            "APITube — token news 24h",
-            lambda: fetch_apitube_token_news(config, apitube_api_key),
+    if config.rss_keywords:
+        rss_articles = safe_fetch(
+            f"RSS token news ({config.token_symbol})",
+            lambda: fetch_rss_token_news(config.rss_keywords, max_age_hours=24),
             fetch_errors,
         )
-        if at_news_data is not None:
-            try:
-                results = at_news_data.get("results", [])
-                news_article_count_24h = len(results)
+        time.sleep(1)
 
-                for article in results:
-                    polarity = article.get("sentiment", {}).get("overall", {}).get("polarity", "neutral")
+        if rss_articles:
+            try:
+                news_article_count_24h = len(rss_articles)
+
+                for article in rss_articles:
+                    sentiment = score_sentiment(article["title"])
+                    polarity  = sentiment["polarity"]
                     if polarity == "positive":
                         news_positive_count += 1
                     elif polarity == "negative":
@@ -1060,9 +1048,9 @@ def build_report(
                         news_neutral_count += 1
 
                 if news_article_count_24h > 0:
-                    news_sentiment_ratio = round(news_positive_count / news_article_count_24h, 4)
-                else:
-                    news_sentiment_ratio = None
+                    news_sentiment_ratio = round(
+                        news_positive_count / news_article_count_24h, 4
+                    )
 
                 if news_sentiment_ratio is not None:
                     if news_sentiment_ratio > 0.65:
@@ -1071,32 +1059,27 @@ def build_report(
                         news_volume_lean = "bearish"
                     else:
                         news_volume_lean = "neutral"
-                else:
-                    news_volume_lean = "neutral"
 
-                news_spike = news_article_count_24h > 15
+                news_spike = news_article_count_24h > 10
 
-                for article in results[:10]:
-                    try:
-                        sentiment = article.get("sentiment", {}).get("overall", {})
-                        top_headlines.append({
-                            "title":        article.get("title", ""),
-                            "url":          article.get("href", ""),
-                            "published_at": article.get("published_at", ""),
-                            "source":       article.get("source", {}).get("domain", ""),
-                            "sentiment": {
-                                "polarity": sentiment.get("polarity", "neutral"),
-                                "score":    sentiment.get("score", 0.0),
-                            },
-                            "is_breaking":  article.get("is_breaking", False),
-                        })
-                    except Exception:
-                        continue
+                for article in rss_articles[:10]:
+                    sentiment = score_sentiment(article["title"])
+                    top_headlines.append({
+                        "title":        article["title"],
+                        "url":          article["url"],
+                        "published_at": article["published_at"],
+                        "source":       article["source"],
+                        "sentiment": {
+                            "polarity": sentiment["polarity"],
+                            "score":    sentiment["score"],
+                        },
+                        "is_breaking": False,
+                    })
             except Exception as e:
-                fetch_errors.append(f"APITube — token news parse_error: {e}")
-    elif not config.apitube_org_name and not config.apitube_title_search:
-        pass  # neither apitube field set — skip silently
-    time.sleep(2)
+                fetch_errors.append(f"RSS token news:parse_error: {e}")
+    else:
+        print(f"  ⚠ RSS token news — no rss_keywords set in config for {config.token_name}")
+    time.sleep(1)
 
     # ------------------------------------------------------------------
     # [4/18] CoinGecko — token OHLC 365d
@@ -1603,7 +1586,7 @@ def build_report(
             "chain_fees_lean":       chain_fees_lean,
         },
         "news": {
-            "source":           "apitube",
+            "source":           "rss",
             "article_count_24h": news_article_count_24h,
             "positive_count":    news_positive_count,
             "negative_count":    news_negative_count,
@@ -1711,7 +1694,6 @@ def main() -> None:
     fred_api_key          = _key("FRED_API_KEY")
     alpha_vantage_api_key = _key("ALPHA_VANTAGE_API_KEY")
     cryptopanic_api_key   = _key("CRYPTOPANIC_API_KEY")
-    apitube_api_key       = _key("APITUBE_API_KEY")
 
     if not cg_api_key:
         print("ERROR: COINGECKO_API_KEY is not set — cannot fetch price data.", file=sys.stderr)
@@ -1736,7 +1718,6 @@ def main() -> None:
         fred_api_key=fred_api_key,
         alpha_vantage_api_key=alpha_vantage_api_key,
         cryptopanic_api_key=cryptopanic_api_key,
-        apitube_api_key=apitube_api_key,
     )
 
     ts        = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
