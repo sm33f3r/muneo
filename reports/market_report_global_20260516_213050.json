@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-16T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2687722555915.12,
+    "total_market_cap_change_24h_pct": -1.0089,
+    "total_volume_24h_usd": 66748750615.0,
+    "btc_dominance_pct": 58.313,
+    "eth_dominance_pct": 9.7931,
+    "total2_usd": 1120431347313.44,
+    "total3_usd": 857219579888.61,
+    "active_cryptocurrencies": 17408,
+    "altcoin_season_index": 45,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "XP",
+        "name": "Xphere",
+        "price_change_24h_pct": 118.1108,
+        "price_usd": 0.07367,
+        "market_cap_usd": 211472672
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 9.4114,
+        "price_usd": 0.246424,
+        "market_cap_usd": 449079346
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 6.7078,
+        "price_usd": 0.00036402,
+        "market_cap_usd": 153875724
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 6.5048,
+        "price_usd": 0.04852929,
+        "market_cap_usd": 502671843
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 5.8803,
+        "price_usd": 8.222e-05,
+        "market_cap_usd": 454643952
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -28.0867,
+        "price_usd": 0.169553,
+        "market_cap_usd": 423882136
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -18.5171,
+        "price_usd": 0.147414,
+        "market_cap_usd": 357921387
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "price_change_24h_pct": -12.7613,
+        "price_usd": 0.439386,
+        "market_cap_usd": 154091298
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -12.3593,
+        "price_usd": 0.395019,
+        "market_cap_usd": 395073377
+      },
+      {
+        "symbol": "CFX",
+        "name": "Conflux",
+        "price_change_24h_pct": -8.4147,
+        "price_usd": 0.06469,
+        "market_cap_usd": 335802988
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78238,
+    "price_change_24h_pct": -1.0914,
+    "price_change_7d_pct": -3.1581,
+    "market_cap_usd": 1566777063096,
+    "volume_24h_usd": 27339942977,
+    "direction": "bearish",
+    "oi_usd": 7971590330.19,
+    "funding_rate_latest": 4.955e-05,
+    "funding_rate_7d_avg": 2.886238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2467,
+    "long_account_pct": 55.49,
+    "short_account_pct": 44.51,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2180.68,
+    "price_change_24h_pct": -1.7853,
+    "price_change_7d_pct": -6.3688,
+    "market_cap_usd": 263181667779,
+    "volume_24h_usd": 10598329399,
+    "eth_btc_ratio": 0.027872,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84451329432.92,
+    "stablecoin_market_cap_usd": 321401095356.83,
+    "stablecoin_dominance_pct": 11.9581
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 12,
+    "headlines": [
+      {
+        "headline": "Rising diesel costs from Iran war strain US school budgets - Reuters",
+        "summary": "Rising diesel costs from Iran war strain US school budgets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaXJwb0lxb0NMVzhRYzYzQ3F0QjY3M1MwcElKREtqdW9OVzluREJXWU9TaVBvdzU2ZThIc29fVEkxLVVKcGxTMEI4NWVLQUptR1lZT0Z1aml3WTVVbW41WnJWb1ZDdkhlTzZ6LVFMWEJJMVVNeGJ2LTdkcDBhR1dzR3VpcFZoOUFxZTR1THdNRWxMUGRZVTBNOTlsbXpta3hEMkNmeTZmTUY?oc=5",
+        "published_at": "2026-05-16T20:34:49Z"
+      },
+      {
+        "headline": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in - Reuters",
+        "summary": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWhRa0VGSXhNc1pnb0daVmpKM0wzVDJtdzEtLWxlcDdkcHNQNEpyc3NGcmVXMVJ3dUZjTUJSelFBY0lpZVFHMS1iNXFLR0tWWHZmczFTZl9VM3VkS3E2clk5Q2JKazBITTlqQzRhWXdURGMzQXBhOFFieHAxWHhRRGZjZnNodDVwcDhLZm5TMDdUeUFaZVl4dDV4TElWVUVtajlvcGtCekhkVjhSOGk1elotRVVmcVhsRUZFc3UtZm82NGhnM0E?oc=5",
+        "published_at": "2026-05-16T19:25:09Z"
+      },
+      {
+        "headline": "Trump says Iran war is worth the economic pain. These rural voters agree. - Reuters",
+        "summary": "Trump says Iran war is worth the economic pain. These rural voters agree.\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5",
+        "published_at": "2026-05-16T19:15:21Z"
+      },
+      {
+        "headline": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
+        "summary": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
+        "published_at": "2026-05-16T13:41:29Z"
+      },
+      {
+        "headline": "Global oil stockpiles could hit record lows if Strait of Hormuz remains closed",
+        "summary": "The world's oil stockpiles could approach all-time lows by the end of May due to the Strait of Hormuz closure, according to UBS.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html",
+        "published_at": "2026-05-16T13:25:00Z"
+      },
+      {
+        "headline": "UAE says its decision to leave OPEC was a strategic economic move, not a political one",
+        "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
+        "published_at": "2026-05-16T13:13:19Z"
+      },
+      {
+        "headline": "We traded our smartphones for flip phones for 4 days\u2014and learned that ditching modern technology is harder than it sounds",
+        "summary": "Two CNBC Make It reporters used flip phones instead of smartphones for four days, as a digital detox experiment. Both say they'd do it again.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/we-switched-to-flip-phones-for-4-days-as-a-smartphone-detox.html",
+        "published_at": "2026-05-16T13:05:01Z"
+      },
+      {
+        "headline": "Meet the pilots flying Spirit Airlines' yellow jets to the desert",
+        "summary": "Special pilots have been moving Spirit's fleet of yellow jets to the desert.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/spirit-airlines-airplanes.html",
+        "published_at": "2026-05-16T12:00:01Z"
+      },
+      {
+        "headline": "FIFA officials to meet Iranian FA to discuss World Cup on Saturday, says source - Reuters",
+        "summary": "FIFA officials to meet Iranian FA to discuss World Cup on Saturday, says source\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYzFfUkJsLWlzTkUwcGdCbGw5VEhwakxJR0JjYnhCOXlJeGJ4VXNJdWZvT3ZvN3pnSUZ4Yi1IbHVkU2YtOHBIZnVGVGNJcGxjM19MeTYza0gzVEZ5UG1Kd1lWcHBIeUFsWmVEYmFHc1lqZEVGdEowa1VrZGk2NFV4UlFSU0MwMXQ1SDdNS2dISERyMDU3eFlDcEFrUzZDaFdfa0RkSVROUXlPbmMwclBNUEp0Um4?oc=5",
+        "published_at": "2026-05-16T06:38:00Z"
+      },
+      {
+        "headline": "Trump's geopolitical brinkmanship has hit a wall with Iran - Reuters",
+        "summary": "Trump's geopolitical brinkmanship has hit a wall with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZG82ZDhaS3UxcVRGSEpHTFVsb25nSVB0bVA0UEdYQlhrLWU4dmFlbUFiRDdScEtESkxtbHdqaWpnQ3BCcUZHanhNaGVEdERaTG5ia2RCWmpyZ0JZeC1KQUxCNVNHS1RhMWphNXBuT2ExUm5nOWtCaG1sNjh0YmVlY21iX1VrX2JGbE9Ka1g2WE9OaVh1YnA0dE5lMERxd1AxZURWV2JVcUdMV2lpMlE?oc=5",
+        "published_at": "2026-05-16T05:03:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.17,
+    "spy_change_pct": -1.2029,
+    "spy_lean": "bearish",
+    "vix_close": 17.26,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 43,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 28,
+    "positive_count": 5,
+    "negative_count": 3,
+    "neutral_count": 20,
+    "sentiment_ratio": 0.1786,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "House Agriculture leaders press Trump to appoint CFTC commissioners as CLARITY Act advances in Senate",
+        "url": "https://www.theblock.co/post/401558/house-agriculture-leaders-press-trump-to-appoint-cftc-commissioners-as-clarity-act-advances-in-senate?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-16T20:57:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VanEck, Grayscale file fresh BNB ETF amendments as race for next altcoin spot ETF accelerates",
+        "url": "https://www.theblock.co/post/401553/vaneck-grayscale-file-fresh-bnb-etf-amendments-as-race-for-next-altcoin-spot-etf-accelerates?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-16T20:08:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "PrimeXBT: How Crypto Funding Changes Access to Global Markets",
+        "url": "https://bitcoinist.com/primexbt-how-crypto-funding-changes-access-to-global-markets/",
+        "published_at": "2026-05-16T19:09:20+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy to repurchase $1.5B of 2029 convertible notes",
+        "url": "https://cointelegraph.com/news/strategy-repurchase-15b-2029-convertible-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-16T19:03:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Ripple\u2019s XRP Is A Better Transaction Choice Compared To SWIFT",
+        "url": "https://bitcoinist.com/ripples-xrp-better-than-swift/",
+        "published_at": "2026-05-16T19:00:46+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Justin Sun-Led Liberland Micronation Awards Ethereum Founder Vitalik Buterin Its Top Honor",
+        "url": "https://decrypt.co/368116/justin-sun-liberland-awards-ethereum-founder-vitalik-buterin-top-honor",
+        "published_at": "2026-05-16T17:34:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "THORChain exploit turns emergency chain halt into a DeFi trust test",
+        "url": "https://cryptoslate.com/thorchain-exploit-defi-halt-trust-test/",
+        "published_at": "2026-05-16T17:20:54+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Harvard dumps ether ETF as Abu Dhabi sovereign fund keeps adding to bitcoin positions",
+        "url": "https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-16T17:14:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin analysis sees 'bear trap' as BTC price passes two-week lows under $78K",
+        "url": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-16T17:07:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether Urged To Transfer $344M In Frozen USDT To Terror Victims",
+        "url": "https://bitcoinist.com/tether-faces-calls-to-block-344-million-in-usdt-linked-to-terror-activity/",
+        "published_at": "2026-05-16T17:00:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
