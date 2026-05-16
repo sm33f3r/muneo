@@ -31,6 +31,7 @@ from typing import Optional
 import requests
 from dateutil import parser as dateutil_parser
 from dotenv import load_dotenv
+from rss_utils import fetch_rss_feeds, score_sentiment, CRYPTO_RSS_FEEDS
 
 SCRIPT_VERSION = "1.0.0"
 SCHEMA_VERSION = "1.0.0"
@@ -558,7 +559,6 @@ def build_report(
     cmc_api_key: str,
     fred_api_key: str,
     alpha_vantage_api_key: str,
-    apitube_api_key: str,
 ) -> dict:
     fetch_errors: list = []
     now_utc = datetime.now(timezone.utc)
@@ -866,9 +866,9 @@ def build_report(
     fear_greed_lean = lean_fear_greed(fg_value)
 
     # ------------------------------------------------------------------
-    # [10/17] APITube — global crypto news feed
+    # [10/17] RSS — global crypto news feeds
     # ------------------------------------------------------------------
-    print("[10/17] Fetching APITube — global crypto news feed...")
+    print("[10/17] Fetching RSS — global crypto news feeds...")
 
     news_article_count_24h = 0
     news_positive_count    = 0
@@ -879,58 +879,58 @@ def build_report(
     news_spike             = False
     top_headlines: list    = []
 
-    if apitube_api_key:
-        at_data = safe_fetch(
-            "APITube global crypto news feed",
-            lambda: _fetch_apitube_global(apitube_api_key),
-            fetch_errors,
-        )
-        if at_data is not None:
-            try:
-                results = at_data.get("results", [])
-                news_article_count_24h = len(results)
+    rss_articles = safe_fetch(
+        "RSS global crypto news feeds",
+        lambda: fetch_rss_feeds(CRYPTO_RSS_FEEDS, max_age_hours=24),
+        fetch_errors,
+    )
+    time.sleep(1)
 
-                for article in results:
-                    polarity = article.get("sentiment", {}).get("overall", {}).get("polarity", "neutral")
-                    if polarity == "positive":
-                        news_positive_count += 1
-                    elif polarity == "negative":
-                        news_negative_count += 1
-                    else:
-                        news_neutral_count += 1
+    if rss_articles:
+        try:
+            news_article_count_24h = len(rss_articles)
 
-                if news_article_count_24h > 0:
-                    news_sentiment_ratio = round(news_positive_count / news_article_count_24h, 4)
+            for article in rss_articles:
+                sentiment = score_sentiment(article["title"])
+                polarity  = sentiment["polarity"]
+                if polarity == "positive":
+                    news_positive_count += 1
+                elif polarity == "negative":
+                    news_negative_count += 1
                 else:
-                    news_sentiment_ratio = None
+                    news_neutral_count += 1
 
-                news_volume_lean = lean_news_volume(news_sentiment_ratio)
-                news_spike = news_article_count_24h > 20
+            if news_article_count_24h > 0:
+                news_sentiment_ratio = round(
+                    news_positive_count / news_article_count_24h, 4
+                )
 
-                for article in results[:10]:
-                    try:
-                        sentiment = article.get("sentiment", {}).get("overall", {})
-                        top_headlines.append({
-                            "title":        article.get("title", ""),
-                            "url":          article.get("href", ""),
-                            "published_at": article.get("published_at", ""),
-                            "source":       article.get("source", {}).get("domain", ""),
-                            "sentiment": {
-                                "polarity": sentiment.get("polarity", "neutral"),
-                                "score":    sentiment.get("score", 0.0),
-                            },
-                            "is_breaking":  article.get("is_breaking", False),
-                        })
-                    except Exception:
-                        continue
-            except Exception as e:
-                fetch_errors.append(f"APITube global:parse_error: {e}")
-        else:
-            fetch_errors.append("APITube global — fetch failed: no data returned")
-    else:
-        print("  \u2717 APITube global crypto news feed — APITUBE_API_KEY not set")
-        fetch_errors.append("fetch_10:apitube: skipped — APITUBE_API_KEY not set")
-    time.sleep(2)
+            if news_sentiment_ratio is not None:
+                if news_sentiment_ratio > 0.65:
+                    news_volume_lean = "bullish"
+                elif news_sentiment_ratio < 0.35:
+                    news_volume_lean = "bearish"
+                else:
+                    news_volume_lean = "neutral"
+
+            news_spike = news_article_count_24h > 20
+
+            for article in rss_articles[:10]:
+                sentiment = score_sentiment(article["title"])
+                top_headlines.append({
+                    "title":        article["title"],
+                    "url":          article["url"],
+                    "published_at": article["published_at"],
+                    "source":       article["source"],
+                    "sentiment": {
+                        "polarity": sentiment["polarity"],
+                        "score":    sentiment["score"],
+                    },
+                    "is_breaking": False,
+                })
+        except Exception as e:
+            fetch_errors.append(f"RSS global crypto news:parse_error: {e}")
+    time.sleep(1)
 
     # ------------------------------------------------------------------
     # [11/17] Binance Futures — BTC open interest
@@ -1230,7 +1230,7 @@ def build_report(
             "fear_greed_lean":  fear_greed_lean,
         },
         "news": {
-            "source":           "apitube",
+            "source":           "rss",
             "article_count_24h": news_article_count_24h,
             "positive_count":    news_positive_count,
             "negative_count":    news_negative_count,
@@ -1359,23 +1359,6 @@ def _fetch_cmc_fear_greed(api_key: str) -> dict:
     return data
 
 
-def _fetch_apitube_global(api_key: str) -> dict:
-    url = "https://api.apitube.io/v1/news/everything"
-    params = {
-        "topic.id":          "industry.crypto_news",
-        "language.code":     "en",
-        "published_at.start": "NOW-1DAY",
-        "sort.by":           "published_at",
-        "sort.order":        "desc",
-        "per_page":          10,
-        "is_duplicate":      0,
-    }
-    resp = requests.get(url, params=params, headers={"X-API-Key": api_key}, timeout=API_TIMEOUT)
-    resp.raise_for_status()
-    data = resp.json()
-    if data.get("status") != "ok":
-        raise ValueError(f"APITube non-ok status: {data.get('status')}")
-    return data
 
 
 def _fetch_binance_oi(symbol: str) -> dict:
@@ -1487,7 +1470,6 @@ def main() -> None:
     cmc_api_key           = _key("CMC_API_KEY", required=True)
     fred_api_key          = _key("FRED_API_KEY")
     alpha_vantage_api_key = _key("ALPHA_VANTAGE_API_KEY")
-    apitube_api_key       = _key("APITUBE_API_KEY")
 
     print(f"Fetching global crypto market data (v{SCRIPT_VERSION})...")
 
@@ -1496,7 +1478,6 @@ def main() -> None:
         cmc_api_key=cmc_api_key,
         fred_api_key=fred_api_key,
         alpha_vantage_api_key=alpha_vantage_api_key,
-        apitube_api_key=apitube_api_key,
     )
 
     ts        = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
