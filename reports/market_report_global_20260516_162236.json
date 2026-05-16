@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-16T16:21:45 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2685096567800.91,
+    "total_market_cap_change_24h_pct": -1.4236,
+    "total_volume_24h_usd": 72429452913.63,
+    "btc_dominance_pct": 58.3349,
+    "eth_dominance_pct": 9.7761,
+    "total2_usd": 1118747677463.63,
+    "total3_usd": 856248764622.75,
+    "active_cryptocurrencies": 17402,
+    "altcoin_season_index": 43,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": 27.9279,
+        "price_usd": 0.00033833,
+        "market_cap_usd": 142219614
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 18.8808,
+        "price_usd": 4.67,
+        "market_cap_usd": 356708912
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": 8.5374,
+        "price_usd": 0.04704913,
+        "market_cap_usd": 487577644
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 8.3465,
+        "price_usd": 83.3,
+        "market_cap_usd": 1212172540
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 4.6738,
+        "price_usd": 7.988e-05,
+        "market_cap_usd": 442457581
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -27.9121,
+        "price_usd": 0.144231,
+        "market_cap_usd": 349846894
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -23.7519,
+        "price_usd": 0.169386,
+        "market_cap_usd": 394327574
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "price_change_24h_pct": -15.9636,
+        "price_usd": 0.433337,
+        "market_cap_usd": 152291643
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -11.6218,
+        "price_usd": 0.398173,
+        "market_cap_usd": 397950900
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -9.3573,
+        "price_usd": 0.900658,
+        "market_cap_usd": 242606387
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78293,
+    "price_change_24h_pct": -1.1616,
+    "price_change_7d_pct": -2.7577,
+    "market_cap_usd": 1566654780717,
+    "volume_24h_usd": 29586129166,
+    "direction": "bearish",
+    "oi_usd": 7985192167.43,
+    "funding_rate_latest": 4.955e-05,
+    "funding_rate_7d_avg": 2.886238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2422,
+    "long_account_pct": 55.4,
+    "short_account_pct": 44.6,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2176.33,
+    "price_change_24h_pct": -2.2392,
+    "price_change_7d_pct": -5.6895,
+    "market_cap_usd": 262663899170,
+    "volume_24h_usd": 11740607931,
+    "eth_btc_ratio": 0.027797,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84325700986.01,
+    "stablecoin_market_cap_usd": 321574501101.52,
+    "stablecoin_dominance_pct": 11.9763
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 22,
+    "headlines": [
+      {
+        "headline": "Trump says Iran war is worth the economic pain. These rural voters agree. - Reuters",
+        "summary": "Trump says Iran war is worth the economic pain. These rural voters agree.\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmxMdlNJMXdlUF9ZOFk0RW1tYlpwSkdiREhNRWVfUnZER1dCQnFIUjNIZElVazZVako3N0tDek1tQzU5V18teTFTWW9nSUVKaG85bldoSDRjWHFubjVZTk1fTDBEQklZV3RsNlJ2Z294MFcwbXk4Vy02T0hQbldzbG1tcUpueTAzV0NBa0lkUUowOThPX3AyRXZ6MVU5dksydktzMDAyWHJkeG04ZWFOT3JvTUJENDduX3Fj?oc=5",
+        "published_at": "2026-05-16T14:31:43Z"
+      },
+      {
+        "headline": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in - Reuters",
+        "summary": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWhRa0VGSXhNc1pnb0daVmpKM0wzVDJtdzEtLWxlcDdkcHNQNEpyc3NGcmVXMVJ3dUZjTUJSelFBY0lpZVFHMS1iNXFLR0tWWHZmczFTZl9VM3VkS3E2clk5Q2JKazBITTlqQzRhWXdURGMzQXBhOFFieHAxWHhRRGZjZnNodDVwcDhLZm5TMDdUeUFaZVl4dDV4TElWVUVtajlvcGtCekhkVjhSOGk1elotRVVmcVhsRUZFc3UtZm82NGhnM0E?oc=5",
+        "published_at": "2026-05-16T14:29:15Z"
+      },
+      {
+        "headline": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
+        "summary": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
+        "published_at": "2026-05-16T13:41:29Z"
+      },
+      {
+        "headline": "Global oil stockpiles could hit record lows if Strait of Hormuz remains closed",
+        "summary": "The world's oil stockpiles could approach all-time lows by the end of May due to the Strait of Hormuz closure, according to UBS.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html",
+        "published_at": "2026-05-16T13:25:00Z"
+      },
+      {
+        "headline": "UAE says its decision to leave OPEC was a strategic economic move, not a political one",
+        "summary": "The United Arab Emirates, which joined OPEC in 1967, announced last month it was leaving the oil producer group on May 1.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
+        "published_at": "2026-05-16T13:13:19Z"
+      },
+      {
+        "headline": "We traded our smartphones for flip phones for 4 days\u2014and learned that ditching modern technology is harder than it sounds",
+        "summary": "Two CNBC Make It reporters used flip phones instead of smartphones for four days, as a digital detox experiment. Both say they'd do it again.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/we-switched-to-flip-phones-for-4-days-as-a-smartphone-detox.html",
+        "published_at": "2026-05-16T13:05:01Z"
+      },
+      {
+        "headline": "Meet the pilots flying Spirit Airlines' yellow jets to the desert",
+        "summary": "Special pilots have been moving Spirit's fleet of yellow jets to the desert.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/16/spirit-airlines-airplanes.html",
+        "published_at": "2026-05-16T12:00:01Z"
+      },
+      {
+        "headline": "Rising diesel costs from Iran war strain US school budgets - Reuters",
+        "summary": "Rising diesel costs from Iran war strain US school budgets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaXJwb0lxb0NMVzhRYzYzQ3F0QjY3M1MwcElKREtqdW9OVzluREJXWU9TaVBvdzU2ZThIc29fVEkxLVVKcGxTMEI4NWVLQUptR1lZT0Z1aml3WTVVbW41WnJWb1ZDdkhlTzZ6LVFMWEJJMVVNeGJ2LTdkcDBhR1dzR3VpcFZoOUFxZTR1THdNRWxMUGRZVTBNOTlsbXpta3hEMkNmeTZmTUY?oc=5",
+        "published_at": "2026-05-16T10:07:52Z"
+      },
+      {
+        "headline": "FIFA officials to meet Iranian FA to discuss World Cup on Saturday, says source - Reuters",
+        "summary": "FIFA officials to meet Iranian FA to discuss World Cup on Saturday, says source\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYzFfUkJsLWlzTkUwcGdCbGw5VEhwakxJR0JjYnhCOXlJeGJ4VXNJdWZvT3ZvN3pnSUZ4Yi1IbHVkU2YtOHBIZnVGVGNJcGxjM19MeTYza0gzVEZ5UG1Kd1lWcHBIeUFsWmVEYmFHc1lqZEVGdEowa1VrZGk2NFV4UlFSU0MwMXQ1SDdNS2dISERyMDU3eFlDcEFrUzZDaFdfa0RkSVROUXlPbmMwclBNUEp0Um4?oc=5",
+        "published_at": "2026-05-16T06:38:00Z"
+      },
+      {
+        "headline": "Trump's geopolitical brinkmanship has hit a wall with Iran - Reuters",
+        "summary": "Trump's geopolitical brinkmanship has hit a wall with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZG82ZDhaS3UxcVRGSEpHTFVsb25nSVB0bVA0UEdYQlhrLWU4dmFlbUFiRDdScEtESkxtbHdqaWpnQ3BCcUZHanhNaGVEdERaTG5ia2RCWmpyZ0JZeC1KQUxCNVNHS1RhMWphNXBuT2ExUm5nOWtCaG1sNjh0YmVlY21iX1VrX2JGbE9Ka1g2WE9OaVh1YnA0dE5lMERxd1AxZURWV2JVcUdMV2lpMlE?oc=5",
+        "published_at": "2026-05-16T05:03:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.17,
+    "spy_change_pct": -1.2029,
+    "spy_lean": "bearish",
+    "vix_close": 17.26,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 43,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 41,
+    "positive_count": 9,
+    "negative_count": 6,
+    "neutral_count": 26,
+    "sentiment_ratio": 0.2195,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Crypto ATM Giant Bitcoin Depot Warns Of Possible Collapse",
+        "url": "https://bitcoinist.com/crypto-atm-giant-bitcoin-depot-warns-of-possible-collapse/",
+        "published_at": "2026-05-16T15:00:50+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI partners with Malta to give all citizens free ChatGPT Plus access",
+        "url": "https://cointelegraph.com/news/openai-partners-with-malta-to-give-all-citizens-free-chatgpt-plus-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-16T14:12:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-16T14:12:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF flows reverse as US funds shed $1B amid inflation fears",
+        "url": "https://cryptoslate.com/bitcoin-etf-flows-reverse-1b-outflows-inflation-fears/",
+        "published_at": "2026-05-16T14:00:52+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is AI Jailbreaking? A Beginner's Guide to the Cat-and-Mouse Game Behind Every Chatbot",
+        "url": "https://decrypt.co/resources/what-is-ai-jailbreaking-explained",
+        "published_at": "2026-05-16T13:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Records Over 400M In Binance Withdrawals Since May 3 \u2014 What\u2019s Happening?",
+        "url": "https://bitcoinist.com/xrp-400m-in-binance-withdrawals-since-may-3/",
+        "published_at": "2026-05-16T13:00:06+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Crime Crackdown Escalates As Myanmar Targets Scammers With Execution",
+        "url": "https://bitcoinist.com/crypto-crime-crackdown-escalates-as-myanmar-targets-scammers-with-execution/",
+        "published_at": "2026-05-16T11:00:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Markets are moving toward a new global financial crisis. These are the tripwires that would confirm it",
+        "url": "https://cryptoslate.com/global-financial-crisis-bitcoin-tripwires/",
+        "published_at": "2026-05-16T11:00:31+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "THORChain confirms $10M exploit, rolls out recovery portal for affected users",
+        "url": "https://cointelegraph.com/news/thorchain-confirms-10m-exploit-rolls-out-recovery-portal-for-affected-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-16T09:47:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy has put Bitcoin sales on the table for repurchases \u2013 but will it affect BTC price?",
+        "url": "https://cryptoslate.com/strategy-has-put-bitcoin-sales-on-the-table-for-repurchases-but-will-it-affect-btc-price/",
+        "published_at": "2026-05-16T09:00:57+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
