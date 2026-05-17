@@ -8,8 +8,10 @@ Exports:
 """
 
 # CHANGELOG
+# 2026-05-17 — RSS-5: APITUBE_API_KEY formally deprecated. Removed from both
+#              scripts and documented in .env.example.
 # 2026-04-29 — Created. Replaces APITube (APITUBE_API_KEY) in market_report.py
-#              and market_global_report.py. APITube key is now deprecated.
+#              and market_global_report.py.
 
 import urllib.request
 import urllib.error
