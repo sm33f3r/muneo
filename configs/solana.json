@@ -7,7 +7,7 @@
   "cmc_slug": "solana",
   "coinpaprika_id": "sol-solana",
   "cryptopanic_symbol": "SOL",
-  "apitube_org_name": "Solana",
+  "rss_keywords": ["Solana", "SOL", "$SOL"],
   "upcoming_unlocks": [],
   "output_prefix": "market_report_sol"
 }
