@@ -1,0 +1,148 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-17T21:00:02 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 1.069,
+    "price_change_24h_pct": 0.4379,
+    "price_change_7d_pct": -23.0356,
+    "volume_24h_usd": 362921652,
+    "market_cap_usd": 4281467198,
+    "volume_to_mcap_ratio": 0.084766,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -80.0132,
+    "cex_price_usd": 1.0687,
+    "cex_24h_high": 1.0897,
+    "cex_24h_low": 1.0466,
+    "cex_dex_spread_pct": -0.028064,
+    "volume_on_up_days_usd": 864660608.3631755,
+    "volume_on_down_days_usd": 391562286.2317706,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 53.1406,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.06863,
+      "signal_line": -0.141281,
+      "histogram": 0.072651
+    },
+    "macd_lean": "bullish",
+    "sma_50": 1.296213,
+    "price_vs_sma50_pct": -17.529,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.188542,
+      "mid": 0.96557,
+      "lower": 0.742597,
+      "width_pct": 46.1846,
+      "position": 1.0033
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 122850209.38,
+    "oi_lean": null,
+    "funding_rate_latest": 2.882e-05,
+    "funding_rate_7d_avg": 2.6257619047619047e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.3207,
+    "btc_long_account_pct": 56.91,
+    "btc_short_account_pct": 43.09,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 591076765.0,
+    "tvl_7d_change_pct": -10.8082,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 108825.0,
+    "chain_fees_7d_avg_usd": 137572.57,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 0,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 0,
+    "sentiment_ratio": null,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": []
+  },
+  "macro": {
+    "btc_price_usd": 78253.0,
+    "btc_24h_change_pct": 0.035,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 60.1931,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2604000022076.9214,
+    "eth_btc_ratio": 0.027966,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.17,
+    "spy_change_pct": -1.2029,
+    "spy_lean": "bearish",
+    "vix_close": 17.26,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 42,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 80.0,
+    "cg_sentiment_votes_down_pct": 20.0,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
