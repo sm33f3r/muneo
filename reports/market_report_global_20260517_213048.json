@@ -1,0 +1,341 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-17T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2691059227309.93,
+    "total_market_cap_change_24h_pct": 0.1101,
+    "total_volume_24h_usd": 47565610244.7,
+    "btc_dominance_pct": 58.2379,
+    "eth_dominance_pct": 9.8112,
+    "total2_usd": 1123842244335.27,
+    "total3_usd": 859817291574.49,
+    "active_cryptocurrencies": 17405,
+    "altcoin_season_index": 43,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MBTC",
+        "name": "MAGA Bitcoin",
+        "price_change_24h_pct": 217.863,
+        "price_usd": 0.151233,
+        "market_cap_usd": 164843245
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 33.8473,
+        "price_usd": 0.580622,
+        "market_cap_usd": 129178042
+      },
+      {
+        "symbol": "KAIA",
+        "name": "Kaia",
+        "price_change_24h_pct": 16.8852,
+        "price_usd": 0.053786,
+        "market_cap_usd": 315476242
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": 11.3292,
+        "price_usd": 46.69,
+        "market_cap_usd": 11182529991
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 9.7894,
+        "price_usd": 0.161764,
+        "market_cap_usd": 392914555
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XP",
+        "name": "Xphere",
+        "price_change_24h_pct": -6.9302,
+        "price_usd": 0.068789,
+        "market_cap_usd": 187635110
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -6.0154,
+        "price_usd": 0.14034,
+        "market_cap_usd": 295039760
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": -5.4132,
+        "price_usd": 77.58,
+        "market_cap_usd": 1128284706
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -5.107,
+        "price_usd": 0.088843,
+        "market_cap_usd": 308207004
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": -3.9243,
+        "price_usd": 0.00311235,
+        "market_cap_usd": 304781452
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78361,
+    "price_change_24h_pct": 0.161,
+    "price_change_7d_pct": -3.7459,
+    "market_cap_usd": 1569515674549,
+    "volume_24h_usd": 17764392751,
+    "direction": "neutral",
+    "oi_usd": 8018227498.17,
+    "funding_rate_latest": 4.8e-07,
+    "funding_rate_7d_avg": 2.6377142857142855e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3159,
+    "long_account_pct": 56.82,
+    "short_account_pct": 43.18,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2191.06,
+    "price_change_24h_pct": 0.4762,
+    "price_change_7d_pct": -7.3422,
+    "market_cap_usd": 264430192929,
+    "volume_24h_usd": 6909980300,
+    "eth_btc_ratio": 0.027961,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84665695366.11,
+    "stablecoin_market_cap_usd": 321617694837.56,
+    "stablecoin_dominance_pct": 11.9513
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 7,
+    "headlines": [
+      {
+        "headline": "UAE reports drone strike at nuclear power plant as Iran war deadlock persists - Reuters",
+        "summary": "UAE reports drone strike at nuclear power plant as Iran war deadlock persists\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0p3bmFPRU5fWHFVZ2dfeVZsWDBfekhCN3I4d3V6aEpnN1dJdHdBa0RIVlYzcXdpVUVRVGZXY25EVjJVWndxaVdhM2ZVZDBiVVNEeHhCTWlla0RESXU2VGVFREI5OHJ3bFhMamZBZllRSnc1Snh6czJ4bk9sWmFTSTVSdVNLZmVYM18zT2p3YWlDWE1TbjdJc0ZHSXJKQjhLWU92YnA3bGVRbHduMktycE5Fb011UGJvall1MlgwY3VzWE5jYXJ4Tk9rd2V5dw?oc=5",
+        "published_at": "2026-05-17T18:18:57Z"
+      },
+      {
+        "headline": "Trump says 'clock is ticking' for Iran - Reuters",
+        "summary": "Trump says 'clock is ticking' for Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLUxMUFBUdXlrdzhMV0R0VFdfR0poeUF3TjVqVGphUW5UbGlxQU9vaW4xR0xycjZQOWJHbW1HVE40Rk5FSmZfaUItUG1RR3dZMUR3ZFk0VnhxVXFJT1BHZUN1X2RmNjJsTjVXdWd1M2JsZHBGLWMxdVFhTjFER0JWZ3phUUE3TlZLU0o4QThGbw?oc=5",
+        "published_at": "2026-05-17T16:55:17Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market for the week ahead",
+        "summary": "Nvidia's earnings report and Google's developer conference will keep the AI boom front and center.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/17/3-big-things-were-watching-in-the-stock-market-for-the-week-ahead.html",
+        "published_at": "2026-05-17T14:06:31Z"
+      },
+      {
+        "headline": "Gulf bourses fall as Iran uncertainty weighs; Egypt extends loss - Reuters",
+        "summary": "Gulf bourses fall as Iran uncertainty weighs; Egypt extends loss\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ1pJS0JIMW14WTU5ek9PbUF5YUdfZXBIbE85TklBTzZFZjZMeGUwcmNOSXZnU0hCNV9ZT3JHWEVPSkVpNjV1d0pQQ1N4RlYyNm81RUVVZW9kXzBZYTd6YTljZzhXdmFoX2YzN3o4OER2MnB0UnBmQWc3X1FNRHN2TjE2bG9PSk9mcnlkbXl4Vjl2NzBxUEpZS3oxb3BLZHgtMWtsZVh3T1NENThXLVZ6dXpFckk?oc=5",
+        "published_at": "2026-05-17T13:38:35Z"
+      },
+      {
+        "headline": "Americans are leaving the U.S. in record numbers and spending hundreds to learn how to do it",
+        "summary": "Expatsi's \"Move Abroad Con\" attracted hundreds of Americans hoping to move overseas.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/17/americans-are-leaving-the-united-states-in-record-numbers-spending-hundreds-to-learn-how.html",
+        "published_at": "2026-05-17T13:30:01Z"
+      },
+      {
+        "headline": "US assesses drone threat from Cuba, Axios reports - Reuters",
+        "summary": "US assesses drone threat from Cuba, Axios reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSXFYMjJrQ050TXRsM3R6NXh5bUN4QnZGejR3ZWJIT3Q4QXNVZ1dUSmtVd2FTN2d3OFFvSDNhN29mUEZEbzRRZ2tPMG5WY1pTdExZZnZ0dlBPeWhCNHpGS0FJb0ptM3J4dlY4WmM0MFlUWVFfV1FVbmZKNlB3MThCTGV3SDJiMkltSllkSWp5VEd5WDJQWlJKYWlR?oc=5",
+        "published_at": "2026-05-17T12:42:55Z"
+      },
+      {
+        "headline": "FIFA says it held positive talks with Iran's FA ahead of World Cup - Reuters",
+        "summary": "FIFA says it held positive talks with Iran's FA ahead of World Cup\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWZtSGRNLVhiQTRLTzBaUmR0UTZsbHZMRzkyZ2h6OFAzZTBUQ2xQRUpUalJzRllyRHdwSmF2Sl9QVUNNelNDZW5Zd3I0VUpxWmx1amd0N2dIUUE2Q3g4ckFJcExXSU16OFZjVkNSSm4wT0lCczRBZjZ5QS1Bb1VtQ1ZhS0hwckN6Q0VqQy1PRk1keW1YZVVZaXZNUkJUV09TNHMyeVlHRDQyb0tYcFE?oc=5",
+        "published_at": "2026-05-16T22:13:22Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0392,
+    "dxy_lean": "neutral",
+    "spy_close": 739.17,
+    "spy_change_pct": -1.2029,
+    "spy_lean": "bearish",
+    "vix_close": 17.26,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 42,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 24,
+    "positive_count": 6,
+    "negative_count": 3,
+    "neutral_count": 15,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Crypto Systems Could Be Outpaced By Quantum Tech By 2033, Says Hoskinson",
+        "url": "https://bitcoinist.com/crypto-systems-could-be-outpaced-by-quantum-tech-by-2033-says-hoskinson/",
+        "published_at": "2026-05-17T21:00:05+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Alleged Forsage co-founder extradited from Thailand, pleads not guilty in $340 million Ponzi case",
+        "url": "https://www.theblock.co/post/401563/alleged-forsage-co-founder-extradited-from-thailand-pleads-not-guilty-in-340-million-ponzi-case?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-17T20:40:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+        "url": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+        "published_at": "2026-05-17T20:32:07+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP\u2019s bullish signals are building, but price action has yet to follow",
+        "url": "https://cryptoslate.com/xrps-bullish-signals-are-building-but-price-action-has-yet-to-follow/",
+        "published_at": "2026-05-17T19:05:23+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin MVRV Pattern Predicts Major Downswing Ahead \u2013 Details",
+        "url": "https://bitcoinist.com/bitcoin-mvrv-pattern-predicts-major-downswing-ahead/",
+        "published_at": "2026-05-17T19:00:25+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Japan\u2019s SBI, Rakuten developing crypto investment trusts in-house: Nikkei",
+        "url": "https://www.theblock.co/post/401561/japans-sbi-rakuten-developing-crypto-investment-trusts-in-house-nikkei?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-17T18:44:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Saylor signals BTC buy as retail holders get push on STRC dividend vote",
+        "url": "https://cointelegraph.com/news/saylor-signals-btc-buy-as-retail-holders-get-push-on-strc-dividend-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-17T18:01:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "HYPE ETFs post 2026\u2019s strongest altcoin debut as inflow test comes next",
+        "url": "https://cryptoslate.com/hype-etfs-post-2026s-strongest-altcoin-debut-as-inflow-test-comes-next/",
+        "published_at": "2026-05-17T17:45:48+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CLARITY Act Could Unlock Wider Tech Growth In America, Says a16z",
+        "url": "https://bitcoinist.com/clarity-act-could-unlock-wider-tech-growth-in-america-says-a16z/",
+        "published_at": "2026-05-17T17:00:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Price Could Resume Its Downward Trend As Realized Profit Climbs To 2022 Level",
+        "url": "https://bitcoinist.com/bitcoin-price-could-be-resuming-its-downward-trend/",
+        "published_at": "2026-05-17T15:00:44+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
