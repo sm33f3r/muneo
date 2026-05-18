@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-18T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2647371396753.01,
+    "total_market_cap_change_24h_pct": -1.8102,
+    "total_volume_24h_usd": 110172162748.44,
+    "btc_dominance_pct": 58.1944,
+    "eth_dominance_pct": 9.6777,
+    "total2_usd": 1106750151899.1,
+    "total3_usd": 850545699663.96,
+    "active_cryptocurrencies": 17396,
+    "altcoin_season_index": 47,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 35.6027,
+        "price_usd": 0.445086,
+        "market_cap_usd": 199700332
+      },
+      {
+        "symbol": "MBTC",
+        "name": "MAGA Bitcoin",
+        "price_change_24h_pct": 30.3268,
+        "price_usd": 0.197096,
+        "market_cap_usd": 214835437
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 19.1915,
+        "price_usd": 0.03103242,
+        "market_cap_usd": 254331537
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 18.1585,
+        "price_usd": 0.684404,
+        "market_cap_usd": 153017390
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": 11.5957,
+        "price_usd": 0.239653,
+        "market_cap_usd": 544663825
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XP",
+        "name": "Xphere",
+        "price_change_24h_pct": -29.7235,
+        "price_usd": 0.04843097,
+        "market_cap_usd": 132058030
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -14.687,
+        "price_usd": 0.140117,
+        "market_cap_usd": 350567119
+      },
+      {
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "price_change_24h_pct": -11.4158,
+        "price_usd": 0.00032699,
+        "market_cap_usd": 137563233
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": -10.8168,
+        "price_usd": 0.00285689,
+        "market_cap_usd": 271771616
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -10.1873,
+        "price_usd": 0.354168,
+        "market_cap_usd": 354532460
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76969,
+    "price_change_24h_pct": -1.7778,
+    "price_change_7d_pct": -6.0653,
+    "market_cap_usd": 1541785569157,
+    "volume_24h_usd": 47542048490,
+    "direction": "bearish",
+    "oi_usd": 8032728523.85,
+    "funding_rate_latest": 7.178e-05,
+    "funding_rate_7d_avg": 2.5843809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4432,
+    "long_account_pct": 59.07,
+    "short_account_pct": 40.93,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2126.59,
+    "price_change_24h_pct": -2.9422,
+    "price_change_7d_pct": -9.0772,
+    "market_cap_usd": 256649683167,
+    "volume_24h_usd": 21221384818,
+    "eth_btc_ratio": 0.027629,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82930050383.66,
+    "stablecoin_market_cap_usd": 321417339460.57,
+    "stablecoin_dominance_pct": 12.141
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 41,
+    "headlines": [
+      {
+        "headline": "Trump administration ends civil, criminal cases against Adani after $10 billion investment promise - Reuters",
+        "summary": "Trump administration ends civil, criminal cases against Adani after $10 billion investment promise\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeXdpUzV6UWQwQmtDdWlWMGlJVnppWFNzR1Jzc2Z5N0F4dTFUM2kwbnNhcGU4YUgybTZCa1hka1hmNEFSZUhmbDZoRmw2dnpRdkxVNjliYjJHaGFMSXhRcmdFelpSYmxEdXRpazJia1lXWFdxVzYxT0FQRnRlRFhCVWRHQmJCMjJobEYtRHhuRzJvLXBrLWwwLVI1RE8zbnY5M0V2cnJKdGxKV1V4U1l4RlRxUWRDNGlJN1RYUjJ2OA?oc=5",
+        "published_at": "2026-05-18T20:34:27Z"
+      },
+      {
+        "headline": "Trump says holding off on Iran attack planned for Tuesday - Reuters",
+        "summary": "Trump says holding off on Iran attack planned for Tuesday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTlJPVXZwaUVRaEJoNm40S0hBTWlFbGJoX2JnSEVOallUcm94NWdLUUQ0WW1vRjktMHNDNGlqUEFoMVlwOG14UGNnNUs4bURmZWRWaEdkMHJYOENORmRISnRMd0FmcmpLZUpoU1hhV0QtOWN5MmFrR2ZZM1hDREhmaXhsSTRnYWpvYTd1aTJVNjNNLW9pcFVv?oc=5",
+        "published_at": "2026-05-18T19:13:28Z"
+      },
+      {
+        "headline": "We're raising price targets on 2 cyber stocks after their hard-fought recovery",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/18/were-raising-price-targets-on-two-cyber-stocks-after-their-hard-fought-recovery.html",
+        "published_at": "2026-05-18T18:57:30Z"
+      },
+      {
+        "headline": "32-year-old left her dream job in the NFL to make a career pivot\u2014how she knew it was 'time to take a risk'",
+        "summary": "Melissa Menta left her managerial role in player operations in the NFL, a dream employer for her, to begin law school.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/18/32-year-old-left-her-dream-job-in-the-nfl-to-make-a-career-pivot-it-was-time-to-take-a-risk.html",
+        "published_at": "2026-05-18T18:41:22Z"
+      },
+      {
+        "headline": "Pakistan sends new Iranian peace proposal to US - Reuters",
+        "summary": "Pakistan sends new Iranian peace proposal to US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?oc=5",
+        "published_at": "2026-05-18T18:36:42Z"
+      },
+      {
+        "headline": "It's not too late to buy Nvidia. Here are the reasons we say 'own it, don't trade it'",
+        "summary": "\"If you wanted to buy some here, I totally endorse it. I just feel that we own it, we don't wanna trade it,\" Jim Cramer said Monday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/18/its-not-too-late-to-buy-nvidia-here-are-the-reasons-we-say-own-it-dont-trade-it.html",
+        "published_at": "2026-05-18T17:56:50Z"
+      },
+      {
+        "headline": "No deal, no exit: How US-Iran standoff risks fresh conflict - Reuters",
+        "summary": "No deal, no exit: How US-Iran standoff risks fresh conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUjJEMS1FUWxyVzZxazdHM3N2REYtTXJMdHpHWEsySk4xWXdSejNKMFlMVnI0TUhPZzhxSTUwWG92Yk9JaDF4OXltM0JNbGo3VkUyWGtvSy1Zc1JuTzQwVm5TOFU2ZVJjNFhTRmd2QkpnaW5iS1o5a2duN1VJYThMek5WUFNEVExXcTBxaldUeHJ4cG9tVDQ0UmtNSUF3NnBDa0FnajBpWHp1cmJXSGxXMQ?oc=5",
+        "published_at": "2026-05-18T17:48:13Z"
+      },
+      {
+        "headline": "We're calling up a Bullpen stock, buying small to give us room to build",
+        "summary": "A stock decline of 9% on something that will impact less than 2% of sales was an overreaction.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/18/were-calling-up-a-bullpen-stock-buying-small-to-give-us-room-to-build.html",
+        "published_at": "2026-05-18T17:32:06Z"
+      },
+      {
+        "headline": "US Treasury extends sanction waiver on Russian seaborne oil to aid vulnerable countries - Reuters",
+        "summary": "US Treasury extends sanction waiver on Russian seaborne oil to aid vulnerable countries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcms1UU9KdDZ1SkNQY0tsbC1QdUx3cU1oR25mZFI4RHBCQ2RIWVZ4RjVGeFFyTENjMXFvMW5TRzN4TmZaMHNIYVJiZzRyNmx0bngxazBBSHFvcWxERDAxOF9HR0ZHaE51LTNxVE5NVkdKWE9xQ2Q2d29iajRxYmNneVFCdWZtY0l1dDJYTXppdUo3WTc3X1JJVGtVQ3Y5TzhjcVJEbXItMmswaTNhOUxMZ21seGZLYjZvOUQ0?oc=5",
+        "published_at": "2026-05-18T17:27:38Z"
+      },
+      {
+        "headline": "Bank of England's Greene says central banks can't assume Iran war impact will be temporary - Reuters",
+        "summary": "Bank of England's Greene says central banks can't assume Iran war impact will be temporary\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVmlFNTBHeXl0cmJ2UmMwTFI2VlZrYmV2b0lFQkdJVVZzRjdRd2ZYWHZndTBobW1tUE9ZdlJVaURXMXFkelMyYjYwNVRIanM0YVNRVW1vZFBfVFd3VnFmTlM4czcyLUZneFFVUGNWRkhQRlpOVG9aUndzZ2FndFRuYS1rRUJ6alJtSEktSXdoMXFDUnB4c0VHaWRQMm95bzZWWnZ6UXBFZHBnX1ItbXNoOVVRTm15M2Q2bjZIeU1ramlYbGkzdUFj?oc=5",
+        "published_at": "2026-05-18T15:48:13Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 738.61,
+    "spy_change_pct": -0.0758,
+    "spy_lean": "neutral",
+    "vix_close": 18.43,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 83,
+    "positive_count": 13,
+    "negative_count": 18,
+    "neutral_count": 52,
+    "sentiment_ratio": 0.1566,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "AI Still Can't Beat the On-Call Engineer: Here's Why",
+        "url": "https://decrypt.co/368265/arfbench-datadog-benchmark-ai-engineers-outages",
+        "published_at": "2026-05-18T21:05:45+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Faces Greater Quantum Computing Risk Than Ethereum, Citi Warns",
+        "url": "https://decrypt.co/368264/bitcoin-faces-greater-quantum-computing-risk-ethereum-citi-warns",
+        "published_at": "2026-05-18T20:55:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin\u2019s price drop below $78K cleared the path for a rebound as options traders hedge downside risk",
+        "url": "https://cryptoslate.com/bitcoin-price-drop-78000-rebound-options-hedging/",
+        "published_at": "2026-05-18T20:05:55+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin\u2019s trend defining battle starts at the $74K support: Analyst",
+        "url": "https://cointelegraph.com/markets/bitcoin-analyst-flags-74k-as-btcs-biggest-support-battle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-18T19:57:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ostium\u2019s onchain perpetuals exchange to be \u2018powered\u2019 by Nasdaq data",
+        "url": "https://www.theblock.co/post/401743/ostiums-onchain-perpetuals-exchange-nasdaq-data?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-18T19:56:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Swan Bitcoin Hit With Nearly $1 Billion Lawsuit Over Prime Trust Collapse",
+        "url": "https://decrypt.co/368244/swan-bitcoin-nearly-1-billion-lawsuit-prime-trust-collapse",
+        "published_at": "2026-05-18T19:48:36+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zerohash secures first EMI license under MiCA for stablecoin and brokerage services in Europe",
+        "url": "https://www.theblock.co/post/401741/zerohash-first-emi-license-mica-stablecoin-brokerage-services-europe?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-18T19:27:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Open-Source Phone AI Agent Sees, Hears and Acts\u2014All Without Touching the Cloud",
+        "url": "https://decrypt.co/368238/oppo-x-omniclaw-android-ai-agent",
+        "published_at": "2026-05-18T19:13:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket Users Spur Insider Trading Suspicions With $2.4 Million in Iran Prediction Wins",
+        "url": "https://decrypt.co/368255/polymarket-users-insider-trading-2-4-million-iran-predictions",
+        "published_at": "2026-05-18T18:55:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "TRUMP coin World Cup VIP offer lets insiders sell while holders compete for tickets",
+        "url": "https://cryptoslate.com/trump-coin-world-cup-insider-sale-terms/",
+        "published_at": "2026-05-18T18:35:04+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
