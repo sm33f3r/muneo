@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-19T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2645802949471.84,
+    "total_market_cap_change_24h_pct": -0.3181,
+    "total_volume_24h_usd": 75326396137.02,
+    "btc_dominance_pct": 58.2707,
+    "eth_dominance_pct": 9.6579,
+    "total2_usd": 1104074962674.93,
+    "total3_usd": 848546016008.03,
+    "active_cryptocurrencies": 17405,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 24.6612,
+        "price_usd": 0.03867659,
+        "market_cap_usd": 317199820
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 18.912,
+        "price_usd": 17.11,
+        "market_cap_usd": 791082159
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 17.5075,
+        "price_usd": 1.098,
+        "market_cap_usd": 274152270
+      },
+      {
+        "symbol": "SAHARA",
+        "name": "Sahara AI",
+        "price_change_24h_pct": 15.7193,
+        "price_usd": 0.03785032,
+        "market_cap_usd": 124007837
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 13.8256,
+        "price_usd": 0.778216,
+        "market_cap_usd": 173269698
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -32.8772,
+        "price_usd": 0.101539,
+        "market_cap_usd": 246757484
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": -16.8792,
+        "price_usd": 0.369194,
+        "market_cap_usd": 165050537
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -12.1406,
+        "price_usd": 0.123111,
+        "market_cap_usd": 307794779
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -11.7951,
+        "price_usd": 4.21,
+        "market_cap_usd": 322831385
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -10.7608,
+        "price_usd": 0.737961,
+        "market_cap_usd": 198983005
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76931,
+    "price_change_24h_pct": -0.0496,
+    "price_change_7d_pct": -4.7744,
+    "market_cap_usd": 1541441668785,
+    "volume_24h_usd": 31059688769,
+    "direction": "neutral",
+    "oi_usd": 7998500222.21,
+    "funding_rate_latest": 5.563e-05,
+    "funding_rate_7d_avg": 2.8678095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4624,
+    "long_account_pct": 59.39,
+    "short_account_pct": 40.61,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2116.55,
+    "price_change_24h_pct": -0.4726,
+    "price_change_7d_pct": -7.3497,
+    "market_cap_usd": 255479511954,
+    "volume_24h_usd": 11795850821,
+    "eth_btc_ratio": 0.027512,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82894491684.93,
+    "stablecoin_market_cap_usd": 321166085507.99,
+    "stablecoin_dominance_pct": 12.1387
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 41,
+    "headlines": [
+      {
+        "headline": "NATO not drawing up plans for Hormuz mission, top commander says - Reuters",
+        "summary": "NATO not drawing up plans for Hormuz mission, top commander says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTZNTVNNQ1l5elFEQzQ5empmSHp3d05DeTNlaDYtMGZnZHZjZThRS0ZPWjZoRl9OOGNabXd2VEVTNTQ2bktWcDRWMC0yaGh6Qjl6ek5hVEp1WEkyZFNUVlhlckRLTDV4c3BCZzBpYmxSVXlJTkhRTG9rbmNWX1c0dnJrODF4T1lmNkU2bnl2NlVjMlhyNGlsZi16YXBoTUd6dzdCU05mZlpkQUlvSzhNV2VQbHdEVjN1VkpSSE8yMmJheFktajNPZEwxMA?oc=5",
+        "published_at": "2026-05-19T19:55:21Z"
+      },
+      {
+        "headline": "Bessent urges more disruption to Iran's financing, will review US sanctions list - Reuters",
+        "summary": "Bessent urges more disruption to Iran's financing, will review US sanctions list\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZWhPSlVpQUxGMFpvbFl1WDZqZUE3WFVOdUxsMUFRUnBMT0RhZEF2VEhyMDNSTThXWnFpTktuQU5rU3B6R0xCZ05LMzRwcER2T3V2Y1FqcFM0RUJDSVlBLUhoMkoxN3ItNndyZU9vSVFYcG81S3VUY3gzMElFWGp1ejdPMVgwYlZVSjJzN0o2Q2h3TEVmYkkyUHJPN213MzNnTDNza0poMXNja3dMU3JmS25HdnUzSF9tTHlPRFZoTDJvSFMwMkhB?oc=5",
+        "published_at": "2026-05-19T19:54:32Z"
+      },
+      {
+        "headline": "What's the mortgage rate you'll be paying later this year? Probably higher",
+        "summary": "With mortgage rates reaching a record high on Tuesday, traders also increase likelihood that rates will go above 6.8%.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/19/the-rate-on-a-mortgage-you-will-be-paying-this-year-is-getting-higher.html",
+        "published_at": "2026-05-19T19:45:30Z"
+      },
+      {
+        "headline": "Trump approval drops to 35% as Republican support softens, Reuters/Ipsos poll finds - Reuters",
+        "summary": "Trump approval drops to 35% as Republican support softens, Reuters/Ipsos poll finds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVnRqWmwxX09HbEk4WGtFTGNBNnF3a1Vvd3MwNFczNDBwN0hudWtTNm01QURTZzZsRnNDOEwzRkVfMmtBMDhlQUdzTG9lOWFiY2UxMlktRWJQUGtGU1BtYXB4a3hQdEJlaHRHcGdNNWFqNUhIZTBFV1g3UmZsQUQ0VGVLZ3RPLTlSZjZrSkdFNlFTUzB4NTNNTzVXNGlEU0RpUEhJMDJNQUNNT2JvYldPSS1lRlFYci1uZW44?oc=5",
+        "published_at": "2026-05-19T19:20:37Z"
+      },
+      {
+        "headline": "G7 finance ministers agree need for action on economic imbalances - Reuters",
+        "summary": "G7 finance ministers agree need for action on economic imbalances\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUnhudmJ5VG1fcTE3Y1RXSEhSN2diRjQ3Z3hwNVRUd1dwdlFadlBNMDRzak13VjMwdFU1enNmbDZzMFhyNW9ManBTYkJueW5UMnkwMjdsRGNTSE8zRVd5cEFGaWwwVWRiU2t0LXcwSDZYdGpCMXFBLWJzWXZBUk5QTVJSbnR1SjFOdVpUY2dFQ2NONUUwdzZlQmdLTVZxY19RblhUNjhn?oc=5",
+        "published_at": "2026-05-19T19:18:02Z"
+      },
+      {
+        "headline": "Vance says 'a lot of progress' made in Iran talks - Reuters",
+        "summary": "Vance says 'a lot of progress' made in Iran talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeE5ZTjcyQ24tX2pUZ2FKRmNUSHA1SWNTSElMTy1lWWFuWVNjUFNlek5SZm1zaTVSVko5VW5tdnNyOGZPRnpWMmdhQUFTX2cxYzJQQmhFWWc1RzlWNVh4NGI5UnU1SWpvbW1QV2tmaW1lWmY2WEZEQ0pfdzdxSkc4YnktSXVYQzgzMnZhalhTWFlCY2pncmFlaGNqOA?oc=5",
+        "published_at": "2026-05-19T19:06:38Z"
+      },
+      {
+        "headline": "New data boosts our confidence in Lilly's obesity pill. Plus, Google's new AI features",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/19/new-data-boosts-our-confidence-in-lillys-obesity-pill-plus-googles-new-ai-.html",
+        "published_at": "2026-05-19T18:38:37Z"
+      },
+      {
+        "headline": "Trump says US may strike Iran again but that Tehran wants deal - Reuters",
+        "summary": "Trump says US may strike Iran again but that Tehran wants deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSF9rZVdjR0RKS2w2VnI2M2dWWXZQQ21vck5sX1BRSGs0UVc0YWpTbXEzUEdXVGN6dmRLaTRMQlBERENZQTlUZnl5ZFVxLUNmd0N6dzk0bWlmaDlmcFlER0FDeFhWRDBUV29ONXBVb0xZblZIWE5VcW04Y3FMdGZUY1dHY3NVa2lzLWRyVGhHSUwwMElGQUFJLTEzTGtaeGlheUlqMjQtNTVwOHBzTjNOX2RfcF9reVFuU2FiSmVLcFRGbGRRZmk5bDdWdw?oc=5",
+        "published_at": "2026-05-19T18:20:44Z"
+      },
+      {
+        "headline": "Here's why Broadcom is a winner from Blackstone's new AI venture with Google",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/19/why-broadcom-is-a-winner-from-blackstones-new-ai-venture-with-google.html",
+        "published_at": "2026-05-19T16:40:31Z"
+      },
+      {
+        "headline": "Trump endorses Ken Paxton over John Cornyn in Texas Senate race",
+        "summary": "Paxton and Cornyn are locked in a bitter Texas Senate runoff that will decide which Republican faces Democrat James Talarico in November.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/19/trump-primary-election-ken-paxton-john-cornyn-texas-senate.html",
+        "published_at": "2026-05-19T16:40:04Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 733.78,
+    "spy_change_pct": -0.6593,
+    "spy_lean": "bearish",
+    "vix_close": 17.82,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 78,
+    "positive_count": 23,
+    "negative_count": 11,
+    "neutral_count": 44,
+    "sentiment_ratio": 0.2949,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "XRP Ledger Announces Quantum-Era Partnership: Project Eleven Teams With Ripple",
+        "url": "https://bitcoinist.com/xrp-ledger-project-eleven-plan-for-quantum-era/",
+        "published_at": "2026-05-19T21:24:40+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise calls HYPE a \u2018Gen 2\u2019 crypto token, says its undervalued",
+        "url": "https://www.theblock.co/post/401934/bitwise-calls-hype-a-gen-2-crypto-token-says-its-undervalued?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-19T20:58:07+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized equities daily volume hits all-time high of $3.57 billion",
+        "url": "https://www.theblock.co/post/401935/tokenized-equities-daily-volume-hits-all-time-high-of-3-57-billion?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-19T20:45:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Data shows Bitcoin dip buyers waiting for lower prices: Is $70K BTC\u2019s next stop?",
+        "url": "https://cointelegraph.com/markets/bitcoin-traders-may-look-for-deeper-pullback-zones?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-19T20:34:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Americans Arrested in Japan for Entering Punch the Monkey\u2019s Zoo Home to Promote Meme Coin",
+        "url": "https://decrypt.co/368383/men-arrested-japan-entering-punch-monkey-zoo-enclosure-meme-coin",
+        "published_at": "2026-05-19T20:26:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Donald Trump Abandons Meme Coins In Favor Of These Indirect Bitcoin Exposure Vehicles",
+        "url": "https://bitcoinist.com/indirect-bitcoin-exposure-vehicles/",
+        "published_at": "2026-05-19T20:00:15+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Miners Emerge as Unlikely Power Brokers in AI Infrastructure Race, Says Bernstein",
+        "url": "https://decrypt.co/368381/bitcoin-miners-unlikely-power-brokers-ai-infrastructure-race-bernstein",
+        "published_at": "2026-05-19T19:35:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Unveils Gemini Omni\u2014A Next-Gen AI Video Builder That Can 'Simulate the World'",
+        "url": "https://decrypt.co/368393/google-unveils-gemini-omni-next-gen-ai-video-builder-simulate-world",
+        "published_at": "2026-05-19T19:26:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket partners with Nasdaq to list private company contracts",
+        "url": "https://cointelegraph.com/news/polymarket-partners-with-nasdaq-to-launch-private-company-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-19T19:14:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Launches Gemini Spark: A 24/7 AI Agent That Wants to Make You Ditch OpenClaw",
+        "url": "https://decrypt.co/368389/google-gemini-spark-ai-agent-challenge-hermes-openclaw",
+        "published_at": "2026-05-19T18:52:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
