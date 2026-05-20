@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-20T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2669107030381.18,
+    "total_market_cap_change_24h_pct": 0.9414,
+    "total_volume_24h_usd": 76922510694.44,
+    "btc_dominance_pct": 58.2335,
+    "eth_dominance_pct": 9.6446,
+    "total2_usd": 1114793514386.43,
+    "total3_usd": 857368039379.56,
+    "active_cryptocurrencies": 17399,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": 35.9825,
+        "price_usd": 5.71e-06,
+        "market_cap_usd": 347585398
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 30.2204,
+        "price_usd": 1.03,
+        "market_cap_usd": 229222585
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": 27.692,
+        "price_usd": 0.528681,
+        "market_cap_usd": 249811032
+      },
+      {
+        "symbol": "BANANAS31",
+        "name": "Banana For Scale",
+        "price_change_24h_pct": 20.1596,
+        "price_usd": 0.01347451,
+        "market_cap_usd": 134743323
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 18.6094,
+        "price_usd": 679.29,
+        "market_cap_usd": 11336175989
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MBTC",
+        "name": "MAGA Bitcoin",
+        "price_change_24h_pct": -17.6035,
+        "price_usd": 0.154,
+        "market_cap_usd": 164184841
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -15.0191,
+        "price_usd": 0.086317,
+        "market_cap_usd": 211164999
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -10.714,
+        "price_usd": 3.19,
+        "market_cap_usd": 4154415214
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -7.5757,
+        "price_usd": 0.113808,
+        "market_cap_usd": 283342718
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": -4.2004,
+        "price_usd": 0.04508785,
+        "market_cap_usd": 467846990
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77567,
+    "price_change_24h_pct": 0.8277,
+    "price_change_7d_pct": -2.5097,
+    "market_cap_usd": 1553942324104,
+    "volume_24h_usd": 28550058831,
+    "direction": "neutral",
+    "oi_usd": 7897240622.19,
+    "funding_rate_latest": 6.858e-05,
+    "funding_rate_7d_avg": 3.1317142857142855e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2952,
+    "long_account_pct": 56.43,
+    "short_account_pct": 43.57,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2132.39,
+    "price_change_24h_pct": 0.7597,
+    "price_change_7d_pct": -5.459,
+    "market_cap_usd": 257348623686,
+    "volume_24h_usd": 11805402985,
+    "eth_btc_ratio": 0.027491,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 83247990380.14,
+    "stablecoin_market_cap_usd": 321261664726.42,
+    "stablecoin_dominance_pct": 12.0363
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 38,
+    "headlines": [
+      {
+        "headline": "Sinkhole shuts runway at LaGuardia Airport, delaying flights, Port Authority warns",
+        "summary": "The Port Authority said travelers should expect delays and cancellations, with thunderstorms expected also expected to roll in Wednesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/20/laguardia-airport-lga-flights.html",
+        "published_at": "2026-05-20T20:50:37Z"
+      },
+      {
+        "headline": "Iran is consolidating control of Hormuz with island checkpoints, diplomatic deals \u2013 and sometimes \u2018fees\u2019 - Reuters",
+        "summary": "Iran is consolidating control of Hormuz with island checkpoints, diplomatic deals \u2013 and sometimes \u2018fees\u2019\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMzNJZTNOVW9ScHNEZjlhenY5VFdwa3ZmVXhCVk9MYWgxY0hnRlVmVUFUNERHS0ZsVlBJZXNBSEw5c3BHYTJxUFA2cDdlZjBBMXRsTDFFN2dXMEJybG9ycU44d1c5WDdwZ09EdDNCWm5kRE8yTW04clJnY05URDdadVZzanZTSFA0bkxFVF90Ym10a1RUYUdmYWNmN2dlNXc1SGdOelpZLU1UQm9aV0RXZkJZeEdRamlmbEl4SlFveEs4RVA0LVlN?oc=5",
+        "published_at": "2026-05-20T19:52:30Z"
+      },
+      {
+        "headline": "Stocks rally and oil falls. Plus, the implications of Samsung averting a strike",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/20/stocks-rally-and-oil-falls-plus-the-implications-of-samsung-averting-a-strike.html",
+        "published_at": "2026-05-20T18:13:12Z"
+      },
+      {
+        "headline": "Trump: may have to hit Iran harder - or maybe not - Reuters",
+        "summary": "Trump: may have to hit Iran harder - or maybe not\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR2oxOWRTdlB0bllSbFM1UE1YdFh5TlJiazU0QUgyN0RzbFFzSTFJTVVpWWZKN0ZzVEZOSXlRaE11V2V0LTYtZTVzM1JueVZ4TGhIXzdXYXlJb2s3QklWMVdUbkFTYUJwdFpxZDBFR3ZjSzhiSGdHVExHUkJWZEZ3TzZZaGdUWlBzc0tOZXh3?oc=5",
+        "published_at": "2026-05-20T17:54:31Z"
+      },
+      {
+        "headline": "Iran seeking mechanism with Oman over Hormuz, foreign ministry spokesperson says - Reuters",
+        "summary": "Iran seeking mechanism with Oman over Hormuz, foreign ministry spokesperson says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVWhtb2pob0F0bVI1Yk9yWFlRNnpWSFg2d0p5U1EyYlFnOXZneVNyWEh0MktpUU1udUVFajdMM214UG1LRnIwN1pvV2s5VzVaMkVpb2tNNmpHOEozYlNlaU9HbS1RQ2pUdjRjYmZYZHZ4S1lUQW80V2FaZ1hab0xKVXRzY3FsSkM0SWxuYmdQVl9ZYWppV0xuWDlPNmZfR210QWVPeVFza0IxcTM1Y0R2MUdmV1ZiVkFFTUpuVkFjRl9XbG9OWWppSHc1OGt5Zw?oc=5",
+        "published_at": "2026-05-20T17:31:43Z"
+      },
+      {
+        "headline": "'Am I out?' Drought and rising costs from Iran war deepen pain for US farmers - Reuters",
+        "summary": "'Am I out?' Drought and rising costs from Iran war deepen pain for US farmers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUjd6MUMtT2xpUUFRV0QxUjN6TkJFQ0pxQnBrX2t3aUVlcmJHaUZmYjRSdzE2NU1jZHdjYWV0a2tBWDJSY01hWFFRd1ZSRHF2a3lxYkh4V2RoZXJCY3l5RXUyUi1mcVNzZnRPVjlSYWFPNUZYOGNQYWJzcEU1QV9lSVZnM1JiZ3ZLMGVvOVpfYnpCOEljMHczRk1mM3gtdnFNUG1LU1RZNVJCc2JvRGgtcFJlZDVEUXdzTmc?oc=5",
+        "published_at": "2026-05-20T15:47:21Z"
+      },
+      {
+        "headline": "Bank of England has time to gauge impact of Iran war, Bailey says - Reuters",
+        "summary": "Bank of England has time to gauge impact of Iran war, Bailey says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzg5WlF5YUFPek10UXJYSXdrMnY0dTVDUnJqYUZyWWdKN3J2THFFS0pNUjFobkVZV3BjSGpKRFExM3UzWmpPNW44dkQzeEdYSDJ3ZzdqNm14M2Jua01rR04yRTlFOHRBNHp0SU52TFA5cUpva3NKSzNUM3FWT3NDYTZNQVM4ano0SXd2RDJWTTZXRTZTQUZ1T0hKazNtSFZ0ZUtmVGNkU2cySTR3?oc=5",
+        "published_at": "2026-05-20T15:32:39Z"
+      },
+      {
+        "headline": "New UAE oil pipeline bypassing Hormuz 50% complete ahead of 2027 start - Reuters",
+        "summary": "New UAE oil pipeline bypassing Hormuz 50% complete ahead of 2027 start\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1EyS05JUV9zbW1BTHAtVzFQMXd3NXM0enZJOGplMEpsTjBNNkpGNEQ4WlB0YnFjZjM0TmlnTHU4QUlDM0ZaRGdUVWdpR2w4QXJzX2ZFU3pFOVhpVlpSRXdfY3J5X0dNdU5YdkdITElYenJHZDNFRmFpTHowUTlrUGlxZ29YQ3pJNjNrR1ptdy1hZnB0dmEwMTFzZHNCdHpZZ1RTZ0hxY2tPRHFQZ3dBa2MxMlpyMURITEE?oc=5",
+        "published_at": "2026-05-20T15:20:08Z"
+      },
+      {
+        "headline": "Post-hantavirus outbreak, infectious disease experts share how to cruise safely\u2014and assess the health risks",
+        "summary": "A hantavirus outbreak on the MV Hondius cruise ship has brought some health and safety questions about cruises back into the public eye. Here's what doctors say.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/20/cruise-safety-tips-from-infectious-disease-experts-after-hantavirus-outbreak.html",
+        "published_at": "2026-05-20T14:55:00Z"
+      },
+      {
+        "headline": "Trump blinks as big, bad bond market bares its teeth - Reuters",
+        "summary": "Trump blinks as big, bad bond market bares its teeth\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnZtN1lXbHppUkRDczZZLUhfaDdCQmRlTTNRN2VYekhzWWhuV19mSloyY2M5bGVNeUc1eEVUSnVVRHhVY3pDbl9Pa0MtQ2JTNXhnZ1BRdTdrc2h3ZmRnVV9QZS1kTzNtTXgxdVZVcVJqY3JHWHRLYkRrNHRodEhDVHJyLVhIV0N0cGVhRWRLOHBNRDBPUVhnbjFwVDBVdHczWFdLdEVRdkxHRnhKcFl1LW1kb3VJZDd0?oc=5",
+        "published_at": "2026-05-20T13:09:11Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 741.26,
+    "spy_change_pct": 1.0263,
+    "spy_lean": "bullish",
+    "vix_close": 18.06,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 78,
+    "positive_count": 16,
+    "negative_count": 18,
+    "neutral_count": 44,
+    "sentiment_ratio": 0.2051,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Elon Musk\u2019s SpaceX holds $1.45 billion worth of bitcoin as firm looks to go public",
+        "url": "https://www.theblock.co/post/402110/elon-musks-spacex-holds-1-45-billion-worth-of-bitcoin-as-firm-looks-to-go-public?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-20T21:24:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Backing or Trump Pump? Fairshake PAC Claims Primary Victories",
+        "url": "https://decrypt.co/368555/crypto-backing-trump-pump-fairshake-pac-claims-primary-victories",
+        "published_at": "2026-05-20T21:17:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC\u2019s \u2018Crypto Mom\u2019 to join law school, signaling end of time at regulator",
+        "url": "https://cointelegraph.com/news/secs-hester-peirce-regent-law-faculty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-20T20:46:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Artificial Womb for Growing Mammals Is at 'One-Yard Line', Says Colossal CEO",
+        "url": "https://decrypt.co/368543/artificial-womb-growing-mammals-one-yard-line-colossal-ceo",
+        "published_at": "2026-05-20T20:40:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin is left stranded as Fed projections flip to 54% chance of rate hikes this year",
+        "url": "https://cryptoslate.com/bitcoin-holders-expected-fed-relief-futures-now-point-the-other-way/",
+        "published_at": "2026-05-20T20:20:17+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Treasury Sanctions Sinaloa Cartel Over Crypto-Fueled Fentanyl Trafficking",
+        "url": "https://decrypt.co/368532/us-treasury-sanctions-sinaloa-cartel-crypto-fueled-fentanyl-trafficking",
+        "published_at": "2026-05-20T19:54:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Price predictions 5/20: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "url": "https://cointelegraph.com/markets/price-predictions-520-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-20T19:36:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin mirrors 2022 bear market pattern as sentiment turns \u2018extremely bearish\u2019",
+        "url": "https://www.theblock.co/post/402091/cryptoquant-bitcoin-bear-market-pattern-sentiment-extremely-bearish?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-20T19:35:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Seeing A Crucial Shift In Demand Dynamics While Price Action Weakens",
+        "url": "https://bitcoinist.com/bitcoin-hift-in-demand-dynamics/",
+        "published_at": "2026-05-20T19:30:18+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Washington Targets Iran\u2019s $7 Billion Crypto Network To Cut Off Financial Channels\u2014FOX",
+        "url": "https://bitcoinist.com/washington-targets-irans-7-billion-crypto-network/",
+        "published_at": "2026-05-20T19:30:11+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
