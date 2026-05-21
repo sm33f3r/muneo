@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-21T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2678876215465.77,
+    "total_market_cap_change_24h_pct": 0.4876,
+    "total_volume_24h_usd": 83106090001.61,
+    "btc_dominance_pct": 58.1127,
+    "eth_dominance_pct": 9.6242,
+    "total2_usd": 1122108289033.03,
+    "total3_usd": 864286620333.83,
+    "active_cryptocurrencies": 17403,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 25.9792,
+        "price_usd": 0.40188,
+        "market_cap_usd": 235192057
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 20.2357,
+        "price_usd": 0.776705,
+        "market_cap_usd": 206567315
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price_change_24h_pct": 15.1827,
+        "price_usd": 1.95,
+        "market_cap_usd": 2533450559
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 14.0606,
+        "price_usd": 0.01156423,
+        "market_cap_usd": 615921530
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": 13.397,
+        "price_usd": 0.468577,
+        "market_cap_usd": 441036392
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "USDA",
+        "name": "USDa",
+        "price_change_24h_pct": -29.6441,
+        "price_usd": 0.691616,
+        "market_cap_usd": 152631430
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -19.177,
+        "price_usd": 0.091603,
+        "market_cap_usd": 228965330
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -18.8199,
+        "price_usd": 0.299314,
+        "market_cap_usd": 299315961
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -17.974,
+        "price_usd": 0.219666,
+        "market_cap_usd": 404756561
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -12.1753,
+        "price_usd": 2.8,
+        "market_cap_usd": 3644642935
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77703,
+    "price_change_24h_pct": 0.1793,
+    "price_change_7d_pct": -4.5259,
+    "market_cap_usd": 1556483400229,
+    "volume_24h_usd": 29898407286,
+    "direction": "neutral",
+    "oi_usd": 7827263059.16,
+    "funding_rate_latest": 6.13e-05,
+    "funding_rate_7d_avg": 3.1844761904761906e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2553,
+    "long_account_pct": 55.66,
+    "short_account_pct": 44.34,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2136.15,
+    "price_change_24h_pct": 0.1837,
+    "price_change_7d_pct": -7.0539,
+    "market_cap_usd": 257807594891,
+    "volume_24h_usd": 13528238184,
+    "eth_btc_ratio": 0.027491,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 83489176257.98,
+    "stablecoin_market_cap_usd": 320795675925.13,
+    "stablecoin_dominance_pct": 11.975
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 14,
+    "headlines": [
+      {
+        "headline": "Will Elon Musk eventually merge SpaceX with Tesla? Speculation is building",
+        "summary": "Analysts speculate that Elon Musk will merge his two companies but traders on prediction markets are not so certain.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/will-elon-musk-eventually-merge-spacex-with-tesla-speculation-builds.html",
+        "published_at": "2026-05-21T19:20:01Z"
+      },
+      {
+        "headline": "Traders think this legacy tech stock is the ultimate quantum play",
+        "summary": "Options traders stormed into the stock, trading almost 200,000 contracts, on pace for 15 times the daily average of the past 30 days.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/traders-think-this-legacy-tech-stock-is-the-ultimate-quantum-play.html",
+        "published_at": "2026-05-21T18:42:49Z"
+      },
+      {
+        "headline": "SpaceX, OpenAI valuations would mean they leapfrog Berkshire Hathaway on first day of trading",
+        "summary": "Traders on prediction market Polymarket think SpaceX, OpenAI and Anthropic on their first day of trading will surpass valuations of at least $1.4 trillion.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/spacex-openai-valuations-to-leapfrog-berkshire-hathaway-traders-say.html",
+        "published_at": "2026-05-21T18:26:35Z"
+      },
+      {
+        "headline": "Oura, smart ring maker, confidentially files for IPO",
+        "summary": "Oura, the maker of the health and wellness tracking smart ring, has confidentially filed for an IPO with the SEC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/oura-smart-ring-ipo-filing.html",
+        "published_at": "2026-05-21T18:25:04Z"
+      },
+      {
+        "headline": "How Walmart's gas price warning shapes our retail outlook \u2014 plus, Honeywell's quantum connection",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/how-walmarts-gas-price-warning-shapes-our-retail-outlook-plus-honeywells-quantum-connection.html",
+        "published_at": "2026-05-21T18:13:09Z"
+      },
+      {
+        "headline": "Trump administration says new EPA rules will save you money at the supermarket. It's not clear they will",
+        "summary": "Trump delayed Biden-era EPA refrigerant rules, saying the move will lower grocery costs, though the impact on food prices remains unclear.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/trump-changes-epa-refrigeration-rules-in-grocery-price-push.html",
+        "published_at": "2026-05-21T16:41:45Z"
+      },
+      {
+        "headline": "LIV Golf seeks to raise up to $350 million from investors as post-PIF reality sets in",
+        "summary": "LIV Golf is preparing to take its updated business plan and investor pitch on the road as soon as Thursday, in an effort to raise fresh capital.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/liv-golf-fundraise-up-to-350-million-post-pif.html",
+        "published_at": "2026-05-21T15:06:49Z"
+      },
+      {
+        "headline": "Retail investors will get access to SpaceX's IPO\u2014here's what to know before buying",
+        "summary": "Elon Musk's rocket and sattelite firm will make IPO shares available on platforms such as Fidelity, Robinhood and Charles Schwab.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/spacex-ipo-what-retail-investors-need-to-know-before-buying-shares.html",
+        "published_at": "2026-05-21T14:31:09Z"
+      },
+      {
+        "headline": "SpaceX insiders will get to sell shares earlier than usual after the IPO",
+        "summary": "SpaceX is taking an unusual approach that could allow pre-IPO investors to sell sooner.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/spacex-insiders-will-get-to-sell-shares-earlier-than-usual-after-the-ipo.html",
+        "published_at": "2026-05-21T13:47:34Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+        "summary": "Nvidia blew away the numbers again.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+        "published_at": "2026-05-21T12:54:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 742.77,
+    "spy_change_pct": 0.2051,
+    "spy_lean": "neutral",
+    "vix_close": 17.44,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 41,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 86,
+    "positive_count": 15,
+    "negative_count": 13,
+    "neutral_count": 58,
+    "sentiment_ratio": 0.1744,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Ethereum Recent Bearish Breakdown Signals Growing Advantage For Sellers",
+        "url": "https://bitcoinist.com/ethereum-bearish-breakdown/",
+        "published_at": "2026-05-21T21:30:04+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeepSeek Is Building Its Own Claude Code. Beijing Wants the Whole Stack",
+        "url": "https://decrypt.co/368689/deepseek-code-harness-claude-code-alternative-china-ai",
+        "published_at": "2026-05-21T21:26:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase introduces thematic perps tracking China, AI and US national security equity indexes",
+        "url": "https://www.theblock.co/post/402286/coinbase-thematic-perps-tracking-china-ai-us-national-security-equity-indexes?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-21T21:09:50+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Young Adults Involved in AI Romance Hide Full Use From Partners 69% of the Time",
+        "url": "https://decrypt.co/368686/young-adults-involved-ai-romance-hide-from-human-partners",
+        "published_at": "2026-05-21T20:56:20+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC backed by Anchorage and Chainlink announces endorsements for 2026 midterms",
+        "url": "https://cointelegraph.com/news/crypto-pac-anchorage-chainlink-2026-candidates-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-21T20:48:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chance of new Bitcoin lows \u2018extremely slim\u2019 as long-term holders\u2019 supply tops 15M BTC",
+        "url": "https://cointelegraph.com/markets/new-bitcoin-lows-look-extremely-slim-as-long-term-holders-add-supply?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-21T20:39:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance launches SpaceX-linked perpetual futures ahead of IPO",
+        "url": "https://cointelegraph.com/news/binance-launches-spacex-linked-perpetual-futures-ahead-of-potential-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-21T20:28:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NHL Agrees to Share Data With the CFTC for Prediction Market Integrity",
+        "url": "https://decrypt.co/368687/nhl-agrees-share-data-cftc-prediction-market-integrity",
+        "published_at": "2026-05-21T20:21:51+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "World Liberty Financial rebound gives dormant WLFI holders an exit as AI Financial warns of survival risk",
+        "url": "https://cryptoslate.com/world-liberty-financial-wlfi-rebound-ai-financial-risk/",
+        "published_at": "2026-05-21T20:10:45+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Is Playing Out The \u2018Fakeout Theory\u2019 Again, Here\u2019s What To Expect",
+        "url": "https://bitcoinist.com/bitcoin-fakeout-theory-again/",
+        "published_at": "2026-05-21T20:00:50+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
