@@ -1,0 +1,355 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-22T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2618695386432.03,
+    "total_market_cap_change_24h_pct": -2.1023,
+    "total_volume_24h_usd": 96536785993.47,
+    "btc_dominance_pct": 58.0869,
+    "eth_dominance_pct": 9.5483,
+    "total2_usd": 1097576363848.01,
+    "total3_usd": 847534242028.87,
+    "active_cryptocurrencies": 17402,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 58.6371,
+        "price_usd": 2.45,
+        "market_cap_usd": 140769978
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 50.9422,
+        "price_usd": 1.17,
+        "market_cap_usd": 307370330
+      },
+      {
+        "symbol": "USDA",
+        "name": "USDa",
+        "price_change_24h_pct": 42.1026,
+        "price_usd": 0.982805,
+        "market_cap_usd": 216885645
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 40.1074,
+        "price_usd": 0.621064,
+        "market_cap_usd": 208726117
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 31.4353,
+        "price_usd": 0.00154633,
+        "market_cap_usd": 168220296
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -28.9773,
+        "price_usd": 4.17e-06,
+        "market_cap_usd": 251531369
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -15.9196,
+        "price_usd": 0.196797,
+        "market_cap_usd": 447471538
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -13.4948,
+        "price_usd": 0.27525,
+        "market_cap_usd": 274353054
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": -11.511,
+        "price_usd": 43.89,
+        "market_cap_usd": 557372008
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -11.4423,
+        "price_usd": 1.3,
+        "market_cap_usd": 455905447
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75931,
+    "price_change_24h_pct": -2.2815,
+    "price_change_7d_pct": -4.0325,
+    "market_cap_usd": 1521065475812,
+    "volume_24h_usd": 44862854263,
+    "direction": "bearish",
+    "oi_usd": 7952168511.35,
+    "funding_rate_latest": 2.891e-05,
+    "funding_rate_7d_avg": 3.671095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4988,
+    "long_account_pct": 59.98,
+    "short_account_pct": 40.02,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2071.94,
+    "price_change_24h_pct": -3.0057,
+    "price_change_7d_pct": -6.7771,
+    "market_cap_usd": 250049213980,
+    "volume_24h_usd": 12810331286,
+    "eth_btc_ratio": 0.027287,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81219525989.25,
+    "stablecoin_market_cap_usd": 321845113214.97,
+    "stablecoin_dominance_pct": 12.2903
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 9,
+    "headlines": [
+      {
+        "headline": "Disney's 'Star Wars: The Mandalorian and Grogu' tallies lowest Thursday preview sales in franchise history",
+        "summary": "Disney's \"Star Wars: The Mandalorian and Grogu\" tallied $12 million in Thursday night previews, the lowest collection of advanced tickets in franchise history.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/disneys-star-wars-the-mandalorian-and-grogu-box-office-preview.html",
+        "published_at": "2026-05-22T18:48:51Z"
+      },
+      {
+        "headline": "Stocks continue surging to record highs. Here's how to hedge",
+        "summary": "The rally back to records has made buying protection more affordable.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/stocks-continue-surging-to-record-highs-heres-how-to-hedge.html",
+        "published_at": "2026-05-22T17:59:04Z"
+      },
+      {
+        "headline": "Arm shares extend weekly rally to almost 50%, and Starbucks pulls the plug on an AI project",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/arm-shares-extend-weekly-rally-to-almost-50percent-and-starbucks-pulls-the-plug-on-an-ai-project.html",
+        "published_at": "2026-05-22T17:32:52Z"
+      },
+      {
+        "headline": "Wall Street thinks IMAX is ripe for a sale. Here's who could buy it",
+        "summary": "A source told CNBC that IMAX has held \"preliminary talks\" through intermediaries, but no official pitches have been made by the company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/imax-sale-talks-potential-buyers-wall-street-analysts.html",
+        "published_at": "2026-05-22T16:26:26Z"
+      },
+      {
+        "headline": "Egg prices are plunging due to oversupply \u2014 and producers say margins are taking a hit as costs rise",
+        "summary": "Egg prices are plunging from oversupply after avian flu shortages, but producers say persistent feed, fuel and labor costs are squeezing margins.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/egg-prices-fall-due-to-oversupply-after-bird-flu-shortages.html",
+        "published_at": "2026-05-22T15:59:14Z"
+      },
+      {
+        "headline": "Surge in 'risk-free' treasury yields sends bond investors in search of better opportunities",
+        "summary": "Treasury yield surge shows bond market is not 'risk free' after all, but there's opportunity for fixed-income investors in intermediates, BBBs and high yield.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/treasury-yields-bonds-investing-fed-rate-hikes.html",
+        "published_at": "2026-05-22T15:10:29Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Friday",
+        "summary": "Stocks are poised to extend yesterday's gains.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+        "published_at": "2026-05-22T13:20:06Z"
+      },
+      {
+        "headline": "Mega-IPOs could signal market top, say analysts as SpaceX and OpenAI prep record floats",
+        "summary": "SpaceX's IPO, expected on June 12, could mark the largest float in history.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/22/ipo-flurry-top-market-analysts-ai-spacex-musk-altman.html",
+        "published_at": "2026-05-22T10:20:05Z"
+      },
+      {
+        "headline": "IMAX has held \u2018preliminary talks\u2019 with potential buyers, source says",
+        "summary": "IMAX has held \"preliminary talks\" through intermediaries, but no official pitches have been made directly by the company, a source told CNBC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/21/imax-preliminary-talks-potential-buyers.html",
+        "published_at": "2026-05-21T23:04:31Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 745.7,
+    "spy_change_pct": 0.4012,
+    "spy_lean": "neutral",
+    "vix_close": 16.76,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 81,
+    "positive_count": 15,
+    "negative_count": 17,
+    "neutral_count": 49,
+    "sentiment_ratio": 0.1852,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Kash Patel-Linked Apparel Store Goes Dark After Pushing Crypto-Stealing Malware",
+        "url": "https://decrypt.co/368856/kash-patel-apparel-store-goes-dark-crypto-malware",
+        "published_at": "2026-05-22T21:13:00+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Delays Tokenized Stocks Innovation Exemption Amid Concerns: Bloomberg",
+        "url": "https://decrypt.co/368855/sec-delays-tokenized-stocks-innovation-exemption-amid-concerns-bloomberg",
+        "published_at": "2026-05-22T20:46:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft's Free AI Just Beat OpenAI and Google at Browsing the Web",
+        "url": "https://decrypt.co/368807/microsoft-fara15-open-source-ai-beats-openai-gemini",
+        "published_at": "2026-05-22T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi Debuts 'Fair Markets' Lobby Group as Congress Opens Insider Trading Probe",
+        "url": "https://decrypt.co/368803/kalshi-fair-markets-lobby-group-congress-opens-insider-trading-probe",
+        "published_at": "2026-05-22T20:01:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Two Men Federally Charged Over AI Deepfake Porn Under the Take It Down Act",
+        "url": "https://decrypt.co/368797/two-men-federally-charged-ai-deepfake-porn-take-down-act",
+        "published_at": "2026-05-22T19:52:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New strategic bitcoin reserve bill drops 1 million BTC purchase target, adds 20-year lockup period",
+        "url": "https://www.theblock.co/post/402264/new-strategic-bitcoin-reserve-bill-drops-btc-purchase-target-adds-lockup?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-22T19:45:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano founder warns network could lose its scientists in Input Output\u2019s 33M ADA funding vote fails",
+        "url": "https://cryptoslate.com/cardano-founder-warns-network-could-lose-its-scientists-in-input-outputs-46-8m-funding-vote-fails/",
+        "published_at": "2026-05-22T19:35:05+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Price predictions 5/22: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "url": "https://cointelegraph.com/markets/price-predictions-522-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-22T19:33:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC delays tokenized asset exemption amid concerns over third-party tokens: Bloomberg Law",
+        "url": "https://www.theblock.co/post/402409/sec-delays-tokenized-asset-exemption-third-party-tokens-bloomberg-law?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-22T19:29:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Billionaire Books First SpaceX Mars Mission",
+        "url": "https://decrypt.co/368804/bitcoin-billionaire-spacex-mars",
+        "published_at": "2026-05-22T19:23:47+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
