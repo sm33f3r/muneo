@@ -1,0 +1,306 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-23T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2649689082537.07,
+    "total_market_cap_change_24h_pct": 1.1677,
+    "total_volume_24h_usd": 84390652414.32,
+    "btc_dominance_pct": 58.059,
+    "eth_dominance_pct": 9.6564,
+    "total2_usd": 1111305666861.67,
+    "total3_usd": 855441756683.87,
+    "active_cryptocurrencies": 17398,
+    "altcoin_season_index": 78,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 34.509,
+        "price_usd": 0.543966,
+        "market_cap_usd": 318177763
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 23.9718,
+        "price_usd": 0.134147,
+        "market_cap_usd": 335797919
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 23.1071,
+        "price_usd": 3.03,
+        "market_cap_usd": 174225952
+      },
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 18.8258,
+        "price_usd": 1.11,
+        "market_cap_usd": 248394230
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price_change_24h_pct": 14.9776,
+        "price_usd": 2.43,
+        "market_cap_usd": 3160434026
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -10.0897,
+        "price_usd": 0.00139372,
+        "market_cap_usd": 152187482
+      },
+      {
+        "symbol": "XP",
+        "name": "Xphere",
+        "price_change_24h_pct": -9.7004,
+        "price_usd": 0.04898341,
+        "market_cap_usd": 133818533
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": -7.5307,
+        "price_usd": 0.03859418,
+        "market_cap_usd": 400520362
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -6.8919,
+        "price_usd": 0.01122536,
+        "market_cap_usd": 598862068
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -6.5973,
+        "price_usd": 4.38,
+        "market_cap_usd": 335754720
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76797,
+    "price_change_24h_pct": 1.1402,
+    "price_change_7d_pct": -1.8268,
+    "market_cap_usd": 1538939866409,
+    "volume_24h_usd": 33724386285,
+    "direction": "bullish",
+    "oi_usd": 7901071806.73,
+    "funding_rate_latest": 7.441e-05,
+    "funding_rate_7d_avg": 3.745666666666666e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3116,
+    "long_account_pct": 56.74,
+    "short_account_pct": 43.26,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2118.77,
+    "price_change_24h_pct": 2.2473,
+    "price_change_7d_pct": -2.8435,
+    "market_cap_usd": 255904203542,
+    "volume_24h_usd": 15658361568,
+    "eth_btc_ratio": 0.027589,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81350370765.52,
+    "stablecoin_market_cap_usd": 321044541649.03,
+    "stablecoin_dominance_pct": 12.1163
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 2,
+    "headlines": [
+      {
+        "headline": "Bulls push the S&P 500 back near records \u2014 here\u2019s what drove the market last week",
+        "summary": "The combination of higher oil prices and bond market volatility nearly snapped the S&P 500's winning streak.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/23/bulls-push-sp-500-back-near-records-what-drove-the-market-last-week.html",
+        "published_at": "2026-05-23T17:21:36Z"
+      },
+      {
+        "headline": "\u2018Blue dot fever\u2019? What's really behind a tricky summer dynamic for live music",
+        "summary": "As prices rise everywhere, consumers are choosing to be more intentional with how they're spending on live music and concerts this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/23/concert-ticket-prices-live-music-demand.html",
+        "published_at": "2026-05-23T12:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 745.64,
+    "spy_change_pct": 0.3931,
+    "spy_lean": "neutral",
+    "vix_close": 16.76,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 31,
+    "positive_count": 4,
+    "negative_count": 8,
+    "neutral_count": 19,
+    "sentiment_ratio": 0.129,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Analysts forecast a Bitcoin crash to the $60K level, revisiting 2026 low",
+        "url": "https://cointelegraph.com/news/analysts-forecast-bitcoin-crash-60k-february-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-23T20:49:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ECB warns EU finance ministers that easing euro stablecoin rules would weaken banks: Reuters",
+        "url": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-23T20:21:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stablecoin Regulation: FDIC Announces New Proposed AML Rules For Issuers",
+        "url": "https://bitcoinist.com/stablecoin-fdic-new-aml-rules-proposed-for-issuers/",
+        "published_at": "2026-05-23T19:00:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin\u2019s hard-money thesis is colliding with 5% Treasury yields",
+        "url": "https://cryptoslate.com/the-bond-market-is-suddenly-dictating-the-future-of-bitcoin/",
+        "published_at": "2026-05-23T18:40:54+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Warsh will cut rates, despite consensus view of rate hikes: Analyst",
+        "url": "https://cointelegraph.com/news/warsh-cut-rate-despite-consensus-rate-hikes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-23T18:20:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FTX\u2019s former law firm, auditor agree to pay $66 million to settle customer claims over fraud",
+        "url": "https://www.theblock.co/post/402425/ftxs-former-law-firm-auditor-agree-to-pay-66-million-to-settle-customer-claims-over-fraud?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-23T17:50:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Pizza Day: A $41 Experiment Now Worth Billions",
+        "url": "https://bitcoinist.com/bitcoin-pizza-day-a-41-experiment-now-worth-billions/",
+        "published_at": "2026-05-23T17:30:25+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Firefox's Big Redesign Gives You a Button to Kill All the AI",
+        "url": "https://decrypt.co/368867/firefox-redesign-kill-ai-button-project-nova",
+        "published_at": "2026-05-23T17:01:31+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin price drop below $75K exposes the demand fracture behind crypto\u2019s $941M liquidation wave",
+        "url": "https://cryptoslate.com/bitcoin-price-drop-below-75k-exposes-the-demand-fracture-behind-cryptos-941m-liquidation-wave/",
+        "published_at": "2026-05-23T16:47:27+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Dives Below $75K for First Time in a Month as Crypto Liquidations Near $1 Billion",
+        "url": "https://decrypt.co/368912/bitcoin-drops-75k-crypto-liquidations-near-1-billion",
+        "published_at": "2026-05-23T16:22:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
