@@ -109,6 +109,70 @@ def group_by_iso_week(daily_reports: list[dict]) -> dict:
         groups[key].append(report)
     return dict(sorted(groups.items()))
 
+def load_daily_report(path: Path) -> dict | None:
+    """Load a daily report JSON. Returns None on failure."""
+    try:
+        with open(path, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  ⚠ Failed to load {path.name}: {e}")
+        return None
+
+def deduplicate_by_date(daily_reports: list[dict]) -> list[dict]:
+    """
+    If multiple reports exist for the same date, keep only the most recent.
+    Returns deduplicated list sorted by timestamp ascending.
+    """
+    by_date = {}
+    for r in daily_reports:
+        date = r["date_str"]
+        if date not in by_date or r["timestamp"] > by_date[date]["timestamp"]:
+            by_date[date] = r
+    return sorted(by_date.values(), key=lambda x: x["timestamp"])
+
+def aggregate_weekly_price(daily_data: list[dict]) -> dict:
+    def vals(field_path):
+        keys = field_path.split(".")
+        result = []
+        for d in daily_data:
+            v = d
+            for k in keys:
+                v = (v or {}).get(k)
+            if v is not None:
+                result.append(v)
+        return result
+
+    prices = vals("price_data.price_usd")
+    volumes = vals("price_data.volume_24h_usd")
+    mcaps = vals("price_data.market_cap_usd")
+    cex_prices = vals("price_data.cex_price_usd")
+    up_vols = vals("price_data.volume_on_up_days_usd")
+    down_vols = vals("price_data.volume_on_down_days_usd")
+    volume_leans = vals("price_data.volume_lean")
+
+    open_usd = prices[0] if prices else None
+    close_usd = prices[-1] if prices else None
+
+    from statistics import mode, mean
+    return {
+        "open_usd": open_usd,
+        "close_usd": close_usd,
+        "high_usd": max(prices) if prices else None,
+        "low_usd": min(prices) if prices else None,
+        "price_change_week_pct": round((close_usd - open_usd) / open_usd * 100, 4) if open_usd and close_usd else None,
+        "avg_volume_24h_usd": round(mean(volumes), 2) if volumes else None,
+        "total_volume_week_usd": round(sum(volumes), 2) if volumes else None,
+        "avg_market_cap_usd": round(mean(mcaps), 2) if mcaps else None,
+        "close_market_cap_usd": mcaps[-1] if mcaps else None,
+        "ath_usd": vals("price_data.ath_usd")[-1] if vals("price_data.ath_usd") else None,
+        "ath_drawdown_pct": vals("price_data.ath_drawdown_pct")[-1] if vals("price_data.ath_drawdown_pct") else None,
+        "avg_cex_price_usd": round(mean(cex_prices), 6) if cex_prices else None,
+        "volume_on_up_days_usd": round(sum(up_vols), 2) if up_vols else None,
+        "volume_on_down_days_usd": round(sum(down_vols), 2) if down_vols else None,
+        "volume_lean": mode(volume_leans) if volume_leans else None,
+        "days_included": len(daily_data)
+    }
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
