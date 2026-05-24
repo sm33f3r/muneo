@@ -173,6 +173,49 @@ def aggregate_weekly_price(daily_data: list[dict]) -> dict:
         "days_included": len(daily_data)
     }
 
+def write_weekly_report(iso_year, iso_week, config, paths, daily_reports, price_agg):
+    from datetime import datetime, timezone
+    filename = f"weekly_{iso_year}_W{iso_week:02d}.json"
+    output_path = paths["weekly"] / filename
+
+    start_date = daily_reports[0]["date_str"]
+    end_date = daily_reports[-1]["date_str"]
+
+    output = {
+        "period_metadata": {
+            "type": "weekly",
+            "period_id": f"{iso_year}-W{iso_week:02d}",
+            "iso_year": iso_year,
+            "iso_week": iso_week,
+            "start_date": start_date,
+            "end_date": end_date,
+            "token": config["token_name"],
+            "days_included": price_agg["days_included"],
+            "days_possible": 7,
+            "source": "accumulated",
+            "script_version": SCRIPT_VERSION,
+            "schema_version": SCHEMA_VERSION,
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC")
+        },
+        "price": price_agg,
+        "technicals": None,
+        "derivatives": None,
+        "on_chain": None,
+        "macro": None,
+        "sentiment": None,
+        "news": None,
+        "signal_summary": None,
+        "data_gaps": []
+    }
+
+    try:
+        with open(output_path, "w") as f:
+            json.dump(output, f, indent=2)
+        return output_path
+    except Exception as e:
+        print(f"  Failed to write {filename}: {e}")
+        return None
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
@@ -227,9 +270,26 @@ def main():
         days = len(reports)
         status = "✓ eligible" if days >= MIN_DAYS_FOR_WEEKLY else f"✗ only {days} days (need {MIN_DAYS_FOR_WEEKLY})"
         print(f"    {yr}-W{wk:02d}: {days} days — {status}")
-    
-    print("\nStep 1 complete — file discovery and grouping done.")
-    print("(Aggregation logic comes in later steps.)")
+
+    print("\nGenerating weekly reports...")
+    weekly_written = []
+    for (yr, wk), reports in sorted(weekly_groups.items()):
+        deduped = deduplicate_by_date(reports)
+        if len(deduped) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
+            continue
+        daily_data = [d for d in [load_daily_report(r["path"]) for r in deduped] if d is not None]
+        if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
+            continue
+        price_agg = aggregate_weekly_price(daily_data)
+        output_path = write_weekly_report(yr, wk, config, paths, deduped, price_agg)
+        if output_path:
+            weekly_written.append(output_path)
+            print(f"  Written: {output_path.name}")
+    print(f"\n{len(weekly_written)} weekly reports written.")
+
+    print("Accumulator run complete.")
 
 if __name__ == "__main__":
     main()
