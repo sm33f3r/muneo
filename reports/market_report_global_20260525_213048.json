@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-25T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2657446081213.78,
+    "total_market_cap_change_24h_pct": 1.4983,
+    "total_volume_24h_usd": 67516254911.37,
+    "btc_dominance_pct": 58.2445,
+    "eth_dominance_pct": 9.5734,
+    "total2_usd": 1109629878271.44,
+    "total3_usd": 855220907825.73,
+    "active_cryptocurrencies": 17393,
+    "altcoin_season_index": 45,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": 16.5615,
+        "price_usd": 0.25574,
+        "market_cap_usd": 189527178
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": 16.5571,
+        "price_usd": 0.478327,
+        "market_cap_usd": 440715971
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 14.3267,
+        "price_usd": 0.330551,
+        "market_cap_usd": 1126353122
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 13.1151,
+        "price_usd": 17.16,
+        "market_cap_usd": 801225417
+      },
+      {
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "price_change_24h_pct": 12.1497,
+        "price_usd": 0.234233,
+        "market_cap_usd": 529017008
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": -27.4774,
+        "price_usd": 0.686287,
+        "market_cap_usd": 152801897
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -22.3339,
+        "price_usd": 0.091894,
+        "market_cap_usd": 223670945
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -13.9936,
+        "price_usd": 0.279307,
+        "market_cap_usd": 278619971
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -12.6347,
+        "price_usd": 1.004,
+        "market_cap_usd": 267851040
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -12.4499,
+        "price_usd": 0.618698,
+        "market_cap_usd": 207278351
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77256,
+    "price_change_24h_pct": 0.9979,
+    "price_change_7d_pct": 0.4945,
+    "market_cap_usd": 1547148694804,
+    "volume_24h_usd": 22825502991,
+    "direction": "neutral",
+    "oi_usd": 7696024703.57,
+    "funding_rate_latest": 1.426e-05,
+    "funding_rate_7d_avg": 4.508285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0024,
+    "long_account_pct": 50.06,
+    "short_account_pct": 49.94,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2109.48,
+    "price_change_24h_pct": 1.145,
+    "price_change_7d_pct": -0.3034,
+    "market_cap_usd": 254319074216,
+    "volume_24h_usd": 11241140997,
+    "eth_btc_ratio": 0.027305,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82541285836.7,
+    "stablecoin_market_cap_usd": 320656608715.45,
+    "stablecoin_dominance_pct": 12.0663
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 35,
+    "headlines": [
+      {
+        "headline": "Israel will escalate strikes against Hezbollah in Lebanon, Netanyahu says - Reuters",
+        "summary": "Israel will escalate strikes against Hezbollah in Lebanon, Netanyahu says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHZ6T3ItVElkd1cyWVlNX3VOM05DeUY3bEJGb3QwT1R0SGFQejVzUVI4Z19DZlhwYjNDQ0FVMlBlekEzMkhNYXNDY3lySzZzNUNPUy1uWWpkMl92NGhhNXFfUEViZXZMeDhMbTAxSTZPY3NvMTJ3c2t1cjc1THJxeTU2ZEl2VUtrSTNvbWdhSV9iVEllVXh2bHhKRmhmVW5JYndlemFyblU1bk14bUMzUjBJNVd5SzhXQzZSTy1UYTVIbnhLTnc?oc=5",
+        "published_at": "2026-05-25T19:39:00Z"
+      },
+      {
+        "headline": "Trump links Abraham Accords to any Iran deal - Reuters",
+        "summary": "Trump links Abraham Accords to any Iran deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3NKc094dzJiaUhtY0N6cWpqRnk4X2swMGF3b1RHSnppOVhyZWt1bDBCQ00tbWV6QWdTMkUycExfRFhxdXpOVE16XzBia0hiTnBMVmQ5TGd6OG5oTUpZYlBSejB1SVpyeG8wTXRVSzV5T081VUpTNm1qZ0IxNVdpS0hIaWJlN2MxSi1OOUtnQUhWd0VKY3c?oc=5",
+        "published_at": "2026-05-25T18:46:37Z"
+      },
+      {
+        "headline": "Fire at Belgian town almost put out, smoke to fade during the night - Reuters",
+        "summary": "Fire at Belgian town almost put out, smoke to fade during the night\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYmtEWUpyV19xR0x0WDc2bmpIWXBSNnFsd3pVYXpoSTl0bDB6U2hsU2M4XzUzdWdWdTR3YURKNWEyeU14SUp0ZGFOWW5Ra3N5YlpCLUtRcTdBOVI0MFFjczIxd2NTWlJBR2tTRk9RU3RLdzdob05NclZQTWx4b3JiVDZ4UFNPYnBaZFZVek1KRXg2R0Q1ZUFhRVoyeE1HMzNzX0FRX2RDVGdyZUxleXpJ?oc=5",
+        "published_at": "2026-05-25T18:31:25Z"
+      },
+      {
+        "headline": "Iran's president orders reopening of international internet access, state media reports - Reuters",
+        "summary": "Iran's president orders reopening of international internet access, state media reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaG1OOWpIU3AwQ2FPZjNFMzJiOU9qSUNHdGNwcngtNkhxTDRtRUFXSW1fWDZzTktOZk44OWZleGVQNU9ZTkpCQmhjNUx4VjlzcEhsRVZlTVFJTl9LSk9CQkVnZWFVNGF2YVk4VU9PaEFlYmtBN1NRZHE5WW5RRmVibFhDRURROUg1Nms1VG9wbzJpQ2s4Yklndy1ZMHRkaDktVkcxZkRxRmF6a2xsQm1Dc25xY0ZLQ0dUTm1YTHA4ckZzQmNVWmpZ?oc=5",
+        "published_at": "2026-05-25T18:23:10Z"
+      },
+      {
+        "headline": "Iran would open Strait of Hormuz 30 days after peace deal, Nikkei reports citing source - Reuters",
+        "summary": "Iran would open Strait of Hormuz 30 days after peace deal, Nikkei reports citing source\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWGpVeEs4ak4xUEV1Qm1hOEVNUUVLTno5N3l4Z3QzVzctcDFROTRNZHNHQjhMSEwzRXlqODVENTExNkp5WFNjb09nY01lYmFLVmVsMS1sVnc4aTdEX3p5THpiR0NDVDhnanczRVpLYUN6bGptN1RUM2FDdFhtMFZQcDN5ODFvSEh1V1dIVzdKZUdpbGY4dWNEWjBzaUVOV1Q5cE9kMU4wWnppYUt3UU5KODN4a3ZDcU9OUm1IbnI3b01SWFloNjFiclpn?oc=5",
+        "published_at": "2026-05-25T18:02:34Z"
+      },
+      {
+        "headline": "It's time for Nvidia to take a page out of Apple's playbook and do more for investors",
+        "summary": "It's time for Nvidia to admit its status as a solid grower and do more for shareholders than it already has.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/25/jim-cramer-how-nvidia-can-take-a-page-out-of-apple-playbook.html",
+        "published_at": "2026-05-25T17:59:10Z"
+      },
+      {
+        "headline": "Russian Orthodox cleric denies link to white substance found in car by Czech police - Reuters",
+        "summary": "Russian Orthodox cleric denies link to white substance found in car by Czech police\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd1hOQ2l4RlZaZkZ6NnBkWm1QLWJfdTdMMjVtVXhGdFFCeUlka2E5LW9sdDk5c2dPVUxHeWhIS0xKc1pFRkp0aGp5U1I3NFI2VjNoMnRtd1pUWTJVVC1uOHItSHBOa25XWUd2U3g5M3Jydk1yYzQ3RlFJdFJHY1NTdlFvQWtwR2NlS1NvUTlqcnZCTWYyS3N2WmtOTFZoRWc2TngyM2t6T21zTktVVE1DZXdwMTQxTHA2SlRz?oc=5",
+        "published_at": "2026-05-25T16:33:15Z"
+      },
+      {
+        "headline": "Europe's STOXX 600 wipes out Iran war losses on peace deal hopes, AI optimism - Reuters",
+        "summary": "Europe's STOXX 600 wipes out Iran war losses on peace deal hopes, AI optimism\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc0h4WWVIblV4ckplUm5FbHEzenM5RURSTTQ3c0NGN2Y3Y1hqLTJNcmtZU3cwaENYNmdMZ21NT2tyWjFybjZoU01YTlYwWUhRYjBLMWs5SUw2TzVhMWMySlVXbzlMZ0piQ3BIYXlpWEdkY1ZGbmhoZlFjWXpKb191RDAzSE1MdDlXYW1pWVBUVXZSODdRMFY2eklfX1drMmtTSE5tbVY5NjFBM0o4UHZaajlzV2RlR1k?oc=5",
+        "published_at": "2026-05-25T16:29:24Z"
+      },
+      {
+        "headline": "Iran war poses new threat to harvests in hunger-stricken Sudan - Reuters",
+        "summary": "Iran war poses new threat to harvests in hunger-stricken Sudan\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWFk3eVp3WG5PZ1VfZUpwLWl0ZmNDVFh3LS16RHB1eU9xVVlYOXNqaVlPLXpKOWJsbjA5OGFpNFlURTNRT3BwS1hCS2dqRUV0V083eTJ3QlZMZXk0VVpabkd6OE12TnpJci1wSnRUNjNDbG9mR0IyMjZhMjQyaXVPRnhDb1l5WXNsVU5OSjJoU3pEVjY0c2NudHctM0dXSHlvTnZSVnIwUlc?oc=5",
+        "published_at": "2026-05-25T16:21:42Z"
+      },
+      {
+        "headline": "Mexico to host Iran's World Cup team after US refusal, president says - Reuters",
+        "summary": "Mexico to host Iran's World Cup team after US refusal, president says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaEFEVHlmRXVYelZoc2E3LXNkVmZkOWhXc3FodDI1NC1pN1JPRmdQX3dqcWtpRmFwbElCeGlBTzhPWTN6UVhmcGlpZzhDa2VTWDRmWXBwYmRlaENqV2U0ZjJhQ3EtT3E2VUduZUFKWVlHeFBMdUtSUnhaNEh0cTUydUE5R0RyQ1g4VkZubFd6Z0l5WFV0d3BhaDhiLV9OMDkzcFhFcm9kY0o1WHRyUWtiaHFURFk?oc=5",
+        "published_at": "2026-05-25T15:57:49Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "spy_close": 745.64,
+    "spy_change_pct": 0.3931,
+    "spy_lean": "neutral",
+    "vix_close": 16.76,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 16,
+    "negative_count": 13,
+    "neutral_count": 26,
+    "sentiment_ratio": 0.2909,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "XRP price trades in \u2018value zone\u2019 near $1.40 as whales pull $170M from exchanges",
+        "url": "https://cointelegraph.com/markets/xrp-price-in-value-zone-near-140-as-whales-pull-170m-from-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-25T20:30:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How To Play The Bitcoin 4-Year Cycle For The Most Gains In The Bull Market",
+        "url": "https://bitcoinist.com/the-bitcoin-4-year-cycle/",
+        "published_at": "2026-05-25T20:30:03+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether\u2019s Georgia stablecoin plan moves early on national payment rails",
+        "url": "https://cryptoslate.com/tether-georgia-stablecoin-plan/",
+        "published_at": "2026-05-25T20:21:28+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
+        "url": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
+        "published_at": "2026-05-25T20:06:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Famed iPhone, Sony Hacker Says AI Coding Agents Are a Disaster Waiting to Happen",
+        "url": "https://decrypt.co/368964/george-hotz-vibe-coding-ai-slop-warning",
+        "published_at": "2026-05-25T19:06:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP, XLM, And ONDO: The Big Shots That Are Driving The Next Wave Of Crypto Adoption",
+        "url": "https://bitcoinist.com/xrp-xlm-ondo-crypto-adoption/",
+        "published_at": "2026-05-25T19:00:46+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UAE-linked ADI Chain gains Ledger support amid stablecoin growth",
+        "url": "https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-25T18:29:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC may gain broader crypto oversight as staff who questioned major firms were reportedly sidelined",
+        "url": "https://cryptoslate.com/cftc-crypto-oversight-clarity-act-independence-test/",
+        "published_at": "2026-05-25T18:10:24+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "With Central Bank\u2019s Blessing, Georgia Taps Tether for 'Official' Stablecoin",
+        "url": "https://decrypt.co/368961/central-bank-georgia-tether-stablecoin",
+        "published_at": "2026-05-25T18:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC money pours into Texas primary runoffs, as prediction markets favor challengers",
+        "url": "https://cointelegraph.com/news/texas-primary-runoffs-crypto-pac-prediction-markets-newcomers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-25T17:57:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 1,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "FRED DXY \u2014 HTTP 502"
+  ]
+}
