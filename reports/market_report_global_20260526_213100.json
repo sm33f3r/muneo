@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-26T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": null,
+    "total_market_cap_change_24h_pct": null,
+    "total_volume_24h_usd": null,
+    "btc_dominance_pct": null,
+    "eth_dominance_pct": null,
+    "total2_usd": null,
+    "total3_usd": null,
+    "active_cryptocurrencies": null,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 44.9386,
+        "price_usd": 0.01163217,
+        "market_cap_usd": 7238188986
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 15.3389,
+        "price_usd": 0.381224,
+        "market_cap_usd": 1297329545
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 11.3184,
+        "price_usd": 0.206303,
+        "market_cap_usd": 514005007
+      },
+      {
+        "symbol": "OKB",
+        "name": "OKB",
+        "price_change_24h_pct": 9.2978,
+        "price_usd": 90.97,
+        "market_cap_usd": 1905772635
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 8.0168,
+        "price_usd": 0.668707,
+        "market_cap_usd": 223174036
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -19.4451,
+        "price_usd": 0.225006,
+        "market_cap_usd": 224831558
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -13.1729,
+        "price_usd": 3.34e-06,
+        "market_cap_usd": 200225879
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -13.119,
+        "price_usd": 0.00139641,
+        "market_cap_usd": 151816542
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -12.7237,
+        "price_usd": 3.42,
+        "market_cap_usd": 197055566
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -10.9204,
+        "price_usd": 1.2,
+        "market_cap_usd": 297427484
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75945,
+    "price_change_24h_pct": -1.7166,
+    "price_change_7d_pct": -1.3242,
+    "market_cap_usd": 1519955962858,
+    "volume_24h_usd": 38836061456,
+    "direction": "bearish",
+    "oi_usd": 7508251921.58,
+    "funding_rate_latest": 5.776e-05,
+    "funding_rate_7d_avg": 4.6106666666666663e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.301,
+    "long_account_pct": 56.54,
+    "short_account_pct": 43.46,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2072.41,
+    "price_change_24h_pct": -1.7573,
+    "price_change_7d_pct": -2.0942,
+    "market_cap_usd": 249864845522,
+    "volume_24h_usd": 14797644103,
+    "eth_btc_ratio": 0.027288,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81566462466.37,
+    "stablecoin_market_cap_usd": 321443296711.24,
+    "stablecoin_dominance_pct": null
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Israel pounds Lebanon with strikes, expands ground operations past security zone - Reuters",
+        "summary": "Israel pounds Lebanon with strikes, expands ground operations past security zone\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbmYzaGNfS3diVERUUElLNzRjVGpQMm9BUjE2c1FsVUp1WVpORklZWXptY3o5ck1jMmhJanZ1VDBHZDdmR09EMTJ6aWliR3B2akRHak1jaU5LbXhqWVdLdTYyZjBLVXhZYjR3VGoyamlsb01zQVFlNGJNREFpRTg0T1NpX0dHbEE1VGxTeE5YbEhOSzNQVTJIVWg0cXlnNGxBMmRrUkRrUFdJTm1Kc2lyaEd2ZkhPdF82b2hlaDhWa2dXVTBi?oc=5",
+        "published_at": "2026-05-26T19:15:29Z"
+      },
+      {
+        "headline": "Sheep theft ruins Eid festivities for Palestinian shepherd - Reuters",
+        "summary": "Sheep theft ruins Eid festivities for Palestinian shepherd\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdW1UdDRPNHJDY3ltcWxIbjVFem84cFlIc05FY3RBVUVEaTNGaFpyaUJSYmFwVFFLc3RjZ2szb2V5LWZCRlRtcWlxa3ZMVE5wNlllazljbkFtelhNTjk0bjk0TWJuQllDTm4tc0JhaV80VWVSU3Rnc25fR1N4LWJ3NHpEVF95TzhLTEM3bGVVdDV0MXVWdHE5bDFhT0dtRi04UkpHNDNfa3J6X3ZY?oc=5",
+        "published_at": "2026-05-26T19:01:09Z"
+      },
+      {
+        "headline": "S&P 500, Nasdaq rise on AI optimism, Micron joins $1 trillion club - Reuters",
+        "summary": "S&P 500, Nasdaq rise on AI optimism, Micron joins $1 trillion club\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRWWDF6RVpndmREd3hkYTZ4Q1YyNmVLN09uSGlUaGdJaTdXM3kxM3lwNXRWdU9vX3NUSS1HR040RzVKQU5YZGFtU1BvSjBnTDBZWExDY0ZLLUcyamhXV0FGWVliZUxfWjFVYlFVckEyRmlsMmVaVEgzTHVOcFZLM0wtU0tHaWU3emFJdmprT0NSdUtq?oc=5",
+        "published_at": "2026-05-26T18:57:43Z"
+      },
+      {
+        "headline": "Exclusive: Pentagon spars with SpaceX over Starlink price hike during Iran war - Reuters",
+        "summary": "Exclusive: Pentagon spars with SpaceX over Starlink price hike during Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaUljVEJaNEJUaGgyZVVOd3Z5SS13OEltSVFPU1ZEc3UtcFpxNVE0VTZjZzVRV2F5Q0J2UHJtV2xZVmczbTlIYlVfZ2JielRqbGFSVktwZzVyRV9QVm4tTkhoVFdLS3kxeTZSVzBzaTM1b3Q1T1E1dllTSXhOWVQwSXVNUXAydEJySXU1anJackpLUHB0YllPaWtxb0FSZkQybEtnOGhpUjNKNDdnYjR5dDhzWHBOdU8wN09ocDdTeXpZZHppR3R0VnBR?oc=5",
+        "published_at": "2026-05-26T18:50:54Z"
+      },
+      {
+        "headline": "Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say - Reuters",
+        "summary": "Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM083VkF0cWwteXd5ZnhaZ3ZDbEluaDJoV2hDU1VFOGw0THBIQVpaYVZiR09jSGk3NXB0a0g4ZEhPSXhHRG16X2tUT1NVd29Bb3FnU2Q1dmo5Y2hyMTY1TXQ0V2o4ZkpUaEZvMEFxT1poLUtpZzk3YmJzX3pJZHZSOERlVktUbGRycEdtd2ppTGk1OFJ0R1YtSVJiWTAxSFk1WWFXNmp6c1VQV2lXWjhnNHFmRmNtVWZlbDZheVpXWQ?oc=5",
+        "published_at": "2026-05-26T18:37:21Z"
+      },
+      {
+        "headline": "Why oil prices matter so much to DuPont, and the big earnings report to watch tonight",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/26/why-oil-prices-matter-so-much-to-dupont-and-the-big-earnings-report-to-watch-tonight.html",
+        "published_at": "2026-05-26T18:34:59Z"
+      },
+      {
+        "headline": "Cornyn and Paxton go head-to-head in Texas Republican Senate primary after Trump endorsement",
+        "summary": "President Donald Trump last week endorsed Texas Attorney General over incumbent Sen. John Cornyn.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/26/texas-primary-election-senate-paxton-cornyn.html",
+        "published_at": "2026-05-26T17:30:25Z"
+      },
+      {
+        "headline": "Jim Cramer says this data center stock could soar if more analysts cover it",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/26/cramer-says-this-data-center-stock-could-soar-if-more-analysts-cover-it.html",
+        "published_at": "2026-05-26T17:17:07Z"
+      },
+      {
+        "headline": "Jim Cramer sees an additional 25% upside for our newest stock due to this catalyst",
+        "summary": "FedEx stock can go even higher after the delivery giant separates its freight business, Jim Cramer said Tuesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/26/jim-cramer-sees-an-additional-25percent-upside-for-our-newest-stock-due-to-this-catalyst.html",
+        "published_at": "2026-05-26T17:01:12Z"
+      },
+      {
+        "headline": "We're booking profits in a stock that has rallied almost 10% since our last buy",
+        "summary": "The stock has made a nice move over the past week.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/26/were-booking-profits-in-a-stock-that-rallied-almost-10percent-since-our-last-buy.html",
+        "published_at": "2026-05-26T16:08:19Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 750.56,
+    "spy_change_pct": 0.6598,
+    "spy_lean": "bullish",
+    "vix_close": 16.59,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 83,
+    "positive_count": 19,
+    "negative_count": 11,
+    "neutral_count": 53,
+    "sentiment_ratio": 0.2289,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Someone Just Destroyed $8.2 Million in Bitcoin\u2014Why?",
+        "url": "https://decrypt.co/369099/someone-burned-8-million-bitcoin-destroyed-why",
+        "published_at": "2026-05-26T21:19:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Half-Gigabyte AI Model Runs Local Agents on Your Phone",
+        "url": "https://decrypt.co/369068/openbmb-minicpm5-half-gigabyte-ai-model-local-agents-phone",
+        "published_at": "2026-05-26T20:59:20+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Firm Sharplink, Solana Treasury Forward Industries Joining Russell 2000, 3000 Indexes",
+        "url": "https://decrypt.co/369095/ethereum-sharplink-solana-forward-industries-russell-2000-3000",
+        "published_at": "2026-05-26T20:40:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi TVL slides 14% since KelpDAO exploit as risk appetite retreats",
+        "url": "https://www.theblock.co/post/402641/defi-tvl-slides-14-since-kelpdao-exploit-as-risk-appetite-retreats?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-26T20:37:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Will End Up Making Millionaires And Billionaires; Analyst Tells Community",
+        "url": "https://bitcoinist.com/xrp-millionaires-billionaires/",
+        "published_at": "2026-05-26T20:30:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grand Theft Data: Threat Actors Weaponizing GTA 6 Hype, NordVPN Warns",
+        "url": "https://decrypt.co/369064/grand-theft-data-threat-actors-weaponizing-gta-6-hype-nordvpn-warns",
+        "published_at": "2026-05-26T19:57:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What happens when crypto traders can bet on CPI, Fed cuts, and oil 24/7?",
+        "url": "https://cryptoslate.com/what-happens-crypto-traders-cpi-fed-cuts-oil-24-7/",
+        "published_at": "2026-05-26T19:35:52+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spain Blocks Prediction Markets Kalshi, Polymarket for Potential Gambling Law Violations",
+        "url": "https://decrypt.co/369043/spain-blocks-prediction-markets-kalshi-polymarket-potential-violations",
+        "published_at": "2026-05-26T19:14:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Can Ethereum Stage The Biggest Comeback In History? Why Price Could Double",
+        "url": "https://bitcoinist.com/ethereum-price-could-double/",
+        "published_at": "2026-05-26T19:00:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Chatbots Show Bias Toward Catholicism, Researchers Say",
+        "url": "https://decrypt.co/369045/ai-chatbots-claude-chatgpt-bias-catholicism-pope-leo",
+        "published_at": "2026-05-26T18:59:10+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 10,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": null,
+      "btc_dominance_lean": null,
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "CoinGecko global market data \u2014 timeout"
+  ]
+}
