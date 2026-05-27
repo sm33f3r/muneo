@@ -1,0 +1,160 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-27T21:00:02 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.984697,
+    "price_change_24h_pct": -2.1662,
+    "price_change_7d_pct": -8.1935,
+    "volume_24h_usd": 606683772,
+    "market_cap_usd": 3944210035,
+    "volume_to_mcap_ratio": 0.153816,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -81.5826,
+    "cex_price_usd": 0.9853,
+    "cex_24h_high": 1.0158,
+    "cex_24h_low": 0.9688,
+    "cex_dex_spread_pct": 0.061237,
+    "volume_on_up_days_usd": 1077179879.5379758,
+    "volume_on_down_days_usd": 560498571.4042765,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 45.1672,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.055606,
+      "signal_line": -0.100248,
+      "histogram": 0.044642
+    },
+    "macd_lean": "bullish",
+    "sma_50": 1.228433,
+    "price_vs_sma50_pct": -19.8412,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.207225,
+      "mid": 0.985888,
+      "lower": 0.764551,
+      "width_pct": 44.9009,
+      "position": 0.5364
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 122127286.58,
+    "oi_lean": null,
+    "funding_rate_latest": 5.829e-05,
+    "funding_rate_7d_avg": 3.609952380952381e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5934,
+    "btc_long_account_pct": 61.44,
+    "btc_short_account_pct": 38.56,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 555321213.0,
+    "tvl_7d_change_pct": -5.9354,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 110600.0,
+    "chain_fees_7d_avg_usd": 124138.71,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Kraken expands Earn suite with Bitcoin Vault paying yield on BTC holdings",
+        "url": "https://www.theblock.co/post/402751/kraken-expands-earn-suite-bitcoin-vault-paying-yield-btc-holdings?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-27T16:19:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 75155.0,
+    "btc_24h_change_pct": -1.1043,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 59.7292,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2520724229218.793,
+    "eth_btc_ratio": 0.027411,
+    "eth_btc_lean": "neutral",
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 750.45,
+    "spy_change_pct": -0.0187,
+    "spy_lean": "neutral",
+    "vix_close": 17.01,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 83.33,
+    "cg_sentiment_votes_down_pct": 16.67,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
