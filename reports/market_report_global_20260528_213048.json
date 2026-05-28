@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-28T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2560313214559.88,
+    "total_market_cap_change_24h_pct": -0.7119,
+    "total_volume_24h_usd": 107228027905.47,
+    "btc_dominance_pct": 57.6346,
+    "eth_dominance_pct": 9.5204,
+    "total2_usd": 1084687458886.9,
+    "total3_usd": 840934168556.55,
+    "active_cryptocurrencies": 17401,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price_change_24h_pct": 23.9554,
+        "price_usd": 0.207715,
+        "market_cap_usd": 6957359554
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": 12.2648,
+        "price_usd": 0.111791,
+        "market_cap_usd": 167350650
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 8.4186,
+        "price_usd": 0.096887,
+        "market_cap_usd": 254906965
+      },
+      {
+        "symbol": "IOTA",
+        "name": "IOTA",
+        "price_change_24h_pct": 6.9181,
+        "price_usd": 0.059696,
+        "market_cap_usd": 266234336
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": 5.3016,
+        "price_usd": 108.18,
+        "market_cap_usd": 155263149
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -17.9365,
+        "price_usd": 0.286338,
+        "market_cap_usd": 960736013
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -17.0845,
+        "price_usd": 0.179151,
+        "market_cap_usd": 447876563
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -15.6718,
+        "price_usd": 0.480572,
+        "market_cap_usd": 228968006
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -12.2447,
+        "price_usd": 3.21,
+        "market_cap_usd": 184200051
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -11.9628,
+        "price_usd": 1.035,
+        "market_cap_usd": 276129291
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73631,
+    "price_change_24h_pct": -1.8444,
+    "price_change_7d_pct": -5.1436,
+    "market_cap_usd": 1475281331910,
+    "volume_24h_usd": 41512292898,
+    "direction": "bearish",
+    "oi_usd": 7811385040.22,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.740190476190477e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7778,
+    "long_account_pct": 64.0,
+    "short_account_pct": 36.0,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2019.29,
+    "price_change_24h_pct": -1.5747,
+    "price_change_7d_pct": -5.4946,
+    "market_cap_usd": 243720957936,
+    "volume_24h_usd": 18963795003,
+    "eth_btc_ratio": 0.027424,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 80505141980.69,
+    "stablecoin_market_cap_usd": 319434483938.63,
+    "stablecoin_dominance_pct": 12.4764
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 31,
+    "headlines": [
+      {
+        "headline": "S&P 500 and Nasdaq hit record closing highs as US and Iran agree to extend ceasefire - Reuters",
+        "summary": "S&P 500 and Nasdaq hit record closing highs as US and Iran agree to extend ceasefire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZW5OZjgtYlBYcWVNMFJIbW5ab2Y0UldIWVFkU0VHekpyUkRCMW5HWGVqTEpuSHJJT2p3cEF0NlNUSUNCNmJOWDM3V21QQXQySVZGbFNtWjNid1BzVWw4YnNjV01MSVRxakhHSEJVaDVwWkV3Sko5alU3SW9sYlpuWl9QU1pqaXdQYlVvRkhBRkN4STIzRzVr?oc=5",
+        "published_at": "2026-05-28T20:01:11Z"
+      },
+      {
+        "headline": "Iran, US reach deal to extend ceasefire, pending Trump's approval - Reuters",
+        "summary": "Iran, US reach deal to extend ceasefire, pending Trump's approval\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDAxUGdSUGJhV19NajdXRE5yZGtxMFRVYnpEb1I3ZEMwZlZsUnBvdlJyb3RlbG4tX0dLMXFEN25ZeER4N3pOblRJYjJGS3NyR1JEZFNlR3VsN1gxd3MxMnhTVHU5VVVadWxCV1VBcFNiRHAtczFfX3FIMW9GZEJRTHFWMzIya1ZQa0ZSMUVQQXhLWVJVSUMzTVNFOGVBNUxKMEhvQW92eWZwaW8zMFpPbDRTYjlxa3NTTVNTaQ?oc=5",
+        "published_at": "2026-05-28T19:35:19Z"
+      },
+      {
+        "headline": "Baton Rouge to Melbourne: Iran war and rising prices upend jet fuel trade - Reuters",
+        "summary": "Baton Rouge to Melbourne: Iran war and rising prices upend jet fuel trade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTWhHVFZyUHM5WFVsd1AtbmJiODRuWDJjWHBuZVFERVU3UnlmUERHOEJ0cHRUQy1OYklLX0ItdDdxSlJ2cEJtWFRVdU1EXzJKZzlCV2xMcXZDblZiNUhzdER1Tnk2LVp1MUxIck5KTnhmTHN1bHUyRXhraXNJOFltVS1zeW42TTlOeG1FQnNOTHdPd1hJVzNmajdSRDU4N1dnN1ZybHRxWC1zTWxTcUNWeHpnRF83U3Z0?oc=5",
+        "published_at": "2026-05-28T19:24:49Z"
+      },
+      {
+        "headline": "Key US inflation measure posts largest annual increase in three years - Reuters",
+        "summary": "Key US inflation measure posts largest annual increase in three years\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42UDdTXzBaWFpQZFVPSzJ1cFJ5bXhVTE1vdlIzOHpWRHpoQzFKcDBodVNkd0tUanRkcTZGNUJpcXA3NXdFcFhYeGxEcDh1QlFHUGVGLUNjR0t3ODFtVFlkMjBRU0tWQmxqcFhyX2dVc05EYlJFS3lrYl9rTXpWUDg?oc=5",
+        "published_at": "2026-05-28T19:15:45Z"
+      },
+      {
+        "headline": "Red-hot Arm Holdings soars to another all-time high. What's fueling the move this time?",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/28/red-hot-arm-soars-to-another-all-time-high-what-is-fueling-the-move-this-time.html",
+        "published_at": "2026-05-28T18:26:42Z"
+      },
+      {
+        "headline": "Traders' hopes fade for U.S.-Iran nuclear deal this year despite report on potential ceasefire agreement",
+        "summary": "Chances of a nuclear deal between the U.S. and Iran this year haven't moved much on prediction markets after Axios reported that the two agreed to a ceasefire.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/28/hope-fades-for-us-iran-nuclear-deal-after-ceasefire-report.html",
+        "published_at": "2026-05-28T18:24:26Z"
+      },
+      {
+        "headline": "Jim Cramer was on the fence with Salesforce. Now he's ready to act",
+        "summary": "Salesforce has been trying to counter the prevailing market narrative that AI poses an existential threat to its business.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/28/jim-cramer-was-on-the-fence-with-salesforce-now-hes-ready-to-act.html",
+        "published_at": "2026-05-28T17:53:53Z"
+      },
+      {
+        "headline": "US-Iran MOU on 60-day ceasefire extension reached, but Trump must approve, sources say - Reuters",
+        "summary": "US-Iran MOU on 60-day ceasefire extension reached, but Trump must approve, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcmtYNmpNOXg4SFczcnFmbWt0UDhOMktQZmtQcHQ2TE14QnV1ZkVvY2FtakZWRWNPaHlPZGI0WEp3ODViVVhSR05ldV85SDFVS2Vqa1JjZWJqX1BuUFh2QUFBaWgtZlRSd20xZEFYUlZhTG84VTRMd1hMay1LSE9aSTNqTDY1dlNLNnc2UlpIMThjUFJxOVlrTVhIV0pjbkZoMnlMdm5meDZPU2ZUbGRnSW5aUDdXM21uWHk4dEh4b3NGcm50OElUZF9wOA?oc=5",
+        "published_at": "2026-05-28T17:02:23Z"
+      },
+      {
+        "headline": "FTSE 100 snaps seven-day winning streak after US and Iran trade airstrikes - Reuters",
+        "summary": "FTSE 100 snaps seven-day winning streak after US and Iran trade airstrikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUl84TjhtZU5mamhhVGJKWXVJeEd5WUMwbkpid0c3OXdxTmluT0xRU2p0UEh5Tm5TdGJhdXluUmRGXzQyY05KTEFydmNHQzVzSXJMREdnWUthTU5ib2Y0YTl6eU92aUotTVVqRUYtYTZNTjI5TnprRWFDdzFoenBvcjNWVXJMVkJ5Tl9xQzJ1MDZ1c0FEOUtINjE1eXllUU8yZVJ1ZFl6bHRrLVg5TnIyeUZJbFJEdw?oc=5",
+        "published_at": "2026-05-28T16:55:33Z"
+      },
+      {
+        "headline": "European shares dip as Middle Eastern developments keep investors wary - Reuters",
+        "summary": "European shares dip as Middle Eastern developments keep investors wary\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMWR0N3NMaDdnSVlmTVpYZWptUEc3TVd2ZkcyNTYxUVRma3M2TWhxWXBteHNNanhJa2g4MnZ6d2hSQXBOZzJ6VlNGMmwwUFh2d2d1c0NDcU1zRURNWHFHNk9zT2YtX2tUbjFGQVVhLUFNempoTjQzMVdhcmE2cE1Ua2pVM1RCalpWckRUVWgtOGZyVGpIZXNjWjdoTlNMazVpajQtUXM2aEpwbHc4cVhpZXpJTDB4Zw?oc=5",
+        "published_at": "2026-05-28T16:50:02Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 754.65,
+    "spy_change_pct": 0.5583,
+    "spy_lean": "bullish",
+    "vix_close": 16.29,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 80,
+    "positive_count": 16,
+    "negative_count": 8,
+    "neutral_count": 56,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Anthropic Nears $1 Trillion Valuation, Topping OpenAI After Fresh $65 Billion Raise",
+        "url": "https://decrypt.co/369434/anthropic-nears-1-trillion-valuation-topping-openai-65-billion-raise",
+        "published_at": "2026-05-28T20:51:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Commissioner Peirce defends crypto privacy tools against surveillance push",
+        "url": "https://cointelegraph.com/news/sec-hester-peirce-defends-crypto-privacy-tools-surveillance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-28T20:49:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin enters cooldown phase under $75K as \u2018active distribution\u2019 rises",
+        "url": "https://cointelegraph.com/markets/bitcoin-enters-cooling-off-phase-under-75k-with-active-distribution-on-the-rise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-28T20:42:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gemini crypto exchange launches AI data feed powered by Grok",
+        "url": "https://www.theblock.co/post/402961/gemini-crypto-exchange-launches-ai-data-feed-powered-grok?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-28T20:40:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump claims he can \u2018future proof\u2019 crypto regulation with CLARITY Act",
+        "url": "https://cointelegraph.com/news/donald-trump-future-proof-crypto-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-28T20:32:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Are Learning to Predict What Users Want\u2014Before They Ask for It",
+        "url": "https://decrypt.co/369382/ai-agents-learning-predict-what-users-want-before-ask",
+        "published_at": "2026-05-28T20:24:53+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "France's AMF regulator sets June 30 deadline for MiCA licensing",
+        "url": "https://cointelegraph.com/news/france-amf-regulator-june-deadline-mica-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-28T20:19:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sui Network Goes Down for Hours, Just Months After the Last Downtime",
+        "url": "https://decrypt.co/369414/sui-network-down-hours-months-after-last-downtime",
+        "published_at": "2026-05-28T20:09:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin whale and dolphin accumulation stalled as demand remains weak",
+        "url": "https://www.theblock.co/post/402954/cryptoquant-bitcoin-whale-dolphin-accumulation-stalled-demand-weak?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-28T20:03:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Apple iOS 27 Leaks: Siri Is Being Remade to Be More Like ChatGPT",
+        "url": "https://decrypt.co/369415/apple-ios-27-leaks-siri-redesign-chatgpt",
+        "published_at": "2026-05-28T19:50:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
