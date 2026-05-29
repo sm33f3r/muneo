@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-29T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2560417165508.66,
+    "total_market_cap_change_24h_pct": -0.0694,
+    "total_volume_24h_usd": 88638936686.78,
+    "btc_dominance_pct": 57.6192,
+    "eth_dominance_pct": 9.5066,
+    "total2_usd": 1085126239756.81,
+    "total3_usd": 841716705263.97,
+    "active_cryptocurrencies": 17410,
+    "altcoin_season_index": 68,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 41.3982,
+        "price_usd": 6.21,
+        "market_cap_usd": 472793894
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": 16.792,
+        "price_usd": 6.43,
+        "market_cap_usd": 642823425
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price_change_24h_pct": 16.6176,
+        "price_usd": 0.242328,
+        "market_cap_usd": 8147762836
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 10.9915,
+        "price_usd": 0.04117882,
+        "market_cap_usd": 337641537
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 10.9878,
+        "price_usd": 1.3,
+        "market_cap_usd": 323493334
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -27.3754,
+        "price_usd": 0.470154,
+        "market_cap_usd": 158215126
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -12.5618,
+        "price_usd": 0.070788,
+        "market_cap_usd": 172309508
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -9.64,
+        "price_usd": 1.25,
+        "market_cap_usd": 435957057
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price_change_24h_pct": -6.343,
+        "price_usd": 247.15,
+        "market_cap_usd": 2376117440
+      },
+      {
+        "symbol": "SEI",
+        "name": "Sei",
+        "price_change_24h_pct": -6.1699,
+        "price_usd": 0.06508,
+        "market_cap_usd": 438889428
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73472,
+    "price_change_24h_pct": -0.216,
+    "price_change_7d_pct": -3.1878,
+    "market_cap_usd": 1472240896336,
+    "volume_24h_usd": 35935504829,
+    "direction": "neutral",
+    "oi_usd": 7635788538.11,
+    "funding_rate_latest": 6.702e-05,
+    "funding_rate_7d_avg": 6.523904761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6323,
+    "long_account_pct": 62.01,
+    "short_account_pct": 37.99,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2009.82,
+    "price_change_24h_pct": -0.4687,
+    "price_change_7d_pct": -2.9364,
+    "market_cap_usd": 242634817745,
+    "volume_24h_usd": 13352515316,
+    "eth_btc_ratio": 0.027355,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 79996543122.21,
+    "stablecoin_market_cap_usd": 318844487289.38,
+    "stablecoin_dominance_pct": 12.4528
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 27,
+    "headlines": [
+      {
+        "headline": "Trump says will soon decide on Iran deal, says Hormuz Strait must open - Reuters",
+        "summary": "Trump says will soon decide on Iran deal, says Hormuz Strait must open\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVE5ESU5VTnpnd09UZ3VvYnJ5WmtPOUR1STFHREZuSXBjTmZob2tEUUZUTUZsOWZyaDlCbk9OdVZlM2ZaRUZyMnNvUG83QVl3d3EzbFlZZ3UyaThBaTRXRXBPRktIb0cxWEhrUUdqVHl0NlVBZUFYS3VkTkJlbU1ISUhpdFVKUTFSMklXWHY3TXBXWFptWkNvTWlhMXROQy14RlNvTUh5eFlTUm1ueUNMTnQ1U0p4REp5OTUwaVo2QkhVZw?oc=5",
+        "published_at": "2026-05-29T20:50:39Z"
+      },
+      {
+        "headline": "What the Blue Origin rocket explosion means for Amazon's satellite ambitions",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/29/what-the-blue-origin-explosion-means-for-amazons-satellite-ambitions.html",
+        "published_at": "2026-05-29T18:48:27Z"
+      },
+      {
+        "headline": "UN places Israel and Russia on sexual violence blacklist - Reuters",
+        "summary": "UN places Israel and Russia on sexual violence blacklist\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTkxUVZfQW5WRzlpYWxBTXdnVG84b3REbktTUjlrUVVWWklBZGdTRFpfY0xMSXd5amwyaU52WXM2M2FYRF9Tb2d3NS1QNm1CSWFuY0JXYmJVOEM2ODd3aWU4c2FSc2llU2lxeWFhQkFMVGJJWU5KckE3NUVBb1ZLck14bXlyZVZRdzNrV1R5dXh4c3dQSUxNS2dqcDVDMU81dmJPQVhmSkhodmh5RTRHZ1g1azctRGJocnV6cVJmeHYxdEM1?oc=5",
+        "published_at": "2026-05-29T18:40:55Z"
+      },
+      {
+        "headline": "Tokens or humans? The new corporate trade-off",
+        "summary": "AI is costing far more than companies expected, forcing CFOs into a new trade-off between tokens and humans and posing a risk the market hasn't priced in.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html",
+        "published_at": "2026-05-29T18:24:45Z"
+      },
+      {
+        "headline": "As SpaceX IPO nears, traders think it's a near-certainty Musk becomes the first trillionaire",
+        "summary": "With buzz about a record-shattering IPO for SpaceX, traders are confident Elon Musk will advance to trillionaire status before 2027.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/29/as-spacex-ipo-nears-traders-think-musk-will-be-the-first-trillionaire.html",
+        "published_at": "2026-05-29T16:32:29Z"
+      },
+      {
+        "headline": "Kalshi is moving beyond prediction markets and into one of crypto's biggest trading lanes",
+        "summary": "Kalshi said offshore perpetuals grew from $28 trillion in annual volume in 2023 to more than $90 trillion in 2025.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/29/kalshi-is-moving-beyond-prediction-markets-and-into-one-of-cryptos-biggest-trading-lanes.html",
+        "published_at": "2026-05-29T15:58:51Z"
+      },
+      {
+        "headline": "Greek man appears in UK court charged with spying on Iran International journalist - Reuters",
+        "summary": "Greek man appears in UK court charged with spying on Iran International journalist\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS0JST3N3UlR3VTd0ZXY4Z3g4QWtOQWlKSkNlaVZmYXFNV3g5WVRsZWU0dFJTaGZlcE1nQmdKYnNxQzJxdWpOXzZQWnRhUEw2TVZEZnFPc29SOTd1OHNCQ0F6NkJlaXV3ZG83bFJ2UjUwV3UzbHk5V3VZa3gxTm9GazFnNGpfZU54ZTZRcHY1VHNwQjhIb1RMS1BXaExDM1dwQWpiQU8zZmhPUkVMbWk0TDFGVGlFNDRlN1kxQmRsUkUtUTNvVUctdA?oc=5",
+        "published_at": "2026-05-29T15:21:24Z"
+      },
+      {
+        "headline": "Trump says meeting Friday to make final decision on deal with Iran - Reuters",
+        "summary": "Trump says meeting Friday to make final decision on deal with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc3lQZEkwQjl6c2E5OWJKWmZfZ2ZXeXlZd1NDUVNNeEFMUUJHLUVWd0w2c3Vqb3hweHRVaVdqbWtuS3hPVkpHcG5DdGgxN1lxSjdlVGRwcm5WT2pvMW5pQkNtTDg1ZkoxZF93LUJ4T2VIWWlUWlFxVzBBY2RGbTBQQ3d1Z1hXZ0FlcXRTdGpDRUs2ZklLNWhRU2hmc1hUc0xGOVkxWA?oc=5",
+        "published_at": "2026-05-29T15:08:43Z"
+      },
+      {
+        "headline": "Breakingviews - A new US-Iran deal could be as useless as the last - Reuters",
+        "summary": "Breakingviews - A new US-Iran deal could be as useless as the last\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdXdjSTAzQ0FDZTdBS1FhMklsekpjNERqZFJ1eW9LN3ZTWDQ5aW1ySjVKX2FUdE5HUXlYQ19pVWFRU2xiM3lkZUM4Y3gzMlIyZFY3ZEhzZFJTVU03YWQ3Vk4zZWcxcHU5WDNTXzBJV1FvN0VXM2JTNWc1aEd5OFFiUmp3Y2JYbE8tZU9PaElOM2V3QjZkNVVZTnBIV3B2a3lu?oc=5",
+        "published_at": "2026-05-29T13:10:38Z"
+      },
+      {
+        "headline": "Pakistan foreign minister set to discuss Iran with Rubio in Washington - Reuters",
+        "summary": "Pakistan foreign minister set to discuss Iran with Rubio in Washington\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSzRoT29wSlRrOGpzVFZHQzVsWkNiQzlHbzF0SVl6Y1JoNldJRk5BQm54VXh6UUp1cVh3RnBPekl3OWF3YU9ueDF3VkpCMWVDbDdRcmE1M2Q2YjVPbHpfTHZHVGFqejJCekl2MjdPWGZTUDlvSzI3d3lUVHBkWktUd3lkc2NFRW9mRU9tajdWZlJxOU5acE1LNmxkLWxoNnNEOFZxamlxM19OYWlmNHdEZDBjSXVQODI0RUFv?oc=5",
+        "published_at": "2026-05-29T13:07:58Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 756.47,
+    "spy_change_pct": 0.2478,
+    "spy_lean": "neutral",
+    "vix_close": 15.74,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 67,
+    "positive_count": 10,
+    "negative_count": 9,
+    "neutral_count": 48,
+    "sentiment_ratio": 0.1493,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "'He\u2019s Full of Shit': JP Morgan's Jamie Dimon Takes Aim at Coinbase CEO Over Clarity Act",
+        "url": "https://decrypt.co/369525/jp-morgan-ceo-jamie-dimon-takes-aim-coinbase-clarity-act",
+        "published_at": "2026-05-29T21:24:28+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC backs crypto perpetual contracts, issues advisory on 24/7 trading",
+        "url": "https://cointelegraph.com/news/cftc-crypto-perpetual-contracts-trading-advisory?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-29T20:52:01+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury Secretary Bessent Says US Has 'Grabbed' $1 Billion in Crypto From Iran",
+        "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
+        "published_at": "2026-05-29T20:40:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano (ADA) Ecosystem Growth Fuels Strong Increase In Staking Activity",
+        "url": "https://bitcoinist.com/cardano-strong-staking-activity/",
+        "published_at": "2026-05-29T20:30:22+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Celsius Founder Alex Mashinsky Files to Have 12-Year Crypto Fraud Sentence Vacated",
+        "url": "https://decrypt.co/369520/celsius-founder-mashinsky-files-12-year-crypto-fraud-sentence-vacated",
+        "published_at": "2026-05-29T20:28:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US has seized nearly $1 billion in crypto from Iran, Bessent says",
+        "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-29T20:03:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Becomes First US Exchange Allowed to Offer Global Crypto Perps Trading",
+        "url": "https://decrypt.co/369504/coinbase-first-us-exchange-allowed-offer-global-crypto-perps-trading",
+        "published_at": "2026-05-29T19:41:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Lenovo Stock Doubles in May on AI Server Boom\u2014Best Month in 27 Years",
+        "url": "https://decrypt.co/369505/lenovo-stock-doubles-may-ai-server-boom",
+        "published_at": "2026-05-29T19:34:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Clears The Way For Regulated Crypto, Bitcoin Perpetuals\u2014Kalshi Moves Next",
+        "url": "https://bitcoinist.com/cftc-clears-crypto-bitcoin-perpetuals-kalshi/",
+        "published_at": "2026-05-29T19:01:41+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Moves Into New Market With Latest Update, But Can This Move Price Above $100?",
+        "url": "https://bitcoinist.com/solana-moves-into-new-market/",
+        "published_at": "2026-05-29T19:00:09+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
