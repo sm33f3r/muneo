@@ -1,0 +1,17 @@
+[[services]]
+name = "market-report-sui"
+[services.cron]
+schedule = "0 6 * * *"
+command = "python market_report.py --config configs/sui.json"
+
+[[services]]
+name = "market-report-sol"
+[services.cron]
+schedule = "5 6 * * *"
+command = "python market_report.py --config configs/solana.json"
+
+[[services]]
+name = "market-global-report"
+[services.cron]
+schedule = "30 6 * * *"
+command = "python market_global_report.py"
