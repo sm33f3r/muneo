@@ -1,0 +1,306 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-24T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2638775700751.51,
+    "total_market_cap_change_24h_pct": -0.2534,
+    "total_volume_24h_usd": 66193594287.7,
+    "btc_dominance_pct": 58.1673,
+    "eth_dominance_pct": 9.5797,
+    "total2_usd": 1103870664069.41,
+    "total3_usd": 851083756076.9,
+    "active_cryptocurrencies": 17393,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 28.3412,
+        "price_usd": 0.172168,
+        "market_cap_usd": 431103973
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 27.2737,
+        "price_usd": 0.118384,
+        "market_cap_usd": 287582568
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 26.7024,
+        "price_usd": 3.84,
+        "market_cap_usd": 221503248
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 11.103,
+        "price_usd": 15.13,
+        "market_cap_usd": 709158916
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 6.5706,
+        "price_usd": 0.703737,
+        "market_cap_usd": 239563953
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": -14.4401,
+        "price_usd": 0.944458,
+        "market_cap_usd": 209748517
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": -8.2965,
+        "price_usd": 1.61,
+        "market_cap_usd": 125952048
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": -7.9833,
+        "price_usd": 0.410433,
+        "market_cap_usd": 378238438
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -6.7916,
+        "price_usd": 1.0,
+        "market_cap_usd": 161960341
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -6.6506,
+        "price_usd": 0.0104813,
+        "market_cap_usd": 560906990
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76492,
+    "price_change_24h_pct": -0.395,
+    "price_change_7d_pct": -2.2503,
+    "market_cap_usd": 1534815731985,
+    "volume_24h_usd": 28630848864,
+    "direction": "neutral",
+    "oi_usd": 7653490665.76,
+    "funding_rate_latest": 6.265e-05,
+    "funding_rate_7d_avg": 4.523666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1515,
+    "long_account_pct": 53.52,
+    "short_account_pct": 46.48,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2091.35,
+    "price_change_24h_pct": -1.1417,
+    "price_change_7d_pct": -4.559,
+    "market_cap_usd": 252801333657,
+    "volume_24h_usd": 10356901892,
+    "eth_btc_ratio": 0.027341,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82003682650.06,
+    "stablecoin_market_cap_usd": 321199024167.66,
+    "stablecoin_dominance_pct": 12.1723
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 2,
+    "headlines": [
+      {
+        "headline": "'I never heard of the Strait of Hormuz before this': How one medical supply CEO is navigating the oil price shock",
+        "summary": "Medical supply company Gentell sources raw materials from around the world, and the crisis at the Strait of Hormuz is causing volatility for its business.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/24/gentell-ceo-iran-war-oil-prices.html",
+        "published_at": "2026-05-24T17:26:32Z"
+      },
+      {
+        "headline": "Americans are 'entrenched' in financial stress amid debt and price pressures",
+        "summary": "Inflation and high debt levels continue cause financial anxiety for many Americans. Nonprofits can help with debt mangement.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/24/americans-struggling-with-debt-inflation.html",
+        "published_at": "2026-05-24T15:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2825,
+    "dxy_lean": "bearish",
+    "spy_close": 745.64,
+    "spy_change_pct": 0.3931,
+    "spy_lean": "neutral",
+    "vix_close": 16.76,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 27,
+    "positive_count": 2,
+    "negative_count": 7,
+    "neutral_count": 18,
+    "sentiment_ratio": 0.0741,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Now You Can Buy Bitcoin, XRP and More in ChatGPT via MoonPay",
+        "url": "https://decrypt.co/368875/buy-bitcoin-xrp-chatgpt-moonpay",
+        "published_at": "2026-05-24T21:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Buterin fires back at Ethereum Foundation critics, recommits to neutrality",
+        "url": "https://cointelegraph.com/news/buterin-fires-back-ef-critics-neutrality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-24T20:43:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NYT investigation alleges CFTC purged staff who questioned Trump-tied crypto firms",
+        "url": "https://www.theblock.co/post/402442/nyt-investigation-alleges-cftc-purged-staff-who-questioned-trump-tied-crypto-firms?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-24T20:42:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC\u2019s tokenized stock plan could force crypto exchanges to answer what investors really own",
+        "url": "https://cryptoslate.com/sec-may-let-crypto-exchanges-trade-tokenized-stocks-without-asking-wall-street-first/",
+        "published_at": "2026-05-24T19:05:23+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Now Holds $65 Billion in Bitcoin\u2014These Are Its Biggest BTC Buys",
+        "url": "https://decrypt.co/292448/microstrategy-biggest-bitcoin-buys",
+        "published_at": "2026-05-24T18:53:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FTX law firm Fenwick & West to pay $54M to victims in settlement",
+        "url": "https://cointelegraph.com/news/law-firm-fenwick-west-54m-ftx-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-24T18:05:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Vitalik Buterin says Ethereum Foundation will be a \u2018smaller ship,\u2019 sell less ETH amid researcher exodus",
+        "url": "https://www.theblock.co/post/402435/vitalik-buterin-says-ethereum-foundation-will-be-a-smaller-ship-sell-less-eth-amid-researcher-exodus?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-24T18:01:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum\u2019s selloff tests whether its neutrality-first model can defend ETH\u2019s value amid Foundation \u2018brain drain\u2019",
+        "url": "https://cryptoslate.com/ethereum-market-sentiment-turns-negative-amid-foundation-brain-drain-and-price-struggles/",
+        "published_at": "2026-05-24T17:05:20+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Startup Says It Will Pay People $2,000 a Month to Masturbate\u2014Yes, Really",
+        "url": "https://decrypt.co/368866/ai-startup-pay-people-2000-month-masturbate",
+        "published_at": "2026-05-24T16:37:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FTX Lawyers Pay $54M In Settlement Over Services Rendered To Exchange \u2013 Details",
+        "url": "https://bitcoinist.com/ftx-lawyers-54-million-settlement-services-exchange/",
+        "published_at": "2026-05-24T16:00:24+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}

@@ -1,0 +1,226 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-27T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 83.63,
+    "price_change_24h_pct": -0.2304,
+    "price_change_7d_pct": -2.8064,
+    "volume_24h_usd": 2308257602,
+    "market_cap_usd": 48401502866,
+    "volume_to_mcap_ratio": 0.04769,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -71.489,
+    "cex_price_usd": 83.7,
+    "cex_24h_high": 84.84,
+    "cex_24h_low": 82.86,
+    "cex_dex_spread_pct": 0.083702,
+    "volume_on_up_days_usd": 3243138035.3447022,
+    "volume_on_down_days_usd": 2743455893.6478105,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 41.5891,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -5.474757,
+      "signal_line": -7.422001,
+      "histogram": 1.947244
+    },
+    "macd_lean": "bullish",
+    "sma_50": 105.6434,
+    "price_vs_sma50_pct": -20.8375,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 94.811385,
+      "mid": 86.4875,
+      "lower": 78.163615,
+      "width_pct": 19.2488,
+      "position": 0.3302
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 785577671.56,
+    "oi_lean": null,
+    "funding_rate_latest": 1.025e-05,
+    "funding_rate_7d_avg": -2.231142857142857e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5934,
+    "btc_long_account_pct": 61.44,
+    "btc_short_account_pct": 38.56,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 5366434875.0,
+    "tvl_7d_change_pct": -1.4814,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 5396511.0,
+    "chain_fees_7d_avg_usd": 6191697.0,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 7,
+    "positive_count": 4,
+    "negative_count": 1,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.5714,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Price predictions 5/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ZEC, ADA, XMR",
+        "url": "https://cointelegraph.com/markets/price-predictions-527-btc-eth-bnb-xrp-sol-doge-hype-zec-ada-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-27T18:28:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SoFi Launches SoFiUSD Stablecoin Across Ethereum and Solana",
+        "url": "https://decrypt.co/369187/sofi-launches-sofiusd-stablecoin-ethereum-solana",
+        "published_at": "2026-05-27T17:08:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid ETF Debut Outpaces Bitcoin, ETH And SOL, Kairos Says",
+        "url": "https://bitcoinist.com/hyperliquid-etf-debut-outpaces-btc-eth-sol-kairos/",
+        "published_at": "2026-05-27T15:30:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sold in May and went away? Bitcoin risks another 10% drop as month turns red",
+        "url": "https://cointelegraph.com/markets/sell-in-may-and-go-away-bitcoin-risks-another-drop-as-month-turns-red?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-27T14:14:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Meme Coin Surges 6,000% After Creators Arrested Over 'Rug Pull'",
+        "url": "https://decrypt.co/369134/solana-meme-coin-surges-6000-after-creators-arrested-over-rug-pull",
+        "published_at": "2026-05-27T13:09:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korea arrests suspects behind Solana memecoin CatFi in first rugpull case under new law",
+        "url": "https://www.theblock.co/post/402697/south-korea-first-rugpull-memecoin?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-27T08:58:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum bull David Hoffman explains why he sold his ETH",
+        "url": "https://cointelegraph.com/news/ethereum-evangelist-hoffman-explains-why-he-sold-his-eth-stash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-27T07:03:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 75094.0,
+    "btc_24h_change_pct": -1.0835,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 59.7274,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2518970933157.6294,
+    "eth_btc_ratio": 0.027386,
+    "eth_btc_lean": "neutral",
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 750.45,
+    "spy_change_pct": -0.0187,
+    "spy_lean": "neutral",
+    "vix_close": 17.01,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 78.26,
+    "cg_sentiment_votes_down_pct": 21.74,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 1,
+    "neutral_count": 13,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}

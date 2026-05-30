@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-27T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2602217467906.6,
+    "total_market_cap_change_24h_pct": -0.5882,
+    "total_volume_24h_usd": 86323718132.67,
+    "btc_dominance_pct": 57.7892,
+    "eth_dominance_pct": 9.5364,
+    "total2_usd": 1098415990533.52,
+    "total3_usd": 850259312828.03,
+    "active_cryptocurrencies": 17402,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 26.6085,
+        "price_usd": 0.01472507,
+        "market_cap_usd": 9166782689
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 18.5701,
+        "price_usd": 1.18,
+        "market_cap_usd": 314017569
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price_change_24h_pct": 14.2703,
+        "price_usd": 0.16826,
+        "market_cap_usd": 5660794810
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 11.1505,
+        "price_usd": 0.103454,
+        "market_cap_usd": 241179851
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": 11.0762,
+        "price_usd": 2.31,
+        "market_cap_usd": 152070996
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -13.3497,
+        "price_usd": 0.195388,
+        "market_cap_usd": 195071997
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -12.6383,
+        "price_usd": 0.079546,
+        "market_cap_usd": 193109676
+      },
+      {
+        "symbol": "PENDLE",
+        "name": "Pendle",
+        "price_change_24h_pct": -11.4475,
+        "price_usd": 1.6,
+        "market_cap_usd": 273621393
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -8.2818,
+        "price_usd": 0.349509,
+        "market_cap_usd": 1192043835
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": -7.695,
+        "price_usd": 0.180289,
+        "market_cap_usd": 209036506
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75034,
+    "price_change_24h_pct": -1.1969,
+    "price_change_7d_pct": -3.3736,
+    "market_cap_usd": 1503743947109,
+    "volume_24h_usd": 35197481985,
+    "direction": "bearish",
+    "oi_usd": 7664964634.45,
+    "funding_rate_latest": 9.914e-05,
+    "funding_rate_7d_avg": 5.123380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5934,
+    "long_account_pct": 61.44,
+    "short_account_pct": 38.56,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2054.37,
+    "price_change_24h_pct": -0.8882,
+    "price_change_7d_pct": -3.7554,
+    "market_cap_usd": 248144303985,
+    "volume_24h_usd": 13050018224,
+    "eth_btc_ratio": 0.027379,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81435698562.8,
+    "stablecoin_market_cap_usd": 320763533048.24,
+    "stablecoin_dominance_pct": 12.3265
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "US and Iran remain divided on Hormuz deal as White House rejects Tehran TV report - Reuters",
+        "summary": "US and Iran remain divided on Hormuz deal as White House rejects Tehran TV report\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWJLNTAwYTVGSkZnNzU5aUtkM0RhMUpvdXBkN1FzSW52RVhEZG9TZzdMTEJlNnc4QWUzdkhrRkh6R25nRnE3dnpUd3FxYzd3RmluZ1NuZTF1WHlYZEJKV0xnQ3FHVVlZY3RyMWVKc1NVMFVYZ2NlUXJibVZGbjRrVDk2QVVjSU5GUFJNRXd0WnNlMkZmcFpiajk1SWNTblU5bUpfSmRqQTR0UUtUam90WHJaZDhYS0JCa0h5ZUdWenFSckVa?oc=5",
+        "published_at": "2026-05-27T19:07:07Z"
+      },
+      {
+        "headline": "Trump says US not satisfied yet on deal with Iran - Reuters",
+        "summary": "Trump says US not satisfied yet on deal with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMHBfYTZCcWQ2N3pTeFJDU2NNeVd6cGVwb0MyeXV6OVVjZmNGMWg5Q2JuTGg2eTBXMW1qWFJmYzc3R2xnUlpjTG9QcmduYTQ1OXM0LTlNQ1pFYkc4Y2pkQmFWWEx1aXQtRmVsNE1GOGQwYlA3a1UzTHlOMWFES0lPM2l6WlkxVEJBaFFHQ3VPbnFHWGVnU09ielBDX2gtR3JSeVE?oc=5",
+        "published_at": "2026-05-27T19:05:33Z"
+      },
+      {
+        "headline": "Iran state TV says draft deal with US would reopen Hormuz shipping, end naval blockade - Reuters",
+        "summary": "Iran state TV says draft deal with US would reopen Hormuz shipping, end naval blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHB3ZTljSEdNUGlta055MjFRSDNTZGg2WkZmWjdFOUZfRC1Xd2Q2V2FSWmRxd0xPSTBGel91Um5yN3BHRVhhTURxcUFZTHBJckZDU2hvenpkbWg3aGY3cjB1VERORDR6Z00zTEdEbzB4SlBhUG11UkpkcDRTT2lpZmZxNVoxaXNDbHJWUHdkT0Q3d2VqZHFraUY5alIwcGY2WWEtVV9lblgtMy1GOWRIVlU4eVpzU2s2dzVPZFltZC00UXM?oc=5",
+        "published_at": "2026-05-27T18:52:07Z"
+      },
+      {
+        "headline": "Bears load up bets against small-cap stocks ahead of economic data releases",
+        "summary": "Despite a 40% rally the past year \u2013 compared to 27% in the S&P 500 and 39% in the Nasdaq-100 \u2013 options traders look the most bearish on the Russell 2000.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/27/bears-load-up-bets-against-small-cap-stocks-ahead-of-economic-data-releases.html",
+        "published_at": "2026-05-27T18:44:25Z"
+      },
+      {
+        "headline": "Trump opposes Russia or China taking Iran's highly enriched uranium",
+        "summary": "Trump also said the Strait of Hormuz, the vital oil-shipping route, is \"going to be open to everybody.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/27/trump-china-russia-iran-uranium-war-deal.html",
+        "published_at": "2026-05-27T17:52:00Z"
+      },
+      {
+        "headline": "Iranian missile likely involved in attack on ship in Strait of Hormuz, South Korea says - Reuters",
+        "summary": "Iranian missile likely involved in attack on ship in Strait of Hormuz, South Korea says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU0FvelZ2cHpUUW5qS3FpQ1NJMUVha1YtR2owWnJ1OEROem1MekVoQkVtWEMtTmxuOGFUQ3Q3QW9XVHd6bENOVjVsMVZ3Y2FFT0RYYkJpWHBfbG9meWxwM2tOck1GaTF1djA2Tnd6alNncGVmclhGNkZQX21YRmkzTWFpWU9QeV93OFk5eUhCMTRnc1Bwc0ZGbmJmckp2Q3BWZ2lDR1pGM1F6cHZFU2NkNnlfd05oZUJSd2VlcHVQMWdIZmhCZWhRT0NmS1c?oc=5",
+        "published_at": "2026-05-27T17:46:07Z"
+      },
+      {
+        "headline": "'Greetings after 88 days': Iranians reconnect after long internet shutdown - Reuters",
+        "summary": "'Greetings after 88 days': Iranians reconnect after long internet shutdown\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDh6MDBWTjJVR0x2SkthXzBlbXZHcEc5c0RpbjNDc0JWTjdzS3M3dHFXdnhfSDNjb1pnMTlrbUowMW1BVUQxdndoRGJJQklSYTNxNno2QWdwcGtudWpFdVJDYURzRmNURDVJNXJXSm9CeUhhZGR5UXRIX2syeWZTVmo0OTJZeDYzbGNEb2pZR1lNX3l4WmxJWkZtRU9kNElIc1l6bmFRZnZHaUxLTExwZnN4ZV9SdFBlN3BSQ1RnQzJDeVE?oc=5",
+        "published_at": "2026-05-27T17:44:21Z"
+      },
+      {
+        "headline": "Here's my list of best stocks to buy tied to AI and the great data center buildout",
+        "summary": "We are always prepared to pounce, even willing to break our discipline, because the data center explosion may be the greatest stock story of all time.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/27/jim-cramer-best-stocks-to-buy-tied-to-ai-and-great-data-center-buildout.html",
+        "published_at": "2026-05-27T17:05:49Z"
+      },
+      {
+        "headline": "European stocks end steady as gains in autos, chemicals offset Iran war uncertainty - Reuters",
+        "summary": "European stocks end steady as gains in autos, chemicals offset Iran war uncertainty\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3dWZUZzWDhjREZYeWhVaTRELXJrN1hhSG1ySVNBN1lRZUZ5bWphZmVOSVZ6Rk1NcFk1aERlOS1pSFBmTXNwN09oc3lMdUZIWVZkNXBoZW1zRTNVOUJWSmhMNnVwQmI4aEJnRFZmcDhTUEo2NXlONFRRVHJhbGdhWE9FamRnaHlTcHNhLUFmbjFSbkVQRTd3LVdEN0VNQk5FeHQzVFBETm5lM1E3eWxLRzRDYw?oc=5",
+        "published_at": "2026-05-27T16:37:09Z"
+      },
+      {
+        "headline": "Canada turns from US to Europe as Iran war propels aluminium higher - Reuters",
+        "summary": "Canada turns from US to Europe as Iran war propels aluminium higher\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkZrQ0NqN3JkQ0gzX3pEYmE3T3Y5Nlh6d1Fwd2xIRjJZOE9ZN3B5MWstSzZ5SzliRVVpN2RjS2VxS0lBRHVVMzh2WEh1azFIbEotaTBzOGFKMTZHbmpQTFlEenFOaTJvdHc1ZzlZUDVSX2NhLXljaHRuTHBMRk5PY2FWVHBNYS1EUS1YaTRmM0ZwQzhpMGNWRnVqUTI2MUFhS1Zr?oc=5",
+        "published_at": "2026-05-27T15:32:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 750.45,
+    "spy_change_pct": -0.0187,
+    "spy_lean": "neutral",
+    "vix_close": 17.01,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 85,
+    "positive_count": 21,
+    "negative_count": 14,
+    "neutral_count": 50,
+    "sentiment_ratio": 0.2471,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "How Does The XRP Ledger Hold Up Against The Bitcoin Network?",
+        "url": "https://bitcoinist.com/xrp-ledger-against-btc-network/",
+        "published_at": "2026-05-27T21:30:09+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Chatbots Could Quietly Pull Users Away From Reality, Researchers Warn",
+        "url": "https://decrypt.co/369243/ai-psychosis-chatbots-reality-mental-health-research",
+        "published_at": "2026-05-27T21:09:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cash App lets users send USDC stablecoins on chains like Solana and Ethereum",
+        "url": "https://www.theblock.co/post/402784/cash-app-lets-users-send-usdc-stablecoins-on-chains-like-solana-and-ethereum?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-27T21:07:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here's How Much Bitcoin Elon Musk Would Control If SpaceX and Tesla Merge",
+        "url": "https://decrypt.co/369240/how-much-bitcoin-elon-musk-control-spacex-tesla-merge",
+        "published_at": "2026-05-27T21:07:10+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White House starts review of CFTC\u2019s prediction markets rulemaking as Trump backs agency authority",
+        "url": "https://www.theblock.co/post/402786/white-house-starts-review-of-cftcs-prediction-markets-rulemaking-as-trump-backs-agency-authority?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-27T20:52:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000",
+        "url": "https://decrypt.co/369218/ethereum-traders-increasingly-bearish-etfs-bleed-eth-sinks-near-2000",
+        "published_at": "2026-05-27T20:52:20+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Orca, Streamex roll out secondary trading infrastructure for tokenized securities",
+        "url": "https://cointelegraph.com/news/orca-and-streamex-launch-secondary-trading-infrastructure-for-tokenized-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-27T20:51:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin miner-to-AI boom sends stocks soaring as Cipher and Hut 8 hit fresh highs",
+        "url": "https://www.theblock.co/post/402773/bitcoin-miner-ai-boom-stocks-soaring-cipher-hut-8-fresh-highs?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-27T20:47:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ElevenLabs, Stability AI Drop New AI Music Models\u2014Can They Catch Suno?",
+        "url": "https://decrypt.co/369237/elevenlabs-stability-ai-new-music-models-suno",
+        "published_at": "2026-05-27T20:33:13+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Marvel Comics Icon Stan Lee Has Been 'Revived' With AI Tech\u2014Again",
+        "url": "https://decrypt.co/369220/marvel-comics-icon-stan-lee-revived-ai-tech-again",
+        "published_at": "2026-05-27T20:23:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 0,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
