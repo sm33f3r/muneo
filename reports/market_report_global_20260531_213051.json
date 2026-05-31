@@ -1,0 +1,348 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-31T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2572641869809.03,
+    "total_market_cap_change_24h_pct": -0.3337,
+    "total_volume_24h_usd": 53860692113.95,
+    "btc_dominance_pct": 57.3377,
+    "eth_dominance_pct": 9.3972,
+    "total2_usd": 1097548336421.06,
+    "total3_usd": 855791673023.8,
+    "active_cryptocurrencies": 17402,
+    "altcoin_season_index": 72,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HOME",
+        "name": "HOME",
+        "price_change_24h_pct": 35.7736,
+        "price_usd": 0.03806389,
+        "market_cap_usd": 145934726
+      },
+      {
+        "symbol": "KOGE",
+        "name": "KOGE",
+        "price_change_24h_pct": 35.0529,
+        "price_usd": 47.86,
+        "market_cap_usd": 161961910
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 28.3222,
+        "price_usd": 0.662508,
+        "market_cap_usd": 655227174
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 17.8048,
+        "price_usd": 9.38,
+        "market_cap_usd": 3797885043
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 7.7101,
+        "price_usd": 0.079169,
+        "market_cap_usd": 193150037
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -9.2814,
+        "price_usd": 2.96,
+        "market_cap_usd": 170025804
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": -7.977,
+        "price_usd": 2.22,
+        "market_cap_usd": 145806210
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -6.5688,
+        "price_usd": 0.101458,
+        "market_cap_usd": 212924209
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -6.4509,
+        "price_usd": 1.29,
+        "market_cap_usd": 452807327
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -6.4255,
+        "price_usd": 0.95244,
+        "market_cap_usd": 154353969
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73530,
+    "price_change_24h_pct": -0.4853,
+    "price_change_7d_pct": -3.9287,
+    "market_cap_usd": 1474098829738,
+    "volume_24h_usd": 16488803060,
+    "direction": "neutral",
+    "oi_usd": 7717843065.78,
+    "funding_rate_latest": 5.988e-05,
+    "funding_rate_7d_avg": 6.459380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4956,
+    "long_account_pct": 59.93,
+    "short_account_pct": 40.07,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2004.19,
+    "price_change_24h_pct": -1.1214,
+    "price_change_7d_pct": -4.4783,
+    "market_cap_usd": 241989506570,
+    "volume_24h_usd": 7388821812,
+    "eth_btc_ratio": 0.027257,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 80334869935.96,
+    "stablecoin_market_cap_usd": 318940797596.23,
+    "stablecoin_dominance_pct": 12.3974
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 8,
+    "headlines": [
+      {
+        "headline": "Netanyahu orders deeper Israeli incursion into Lebanon to hit Hezbollah - Reuters",
+        "summary": "Netanyahu orders deeper Israeli incursion into Lebanon to hit Hezbollah\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ19uYndNRDdIVlVObEJCQjhHUnhNUTRqWTM3NFppenBsU01tWU5ILXU2ZHA3QmVHYllWU0ZQeU1nVzlITlhsUDlFTkJoU19OUXJPUFFyMDBYZ2l2a3EtSVo0YkFRQUF0bTlvOVJ3Vm40dHFGTUoyNm9ZTnlBQWltYXZxak1xLXdOQ29XR05ZNzd3cTF1MWtuZjZRZW14dWZlLWhEcHJfRzVMTlZTMVhhbHdsQ2I0S3hIY2NqdWZMUlZWNjJteVhRd19QVEpJVFBVMjdPd0NtRQ?oc=5",
+        "published_at": "2026-05-31T20:13:36Z"
+      },
+      {
+        "headline": "My guide to the IPOs of SpaceX, OpenAI and Anthropic \u2014 including the one I really want to buy",
+        "summary": "These three expected deals will define 2026 and maybe even 2027. Here's my advice on how to play them.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/my-guide-to-the-ipos-of-spacex-openai-and-anthropic-including-the-one-i-really-want-to-buy.html",
+        "published_at": "2026-05-31T17:56:30Z"
+      },
+      {
+        "headline": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry'",
+        "summary": "Trump threatened further military action if negotiations break down and the U.S. does not receive the concessions from Iran it desires.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html",
+        "published_at": "2026-05-31T16:22:08Z"
+      },
+      {
+        "headline": "Eva Longoria says this quality is more important than an Ivy League education: 'Do you have the capacity to figure it out?'",
+        "summary": "Actor, director and entrepreneur Eva Longoria says this is a top quality she looks for when making a hire or partnering with new people.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/eva-longoria-says-this-quality-trumps-an-ivy-league-education.html",
+        "published_at": "2026-05-31T14:30:01Z"
+      },
+      {
+        "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
+        "summary": "Earnings from CrowdStrike, Palo Alto Networks and Broadcom. Plus, jobs data, Computex and progress on spin-offs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-05-31T14:00:53Z"
+      },
+      {
+        "headline": "In deeply red Oklahoma, minimum wage\u2019s biggest 2026 election cycle fight is about to be decided",
+        "summary": "Oklahomans will soon vote on a measure to double the minimum wage, an election issue that may reflect the economic mood and inflation outlook across parties.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/oklahoma-minimum-wage-2026-election-vote-economy-inflation.html",
+        "published_at": "2026-05-31T13:15:18Z"
+      },
+      {
+        "headline": "Saudi shares gain, Qatar slips on Iran-US deal uncertainty - Reuters",
+        "summary": "Saudi shares gain, Qatar slips on Iran-US deal uncertainty\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZE5ycVlXQ2lyWmppTS1UaElHQzhyOEROU0hwMTBxeno2bWkzZFVxdVJIa2hRYUpRVE9nanBHNV9qTGVrMEk5ZVZ3ajRBcGpKNVJMbElKalFwQndfeDlubTlvM2J2dndOZ1lkR3RrbExaYW5BenM3TWFseHZ2RXV1cGk4enVfXzlkM3gyUUpxWXZtT1ZEWHFfYVJNbGpHU3BDSlRJTTNjdFoxdEF4?oc=5",
+        "published_at": "2026-05-31T13:09:33Z"
+      },
+      {
+        "headline": "Defense spending, China in Asia and lessons from Ukraine: Takeways from the 2026 IISS Shangri-La Dialogue",
+        "summary": "The summit sees top world leaders, defence officials and key executives gathering in Singapore from May 29 to 31",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/takeways-from-the-2026-shangri-la-dialogue-.html",
+        "published_at": "2026-05-31T08:38:13Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 756.48,
+    "spy_change_pct": 0.2491,
+    "spy_lean": "neutral",
+    "vix_close": 15.74,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 26,
+    "positive_count": 5,
+    "negative_count": 3,
+    "neutral_count": 18,
+    "sentiment_ratio": 0.1923,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Sui traces three mainnet halts to upgrade bugs, including a fix it knew carried halt risk",
+        "url": "https://www.theblock.co/post/403124/sui-traces-three-mainnet-halts-to-upgrade-bugs-including-a-fix-it-knew-carried-halt-risk?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-31T20:46:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy's Michael Saylor teases BTC buy with 'working better' tweet",
+        "url": "https://cointelegraph.com/news/strategys-michael-saylor-says-working-better-tees-up-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T20:00:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Now Or Never\u2019 For Crypto Clarity, CEO Warns Ahead Of Key June Push",
+        "url": "https://bitcoinist.com/now-or-never-for-crypto-clarity-ceo-warns-ahead-of-key-june-push/",
+        "published_at": "2026-05-31T19:30:08+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK treats crypto network like a sanctioned bank after claims it processed $90B for Russia",
+        "url": "https://cryptoslate.com/uk-treats-crypto-network-like-a-sanctioned-bank-after-claims-it-processed-90b-for-russia/",
+        "published_at": "2026-05-31T19:05:46+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken \u2018plans\u2019 regulated perp contracts as rivals are quick off the blocks",
+        "url": "https://cointelegraph.com/news/kraken-plans-regulated-perp-contracts-as-rivals-are-quick-off-the-blocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T17:40:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle Blacklists Zama Protocol Address, Freezing $12.6M In User Funds \u2013 Details",
+        "url": "https://bitcoinist.com/circle-blacklists-zama-paddress-freezing-12-6m/",
+        "published_at": "2026-05-31T17:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revealing the moment crypto started reshaping American elections",
+        "url": "https://cryptoslate.com/revealing-the-moment-crypto-started-reshaping-american-elections/",
+        "published_at": "2026-05-31T17:10:45+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin preps 3% May downside, but US PMI data may boost BTC price",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-preps-3-may-downside-as-us-pmi-data-preps-potential-btc-price-boost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T16:39:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How President Trump\u2019s Immigration Order Will Feed the Stablecoin Economy, Bitcoin ATMs",
+        "url": "https://decrypt.co/369479/how-president-trump-immigration-order-feed-stablecoin-bitcoin-atms",
+        "published_at": "2026-05-31T15:49:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Foundation cancels 2026 summit after treasury funding vote falls just short",
+        "url": "https://www.theblock.co/post/403122/cardano-foundation-cancels-2026-summit-after-treasury-funding-vote-falls-just-short?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-31T15:33:24+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 1,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
