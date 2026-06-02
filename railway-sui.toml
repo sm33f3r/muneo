@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "python market_report.py --config configs/sui.json"
+cronSchedule = "0 21 * * *"

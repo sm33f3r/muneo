@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "python market_global_report.py"
+cronSchedule = "30 21 * * *"

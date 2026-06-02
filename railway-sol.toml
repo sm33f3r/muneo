@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "python market_report.py --config configs/solana.json"
+cronSchedule = "10 21 * * *"
