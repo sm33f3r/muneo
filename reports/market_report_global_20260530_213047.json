@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-30T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2581679776597.59,
+    "total_market_cap_change_24h_pct": 1.1814,
+    "total_volume_24h_usd": 59164734858.4,
+    "btc_dominance_pct": 57.3416,
+    "eth_dominance_pct": 9.4718,
+    "total2_usd": 1101303214069.88,
+    "total3_usd": 856771180085.39,
+    "active_cryptocurrencies": 17403,
+    "altcoin_season_index": 64,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 47.8501,
+        "price_usd": 0.386893,
+        "market_cap_usd": 703554480
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 28.8739,
+        "price_usd": 7.99,
+        "market_cap_usd": 609118068
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 22.1504,
+        "price_usd": 0.364726,
+        "market_cap_usd": 1224149606
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 16.7049,
+        "price_usd": 0.514349,
+        "market_cap_usd": 513823764
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price_change_24h_pct": 14.6331,
+        "price_usd": 0.77183,
+        "market_cap_usd": 1981266976
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -7.4988,
+        "price_usd": 0.188241,
+        "market_cap_usd": 186826365
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price_change_24h_pct": -6.2664,
+        "price_usd": 2.31,
+        "market_cap_usd": 2993804368
+      },
+      {
+        "symbol": "ULTIMA",
+        "name": "Ultima",
+        "price_change_24h_pct": -5.4665,
+        "price_usd": 2317.88,
+        "market_cap_usd": 195920164
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": -5.0315,
+        "price_usd": 0.00266577,
+        "market_cap_usd": 253603682
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -4.7375,
+        "price_usd": 1.018,
+        "market_cap_usd": 164856019
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73883,
+    "price_change_24h_pct": 0.5767,
+    "price_change_7d_pct": -2.6056,
+    "market_cap_usd": 1480491728797,
+    "volume_24h_usd": 18852482377,
+    "direction": "neutral",
+    "oi_usd": 7670021198.58,
+    "funding_rate_latest": 6.214e-05,
+    "funding_rate_7d_avg": 6.72204761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5336,
+    "long_account_pct": 60.53,
+    "short_account_pct": 39.47,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2026.98,
+    "price_change_24h_pct": 0.8545,
+    "price_change_7d_pct": -5.3617,
+    "market_cap_usd": 244642959068,
+    "volume_24h_usd": 7900615554,
+    "eth_btc_ratio": 0.027435,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 80852334560.78,
+    "stablecoin_market_cap_usd": 319031908750.98,
+    "stablecoin_dominance_pct": 12.3575
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 12,
+    "headlines": [
+      {
+        "headline": "US military says it turned away blockade runner trying to reach Iranian port - Reuters",
+        "summary": "US military says it turned away blockade runner trying to reach Iranian port\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQczdSbmVIRkxGZzQwRk8yYkEzSGhLYlNfTXFVZVN4ZHllWVprVVY5YXJRdGxkQ1VzRHN6RDZPeDI3X0pIbFZ4LUhjOF9TVlI0a1c4NGdrRTAtX19iYkFQVkdRa1NaNFR0ZGc2ZlZrM2t0a0Z5c3M2akd3UXpIUjdVODAxRGJ2R1owMlRMN3BHc0FiQWxIUm14R3ZIUDFLZEx4UlNkSlI4cDV5TzJMZXJCdnpfSWZUaVRxVndLMGFYeWljTHZIQ0E?oc=5",
+        "published_at": "2026-05-30T19:27:43Z"
+      },
+      {
+        "headline": "DOJ seeks Judge Eleanor Ross recusal in Georgia election case, citing reports she was disciplined",
+        "summary": "The DOJ is suing Georgia Secretary of State Brad Raffensberger over his refusal to give the department election records.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/doj-seeks-recusal-of-judge-eleanor-ross-in-georgia-election-case.html",
+        "published_at": "2026-05-30T17:29:16Z"
+      },
+      {
+        "headline": "Tiny Guyana poised for big Iran oil gains and growth strains - Reuters",
+        "summary": "Tiny Guyana poised for big Iran oil gains and growth strains\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU3dHcWZTWTJ3cHcyV3VUdHAteUZiTElWMzJtQlM2RC1mZDhsWFh0Sm9uWk9KYzk5akFkeWhtUU55WEliSzc0TXJxN1p0SHNWTi1RY2sxZ3R4alRhWDhqeHlrdFJGcW85UFJFMDN3SF9uaV9sNDVDUl9kV2tpbHd0NldmcnMzX01CUXo0a2lhSzdvMDZRLTREVEpjQzQ1eFpBX2lzQlVDVQ?oc=5",
+        "published_at": "2026-05-30T14:20:16Z"
+      },
+      {
+        "headline": "Net worth matters more than income when it comes to financial anxiety, survey finds",
+        "summary": "A new survey finds financial anxiety declines more with higher net worth than with higher income.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/why-higher-income-may-not-reduce-financial-anxiety.html",
+        "published_at": "2026-05-30T14:00:01Z"
+      },
+      {
+        "headline": "Josh Brown, counting on a new momentum strategy, thinks investors want more than index funds",
+        "summary": "Brown debuted a separately managed account named after a premium cut of steak \u2014 built to hold what he considers the market's best opportunities.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/josh-brown-thinks-investors-want-more-than-index-funds.html",
+        "published_at": "2026-05-30T12:56:04Z"
+      },
+      {
+        "headline": "3 themes that drove stocks to another week of records \u2014 and a banner month",
+        "summary": "The S&P 500 extended its winning streak to nine weeks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/3-themes-that-drove-stocks-to-another-record-week-and-a-banner-month.html",
+        "published_at": "2026-05-30T12:54:38Z"
+      },
+      {
+        "headline": "Will Gen Z be the generation to revive moviegoing?",
+        "summary": "Gen Zers like affordable, social experiences and are driving demand for anime and video game titles at the theaters.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/gen-z-movie-theaters.html",
+        "published_at": "2026-05-30T12:00:01Z"
+      },
+      {
+        "headline": "Investors and labels are buying into the growing South Asian music business in the U.S.",
+        "summary": "Warner Music Group, the third-largest music label by market share, is tapping into the South Asian music movement with its latest venture, 5 Junction.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/30/south-asian-music-warner-records-5-junction.html",
+        "published_at": "2026-05-30T12:00:01Z"
+      },
+      {
+        "headline": "Pentagon chief says U.S. ready to restart strikes on Iran if no deal - Reuters",
+        "summary": "Pentagon chief says U.S. ready to restart strikes on Iran if no deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDJGOWhzbXNmcjJKZV9ldldtcUliNDM5RUduV3loQVpDYlowVGlhd1g4S2t3RzhYOVpTS3pDUXlYT0tnZ21jVGxGNTR3MVRvZF9GMW5SYWpVUnJyRnd0dldUZlVWbmxQRzRuZjUzV0lqNGpNc0tSZ0RqOU5PeGNZQXl3dG1WWHVGRWVXTnpOT196X193YlFsZGROWk53akFuM2RNWDhtMVl4YVpPS0dZemNYcTNDZw?oc=5",
+        "published_at": "2026-05-30T03:52:00Z"
+      },
+      {
+        "headline": "Israeli forces cross key Lebanon river in expanded ground offensive - Reuters",
+        "summary": "Israeli forces cross key Lebanon river in expanded ground offensive\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcDlpYWVyelEtSWZoWmdtUC11UFhFc296VkRzdkxmT1o2X0pwdkhKQUdVQzkwaF9jWkNEajBGWnJlWjdiVjJxNlVJaEg1Q1VnWVRWQnZOc28zMTQzVTExSGt4VHhkNVNUN1dFSUJfRHlLVUZSZVJZQTR4WDNFanNZc0xnakR3MkV6djh4aWJseDduY2hqYU9aLWV3S2ZhOGl4Szh6VElwYnZNdVRMQmV0cmpqWkYwU1JBUVE?oc=5",
+        "published_at": "2026-05-29T23:01:29Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.2868,
+    "dxy_lean": "neutral",
+    "spy_close": 756.48,
+    "spy_change_pct": 0.2491,
+    "spy_lean": "neutral",
+    "vix_close": 15.74,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 28,
+    "positive_count": 1,
+    "negative_count": 6,
+    "neutral_count": 21,
+    "sentiment_ratio": 0.0357,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Banks Vs. Crypto Law: JPMorgan CEO Doubles Down On CLARITY Opposition",
+        "url": "https://bitcoinist.com/banks-vs-crypto-law-jpmorgan-ceo-doubles-down-on-clarity-opposition/",
+        "published_at": "2026-05-30T21:00:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senator Lummis says China will 'write the rules' of the new financial era if CLARITY fails",
+        "url": "https://cointelegraph.com/news/senator-lummis-says-china-will-beat-the-us-to-the-punch-if-clarity-is-not-passed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-30T20:45:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$1 Billion In Iranian Crypto Seized By US, Treasury Secretary Says",
+        "url": "https://bitcoinist.com/1b-in-iranian-crypto-seize-by-us-treasury-secretary/",
+        "published_at": "2026-05-30T19:30:28+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle freezes $12.6M of USDC linked to privacy protocol Zama",
+        "url": "https://cointelegraph.com/news/circle-freezes-126m-of-usdc-linked-to-privacy-protocol-zama?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-30T19:11:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The US debt machine is getting harder to stabilize \u2013 So where does Bitcoin fit in?",
+        "url": "https://cryptoslate.com/the-us-debt-machine-is-getting-harder-to-stabilize-so-where-does-bitcoin-fit-in/",
+        "published_at": "2026-05-30T18:55:52+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cosmos-based Gravity Bridge drained of $5.4 million in suspected key compromise, researchers say",
+        "url": "https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-30T18:21:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto champion Trump may be jeopardizing the industry\u2019s landmark legislation",
+        "url": "https://www.theblock.co/post/403083/crypto-champion-trump-may-be-jeopardizing-the-industrys-landmark-legislation?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-30T17:56:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Sues Texas Man For $12.3 Million Crypto Asset Fraud \u2013 Details",
+        "url": "https://bitcoinist.com/sec-sues-texas-man-for-12-3-million-crypto-fraud/",
+        "published_at": "2026-05-30T16:30:21+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Florida Candidate Liquidates $800K in Bitcoin to Bankroll Congressional Bid",
+        "url": "https://decrypt.co/369478/florida-candidate-liquidates-800k-bitcoin-bankroll-congressional-bid",
+        "published_at": "2026-05-30T15:44:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bit Digital Saw Ethereum\u2019s Strategic Value Before Institutions Caught On",
+        "url": "https://bitcoinist.com/bit-digital-early-on-ethereum/",
+        "published_at": "2026-05-30T15:00:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}

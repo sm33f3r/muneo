@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-01T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2517853483509.42,
+    "total_market_cap_change_24h_pct": -2.3821,
+    "total_volume_24h_usd": 115465760998.97,
+    "btc_dominance_pct": 56.601,
+    "eth_dominance_pct": 9.5548,
+    "total2_usd": 1092724071099.64,
+    "total3_usd": 852147190222.76,
+    "active_cryptocurrencies": 17401,
+    "altcoin_season_index": 84,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 74.7432,
+        "price_usd": 0.682961,
+        "market_cap_usd": 1239299684
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 62.9702,
+        "price_usd": 15.34,
+        "market_cap_usd": 4773363317
+      },
+      {
+        "symbol": "HOME",
+        "name": "HOME",
+        "price_change_24h_pct": 31.8492,
+        "price_usd": 0.04997333,
+        "market_cap_usd": 191552022
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 30.4336,
+        "price_usd": 0.89841,
+        "market_cap_usd": 242931124
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 29.5051,
+        "price_usd": 0.439385,
+        "market_cap_usd": 1467858069
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -39.5313,
+        "price_usd": 0.781509,
+        "market_cap_usd": 269826633
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -14.1594,
+        "price_usd": 2.54,
+        "market_cap_usd": 146027614
+      },
+      {
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "price_change_24h_pct": -7.9823,
+        "price_usd": 0.245347,
+        "market_cap_usd": 141431760
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": -7.2709,
+        "price_usd": 8.015e-05,
+        "market_cap_usd": 443752642
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": -6.8887,
+        "price_usd": 104.6,
+        "market_cap_usd": 143912822
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 71054,
+    "price_change_24h_pct": -3.3757,
+    "price_change_7d_pct": -8.1522,
+    "market_cap_usd": 1423681934986,
+    "volume_24h_usd": 49579361856,
+    "direction": "bearish",
+    "oi_usd": 7451981019.5,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.870761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9994,
+    "long_account_pct": 66.66,
+    "short_account_pct": 33.34,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1992.77,
+    "price_change_24h_pct": -0.5692,
+    "price_change_7d_pct": -5.4968,
+    "market_cap_usd": 240507410246,
+    "volume_24h_usd": 17435914703,
+    "eth_btc_ratio": 0.028046,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 79956880301.55,
+    "stablecoin_market_cap_usd": 318776908517.41,
+    "stablecoin_dominance_pct": 12.6607
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Wall St ends higher, boosted by tech gains, US-Iran peace hopes - Reuters",
+        "summary": "Wall St ends higher, boosted by tech gains, US-Iran peace hopes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcUNQekF0VTVYU1pWSkxuYnE4cklIRTliQzVsN2NLUlItQ0Jvd1Q5My1lQlZJTUZMQmZpaWxDN1YtY3RGY1h0R1BIeHlrbm1qcFhpU1dxZjhfTmFwVERDd0VsOUFxTHRBZzNfNFdCYkFqVDE1ODVXVGNxaEpTdTd3SjlGZGMwRDdtUFBWQ3RtOVZoOGtGZmZWRGtnOUotbmxYejNobloxaGFqV1dSUWJRek5VYw?oc=5",
+        "published_at": "2026-06-01T20:22:36Z"
+      },
+      {
+        "headline": "Trump holds calls with Israel, Hezbollah amid hopes Lebanon ceasefire can hold - Reuters",
+        "summary": "Trump holds calls with Israel, Hezbollah amid hopes Lebanon ceasefire can hold\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYmZseGFNR05tMVJiV2tLRjdhdUFTUkwyT3pSdVFYdTJYWDdCZ0tRR2JNU002UEtMVHA1TXhabGhlUlMxUkIyOEh5dTNMR0dIQk1FQmxqUDRhcFZaREtrQkMyci1NS2lycENBOWtqbEpQVV9lX3FGOEJXU19ROEtaS0o0bTg0TGV5NGhtcGhORy12aUo4dzVxUlY2UElhZDFUalVqeWZmbUotQ21jQWxPeE5LZFM3WkNSZjE4bTR6MVhsTWFvRGpIMlpzeGpwTXZVby1Za2k5TQ?oc=5",
+        "published_at": "2026-06-01T19:34:18Z"
+      },
+      {
+        "headline": "Stock market corrections will happen: Here's how we navigate the ups and downs",
+        "summary": "We concern ourselves far more with making sure we are investing in the right companies.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/01/market-corrections-happen-heres-how-we-navigate-the-ups-and-downs.html",
+        "published_at": "2026-06-01T19:31:30Z"
+      },
+      {
+        "headline": "Ukraine's Zelenskiy says warning of massive Russian strike remains in effect - Reuters",
+        "summary": "Ukraine's Zelenskiy says warning of massive Russian strike remains in effect\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUF8zNGhlLXBJUHQyZ29HYkNHMlotbU5wZkFBUUZEUUhhLTN6TldIUzRaUU8wZFgxd1duUlZLbFZWeHkyQk56NWNFdXIxZzJZby10Zzh3bUpkWXVJX0x3MGlvcjRBVXgwNkREeU9sZGlYZXlpWnBIbVMwcktTTy1xT1NLeDEwTHNxR05PY0NkZFptV3g3S0IxdldQMVRZdmdnZXQta2U3eVFEdHFRTkRycg?oc=5",
+        "published_at": "2026-06-01T19:24:09Z"
+      },
+      {
+        "headline": "Lebanon crusader castle seized by Israel a symbol of bloody history - Reuters",
+        "summary": "Lebanon crusader castle seized by Israel a symbol of bloody history\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd2laVWtfVDhQYzJIa3RPMVdpSWpVRy1pV1B1R3RUVFU4WUYwWmYtRk84SGkzVXNjdFFYY2dIeko5UzVneGtjUVVtMlJQY3c4WVZMbUJxREIxS2FudTZnUEF5UG1paVdta0JXWTdFbHJ5UGozZTBtTk1qYlNRMkNjWWhfT0tPNlF0RU96YW1kU1loNnl4Q1U2WEF2WUlQOW9fbktDRGx6eGZTaWhoV1NBd2NiWHRyZHc?oc=5",
+        "published_at": "2026-06-01T19:18:18Z"
+      },
+      {
+        "headline": "We're giving newly spun FedEx Freight a buy rating and raising our price target on another",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/01/were-giving-fedex-freight-a-buy-rating-raising-our-price-target-on-another.html",
+        "published_at": "2026-06-01T19:02:53Z"
+      },
+      {
+        "headline": "Trump says he spoke to Lebanon's Hezbollah through intermediaries - Reuters",
+        "summary": "Trump says he spoke to Lebanon's Hezbollah through intermediaries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDZETGU3TFh2UFRaRjc2b3lGU3RSRDZwUzVpWU9YRXRwWlM5MDdoMS1JQ09NVXR5TUQ1SnRXQWl2S2sxNWg3eTNxR2RPNTdEY0RhSWxMQ1Jndm1SaHZMRklDZVNuZ1dQdGJCRkw5alY0ekpTNllfZFpfNkNob2lRaWJqWV8zR2d5eXFKNDdWOXl6UnNqa0pyc2kyeE5aejRQX2lyMnppcjdoeXR5RzZwckxNT0NpejdKNzdOTU1EbFo?oc=5",
+        "published_at": "2026-06-01T18:40:09Z"
+      },
+      {
+        "headline": "Trump says talks with Iran continue - Reuters",
+        "summary": "Trump says talks with Iran continue\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRHc0b2dFbkViQVZROTVkQk5PamlkRTdyalVkVUJsSmNwbGV6MUkyRWRuV1kyNlA4WjJiQ2hnWVV2eTJtZ3dnTUZHZHBrbnhMQUw1NWNreXQ3aUV6NGlFWG1PVGFoNU1TMTFUVFpxbUFySWZkTjktNjQwR2l3TW5aVm9QQlFSZ3dlRFlRSW81d0VvUUVKLVpKWlBvT2w3VXZxbTBrT2lVTHU3dm1TNTFOcjluWWhMcHJzeXlYRDdzd180S05odkVYSUVOX212djg?oc=5",
+        "published_at": "2026-06-01T18:05:19Z"
+      },
+      {
+        "headline": "US crude exports hit record high in May as Iran war tightens global oil supplies - Reuters",
+        "summary": "US crude exports hit record high in May as Iran war tightens global oil supplies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaXpYSkhEUGc2bmV1d2MxQ201MjlkN2VQbmVWcVJycVdaWDUta0ZaNFRSV1Zycnp0RWNGTWlYQzdKVFg5RktPZXVtOWhUX1JHbDQ0aTBMbGk5MDVGUWVkUUt5R19CWUtMOUEzekJJNDlqRkRNZHN3SGdxVHVXc1QxTU1KMXZRS19haU9XXzRTTFhOaThNQzB0Qmh5NGZCRDV3X09LUVROQy1ZV3ZWbFVvU2wyYUxuVDhFUVlfRDNJTnhWTzdG?oc=5",
+        "published_at": "2026-06-01T18:00:43Z"
+      },
+      {
+        "headline": "Ship operators urge clear rules to return Hormuz to normal - Reuters",
+        "summary": "Ship operators urge clear rules to return Hormuz to normal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQenlfSGp1Mm1CeGk4X3RzeVRBWWZ6MHI0eGR0cFVUeGtiMEdvLU43LXZweHhnbHRnY1Y5M1hiRGVPLTFJWmN6R2ZHZnFJbHQxX3NaRnFTOUtpaWJnWlN3djBOTi1xb0FRYzR0N0lvUHM3Xzh5Z0ZTbUlPQzUxMXBoU0ViZlF3OWFOVXNvWkJvdEdzcC1za1RVY1k4ZDZLS2dxR1E?oc=5",
+        "published_at": "2026-06-01T17:11:54Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 758.47,
+    "spy_change_pct": 0.2631,
+    "spy_lean": "neutral",
+    "vix_close": 15.32,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 31,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 72,
+    "positive_count": 16,
+    "negative_count": 14,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.2222,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Elon Musk's SpaceX Warns $1.75 Billion IPO Investors of Potential Future Share Dilution",
+        "url": "https://decrypt.co/369670/elon-musks-spacex-warns-ipo-investors-potential-future-share-dilution",
+        "published_at": "2026-06-01T21:11:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump\u2019s Business Partner Teases Future Meme Coin Plans: 'We\u2019re The Biggest Brand on Earth'",
+        "url": "https://decrypt.co/369671/trump-business-partner-teases-future-meme-coin-plans",
+        "published_at": "2026-06-01T21:02:42+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Exploit Losses Reach $68 Million In May Despite Limited Phishing Damage",
+        "url": "https://bitcoinist.com/crypto-thieves-hit-a-wall-exploit-losses-sink-90-in-may/",
+        "published_at": "2026-06-01T21:00:18+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin volatility is down 56% but analysts still expect up to 20% BTC price move",
+        "url": "https://cointelegraph.com/markets/bitcoin-volatility-down-56-as-btc-analysts-eye-10-20-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-01T20:34:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Japan\u2019s LDP Calls For Crypto ETF Framework, Yen Stablecoin Push In New Proposal",
+        "url": "https://bitcoinist.com/japan-ldp-crypto-etf-framework-yen-stablecoin-push/",
+        "published_at": "2026-06-01T20:08:11+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy's Bitcoin Sale Timing Throws $50 Million Polymarket Bet Into Dispute",
+        "url": "https://decrypt.co/369664/strategy-bitcoin-sale-throws-50-million-polymarket-bet-dispute",
+        "published_at": "2026-06-01T19:58:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi Eyes Perpetual Futures for XRP, Solana, Dogecoin\u2014And These Altcoins",
+        "url": "https://decrypt.co/369665/kalshi-eyes-perpetual-futures-xrp-solana-dogecoin-altcoins",
+        "published_at": "2026-06-01T19:33:53+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Unable to recover from roughly $50 million hack, Radiant Capital is winding down",
+        "url": "https://www.theblock.co/post/403254/unable-to-recover-from-roughly-50-million-hack-radiant-capital-is-winding-down?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-01T19:33:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pundit Says XRP Has A 53% Chance Of Reaching The $11 Price Mark \u2013 Here\u2019s Why",
+        "url": "https://bitcoinist.com/xrp-chance-of-reaching-11/",
+        "published_at": "2026-06-01T19:30:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP\u2019s 15-week low puts ETF inflows to the spot-market test",
+        "url": "https://cryptoslate.com/xrps-15-week-low-puts-etf-inflows-to-the-spot-market-test/",
+        "published_at": "2026-06-01T19:15:41+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
