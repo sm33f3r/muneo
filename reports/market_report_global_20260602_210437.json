@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-02T21:03:54 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2418258897767.35,
+    "total_market_cap_change_24h_pct": -4.2339,
+    "total_volume_24h_usd": 136991336831.33,
+    "btc_dominance_pct": 55.9508,
+    "eth_dominance_pct": 9.513,
+    "total2_usd": 1065223524924.22,
+    "total3_usd": 835175681271.01,
+    "active_cryptocurrencies": 17396,
+    "altcoin_season_index": 84,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 79.7276,
+        "price_usd": 26.36,
+        "market_cap_usd": 8211840319
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 19.3758,
+        "price_usd": 1.56,
+        "market_cap_usd": 390674960
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 17.5362,
+        "price_usd": 1.061,
+        "market_cap_usd": 289959686
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": 11.5207,
+        "price_usd": 0.397395,
+        "market_cap_usd": 1931489705
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 11.102,
+        "price_usd": 0.496285,
+        "market_cap_usd": 165928925
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -32.1024,
+        "price_usd": 0.72872,
+        "market_cap_usd": 255107056
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -28.7761,
+        "price_usd": 0.131837,
+        "market_cap_usd": 332102552
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -23.0709,
+        "price_usd": 0.150828,
+        "market_cap_usd": 150399194
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -16.2592,
+        "price_usd": 2.14,
+        "market_cap_usd": 123145437
+      },
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -13.2764,
+        "price_usd": 0.539581,
+        "market_cap_usd": 391469644
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 67554,
+    "price_change_24h_pct": -5.2984,
+    "price_change_7d_pct": -11.0331,
+    "market_cap_usd": 1352883675277,
+    "volume_24h_usd": 66001364576,
+    "direction": "bearish",
+    "oi_usd": 7265146743.92,
+    "funding_rate_latest": 8.345e-05,
+    "funding_rate_7d_avg": 7.187380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2134,
+    "long_account_pct": 68.88,
+    "short_account_pct": 31.12,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1905.53,
+    "price_change_24h_pct": -4.8617,
+    "price_change_7d_pct": -8.0389,
+    "market_cap_usd": 229935129589,
+    "volume_24h_usd": 20946470902,
+    "eth_btc_ratio": 0.028208,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76814618727.04,
+    "stablecoin_market_cap_usd": 318438585702.03,
+    "stablecoin_dominance_pct": 13.1681
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Rubio grilled on Iran, says US won't swap sanctions relief for strait - Reuters",
+        "summary": "Rubio grilled on Iran, says US won't swap sanctions relief for strait\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnhHX3pib0VOUmUzRkNhT1VGQVRRVnBVeVc1eVgta1dMNDVGRVVTZ0Jtb21oYUIyYjg1b3BoY28zMHd1dVQza1hPa3pWMFBzRktIOVVmdG5zVGFHaHdRZjJrdWVNUVJ1cEZPa0d6S2FiVDFOb1haX1I0ZlRLcjNJQjFRNk9MUWlodkxpOVhwM3RtdzE0Q1B4QklrNklVTDQ?oc=5",
+        "published_at": "2026-06-02T20:41:01Z"
+      },
+      {
+        "headline": "Alphabet's plan to sell $80 billion in stock to fund its AI buildout isn't all bad",
+        "summary": "It's the latest step in an aggressive effort by big tech companies to secure future funding for AI infrastructure.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/alphabets-plan-to-sell-80-billion-in-stock-to-fund-its-ai-buildout-isnt-all-bad.html",
+        "published_at": "2026-06-02T20:26:04Z"
+      },
+      {
+        "headline": "Pulte appointment as spy chief would give Trump attack dog access to the 'crown jewels'",
+        "summary": "In his role atop the housing finance agency, Bill Pulte has used his access to mortgage records to refer some top Trump enemies for prosecution.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/bill-pulte-dni-tulsi-gabbard.html",
+        "published_at": "2026-06-02T19:56:05Z"
+      },
+      {
+        "headline": "Traders say Karen Bass and Spencer Pratt will advance to runoff in high-profile L.A. mayoral race",
+        "summary": "Los Angeles voters go to the polls Tuesday. If no candidate receives more than 50%, the top-two vote getters will advance to a November runoff.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/bass-and-pratt-will-advance-in-la-mayoral-race-traders-say.html",
+        "published_at": "2026-06-02T19:55:47Z"
+      },
+      {
+        "headline": "Exclusive: Top US spy agencies feud over turf, mission - Reuters",
+        "summary": "Exclusive: Top US spy agencies feud over turf, mission\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1RVYTVSQUtIbkRqNDJQRl9mODZHNThDNExzbG5jdE9pSTAxUHk0ajVSa3VMX2xnWXVtczFpcW9NdnROd3h0SnpmN3NlZzE3QVZNeVBPMzc0T3NmZmV4SU9VOXpIYVQ3ZEVWQWVtRjFMcUhCY0lPZ3RRdkk4Wng1OWxWWHhJdFdkRHBjbkNETzUwbkY0N1d5NXlScw?oc=5",
+        "published_at": "2026-06-02T19:46:55Z"
+      },
+      {
+        "headline": "US Treasury issues new Iran sanctions targeting crypto exchanges - Reuters",
+        "summary": "US Treasury issues new Iran sanctions targeting crypto exchanges\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSi1VaExZZVZZVTBVZExiazF4VnltSDkzOWp5cXNZR0x2YndoaDdKS0xURUNoa0VpQk5GdVUtTWZvdWFhUWM5VkFiZ0lZY0ZiRHVpN1dVeHdfWGN0R3Bsdm5LdXl1UllPZk52dDdNam51TDl1alBUUEpXSFdSRUZJTl9FZUcwTndiMmwtSmVNQmVmTllxS0l2RmxfSy14RzNZcnM0aUJSc1Flc1dIdVhhS1owazRxZnhuQlE?oc=5",
+        "published_at": "2026-06-02T19:38:31Z"
+      },
+      {
+        "headline": "Why BlackRock's Rick Rieder feels 'a bit more relaxed' about AI bull market than dotcom era",
+        "summary": "'I think you gotta stay in,' says the top BlackRock investing official, as earnings growth and cash to be reinvested in stocks support the AI bull market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/ai-tech-stocks-bull-market-blackrock.html",
+        "published_at": "2026-06-02T19:12:46Z"
+      },
+      {
+        "headline": "Honeywell's aerospace spin approaches key milestone. Plus, the new stock supply problem",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/honeywells-aerospace-spin-approaches-key-milestone-plus-the-new-stock-supply-problem.html",
+        "published_at": "2026-06-02T18:32:53Z"
+      },
+      {
+        "headline": "Iran studying deal to halt war, as Trump says talks going on continuously - Reuters",
+        "summary": "Iran studying deal to halt war, as Trump says talks going on continuously\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcG1DSFVhQ3MxRlgtdV9LYlZndTBDX0VvZDZ4ZkZuZEV5QnhMYlhmd2phazdVMnBlUXRWXzUzWTZFSXZfSDhNMzF2VTVwdlZiMU9aMEVVVVhyWEk1QmFNWjJRSFNfWTFzOGNMXzk1ZnJSOE5EZDJycERabElIeEQ1SjQxWE9CejBZT2FDY1FnLVdFaGlvR0FQeVVkM3JSanNmdkE?oc=5",
+        "published_at": "2026-06-02T17:42:05Z"
+      },
+      {
+        "headline": "Israel strikes south Lebanon after stepping back from Beirut attack - Reuters",
+        "summary": "Israel strikes south Lebanon after stepping back from Beirut attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1dIT2RKU2Z4cFA1OUZ1WlloWFJmRVB5ajNzQkstZEVISUF6bEswTnY3Ml9tVWZuNnFySGdWWW1ibWllQWgzdUExWV9mZGNrYjg1RV9CZ0xzZ2NaQjRyMTNMTk5uZ2c5Uk5FY2kxRkFNX19VV0Z3ejRzU3dGSDY1a2F3VDU4dUhEZ0JqQ2x2YlczS3BuVi1NbzJXVjBXZ1M3YkF2cEJoNHZRSU1IRGxodGRnMEs?oc=5",
+        "published_at": "2026-06-02T17:34:32Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 759.55,
+    "spy_change_pct": 0.1332,
+    "spy_lean": "neutral",
+    "vix_close": 16.05,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 26,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 76,
+    "positive_count": 17,
+    "negative_count": 19,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.2237,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "US sanctions Nobitex and other Iranian crypto exchanges under \u2018Economic Fury\u2019 campaign",
+        "url": "https://www.theblock.co/post/403436/us-sanctions-nobitex-iranian-crypto-exchanges-economic-fury-campaign?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-02T20:50:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Shares Fall for Second Straight Day After $56 Billion Bitcoin Giant Sells BTC",
+        "url": "https://decrypt.co/369788/strategy-shares-fall-second-straight-day-bitcoin-giant-sells-btc",
+        "published_at": "2026-06-02T20:43:39+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Treasury Cracks Down On Crypto Ties To Iran: 4 Exchanges Receive New Sanctions",
+        "url": "https://bitcoinist.com/us-treasury-crypto-ties-to-iran-new-sanctions/",
+        "published_at": "2026-06-02T20:28:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Turns OpenClaw Into an Enterprise AI Agent With Scout",
+        "url": "https://decrypt.co/369781/microsoft-scout-openclaw-enterprise-ai-agent",
+        "published_at": "2026-06-02T20:25:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Are XRP ETF Inflows Growing While Bitcoin And Ethereum Are Bleeding?",
+        "url": "https://bitcoinist.com/why-xrp-etf-inflows-growing/",
+        "published_at": "2026-06-02T20:00:30+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bernie Sanders, Elizabeth Warren Urge Labor Department to Drop Bitcoin, Crypto 401K Plan",
+        "url": "https://decrypt.co/369773/bernie-sanders-elizabeth-warren-labor-dept-drop-bitcoin-crypto-401k-plan",
+        "published_at": "2026-06-02T20:00:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto derivatives activity slumps to late-2023 levels, but US perp market opportunity emerges",
+        "url": "https://www.theblock.co/post/403379/crypto-derivatives-activity-slumps-late-2023-levels-us-perp-market-opportunity-emerges?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-02T19:46:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise CIO Matt Hougan calls crypto a \u2018contrarian bet\u2019",
+        "url": "https://www.theblock.co/post/403423/bitwise-cio-matt-hougan-calls-crypto-a-contrarian-bet?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-02T19:28:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin\u2019s $224K \u2018fair value\u2019 may emerge if sovereign debt fears deepen: Bitwise",
+        "url": "https://cointelegraph.com/markets/bitcoins-224k-fair-value-could-emerge-if-sovereign-debt-fears-deepen-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-02T19:28:01+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Where Does Bitcoin Go From Here? This Is What the Charts Say",
+        "url": "https://decrypt.co/369750/bitcoin-price-next-charts-technical-analysis",
+        "published_at": "2026-06-02T19:15:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
