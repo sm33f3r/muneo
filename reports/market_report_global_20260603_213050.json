@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-03T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2351167040833.26,
+    "total_market_cap_change_24h_pct": -2.7143,
+    "total_volume_24h_usd": 294259448604.8,
+    "btc_dominance_pct": 55.7991,
+    "eth_dominance_pct": 9.2383,
+    "total2_usd": 1039236084243.61,
+    "total3_usd": 822028152231.23,
+    "active_cryptocurrencies": 17387,
+    "altcoin_season_index": 87,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 27.992,
+        "price_usd": 1.41,
+        "market_cap_usd": 407579195
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 27.3698,
+        "price_usd": 0.518251,
+        "market_cap_usd": 1747028432
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 21.8778,
+        "price_usd": 2.59,
+        "market_cap_usd": 148907485
+      },
+      {
+        "symbol": "KOGE",
+        "name": "KOGE",
+        "price_change_24h_pct": 17.2715,
+        "price_usd": 56.81,
+        "market_cap_usd": 191964423
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": 16.4422,
+        "price_usd": 2.57,
+        "market_cap_usd": 168873942
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -38.3722,
+        "price_usd": 16.13,
+        "market_cap_usd": 5151793194
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -19.9352,
+        "price_usd": 0.075037,
+        "market_cap_usd": 641065384
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -19.6648,
+        "price_usd": 0.106013,
+        "market_cap_usd": 265165493
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -14.2946,
+        "price_usd": 0.59302,
+        "market_cap_usd": 1084689086
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": -14.2659,
+        "price_usd": 243.32,
+        "market_cap_usd": 4876817706
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 65455,
+    "price_change_24h_pct": -3.3762,
+    "price_change_7d_pct": -12.9068,
+    "market_cap_usd": 1311791769599,
+    "volume_24h_usd": 48494861570,
+    "direction": "bearish",
+    "oi_usd": 6806201832.23,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.879380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2436,
+    "long_account_pct": 69.17,
+    "short_account_pct": 30.83,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1799.87,
+    "price_change_24h_pct": -5.5882,
+    "price_change_7d_pct": -12.6461,
+    "market_cap_usd": 217213543911,
+    "volume_24h_usd": 24186874831,
+    "eth_btc_ratio": 0.027498,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75185462886.67,
+    "stablecoin_market_cap_usd": 316765446048.88,
+    "stablecoin_dominance_pct": 13.4727
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Broadcom stock slip on revenue miss",
+        "summary": "Broadcom reported fiscal second-quarter results on Wednesday and missed estimates for revenue.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
+        "published_at": "2026-06-03T20:29:00Z"
+      },
+      {
+        "headline": "Senate GOP strips up to $1B for Trump ballroom security from immigration enforcement bill",
+        "summary": "GOP leaders reportedly privately concluded that the funding proposal risked derailing the broader immigration bill, both politically and procedurally.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/senate-gop-trump-ballroom-security-funding-immigration-bill.html",
+        "published_at": "2026-06-03T19:51:33Z"
+      },
+      {
+        "headline": "As Honeywell Aerospace readies for its standalone debut, its CEO is forecasting big growth",
+        "summary": "By 2030 Honeywell is targeting annual earnings of at least $6.5 billion and full-year free cash flow of at least $4 billion.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/honeywell-aerospace-ceo-earnings-growth.html",
+        "published_at": "2026-06-03T19:48:56Z"
+      },
+      {
+        "headline": "Iran to play World Cup warm-up behind closed doors, head to Mexico on Saturday - Reuters",
+        "summary": "Iran to play World Cup warm-up behind closed doors, head to Mexico on Saturday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVzFaU0tydTlFNW9Rc2c4R2ZLbWpGeEsyRGZ4MVFldmVRalNDaXNhZ3FNV0lHQ3JRRDlkNXdRVS1hSEVCNk9vbEFIYzk0SWlUc1FHRVBFVlllT2g0Q3NBTllkNUV5LVFoc2pHV2JIeUY4MEhrVU9NV2h3dTRHaWs2Yl82XzViLWcyenprOHdQREs1cGFzOVd0TVkwSzkyQmJvdU55OU9aV2JlTlo5TUpRZy1oOGZNX0lJcXc?oc=5",
+        "published_at": "2026-06-03T18:57:43Z"
+      },
+      {
+        "headline": "Albanians protest over Kushner-linked luxury resort on pristine coastline - Reuters",
+        "summary": "Albanians protest over Kushner-linked luxury resort on pristine coastline\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON0hpbm8xaTZyc3pUc0xhZDczSkhvTGJaRENFR0NPUzI4MW5PNmVsbWxIVEs0VHh2Q1FBck5WeEp0XzdCanNYX2ExTG12MEdvMW1IUlZEOFlsQ3hsek93bVNmZ3BuSzN1ai1pWDI5dlctWHNmbDgzQlM1clhKdlhrcEJCVHppX19RZDdKUzFkUHlsZHRaN2RkMkdhcDVaQXpBSk9uSXZoYzI2aVdqTzRnX0V3?oc=5",
+        "published_at": "2026-06-03T18:41:31Z"
+      },
+      {
+        "headline": "Historic stock rally faces key test",
+        "summary": "Two key tech companies reporting earnings after the bell could determine the next move higher or lower.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/historic-stock-rally-faces-key-test.html",
+        "published_at": "2026-06-03T18:32:24Z"
+      },
+      {
+        "headline": "What's behind Palo Alto's earnings sell-off \u2014 and how to proceed",
+        "summary": "The stock was red hot into the earnings report.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/03/whats-behind-palo-altos-earnings-sell-off-and-how-to-proceed.html",
+        "published_at": "2026-06-03T17:11:59Z"
+      },
+      {
+        "headline": "Hezbollah launches rockets at Israel, testing U.S.-mediated deal - Reuters",
+        "summary": "Hezbollah launches rockets at Israel, testing U.S.-mediated deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNejNUYzdtTjIxM1JOY1FzOFYxZnVKQjNIa2RyZk5QSXh4TFFSSjYtd2EydDkyS0FaR0E2bmw2ZEJVaFJab0pBUmg1OEVBQXJ3MnlmcDJ1cnRsYUR0UEV5OFVzRVp1LXJUeEtKenZHR0RuRkJoT3V5d0ZQQnZ2aXFLaDNPbEZ0VFhXcGc4alhwTkNrdkdUQUZZUWpScTltT0E0eEJ6NlVIZ2lBSTRu?oc=5",
+        "published_at": "2026-06-03T17:03:27Z"
+      },
+      {
+        "headline": "Trump confirms he called Netanyahu crazy in phone call - Reuters",
+        "summary": "Trump confirms he called Netanyahu crazy in phone call\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXBGWXJkR0NIUGdJVW9WZjFkeEpvZkxxQXJCUGNfbVQzbF9OQkdEUEVab052cEpuYmNuM3drVWdaTUlmbG1wYzJsTEFFYU8xNm5qMXN5SjYzQ3BiMnowYWtLTTh2Y09Bdl9hMjljUGV2Q1FESnZfT1FMeWhaVnRjbERfY2o0anVINUhQMjd0VU96UDJGdU9lRzJpZE9ObnE3TndDUkEtekQ?oc=5",
+        "published_at": "2026-06-03T16:05:54Z"
+      },
+      {
+        "headline": "US crude stocks fall on strong export, refining demand, EIA says, as Iran war continues - Reuters",
+        "summary": "US crude stocks fall on strong export, refining demand, EIA says, as Iran war continues\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWXp5amEyQkJobk50XzU5VjVwZkpVa2pPb2JGNy1RZmIyWXc5VzN4amlrci1fZHd2aFZmSDBxRU5SSXl1S0c0ZG9aSHRPYTJtNjRpTXpmZGZCLXFVMzNoSGluTTR1NXNRSjhIeGk3cHVnMVdZRllXUHFiVFFubm9aR1N3TGdtVV9UWVVTaC15VFJyaTQ2RHpCYkc1X0NYUl9DNHNSc3NWak5LZDVCcVNVblk5SjdZb0VYY3c?oc=5",
+        "published_at": "2026-06-03T15:48:58Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 754.13,
+    "spy_change_pct": -0.7162,
+    "spy_lean": "bearish",
+    "vix_close": 15.77,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 24,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 82,
+    "positive_count": 9,
+    "negative_count": 10,
+    "neutral_count": 63,
+    "sentiment_ratio": 0.1098,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Cardano Slumps to 5-Year Low Price as Charles Hoskinson Warns of 'Wave of Failures'",
+        "url": "https://decrypt.co/369974/cardano-slumps-5-year-low-price-charles-hoskinson-warns-failures",
+        "published_at": "2026-06-03T21:20:00+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether Debuts Tokenized Gold Stablecoin Visa Card That Pays Out Crypto Rewards",
+        "url": "https://decrypt.co/369972/tether-tokenized-gold-visa-stablecoin-card-pays-crypto-rewards",
+        "published_at": "2026-06-03T21:03:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Struggles Below $100, But This Level Changes Everything",
+        "url": "https://bitcoinist.com/solana-struggles-below-100/",
+        "published_at": "2026-06-03T21:00:42+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid\u2019s HYPE overtakes Solana in price as SOL falls to lowest levels since 2023",
+        "url": "https://www.theblock.co/post/403585/hyperliquid-hype-overtakes-solana-price-sol-falls-lowest-since-2023?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-03T20:57:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Lawyers Are Already Better Than Law Professors at Reasoning\u2014Say Law Professors",
+        "url": "https://decrypt.co/369951/ai-lawyers-better-law-professors-reasoning-stanford",
+        "published_at": "2026-06-03T20:40:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hermes Ends AI Agent Terminal Era With Release of Official Desktop App",
+        "url": "https://decrypt.co/369952/hermes-ai-agent-official-app-terminal",
+        "published_at": "2026-06-03T20:28:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Someone Just Redeemed a 15-Year-Old Physical Bitcoin, Scoring $1.78 Million in BTC",
+        "url": "https://decrypt.co/369947/someone-redeemed-15-year-old-physical-bitcoin-scoring-1-78-million",
+        "published_at": "2026-06-03T20:21:13+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto VC deal count slumps to five-year low as investors grow more selective",
+        "url": "https://www.theblock.co/post/403382/crypto-vc-deal-flow-hits-multi-year-low-billion-dollar-rounds-keep-capital-flowing?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-03T19:42:03+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Perplexity Wants Your Laptop to Do Part of the AI Work\u2014So It Doesn't Have To",
+        "url": "https://decrypt.co/369941/perplexity-hybrid-ai-local-cloud-mode",
+        "published_at": "2026-06-03T19:32:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Market Expert Reveals Why Ethereum Is A Better Bet Than Solana",
+        "url": "https://bitcoinist.com/ethereum-better-bet-than-solana/",
+        "published_at": "2026-06-03T19:30:19+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 4,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
