@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-03T04:24:05 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2373109906685.52,
+    "total_market_cap_change_24h_pct": -5.4518,
+    "total_volume_24h_usd": 144929329485.66,
+    "btc_dominance_pct": 56.0016,
+    "eth_dominance_pct": 9.3505,
+    "total2_usd": 1044130441185.34,
+    "total3_usd": 822233143250.53,
+    "active_cryptocurrencies": 17396,
+    "altcoin_season_index": 82,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 22.7578,
+        "price_usd": 21.74,
+        "market_cap_usd": 1013670732
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": 20.6557,
+        "price_usd": 0.538248,
+        "market_cap_usd": 180457236
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 13.438,
+        "price_usd": 1.6,
+        "market_cap_usd": 398698188
+      },
+      {
+        "symbol": "HOME",
+        "name": "HOME",
+        "price_change_24h_pct": 9.6864,
+        "price_usd": 0.050287,
+        "market_cap_usd": 193286068
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 7.9719,
+        "price_usd": 0.376659,
+        "market_cap_usd": 168877772
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -32.9017,
+        "price_usd": 0.122937,
+        "market_cap_usd": 306647649
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -32.4196,
+        "price_usd": 0.162229,
+        "market_cap_usd": 161661268
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -29.2129,
+        "price_usd": 13.31,
+        "market_cap_usd": 4180013273
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": -15.4947,
+        "price_usd": 0.326932,
+        "market_cap_usd": 287974138
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": -14.8527,
+        "price_usd": 246.47,
+        "market_cap_usd": 4934056526
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66314,
+    "price_change_24h_pct": -6.2804,
+    "price_change_7d_pct": -12.2301,
+    "market_cap_usd": 1328165096550,
+    "volume_24h_usd": 65374045390,
+    "direction": "bearish",
+    "oi_usd": 7233001801.65,
+    "funding_rate_latest": 7.165e-05,
+    "funding_rate_7d_avg": 7.052380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2041,
+    "long_account_pct": 68.79,
+    "short_account_pct": 31.21,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1839.86,
+    "price_change_24h_pct": -7.9437,
+    "price_change_7d_pct": -11.0158,
+    "market_cap_usd": 222029665047,
+    "volume_24h_usd": 25281289881,
+    "eth_btc_ratio": 0.027745,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75950865365.89,
+    "stablecoin_market_cap_usd": 317583454789.16,
+    "stablecoin_dominance_pct": 13.3826
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "Oil jumps on Mideast missiles while AI bulls carry stocks higher - Reuters",
+        "summary": "Oil jumps on Mideast missiles while AI bulls carry stocks higher\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeVllVU5TSEVpajhKb3hSRUx6NDY3bWU2cDJpaUtOMllscG9lckFqZzJrMEowQ0IxSENhamFtNjZuOXVGb2Ywd0VfSUhlTnUzRkR5dlJlNHI1ME02YnhJV1RWRk5PZml5QlRIRlRQWEZIMzNUYlBmQ183aGEzNXFZU3V3ZFFXb0dw?oc=5",
+        "published_at": "2026-06-03T02:14:00Z"
+      },
+      {
+        "headline": "Yen slips to key 160 level as Gulf hostilities boost dollar - Reuters",
+        "summary": "Yen slips to key 160 level as Gulf hostilities boost dollar\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdlBCenZ0QjFsZWdEem9ZT2tncUc5S29ra3RNOGZFVDJCQ1Fud2N3aEtyRXRIaUpEcUlzOTEtcHEydjRuZ1dzRlNQZ050MTJVN1AyM1RET2tTY3Y1MjI0dDNDaElYOTNwdlcwWHBQZmxEMzdwaGhxMnB6NEloajhWX2EtelpQb0dha21xSjJZZnBqajBTYTNLaWY4bWY3T242SzhGVUt2YzVWXzJr?oc=5",
+        "published_at": "2026-06-03T00:46:00Z"
+      },
+      {
+        "headline": "Oil prices rise as new Middle East hostilities flare and talks stall - Reuters",
+        "summary": "Oil prices rise as new Middle East hostilities flare and talks stall\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRktPRENWZHRDVGluSHgybDl4djZHUEhxNDJOdzVFRjR0NzFNV3BlemJvLUxCSTBfeElPN0lBQ2FWVnNra1owTi0tR05NM3JaVnhDQzBxMDVUTVJhQ2ZPQUY5QldBa3hfbnJRLTlINk5BQkN3djFuVWlUVTFSUFJjd0Y4eWpCbXFmZ2k4b0xoRFhjcVAzLXd1MFZlSXJ0b0kxOUppUEwtN0JSdU91ZWVzM1RtMA?oc=5",
+        "published_at": "2026-06-03T00:36:00Z"
+      },
+      {
+        "headline": "Iran's IRGC attacks US Fifth Fleet headquarters, airbase, local media reports - Reuters",
+        "summary": "Iran's IRGC attacks US Fifth Fleet headquarters, airbase, local media reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUg2VkpmQmZKcDFqQlp0LW11a0FuTVQxTW9pR3AzM1pnMThoWGNMTE03QUlwSmw4QnlrTFphcVJueXpSMGJUZ0hjaEdHM2lESHNrQUhmczNxN3BhZlNsRlFnZHJpdlZidWljRVZ0UGJIZy13ZW1oYV8zVW1sTEVLU1ZPWl81Ynd6Y0tzRkRKU2tRcHFObUNqWFF3dEVhMENrVVZQWmstYVVQVHQtQ1ptZ1NTVmdwdTFlc0lrLTVHMkZZSGJTR2pF?oc=5",
+        "published_at": "2026-06-03T00:11:00Z"
+      },
+      {
+        "headline": "Hostilities flare in Iran war, oil jumps with talks at a stalemate - Reuters",
+        "summary": "Hostilities flare in Iran war, oil jumps with talks at a stalemate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ092UV9OdWRIX2c1Yk9BM0V5dllqa0RIS1lmZHRBMnlZZE5FN0VJUC03R3p1WjEwcGdnRnNDQkNqT1JXVkRvbzllU185NzhRUzhsMEJpeS02Y2RCT3cwOHNDa3NQUkZKYi1iV1VKbWJtYktiWXR3RU5zUHZ3SGFjOUlqX3ZvaGRtMnZyMGs0eHFpTTJzM2VGcVhhMzF3MG9uQzN5Ng?oc=5",
+        "published_at": "2026-06-02T23:24:00Z"
+      },
+      {
+        "headline": "US watching Iran's World Cup delegation for IRGC links, Rubio says - Reuters",
+        "summary": "US watching Iran's World Cup delegation for IRGC links, Rubio says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2lfV0ZhVEVaNVpxd1d1Q2p6SDQ3ZkJPQlJoWnQtV2JLclJoZlZtQ1h5ODhBOGt2enZ1T20wTjNmMUFDUjNGSXp2ZEkzQ1FkY0dNR2I5c2N1aGUtQTVrV3BoZm53bGFEV0VzVVFqcjRtb3o0YWtLVldUUXh0MlQ5VHdWVlNXa0xFM1AzR3YzZ0JQemZjWFMxa2FBVXVQY2RRQTZEYWoxTWsxX0V6UzRhUm9DWHk?oc=5",
+        "published_at": "2026-06-02T22:26:54Z"
+      },
+      {
+        "headline": "Rubio grilled on Iran, says US won't swap sanctions relief for strait - Reuters",
+        "summary": "Rubio grilled on Iran, says US won't swap sanctions relief for strait\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnhHX3pib0VOUmUzRkNhT1VGQVRRVnBVeVc1eVgta1dMNDVGRVVTZ0Jtb21oYUIyYjg1b3BoY28zMHd1dVQza1hPa3pWMFBzRktIOVVmdG5zVGFHaHdRZjJrdWVNUVJ1cEZPa0d6S2FiVDFOb1haX1I0ZlRLcjNJQjFRNk9MUWlodkxpOVhwM3RtdzE0Q1B4QklrNklVTDQ?oc=5",
+        "published_at": "2026-06-02T21:48:40Z"
+      },
+      {
+        "headline": "US fires Hellfire missile at tanker heading toward Iran - Reuters",
+        "summary": "US fires Hellfire missile at tanker heading toward Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUGF6b0w5ZnVMeklFdlUwaGxybjhzekdKNm55MHdVNFFOVEhzWUNMdnd0cVl3QmVBOUs2clh5TEtUMEx4bmJzSmRsU252SDBCXzJDRVNvWDdWRlBLWFlYMGFlU3YtV3QxaEZ4Qkk5dG4xbFBYYjB2THd3R3IybGRkaUdiTHV4TnR5WUx4azR6OWJ1M2RLWjdNeDJn?oc=5",
+        "published_at": "2026-06-02T21:29:00Z"
+      },
+      {
+        "headline": "US sanctions Iran's largest crypto exchange over IRGC links - Reuters",
+        "summary": "US sanctions Iran's largest crypto exchange over IRGC links\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlg5TE9NT092Z3lQQnBKS2RrcTRSOHFIZXdXaFpfS2tVenVPemg4OHRyaktHUnRMUkVoTU9FcUU3cE9HZWJZWnNSNm90LUsxNWJYOUdCcXViSTFlT0NheFRfdWFxSm9EdXdxdUdfTVFkb3NNUEdramUzWDZ2RUhNX2ZUTkh1am5SZjVucjdxVUk1SWFLYkJGZVN4QWdqUVZVMGYwZ3RvdDZvb1FCX2JFZGd3?oc=5",
+        "published_at": "2026-06-02T20:39:43Z"
+      },
+      {
+        "headline": "Alphabet's plan to sell $80 billion in stock to fund its AI buildout isn't all bad",
+        "summary": "It's the latest step in an aggressive effort by big tech companies to secure future funding for AI infrastructure.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/02/alphabets-plan-to-sell-80-billion-in-stock-to-fund-its-ai-buildout-isnt-all-bad.html",
+        "published_at": "2026-06-02T20:26:04Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 759.57,
+    "spy_change_pct": 0.1358,
+    "spy_lean": "neutral",
+    "vix_close": 16.05,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 25,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 77,
+    "positive_count": 13,
+    "negative_count": 22,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.1688,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Blockchain Association urges Senate to pass Clarity Act with letter from 160 former security officials",
+        "url": "https://www.theblock.co/post/403450/blockchain-association-letter-senate?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-03T03:42:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Reveals '1,000x More Reliable' Quantum Chip as Bitcoin Threat Draws Nearer",
+        "url": "https://decrypt.co/369811/microsoft-1000x-more-reliable-quantum-chip-bitcoin-threat-draws-nearer",
+        "published_at": "2026-06-03T03:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Whale Activity Falls To A Four-Year Low \u2013 What Does It Mean For Price?",
+        "url": "https://bitcoinist.com/xrp-whale-activity-falls-to-four-year-low-price/",
+        "published_at": "2026-06-03T03:00:13+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano\u2019s TapTools to wind down after 5 execs exit",
+        "url": "https://cointelegraph.com/news/cardano-protocol-taptools-winds-down-after-five-execs-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-03T02:45:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Or Solana? Expert\u2019s Top Pick After ADA, SOL Dip 10%",
+        "url": "https://bitcoinist.com/cardano-or-solana-experts-top-pick/",
+        "published_at": "2026-06-03T02:30:57+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Popular Analyst Says If Bitcoin Doesn\u2019t Hold This Level, This Is Where To Start Buying",
+        "url": "https://bitcoinist.com/if-bitcoin-doesnt-hold-this-level/",
+        "published_at": "2026-06-03T02:00:21+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardsmiths' New America250 Trading Cards Have Real Bitcoin, Dogecoin Up for Grabs",
+        "url": "https://decrypt.co/369772/cardsmiths-america250-trading-cards-real-bitcoin-dogecoin",
+        "published_at": "2026-06-03T01:22:43+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How To Avoid The Major Trap That Bitcoin Is Setting Up For Traders",
+        "url": "https://bitcoinist.com/bitcoin-setting-major-trap/",
+        "published_at": "2026-06-03T00:30:31+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK Lords warn BoE could regulate pound stablecoins into irrelevance",
+        "url": "https://cointelegraph.com/news/lords-warn-bank-of-england-not-to-regulate-gbp-stablecoins-into-irrelevance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-03T00:01:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Repeats A Notable Market Trend As Momentum Wanes \u2013 Here\u2019s How Investors Are Positioning",
+        "url": "https://bitcoinist.com/ethereum-repeat-market-trend/",
+        "published_at": "2026-06-02T23:00:57+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
