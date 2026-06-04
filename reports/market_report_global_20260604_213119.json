@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-04T21:30:35 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2283790014025.54,
+    "total_market_cap_change_24h_pct": -3.3754,
+    "total_volume_24h_usd": 240809548883.43,
+    "btc_dominance_pct": 55.6842,
+    "eth_dominance_pct": 9.3526,
+    "total2_usd": 1012078834440.22,
+    "total3_usd": 798484280968.96,
+    "active_cryptocurrencies": 17380,
+    "altcoin_season_index": 87,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": 25.8261,
+        "price_usd": 0.735151,
+        "market_cap_usd": 534997199
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": 18.4977,
+        "price_usd": 0.00275296,
+        "market_cap_usd": 261653971
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 17.773,
+        "price_usd": 21.27,
+        "market_cap_usd": 993461638
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 17.6888,
+        "price_usd": 0.261598,
+        "market_cap_usd": 261590446
+      },
+      {
+        "symbol": "HOME",
+        "name": "HOME",
+        "price_change_24h_pct": 16.3484,
+        "price_usd": 0.04844778,
+        "market_cap_usd": 184973424
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -22.0104,
+        "price_usd": 0.37478,
+        "market_cap_usd": 228303586
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price_change_24h_pct": -20.3944,
+        "price_usd": 2.27,
+        "market_cap_usd": 2940610914
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -19.5202,
+        "price_usd": 16.61,
+        "market_cap_usd": 790084876
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -19.2587,
+        "price_usd": 13.0,
+        "market_cap_usd": 4031900070
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": -19.0796,
+        "price_usd": 5.4,
+        "market_cap_usd": 541153204
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63421,
+    "price_change_24h_pct": -3.1889,
+    "price_change_7d_pct": -13.5286,
+    "market_cap_usd": 1273011775051,
+    "volume_24h_usd": 67385981836,
+    "direction": "bearish",
+    "oi_usd": 6306257051.06,
+    "funding_rate_latest": -1.077e-05,
+    "funding_rate_7d_avg": 5.8382380952380946e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9682,
+    "long_account_pct": 66.31,
+    "short_account_pct": 33.69,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1768.43,
+    "price_change_24h_pct": -2.5024,
+    "price_change_7d_pct": -12.0808,
+    "market_cap_usd": 213774529005,
+    "volume_24h_usd": 27971533151,
+    "eth_btc_ratio": 0.027884,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74206529253.87,
+    "stablecoin_market_cap_usd": 315681738587.92,
+    "stablecoin_dominance_pct": 13.8227
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Lululemon cuts annual outlook and issues weak Q2 guidance, citing undisclosed 'headwinds'",
+        "summary": "Lululemon is expecting its situation to get a lot worse before it gets better, as it issued weak guidance for the full year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html",
+        "published_at": "2026-06-04T20:12:45Z"
+      },
+      {
+        "headline": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
+        "summary": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaC1FUm1UYy1rOVFvcUI1MGY3T1U2VVQtMkVKandMNGZ1WHIxSC00blRhLWhtdDFUellNNXBJTWpMOUV5SmlfbkRmV0FGYkptYnBUZ3pndldld2VvYnF5TGtUN2cxLVhsVG9kcXlLaGRwbThxdTIzS1pOOEZLT2NJTV9WaG9GMG5aWEJTSGhfcXJGeUpic1VQY0Q2bGM0YWQyYVRtYg?oc=5",
+        "published_at": "2026-06-04T19:20:17Z"
+      },
+      {
+        "headline": "Slighted market sectors get their time to shine \u2014 plus, Costco keeps packing them in",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/04/slighted-market-sectors-get-their-time-to-shine-plus-costco-keeps-packing-them-in.html",
+        "published_at": "2026-06-04T18:55:48Z"
+      },
+      {
+        "headline": "Iranian oil exports fall to lowest level in six years, data shows - Reuters",
+        "summary": "Iranian oil exports fall to lowest level in six years, data shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU2VqZ2NBazBCTU1xMDhFRDY0RnI3ZXBuVV9kV2hfQm1QWlgybzRWVEdRZUJPQWt1RFdVcWZuNkpIUW96R2xiQTI0bV9nZWJTOXNQMWUxQnhIUTRlckpYZGNsZEtGSHZqcVhFbjFjdzhxNGR6eVpJNjRPaXlWdzdfRWpMMUwxMFBiY2ttV3ZuOG50Y0VHa2oxN28zUy1MN2F0TFVMbVhxdG9WaGo5NGZZ?oc=5",
+        "published_at": "2026-06-04T17:53:52Z"
+      },
+      {
+        "headline": "Explainer: How Trump's ceasefires are failing to stop Middle East violence - Reuters",
+        "summary": "Explainer: How Trump's ceasefires are failing to stop Middle East violence\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmpJX19sVWJhRlNTaXliaENGNERBNml5RjhpcVNoczhXVzRYeHloci1NNElZVTExd19kb01Tcmg3bGNXTVFxczFOTjlCaHlxUmo0SmNnZExwanBsaFN2YmFROWJSNnRNZ3J0R2ttRmFBSjJZRzlDendBQmMzUVlPUUw0ZjBSQ0lkZ0l6ZDZ5czFmX1V5WEpjZU9lZ2lzS243bmpvb3FKYV8zZGhuWExCRnJ0Zkc?oc=5",
+        "published_at": "2026-06-04T17:34:12Z"
+      },
+      {
+        "headline": "Jim Cramer sees an opportunity in Broadcom's 15% plunge, with one key caveat",
+        "summary": "\"Every time there's been this kind of huge break in the stock, you have to buy it,\" Jim said.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/04/cramer-sees-an-opportunity-in-broadcoms-15percent-plunge-with-one-key-caveat.html",
+        "published_at": "2026-06-04T17:12:54Z"
+      },
+      {
+        "headline": "We're selling an out-of-favor stock into strength to raise cash for better buys",
+        "summary": "Getting bored is never a good reason to sell a stock, but investments need catalysts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/04/were-selling-an-out-of-favor-stock-into-strength-to-raise-cash-.html",
+        "published_at": "2026-06-04T15:41:55Z"
+      },
+      {
+        "headline": "First IAEA report on Iran's nuclear programme since February shows little change despite war - Reuters",
+        "summary": "First IAEA report on Iran's nuclear programme since February shows little change despite war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd0ljYkZKSjRhZ3B4bHVaYXY3eTdSUlhwWEJ5M1FFTmxMOU9NLUVVWVhuT1pZaDdPSmhlZGd3eUhoWkZ6OGx3UVU3SS13VVM3dnNnU2gzSkpMVXdfUU5NRU9DRVgxd2wxZk04UlNjalVScEtYdUlud3JUS3U5UUdsaF9UaXlRMkhrQVZKbGRRbUI5V2diNkZDaURDVndJS3NjSHJyRHBYYzFPUko2bGdsTGNoTmFJd2gweE1aNXRfUmNyVF9RdS1CcUpn?oc=5",
+        "published_at": "2026-06-04T15:32:34Z"
+      },
+      {
+        "headline": "US Supreme Court backs SEC in fight over 'disgorgement' power - Reuters",
+        "summary": "US Supreme Court backs SEC in fight over 'disgorgement' power\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ1BqZHVHYUVXZHlOb0stcFVUUUd2Y0s5UGYtdktfZEQ1Q254Y1dPRl9aV093S3ZfYVZnM29UMEhqalJzMjlDcGV6dzZ0dFVld1RQN1IyN041Y2wzSXpKVEZKdDJuaXdoM1NXRWgweFBpcGRxOENIMGZyZTRxTnk0elVVVmxMWndjNVhMc0xKWmFYN0ZDc2ZuUHl0cndjX28?oc=5",
+        "published_at": "2026-06-04T14:28:05Z"
+      },
+      {
+        "headline": "Gulf markets end mixed amid US-Iran peace deal hopes - Reuters",
+        "summary": "Gulf markets end mixed amid US-Iran peace deal hopes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRlN1VXRKNHN0TlVwUXFvNTBzQ19ENDV1bWlCN3hYa3lEU1ZMaGUwQmYyZUQyOVRlTDJMaVdTdnpkSVFKSEVNU21UUk1zUEU1bEd5S1NfZUpVa0QyUUhMZlFjS2Vlbm1RREpwWjh6d3NPZ0ZfV1I4Rmg3ZEwtcWFGaXNVZThSaDE3d3BjQ3pfVnl1WGZQQzJXYW9LTnI4WnM4QzdvYg?oc=5",
+        "published_at": "2026-06-04T13:27:08Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 757.16,
+    "spy_change_pct": 0.3871,
+    "spy_lean": "neutral",
+    "vix_close": 16.06,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 67,
+    "positive_count": 9,
+    "negative_count": 12,
+    "neutral_count": 46,
+    "sentiment_ratio": 0.1343,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "The Bitcoin Roadmap To $500,000: Analyst Shows How Price Will Get There",
+        "url": "https://bitcoinist.com/the-bitcoin-roadmap-to-500000/",
+        "published_at": "2026-06-04T21:30:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Republican Lawmaker Plans to Add Prediction Markets to Congressional Stock Ban Bill",
+        "url": "https://decrypt.co/370086/republican-lawmaker-add-prediction-markets-ongressional-stock-ban-bill",
+        "published_at": "2026-06-04T20:43:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin fell 21% after Strategy\u2019s debt buyback news\u2014 Is a Terra Luna-style doom loop next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-fell-21-after-strategys-debt-buyback-news-is-a-terra-luna-style-doom-loop-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-04T20:37:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia targets British 17-year-old for alleging digital assets were skirting sanctions",
+        "url": "https://cointelegraph.com/news/russia-sanctions-british-teenager-ruble-stablecoin-ukraine-war?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-04T20:21:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White House crypto adviser Witt defends Clarity Act, calls it \u2018pro-law enforcement\u2019 as lawmakers race to pass bill",
+        "url": "https://www.theblock.co/post/403693/white-house-crypto-adviser-witt-defends-clarity-act-calls-it-pro-law-enforcement-as-lawmakers-race-to-pass-bill?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-04T20:08:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Expected $1 Billion Crypto Windfall Shrinks To Fraction In Israel Disclosure Program",
+        "url": "https://bitcoinist.com/crypto-holders-in-israel-declare-50m-well-below-governments-1b-estimates-details/",
+        "published_at": "2026-06-04T20:00:25+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'Looksmaxxing' Trend Spawns $100M Gray Market Fueled By Bitcoin, Stablecoins: Chainalysis",
+        "url": "https://decrypt.co/370078/looksmaxxing-trend-100m-gray-market-bitcoin-stablecoins-chainalysis",
+        "published_at": "2026-06-04T19:54:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Professional investors dumped 52K BTC worth of ETFs in Q1, filings show",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-ownership-shifts-hedge-funds-sell-banks-buy-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-04T19:53:33+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google DeepMind CEO Says AGI Is Coming Fast: 'We Don't Have Long to Prepare'",
+        "url": "https://decrypt.co/370080/google-deepmind-ceo-agi-coming",
+        "published_at": "2026-06-04T18:54:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase to launch token-backed mortgage down payments this summer",
+        "url": "https://cointelegraph.com/news/coinbase-token-backed-mortgages-fannie-mae-summer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-04T18:52:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
