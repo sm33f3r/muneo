@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-05T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2201991679887.96,
+    "total_market_cap_change_24h_pct": -3.2051,
+    "total_volume_24h_usd": 179996438094.54,
+    "btc_dominance_pct": 56.1592,
+    "eth_dominance_pct": 8.823,
+    "total2_usd": 965369945378.89,
+    "total3_usd": 771088240016.1,
+    "active_cryptocurrencies": 17370,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "QAIT",
+        "name": "SEALCOIN",
+        "price_change_24h_pct": 31.9016,
+        "price_usd": 0.02690275,
+        "market_cap_usd": 118602318
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 16.5672,
+        "price_usd": 1.79,
+        "market_cap_usd": 515143567
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price_change_24h_pct": 7.5531,
+        "price_usd": 0.03176488,
+        "market_cap_usd": 870406473
+      },
+      {
+        "symbol": "HOME",
+        "name": "HOME",
+        "price_change_24h_pct": 5.8431,
+        "price_usd": 0.051499,
+        "market_cap_usd": 197500124
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 5.7657,
+        "price_usd": 0.589696,
+        "market_cap_usd": 1084343903
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": -25.4437,
+        "price_usd": 372.76,
+        "market_cap_usd": 6244261596
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -23.797,
+        "price_usd": 9.89,
+        "market_cap_usd": 3084077291
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": -23.0655,
+        "price_usd": 0.068463,
+        "market_cap_usd": 180565834
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -19.9942,
+        "price_usd": 0.6698,
+        "market_cap_usd": 181358455
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -17.6698,
+        "price_usd": 0.03227123,
+        "market_cap_usd": 755544239
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61574,
+    "price_change_24h_pct": -2.8407,
+    "price_change_7d_pct": -16.1512,
+    "market_cap_usd": 1233945977502,
+    "volume_24h_usd": 72093321136,
+    "direction": "bearish",
+    "oi_usd": 6327447007.01,
+    "funding_rate_latest": -8.63e-06,
+    "funding_rate_7d_avg": 4.739571428571428e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1027,
+    "long_account_pct": 67.77,
+    "short_account_pct": 32.23,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1611.23,
+    "price_change_24h_pct": -8.8029,
+    "price_change_7d_pct": -20.0518,
+    "market_cap_usd": 194402990943,
+    "volume_24h_usd": 39044623304,
+    "eth_btc_ratio": 0.026167,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 69275050581.16,
+    "stablecoin_market_cap_usd": 314903887698.17,
+    "stablecoin_dominance_pct": 14.3009
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 24,
+    "headlines": [
+      {
+        "headline": "Iran World Cup players granted visas to enter the US, says White House official - Reuters",
+        "summary": "Iran World Cup players granted visas to enter the US, says White House official\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZU5Fb3BhUml4d0p4bk9yZjhvdUoydElaSjV4c3BvNUZHOURqVU82RENQd0FXak8teXBBcElyRzVrTjBHMWl6NGdiME1UdjVBbFFqMHBYWVo2bWNYMW15aUNLdnk5QmkzX1dLajNoTmJnQ1pjS3lzS1pVZnBNVWc0anBGa09MNDl4TG1yTDQ4RlFhNTRneTVwRHh1cXBjU01Xd09DWk03a2VuelpOTHo2WGNvWmYzdVNEYkMzNDFWdjl0Nmc?oc=5",
+        "published_at": "2026-06-05T18:28:09Z"
+      },
+      {
+        "headline": "Iran World Cup squad still in visa limbo 10 days before first match, ambassador says - Reuters",
+        "summary": "Iran World Cup squad still in visa limbo 10 days before first match, ambassador says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTlBnSE9GWlBqaU82S1FVVlNTLXFvRDBQNmJUNW4xdnIwQ25nYjVxNmUyN0kyLV9tMDhtUDNRN1c4dVJlRnBrU0xSMzlBY1I2akNJV0VlQ1pGdWpZUURwb2JNNDFOS000dEg4Si1lb2dmVmtNMHVFRko0REJEV1I0a0JoSXl3bk51ZW9BNk9wRUlRYmoycnNMNWYzUjR6dy1xVXh4S1FNbFBMdTVWSXlzZ21YcnRidHo4blJkX3JsWmdmVjdxbVNQVWlR?oc=5",
+        "published_at": "2026-06-05T18:23:29Z"
+      },
+      {
+        "headline": "As AI-related stocks dive, the market's winners have one thing in common",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/05/as-ai-related-stocks-dive-the-markets-winners-have-one-thing-in-common.html",
+        "published_at": "2026-06-05T18:06:34Z"
+      },
+      {
+        "headline": "Trump wants Bill Pulte to fire big chunk of national intelligence office staff: WSJ",
+        "summary": "President Trump's comments are sure to roil members of Congress who criticized the appointment of Bill Pulte as acting national intelligence director.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/05/trump-bill-pulte-fire-intelligence-dni.html",
+        "published_at": "2026-06-05T17:25:37Z"
+      },
+      {
+        "headline": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment - Reuters",
+        "summary": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOVJhNXhDSC1NbGdmd1NJUnlTaGFMM3JxTnZFNUR6VVpDdXlMS2ZOLW05TW1YMXJhcUdGSVFfM1Q3VVNURUNVSnl4VVM3WnlFMGZuZjVOSUhQZkFCZjBBYVFBeEMzTVViNnFLZWtCWGdKMDFRTF8xZ0RVUlBPbDZBV2FFZVpCZmhHTG00RWNDRGtIS0N5TXI1RzRFY1ozQXR3SXpDNm9JX0ZPcUxQR0E?oc=5",
+        "published_at": "2026-06-05T17:12:52Z"
+      },
+      {
+        "headline": "Global oil inventories depleted, next price spike could roil economies, markets - Reuters",
+        "summary": "Global oil inventories depleted, next price spike could roil economies, markets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV01INndjOU8xWVM2Z1hYdU16cy1qQU85c0tLb0N6RDhaeG5Oa0J0YWQ4Yzh4TmRUUUJUTDBoVEdWUE5Kc2Y3NXFveG1NZHN6aVZpMHh5RV9waE96a3Z6ckxscHBVajJITGowdVFSeEV2cTVUaHhKcEFBSmxtdmFTU3Jpd1VMbzVyZnBN?oc=5",
+        "published_at": "2026-06-05T16:26:41Z"
+      },
+      {
+        "headline": "Iran using Lebanon as bargaining chip in US talks, Lebanese president says - Reuters",
+        "summary": "Iran using Lebanon as bargaining chip in US talks, Lebanese president says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOek1MOVV2M1JkZzJlN2h5aGFPaWJvQ2hQRHVELU5pQXhCUkoxRERqMi0wLUwwdFlRQ2lOeDF2ZUlFT0Y4QlpCVEEtczVRZ1lRRTZVNk5NQUR3SzRPdEtUUkxmekxET2FmNGdTU3pmZ1JZYXY2NW1hdDAyT1BZR1FvbHRQT3p5SGRVc2tvMnBfblFHcmYzaGhSbFlodkp1aUQ1cG9XYjZvV1pJeTBfUHFIbnZ1dnZkWXZzM2ttdFdR?oc=5",
+        "published_at": "2026-06-05T16:23:03Z"
+      },
+      {
+        "headline": "US says it issued sanctions on network smuggling Iranian LPG - Reuters",
+        "summary": "US says it issued sanctions on network smuggling Iranian LPG\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU05IR1JudzV6T3A0Q0E3OThERjNCUHVwOVJGem45SWRsaHluTmtvV1o2MXJRNVVjRDZmZHNsWXpNSU5qcFdvcUthNDhMVTBZdElIWC1fRHZBLS0ybnlsNDg3QnhmREwyTkVrYXRVVldwN3JMSzR2cU1Na1RJRE1iczFfRjJzS3pBSzI4NmNpbVJDVElWTkgzMXlabmY?oc=5",
+        "published_at": "2026-06-05T16:05:50Z"
+      },
+      {
+        "headline": "Boeing to start 737 Max production on new assembly line July 6, CEO says",
+        "summary": "The new 737 Max final assembly line in Everett, Washington, will serve as a catalyst for increasing Max production to 52 jets per month.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/05/boeing-ceo-737-max-production-assembly-line.html",
+        "published_at": "2026-06-05T15:38:32Z"
+      },
+      {
+        "headline": "Iran declares support for Hezbollah with wider peace deal in doubt - Reuters",
+        "summary": "Iran declares support for Hezbollah with wider peace deal in doubt\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMkJmdHFzTERGVlZsOTRwbkozTUFSZ3N4cXZhUlJUY1ZaSTJ4ZjZaYXV0NEhZWHgwbUhYVlhYTmpDakgzXzNiTEJpeGdObmkzR1lVMGtIV3FrWVd5eGJUVHdZaEgzVWVGUnlHbHJOYnNGNlprMzNHY3djMWUweFlGWGoyMnJUNlJJNkJuUlhpWWVFanZZcW04aFBMTUlUd1ZjVUk1c2lrcmFwbTFnTHdZNU02WQ?oc=5",
+        "published_at": "2026-06-05T14:59:51Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 737.41,
+    "spy_change_pct": -2.5994,
+    "spy_lean": "bearish",
+    "vix_close": 15.4,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 70,
+    "positive_count": 11,
+    "negative_count": 19,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1571,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Travala lets AI agents book hotels with USDC on Base",
+        "url": "https://cointelegraph.com/news/travala-ai-agents-book-hotels-usdc-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-05T20:55:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto tax proposals weighed ahead of Tuesday House hearing",
+        "url": "https://cointelegraph.com/news/crypto-tax-bills-house-ways-means-hearing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-05T20:41:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Drops To $59,000 For First Time Since 2024: Crypto\u2019s Total Value Sheds $2 Trillion Since October",
+        "url": "https://bitcoinist.com/bitcoin-drops-to-59000-for-first-time-since-2024/",
+        "published_at": "2026-06-05T20:37:27+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Bug Crisis Shows Privacy Cuts Both Ways, Experts Say",
+        "url": "https://decrypt.co/370223/zcash-bug-crisis-shows-privacy-cuts-both-ways-experts-say",
+        "published_at": "2026-06-05T20:26:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid treasuries stand alone in profit as legacy crypto DATs bleed billions",
+        "url": "https://www.theblock.co/post/403855/hype-treasuries-alone-profit-legacy-crypto-dats-bleed-billions?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-05T20:24:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Shares Fall to 4-Month Low as STRC Dips and Bitcoin Sinks Under $60K",
+        "url": "https://decrypt.co/370229/strategy-shares-fall-4-month-low-strc-dips-bitcoin-sinks-under-60k",
+        "published_at": "2026-06-05T20:02:53+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Just Took Another Major Hit Amid Zombie Chain Allegations",
+        "url": "https://bitcoinist.com/another-cardano-major-hit/",
+        "published_at": "2026-06-05T20:00:13+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin bears face $2.6B trap as BTC funding rate drops: Is a short squeeze brewing?",
+        "url": "https://cointelegraph.com/markets/bitcoin-bears-face-26b-trap-as-btc-funding-rate-drops-is-a-short-squeeze-brewing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-05T19:28:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Is Helping the NSA Hack China. It Also Wants Everyone to Pause AI",
+        "url": "https://decrypt.co/370207/anthropic-helping-nsa-hack-china-also-wants-everyone-pause-ai",
+        "published_at": "2026-06-05T19:18:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano founder floats splitting his own blockchain after warning more apps will die",
+        "url": "https://cryptoslate.com/cardano-founder-floats-splitting-his-own-blockchain-after-warning-more-apps-will-die/",
+        "published_at": "2026-06-05T19:05:31+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 4,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
