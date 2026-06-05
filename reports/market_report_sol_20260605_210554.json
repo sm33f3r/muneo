@@ -1,0 +1,160 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-05T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 64.67,
+    "price_change_24h_pct": -5.7614,
+    "price_change_7d_pct": -21.2174,
+    "volume_24h_usd": 6908013258,
+    "market_cap_usd": 37360693693,
+    "volume_to_mcap_ratio": 0.184901,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -77.9527,
+    "cex_price_usd": 64.86,
+    "cex_24h_high": 69.1,
+    "cex_24h_low": 61.48,
+    "cex_dex_spread_pct": 0.293799,
+    "volume_on_up_days_usd": 4064099760.4675055,
+    "volume_on_down_days_usd": 2844325176.3203435,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 33.907,
+    "rsi_lean": "bullish",
+    "macd": {
+      "macd_line": -6.155766,
+      "signal_line": -6.820159,
+      "histogram": 0.664392
+    },
+    "macd_lean": "bullish",
+    "sma_50": 102.849,
+    "price_vs_sma50_pct": -37.1214,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 95.534946,
+      "mid": 85.259,
+      "lower": 74.983054,
+      "width_pct": 24.1052,
+      "position": -0.1607
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 631433062.09,
+    "oi_lean": null,
+    "funding_rate_latest": -8.011e-05,
+    "funding_rate_7d_avg": -3.3808095238095234e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.1027,
+    "btc_long_account_pct": 67.77,
+    "btc_short_account_pct": 32.23,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4677458438.0,
+    "tvl_7d_change_pct": -12.4899,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 7664621.0,
+    "chain_fees_7d_avg_usd": 6741238.86,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Forward Industries moves $32M in SOL amid $1B paper loss",
+        "url": "https://cointelegraph.com/news/forward-industries-moves-319m-in-sol-to-coinbase-prime-amid-113b-paper-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-05T10:59:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 61708.0,
+    "btc_24h_change_pct": -3.0897,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.3109,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2121775881687.852,
+    "eth_btc_ratio": 0.026072,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 737.41,
+    "spy_change_pct": -2.5994,
+    "spy_lean": "bearish",
+    "vix_close": 15.4,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 70.75,
+    "cg_sentiment_votes_down_pct": 29.25,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 7,
+    "bearish_count": 4,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bullish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
