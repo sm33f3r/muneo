@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-06T21:30:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2175177561442.4,
+    "total_market_cap_change_24h_pct": -1.2662,
+    "total_volume_24h_usd": 97264699484.09,
+    "btc_dominance_pct": 56.1047,
+    "eth_dominance_pct": 8.6684,
+    "total2_usd": 954801104060.63,
+    "total3_usd": 766247473143.29,
+    "active_cryptocurrencies": 17354,
+    "altcoin_season_index": 62,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 77.2518,
+        "price_usd": 0.335398,
+        "market_cap_usd": 335562699
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 52.0178,
+        "price_usd": 15.06,
+        "market_cap_usd": 4710930697
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 27.1079,
+        "price_usd": 2.27,
+        "market_cap_usd": 655492124
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 22.4191,
+        "price_usd": 0.128667,
+        "market_cap_usd": 266747055
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 15.6457,
+        "price_usd": 0.114994,
+        "market_cap_usd": 287479617
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -19.1713,
+        "price_usd": 0.418008,
+        "market_cap_usd": 1408187414
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -10.8622,
+        "price_usd": 0.599191,
+        "market_cap_usd": 161593025
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -10.1072,
+        "price_usd": 15.4,
+        "market_cap_usd": 719685256
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": -8.2798,
+        "price_usd": 294.52,
+        "market_cap_usd": 5532933802
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": -8.2182,
+        "price_usd": 0.899493,
+        "market_cap_usd": 227072293
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60861,
+    "price_change_24h_pct": -1.1567,
+    "price_change_7d_pct": -17.659,
+    "market_cap_usd": 1219617914870,
+    "volume_24h_usd": 35723170190,
+    "direction": "bearish",
+    "oi_usd": 6197939208.24,
+    "funding_rate_latest": -5.11e-06,
+    "funding_rate_7d_avg": 4.0976666666666663e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9429,
+    "long_account_pct": 66.02,
+    "short_account_pct": 33.98,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1561.28,
+    "price_change_24h_pct": -2.9491,
+    "price_change_7d_pct": -22.9211,
+    "market_cap_usd": 188422339899,
+    "volume_24h_usd": 19974423307,
+    "eth_btc_ratio": 0.025653,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 69663391928.3,
+    "stablecoin_market_cap_usd": 314484518426.72,
+    "stablecoin_dominance_pct": 14.4579
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Embraer sees airlines delaying decisions on plane purchase options due to Iran war - Reuters",
+        "summary": "Embraer sees airlines delaying decisions on plane purchase options due to Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFQ3d19Vc0w5bmZneWpXbi1QMldBcm5BQkxrbG5HWGYxVDZ4QkVTZ1pzRVNnUTNGTWVFY09ZRTJpbDh2UjkxVzVxeDRXZ2toMllLeUNKbXk1a2VtWXIwaE5rc1pWREl1QkNwTUgwUS1WUEdneExFYWdxMG9zWkF5NU45b1J6Q05WOWxESzMtY0xoaC1KOE9HNTNsSUpRam9EZHBNcFlIcEQ3LVJBOFZMWnp4OWE1NkdCX1VKVjBMcnU2U3lhVWlEOVRGU3A?oc=5",
+        "published_at": "2026-06-06T20:08:09Z"
+      },
+      {
+        "headline": "U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde - Reuters",
+        "summary": "U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcEhkXzdJbXZFNTY5ak41UEx0cjdaanRaZXNJR2lHd1Q5Mld3dEdJQlFtTm43VXhDcFZQWTVZWEdzR2lZMXloVkNkMFIxSWJ4QTRRV3JxYkpGaER1UExpZ0xCSlZNY3NaUHktdS1yQmJrYjZkZWdpU0JPSWVUdThrcHNfNEN1clVLRUFtYVo3Rko2NmNiaktfZGhMb2FMZ0QtMTAxelhqSy1KczQ?oc=5",
+        "published_at": "2026-06-06T15:31:26Z"
+      },
+      {
+        "headline": "Israeli strike kills three Lebanese soldiers, military probes incident - Reuters",
+        "summary": "Israeli strike kills three Lebanese soldiers, military probes incident\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNjRlR0psWGhoX1dwYXVZZEZXeUk2cUExSHgweGFYa0ZuNGR3RHU3ZWxybjlHRGYzY2tJby1lYVFuS21rdlhnZVU1QUVKS1JidDdfWVJ4SHhQeEx4UEx2V3lTM01ESkZxV01rOGVwQ0tJU1JXVFdGNVFFVVJ0VzZjeFJIOXlLbElBOFZjS3RQWEM5ZVhDMUNVcGFjTDBMYW16TnpuT1dwLXFDaGZzWGN4aV84NkVlVHFFbUpCVV82QTJkaVNM?oc=5",
+        "published_at": "2026-06-06T11:17:22Z"
+      },
+      {
+        "headline": "Russia's Sechin says US companies benefit from Strait of Hormuz closure - Reuters",
+        "summary": "Russia's Sechin says US companies benefit from Strait of Hormuz closure\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSHJyOUJ0WVpCMVZ2MFNmNWEtQ1JuZW1LUW5obFNZZTlEZDBmcWE3S3ZYYXI0Q0Y5MHJLNjdGSjI1RnVRYmdtdmtqWGFIWmRINy1RdWMzdGMxTEROWENRQnJlMUxma2FkTHVNN1BDLW83QjdWWHhhdG9nZ3ktU1dGQk5KMFFyR09wZXM4bHhXSGxnWFZEMUJkb3BoRDNkc3FjUW5NODJyR2tRZlB5Q1ltN3RUcjY?oc=5",
+        "published_at": "2026-06-06T10:21:01Z"
+      },
+      {
+        "headline": "Turkmenistan: A reporter\u2019s rare journey - Reuters",
+        "summary": "Turkmenistan: A reporter\u2019s rare journey\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZVlfLXpKNUtUVlU3dTNYNUNUMi1xT1V1VmlCdjV5dkV6bE14Q1gtVHhGOTVwNElMdUdObmNMNXdybVFVMzY2RXdXUjlpYnlOek80THhaWkZGWV95cHY0ZTlxMVkxOWYtZWpGVjdwRFVXTTMwTjRFTWM4cDI2d2NDNmFSZG1ZeWs?oc=5",
+        "published_at": "2026-06-06T05:01:00Z"
+      },
+      {
+        "headline": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up - Reuters",
+        "summary": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1o1RDBJVGVQai1scDRmSmlnaWxVZlZBaDZyZUswRHNMY0c1N25BM053RXdmWGV5aGJkalg3V0lpUnpVOEFpUWY5YTBCY0syV1dmejdaUVlJVXZkc0tNVTQ2RmlTVWlEUVlDYkZEYl9yQVZ1QWtLVzZYNl9RRTBzaENsNlBVMWJCYjJLd0ZtdGlpUTljLVBhV0JlVDFJRWJwdm9YQjhIZ3BqdHdua2Z6TFMzS0xXbHhuZTFuNC0yWDhHaUlWSFo2MQ?oc=5",
+        "published_at": "2026-06-06T00:02:00Z"
+      },
+      {
+        "headline": "US energy secretary says lower gas prices will ultimately take resolution with Iran - Reuters",
+        "summary": "US energy secretary says lower gas prices will ultimately take resolution with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNc3FvTkdEREtLeURERnlZVDBVT0JwTFV1TWhGNnNmUVFmSzcwUW9uU2YyQVQxdjI1bWFEMzA0aEh0dS05UlhuS1AxX2VGZEFVZ2pHRURCOFVUdlc4a0VtMkVhRDd5ZlBGWkhLNmxaaFBRTERTR3l0SU9OekxXWkRHSExYVFNLR3h2dURSVkc2MnV6dVRrWjg3d3lqT0luNVI3bU5vYkRSTW9xWlNWc0hsbmNXV3h5SGNiZVEyd0draGJyNDVYZnYxZkRB?oc=5",
+        "published_at": "2026-06-05T23:51:50Z"
+      },
+      {
+        "headline": "US strikes Iran radar sites after Iranian drone launch - Reuters",
+        "summary": "US strikes Iran radar sites after Iranian drone launch\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONE1OaV8yX29rUGpfRjJCbElUcy0tM01SWVZES003OTE3ZVhpaDFJRVBmXzh5ZEY2OEthOHNJU2oyTlBSeU9na0owaEFveC0tZFRWdXc3WjF4VTVfN3dBdFdfcVVzV0tqT1BsRjZyQTlmelBhcDBiWlNhb3NsaDl4OHduY2FVRWxveGlCV21QQ3JldWpQOXlHTW9Xa1p3VHM4cUVqZkVUR09halph?oc=5",
+        "published_at": "2026-06-05T23:11:51Z"
+      },
+      {
+        "headline": "Trump, campaigning for Republicans in Wisconsin, vows quick end to Iran war - Reuters",
+        "summary": "Trump, campaigning for Republicans in Wisconsin, vows quick end to Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUszNmRGUnk5ajdqM2hrYk9CdjY5VHdzbU03MlloRFF5Z2pmOGFGX21Lb19jMjVOWk4wSEVMb1I5QUl2WV9EeVA2S1BYSzB4S2p3UnJsVFdsZUpmSHlsSTJqZ29JdDVoYmU5RmM5TDhncHc0MjdsRGd3WHJ2Umo5M0VyS050N2VKaXl1QkhtMjY1NFlxVkxBa0RxeGZlV1F1bE1B?oc=5",
+        "published_at": "2026-06-05T22:27:28Z"
+      },
+      {
+        "headline": "Iran has launched multiple drones towards the Strait of Hormuz, CNN reports - Reuters",
+        "summary": "Iran has launched multiple drones towards the Strait of Hormuz, CNN reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWNoMWljcEVLeTNSU09PSGdTTllERnBWUXVqRlNrSGI2S3I1Y1VZdlRBY05FbXNlX0tudmZlalJKYV9VaVpJZHBRTWFqTThMQ01TakJDVXVnTGJ2OVBmNmxNdVRRRXNKRThuWnFDUzRDZlFyQkt4Uy1EUDlqVzVMNW56U0tvZzAtYmNoby1tdnpTaGNrWkV3eHk4TGhTUWdaVGg4S3dHakNRaTNpR2tFTnNiYTFmaDl0cjk3eU9R?oc=5",
+        "published_at": "2026-06-05T22:17:34Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.8783,
+    "dxy_lean": "neutral",
+    "spy_close": 737.55,
+    "spy_change_pct": -2.5809,
+    "spy_lean": "bearish",
+    "vix_close": 15.4,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 13,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 22,
+    "positive_count": 1,
+    "negative_count": 6,
+    "neutral_count": 15,
+    "sentiment_ratio": 0.0455,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "HTX to delist Trump-linked USD1 after saying World Liberty Financial froze exchange-linked addresses",
+        "url": "https://www.theblock.co/post/403885/htx-to-delist-trump-linked-usd1-after-saying-world-liberty-financial-froze-exchange-linked-addresses?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-06T21:03:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Is Helping Discover Tech Vulnerabilities\u2014And Zcash Is Just the Latest Example",
+        "url": "https://decrypt.co/370237/ai-discover-tech-vulnerabilities-zcash-latest-example",
+        "published_at": "2026-06-06T20:56:43+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperion DeFi to unwind $29 million in HYPE deals with Felix, Native Markets as USDH sunsets",
+        "url": "https://www.theblock.co/post/403879/hyperion-defi-to-unwind-29m-in-hype-deals-with-felix-native-markets-as-usdh-sunsets?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-06T19:40:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Next Bitcoin ETF Boom May Be Coming From Japan \u2013 Here\u2019s Why",
+        "url": "https://bitcoinist.com/the-next-bitcoin-etf-boom-coming-japan/",
+        "published_at": "2026-06-06T19:30:59+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid\u2019s UK warning reveals the regulatory test behind its Wall Street push",
+        "url": "https://cryptoslate.com/hyperliquids-uk-warning-reveals-the-regulatory-test-behind-its-wall-street-push/",
+        "published_at": "2026-06-06T19:10:34+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Claude Code Vulnerability Could Let Attackers Steal Credentials From GitHub, Says Microsoft",
+        "url": "https://decrypt.co/370238/claude-code-vulnerability-attackers-steal-credentials-github-microsoft",
+        "published_at": "2026-06-06T18:08:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FBI Cracks Down On Alleged ISIS Crypto Donors, 3 Americans Arrested",
+        "url": "https://bitcoinist.com/fbi-cracks-down-on-alleged-isis-crypto-donors-3-americans-arrested/",
+        "published_at": "2026-06-06T18:00:12+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wallet linked to Ethereum co-founder Joseph Lubin moves 110,000 ETH to defend $259 million DAI debt position",
+        "url": "https://www.theblock.co/post/403876/wallet-linked-to-ethereum-co-founder-joseph-lubin-moves-110000-eth-to-defend-259m-dai-debt-position?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-06T17:21:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI\u2019s $800 billion spending boom is becoming Bitcoin\u2019s Fed problem",
+        "url": "https://cryptoslate.com/the-feds-new-inflation-problem-may-be-the-ai-800-billion-spending-boom/",
+        "published_at": "2026-06-06T17:05:32+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Below $65 For The First Time Since 2023: Crucial Levels To Watch",
+        "url": "https://bitcoinist.com/solana-price-below-65-for-the-first-time-since-2023/",
+        "published_at": "2026-06-06T16:30:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 5,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
