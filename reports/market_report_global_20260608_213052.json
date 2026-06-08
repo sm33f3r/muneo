@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-08T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2276139870182.12,
+    "total_market_cap_change_24h_pct": 2.9018,
+    "total_volume_24h_usd": 100668692474.07,
+    "btc_dominance_pct": 56.072,
+    "eth_dominance_pct": 9.0558,
+    "total2_usd": 999861627662.03,
+    "total3_usd": 793738099997.55,
+    "active_cryptocurrencies": 17343,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 28.0685,
+        "price_usd": 0.167263,
+        "market_cap_usd": 353788528
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 25.9277,
+        "price_usd": 4.3,
+        "market_cap_usd": 1241294908
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 24.6588,
+        "price_usd": 0.310118,
+        "market_cap_usd": 129957373
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 17.7239,
+        "price_usd": 3.16,
+        "market_cap_usd": 181966592
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": 14.8042,
+        "price_usd": 18.59,
+        "market_cap_usd": 179731348
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -73.9656,
+        "price_usd": 0.192107,
+        "market_cap_usd": 350595232
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -13.6647,
+        "price_usd": 0.708468,
+        "market_cap_usd": 711900308
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -12.8883,
+        "price_usd": 0.059242,
+        "market_cap_usd": 130248124
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -6.2209,
+        "price_usd": 12.14,
+        "market_cap_usd": 3777637198
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": -5.1373,
+        "price_usd": 211.98,
+        "market_cap_usd": 4247687887
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63683,
+    "price_change_24h_pct": 3.1016,
+    "price_change_7d_pct": -10.7559,
+    "market_cap_usd": 1276068630129,
+    "volume_24h_usd": 39407314448,
+    "direction": "bullish",
+    "oi_usd": 6213390975.13,
+    "funding_rate_latest": 1.22e-06,
+    "funding_rate_7d_avg": 2.7265238095238096e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7871,
+    "long_account_pct": 64.12,
+    "short_account_pct": 35.88,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1708.3,
+    "price_change_24h_pct": 4.9268,
+    "price_change_7d_pct": -14.6662,
+    "market_cap_usd": 206152143240,
+    "volume_24h_usd": 18137134464,
+    "eth_btc_ratio": 0.026825,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72715016013.38,
+    "stablecoin_market_cap_usd": 315964069659.01,
+    "stablecoin_dominance_pct": 13.8816
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "We're getting closer to upgrading Honeywell as shares pull back into its breakup",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/08/were-closer-to-upgrading-honeywell-as-shares-pull-back-into-breakup.html",
+        "published_at": "2026-06-08T19:11:17Z"
+      },
+      {
+        "headline": "US disables Iran-bound tanker in Gulf of Oman; Indian crew safe after fire - Reuters",
+        "summary": "US disables Iran-bound tanker in Gulf of Oman; Indian crew safe after fire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzJ0Skt2THNYVEpmQ2FtY3hZaUU2Y3hMd3U4anVtM1BhNWlsN09pRFh3dUpnc1U2MTJvMG1tbWlydHJjMWFycERkV05GcU9adGFQeWhYRUJ4cWlYS2VWTVk0Ulk0UGxVZnJENU53VHBrRjZjcE9sVFFoeUZTd3NuQTJYeFlxTlBXNVZpQWdBM2FnTi1ISTF0REFEWmZnbmU5ZTdPakVFZEExVUR1ZWkyQkp3cjY2aVNOTmd6YncwSQ?oc=5",
+        "published_at": "2026-06-08T18:27:37Z"
+      },
+      {
+        "headline": "Iran top negotiator threatens to defeat US blockade on Iran - Reuters",
+        "summary": "Iran top negotiator threatens to defeat US blockade on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPakVzRnZYalIxVmRrUjV3VXJiMlVVUVo4Y2gzU2c0R21CdmRueEVyUTZ0bkkyMndJR1YwTTRyUXZBcFJkSGRQMTR6c1R3RE1UejRXYXNfZmdwSnpIbk01T21TMTdNY1FuYlF0YnJQdk9oZG1DQVBwUnpzbkYwWDlWaXFyM0hQSnNiNDQ0OFNCWm9vT0tVRVA2ZmluZzBLX25WS3kwNERfSGN0WUk?oc=5",
+        "published_at": "2026-06-08T17:53:43Z"
+      },
+      {
+        "headline": "Airlines find the grass isn't always greener with new engines",
+        "summary": "Airline CEOs complained that engine makers aren't making enough of their engines or that they're reliable enough.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/08/airline-engines-ge-pratt-rtx.html",
+        "published_at": "2026-06-08T17:32:54Z"
+      },
+      {
+        "headline": "EU sanctions Iranians over restricting naval traffic in Hormuz - Reuters",
+        "summary": "EU sanctions Iranians over restricting naval traffic in Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR1lTSXVKQ2pJQlEzZTg4Z3FvUjdzMEg5QlhuTFo1R2NWZGgwMWw3REhuODBIUjN4VWFCMV9ZZzhXTlpZaVBXZGJodUFVbkU0ME1Ib2hVblljSUtuNXdKZ0gwOVFZRHRCcHJlckYzM193WUZFUkFHSl9KV3ZCb25DM1RxMGhkSnZqMzJpSndTZFZ4czR4RFFMelpjUGZsS2FlYXlFaEV1WFRLbmx1Z1BwV0FGbw?oc=5",
+        "published_at": "2026-06-08T16:56:00Z"
+      },
+      {
+        "headline": "This popular car-buying rule isn't realistic for most Americans\u2014here's the income needed to make it work",
+        "summary": "Even used-car buyers may need a six-figure income to follow this popular car-buying rule.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/08/why-the-20-4-10-car-buying-rule-no-longer-works-for-many-buyers.html",
+        "published_at": "2026-06-08T16:27:29Z"
+      },
+      {
+        "headline": "Defying Trump with brief Iran fight, Israel seeks sway over peace talks - Reuters",
+        "summary": "Defying Trump with brief Iran fight, Israel seeks sway over peace talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTmtRMjRxTjh5TTVpTlNkblM0VlFZemNDUHlvR01vT0lYYVd1M3JWTWVlVy1BZFVhTHNtdjY1cjM3WjBIanNzR1l5eGhEMnhFbTR0WlRDdmxyZzYwTjJxNmVxNkxQYU0zQzdzN0FDRUxiMUZYNFgxM3RxTHpqQkhMS0JrVkJmV2huRTI0LV9TTDZ0VUdUVTZzVVBPem1UR3JmR1U4MXN6aWhHWU9kOWFlVldzaUZPVXRaT2ZMUHY1V1pENm11aWViTFpYQVZRQQ?oc=5",
+        "published_at": "2026-06-08T16:21:03Z"
+      },
+      {
+        "headline": "Strait of Hormuz traffic won't return to normal until end of the year, traders say",
+        "summary": "Two weeks ago traders saw a 60% chance that the Strait of Hormuz would open before August. Now traders see a higher chance that it will open before 2027.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/08/strait-of-hormuz-traffic-wont-return-to-normal-until-end-of-the-year-traders-say.html",
+        "published_at": "2026-06-08T15:48:51Z"
+      },
+      {
+        "headline": "Why the Iran-aligned Houthis threatening Red Sea shipping could mean more for the oil market this time - Reuters",
+        "summary": "Why the Iran-aligned Houthis threatening Red Sea shipping could mean more for the oil market this time\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZndSZ05Ec0xibk5xQ0JPWjFrM2ZzOGhyTDgtR01HOVhuY3J6THhKMVU3UXZxbnlKOUJma041dUJmcTlTNlJ2Q19PREcxWmc3b2pyV2dXVGFNSTJ5aXVTMG9RdDVEUk5CU0luTE9Hc19ESnBBMm5KWVZOblR6NzU0ejdJX1JPSzNQS0tlUzZLYXh3c1FRMjdYbUZ2dmJ5ajE0UU16eTBtYW9vQm9pQXJvM213RWVhLWpURkxPSDNkd1lmUEE1TXc?oc=5",
+        "published_at": "2026-06-08T14:33:47Z"
+      },
+      {
+        "headline": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
+        "summary": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/08/texas-screwworm-cases-food-supply-brooke-rollins.html",
+        "published_at": "2026-06-08T14:20:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": 739.27,
+    "spy_change_pct": 0.2332,
+    "spy_lean": "neutral",
+    "vix_close": 21.51,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 66,
+    "positive_count": 11,
+    "negative_count": 14,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Crypto has \u2018limited utility\u2019 in solving AI\u2019s trust and payment issues, IC3 researchers say",
+        "url": "https://www.theblock.co/post/404021/crypto-has-limited-utility-in-solving-ais-trust-and-payment-issues-ic3-researchers-say?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-08T21:23:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China's Xiaomi MiMo Is Now 15X Faster Than ChatGPT and Claude",
+        "url": "https://decrypt.co/370449/xiaomi-mimo-ultraspeed-ai-model-faster-chatgpt-claude",
+        "published_at": "2026-06-08T20:57:07+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bored Ape Maker Yuga Labs Rescues Dozens of Ethereum NFTs From Exploit",
+        "url": "https://decrypt.co/370445/bored-ape-maker-yuga-labs-rescues-ethereum-nfts-exploit",
+        "published_at": "2026-06-08T20:54:45+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Active tokenized RWAs surge almost 600% despite crypto pullback: Binance",
+        "url": "https://cointelegraph.com/news/tokenized-rwas-stocks-gold-real-estate-institutional-adoption-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-08T20:53:35+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Apple Unveils Upgraded Siri as Tech Giant's Big AI Push Finally Arrives",
+        "url": "https://decrypt.co/370446/apple-unveils-upgraded-siri-ai-push-finally-arrives",
+        "published_at": "2026-06-08T20:43:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized equities reach $5.5 billion market cap, fueled by SpaceX IPO access and exchange expansion",
+        "url": "https://www.theblock.co/post/404034/tokenized-equities-5-5-billion-market-cap-fueled-spacex-ipo-exchange-expansion?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-08T20:18:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Is 'Boring' AI-Hungry Retail Investors, But Bernstein Still Sees $150K This Year",
+        "url": "https://decrypt.co/370434/bitcoin-boring-ai-hungry-retail-investors-bernstein-150k",
+        "published_at": "2026-06-08T19:46:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Newbie Bitcoin Whales Took $1.77 Billion In Loss During Price Crash: Data",
+        "url": "https://bitcoinist.com/newbie-bitcoin-whales-1-77-billion-loss-price-crash/",
+        "published_at": "2026-06-08T19:30:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FTX token (FTT) spikes 50% as Sam Bankman-Fried seeks presidential pardon",
+        "url": "https://cryptoslate.com/ftx-ftt-token-spikes-50-as-sam-bankman-fried-seeks-donald-trumps-pardon/",
+        "published_at": "2026-06-08T19:10:22+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "World Cup prediction markets hit $2B before kickoff as Spain and France go head to head",
+        "url": "https://cryptoslate.com/world-cup-prediction-markets-hit-2b-before-kickoff-as-spain-france-split-tests-sports-tradings-limits/",
+        "published_at": "2026-06-08T18:35:38+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 4,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
