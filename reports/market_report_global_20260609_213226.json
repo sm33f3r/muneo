@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-09T21:31:42 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2215463107640.52,
+    "total_market_cap_change_24h_pct": -2.6079,
+    "total_volume_24h_usd": 93898332365.35,
+    "btc_dominance_pct": 55.8844,
+    "eth_dominance_pct": 8.9887,
+    "total2_usd": 977364023637.58,
+    "total3_usd": 778222688878.12,
+    "active_cryptocurrencies": 17348,
+    "altcoin_season_index": 54,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 37.1051,
+        "price_usd": 0.081038,
+        "market_cap_usd": 179684077
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 25.548,
+        "price_usd": 0.390215,
+        "market_cap_usd": 164162576
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 16.5878,
+        "price_usd": 0.01651222,
+        "market_cap_usd": 119680939
+      },
+      {
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price_change_24h_pct": 12.3919,
+        "price_usd": 51.07,
+        "market_cap_usd": 6049793585
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "price_change_24h_pct": 9.5865,
+        "price_usd": 0.385407,
+        "market_cap_usd": 130638935
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -23.2635,
+        "price_usd": 0.929342,
+        "market_cap_usd": 671935085
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -22.479,
+        "price_usd": 0.18161,
+        "market_cap_usd": 181318113
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -21.1936,
+        "price_usd": 9.63,
+        "market_cap_usd": 3015022026
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -14.8354,
+        "price_usd": 0.265004,
+        "market_cap_usd": 265008573
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -14.0444,
+        "price_usd": 0.076552,
+        "market_cap_usd": 220374119
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61773,
+    "price_change_24h_pct": -2.9731,
+    "price_change_7d_pct": -7.9886,
+    "market_cap_usd": 1237971802761,
+    "volume_24h_usd": 40115253559,
+    "direction": "bearish",
+    "oi_usd": 6113834296.25,
+    "funding_rate_latest": 6.06e-06,
+    "funding_rate_7d_avg": 1.6668571428571426e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1466,
+    "long_account_pct": 68.22,
+    "short_account_pct": 31.78,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1650.45,
+    "price_change_24h_pct": -3.4127,
+    "price_change_7d_pct": -13.4915,
+    "market_cap_usd": 199205132569,
+    "volume_24h_usd": 14314762927,
+    "eth_btc_ratio": 0.026718,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71254153190.99,
+    "stablecoin_market_cap_usd": 314016062690.18,
+    "stablecoin_dominance_pct": 14.1738
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 35,
+    "headlines": [
+      {
+        "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to react to downed US helicopter - Reuters",
+        "summary": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to react to downed US helicopter\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5",
+        "published_at": "2026-06-09T20:01:24Z"
+      },
+      {
+        "headline": "Climate cost of expanded World Cup under scrutiny as emissions set to soar - Reuters",
+        "summary": "Climate cost of expanded World Cup under scrutiny as emissions set to soar\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2hObnZJYjNzS2NFME5fVkdndElQVVd6UWZqdXhBejJMSkl2eTQ3R2VVSUlUeHFFYldIMlVjbl9BTElwbEVsUm10S004VGtJT29ETVZtWUk2RU5wRl82Nkt1Ym9oVW52LUdvNkVMdjdUWkV4bG9NcERjT25WMGhlUzdiaDJiLTgxdVVvVkU3djNJVjRKcGlQaVBCMUlqa3RWeEIzdHloeVAzVjg1SHdSX25GNG9HWjFyQ29mY245bw?oc=5",
+        "published_at": "2026-06-09T19:40:12Z"
+      },
+      {
+        "headline": "Another jump in Boeing deliveries shows why we got into the stock and want to stay in",
+        "summary": "It's key to assessing the aircraft manufacturer's turnaround story under CEO Kelly Ortberg.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/09/another-jump-in-boeing-deliveries-shows-why-we-got-into-the-stock-and-want-to-stay-in.html",
+        "published_at": "2026-06-09T19:15:47Z"
+      },
+      {
+        "headline": "The May inflation numbers are due out Wednesday morning. Here's what to expect",
+        "summary": "If the Wall Street consensus is correct, the consumer price index is expected to show inflation running at a 4.2% annual rate.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html",
+        "published_at": "2026-06-09T18:54:31Z"
+      },
+      {
+        "headline": "Rising fuel prices hit US farms as Iran war drags on - Reuters",
+        "summary": "Rising fuel prices hit US farms as Iran war drags on\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJuTERzUURfX2hORlJoVzlkUVc2TFhvV2xiWVZrc0d1TkJYMXRfbllmM21BNEw1Mno1cmE3cHZtQjdHX2xncldFbWNOeEFXbG9jaTNMeGJXcDVGQzF3d3FzT2hVM055OWFZbUVLX2xoX3VjVUptTEt1R0c3NjhNTk9sZFhfT3BKRGpXMTRMMUdMRklXbS1zWjU3SVM5Nzg?oc=5",
+        "published_at": "2026-06-09T18:51:48Z"
+      },
+      {
+        "headline": "We're updating our rating on recently spun FedEx Freight after a strong run-up",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/09/were-updating-our-rating-on-recently-spun-fedex-freight-after-run-up.html",
+        "published_at": "2026-06-09T18:17:27Z"
+      },
+      {
+        "headline": "New Zealand poll shows US seen as more of a threat than China - Reuters",
+        "summary": "New Zealand poll shows US seen as more of a threat than China\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVh0Uk5ibXZnSUJ5ZjRGVThRTW5ZQktQOGhGVGVmbE9UX05WRWFmaHNCaFhpVUhhOFpQbWlIZklHaTBIWURWVGZEZkM4UFhsdVNuM2NyWDNENkNFOFA0SjlTRUtYUWhLUTJlTVpNRTZIWEI3cURHOEl2NWF3WE9HZVVQd2tYMkJVTTBHa1BnanJlUEhCZnNzU1FTRFF1Njg4Q1pV?oc=5",
+        "published_at": "2026-06-09T18:07:44Z"
+      },
+      {
+        "headline": "Iran says ticket allocation for World Cup withdrawn days before tournament - Reuters",
+        "summary": "Iran says ticket allocation for World Cup withdrawn days before tournament\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONlBxU2p5dmFqVUtxVGdTVXJxWnRHQ2p2dFdWYWpsMjB4WlJEbDRhTGFjRVV5NVFfdW0yeUY0QkNZdlY2dnNTZ2hyekJiN3htVmJZYWRudnd2TTV3bThZYlB2NldxYzhQX0lMNnlUYlZsczRFOG1SdlQ3X3dnMmRCcU1RcG9JYUtDNzZBZVBDdmJSaDVRVklzMzNxWDNMWTkzTWZ5R05La01aMmxjOFFZT045RmZ6ZXRvZlJBMA?oc=5",
+        "published_at": "2026-06-09T17:38:50Z"
+      },
+      {
+        "headline": "UN inquiry finds Israeli forces shield settlers during attacks on Palestinians - Reuters",
+        "summary": "UN inquiry finds Israeli forces shield settlers during attacks on Palestinians\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUmI5eEp1bjFDQWI4VVRhMVMzTTlCdWswU1FCb0tNQ0NuemJTUG5vSXl1UzZzVVF3ZS16QVNmcXY1Y2dZMl9ScFA3S3J0cWtqU3diOTRUdDNmTkRTQkk3d3R6UGN3Y1dwM2lpSUZuc3pseElkZW1PdEFaWVg4S2M4Q1dWYkhJT3ZFbTF5YnNMdkFwWmNMXy1uT1VqVjZDQXBmLUlDTlNkZ2Y3c2p2RC0wajd6b1JTcktrRmxlVm5xeU5qRlBYS0p1Yg?oc=5",
+        "published_at": "2026-06-09T17:33:18Z"
+      },
+      {
+        "headline": "As LIV Golf faces a Saudi funding cliff, CEO says to take PIF 'at their word'",
+        "summary": "PIF is set to stop funding the golf league after the 2026 season, though O'Neil could not guarantee that the final four tournaments will take place.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/09/liv-golf-ceo-pif-funding-cliff.html",
+        "published_at": "2026-06-09T17:33:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": 737.11,
+    "spy_change_pct": -0.2854,
+    "spy_lean": "neutral",
+    "vix_close": 18.92,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 15,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 8,
+    "negative_count": 12,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.1379,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "EU Orders Meta to Open WhatsApp to Rival AI Chatbots\u2014Meta Calls It 'Regulatory Overreach'",
+        "url": "https://decrypt.co/370580/eu-orders-meta-open-whatsapp-rival-ai-chatbots",
+        "published_at": "2026-06-09T20:36:20+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Market Moves Into A Lower-Leverage Environment \u2013 What This Means",
+        "url": "https://bitcoinist.com/bitcoin-in-lower-leverage/",
+        "published_at": "2026-06-09T20:30:43+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
+        "url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
+        "published_at": "2026-06-09T20:26:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "December Trial Date Set for US Soldier Accused of Insider Trading on Polymarket",
+        "url": "https://decrypt.co/370571/december-trial-date-us-soldier-insider-trading-polymarket",
+        "published_at": "2026-06-09T20:09:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Institute CEO says CLARITY Act must shield open-source developers",
+        "url": "https://cointelegraph.com/news/solana-institute-ceo-clarity-act-developer-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-09T20:05:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A Quantum Clock Is Ticking for Bitcoin and Crypto\u2014Here's How Stellar Is Preparing",
+        "url": "https://decrypt.co/370570/quantum-clock-ticking-bitcoin-crypto-how-stellar-preparing",
+        "published_at": "2026-06-09T19:49:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Malware Worm Adapts to New Targets in Real Time, Cybersecurity Experts Say",
+        "url": "https://decrypt.co/370557/ai-malware-worm-adapts-targets-cybersecurity",
+        "published_at": "2026-06-09T19:03:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BNB To Overthrow Ethereum? Analyst Predicts What Will Push Price Above $10,000",
+        "url": "https://bitcoinist.com/bnb-to-overthrow-ethereum/",
+        "published_at": "2026-06-09T19:00:11+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Rolls Out Claude Mythos 5 AI Model\u2014Along With the Safer Fable 5 for the Public",
+        "url": "https://decrypt.co/370556/anthropic-rolls-out-claude-mythos-5-ai-model-safer-fable-public",
+        "published_at": "2026-06-09T18:38:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid advocate and Paradigm urge US to revise proposed anti-money laundering rule",
+        "url": "https://www.theblock.co/post/404159/hyperliquid-advocate-paradigm-urge-us-revise-proposed-anti-money-laundering-rule?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-09T18:37:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 4,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
