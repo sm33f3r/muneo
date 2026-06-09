@@ -1,0 +1,204 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-09T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 65.5,
+    "price_change_24h_pct": -2.7961,
+    "price_change_7d_pct": -13.0622,
+    "volume_24h_usd": 3219864122,
+    "market_cap_usd": 37975489393,
+    "volume_to_mcap_ratio": 0.084788,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -77.6674,
+    "cex_price_usd": 65.47,
+    "cex_24h_high": 68.17,
+    "cex_24h_low": 63.54,
+    "cex_dex_spread_pct": -0.045802,
+    "volume_on_up_days_usd": 3359511540.6947412,
+    "volume_on_down_days_usd": 2893804974.9039774,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 31.0731,
+    "rsi_lean": "bullish",
+    "macd": {
+      "macd_line": -7.108012,
+      "signal_line": -6.867133,
+      "histogram": -0.240879
+    },
+    "macd_lean": "bearish",
+    "sma_50": 101.4452,
+    "price_vs_sma50_pct": -35.4331,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 97.306177,
+      "mid": 84.1285,
+      "lower": 70.950823,
+      "width_pct": 31.3275,
+      "position": -0.1787
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 632542264.56,
+    "oi_lean": null,
+    "funding_rate_latest": -9.828e-05,
+    "funding_rate_7d_avg": -0.00013765428571428572,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.1466,
+    "btc_long_account_pct": 68.22,
+    "btc_short_account_pct": 31.78,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4793712533.0,
+    "tvl_7d_change_pct": -4.4255,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 6617602.0,
+    "chain_fees_7d_avg_usd": 6150461.14,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 5,
+    "positive_count": 0,
+    "negative_count": 2,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "December Trial Date Set for US Soldier Accused of Insider Trading on Polymarket",
+        "url": "https://decrypt.co/370571/december-trial-date-us-soldier-insider-trading-polymarket",
+        "published_at": "2026-06-09T20:09:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Has Dropped To Historically Oversold Levels \u2013 It\u2019s Worse Than FTX Levels",
+        "url": "https://bitcoinist.com/solana-historically-oversold/",
+        "published_at": "2026-06-09T17:30:55+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Sold Bitcoin, Now Metaplanet Is Down 47% \u2014 Who Sells Next?",
+        "url": "https://bitcoinist.com/strategy-sold-bitcoin-now-metaplanet-is-down-47/",
+        "published_at": "2026-06-09T12:00:17+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Stuck in distribution\u2019: Bitcoin slips below $63,000 as analysts warn rallies are being sold, not bought",
+        "url": "https://www.theblock.co/post/404082/stuck-in-distribution-bitcoin-slips-below-63000-as-analysts-warn-rallies-are-being-sold-not-bought?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-09T10:13:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto has \u2018limited utility\u2019 in solving AI\u2019s trust and payment issues, IC3 researchers say",
+        "url": "https://www.theblock.co/post/404021/crypto-has-limited-utility-in-solving-ais-trust-and-payment-issues-ic3-researchers-say?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-08T21:23:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 62032.0,
+    "btc_24h_change_pct": -2.5999,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.054,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2141501088028.3967,
+    "eth_btc_ratio": 0.026725,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": 737.11,
+    "spy_change_pct": -0.2854,
+    "spy_lean": "neutral",
+    "vix_close": 18.92,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 15,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 70.45,
+    "cg_sentiment_votes_down_pct": 29.55,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bullish",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
