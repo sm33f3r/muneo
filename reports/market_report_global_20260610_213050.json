@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-10T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2194007487784.7,
+    "total_market_cap_change_24h_pct": -0.9062,
+    "total_volume_24h_usd": 76586997202.39,
+    "btc_dominance_pct": 56.2042,
+    "eth_dominance_pct": 8.9027,
+    "total2_usd": 960883220437.0,
+    "total3_usd": 765556691598.64,
+    "active_cryptocurrencies": 17337,
+    "altcoin_season_index": 44,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 95.5308,
+        "price_usd": 0.763651,
+        "market_cap_usd": 321074772
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 64.2328,
+        "price_usd": 7.72,
+        "market_cap_usd": 2117730234
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 11.1609,
+        "price_usd": 0.01103866,
+        "market_cap_usd": 596271230
+      },
+      {
+        "symbol": "QAIT",
+        "name": "SEALCOIN",
+        "price_change_24h_pct": 10.6565,
+        "price_usd": 0.02562837,
+        "market_cap_usd": 112565878
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": 7.8444,
+        "price_usd": 0.05904,
+        "market_cap_usd": 1876036125
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SIREN",
+        "name": "Siren",
+        "price_change_24h_pct": -20.4968,
+        "price_usd": 0.738858,
+        "market_cap_usd": 525505735
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -15.6874,
+        "price_usd": 13.09,
+        "market_cap_usd": 613546985
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -15.6516,
+        "price_usd": 0.223492,
+        "market_cap_usd": 223617337
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -14.2751,
+        "price_usd": 0.435838,
+        "market_cap_usd": 1477964069
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -14.0507,
+        "price_usd": 8.28,
+        "market_cap_usd": 2549858598
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61526,
+    "price_change_24h_pct": -0.4036,
+    "price_change_7d_pct": -5.1685,
+    "market_cap_usd": 1233114624056,
+    "volume_24h_usd": 27369805487,
+    "direction": "neutral",
+    "oi_usd": 6150322184.43,
+    "funding_rate_latest": 2.542e-05,
+    "funding_rate_7d_avg": 5.777142857142857e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0525,
+    "long_account_pct": 67.24,
+    "short_account_pct": 32.76,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1618.54,
+    "price_change_24h_pct": -1.9619,
+    "price_change_7d_pct": -8.9464,
+    "market_cap_usd": 195391969829,
+    "volume_24h_usd": 12607715262,
+    "eth_btc_ratio": 0.026307,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70411449954.48,
+    "stablecoin_market_cap_usd": 314008881780.34,
+    "stablecoin_dominance_pct": 14.3121
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Wall Street indexes fall 1%, dragged by tech and Iran war worries - Reuters",
+        "summary": "Wall Street indexes fall 1%, dragged by tech and Iran war worries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQUxUT1NqQm1KUFlpbmdjN0VuSm4wU2VIODFBNF81YU54bFBsWUptZVV0bU41ZXl0MHQxWE1UamxBaHlkUWhvWUY3MHFJZVJhYmJKdDZtMlkyLWlEbjdpOXZubnJLZFlZREdyOVhfMU5QM1l0ZGNoQnpIdHlYVjFVSHU2eXI3WGk3ek9aNXR4ZUJaQmp3dzF2dUxybmhWczI1ZEt3M1hCVmdNdmQ2bDJ3R3NOTkhzUVlRVE52WjF4cw?oc=5",
+        "published_at": "2026-06-10T20:09:43Z"
+      },
+      {
+        "headline": "IAEA board passes resolution demanding Iran report uranium stocks - Reuters",
+        "summary": "IAEA board passes resolution demanding Iran report uranium stocks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlJJeFYxV21KZHhleUoxdGZoZkhzQTRLbDFSeFhIbEhPcGpwaFhzdXNULXJLd2cwd2xSVFEySmZKYnBqYmdPaXRCMXBSam1oQXdrN2tBc3ROaGFLd0hDMDhyYW5mdG1RZks2NUtVWFQ2dTlxMFV5X1NSd1BTSy04bnRIQkp4dzA2VS03eWNlNXZuVGRpRm1PZGxlM0wybTltMjZzWFozdHZucXRsVEpaSGNfbnNpQ3lUdUg3Tnc1bDNhTHZGMTdZ?oc=5",
+        "published_at": "2026-06-10T19:51:55Z"
+      },
+      {
+        "headline": "US consumer inflation vaults above 4% as Iran war boosts energy prices - Reuters",
+        "summary": "US consumer inflation vaults above 4% as Iran war boosts energy prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWNSSWh5eDBlWmZCYkN5ZjVjSFNVaC1jVmUteC1pelBkR2ltcmpwYUhYa01sV3Y5dGpGUGNFMDZMeTFRT082Wk5yb1BiU3ZQMjZqR2ZpLV9zY25oOU5STURWR2xjZ0dDVTlhQnB4RFNuRTVxd3ZKbVlDVWpvT1pFMmp2Z2JNa2JlTGJsNFN3?oc=5",
+        "published_at": "2026-06-10T19:20:09Z"
+      },
+      {
+        "headline": "'I love the inflation,' Trump says as prices rise amid Iran war - Reuters",
+        "summary": "'I love the inflation,' Trump says as prices rise amid Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMThfbFpQWmlCV2h0c0pXalROOTJxOVpwZFlKVzJMUVpmNGNfOEk5TjFUZUdKZ1pxMmJGY0ozZXR5Y19lcHBqUklkcjRWWVMzSExoWUprVEx3WWNRUlBDaUM2VkZSR2tFa2lCdTNpYUxidUtPMXFBTFctVkhmbzViWTg2NWlIX193Z3NMU2taTXNzb1ptMkhsQzBrdw?oc=5",
+        "published_at": "2026-06-10T19:19:56Z"
+      },
+      {
+        "headline": "Starbucks stock is a bright spot in Wednesday's bleak market. Here's why",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/10/starbucks-stock-is-a-bright-spot-in-wednesdays-bleak-market-heres-why.html",
+        "published_at": "2026-06-10T19:13:44Z"
+      },
+      {
+        "headline": "Nike has limited time to prove itself, especially after a tough analyst downgrade",
+        "summary": "Nike is on borrowed time if it cannot prove itself in its next quarterly report.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/10/nike-has-limited-time-to-prove-itself-especially-after-a-tough-analyst-downgrade-.html",
+        "published_at": "2026-06-10T18:56:42Z"
+      },
+      {
+        "headline": "Trump says US will attack Iran 'very hard' and has taken oil through Hormuz - Reuters",
+        "summary": "Trump says US will attack Iran 'very hard' and has taken oil through Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUdOeWRybkJaaDV4dzVCMFdsOUJSSHhBaHliNV9WajdMUXgxTGx2QldYLXF3akJSSW5meGpzcW53QnFqOWpKQVpkci1aTUY4WEtkYlFGNHk3b3B0ci0zSjYzOENmd2xzcEFzUVBFbi04dk5QdTF3dWRPTGVJemJ3cmprRURzeFQ2T1YtejUxUVFMMXBKWTJjU1ZXcDAxTEZPTnp0OTJ3?oc=5",
+        "published_at": "2026-06-10T18:48:01Z"
+      },
+      {
+        "headline": "Iran war anxiety sends global container shipping rates soaring - Reuters",
+        "summary": "Iran war anxiety sends global container shipping rates soaring\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOelpOczZDWE05eU5oS0ZpQTJKazd3aUdidW9KX3dnMTdXREF3YTFyZUZXTjBLSWxtb0JPcGVDUF96OUxUcWt4VW85VXhkbUhxUUxycnQ0S3BIR3RCNXgtVkpBT3J5MVZtQ2xrU2M2RGxSbUVCQ2dVS3FqS001U2dOZmxxU0UtMl9Gc2hOQ2VDZWgxWUNjdkRrUHRvZXBEUFFCbVQ5VWV5cDZvdTNLZXF2aDBYT2M?oc=5",
+        "published_at": "2026-06-10T18:36:32Z"
+      },
+      {
+        "headline": "Israeli airstrikes kill 13 in south Lebanon, Lebanese sources say - Reuters",
+        "summary": "Israeli airstrikes kill 13 in south Lebanon, Lebanese sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaFNfbjUycVFFUU1xa2lGeUcwSk1IR24waTJfWFJqRVNyZURONmRhb3hDbk1LYlhHMVdVMEo0NFByMDZMZlVwVjBxM0RIc0tMMTMzM0F3QVdxU3FvUmtKenRFU1Q4aHZqanBsRnlhcXBHY2NRMTR5WS1fSVN1dFFOd0lwVkpkTnlqVWF4UWF2ams2RnBNS2U5QTktbjRRSnVLcTZsSFVoazc2NVhNaC15SUJPNUZ6dw?oc=5",
+        "published_at": "2026-06-10T17:28:00Z"
+      },
+      {
+        "headline": "World Cup travel boost hasn't materialized for U.S. businesses \u2014 yet",
+        "summary": "The expected travel boom from the World Cup is looking like it will be a city-by-city, match-by-match test of pricing power.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/10/world-cup-travel.html",
+        "published_at": "2026-06-10T17:25:39Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": 725.49,
+    "spy_change_pct": -1.5684,
+    "spy_lean": "bearish",
+    "vix_close": 19.87,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 14,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 77,
+    "positive_count": 11,
+    "negative_count": 16,
+    "neutral_count": 50,
+    "sentiment_ratio": 0.1429,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "The Verdict Is In For Bitcoin: Majority Of Investors Say BTC Price Is Headed Lower, Here Are The Numbers",
+        "url": "https://bitcoinist.com/the-verdict-is-in-for-bitcoin/",
+        "published_at": "2026-06-10T21:00:32+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin miner margins fall to record low: Will BTC\u2019s $60K floor hold?",
+        "url": "https://cointelegraph.com/markets/bitcoin-miner-margins-fall-to-record-low-will-btcs-60k-floor-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-10T20:42:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Exchange Raydium Hit With $1.34 Million Exploit as DeFi Attacks Grow",
+        "url": "https://decrypt.co/370700/solana-exchange-raydium-exploit-defi-attacks-grow",
+        "published_at": "2026-06-10T20:19:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK mutual funds may soon be allowed to hold crypto ETNs, but only with a 10% leash",
+        "url": "https://cryptoslate.com/uk-mutual-funds-may-soon-be-allowed-to-hold-crypto-etns-but-only-with-a-10-leash/",
+        "published_at": "2026-06-10T20:15:53+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin takes back seat to stablecoins and tokenization among financial advisors: Bitwise CIO",
+        "url": "https://www.theblock.co/post/404341/bitcoin-stablecoins-tokenization-bitwise-cio-financial-advisors?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-10T20:00:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-10T19:53:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether, Nvidia and Amazon Back Humanoid Robotics Firm NEURA in $1.4 Billion Funding Round",
+        "url": "https://decrypt.co/370691/tether-nvidia-amazon-back-neura-robotics-1-4-billion-funding-round",
+        "published_at": "2026-06-10T19:30:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Realized Profit-To-Loss Ratio Plunges \u2013 What The Market Should Be Expecting",
+        "url": "https://bitcoinist.com/xrp-realized-profititability-plunges/",
+        "published_at": "2026-06-10T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Internet Is Furious at Anthropic After Claude Fable 5 Release",
+        "url": "https://decrypt.co/370688/internet-furious-anthropic-claude-mythos-fable-5",
+        "published_at": "2026-06-10T19:17:27+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elon Musk\u2019s SpaceX IPO could become bitcoin\u2019s latest headwind",
+        "url": "https://www.theblock.co/post/404324/elon-musks-spacex-ipo-could-become-bitcoins-latest-headwind?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-10T19:10:39+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
