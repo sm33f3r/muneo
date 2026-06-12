@@ -36,6 +36,10 @@ Thumbs.db
 
 test_*.py
 
-project_status*.json
+# --- Context files -----------------------------------------------------------
 
+project_status*.json
 CLAUDE.md
+roadmaps/
+logs/
+context/
