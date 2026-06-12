@@ -1027,7 +1027,7 @@ def build_report(
 
     if config.rss_keywords:
         rss_articles = safe_fetch(
-            f"RSS token news ({config.token_symbol})",
+            f"RSS token news ({config.token_name})",
             lambda: fetch_rss_token_news(config.rss_keywords, max_age_hours=24),
             fetch_errors,
         )
