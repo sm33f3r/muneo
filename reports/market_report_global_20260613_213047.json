@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-13T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2276753288235.14,
+    "total_market_cap_change_24h_pct": 0.9639,
+    "total_volume_24h_usd": 48473423521.23,
+    "btc_dominance_pct": 56.5232,
+    "eth_dominance_pct": 8.8815,
+    "total2_usd": 989859142959.88,
+    "total3_usd": 787649166801.15,
+    "active_cryptocurrencies": 17463,
+    "altcoin_season_index": 44,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "COAI",
+        "name": "ChainOpera AI",
+        "price_change_24h_pct": 70.331,
+        "price_usd": 0.624066,
+        "market_cap_usd": 117183269
+      },
+      {
+        "symbol": "RIF",
+        "name": "Rootstock Infrastructure Framework",
+        "price_change_24h_pct": 53.0884,
+        "price_usd": 0.119037,
+        "market_cap_usd": 119082701
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 29.1947,
+        "price_usd": 0.281902,
+        "market_cap_usd": 514503211
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price_change_24h_pct": 19.7105,
+        "price_usd": 254.8,
+        "market_cap_usd": 2443516999
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 17.7268,
+        "price_usd": 0.361838,
+        "market_cap_usd": 362424641
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -15.1516,
+        "price_usd": 17.49,
+        "market_cap_usd": 818681883
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -9.2916,
+        "price_usd": 0.163194,
+        "market_cap_usd": 342240687
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": -7.529,
+        "price_usd": 0.03147034,
+        "market_cap_usd": 522346555
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -6.8313,
+        "price_usd": 0.221563,
+        "market_cap_usd": 221625547
+      },
+      {
+        "symbol": "CHEEMS",
+        "name": "Cheems Token",
+        "price_change_24h_pct": -5.4817,
+        "price_usd": 5.95156e-07,
+        "market_cap_usd": 121243522
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64226,
+    "price_change_24h_pct": 1.159,
+    "price_change_7d_pct": 5.8057,
+    "market_cap_usd": 1287201505999,
+    "volume_24h_usd": 17196853447,
+    "direction": "bullish",
+    "oi_usd": 6461434893.16,
+    "funding_rate_latest": 9.38e-06,
+    "funding_rate_7d_avg": 1.039142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4114,
+    "long_account_pct": 58.53,
+    "short_account_pct": 41.47,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1675.62,
+    "price_change_24h_pct": 0.6028,
+    "price_change_7d_pct": 7.6038,
+    "market_cap_usd": 202218220934,
+    "volume_24h_usd": 5451308890,
+    "eth_btc_ratio": 0.026089,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72637198192.11,
+    "stablecoin_market_cap_usd": 314250014255.35,
+    "stablecoin_dominance_pct": 13.8026
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 15,
+    "headlines": [
+      {
+        "headline": "UK's Starmer, Trump discuss efforts to end Iran conflict - Reuters",
+        "summary": "UK's Starmer, Trump discuss efforts to end Iran conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWk5VjRaVlZrNXBaVWF1TGpXZ04zQnhyLTNYNkhORTJkYjhMSVhRUS1ndW9sTmRJZ2VxR1phNjA2QS1ic0o3QnE5RHRNMXRTaUktYkctYzhWRkg3Zy02WTRxTFdjV3Axb185ZDdfeDlxZWhFU3Z5MUNQSE9XVERuVTZOazVtc0VIWjd3d2czM1pHREJ3Z1BtT3RoYXZZUXBaQ0NqQWxNVEM?oc=5",
+        "published_at": "2026-06-13T17:15:43Z"
+      },
+      {
+        "headline": "Trump says Iran deal to be signed on Sunday - Reuters",
+        "summary": "Trump says Iran deal to be signed on Sunday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnc0RjByemVUM1FIQkhJVkFuVExTTDlYZUVqbFo4dWVSY3ZvZGgydUMtSjcydy15d3JkVThlQVpxblFZYVBKNmdDeTVSSXlYbV9OY1l5R25tUlhrVmtSNDQ4azVFY0w2X2tpbkNkcXBURk1XckFmRG1BbWFJQ3I2UUQ4OFNORWxDSk03dTdKWVhCNDFEb3c?oc=5",
+        "published_at": "2026-06-13T17:00:09Z"
+      },
+      {
+        "headline": "What drove the stock market last week \u2014 before and after SpaceX's historic IPO",
+        "summary": "The successful debut of Elon Musk's rocket company wiped away a week of anxiety.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/13/what-drove-the-stock-market-last-week-before-and-after-spacexs-historic-ipo.html",
+        "published_at": "2026-06-13T16:36:02Z"
+      },
+      {
+        "headline": "Iran peace deal, SpaceX IPO and World Cup concerns - Reuters",
+        "summary": "Iran peace deal, SpaceX IPO and World Cup concerns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUUFnQU9XVWFUMnpwaUNNZy1YaWF5SGZSTnlwZm9XTjA2UnNDeG4zdGsyaV9zQUYxOURwVWtEN0g1RUF4LVhqbkdCQk81SGxjWlRpeFdHYWdQM1VQZmphY3AzaF9lRlZiY3k5TFkzLTlnbHNWN3V6NEVQU09yLWNiR1dyUEhBYWZ6X3ZCVUM2UzVjSjNt?oc=5",
+        "published_at": "2026-06-13T14:54:24Z"
+      },
+      {
+        "headline": "This 28-year-old paid off her law school loans selling stickers and coloring books",
+        "summary": "Elyse Burns started selling her art on Etsy when she turned 18. Now she's paid off her student loans and did nearly $5 million last year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/13/paid-off-law-school-student-loans-art-business.html",
+        "published_at": "2026-06-13T14:00:01Z"
+      },
+      {
+        "headline": "Iran says signing of Islamabad memorandum will not take place on Sunday - Reuters",
+        "summary": "Iran says signing of Islamabad memorandum will not take place on Sunday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0QyenI2aldGY2QzNVRVbnJ5ejkxZmY3VXpTa2o4QkM5dDRTVVoyeEZMampXN3BVc1A2ODIzUmt3cGdVbl9XVkRJam5tVHl4c0xtbkdEcFo0QzdDemZEaEd0dWtSWjM2RG95YmI2bG5Zc2o1SlpKNTI2SDdvMzd3eDV6QkJiamFBUjBVblZ1dm5XS0ZIRDRnOVRQZGEzRURmMm1mM3psMmQ0bXZPUU9oeklCNDREc2hMeXRv?oc=5",
+        "published_at": "2026-06-13T13:08:01Z"
+      },
+      {
+        "headline": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9 - Reuters",
+        "summary": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWWljdFRvWXh3cEM0ODgyOFF1LUVuSTJFSklLNXlPVWxyZks4d0pKQmVVY1RBX0lNSHZ3Vzk1MlZOZHl0bTRRdFAteDEtLWptUnpiMEY2djh4cDNYZHFheFUwaFVCa0hpdU1YMWd4UDFwTnc1Z1kzcGZQNF9SUDVTZGI0VUE3VzRzQWM1OFU0RXJKQXBpMjQxZDNoMldScWNYQnlzaGE4aGtxaFo3RlY3RmJyMnJGdG4xTW9nSHJKM2tPZDN2UUZaX0QzYw?oc=5",
+        "published_at": "2026-06-13T12:46:04Z"
+      },
+      {
+        "headline": "Pakistan PM says US-Iran peace deal signing expected within 24 hours - Reuters",
+        "summary": "Pakistan PM says US-Iran peace deal signing expected within 24 hours\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRkRJSW8xc3RxTVJ0QnN0VnpIcHNGQUFnNGtKbDQ0bXY3b0F0TWs5U1ZoTVFvMnlQeHlWdDVHRjJobjl0RHd4RGd5LW1US3E5aWs1THNRRTRFbnVzTjZiUUMwb0gzZFlOTU0wWFI2SmRtVm1XcHJRQkR6QkxldVBnS01wclpLb01FMU9xOENLazdEdjdGWWwwYU9TRmUxUnpDRnlodU9qNzZEWXBHMjVQdTFEM29mWER1MUVhcl9Ic3g?oc=5",
+        "published_at": "2026-06-13T11:19:44Z"
+      },
+      {
+        "headline": "Trump says deal to end war will be signed on Sunday, Iran questions timing - Reuters",
+        "summary": "Trump says deal to end war will be signed on Sunday, Iran questions timing\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFNVaW1EQjcyVjlOZGtnLTdLXzctb2RqaXlFY0RfQ2FscHk3Y2NvYUkzZms3TGk1NHhoaGJGY21fV3hDa2VYYm4zRnVOTHpMYXJhOXk0UUdycFJMNlRNQ09SRFhXRTZvS2JiMDhtNlkzc2pIMWVrdm1mWGp0OUlIdHYwbGVDOGhUeW5FeFQ5ekdiY0RobFZjTDkyVnJONEhXM01TX1FKcE5INUg2RDlxWHpBa3RNRDEyX1J2SGlHd1pEVl9ZLUMw?oc=5",
+        "published_at": "2026-06-13T01:33:00Z"
+      },
+      {
+        "headline": "Exclusive: US forces shoot down Iranian attack drones, source says - Reuters",
+        "summary": "Exclusive: US forces shoot down Iranian attack drones, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLVpqblpRT0R6RGd1RUJmVjhfQi12S3JhbUJwM2dsM2hVSGRtMy02UkZYZTdseUI4YzRyMEFzOGpqNTdiRGkwdVB2R0oyX0otZDFQXzhENzYyVnpvMnNVUWZ4U0N5MzZETmp0OG5RcmdfWGV5elVlZktyeXVObThKNUlIa1N2dUtTdDUweGxwV0ZDeC1QeW9rd3p5RWhVVFRRRVdLYTJhQ2JxbnFt?oc=5",
+        "published_at": "2026-06-13T00:40:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": 741.75,
+    "spy_change_pct": 0.5408,
+    "spy_lean": "bullish",
+    "vix_close": 19.44,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 30,
+    "positive_count": 3,
+    "negative_count": 7,
+    "neutral_count": 20,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SpaceX\u2019s IPO exposes the first crack in tokenized stocks \u2013 fragmented ownership and allocation",
+        "url": "https://cryptoslate.com/spacexs-ipo-exposes-the-first-crack-in-tokenized-stocks/",
+        "published_at": "2026-06-13T20:15:09+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Venice and Morpheus tokens climb as US ban on Anthropic\u2019s Fable 5 fuels \u2018permissionless AI\u2019 pitch",
+        "url": "https://www.theblock.co/post/404690/venice-and-morpheus-tokens-climb-as-us-ban-on-anthropics-fable-5-fuels-permissionless-ai-pitch?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-13T20:04:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
+        "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
+        "published_at": "2026-06-13T19:23:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Trader Says Cycle Tops And Bottoms Match Exact Day Counts",
+        "url": "https://bitcoinist.com/bitcoin-trader-says-cycle-tops-and-bottoms-match-exact-day-counts/",
+        "published_at": "2026-06-13T18:41:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The future of vaults: neobanks and invisible DeFi",
+        "url": "https://cryptoslate.com/the-future-of-vaults-neobanks-and-invisible-defi/",
+        "published_at": "2026-06-13T18:30:38+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase quantum report flags exchange cold wallets among millions of bitcoin exposed by address reuse",
+        "url": "https://www.theblock.co/post/404685/coinbase-quantum-report-flags-exchange-cold-wallets-among-millions-of-bitcoin-exposed-by-address-reuse?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-13T18:21:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US export order removes Anthropic Mythos model access fueling crypto bets on AI that is beyond government reach",
+        "url": "https://cryptoslate.com/us-anthropic-fable-mythos-crackdown-fuels-crypto-bet-on-ai-that-is-beyond-government-reach/",
+        "published_at": "2026-06-13T16:40:02+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase And Ethena Launch High Yield USDC Vault Powered By Morpho",
+        "url": "https://bitcoinist.com/coinbase-and-ethena-launch-high-yield-usdc-vault-powered-by-morpho/",
+        "published_at": "2026-06-13T16:03:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Sues Chinese Crime Group for Allegedly Using Gemini AI for Mass Phishing Scams",
+        "url": "https://decrypt.co/371014/google-sues-chinese-crime-group-gemini-ai-phishing-scams",
+        "published_at": "2026-06-13T16:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spot bitcoin ETFs snap five-day outflow streak with $85.8 million Friday inflow as ether funds keep sliding",
+        "url": "https://www.theblock.co/post/404682/spot-bitcoin-etfs-snap-five-day-outflow-streak-with-85-8-million-friday-inflow-as-ether-funds-keep-sliding?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-13T15:25:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
