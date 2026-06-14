@@ -1505,6 +1505,8 @@ def main() -> None:
         for e in report["fetch_errors"]:
             print(f"  - {e}", file=sys.stderr)
 
+    sys.exit(0)
+
 
 if __name__ == "__main__":
     main()
