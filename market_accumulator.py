@@ -1616,6 +1616,753 @@ def aggregate_cex_dex_spread_monthly(weekly_reports: list[dict]) -> dict:
         "min_spread_pct": min(mins) if mins else None,
     }
 
+def discover_monthly_reports(monthly_dir: Path) -> list[dict]:
+    """
+    Scan the monthly output directory and return a sorted list of monthly report metadata dicts.
+    Each dict contains: path, filename, period_id, cal_year, cal_month, start_date, end_date, report.
+    """
+    results = []
+    for f in monthly_dir.glob("monthly_*.json"):
+        try:
+            report = json.loads(f.read_text())
+            pm = report.get("period_metadata", {})
+            cal_year = pm.get("cal_year")
+            cal_month = pm.get("cal_month")
+            start_date = pm.get("start_date")
+            end_date = pm.get("end_date")
+            if cal_year is None or cal_month is None:
+                print(f"  ⚠ Skipping monthly file missing metadata: {f.name}")
+                continue
+            results.append({
+                "path": f,
+                "filename": f.name,
+                "period_id": pm.get("period_id"),
+                "cal_year": cal_year,
+                "cal_month": cal_month,
+                "start_date": start_date,
+                "end_date": end_date,
+                "report": report,
+            })
+        except Exception as e:
+            print(f"  ⚠ Failed to load monthly file {f.name}: {e}")
+            continue
+    return sorted(results, key=lambda x: (x["cal_year"], x["cal_month"]))
+
+def group_by_quarter(monthly_reports: list[dict]) -> dict:
+    """
+    Group monthly reports by calendar quarter.
+    Returns dict keyed by (year, quarter) tuples (e.g. (2026, 2)),
+    values are lists of monthly report dicts sorted by cal_month ascending.
+    """
+    from collections import defaultdict
+
+    groups = defaultdict(list)
+
+    for mr in monthly_reports:
+        cal_year = mr.get("cal_year")
+        cal_month = mr.get("cal_month")
+        if cal_year is None or cal_month is None:
+            print(f"  ⚠ Skipping monthly report missing year/month: {mr['filename']}")
+            continue
+        quarter = (cal_month - 1) // 3 + 1
+        groups[(cal_year, quarter)].append(mr)
+
+    # Sort months within each quarter
+    for key in groups:
+        groups[key].sort(key=lambda x: x["cal_month"])
+
+    return dict(sorted(groups.items()))
+
+def aggregate_quarterly_price(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate price data from monthly reports into a quarterly summary.
+    Open: from first month's price.open_usd
+    Close: from last month's price.close_usd
+    High/Low: max/min across all monthly high/low values
+    Totals: summed across months. Averages: mean across months.
+    """
+    from statistics import mean, mode
+
+    def get_price(mr, field):
+        return (mr["report"].get("price") or {}).get(field)
+
+    monthly_data = [mr["report"].get("price") or {} for mr in monthly_reports]
+
+    opens = [m.get("open_usd") for m in monthly_data if m.get("open_usd") is not None]
+    closes = [m.get("close_usd") for m in monthly_data if m.get("close_usd") is not None]
+    highs = [m.get("high_usd") for m in monthly_data if m.get("high_usd") is not None]
+    lows = [m.get("low_usd") for m in monthly_data if m.get("low_usd") is not None]
+    avg_vols = [m.get("avg_volume_24h_usd") for m in monthly_data if m.get("avg_volume_24h_usd") is not None]
+    total_vols = [m.get("total_volume_month_usd") for m in monthly_data if m.get("total_volume_month_usd") is not None]
+    avg_mcaps = [m.get("avg_market_cap_usd") for m in monthly_data if m.get("avg_market_cap_usd") is not None]
+    close_mcaps = [m.get("close_market_cap_usd") for m in monthly_data if m.get("close_market_cap_usd") is not None]
+    ath_vals = [m.get("ath_usd") for m in monthly_data if m.get("ath_usd") is not None]
+    ath_dd_vals = [m.get("ath_drawdown_pct") for m in monthly_data if m.get("ath_drawdown_pct") is not None]
+    cex_prices = [m.get("avg_cex_price_usd") for m in monthly_data if m.get("avg_cex_price_usd") is not None]
+    up_vols = [m.get("volume_on_up_days_usd") for m in monthly_data if m.get("volume_on_up_days_usd") is not None]
+    down_vols = [m.get("volume_on_down_days_usd") for m in monthly_data if m.get("volume_on_down_days_usd") is not None]
+    volume_leans = [m.get("volume_lean") for m in monthly_data if m.get("volume_lean") is not None]
+
+    open_usd = opens[0] if opens else None
+    close_usd = closes[-1] if closes else None
+    high_usd = max(highs) if highs else None
+    price_change_pct = round((close_usd - open_usd) / open_usd * 100, 4) if open_usd and close_usd else None
+    drawdown_from_high = round((close_usd - high_usd) / high_usd * 100, 4) if close_usd and high_usd else None
+
+    return {
+        "open_usd": open_usd,
+        "close_usd": close_usd,
+        "high_usd": high_usd,
+        "low_usd": min(lows) if lows else None,
+        "price_change_quarter_pct": price_change_pct,
+        "drawdown_from_period_high_pct": drawdown_from_high,
+        "ath_usd": ath_vals[-1] if ath_vals else None,
+        "ath_drawdown_pct": ath_dd_vals[-1] if ath_dd_vals else None,
+        "avg_volume_24h_usd": round(mean(avg_vols), 2) if avg_vols else None,
+        "total_volume_quarter_usd": round(sum(total_vols), 2) if total_vols else None,
+        "avg_market_cap_usd": round(mean(avg_mcaps), 2) if avg_mcaps else None,
+        "close_market_cap_usd": close_mcaps[-1] if close_mcaps else None,
+        "avg_cex_price_usd": round(mean(cex_prices), 6) if cex_prices else None,
+        "volume_on_up_days_usd": round(sum(up_vols), 2) if up_vols else None,
+        "volume_on_down_days_usd": round(sum(down_vols), 2) if down_vols else None,
+        "volume_lean": mode(volume_leans) if volume_leans else None,
+        "months_included": len(monthly_reports),
+    }
+
+def aggregate_quarterly_technicals(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate technical indicators from monthly reports into a quarterly summary.
+    All values taken from the last monthly report (period-end).
+    """
+    def last_val(field):
+        for mr in reversed(monthly_reports):
+            v = (mr["report"].get("technicals") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    close_price = None
+    for mr in reversed(monthly_reports):
+        p = (mr["report"].get("price") or {}).get("close_usd")
+        if p is not None:
+            close_price = p
+            break
+
+    sma_50 = last_val("sma_50_at_close")
+    ema_200 = last_val("ema_200_at_close")
+    price_vs_sma50_pct = round((close_price - sma_50) / sma_50 * 100, 4) if close_price and sma_50 else None
+    price_vs_ema200_pct = round((close_price - ema_200) / ema_200 * 100, 4) if close_price and ema_200 else None
+
+    macd_at_close = None
+    for mr in reversed(monthly_reports):
+        m = (mr["report"].get("technicals") or {}).get("macd_at_close")
+        if m is not None:
+            macd_at_close = m
+            break
+
+    bb_at_close = None
+    for mr in reversed(monthly_reports):
+        b = (mr["report"].get("technicals") or {}).get("bollinger_bands_at_close")
+        if b is not None:
+            bb_at_close = b
+            break
+
+    return {
+        "rsi_14_at_close": last_val("rsi_14_at_close"),
+        "rsi_lean": last_val("rsi_lean"),
+        "macd_at_close": macd_at_close,
+        "macd_lean": last_val("macd_lean"),
+        "bollinger_bands_at_close": bb_at_close,
+        "bb_lean": last_val("bb_lean"),
+        "sma_50_at_close": sma_50,
+        "price_vs_sma50_pct": price_vs_sma50_pct,
+        "ema_200_at_close": ema_200,
+        "price_vs_ema200_pct": price_vs_ema200_pct,
+        "ema200_lean": last_val("ema200_lean"),
+    }
+
+def aggregate_quarterly_derivatives(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate derivatives data from monthly reports into a quarterly summary.
+    OI: open from first month, close from last month.
+    Funding: mean of monthly averages.
+    BTC L/S: period-end from last month.
+    """
+    from statistics import mean
+
+    def last_val(field):
+        for mr in reversed(monthly_reports):
+            v = (mr["report"].get("derivatives") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def first_val(field):
+        for mr in monthly_reports:
+            v = (mr["report"].get("derivatives") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def avg_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("derivatives") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return round(mean(result), 8) if result else None
+
+    oi_open = first_val("oi_open_usd")
+    oi_close = last_val("oi_at_close_usd")
+    oi_change_pct = round((oi_close - oi_open) / oi_open * 100, 4) if oi_open and oi_close else None
+
+    return {
+        "oi_at_close_usd": oi_close,
+        "oi_open_usd": oi_open,
+        "oi_change_pct": oi_change_pct,
+        "oi_lean": last_val("oi_lean"),
+        "funding_rate_daily_avg": avg_vals("funding_rate_daily_avg"),
+        "funding_rate_7d_rolling_avg": last_val("funding_rate_7d_rolling_avg"),
+        "funding_lean": last_val("funding_lean"),
+        "btc_long_short_ratio": last_val("btc_long_short_ratio"),
+        "btc_long_account_pct": last_val("btc_long_account_pct"),
+        "btc_short_account_pct": last_val("btc_short_account_pct"),
+        "btc_ls_ratio_lean": last_val("btc_ls_ratio_lean"),
+    }
+
+def aggregate_quarterly_on_chain(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate on-chain data from monthly reports into a quarterly summary.
+    TVL: start from first month, end from last month.
+    Address and flow data: averages across monthly values.
+    """
+    from statistics import mean
+
+    def last_val(field):
+        for mr in reversed(monthly_reports):
+            v = (mr["report"].get("on_chain") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def first_val(field):
+        for mr in monthly_reports:
+            v = (mr["report"].get("on_chain") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def avg_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("on_chain") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return round(mean(result), 2) if result else None
+
+    def sum_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("on_chain") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return round(sum(result), 2) if result else None
+
+    tvl_start = first_val("tvl_start_usd")
+    tvl_end = last_val("tvl_end_usd")
+    tvl_change_pct = round((tvl_end - tvl_start) / tvl_start * 100, 4) if tvl_start and tvl_end else None
+
+    if tvl_change_pct is not None:
+        tvl_lean = "bullish" if tvl_change_pct > 2 else "bearish" if tvl_change_pct < -2 else "neutral"
+        tvl_direction = "rising" if tvl_change_pct > 0 else "falling" if tvl_change_pct < 0 else "flat"
+    else:
+        tvl_lean = None
+        tvl_direction = None
+
+    addr_start = first_val("active_addresses_start")
+    addr_end = last_val("active_addresses_end")
+    if addr_start and addr_end:
+        addr_lean = "bullish" if addr_end > addr_start * 1.02 else "bearish" if addr_end < addr_start * 0.98 else "neutral"
+    else:
+        addr_lean = None
+
+    net_flow = sum_vals("exchange_net_flow_usd")
+    exchange_flow_lean = "bearish" if net_flow and net_flow > 0 else "bullish" if net_flow and net_flow < 0 else "neutral" if net_flow == 0 else None
+
+    return {
+        "tvl_start_usd": tvl_start,
+        "tvl_end_usd": tvl_end,
+        "tvl_change_pct": tvl_change_pct,
+        "tvl_direction": tvl_direction,
+        "tvl_lean": tvl_lean,
+        "active_addresses_avg": avg_vals("active_addresses_avg"),
+        "active_addresses_start": addr_start,
+        "active_addresses_end": addr_end,
+        "active_addresses_lean": addr_lean,
+        "exchange_inflow_avg_usd": avg_vals("exchange_inflow_avg_usd"),
+        "exchange_outflow_avg_usd": avg_vals("exchange_outflow_avg_usd"),
+        "exchange_net_flow_usd": net_flow,
+        "exchange_flow_lean": exchange_flow_lean,
+    }
+
+
+def aggregate_quarterly_macro(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate macro data from monthly reports into a quarterly summary.
+    BTC and token returns: compounded across monthly returns.
+    Dominance, ETH/BTC, DXY, SPY, VIX: start from first month, end from last month.
+    """
+    from statistics import mean
+    from functools import reduce
+
+    if not monthly_reports:
+        return {}
+
+    sorted_months = sorted(monthly_reports, key=lambda mr: (mr.get("cal_year", 0), mr.get("cal_month", 0)))
+
+    def macro(mr):
+        return (mr["report"].get("macro") or {})
+
+    def last_val(field):
+        for mr in reversed(sorted_months):
+            v = macro(mr).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def first_val(field):
+        for mr in sorted_months:
+            v = macro(mr).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def avg_vals(field):
+        vals = [macro(mr).get(field) for mr in sorted_months]
+        vals = [v for v in vals if v is not None]
+        return round(mean(vals), 4) if vals else None
+
+    def pct_change(start, end):
+        if start is None or end is None or start == 0:
+            return None
+        return round((end - start) / abs(start) * 100, 2)
+
+    def direction(val):
+        if val is None:
+            return None
+        if val > 0.1:
+            return "rising"
+        if val < -0.1:
+            return "falling"
+        return "flat"
+
+    # Compound BTC returns
+    btc_returns = [macro(mr).get("btc_period_return_pct") for mr in sorted_months]
+    btc_returns = [v for v in btc_returns if v is not None]
+    if btc_returns:
+        btc_compound = reduce(lambda acc, r: acc * (1 + r / 100), btc_returns, 1.0)
+        btc_period_return_pct = round((btc_compound - 1) * 100, 2)
+        btc_direction = direction(btc_period_return_pct)
+    else:
+        btc_period_return_pct = None
+        btc_direction = None
+
+    # Compound token returns (vs BTC alpha)
+    token_returns = [macro(mr).get("token_vs_btc_alpha_pct") for mr in sorted_months]
+    token_returns_clean = [v for v in token_returns if v is not None]
+    if token_returns_clean and btc_returns:
+        token_compound = reduce(lambda acc, r: acc * (1 + r / 100), token_returns_clean, 1.0)
+        token_vs_btc_alpha_pct = round((token_compound - 1) * 100, 2)
+    else:
+        token_vs_btc_alpha_pct = None
+
+    # BTC dominance
+    btc_dom_start = first_val("btc_dominance_start")
+    btc_dom_end = last_val("btc_dominance_end")
+    btc_dom_change = pct_change(btc_dom_start, btc_dom_end)
+    btc_dom_lean_end = last_val("btc_dominance_lean")
+
+    # Total crypto market cap
+    mcap_start = first_val("total_crypto_mcap_start_usd")
+    mcap_end = last_val("total_crypto_mcap_end_usd")
+    mcap_change_pct = pct_change(mcap_start, mcap_end)
+    mcap_lean = last_val("total_crypto_mcap_lean")
+
+    # ETH/BTC
+    eth_btc_start = first_val("eth_btc_start")
+    eth_btc_end = last_val("eth_btc_end")
+    eth_btc_change_pct = pct_change(eth_btc_start, eth_btc_end)
+    eth_btc_lean = last_val("eth_btc_lean")
+
+    # DXY
+    dxy_start = first_val("dxy_start")
+    dxy_end = last_val("dxy_end")
+    dxy_change_pct = pct_change(dxy_start, dxy_end)
+    dxy_lean = last_val("dxy_lean")
+
+    # SPY
+    spy_start = first_val("spy_start")
+    spy_end = last_val("spy_end")
+    spy_change_pct = pct_change(spy_start, spy_end)
+    spy_lean = last_val("spy_lean")
+
+    # VIX
+    vix_start = first_val("vix_start")
+    vix_end = last_val("vix_end")
+    vix_change_pct = pct_change(vix_start, vix_end)
+    vix_avg = avg_vals("vix_avg")
+    vix_lean = last_val("vix_lean")
+
+    return {
+        "btc_period_return_pct": btc_period_return_pct,
+        "btc_direction": btc_direction,
+        "token_vs_btc_alpha_pct": token_vs_btc_alpha_pct,
+        "btc_dominance_start": btc_dom_start,
+        "btc_dominance_end": btc_dom_end,
+        "btc_dominance_change_pct": btc_dom_change,
+        "btc_dominance_lean": btc_dom_lean_end,
+        "total_crypto_mcap_start_usd": mcap_start,
+        "total_crypto_mcap_end_usd": mcap_end,
+        "total_crypto_mcap_change_pct": mcap_change_pct,
+        "total_crypto_mcap_lean": mcap_lean,
+        "eth_btc_start": eth_btc_start,
+        "eth_btc_end": eth_btc_end,
+        "eth_btc_change_pct": eth_btc_change_pct,
+        "eth_btc_lean": eth_btc_lean,
+        "dxy_start": dxy_start,
+        "dxy_end": dxy_end,
+        "dxy_change_pct": dxy_change_pct,
+        "dxy_lean": dxy_lean,
+        "spy_start": spy_start,
+        "spy_end": spy_end,
+        "spy_change_pct": spy_change_pct,
+        "spy_lean": spy_lean,
+        "vix_start": vix_start,
+        "vix_end": vix_end,
+        "vix_change_pct": vix_change_pct,
+        "vix_avg": vix_avg,
+        "vix_lean": vix_lean,
+    }
+
+
+def aggregate_quarterly_sentiment(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate sentiment data from monthly reports into a quarterly summary.
+    Fear & Greed: avg/min/max across monthly averages, period-end from last month.
+    LunarCrush: averages across monthly averages, period-end from last month.
+    """
+    from statistics import mean
+
+    def last_val(field):
+        for mr in reversed(monthly_reports):
+            v = (mr["report"].get("sentiment") or {}).get(field)
+            if v is not None:
+                return v
+        return None
+
+    def avg_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("sentiment") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return round(mean(result), 4) if result else None
+
+    def min_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("sentiment") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return min(result) if result else None
+
+    def max_vals(field):
+        result = []
+        for mr in monthly_reports:
+            v = (mr["report"].get("sentiment") or {}).get(field)
+            if v is not None:
+                result.append(v)
+        return max(result) if result else None
+
+    fg_at_close = last_val("fear_greed_at_close")
+    if fg_at_close is not None:
+        fg_lean = "bearish" if fg_at_close >= 60 else "bullish" if fg_at_close <= 40 else "neutral"
+    else:
+        fg_lean = None
+
+    lc_sentiment_close = last_val("lc_sentiment_at_close")
+    if lc_sentiment_close is not None:
+        sentiment_lean = "bullish" if lc_sentiment_close >= 60 else "bearish" if lc_sentiment_close <= 40 else "neutral"
+    else:
+        sentiment_lean = None
+
+    galaxy_score_close = last_val("lc_galaxy_score_at_close")
+    if galaxy_score_close is not None:
+        galaxy_score_lean = "bullish" if galaxy_score_close >= 60 else "bearish" if galaxy_score_close <= 40 else "neutral"
+    else:
+        galaxy_score_lean = None
+
+    return {
+        "fear_greed_avg": avg_vals("fear_greed_avg"),
+        "fear_greed_min": min_vals("fear_greed_min"),
+        "fear_greed_max": max_vals("fear_greed_max"),
+        "fear_greed_at_close": fg_at_close,
+        "fear_greed_label_at_close": last_val("fear_greed_label_at_close"),
+        "fear_greed_lean": fg_lean,
+        "lc_interactions_avg": avg_vals("lc_interactions_avg"),
+        "lc_sentiment_avg": avg_vals("lc_sentiment_avg"),
+        "lc_sentiment_at_close": lc_sentiment_close,
+        "lc_posts_active_avg": avg_vals("lc_posts_active_avg"),
+        "lc_contributors_active_avg": avg_vals("lc_contributors_active_avg"),
+        "lc_galaxy_score_avg": avg_vals("lc_galaxy_score_avg"),
+        "lc_galaxy_score_at_close": galaxy_score_close,
+        "galaxy_score_lean": galaxy_score_lean,
+        "lc_alt_rank_at_close": last_val("lc_alt_rank_at_close"),
+        "lc_social_dominance_avg": avg_vals("lc_social_dominance_avg"),
+        "sentiment_lean": sentiment_lean,
+    }
+
+
+def aggregate_quarterly_news(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate news headlines from monthly reports into a quarterly summary.
+    Collects all headlines across all months, deduplicates by title,
+    sorts by published_at descending, caps at 40 headlines.
+    """
+    MAX_HEADLINES = 40
+
+    seen_titles = set()
+    all_headlines = []
+
+    for mr in monthly_reports:
+        news = (mr["report"].get("news") or {})
+        items = news.get("headlines") or []
+        for item in items:
+            title = item.get("title")
+            if not title or title in seen_titles:
+                continue
+            seen_titles.add(title)
+            all_headlines.append(item)
+
+    all_headlines.sort(key=lambda h: h.get("published_at") or "", reverse=True)
+    all_headlines = all_headlines[:MAX_HEADLINES]
+
+    return {
+        "headline_count": len(all_headlines),
+        "sources_included": list({h.get("source") for h in all_headlines if h.get("source")}),
+        "headlines": all_headlines,
+    }
+
+
+def aggregate_quarterly_signal_summary(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate signal summary from monthly reports into a quarterly summary.
+    Period-end signals taken from last monthly report.
+    Signal streaks computed across monthly overall_lean values.
+    """
+    SIGNAL_KEYS = [
+        "rsi_lean", "macd_lean", "ema200_lean", "bb_lean", "volume_lean",
+        "oi_lean", "funding_lean", "tvl_lean", "exchange_flow_lean",
+        "active_addresses_lean", "btc_dominance_lean", "eth_btc_lean",
+        "dxy_lean", "spy_lean", "vix_lean", "fear_greed_lean",
+        "sentiment_lean", "galaxy_score_lean", "btc_ls_ratio_lean",
+    ]
+
+    def last_signal(key):
+        for mr in reversed(monthly_reports):
+            sig = (mr["report"].get("signal_summary") or {}).get("signals") or {}
+            val = sig.get(key)
+            if val is not None:
+                return val
+        return None
+
+    period_end_signals = {k: last_signal(k) for k in SIGNAL_KEYS}
+    available = [k for k, v in period_end_signals.items() if v is not None]
+    null_signals = [k for k, v in period_end_signals.items() if v is None]
+    bullish = sum(1 for v in period_end_signals.values() if v == "bullish")
+    bearish = sum(1 for v in period_end_signals.values() if v == "bearish")
+    neutral = sum(1 for v in period_end_signals.values() if v == "neutral")
+
+    if len(available) == 0:
+        overall_lean = None
+    elif bullish > bearish and bullish > neutral:
+        overall_lean = "bullish"
+    elif bearish > bullish and bearish > neutral:
+        overall_lean = "bearish"
+    else:
+        overall_lean = "neutral"
+
+    monthly_leans = [(mr["report"].get("signal_summary") or {}).get("overall_lean") for mr in monthly_reports]
+
+    current_streak_lean = monthly_leans[-1] if monthly_leans else None
+    current_streak_length = 0
+    longest_bullish = 0
+    longest_bearish = 0
+
+    if monthly_leans:
+        for lean in reversed(monthly_leans):
+            if lean == current_streak_lean:
+                current_streak_length += 1
+            else:
+                break
+
+        streak = 1
+        for i in range(1, len(monthly_leans)):
+            if monthly_leans[i] == monthly_leans[i - 1] and monthly_leans[i] is not None:
+                streak += 1
+            else:
+                streak = 1
+            if monthly_leans[i] == "bullish":
+                longest_bullish = max(longest_bullish, streak)
+            elif monthly_leans[i] == "bearish":
+                longest_bearish = max(longest_bearish, streak)
+
+        if monthly_leans[0] == "bullish":
+            longest_bullish = max(longest_bullish, 1)
+        elif monthly_leans[0] == "bearish":
+            longest_bearish = max(longest_bearish, 1)
+
+    return {
+        "signals_evaluated": len(SIGNAL_KEYS),
+        "signals_available": len(available),
+        "signals_null": len(null_signals),
+        "bullish_count": bullish,
+        "bearish_count": bearish,
+        "neutral_count": neutral,
+        "overall_lean": overall_lean,
+        "signals": period_end_signals,
+        "signal_streaks": {
+            "current_streak_lean": current_streak_lean,
+            "current_streak_length": current_streak_length,
+            "longest_bullish_streak_in_period": longest_bullish,
+            "longest_bearish_streak_in_period": longest_bearish,
+        },
+    }
+
+
+def build_monthly_breakdown(monthly_reports: list[dict]) -> list[dict]:
+    """
+    Build a compact monthly breakdown array for inclusion in quarterly reports.
+    One entry per constituent monthly report.
+    """
+    breakdown = []
+    for mr in monthly_reports:
+        report = mr["report"]
+        pm = report.get("period_metadata") or {}
+        price = report.get("price") or {}
+        ss = report.get("signal_summary") or {}
+        breakdown.append({
+            "period_id": pm.get("period_id"),
+            "start_date": pm.get("start_date"),
+            "end_date": pm.get("end_date"),
+            "overall_lean": ss.get("overall_lean"),
+            "close_usd": price.get("close_usd"),
+            "price_change_month_pct": price.get("price_change_month_pct"),
+            "signals_available": ss.get("signals_available"),
+            "data_quality": pm.get("data_quality"),
+        })
+    return breakdown
+
+
+def aggregate_quarterly_accumulation_metadata(monthly_reports: list[dict]) -> dict:
+    """
+    Compute accumulation_metadata block for a quarterly report.
+    Constituent periods are months.
+    """
+    months_possible = 3
+    months_available = len(monthly_reports)
+    months_missing = max(0, months_possible - months_available)
+
+    if months_missing == 0:
+        data_quality = "complete"
+    elif months_available >= MIN_MONTHS_FOR_QUARTERLY:
+        data_quality = "partial"
+    else:
+        data_quality = "insufficient"
+
+    return {
+        "source": "accumulated",
+        "constituent_periods": months_possible,
+        "constituent_periods_available": months_available,
+        "constituent_periods_missing": months_missing,
+        "data_quality": data_quality,
+    }
+
+
+def aggregate_cex_dex_spread_quarterly(monthly_reports: list[dict]) -> dict:
+    """
+    Aggregate CEX/DEX spread from monthly reports into a quarterly summary.
+    """
+    from statistics import mean
+
+    avgs = [mr["report"].get("cex_dex_spread", {}).get("avg_spread_pct")
+            for mr in monthly_reports
+            if (mr["report"].get("cex_dex_spread") or {}).get("avg_spread_pct") is not None]
+    maxes = [mr["report"].get("cex_dex_spread", {}).get("max_spread_pct")
+             for mr in monthly_reports
+             if (mr["report"].get("cex_dex_spread") or {}).get("max_spread_pct") is not None]
+    mins = [mr["report"].get("cex_dex_spread", {}).get("min_spread_pct")
+            for mr in monthly_reports
+            if (mr["report"].get("cex_dex_spread") or {}).get("min_spread_pct") is not None]
+
+    return {
+        "avg_spread_pct": round(mean(avgs), 6) if avgs else None,
+        "max_spread_pct": max(maxes) if maxes else None,
+        "min_spread_pct": min(mins) if mins else None,
+    }
+
+
+def write_quarterly_report(cal_year, quarter, config, paths, monthly_reports,
+                            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+                            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+                            accumulation_metadata, cex_dex_spread, monthly_breakdown):
+    from datetime import datetime, timezone
+    filename = f"quarterly_{cal_year}_Q{quarter}.json"
+    output_path = paths["quarterly"] / filename
+
+    start_date = monthly_reports[0].get("start_date")
+    end_date = monthly_reports[-1].get("end_date")
+
+    output = {
+        "period_metadata": {
+            "type": "quarterly",
+            "period_id": f"{cal_year}-Q{quarter}",
+            "cal_year": cal_year,
+            "quarter": quarter,
+            "start_date": start_date,
+            "end_date": end_date,
+            "token": config["token_name"],
+            "months_included": len(monthly_reports),
+            "months_possible": 3,
+            "source": "accumulated",
+            "script_version": SCRIPT_VERSION,
+            "schema_version": SCHEMA_VERSION,
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC"),
+            "data_quality": accumulation_metadata["data_quality"],
+        },
+        "price": price_agg,
+        "technicals": technicals_agg,
+        "derivatives": derivatives_agg,
+        "on_chain": on_chain_agg,
+        "macro": macro_agg,
+        "sentiment": sentiment_agg,
+        "news": news_agg,
+        "signal_summary": signal_summary_agg,
+        "monthly_breakdown": monthly_breakdown,
+        "data_gaps": [],
+        "accumulation_metadata": accumulation_metadata,
+        "cex_dex_spread": cex_dex_spread,
+    }
+
+    try:
+        with open(output_path, "w") as f:
+            json.dump(output, f, indent=2)
+        return output_path
+    except Exception as e:
+        print(f"  Failed to write {filename}: {e}")
+        return None
+
+
 def write_weekly_report(iso_year, iso_week, config, paths, daily_reports, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread):
     from datetime import datetime, timezone
     filename = f"weekly_{iso_year}_W{iso_week:02d}.json"
@@ -1776,6 +2523,40 @@ def main():
             monthly_written.append(output_path)
             print(f"  Written: {output_path.name}")
     print(f"\n{len(monthly_written)} monthly reports written.")
+
+    # Quarterly aggregation
+    print("\nGenerating quarterly reports...")
+    monthly_dir = paths["monthly"]
+    all_monthly = discover_monthly_reports(monthly_dir)
+    quarterly_groups = group_by_quarter(all_monthly)
+    print(f"  Found {len(quarterly_groups)} quarters from {len(all_monthly)} monthly reports")
+
+    quarterly_written = []
+    for (yr, q), months in sorted(quarterly_groups.items()):
+        if len(months) < MIN_MONTHS_FOR_QUARTERLY:
+            print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
+            continue
+        price_agg = aggregate_quarterly_price(months)
+        technicals_agg = aggregate_quarterly_technicals(months)
+        derivatives_agg = aggregate_quarterly_derivatives(months)
+        on_chain_agg = aggregate_quarterly_on_chain(months)
+        macro_agg = aggregate_quarterly_macro(months)
+        sentiment_agg = aggregate_quarterly_sentiment(months)
+        news_agg = aggregate_quarterly_news(months)
+        signal_summary_agg = aggregate_quarterly_signal_summary(months)
+        accumulation_metadata = aggregate_quarterly_accumulation_metadata(months)
+        cex_dex_spread_agg = aggregate_cex_dex_spread_quarterly(months)
+        monthly_breakdown = build_monthly_breakdown(months)
+        output_path = write_quarterly_report(
+            yr, q, config, paths, months,
+            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+            accumulation_metadata, cex_dex_spread_agg, monthly_breakdown
+        )
+        if output_path:
+            quarterly_written.append(output_path)
+            print(f"  Written: {output_path.name}")
+    print(f"\n{len(quarterly_written)} quarterly reports written.")
 
     print("Accumulator run complete.")
 
