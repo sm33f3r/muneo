@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-14T08:11:30 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2283463512400.22,
+    "total_market_cap_change_24h_pct": 0.98,
+    "total_volume_24h_usd": 52157265510.06,
+    "btc_dominance_pct": 56.5568,
+    "eth_dominance_pct": 8.8828,
+    "total2_usd": 992010423661.93,
+    "total3_usd": 789174374431.07,
+    "active_cryptocurrencies": 17463,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 96.2659,
+        "price_usd": 0.398153,
+        "market_cap_usd": 710616368
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 46.8606,
+        "price_usd": 0.573435,
+        "market_cap_usd": 235762205
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 18.6798,
+        "price_usd": 0.089339,
+        "market_cap_usd": 196333372
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": 15.6617,
+        "price_usd": 0.735808,
+        "market_cap_usd": 214668840
+      },
+      {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "price_change_24h_pct": 15.0713,
+        "price_usd": 268.96,
+        "market_cap_usd": 2577050553
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -24.9774,
+        "price_usd": 6.84,
+        "market_cap_usd": 1969309682
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -18.627,
+        "price_usd": 0.375132,
+        "market_cap_usd": 131683162
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -13.342,
+        "price_usd": 0.170212,
+        "market_cap_usd": 356701085
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -8.5263,
+        "price_usd": 0.073172,
+        "market_cap_usd": 210994699
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -7.3265,
+        "price_usd": 17.58,
+        "market_cap_usd": 822413855
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64421,
+    "price_change_24h_pct": 1.0246,
+    "price_change_7d_pct": 3.7232,
+    "market_cap_usd": 1290294639902,
+    "volume_24h_usd": 18107390322,
+    "direction": "bullish",
+    "oi_usd": 6474558842.95,
+    "funding_rate_latest": -4.657e-05,
+    "funding_rate_7d_avg": 7.179047619047619e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4295,
+    "long_account_pct": 58.84,
+    "short_account_pct": 41.16,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1675.72,
+    "price_change_24h_pct": 0.0657,
+    "price_change_7d_pct": 3.8158,
+    "market_cap_usd": 202099120116,
+    "volume_24h_usd": 5842777040,
+    "eth_btc_ratio": 0.026012,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72602370522.54,
+    "stablecoin_market_cap_usd": 314345823873.17,
+    "stablecoin_dominance_pct": 13.7662
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "US, Iran inch closer to deal, Trump says Sunday but timing remains unclear - Reuters",
+        "summary": "US, Iran inch closer to deal, Trump says Sunday but timing remains unclear\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXA2RmM1Y0lOSlBJSHJpd285cFViUGlLNFRUa0FTZWxBbC1DdUdVM1hSbUY5Z1A4R3poZEI3QjNGbFFzSlZpalRkbnVGWVFMNzYzQXlJbXhMTjdaRjFLQlk0b3FXZVIzcVVDbm9YVmd4RmtRTWVGcndQN1VJaEZRUEppeGlUZWJGaUx6WEI1OUtoeDRpbGdNbF8xRVFRTlY3Tk9Fcg?oc=5",
+        "published_at": "2026-06-14T01:53:00Z"
+      },
+      {
+        "headline": "Iran face New Zealand in politically charged Los Angeles opener - Reuters",
+        "summary": "Iran face New Zealand in politically charged Los Angeles opener\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTHQxVWZfRDFBNTZvLTRXYjlqeWZnVDBWVTVlY2w5WXU1N09FQndtRHNaT1VPbGJzUXdsNnNQTlhDb3VGTS1kU0s3RDRJV05OOWFvX0VEaURTZUh1dHZOY3lqYjFSNzEyTW1DWWowSjNlalVRV3ktVmxWWnkwLTVmQjRxY0g4SEFFbUJBaW5KSVNxWWVqc3Q0aHlfUlZUMzIwdGRvMWstZzliVl9ST05Z?oc=5",
+        "published_at": "2026-06-13T22:21:44Z"
+      },
+      {
+        "headline": "UK's Starmer, Trump discuss efforts to end Iran conflict - Reuters",
+        "summary": "UK's Starmer, Trump discuss efforts to end Iran conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWk5VjRaVlZrNXBaVWF1TGpXZ04zQnhyLTNYNkhORTJkYjhMSVhRUS1ndW9sTmRJZ2VxR1phNjA2QS1ic0o3QnE5RHRNMXRTaUktYkctYzhWRkg3Zy02WTRxTFdjV3Axb185ZDdfeDlxZWhFU3Z5MUNQSE9XVERuVTZOazVtc0VIWjd3d2czM1pHREJ3Z1BtT3RoYXZZUXBaQ0NqQWxNVEM?oc=5",
+        "published_at": "2026-06-13T17:15:43Z"
+      },
+      {
+        "headline": "Trump says Iran deal to be signed on Sunday - Reuters",
+        "summary": "Trump says Iran deal to be signed on Sunday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnc0RjByemVUM1FIQkhJVkFuVExTTDlYZUVqbFo4dWVSY3ZvZGgydUMtSjcydy15d3JkVThlQVpxblFZYVBKNmdDeTVSSXlYbV9OY1l5R25tUlhrVmtSNDQ4azVFY0w2X2tpbkNkcXBURk1XckFmRG1BbWFJQ3I2UUQ4OFNORWxDSk03dTdKWVhCNDFEb3c?oc=5",
+        "published_at": "2026-06-13T17:00:09Z"
+      },
+      {
+        "headline": "What drove the stock market last week \u2014 before and after SpaceX's historic IPO",
+        "summary": "The successful debut of Elon Musk's rocket company wiped away a week of anxiety.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/13/what-drove-the-stock-market-last-week-before-and-after-spacexs-historic-ipo.html",
+        "published_at": "2026-06-13T16:36:02Z"
+      },
+      {
+        "headline": "Iran peace deal, SpaceX IPO and World Cup concerns - Reuters",
+        "summary": "Iran peace deal, SpaceX IPO and World Cup concerns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUUFnQU9XVWFUMnpwaUNNZy1YaWF5SGZSTnlwZm9XTjA2UnNDeG4zdGsyaV9zQUYxOURwVWtEN0g1RUF4LVhqbkdCQk81SGxjWlRpeFdHYWdQM1VQZmphY3AzaF9lRlZiY3k5TFkzLTlnbHNWN3V6NEVQU09yLWNiR1dyUEhBYWZ6X3ZCVUM2UzVjSjNt?oc=5",
+        "published_at": "2026-06-13T14:54:24Z"
+      },
+      {
+        "headline": "This 28-year-old paid off her law school loans selling stickers and coloring books",
+        "summary": "Elyse Burns started selling her art on Etsy when she turned 18. Now she's paid off her student loans and did nearly $5 million last year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/13/paid-off-law-school-student-loans-art-business.html",
+        "published_at": "2026-06-13T14:00:01Z"
+      },
+      {
+        "headline": "Iran says signing of Islamabad memorandum will not take place on Sunday - Reuters",
+        "summary": "Iran says signing of Islamabad memorandum will not take place on Sunday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0QyenI2aldGY2QzNVRVbnJ5ejkxZmY3VXpTa2o4QkM5dDRTVVoyeEZMampXN3BVc1A2ODIzUmt3cGdVbl9XVkRJam5tVHl4c0xtbkdEcFo0QzdDemZEaEd0dWtSWjM2RG95YmI2bG5Zc2o1SlpKNTI2SDdvMzd3eDV6QkJiamFBUjBVblZ1dm5XS0ZIRDRnOVRQZGEzRURmMm1mM3psMmQ0bXZPUU9oeklCNDREc2hMeXRv?oc=5",
+        "published_at": "2026-06-13T13:08:01Z"
+      },
+      {
+        "headline": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9 - Reuters",
+        "summary": "Funeral for Iran's late Supreme Leader Khamenei to begin July 4, burial set for July 9\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWWljdFRvWXh3cEM0ODgyOFF1LUVuSTJFSklLNXlPVWxyZks4d0pKQmVVY1RBX0lNSHZ3Vzk1MlZOZHl0bTRRdFAteDEtLWptUnpiMEY2djh4cDNYZHFheFUwaFVCa0hpdU1YMWd4UDFwTnc1Z1kzcGZQNF9SUDVTZGI0VUE3VzRzQWM1OFU0RXJKQXBpMjQxZDNoMldScWNYQnlzaGE4aGtxaFo3RlY3RmJyMnJGdG4xTW9nSHJKM2tPZDN2UUZaX0QzYw?oc=5",
+        "published_at": "2026-06-13T12:46:04Z"
+      },
+      {
+        "headline": "Pakistan PM says US-Iran peace deal signing expected within 24 hours - Reuters",
+        "summary": "Pakistan PM says US-Iran peace deal signing expected within 24 hours\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRkRJSW8xc3RxTVJ0QnN0VnpIcHNGQUFnNGtKbDQ0bXY3b0F0TWs5U1ZoTVFvMnlQeHlWdDVHRjJobjl0RHd4RGd5LW1US3E5aWs1THNRRTRFbnVzTjZiUUMwb0gzZFlOTU0wWFI2SmRtVm1XcHJRQkR6QkxldVBnS01wclpLb01FMU9xOENLazdEdjdGWWwwYU9TRmUxUnpDRnlodU9qNzZEWXBHMjVQdTFEM29mWER1MUVhcl9Ic3g?oc=5",
+        "published_at": "2026-06-13T11:19:44Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.0831,
+    "dxy_lean": "bearish",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": null,
+    "vix_close": 19.44,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 21,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 20,
+    "positive_count": 2,
+    "negative_count": 5,
+    "neutral_count": 13,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Zcash Founder Says Anthropic AI Audit Found No Serious Protocol Bugs",
+        "url": "https://bitcoinist.com/zcash-founder-says-anthropic-ai-audit-found-no-serious-protocol-bugs/",
+        "published_at": "2026-06-14T08:05:11+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-14T05:32:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump says Iran peace deal to be signed Sunday, contradicting Tehran",
+        "url": "https://cointelegraph.com/news/trump-says-iran-peace-deal-to-be-signed-sunday-contradicting-tehran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-14T05:07:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Amazon warning triggered US crackdown on Anthropic AI models: Reports",
+        "url": "https://cointelegraph.com/news/amazon-warning-triggered-us-crackdown-on-anthropic-ai-models-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-14T03:36:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin To $400,000? Analyst Uses Gold Overlay To Make Bold 2026 Case",
+        "url": "https://bitcoinist.com/bitcoin-to-400000-analyst-uses-gold-overlay-to-make-bold-2026-case/",
+        "published_at": "2026-06-13T22:32:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Halving Clock Points To Bottoming Phase, But Cycle Signal Needs Caution",
+        "url": "https://bitcoinist.com/bitcoin-halving-clock-points-to-bottoming-phase-but-cycle-signal-needs-caution/",
+        "published_at": "2026-06-13T20:41:58+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Venice and Morpheus tokens climb as US ban on Anthropic\u2019s Fable 5 fuels \u2018permissionless AI\u2019 pitch",
+        "url": "https://www.theblock.co/post/404690/venice-and-morpheus-tokens-climb-as-us-ban-on-anthropics-fable-5-fuels-permissionless-ai-pitch?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-13T20:04:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
+        "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
+        "published_at": "2026-06-13T19:23:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Trader Says Cycle Tops And Bottoms Match Exact Day Counts",
+        "url": "https://bitcoinist.com/bitcoin-trader-says-cycle-tops-and-bottoms-match-exact-day-counts/",
+        "published_at": "2026-06-13T18:41:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase quantum report flags exchange cold wallets among millions of bitcoin exposed by address reuse",
+        "url": "https://www.theblock.co/post/404685/coinbase-quantum-report-flags-exchange-cold-wallets-among-millions-of-bitcoin-exposed-by-address-reuse?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-13T18:21:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": null,
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response"
+  ]
+}
