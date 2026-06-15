@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-15T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2361555013300.67,
+    "total_market_cap_change_24h_pct": 2.3219,
+    "total_volume_24h_usd": 147082822823.95,
+    "btc_dominance_pct": 56.3646,
+    "eth_dominance_pct": 9.281,
+    "total2_usd": 1030473025284.74,
+    "total3_usd": 811297112295.81,
+    "active_cryptocurrencies": 17437,
+    "altcoin_season_index": 32,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": 35.4835,
+        "price_usd": 0.746584,
+        "market_cap_usd": 362074849
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": 21.2199,
+        "price_usd": 0.439679,
+        "market_cap_usd": 418737134
+      },
+      {
+        "symbol": "XLM",
+        "name": "Stellar",
+        "price_change_24h_pct": 19.7107,
+        "price_usd": 0.220918,
+        "market_cap_usd": 7463959894
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": 19.5091,
+        "price_usd": 1.12,
+        "market_cap_usd": 283423622
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 19.45,
+        "price_usd": 520.8,
+        "market_cap_usd": 8733269059
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -21.5512,
+        "price_usd": 4.07,
+        "market_cap_usd": 1168557697
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -15.0701,
+        "price_usd": 0.14637,
+        "market_cap_usd": 307143908
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -12.6395,
+        "price_usd": 0.333291,
+        "market_cap_usd": 140257306
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -9.2909,
+        "price_usd": 0.256371,
+        "market_cap_usd": 467996603
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -8.6746,
+        "price_usd": 0.090156,
+        "market_cap_usd": 197918500
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66420,
+    "price_change_24h_pct": 2.7112,
+    "price_change_7d_pct": 4.7145,
+    "market_cap_usd": 1331752932345,
+    "volume_24h_usd": 37513519089,
+    "direction": "bullish",
+    "oi_usd": 6878006466.48,
+    "funding_rate_latest": -6.079e-05,
+    "funding_rate_7d_avg": -3.285714285714292e-07,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3137,
+    "long_account_pct": 56.78,
+    "short_account_pct": 43.22,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1815.04,
+    "price_change_24h_pct": 6.5592,
+    "price_change_7d_pct": 7.5523,
+    "market_cap_usd": 219170486426,
+    "volume_24h_usd": 15842818555,
+    "eth_btc_ratio": 0.027327,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75256567303.22,
+    "stablecoin_market_cap_usd": 314697563283.75,
+    "stablecoin_dominance_pct": 13.3259
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 27,
+    "headlines": [
+      {
+        "headline": "I want people to be millionaires \u2014 Jim Cramer's blueprint to make money in any market",
+        "summary": "In this exclusive interview, Jim walks through how investors should think about identifying a small group of individual stocks to complement a diversified portfolio",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/i-want-people-to-be-millionaires-cramer-blueprint-on-making-money-in-any-market.html",
+        "published_at": "2026-06-15T20:09:04Z"
+      },
+      {
+        "headline": "Salesforce looks to strengthen its AI platform \u2014 plus, a positive note for J&J",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/salesforce-looks-to-strengthen-its-ai-platform-a-positive-note-for-jj.html",
+        "published_at": "2026-06-15T18:53:40Z"
+      },
+      {
+        "headline": "Things are lining up in favor of the market bulls. How to proceed from here",
+        "summary": "Oil and bond yields are falling on U.S.-Iran optimism, and the market cleared the SpaceX hurdle.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/things-are-lining-up-in-favor-of-the-market-bulls-how-to-proceed-from-here-.html",
+        "published_at": "2026-06-15T17:41:32Z"
+      },
+      {
+        "headline": "We're adding to our position in a consumer bank that benefits from lower oil prices",
+        "summary": "Concerns about consumer credit have weighed on this stock since the Iran war began.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/were-adding-to-our-position-in-a-consumer-bank-that-benefits-from-lower-oil-prices.html",
+        "published_at": "2026-06-15T13:57:17Z"
+      },
+      {
+        "headline": "Strait of Hormuz traffic to return to normal as soon as August, Kalshi traders speculate",
+        "summary": "Odds that the Strait of Hormuz traffic will return to normal before August surpassed 50%, following U.S. President Donald Trump's announcement.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/strait-of-hormuz-traffic-to-return-to-normal-as-soon-as-august-kalshi-traders-speculate.html",
+        "published_at": "2026-06-15T13:20:13Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Monday",
+        "summary": "Oil is plunging and futures are surging after the U.S. and Iran agreed to a memorandum of understanding to end the war.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+        "published_at": "2026-06-15T13:07:10Z"
+      },
+      {
+        "headline": "Inside the unique challenges of military spouse entrepreneurs: 'Not everybody is going to understand this life'",
+        "summary": "Military spouses turn to entrepreneurship amid high rates of unemployment. They face high barriers to success, but a growing coalition is pushing for more help.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/military-spouse-entrepreneurs-unique-challenges-advocacy.html",
+        "published_at": "2026-06-15T13:05:01Z"
+      },
+      {
+        "headline": "Fox to buy streaming device maker Roku for $22 billion",
+        "summary": "Fox, the owner of the news and sports networks, said it has reached a deal to acquire Roku for about $22 billion in enterprise value.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/15/fox-to-buy-roku.html",
+        "published_at": "2026-06-15T11:55:00Z"
+      },
+      {
+        "headline": "Shippers remain cautious on Hormuz strait transit after US and Iran agree deal - Reuters",
+        "summary": "Shippers remain cautious on Hormuz strait transit after US and Iran agree deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObWRDVWZoWlpiWXdWckhpc2Voc01ZeXBuMnN5SmE5MkZMOENCejE5bjZ1UDFDM3BUUG0tdThmZXh4TzExMlZKdVgzTWNJR0NSUmZHa2lTV29DWFBpYVhJSFBSUl9aN1g4aXBnQUxGNlVLT3hSc0JydjFxMkZUcjVsanpNOE00aTk1UkhaRkVoVHhteTlaWTNWa2t6SGhQU0Q3VV9MNVRYWlJxSlVRaHdZREp0RFU5TlVSdHJCYUxqemtBTEdjaGFV?oc=5",
+        "published_at": "2026-06-15T06:55:00Z"
+      },
+      {
+        "headline": "STOXX 600 hits record high after US-Iran preliminary peace deal - Reuters",
+        "summary": "STOXX 600 hits record high after US-Iran preliminary peace deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOakJFV0xEVGgzbDNzSGljTk1seThqUDgyZTR1Sy1nRlhrY251dm5sRXdxZkN6LVhJWjh1bThYbm0tdi1uX0JBSzFwYzk4S3hOSWNpbFpNcVc2YUltVUQ1QVUzeEFsLWhFYTJHbHk0QUo4N3hGN1hfTDZ5R2R1RVRnNEpZdkxlTUk0U2kteE8yc21rQXZIYnQ1c0RRLVo2SlQzQjdWLTZMcGlEaTJlWEVsMHNQQQ?oc=5",
+        "published_at": "2026-06-15T06:46:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": 741.75,
+    "spy_change_pct": 0.5408,
+    "spy_lean": "bullish",
+    "vix_close": 17.68,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 25,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 63,
+    "positive_count": 10,
+    "negative_count": 12,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.1587,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Spot HYPE ETFs near $900 million in volume as early demand signals institutional interest",
+        "url": "https://www.theblock.co/post/404802/spot-hype-etfs-near-900-million-volume-early-demand-signals-institutional-interest?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-15T21:26:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elon Musk Loses Again to OpenAI as Judge Dismisses xAI Trade Secret Lawsuit",
+        "url": "https://decrypt.co/371253/elon-musk-loses-again-openai-xai-trade-secret-lawsuit",
+        "published_at": "2026-06-15T21:05:00+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pudgy Penguins NFT Game 'Pudgy Party' Shuts Down Less Than a Year After Launch",
+        "url": "https://decrypt.co/371197/pudgy-penguins-nft-game-pudgy-party-shuts-down",
+        "published_at": "2026-06-15T20:47:53+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SpaceX IPO fuels $1.4 billion trading frenzy on Hyperliquid as SPCX perp becomes HIP-3\u2019s biggest market",
+        "url": "https://www.theblock.co/post/404804/spacex-ipo-1-4-billion-trading-frenzy-hyperliquid-spcx-perp-hip-3s-biggest-market?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-15T20:31:48+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia\u2019s $20 billion debt boom reinforces Bitcoin miners' AI pivot",
+        "url": "https://cointelegraph.com/news/nvidia-20-billion-debt-boom-reinforces-bitocin-minings-ai-pivot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-15T20:15:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Someone Just Lost $1 Million on Polymarket Over Spain World Cup Shocker",
+        "url": "https://decrypt.co/371227/polymarket-trader-loses-1-million-spain-world-cup-bet",
+        "published_at": "2026-06-15T20:06:36+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gate Pushes USDT Into Hong Kong Stock Trading Access",
+        "url": "https://bitcoinist.com/gate-pushes-usdt-into-hong-kong-stock-trading-access-2/",
+        "published_at": "2026-06-15T19:51:34+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Policy UK CEO calls Michael Saylor\u2019s STRC investment promotion \u2018dishonest\u2019",
+        "url": "https://www.theblock.co/post/404785/bitcoin-policy-uk-ceo-calls-michael-saylors-strc-investment-promotion-dishonest?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-15T19:51:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Rio de Janeiro Built an AI Model That Beat DeepSeek\u2014But Was Based on Someone Else's Work",
+        "url": "https://decrypt.co/371210/rio-ai-model-beat-deepseek-ownership-dispute-nex",
+        "published_at": "2026-06-15T19:43:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC hires SEC crypto task force adviser with blockchain forensics chops",
+        "url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-15T19:41:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 6,
+    "bearish_count": 1,
+    "neutral_count": 5,
+    "overall_lean": "slight_bullish",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
