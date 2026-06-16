@@ -2640,159 +2640,162 @@ def clear_accumulated_output(paths: dict) -> None:
 
 def main():
     args = parse_args()
-    
-    print(f"\nMuneo Market Accumulator v{SCRIPT_VERSION}")
-    print(f"Config: {args.config}")
-    if args.rebuild:
-        print("Mode: REBUILD")
-    print()
-    
-    # Load config
-    config = load_config(args.config)
-    print(f"Token: {config['token_name']}")
-    print(f"Output prefix: {config['output_prefix']}")
-    
-    # Setup directories
-    paths = setup_directories(config)
-    
-    # Rebuild mode: clear existing accumulated output
-    if args.rebuild:
-        clear_accumulated_output(paths)
-    
-    # Discover daily reports
-    print(f"\nScanning {paths['reports']} for {config['output_prefix']}*.json ...")
-    daily_reports = discover_daily_reports(paths["reports"], config["output_prefix"])
-    print(f"  Found {len(daily_reports)} daily reports")
-    
-    if not daily_reports:
-        print("  No daily reports found. Nothing to accumulate.")
+
+    config_files = sorted(Path("configs").glob("*.json"))
+    if not config_files:
+        print("No config files found in configs/")
         return
-    
-    # Group by ISO week
-    weekly_groups = group_by_iso_week(daily_reports)
-    print(f"  Grouped into {len(weekly_groups)} ISO weeks:")
-    for (yr, wk), reports in sorted(weekly_groups.items()):
-        days = len(reports)
-        status = "✓ eligible" if days >= MIN_DAYS_FOR_WEEKLY else f"✗ only {days} days (need {MIN_DAYS_FOR_WEEKLY})"
-        print(f"    {yr}-W{wk:02d}: {days} days — {status}")
 
-    print("\nGenerating weekly reports...")
-    weekly_written = []
-    for (yr, wk), reports in sorted(weekly_groups.items()):
-        deduped = deduplicate_by_date(reports)
-        if len(deduped) < MIN_DAYS_FOR_WEEKLY:
-            print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
+    for config_path in config_files:
+        config = load_config(str(config_path))
+        print(f"\n{'='*60}")
+        print(f"Muneo Market Accumulator v{SCRIPT_VERSION}")
+        print(f"Config: {config_path}")
+        print(f"Mode: {'REBUILD' if args.rebuild else 'INCREMENTAL'}")
+        print(f"\nToken: {config['token_name']}")
+        print(f"Output prefix: {config['output_prefix']}")
+
+        # Setup directories
+        paths = setup_directories(config)
+
+        # Rebuild mode: clear existing accumulated output
+        if args.rebuild:
+            clear_accumulated_output(paths)
+
+        # Discover daily reports
+        print(f"\nScanning reports for {config['output_prefix']}*.json ...")
+        daily_reports = discover_daily_reports(paths["reports"], config["output_prefix"])
+        print(f"  Found {len(daily_reports)} daily reports")
+
+        if not daily_reports:
+            print("  No daily reports found. Nothing to accumulate.")
             continue
-        daily_data = [d for d in [load_daily_report(r["path"]) for r in deduped] if d is not None]
-        if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
-            print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
-            continue
-        price_agg = aggregate_weekly_price(daily_data)
-        derivatives_agg = aggregate_weekly_derivatives(daily_data)
-        on_chain_agg = aggregate_weekly_on_chain(daily_data)
-        macro_agg = aggregate_weekly_macro(daily_data)
-        sentiment_agg = aggregate_weekly_sentiment(daily_data)
-        news_agg = aggregate_weekly_news(daily_data)
-        signal_summary_agg = aggregate_weekly_signal_summary(daily_data)
-        accumulation_metadata = aggregate_accumulation_metadata(deduped, daily_data)
-        cex_dex_spread = aggregate_cex_dex_spread(daily_data)
-        output_path = write_weekly_report(yr, wk, config, paths, deduped, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread)
-        if output_path:
-            weekly_written.append(output_path)
-            print(f"  Written: {output_path.name}")
-    print(f"\n{len(weekly_written)} weekly reports written.")
 
-    # Monthly aggregation
-    print("\nGenerating monthly reports...")
-    weekly_dir = paths["weekly"]
-    all_weekly = discover_weekly_reports(weekly_dir)
-    monthly_groups = group_by_calendar_month(all_weekly)
-    print(f"  Found {len(monthly_groups)} calendar months from {len(all_weekly)} weekly reports")
+        # Group by ISO week
+        weekly_groups = group_by_iso_week(daily_reports)
+        print(f"  Grouped into {len(weekly_groups)} ISO weeks:")
+        for (yr, wk), reports in sorted(weekly_groups.items()):
+            days = len(reports)
+            status = "✓ eligible" if days >= MIN_DAYS_FOR_WEEKLY else f"✗ only {days} days (need {MIN_DAYS_FOR_WEEKLY})"
+            print(f"    {yr}-W{wk:02d}: {days} days — {status}")
 
-    monthly_written = []
-    for (yr, mo), weeks in sorted(monthly_groups.items()):
-        if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
-            print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
-            continue
-        price_agg = aggregate_monthly_price(weeks)
-        technicals_agg = aggregate_monthly_technicals(weeks)
-        derivatives_agg = aggregate_monthly_derivatives(weeks)
-        on_chain_agg = aggregate_monthly_on_chain(weeks)
-        macro_agg = aggregate_monthly_macro(weeks)
-        sentiment_agg = aggregate_monthly_sentiment(weeks)
-        news_agg = aggregate_monthly_news(weeks)
-        signal_summary_agg = aggregate_monthly_signal_summary(weeks)
-        accumulation_metadata = aggregate_monthly_accumulation_metadata(weeks)
-        cex_dex_spread_agg = aggregate_cex_dex_spread_monthly(weeks)
-        weekly_breakdown = build_weekly_breakdown(weeks)
-        output_path = write_monthly_report(
-            yr, mo, config, paths, weeks,
-            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
-            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
-            accumulation_metadata, cex_dex_spread_agg, weekly_breakdown
-        )
-        if output_path:
-            monthly_written.append(output_path)
-            print(f"  Written: {output_path.name}")
-    print(f"\n{len(monthly_written)} monthly reports written.")
+        print("\nGenerating weekly reports...")
+        weekly_written = []
+        for (yr, wk), reports in sorted(weekly_groups.items()):
+            deduped = deduplicate_by_date(reports)
+            if len(deduped) < MIN_DAYS_FOR_WEEKLY:
+                print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
+                continue
+            daily_data = [d for d in [load_daily_report(r["path"]) for r in deduped] if d is not None]
+            if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
+                print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
+                continue
+            price_agg = aggregate_weekly_price(daily_data)
+            derivatives_agg = aggregate_weekly_derivatives(daily_data)
+            on_chain_agg = aggregate_weekly_on_chain(daily_data)
+            macro_agg = aggregate_weekly_macro(daily_data)
+            sentiment_agg = aggregate_weekly_sentiment(daily_data)
+            news_agg = aggregate_weekly_news(daily_data)
+            signal_summary_agg = aggregate_weekly_signal_summary(daily_data)
+            accumulation_metadata = aggregate_accumulation_metadata(deduped, daily_data)
+            cex_dex_spread = aggregate_cex_dex_spread(daily_data)
+            output_path = write_weekly_report(yr, wk, config, paths, deduped, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread)
+            if output_path:
+                weekly_written.append(output_path)
+                print(f"  Written: {output_path.name}")
+        print(f"\n{len(weekly_written)} weekly reports written.")
 
-    # Quarterly aggregation
-    print("\nGenerating quarterly reports...")
-    monthly_dir = paths["monthly"]
-    all_monthly = discover_monthly_reports(monthly_dir)
-    quarterly_groups = group_by_quarter(all_monthly)
-    print(f"  Found {len(quarterly_groups)} quarters from {len(all_monthly)} monthly reports")
+        # Monthly aggregation
+        print("\nGenerating monthly reports...")
+        weekly_dir = paths["weekly"]
+        all_weekly = discover_weekly_reports(weekly_dir)
+        monthly_groups = group_by_calendar_month(all_weekly)
+        print(f"  Found {len(monthly_groups)} calendar months from {len(all_weekly)} weekly reports")
 
-    quarterly_written = []
-    for (yr, q), months in sorted(quarterly_groups.items()):
-        if len(months) < MIN_MONTHS_FOR_QUARTERLY:
-            print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
-            continue
-        price_agg = aggregate_quarterly_price(months)
-        technicals_agg = aggregate_quarterly_technicals(months)
-        derivatives_agg = aggregate_quarterly_derivatives(months)
-        on_chain_agg = aggregate_quarterly_on_chain(months)
-        macro_agg = aggregate_quarterly_macro(months)
-        sentiment_agg = aggregate_quarterly_sentiment(months)
-        news_agg = aggregate_quarterly_news(months)
-        signal_summary_agg = aggregate_quarterly_signal_summary(months)
-        accumulation_metadata = aggregate_quarterly_accumulation_metadata(months)
-        cex_dex_spread_agg = aggregate_cex_dex_spread_quarterly(months)
-        monthly_breakdown = build_monthly_breakdown(months)
-        output_path = write_quarterly_report(
-            yr, q, config, paths, months,
-            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
-            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
-            accumulation_metadata, cex_dex_spread_agg, monthly_breakdown
-        )
-        if output_path:
-            quarterly_written.append(output_path)
-            print(f"  Written: {output_path.name}")
-    print(f"\n{len(quarterly_written)} quarterly reports written.")
+        monthly_written = []
+        for (yr, mo), weeks in sorted(monthly_groups.items()):
+            if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
+                print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
+                continue
+            price_agg = aggregate_monthly_price(weeks)
+            technicals_agg = aggregate_monthly_technicals(weeks)
+            derivatives_agg = aggregate_monthly_derivatives(weeks)
+            on_chain_agg = aggregate_monthly_on_chain(weeks)
+            macro_agg = aggregate_monthly_macro(weeks)
+            sentiment_agg = aggregate_monthly_sentiment(weeks)
+            news_agg = aggregate_monthly_news(weeks)
+            signal_summary_agg = aggregate_monthly_signal_summary(weeks)
+            accumulation_metadata = aggregate_monthly_accumulation_metadata(weeks)
+            cex_dex_spread_agg = aggregate_cex_dex_spread_monthly(weeks)
+            weekly_breakdown = build_weekly_breakdown(weeks)
+            output_path = write_monthly_report(
+                yr, mo, config, paths, weeks,
+                price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+                macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+                accumulation_metadata, cex_dex_spread_agg, weekly_breakdown
+            )
+            if output_path:
+                monthly_written.append(output_path)
+                print(f"  Written: {output_path.name}")
+        print(f"\n{len(monthly_written)} monthly reports written.")
 
-    # Prune old accumulated files
-    print("\nPruning old accumulated files...")
-    pruned = prune_accumulated_output(paths)
-    weekly_pruned = len(pruned["weekly"])
-    monthly_pruned = len(pruned["monthly"])
-    if weekly_pruned == 0 and monthly_pruned == 0:
-        print("  Nothing to prune.")
-    else:
-        print(f"  Pruned {weekly_pruned} weekly, {monthly_pruned} monthly files.")
+        # Quarterly aggregation
+        print("\nGenerating quarterly reports...")
+        monthly_dir = paths["monthly"]
+        all_monthly = discover_monthly_reports(monthly_dir)
+        quarterly_groups = group_by_quarter(all_monthly)
+        print(f"  Found {len(quarterly_groups)} quarters from {len(all_monthly)} monthly reports")
 
-    # Write accumulation index
-    print("\nWriting accumulation index...")
-    index_path = write_accumulation_index(config, paths)
-    if index_path:
-        print(f"  Written: {index_path.name}")
-    else:
-        print("  WARNING: accumulation index failed to write")
+        quarterly_written = []
+        for (yr, q), months in sorted(quarterly_groups.items()):
+            if len(months) < MIN_MONTHS_FOR_QUARTERLY:
+                print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
+                continue
+            price_agg = aggregate_quarterly_price(months)
+            technicals_agg = aggregate_quarterly_technicals(months)
+            derivatives_agg = aggregate_quarterly_derivatives(months)
+            on_chain_agg = aggregate_quarterly_on_chain(months)
+            macro_agg = aggregate_quarterly_macro(months)
+            sentiment_agg = aggregate_quarterly_sentiment(months)
+            news_agg = aggregate_quarterly_news(months)
+            signal_summary_agg = aggregate_quarterly_signal_summary(months)
+            accumulation_metadata = aggregate_quarterly_accumulation_metadata(months)
+            cex_dex_spread_agg = aggregate_cex_dex_spread_quarterly(months)
+            monthly_breakdown = build_monthly_breakdown(months)
+            output_path = write_quarterly_report(
+                yr, q, config, paths, months,
+                price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+                macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+                accumulation_metadata, cex_dex_spread_agg, monthly_breakdown
+            )
+            if output_path:
+                quarterly_written.append(output_path)
+                print(f"  Written: {output_path.name}")
+        print(f"\n{len(quarterly_written)} quarterly reports written.")
 
-    # Push accumulated output to GitHub
-    print("\nPushing accumulated output to GitHub...")
-    push_accumulated_to_github(paths, config)
+        # Prune old accumulated files
+        print("\nPruning old accumulated files...")
+        pruned = prune_accumulated_output(paths)
+        weekly_pruned = len(pruned["weekly"])
+        monthly_pruned = len(pruned["monthly"])
+        if weekly_pruned == 0 and monthly_pruned == 0:
+            print("  Nothing to prune.")
+        else:
+            print(f"  Pruned {weekly_pruned} weekly, {monthly_pruned} monthly files.")
 
-    print("Accumulator run complete.")
+        # Write accumulation index
+        print("\nWriting accumulation index...")
+        index_path = write_accumulation_index(config, paths)
+        if index_path:
+            print(f"  Written: {index_path.name}")
+        else:
+            print("  WARNING: accumulation index failed to write")
+
+        # Push accumulated output to GitHub
+        print("\nPushing accumulated output to GitHub...")
+        push_accumulated_to_github(paths, config)
+
+        print("Accumulator run complete.")
 
 if __name__ == "__main__":
     main()
