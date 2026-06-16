@@ -2,12 +2,14 @@
 
 import os
 import json
+import base64
 import argparse
 import shutil
 from datetime import datetime, timezone
 from dateutil.parser import parse as parse_date
 from dotenv import load_dotenv
 from pathlib import Path
+import requests
 
 load_dotenv()
 
@@ -2530,6 +2532,95 @@ def prune_accumulated_output(paths: dict) -> dict:
     return deleted
 
 
+def push_accumulated_to_github(paths: dict, config: dict) -> None:
+    """
+    Push all accumulated output files to GitHub.
+    Non-blocking — missing keys log a warning, never crash the script.
+    Follows the same pattern as push_report_to_github in market_report.py.
+    """
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+
+    if not token or not repo:
+        print("  ⚠ GitHub push skipped — GITHUB_TOKEN or GITHUB_REPO not set in .env")
+        return
+
+    token_lower = config["token_name"].lower()
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    def push_file(local_path: Path, github_path: str) -> bool:
+        try:
+            content = local_path.read_text(encoding="utf-8")
+            encoded = base64.b64encode(content.encode()).decode()
+            api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+
+            sha = None
+            check = requests.get(api_url, headers=headers, timeout=10)
+            if check.status_code == 200:
+                sha = check.json().get("sha")
+
+            payload = {
+                "message": f"accumulator: update {local_path.name}",
+                "content": encoded,
+                "branch": branch,
+            }
+            if sha:
+                payload["sha"] = sha
+
+            response = requests.put(api_url, json=payload, headers=headers, timeout=15)
+            if response.status_code in (200, 201):
+                print(f"  ✓ GitHub push — {github_path}")
+                return True
+            else:
+                print(f"  ✗ GitHub push failed — {github_path} HTTP {response.status_code}: {response.text[:100]}")
+                return False
+        except Exception as e:
+            print(f"  ✗ GitHub push failed — {github_path}: {e}")
+            return False
+
+    pushed = 0
+    failed = 0
+
+    # Push weekly files
+    for f in sorted(paths["weekly"].glob("weekly_*.json")):
+        github_path = f"context/{token_lower}/accumulated/weekly/{f.name}"
+        if push_file(f, github_path):
+            pushed += 1
+        else:
+            failed += 1
+
+    # Push monthly files
+    for f in sorted(paths["monthly"].glob("monthly_*.json")):
+        github_path = f"context/{token_lower}/accumulated/monthly/{f.name}"
+        if push_file(f, github_path):
+            pushed += 1
+        else:
+            failed += 1
+
+    # Push quarterly files
+    for f in sorted(paths["quarterly"].glob("quarterly_*.json")):
+        github_path = f"context/{token_lower}/accumulated/quarterly/{f.name}"
+        if push_file(f, github_path):
+            pushed += 1
+        else:
+            failed += 1
+
+    # Push accumulation index
+    index_path = paths["context_root"] / "accumulation_index.json"
+    if index_path.exists():
+        github_path = f"context/{token_lower}/accumulation_index.json"
+        if push_file(index_path, github_path):
+            pushed += 1
+        else:
+            failed += 1
+
+    print(f"  GitHub: {pushed} pushed, {failed} failed.")
+
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
@@ -2696,6 +2787,10 @@ def main():
         print(f"  Written: {index_path.name}")
     else:
         print("  WARNING: accumulation index failed to write")
+
+    # Push accumulated output to GitHub
+    print("\nPushing accumulated output to GitHub...")
+    push_accumulated_to_github(paths, config)
 
     print("Accumulator run complete.")
 
