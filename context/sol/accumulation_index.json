@@ -1,0 +1,173 @@
+{
+  "token": "SOL",
+  "generated_at": "2026-06-16T14:34:41 UTC",
+  "schema_version": "1.0.0",
+  "total_periods": 10,
+  "weekly_count": 7,
+  "monthly_count": 2,
+  "quarterly_count": 1,
+  "most_recent_weekly": {
+    "period_id": "2026-W24",
+    "period_type": "weekly",
+    "start_date": "2026-06-08",
+    "end_date": "2026-06-14",
+    "data_quality": "complete",
+    "overall_lean": "bullish",
+    "signals_available": 14,
+    "close_usd": 67.84,
+    "price_change_pct": 0.5782,
+    "filename": "weekly_2026_W24.json"
+  },
+  "most_recent_monthly": {
+    "period_id": "2026-M05",
+    "period_type": "monthly",
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-29",
+    "data_quality": "complete",
+    "overall_lean": "neutral",
+    "signals_available": 14,
+    "close_usd": 82.08,
+    "price_change_pct": -2.4599,
+    "filename": "monthly_2026_M05.json"
+  },
+  "most_recent_quarterly": {
+    "period_id": "2026-Q2",
+    "period_type": "quarterly",
+    "start_date": "2026-03-30",
+    "end_date": "2026-05-29",
+    "data_quality": "partial",
+    "overall_lean": "neutral",
+    "signals_available": 14,
+    "close_usd": 82.08,
+    "price_change_pct": -0.7617,
+    "filename": "quarterly_2026_Q2.json"
+  },
+  "periods": {
+    "weekly": [
+      {
+        "period_id": "2026-W18",
+        "period_type": "weekly",
+        "start_date": "2026-04-27",
+        "end_date": "2026-05-03",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 84.28,
+        "price_change_pct": 0.1188,
+        "filename": "weekly_2026_W18.json"
+      },
+      {
+        "period_id": "2026-W19",
+        "period_type": "weekly",
+        "start_date": "2026-05-04",
+        "end_date": "2026-05-10",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 94.65,
+        "price_change_pct": 12.4777,
+        "filename": "weekly_2026_W19.json"
+      },
+      {
+        "period_id": "2026-W20",
+        "period_type": "weekly",
+        "start_date": "2026-05-11",
+        "end_date": "2026-05-17",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 86.61,
+        "price_change_pct": -11.3057,
+        "filename": "weekly_2026_W20.json"
+      },
+      {
+        "period_id": "2026-W21",
+        "period_type": "weekly",
+        "start_date": "2026-05-18",
+        "end_date": "2026-05-24",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 84.69,
+        "price_change_pct": -0.1297,
+        "filename": "weekly_2026_W21.json"
+      },
+      {
+        "period_id": "2026-W22",
+        "period_type": "weekly",
+        "start_date": "2026-05-25",
+        "end_date": "2026-05-29",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 82.08,
+        "price_change_pct": -3.8876,
+        "filename": "weekly_2026_W22.json"
+      },
+      {
+        "period_id": "2026-W23",
+        "period_type": "weekly",
+        "start_date": "2026-06-03",
+        "end_date": "2026-06-07",
+        "data_quality": "partial",
+        "overall_lean": "bullish",
+        "signals_available": 14,
+        "close_usd": 64.67,
+        "price_change_pct": -9.0947,
+        "filename": "weekly_2026_W23.json"
+      },
+      {
+        "period_id": "2026-W24",
+        "period_type": "weekly",
+        "start_date": "2026-06-08",
+        "end_date": "2026-06-14",
+        "data_quality": "complete",
+        "overall_lean": "bullish",
+        "signals_available": 14,
+        "close_usd": 67.84,
+        "price_change_pct": 0.5782,
+        "filename": "weekly_2026_W24.json"
+      }
+    ],
+    "monthly": [
+      {
+        "period_id": "2026-M04",
+        "period_type": "monthly",
+        "start_date": "2026-03-30",
+        "end_date": "2026-05-03",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 84.28,
+        "price_change_pct": 1.8982,
+        "filename": "monthly_2026_M04.json"
+      },
+      {
+        "period_id": "2026-M05",
+        "period_type": "monthly",
+        "start_date": "2026-05-04",
+        "end_date": "2026-05-29",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 82.08,
+        "price_change_pct": -2.4599,
+        "filename": "monthly_2026_M05.json"
+      }
+    ],
+    "quarterly": [
+      {
+        "period_id": "2026-Q2",
+        "period_type": "quarterly",
+        "start_date": "2026-03-30",
+        "end_date": "2026-05-29",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 82.08,
+        "price_change_pct": -0.7617,
+        "filename": "quarterly_2026_Q2.json"
+      }
+    ]
+  }
+}
