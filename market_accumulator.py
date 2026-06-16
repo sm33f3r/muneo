@@ -2621,6 +2621,70 @@ def push_accumulated_to_github(paths: dict, config: dict) -> None:
     print(f"  GitHub: {pushed} pushed, {failed} failed.")
 
 
+def pull_reports_from_github(token_symbol: str, output_prefix: str) -> int:
+    """
+    Download daily report files from GitHub into the local reports/ directory.
+    Enables stateless Railway container execution by repopulating reports/
+    from the GitHub-hosted source of truth before accumulation runs.
+    Non-blocking — any failure logs a warning and returns 0, never raises.
+    """
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+
+    if not token or not repo:
+        print("  ⚠ GitHub pull skipped — GITHUB_TOKEN or GITHUB_REPO not set in .env")
+        return 0
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    reports_dir = Path("reports")
+    reports_dir.mkdir(parents=True, exist_ok=True)
+
+    downloaded = 0
+    try:
+        api_url = f"https://api.github.com/repos/{repo}/contents/reports"
+        response = requests.get(api_url, headers=headers, params={"ref": branch}, timeout=15)
+        if response.status_code != 200:
+            print(f"  ⚠ GitHub pull skipped — failed to list reports/ HTTP {response.status_code}")
+            return 0
+
+        files = response.json()
+        if not isinstance(files, list):
+            print("  ⚠ GitHub pull skipped — unexpected response listing reports/")
+            return 0
+
+        for entry in files:
+            name = entry.get("name")
+            download_url = entry.get("download_url")
+            if not name or not download_url:
+                continue
+            if not name.startswith(output_prefix) or not name.endswith(".json"):
+                continue
+
+            local_path = reports_dir / name
+            if local_path.exists():
+                continue
+
+            try:
+                file_response = requests.get(download_url, headers=headers, timeout=15)
+                if file_response.status_code == 200:
+                    local_path.write_bytes(file_response.content)
+                    downloaded += 1
+                else:
+                    print(f"  ⚠ Failed to download {name}: HTTP {file_response.status_code}")
+            except Exception as e:
+                print(f"  ⚠ Failed to download {name}: {e}")
+
+        return downloaded
+    except Exception as e:
+        print(f"  ⚠ GitHub pull failed for {token_symbol}: {e}")
+        return 0
+
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
@@ -2661,6 +2725,14 @@ def main():
         # Rebuild mode: clear existing accumulated output
         if args.rebuild:
             clear_accumulated_output(paths)
+
+        # Pull daily reports from GitHub (stateless container support)
+        downloaded = pull_reports_from_github(
+            token_symbol=config["token_name"],
+            output_prefix=config["output_prefix"]
+        )
+        if downloaded > 0:
+            print(f"  Pulled {downloaded} report(s) from GitHub")
 
         # Discover daily reports
         print(f"\nScanning reports for {config['output_prefix']}*.json ...")
