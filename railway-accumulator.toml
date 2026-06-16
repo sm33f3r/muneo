@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "python market_accumulator.py"
+cronSchedule = "0 9 * * 1"
