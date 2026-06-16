@@ -2494,6 +2494,42 @@ def write_accumulation_index(config: dict, paths: dict) -> Path:
         return None
 
 
+def prune_accumulated_output(paths: dict) -> dict:
+    """
+    Prune old accumulated files according to retention thresholds.
+    Keeps the most recent RETAIN_WEEKLY weekly files and RETAIN_MONTHLY monthly files.
+    Quarterly files are never pruned.
+    Returns a dict summarising what was deleted.
+    """
+    deleted = {"weekly": [], "monthly": []}
+
+    # Prune weekly
+    weekly_files = sorted(paths["weekly"].glob("weekly_*.json"))
+    if len(weekly_files) > RETAIN_WEEKLY:
+        to_delete = weekly_files[:-RETAIN_WEEKLY]
+        for f in to_delete:
+            try:
+                f.unlink()
+                deleted["weekly"].append(f.name)
+                print(f"  Pruned weekly: {f.name}")
+            except Exception as e:
+                print(f"  ⚠ Failed to prune {f.name}: {e}")
+
+    # Prune monthly
+    monthly_files = sorted(paths["monthly"].glob("monthly_*.json"))
+    if len(monthly_files) > RETAIN_MONTHLY:
+        to_delete = monthly_files[:-RETAIN_MONTHLY]
+        for f in to_delete:
+            try:
+                f.unlink()
+                deleted["monthly"].append(f.name)
+                print(f"  Pruned monthly: {f.name}")
+            except Exception as e:
+                print(f"  ⚠ Failed to prune {f.name}: {e}")
+
+    return deleted
+
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
@@ -2642,6 +2678,16 @@ def main():
             quarterly_written.append(output_path)
             print(f"  Written: {output_path.name}")
     print(f"\n{len(quarterly_written)} quarterly reports written.")
+
+    # Prune old accumulated files
+    print("\nPruning old accumulated files...")
+    pruned = prune_accumulated_output(paths)
+    weekly_pruned = len(pruned["weekly"])
+    monthly_pruned = len(pruned["monthly"])
+    if weekly_pruned == 0 and monthly_pruned == 0:
+        print("  Nothing to prune.")
+    else:
+        print(f"  Pruned {weekly_pruned} weekly, {monthly_pruned} monthly files.")
 
     # Write accumulation index
     print("\nWriting accumulation index...")
