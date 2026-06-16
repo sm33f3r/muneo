@@ -65,6 +65,7 @@ def setup_directories(config: dict) -> dict:
     paths = {
         "reports": Path("./reports"),
         "archive": Path("./reports/archive"),
+        "context_root": Path(f"./context/{token_dir}"),
         "accumulated_base": Path(f"./context/{token_dir}/accumulated"),
         "weekly": Path(f"./context/{token_dir}/accumulated/weekly"),
         "monthly": Path(f"./context/{token_dir}/accumulated/monthly"),
@@ -2409,6 +2410,90 @@ def write_weekly_report(iso_year, iso_week, config, paths, daily_reports, daily_
         print(f"  Failed to write {filename}: {e}")
         return None
 
+
+def write_accumulation_index(config: dict, paths: dict) -> Path:
+    """
+    Write a single accumulation_index.json to the token context root.
+    Lists all available weekly, monthly, and quarterly periods with key summary fields.
+    Axo reads this index to discover what accumulated periods are available.
+    """
+    from datetime import datetime, timezone
+
+    def summarise_report(f: Path, period_type: str) -> dict | None:
+        try:
+            report = json.loads(f.read_text())
+            pm = report.get("period_metadata") or {}
+            ss = report.get("signal_summary") or {}
+            price = report.get("price") or {}
+            am = report.get("accumulation_metadata") or {}
+            return {
+                "period_id": pm.get("period_id"),
+                "period_type": period_type,
+                "start_date": pm.get("start_date"),
+                "end_date": pm.get("end_date"),
+                "data_quality": am.get("data_quality"),
+                "overall_lean": ss.get("overall_lean"),
+                "signals_available": ss.get("signals_available"),
+                "close_usd": price.get("close_usd"),
+                "price_change_pct": (
+                    price.get("price_change_week_pct")
+                    or price.get("price_change_month_pct")
+                    or price.get("price_change_quarter_pct")
+                ),
+                "filename": f.name,
+            }
+        except Exception as e:
+            print(f"  ⚠ Failed to index {f.name}: {e}")
+            return None
+
+    weekly_entries = []
+    for f in sorted(paths["weekly"].glob("weekly_*.json")):
+        entry = summarise_report(f, "weekly")
+        if entry:
+            weekly_entries.append(entry)
+
+    monthly_entries = []
+    for f in sorted(paths["monthly"].glob("monthly_*.json")):
+        entry = summarise_report(f, "monthly")
+        if entry:
+            monthly_entries.append(entry)
+
+    quarterly_entries = []
+    for f in sorted(paths["quarterly"].glob("quarterly_*.json")):
+        entry = summarise_report(f, "quarterly")
+        if entry:
+            quarterly_entries.append(entry)
+
+    all_entries = weekly_entries + monthly_entries + quarterly_entries
+
+    index = {
+        "token": config["token_name"],
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC"),
+        "schema_version": SCHEMA_VERSION,
+        "total_periods": len(all_entries),
+        "weekly_count": len(weekly_entries),
+        "monthly_count": len(monthly_entries),
+        "quarterly_count": len(quarterly_entries),
+        "most_recent_weekly": weekly_entries[-1] if weekly_entries else None,
+        "most_recent_monthly": monthly_entries[-1] if monthly_entries else None,
+        "most_recent_quarterly": quarterly_entries[-1] if quarterly_entries else None,
+        "periods": {
+            "weekly": weekly_entries,
+            "monthly": monthly_entries,
+            "quarterly": quarterly_entries,
+        },
+    }
+
+    index_path = paths["context_root"] / "accumulation_index.json"
+    try:
+        with open(index_path, "w") as f:
+            json.dump(index, f, indent=2)
+        return index_path
+    except Exception as e:
+        print(f"  Failed to write accumulation_index.json: {e}")
+        return None
+
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
@@ -2557,6 +2642,14 @@ def main():
             quarterly_written.append(output_path)
             print(f"  Written: {output_path.name}")
     print(f"\n{len(quarterly_written)} quarterly reports written.")
+
+    # Write accumulation index
+    print("\nWriting accumulation index...")
+    index_path = write_accumulation_index(config, paths)
+    if index_path:
+        print(f"  Written: {index_path.name}")
+    else:
+        print("  WARNING: accumulation index failed to write")
 
     print("Accumulator run complete.")
 
