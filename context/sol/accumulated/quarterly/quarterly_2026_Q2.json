@@ -12,7 +12,7 @@
     "source": "accumulated",
     "script_version": "1.0.0",
     "schema_version": "1.0.0",
-    "generated_at": "2026-06-16T14:34:41 UTC",
+    "generated_at": "2026-06-17T05:00:55 UTC",
     "data_quality": "partial"
   },
   "price": {
@@ -24,13 +24,13 @@
     "drawdown_from_period_high_pct": -15.9447,
     "ath_usd": 293.31,
     "ath_drawdown_pct": -72.0149,
-    "avg_volume_24h_usd": 3223101695.28,
-    "total_volume_quarter_usd": 198755113619,
-    "avg_market_cap_usd": 49463809148.42,
+    "avg_volume_24h_usd": 3203706683.11,
+    "total_volume_quarter_usd": 194307600936,
+    "avg_market_cap_usd": 49446977929.56,
     "close_market_cap_usd": 47476039032,
-    "avg_cex_price_usd": 85.863964,
-    "volume_on_up_days_usd": 233936502866.43,
-    "volume_on_down_days_usd": 174392437181.1,
+    "avg_cex_price_usd": 85.835465,
+    "volume_on_up_days_usd": 229512032001.61,
+    "volume_on_down_days_usd": 171407059433.19,
     "volume_lean": "bullish",
     "months_included": 2
   },
@@ -109,14 +109,14 @@
     "spy_end": 756.47,
     "spy_change_pct": 19.7,
     "spy_lean": "bullish",
-    "vix_start": 30.61,
+    "vix_start": 25.25,
     "vix_end": 15.74,
-    "vix_change_pct": -48.58,
-    "vix_avg": 18.8687,
+    "vix_change_pct": -37.66,
+    "vix_avg": 18.7698,
     "vix_lean": "bullish"
   },
   "sentiment": {
-    "fear_greed_avg": 43.5893,
+    "fear_greed_avg": 43.575,
     "fear_greed_min": 25,
     "fear_greed_max": 62,
     "fear_greed_at_close": 33,
@@ -206,7 +206,7 @@
     "data_quality": "partial"
   },
   "cex_dex_spread": {
-    "avg_spread_pct": 0.077332,
+    "avg_spread_pct": 0.077541,
     "max_spread_pct": 0.264131,
     "min_spread_pct": 0.0
   }
