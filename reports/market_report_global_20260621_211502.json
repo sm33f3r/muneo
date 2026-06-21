@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-21T21:14:19 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2273609131031.83,
+    "total_market_cap_change_24h_pct": -0.3203,
+    "total_volume_24h_usd": 46223734290.68,
+    "btc_dominance_pct": 56.1743,
+    "eth_dominance_pct": 9.1231,
+    "total2_usd": 996425205803.68,
+    "total3_usd": 789001402411.65,
+    "active_cryptocurrencies": 17413,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 51.77,
+        "price_usd": 0.111144,
+        "market_cap_usd": 277535609
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": 12.4906,
+        "price_usd": 0.076223,
+        "market_cap_usd": 268134697
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": 10.5784,
+        "price_usd": 0.272094,
+        "market_cap_usd": 203092203
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 8.5201,
+        "price_usd": 0.00148744,
+        "market_cap_usd": 520076903
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": 5.6344,
+        "price_usd": 1.89,
+        "market_cap_usd": 450948214
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -49.219,
+        "price_usd": 0.081358,
+        "market_cap_usd": 182457426
+      },
+      {
+        "symbol": "RE",
+        "name": "RE",
+        "price_change_24h_pct": -13.5308,
+        "price_usd": 0.895071,
+        "market_cap_usd": 142671756
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -8.4431,
+        "price_usd": 14.11,
+        "market_cap_usd": 658175050
+      },
+      {
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "price_change_24h_pct": -8.3217,
+        "price_usd": 1.061,
+        "market_cap_usd": 186319912
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -6.3288,
+        "price_usd": 0.100823,
+        "market_cap_usd": 212025148
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63556,
+    "price_change_24h_pct": -0.5875,
+    "price_change_7d_pct": -0.3192,
+    "market_cap_usd": 1276612188706,
+    "volume_24h_usd": 15387519812,
+    "direction": "neutral",
+    "oi_usd": 6334605800.74,
+    "funding_rate_latest": 4.189e-05,
+    "funding_rate_7d_avg": 1.211e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5641,
+    "long_account_pct": 61.0,
+    "short_account_pct": 39.0,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1707.95,
+    "price_change_24h_pct": -1.4384,
+    "price_change_7d_pct": 2.6249,
+    "market_cap_usd": 207136544749,
+    "volume_24h_usd": 8974837148,
+    "eth_btc_ratio": 0.026873,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 73378134889.47,
+    "stablecoin_market_cap_usd": 314689698111.28,
+    "stablecoin_dominance_pct": 13.841
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 15,
+    "headlines": [
+      {
+        "headline": "The AI trade has left the hyperscalers in the dust. What will it take for that to change?",
+        "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer examines the market's love affair with memory and semi-cap equipment stocks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/the-ai-trade-has-left-the-hyperscalers-in-the-dust-what-will-it-take-for-that-to-change-.html",
+        "published_at": "2026-06-21T18:43:12Z"
+      },
+      {
+        "headline": "Iran talks, JD Vance, Reflecting Pool and Keir Starmer - Reuters",
+        "summary": "Iran talks, JD Vance, Reflecting Pool and Keir Starmer\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDhtUzRGRk9oZEZLX3FnWVl5WF9uVmRsbGNqTUpmWVVFLVA1VmhCdEZ0Q3pqbVZNR1M0dmwtVTFpeFRBQ19jOVdjeHp4R1dQQmZJUTVpand1b2pnd3NqLVBLSDhHZElnalczbWRqTE5ENUdYa0oyWkJJZVZzb1pwTzRrUzNjN2lVR0E4RTRJem84UWo4MmJMWg?oc=5",
+        "published_at": "2026-06-21T17:10:23Z"
+      },
+      {
+        "headline": "Raising the minimum wage has been a big political winner. Now it's running into resistance",
+        "summary": "Raising the minimum wage has been a progressive policy winner at the ballot box, but recent losses suggest an economic mood slowing its political momentum.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/raise-minimum-wage-inflation-politics.html",
+        "published_at": "2026-06-21T14:07:29Z"
+      },
+      {
+        "headline": "Trump says US will resume attacks if Iran does not restrain Hezbollah allies - Reuters",
+        "summary": "Trump says US will resume attacks if Iran does not restrain Hezbollah allies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRnRDWmZ2cjd6SldKNEFTZ3pKNFBSeE52eUk1cUpuZ3lWdUJDTU5sbXkybHVTLWN1SWVYMDBhMUROTU01VHhaOTh1RVl5TVY3NUI5OEdFbm1IN2toZW45TDltUi1Wbk9QazZRWnpudnV6WmNxc3BmSEIwbzFuRmhSZ29pSU5jWTNkVW1vUjk0RF9PVDVTWG5rOVVJOG9DbG9IcEhuZm9fV2pfbFN1TUcyU0xQd0pmUUhCTVo5YTJkakhjeTZ0MlQwQzhn?oc=5",
+        "published_at": "2026-06-21T13:48:32Z"
+      },
+      {
+        "headline": "The No. 1 trick I always teach to build unshakeable confidence\u2014it worked for Beyonc\u00e9 and Adele",
+        "summary": "\"No matter how talented or prepared you are, self-doubt can get in your way,\" says therapist Amy Morin. Here's how to channel your alter ego so you can do your best.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/the-no-1-trick-i-always-teach-to-build-unshakeable-confidence-therapist.html",
+        "published_at": "2026-06-21T13:45:01Z"
+      },
+      {
+        "headline": "No one wants AI data centers on Earth. Do they make sense in space?",
+        "summary": "Elon Musk's SpaceX is betting big on orbital AI data centers. The public doesn't want them on Earth, but the economic case for space-based is questionable.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/do-space-based-ai-data-centers-make-economic-sense.html",
+        "published_at": "2026-06-21T13:33:34Z"
+      },
+      {
+        "headline": "Here are 3 big things to watch in the stock market this coming week",
+        "summary": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/here-are-3-big-things-to-watch-in-the-stock-market-this-coming-week.html",
+        "published_at": "2026-06-21T12:36:03Z"
+      },
+      {
+        "headline": "The best parents and leaders use a 3-step formula to help people handle uncertainty, says Dr. Becky Kennedy",
+        "summary": "Even if you can't control an outcome, you can still help your child or co-worker feel more at ease with uncertainty, just by how you describe a situation.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/21/use-a-3-step-formula-to-help-people-handle-uncertainty-dr-becky-kennedy.html",
+        "published_at": "2026-06-21T12:30:02Z"
+      },
+      {
+        "headline": "No-fly zone for Iran talks disrupted flights at Zurich airport, authorities say - Reuters",
+        "summary": "No-fly zone for Iran talks disrupted flights at Zurich airport, authorities say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR3Y0aFE0VW1lYXZYRERxU3ZYcWFQSlQyTHcyaUhfQ3BiSlJ3cGhWOWxMNTFjNGh2SFNRTUxNLTh5MWZ4aEtlZGs1M0JfZU9ONlFzcDdGaFlISTRZVktPMmo2MS1jYlRmb25NNEk2Yk9oQWczSkVHVkczR2RwMkVFVVhsLVJzb3VXRVJ1QnljMHU2NmRoajk3TGROWkhiRGxOMHU4bHh6QkpfUE1VYjhaa0RHV1MyTnVHTExLbQ?oc=5",
+        "published_at": "2026-06-21T12:29:46Z"
+      },
+      {
+        "headline": "Iran's Tasnim news agency says Hormuz will not reopen until Lebanon ceasefire holds, oil waivers issued - Reuters",
+        "summary": "Iran's Tasnim news agency says Hormuz will not reopen until Lebanon ceasefire holds, oil waivers issued\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa005aHFiRnFPT0lhdUYwazVqbHV2cEhrTWJHWFVEZDhBWlpzNEtzRFptdVZsRkpwcnQ0ZVVfNXh5aE1JR202NGpWX3liaE1aeE4ybk5oRUhwLUJFWTNPOTdfMHRxMkM5bllwRDdVcXBLbUVCSDhKTEpCQS1rcERlUW9YLTBHZEQzYVRPanVKUFlpMHo1M1hpOTdvYlp6b0lUVk5OT2FXT196RjEwZ2dBRGxpNERROG5QOFVVVGlzWGcwMU1NNWE2X1FR?oc=5",
+        "published_at": "2026-06-21T11:19:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": 746.74,
+    "spy_change_pct": 0.7801,
+    "spy_lean": "bullish",
+    "vix_close": 18.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 22,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 21,
+    "positive_count": 4,
+    "negative_count": 8,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.1905,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Fentanyl-linked Chinese network tied to crypto fraud from Japan involving fake \u2018Zksync.jp\u2019 token: Nikkei",
+        "url": "https://www.theblock.co/post/405468/fentanyl-linked-chinese-network-tied-to-crypto-fraud-from-japan-involving-fake-zksync-jp-token-nikkei?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-21T20:06:58+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Inception Labs' Mercury 2 AI Beats Google's DiffusionGemma at Its Own Game",
+        "url": "https://decrypt.co/371722/inception-labs-mercury-2-ai-beats-googles-diffusiongemma",
+        "published_at": "2026-06-21T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Notorious \u2018jaredfromsubway\u2019 MEV bot drained for roughly $7.5 million in counter-MEV honeypot",
+        "url": "https://www.theblock.co/post/405464/notorious-jaredfromsubway-mev-bot-drained-for-roughly-7-5-million-in-counter-mev-honeypot?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-21T15:00:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains",
+        "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-21T14:50:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Secret Network Bridge Hit by $4.67M Exploit Via Infinite-Mint Flaw",
+        "url": "https://bitcoinist.com/02-secret-network-axelar-bridge-drained-in-infinite-mint/",
+        "published_at": "2026-06-21T14:50:47+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-21T14:21:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Price Setup Targets $1,850 As Buyers Defend Key Demand Zone",
+        "url": "https://bitcoinist.com/ethereum-price-setup-targets-1-850-as-buyers-defend-key-demand-zone/",
+        "published_at": "2026-06-21T14:06:12+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Proof of Reserves Reveals 1.1 Trillion SHIB Drop as Exchange Balances Shift",
+        "url": "https://bitcoinist.com/07-binance-proof-of-reserves-reveals-shib-reserve-drop/",
+        "published_at": "2026-06-21T13:45:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI 'Amplification Spiral' May Be Causing Delusions Among Users, Study Suggests",
+        "url": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
+        "published_at": "2026-06-21T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pudgy Penguins Expands Physical Brand With Trading Cards Launch at Target",
+        "url": "https://bitcoinist.com/05-pudgy-penguins-expands-trading-cards-to-target-stores/",
+        "published_at": "2026-06-21T12:45:42+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
