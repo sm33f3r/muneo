@@ -267,6 +267,21 @@ def lean_tech_sector(stock_results: dict) -> Optional[str]:
     return "neutral"
 
 
+def lean_coinbase_premium(premium_pct: Optional[float]) -> Optional[str]:
+    """
+    Positive premium = Coinbase BTC/USD > Binance BTC/USDT → US institutional buying → bullish.
+    Negative premium = Coinbase cheaper → risk-off / distribution → bearish.
+    Threshold ±0.05% absorbs normal exchange spread noise.
+    """
+    if premium_pct is None:
+        return None
+    if premium_pct > 0.05:
+        return "bullish"
+    if premium_pct < -0.05:
+        return "bearish"
+    return "neutral"
+
+
 def compute_overall_lean(signals: dict) -> str:
     available = [v for v in signals.values() if v is not None]
     n = len(available)
@@ -1159,9 +1174,34 @@ def build_report(
     time.sleep(15)
 
     # ------------------------------------------------------------------
-    # [25/25] Finnhub — macro news (general category)
+    # [25/26] Coinbase Exchange — BTC-USD spot ticker (no key required)
     # ------------------------------------------------------------------
-    print("[25/25] Fetching Finnhub — macro news...")
+    print("[25/26] Fetching Coinbase Exchange — BTC-USD ticker...")
+
+    coinbase_btc_price   = None
+    coinbase_premium_pct = None
+
+    cb_data = safe_fetch(
+        "Coinbase BTC-USD ticker",
+        lambda: _fetch_coinbase_btc_ticker(),
+        fetch_errors,
+    )
+    time.sleep(1)
+
+    if cb_data and btc_price_usd:
+        try:
+            coinbase_btc_price = float(cb_data["price"])
+            if btc_price_usd != 0:
+                coinbase_premium_pct = round(
+                    ((coinbase_btc_price - btc_price_usd) / btc_price_usd) * 100, 6
+                )
+        except (KeyError, ValueError, TypeError) as e:
+            fetch_errors.append(f"coinbase_ticker:parse_error: {e}")
+
+    # ------------------------------------------------------------------
+    # [26/26] Finnhub — macro news (general category)
+    # ------------------------------------------------------------------
+    print("[26/26] Fetching Finnhub — macro news...")
 
     finnhub_article_count_24h = 0
     finnhub_headlines: list   = []
@@ -1192,7 +1232,7 @@ def build_report(
                 fetch_errors.append(f"finnhub_news:parse_error: {e}")
     else:
         print("  \u2717 Finnhub macro news — FINNHUB_API_KEY not set")
-        fetch_errors.append("fetch_25:finnhub_news: skipped — FINNHUB_API_KEY not set")
+        fetch_errors.append("fetch_26:finnhub_news: skipped — FINNHUB_API_KEY not set")
     time.sleep(1)
 
     # ------------------------------------------------------------------
@@ -1202,6 +1242,7 @@ def build_report(
     btc_dominance_lean        = lean_btc_dominance(btc_dominance_pct)
     btc_direction_lean        = lean_btc_direction(btc_change_24h)
     spy_lean_val              = lean_spy(spy_change_pct)
+    coinbase_premium_lean_val = lean_coinbase_premium(coinbase_premium_pct)
 
     signals = {
         "market_cap_direction_lean": market_cap_direction_lean,
@@ -1217,6 +1258,7 @@ def build_report(
         "fear_greed_lean":           fear_greed_lean,
         "news_volume_lean":          news_volume_lean,
         "tech_sector_lean":          tech_sector_lean_val,
+        "coinbase_premium_lean":     coinbase_premium_lean_val,
     }
 
     available_sigs = {k: v for k, v in signals.items() if v is not None}
@@ -1295,6 +1337,9 @@ def build_report(
             "spy_lean":       spy_lean_val,
             "vix_close":      round(vix_latest, 4)   if vix_latest    is not None else None,
             "vix_lean":       vix_lean_val,
+            "coinbase_btc_price_usd": round(coinbase_btc_price, 2) if coinbase_btc_price is not None else None,
+            "coinbase_premium_pct":   coinbase_premium_pct,
+            "coinbase_premium_lean":  coinbase_premium_lean_val,
         },
         "tech_equities": {
             "fetched_at": now_utc.strftime("%Y-%m-%dT%H:%M:%S UTC"),
@@ -1318,7 +1363,7 @@ def build_report(
             "top_headlines":     top_headlines,
         },
         "signal_summary": {
-            "signals_evaluated": 13,
+            "signals_evaluated": 14,
             "signals_available": len(available_sigs),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1499,6 +1544,18 @@ def _fetch_finnhub_quote(symbol: str, api_key: str) -> dict:
     # Finnhub returns {"c": 0, "d": 0, ...} for unknown symbols — check c != 0
     if data.get("c", 0) == 0 and data.get("pc", 0) == 0:
         raise ValueError(f"No valid quote data for symbol {symbol}")
+    return data
+
+
+def _fetch_coinbase_btc_ticker() -> dict:
+    """Fetch BTC-USD spot ticker from Coinbase Exchange public API. No key required."""
+    url = "https://api.exchange.coinbase.com/products/BTC-USD/ticker"
+    headers = {"Accept": "application/json"}
+    resp = requests.get(url, headers=headers, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    if "price" not in data:
+        raise ValueError("Coinbase ticker response missing 'price' field")
     return data
 
 
