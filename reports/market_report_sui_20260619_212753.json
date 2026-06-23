@@ -1,0 +1,173 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-19T21:27:08 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.712575,
+    "price_change_24h_pct": -1.3207,
+    "price_change_7d_pct": -4.85,
+    "volume_24h_usd": 282744514,
+    "market_cap_usd": 2873495507,
+    "volume_to_mcap_ratio": 0.098397,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -86.6723,
+    "cex_price_usd": 0.7123,
+    "cex_24h_high": 0.7326,
+    "cex_24h_low": 0.7015,
+    "cex_dex_spread_pct": -0.038592,
+    "volume_on_up_days_usd": 487497329.7097548,
+    "volume_on_down_days_usd": 607028508.6488585,
+    "volume_lean": "bearish"
+  },
+  "technical_indicators": {
+    "rsi_14": 38.5876,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.098204,
+      "signal_line": -0.091176,
+      "histogram": -0.007028
+    },
+    "macd_lean": "bearish",
+    "sma_50": 1.1433,
+    "price_vs_sma50_pct": -37.6738,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.225492,
+      "mid": 0.948198,
+      "lower": 0.670905,
+      "width_pct": 58.4885,
+      "position": 0.22
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 67603214.88,
+    "oi_lean": null,
+    "funding_rate_latest": 5.44e-05,
+    "funding_rate_7d_avg": 2.4572857142857144e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.8637,
+    "btc_long_account_pct": 65.08,
+    "btc_short_account_pct": 34.92,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 434120408.0,
+    "tvl_7d_change_pct": -0.6076,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 68168.0,
+    "chain_fees_7d_avg_usd": 77116.86,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 2,
+    "positive_count": 0,
+    "negative_count": 1,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "TD Cowen says CME has the upper hand in lawsuit against CFTC over crypto perpetual futures",
+        "url": "https://www.theblock.co/post/405446/td-cowen-cme-upper-hand-cftc-lawsuit-crypto-perpetual-futures?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-19T17:47:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC, SEC request public comment to clarify definition of \u2018swaps\u2019 amid CME lawsuit",
+        "url": "https://www.theblock.co/post/405380/cftc-sec-public-comment-swaps?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-19T05:15:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 63131.0,
+    "btc_24h_change_pct": 0.3759,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.2561,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2172729125120.227,
+    "eth_btc_ratio": 0.026999,
+    "eth_btc_lean": "neutral",
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": "neutral",
+    "vix_close": 18.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 50.0,
+    "cg_sentiment_votes_down_pct": 50.0,
+    "sentiment_lean": "neutral",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 5,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bearish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "neutral"
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response"
+  ]
+}

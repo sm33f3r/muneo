@@ -1,0 +1,364 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-18T21:11:17 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2258660563338.05,
+    "total_market_cap_change_24h_pct": -1.4868,
+    "total_volume_24h_usd": 82506079017.26,
+    "btc_dominance_pct": 55.9332,
+    "eth_dominance_pct": 9.1348,
+    "total2_usd": 995318829289.95,
+    "total3_usd": 788994894135.16,
+    "active_cryptocurrencies": 17435,
+    "altcoin_season_index": 74,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 47.8269,
+        "price_usd": 0.497709,
+        "market_cap_usd": 209747643
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 31.5805,
+        "price_usd": 17.15,
+        "market_cap_usd": 5366235775
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 30.0204,
+        "price_usd": 0.608918,
+        "market_cap_usd": 152349448
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 22.4395,
+        "price_usd": 0.01044913,
+        "market_cap_usd": 567618192
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": 10.2989,
+        "price_usd": 0.226197,
+        "market_cap_usd": 167562543
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": -14.3481,
+        "price_usd": 0.095892,
+        "market_cap_usd": 240572394
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": -13.7693,
+        "price_usd": 0.386782,
+        "market_cap_usd": 360826406
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": -12.9727,
+        "price_usd": 0.03663508,
+        "market_cap_usd": 300361684
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -12.3933,
+        "price_usd": 0.102436,
+        "market_cap_usd": 215061462
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price_change_24h_pct": -11.288,
+        "price_usd": 0.63164,
+        "market_cap_usd": 1691978616
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63017,
+    "price_change_24h_pct": -1.9821,
+    "price_change_7d_pct": -0.4963,
+    "market_cap_usd": 1263364030032,
+    "volume_24h_usd": 31558001693,
+    "direction": "bearish",
+    "oi_usd": 6215910546.71,
+    "funding_rate_latest": 8.72e-06,
+    "funding_rate_7d_avg": -4.734285714285715e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9735,
+    "long_account_pct": 66.37,
+    "short_account_pct": 33.63,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1706.64,
+    "price_change_24h_pct": -2.0622,
+    "price_change_7d_pct": 2.1754,
+    "market_cap_usd": 206252647992,
+    "volume_24h_usd": 12968916745,
+    "eth_btc_ratio": 0.027082,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72176176416.16,
+    "stablecoin_market_cap_usd": 314004757892.27,
+    "stablecoin_dominance_pct": 13.9023
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 38,
+    "headlines": [
+      {
+        "headline": "In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication",
+        "summary": "Barack Obama opened his presidential center in Chicago with former presidents, celebrities and dignitaries in attendance. President Donald Trump was absent.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/18/obama-presidential-center-opening-chicago-photos-trump.html",
+        "published_at": "2026-06-18T20:51:33Z"
+      },
+      {
+        "headline": "Wall St indexes advance with boost from chips, Iran optimism - Reuters",
+        "summary": "Wall St indexes advance with boost from chips, Iran optimism\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbk9OU3cxZnFJZTJuS2dhU3hka1hTQjc0ay1fMUgzTHl5cnhpb2F1NzUzbEkwTmQ1TzkxWHJscTJKVGRkMEFvdC1ieXJ1RDhWVjRvNERsaHdwUVBROEE4ckpaaUwyY1I0RlJwMVRDWFBSd1BmYkF0OC02UXIxMXFwSFU2RGNpd1hwNG9lN1NqbWVMTlhRUUhkVk5jdHN4MVhfRXpnZkdXYUFiT25WOWVndVktRVBNUHY3WjQ1SkNDeWFNZw?oc=5",
+        "published_at": "2026-06-18T20:01:22Z"
+      },
+      {
+        "headline": "Traffic flows through Hormuz as U.S.-Iran deal takes effect, questions remain - Reuters",
+        "summary": "Traffic flows through Hormuz as U.S.-Iran deal takes effect, questions remain\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR2xiMDYySHk3ZzFXaHcyR1ZHNDFJQUJVNzF4MTRQcmdmZ1pDUVNyR1Z5N255MjkzSHItckpnalNfRUo5VWpjTDVHSHE3R3kybW1NRGd5NGJKV0prTFA0eUZBd0hVZzlMTTNNcXVWR3JTV1lOMzhwYXVtMEc4N05QVlFCSDlnYnZ5S24zMVdMSjl2M2pTYnc0eDdJUkZhWVlwS0tQaUJjTnJIMTNka1E5dm9RcHprVkkydVo4a3dzUmV3RTg4bE5feDN5dw?oc=5",
+        "published_at": "2026-06-18T19:49:36Z"
+      },
+      {
+        "headline": "Vance warns Israeli critics over Iran deal: Trump is your only ally - Reuters",
+        "summary": "Vance warns Israeli critics over Iran deal: Trump is your only ally\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQXNyRDhPaS1YLXpCcE5sWnNCNWdCMENzLUI2bnk2ZkpteXZOWGpNMWVUeDZTR3M5WW92bnpIS3l1dnF1czFEcVZkNXpCRncwR0JGeVZuZkFCcUhLdVA0NTAzVDhXdTN5d0ItOUpQc29KdFdVeHduUHlqTFNnSHRkeG9rSGFxSm90Q1dWLWdqUXFURk5UUzVfZHJtRi0xaE1pQmlaZ3dib2NmSnJkWk44Y0phYk9PZk1RU2FNNXdGd0tDSG5t?oc=5",
+        "published_at": "2026-06-18T19:29:34Z"
+      },
+      {
+        "headline": "Republicans blast Trump's Iran agreement as details emerge - Reuters",
+        "summary": "Republicans blast Trump's Iran agreement as details emerge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa0FBNEpEUk9sRDhBMkp2bERRNEtLX3oweFJuTlM0ejdMZDZhX2ktUlg3cFk3TWc3aVcxc0xFeVlBTzg4eGZBMHNNS2dHbW1YSFJkZXYtZ3FGNWhKeTlZSU9KVWR2ZXphRlJjWk11ckFwUDM2cDM3Mm5rRk14ZkxoNEp3Qy1kdUR6OEFnczJHZzdhTUJUbW9LdGRGV2s?oc=5",
+        "published_at": "2026-06-18T19:15:01Z"
+      },
+      {
+        "headline": "High-wire diplomacy delivered US-Iran deal but hardest stage lies ahead, sources say - Reuters",
+        "summary": "High-wire diplomacy delivered US-Iran deal but hardest stage lies ahead, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa1dJX0x2UlpVczFzemJuZ1dvV3hQZ2cycnFNS0s5ZnlIcFl1Y0RLSHhKQXNzYVdwbHpyZDZWbVFJOTNmVG43THYxZFhCUXloMmtyelJrTFJfOFB3NVgxUUNxcno4XzRLNlhMbGtZckowdy1EdVUtV2N3Q093VFAtb1QyVUc0MGlRcHRpekZ5Yi04WHU3aTM2S2p3ZE13VlotTmU5TUZfMlZlVkxESC1BdURxdHo5ZElaVnNtYl9rNVJacFcyUnZvLXdnWDg?oc=5",
+        "published_at": "2026-06-18T18:56:08Z"
+      },
+      {
+        "headline": "NBA to name winning bids for Europe teams in the coming months, deputy commissioner says",
+        "summary": "The NBA plans to name winning bidders for 12 permanent European teams in the next 60 to 90 days, Deputy Commissioner Mark Tatum told CNBC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/18/nba-europe-bids-mark-tatum.html",
+        "published_at": "2026-06-18T18:50:59Z"
+      },
+      {
+        "headline": "US Treasury imposes sanctions on Lebanese officials, others for aiding Hezbollah - Reuters",
+        "summary": "US Treasury imposes sanctions on Lebanese officials, others for aiding Hezbollah\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcnd4QjhkclBlbnVhMzZNeXM4cF9ocHhzY3E4c2hlWWlsWGhuWTdPRzlZWFo3Yzh0WllCNFE3V1JERExSdHZRMElQZkl6V05HNGIyLVgtN1p6OEdNTFVydVNxMTE1Q0hFZXY3NHdYQkhRRTBUNnFmZ0hMdHdUd1RNRUF3NlVmOE9Vb1RIQ1hTU25rVUZOdFc1YmFZWTl6b3VnMlVQMURGWm1wSWY3QkFVRHkzYm9sdmFQSEZfS3NPSkVxS1lX?oc=5",
+        "published_at": "2026-06-18T18:24:56Z"
+      },
+      {
+        "headline": "US-Iran deal redraws the Middle East: Iran gains, rivals alarmed - Reuters",
+        "summary": "US-Iran deal redraws the Middle East: Iran gains, rivals alarmed\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMHdqWU5BUEl6Rk5rSXlOWFpXQmtwRXdrRXlHeHlBSHFGbE1Nb1JaSUJFcnVVX1FLWlQ0b09ReTNNdFVySjNQeGdkUnpsbVg3X2lvWURuemFDOTFUQkVYRGItWkFEUE45MThwTUNQNElaYlE1akRDckRzNFZ0QWxyWkRzV3R2T2FBaTl3WXluSjQ4ZDdPZkd2eWg0OHVHblJlc1RfVnVjM1JEdkRVTzVnRWxB?oc=5",
+        "published_at": "2026-06-18T18:01:50Z"
+      },
+      {
+        "headline": "Iran's Khamenei says he approved MoU with US, despite reservations, after assurances on Iran's rights - Reuters",
+        "summary": "Iran's Khamenei says he approved MoU with US, despite reservations, after assurances on Iran's rights\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPczF6UzVRTUVGQXRuMmcxYm1INEtHVlRhWHEtYWhnVHlrRV90bDF0d0MxdjFmTVNQLUVzeDgxN1dMT0JjWjM2TUhJRHNBVmhXTXdpbjRvQ0hlMk5NRjhEQW9DZWpmT0xjOXRrcnlIME92VEY1b2pxaGk2NmdaZm9kOUVLX2lXYWd4U3VWcGRnQnVqNWY5TWl2Ql9XNDRzUUNZVk9KeUV5Y21JS0hHeWlpYzRKcllxeE9aSEtXVnduUUpXZw?oc=5",
+        "published_at": "2026-06-18T17:52:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": null,
+    "vix_close": 18.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 73,
+    "positive_count": 5,
+    "negative_count": 14,
+    "neutral_count": 54,
+    "sentiment_ratio": 0.0685,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CryptoQuant says bitcoin microtransactions now make up 80% of daily transactions",
+        "url": "https://www.theblock.co/post/405340/cryptoquant-bitcoin-micro-transactions-btc?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-18T21:07:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Custodia, Vantage propose token that toggles between bank deposits and stablecoins",
+        "url": "https://cointelegraph.com/news/custodia-vantage-unveil-token-that-shifts-between-bank-deposits-and-stablecoins?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-18T21:02:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Hits Celsius Crypto Fraudster Alex Mashinsky With Permanent Trading Ban",
+        "url": "https://decrypt.co/371608/cftc-celsius-crypto-fraudster-alex-mashinsky-permanent-trading-ban",
+        "published_at": "2026-06-18T21:02:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant Metric Signals Whale Accumulation Near Bitcoin $64K Support",
+        "url": "https://bitcoinist.com/cryptoquant-spot-average-order-size-whale-accumulation/",
+        "published_at": "2026-06-18T21:00:08+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Texas power grid allocation framework could lift bitcoin miners turned data center operators",
+        "url": "https://www.theblock.co/post/405322/texas-power-grid-allocation-framework-lift-bitcoin-miners-data-center-operators?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-18T20:55:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Algorand Plans to Be Ready for Quantum Computing Threat by End of 2027",
+        "url": "https://decrypt.co/371581/algorand-plans-ready-quantum-computing-threat-end-2027",
+        "published_at": "2026-06-18T20:52:47+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ireland mulls crypto safeguards in response to financial risks",
+        "url": "https://cointelegraph.com/news/ireland-government-standards-crypto-risk-assessment?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-18T20:25:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation Exodus Continues as Co-Director Hsiao-Wei Wang Departs",
+        "url": "https://decrypt.co/371603/ethereum-foundation-exodus-co-director-hsiao-wei-wang-departs",
+        "published_at": "2026-06-18T20:16:42+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wealthsimple launches Kalshi-powered prediction market app for Canadian investors",
+        "url": "https://cointelegraph.com/news/wealthsimple-launches-kalshi-powered-prediction-market-app-for-canadian-investors?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-18T20:07:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sen. Gillibrand\u2019s son is building a perps exchange that wants dual CFTC, SEC oversight: report",
+        "url": "https://www.theblock.co/post/405334/sen-gillibrand-son-building-perps-exchange-dual-cftc-sec-oversight?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-18T20:06:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 11,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 4,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": null,
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response"
+  ]
+}

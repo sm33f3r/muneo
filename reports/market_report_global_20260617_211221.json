@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-17T21:11:36 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2300206566327.82,
+    "total_market_cap_change_24h_pct": -1.7282,
+    "total_volume_24h_usd": 84400537199.23,
+    "btc_dominance_pct": 56.0916,
+    "eth_dominance_pct": 9.1575,
+    "total2_usd": 1009983839797.61,
+    "total3_usd": 799343141484.28,
+    "active_cryptocurrencies": 17432,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 22.3958,
+        "price_usd": 0.00126596,
+        "market_cap_usd": 137699802
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 19.4134,
+        "price_usd": 0.111938,
+        "market_cap_usd": 281473226
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 18.7225,
+        "price_usd": 0.467211,
+        "market_cap_usd": 117568360
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": 15.6791,
+        "price_usd": 0.448531,
+        "market_cap_usd": 416976091
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": 9.229,
+        "price_usd": 0.373788,
+        "market_cap_usd": 346226626
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -35.7388,
+        "price_usd": 1.66,
+        "market_cap_usd": 475004373
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -25.9607,
+        "price_usd": 0.329868,
+        "market_cap_usd": 328190841
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -25.8614,
+        "price_usd": 0.336482,
+        "market_cap_usd": 141342613
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -23.349,
+        "price_usd": 0.209863,
+        "market_cap_usd": 381578371
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -19.8032,
+        "price_usd": 14.81,
+        "market_cap_usd": 692688228
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64297,
+    "price_change_24h_pct": -2.3637,
+    "price_change_7d_pct": 3.8033,
+    "market_cap_usd": 1288490809156,
+    "volume_24h_usd": 30554659307,
+    "direction": "bearish",
+    "oi_usd": 6387643268.0,
+    "funding_rate_latest": -2.582e-05,
+    "funding_rate_7d_avg": -5.188571428571429e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7034,
+    "long_account_pct": 63.01,
+    "short_account_pct": 36.99,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1743.93,
+    "price_change_24h_pct": -2.9928,
+    "price_change_7d_pct": 6.9915,
+    "market_cap_usd": 210554833102,
+    "volume_24h_usd": 14452398816,
+    "eth_btc_ratio": 0.027123,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74238083773.59,
+    "stablecoin_market_cap_usd": 314455250903.33,
+    "stablecoin_dominance_pct": 13.6707
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "The 14-point U.S.-Iran pact as read by U.S. official - Reuters",
+        "summary": "The 14-point U.S.-Iran pact as read by U.S. official\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa1lJY0Ric2o2WU9Icy1KdkRYVFVITFlSLVJXcWhSd1JJa01pdmwzQnJCSktnMmFMT2NBb0dmcnQxUjk3LXpCSUhwdjl0VGdJdm8xcWR2dEdDS3pCeFB1TTI3V3pEUmpyOE93eDdkdkxBZG9SMUJRUW9iemFJcEhGREoyVGxKeGlY?oc=5",
+        "published_at": "2026-06-17T18:48:30Z"
+      },
+      {
+        "headline": "Trump says Iran deal averted 'economic catastrophe' but says he could still restart war - Reuters",
+        "summary": "Trump says Iran deal averted 'economic catastrophe' but says he could still restart war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSklNM1g3ZG9QYmFoMkJRS3o2T2ZRMTJ1azE5eG1YLU5TUXdEY1F5TkFBU01GMUt1UUstcHRrekJsOHBmRURqd2NTMVpzVVFoQlRPWHNvUVVQLU5ZRkJsNzZKNURTd01PQ1pubzFrR0UzdlMzbXU2RXBwLU9fT25GSU80UkRVcUlpWE9MOGhxYW4yS1lIbDJ3UkR5anJudnZPcDhhOHhqN3JxcWM?oc=5",
+        "published_at": "2026-06-17T18:33:36Z"
+      },
+      {
+        "headline": "We're buying more of one industrial-focused stock and booking some profits in another",
+        "summary": "These moves are consistent with what we said during Wednesday afternoon's June Monthly Meeting.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/were-buying-more-of-one-industrial-focused-stock-and-booking-some-profits-in-another.html",
+        "published_at": "2026-06-17T18:21:38Z"
+      },
+      {
+        "headline": "Trump thanks China's Xi, Russia's Putin for being 'neutral' in Iran war - Reuters",
+        "summary": "Trump thanks China's Xi, Russia's Putin for being 'neutral' in Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY0JiQ2VMdnBDbG5NQk9WV2RhbmlxSHl1di1NYVVrSE1wVEFxdzRlZ1FJTmpPMjJWT0phR3VjM09uaUN1c1RwOFZsUkMxSXJlam9nV2UtVGpIdE5yQ0FCWXdkMWUweWt3VktaX1U3b1FTNHFtTTZ0MEdnN2JHZno0YjJVcm1xMjJCTWIwN0pfM3pDVndYN2liT1NORk5lVTRmbloxeXFTN0U2UlE?oc=5",
+        "published_at": "2026-06-17T18:17:43Z"
+      },
+      {
+        "headline": "Making money in this market requires rigor and passion \u2014 just not in equal parts",
+        "summary": "I spend a huge amount of time trying to control the passion. But stock picking isn't always that rigorous.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/investing-in-this-market-requires-rigor-and-passion-not-in-equal-parts.html",
+        "published_at": "2026-06-17T17:27:51Z"
+      },
+      {
+        "headline": "CarMax shares fall after used car retailer reports earnings beats, CEO details turnaround plan",
+        "summary": "Despite the beats, questions remain about the company's ability to grow and cut costs under the plan amid tougher market conditions, including margin pressure.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/carmax-kmx-q1-earnings.html",
+        "published_at": "2026-06-17T17:12:29Z"
+      },
+      {
+        "headline": "JetBlue to reduce Newark, LaGuardia footprint as it forges ahead in Fort Lauderdale",
+        "summary": "JetBlue is planning to cut crew bases at Newark Liberty International Airport in New Jersey and New York's LaGuardia Airport.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/jetblue-to-reduce-newark-laguardia-footprint-as-it-expands-in-florida.html",
+        "published_at": "2026-06-17T16:18:13Z"
+      },
+      {
+        "headline": "UniQure to seek FDA approval for Huntington's disease gene therapy after previous clash with agency",
+        "summary": "The announcement comes months after UniQure became embroiled in a public debate with FDA leaders over the clinical trial data supporting its application.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/huntingtons-disease-drugmaker-uniqure-to-seek-fda-ok-for-gene-therapy.html",
+        "published_at": "2026-06-17T16:12:05Z"
+      },
+      {
+        "headline": "3 of our stocks striking gold and 3 others hitting the skids over the past 3 weeks",
+        "summary": "It was a volatile period for stocks. The S&P 500 saw its worst session in eight months, just days after the index reached record highs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/17/3-of-our-stocks-striking-gold-and-3-others-hitting-the-skids-over-the-past-3-weeks.html",
+        "published_at": "2026-06-17T14:42:34Z"
+      },
+      {
+        "headline": "While Trump hails Gulf oil flowing, Iran's fleet also gearing up to boost exports - Reuters",
+        "summary": "While Trump hails Gulf oil flowing, Iran's fleet also gearing up to boost exports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSFFlYnl5QndZQXFjZmhWYzcxclFRY2x2NG1MWExhZlFhTnR3Q3ozSnhXVHg5YUpQQWhmRHZCQ2tpRVo5M1BsUVNMTHFaLWZPMzQ1NjVzdWhCM0lEMlZZMDIzN2JPNTltbVhYTkJSZ1JGRWtwUXc2dGszeldrRThyNk1RbnFWUUZtX0p1MEZ0OXBKeGdjeThhSmtCN29DbXhtRTdzWmpGU1BzTDFlRjhHOEplVF9ndGZ0WUE?oc=5",
+        "published_at": "2026-06-17T14:40:10Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": 741.06,
+    "spy_change_pct": -1.2355,
+    "spy_lean": "bearish",
+    "vix_close": 16.41,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 22,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 68,
+    "positive_count": 12,
+    "negative_count": 14,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.1765,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Strategy\u2019s STRC preferred stock closes day 11% under par at $89",
+        "url": "https://www.theblock.co/post/405160/strategys-strc-preferred-stock-closes-day-89?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-17T20:59:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto-backed GOP candidate wins Alabama Senate runoff with June primaries looming",
+        "url": "https://cointelegraph.com/news/crypto-pac-alabama-senate-runoff-june-primaries?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-17T20:51:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin capitulation \u2018twice as weak\u2019 after spot liquidity turns supportive: Glassnode",
+        "url": "https://cointelegraph.com/markets/bitcoin-capitulation-twice-as-weak-as-spot-liquidity-turns-supportive-glassnode?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-17T20:26:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto markets wobble after hawkish Fed outlook in Kevin Warsh\u2019s first FOMC meeting",
+        "url": "https://www.theblock.co/post/405152/crypto-markets-wobble-hawkish-fed-outlook-kevin-warsh-first-fomc-meeting?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-17T20:19:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia Built Robots That Train Themselves Using AI Coding Agents",
+        "url": "https://decrypt.co/371456/nvidia-built-robots-train-themselves-ai-coding-agents",
+        "published_at": "2026-06-17T20:16:27+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-17T20:01:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blockchain.com deepens onchain stock offerings as tokenized equities market grows",
+        "url": "https://cointelegraph.com/news/blockchaincom-adds-173-tokenized-stocks-and-etfs-through-ondo?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-17T19:32:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Altcoin selling tops $266B as capital rotates out of crypto: Is altseason extinct?",
+        "url": "https://cointelegraph.com/markets/altcoins-witness-266b-in-selling-at-5-year-high-is-capital-leaving-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-17T19:23:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CoinFund, Coinbase Back Stablecoin Payments Startup Trace Finance in $32 Million Raise",
+        "url": "https://decrypt.co/371453/coinfund-coinbase-back-stablecoin-payments-startup-trace-32-million",
+        "published_at": "2026-06-17T19:17:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VanEck Says Bitcoin Miners Face $50 Billion Funding Gap In AI Pivot",
+        "url": "https://bitcoinist.com/vaneck-says-bitcoin-miners-face-50-billion-funding-gap-in-ai-pivot/",
+        "published_at": "2026-06-17T19:00:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}

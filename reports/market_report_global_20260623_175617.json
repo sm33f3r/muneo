@@ -1,0 +1,406 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-23T17:55:17 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2226257296776.06,
+    "total_market_cap_change_24h_pct": -3.0312,
+    "total_volume_24h_usd": 75393044210.19,
+    "btc_dominance_pct": 56.2113,
+    "eth_dominance_pct": 8.9841,
+    "total2_usd": 974848664593.16,
+    "total3_usd": 774839310419.06,
+    "active_cryptocurrencies": 17408,
+    "altcoin_season_index": 58,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RUSD",
+        "name": "Royal Dollar",
+        "price_change_24h_pct": 233.5657,
+        "price_usd": 0.999897,
+        "market_cap_usd": 249974315
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 26.2964,
+        "price_usd": 22.88,
+        "market_cap_usd": 1068415597
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 14.8238,
+        "price_usd": 1.98,
+        "market_cap_usd": 569521196
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 7.1453,
+        "price_usd": 0.09913,
+        "market_cap_usd": 218359782
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": 6.9687,
+        "price_usd": 9.82,
+        "market_cap_usd": 150676104
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -32.9282,
+        "price_usd": 0.072987,
+        "market_cap_usd": 182535835
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -25.178,
+        "price_usd": 0.102058,
+        "market_cap_usd": 185644931
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -16.2627,
+        "price_usd": 0.577348,
+        "market_cap_usd": 144469700
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -14.8445,
+        "price_usd": 0.538496,
+        "market_cap_usd": 1864300791
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": -13.67,
+        "price_usd": 0.250952,
+        "market_cap_usd": 186047203
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62398,
+    "price_change_24h_pct": -3.2943,
+    "price_change_7d_pct": -5.2515,
+    "market_cap_usd": 1251262534613,
+    "volume_24h_usd": 30960534175,
+    "direction": "bearish",
+    "oi_usd": 6180671343.21,
+    "funding_rate_latest": -1.889e-05,
+    "funding_rate_7d_avg": 2.1942380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0893,
+    "long_account_pct": 67.63,
+    "short_account_pct": 32.37,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1655.8,
+    "price_change_24h_pct": -4.6952,
+    "price_change_7d_pct": -6.8131,
+    "market_cap_usd": 199922450611,
+    "volume_24h_usd": 10667129196,
+    "eth_btc_ratio": 0.026536,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71708742869.45,
+    "stablecoin_market_cap_usd": 313997597210.35,
+    "stablecoin_dominance_pct": 14.1043
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 28,
+    "headlines": [
+      {
+        "headline": "Here's why we decided to put money to work in Tuesday's market pullback",
+        "summary": "The action on Wall Street looks far more constructive than it appeared at the crack of dawn.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/heres-why-we-decided-to-put-money-to-work-in-tuesdays-market-pullback.html",
+        "published_at": "2026-06-23T17:20:07Z"
+      },
+      {
+        "headline": "Israel fire kills two in Lebanon, testing Iran-linked ceasefire - Reuters",
+        "summary": "Israel fire kills two in Lebanon, testing Iran-linked ceasefire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTVwSnNBZWg1eXlocHBxRFFpclM1emt5M3BGdFd1Uzg4UXgxMk1nOExNMmh6UGJlQXlXS1liQVYteHRpZHJ3RUpyeEIybGdXeWFPRGdxYm45LTRYeEJGRW1DbkZ4MlhxUjRxTXFUT21kUGNaMmVuNlJGbVhOcmxJbUhVaXEtOFVXMEdqMUpSOGZTbU5xRFRhV2s3Y1hYYnUzU0s1WWZpS1RUZV80eHd3eTBPVklYVGNHUm04?oc=5",
+        "published_at": "2026-06-23T15:37:38Z"
+      },
+      {
+        "headline": "We're adding to our position in an industrial giant with a major catalyst nearing",
+        "summary": "We want to own more of the stock ahead of its long-awaited breakup.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/were-adding-to-our-position-in-an-industrial-giant-with-a-major-catalyst-nearing-.html",
+        "published_at": "2026-06-23T15:29:10Z"
+      },
+      {
+        "headline": "Highly successful people do 5 things to get luckier in life, says Stanford leadership expert: 'Good luck isn't random or rare'",
+        "summary": "Stanford University educator Tina Seelig shares what the luckiest people do every day to find success.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/the-most-successful-people-do-5-things-to-get-luckier-in-life-stanford-leadership-expert.html",
+        "published_at": "2026-06-23T13:45:01Z"
+      },
+      {
+        "headline": "Oman and Iran to pursue talks on managing navigation in Strait of Hormuz - Reuters",
+        "summary": "Oman and Iran to pursue talks on managing navigation in Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcS1WV3dFc2d1ODQ5U1VhRHVpbXk5X1VTUnl5SXVUS2Rub2R6N3BmMDF5Yk4yVzByaUh5NmhxTFJPWUpzaG1VY1NacVE5NkhxNzhUclUwUTU3OGt2Tkgyc1h6T0VXODRndXRGaGJRSWRHajJxaGZ4NEFOWF92QmxKQk45V3poY3RZREN2NnUzckNyRGljSnFoMFJ6V1QzeVhWNXNLMXhyOWRlSmx4c29F?oc=5",
+        "published_at": "2026-06-23T13:25:37Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Tuesday",
+        "summary": "The Nasdaq is set for a sharply lower open, as the plunge in South Korean stocks bleeds into the U.S.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/the-clubs-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published_at": "2026-06-23T13:05:30Z"
+      },
+      {
+        "headline": "Israel smuggled Starlink systems into Iran, former PM says - Reuters",
+        "summary": "Israel smuggled Starlink systems into Iran, former PM says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQai1DN2ktaXF3TEJzaFE4U1hfa1dQUXV3MUtqT0ZwRTJ4amJqVGMybFFLWDhtaEtMNG9TN3dLMnZfY2JLcVdSbk1VQ2hjUU5ELUtsSFdhVlhHRE9DOXRQYXZjNFFTY2xtS3FibWZ0aWRMcmZfRmx0ME9VX0ZfbFIxWUVwNmtNalVSNmFsODV3anpUQmU0cl8zZ2VSTExValAxUDRUZmRaQ3N0aXpqZk5FYUk1TEI0Mkk?oc=5",
+        "published_at": "2026-06-23T12:54:09Z"
+      },
+      {
+        "headline": "Only Iran will control its unfrozen assets, Iranian envoy says - Reuters",
+        "summary": "Only Iran will control its unfrozen assets, Iranian envoy says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaW1VREU5TWRaNHlGMFh6SXR6WGMzMi1oeHFOOUJmUlFpb0lEd1dMT3dDMGh3R01PYWZXaG84OUx6WnJJcHJpZDE1LU5LVXBySDJ1Y1ZlbUdPdGpXYVlvbWFkckVDMFhPcjNZVkw3anZaNWxrQ09lWHJjWVlaZWZCbENweERlZXZxZVJrYkExTVkzTUpPNGxYanF3dnpUQzFaMVZJSHViS1RYU1hORS1uVHZYb0lFRFh1NDJSVUdLTmt1X3FoT09VNi0xSmRqVms?oc=5",
+        "published_at": "2026-06-23T11:56:55Z"
+      },
+      {
+        "headline": "Trump insists Iran has agreed to nuclear inspections - Reuters",
+        "summary": "Trump insists Iran has agreed to nuclear inspections\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUplWC1jT3VodGprdkwtVkhQYk85R296T0hCZFVkOWJhYWUwRzkwbjlxcFByeEM2eUFjRXRMRVB2Y25XblFSTHlHeHZPdUMtU3BIaXNjczdOa044NHAyaVNJTlBseG5idkV3cmQyREZrMXlEeFRGUzAyNThSRXBpLVN4dWxSajFqeVJVaTlZdzdReXRPWnc?oc=5",
+        "published_at": "2026-06-23T11:53:12Z"
+      },
+      {
+        "headline": "Russia, Iran lead surge in gas flaring, dimming global hopes to end the practice - Reuters",
+        "summary": "Russia, Iran lead surge in gas flaring, dimming global hopes to end the practice\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWnljSmJxalJpSkViWlVJempwT3V4b1N3N0MwdC1MWU1ieDNjcFBxVFZrZmNORWZhNnpTeF9sTTFGMFNYekpFUkpIV09yYlRnQ21La2ZBV1hGcUh4RlFpUlhQc3paN1hXOE5ORkh6T3NEcElUQkotMVp6ZU42ZkotWlZLMWdrTmhJTnEwczM0QWc5SktsUURSbkNoUHl4bHJtTG9sRkFTbFpSZ21pYWtzLUJjby02S1JWODI4Rw?oc=5",
+        "published_at": "2026-06-23T09:57:06Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 744.39,
+    "spy_change_pct": -0.3147,
+    "spy_lean": "neutral",
+    "vix_close": 17.28,
+    "vix_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-23T17:55:17 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 201.74,
+        "change_pct": -3.3118,
+        "prev_close": 208.65
+      },
+      "AMD": {
+        "close": 519.56,
+        "change_pct": -5.8137,
+        "prev_close": 551.63
+      },
+      "TSM": {
+        "close": 440.89,
+        "change_pct": -5.7263,
+        "prev_close": 467.67
+      },
+      "SMCI": {
+        "close": 33.4,
+        "change_pct": -5.8094,
+        "prev_close": 35.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.48,
+        "change_pct": -2.9094,
+        "prev_close": 737.95
+      },
+      "SOXX": {
+        "close": 604.19,
+        "change_pct": -7.7587,
+        "prev_close": 655.01
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 74,
+    "positive_count": 10,
+    "negative_count": 15,
+    "neutral_count": 49,
+    "sentiment_ratio": 0.1351,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "New York man sentenced for $1.4 million crypto fraud scheme using bogus influencer accounts",
+        "url": "https://www.theblock.co/post/405850/new-york-man-sentenced-1-4-million-crypto-fraud-scheme-bogus-influencer-accounts?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T17:48:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Quarter-end catalyst or consolidation?\u2019: Bitcoin below $63,000 amid ETF outflows, $10.6 billion options expiry",
+        "url": "https://www.theblock.co/post/405831/quarter-end-catalyst-consolidation-bitcoin-below-63000-etf-outflows-10-6-billion-options-expiry?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T17:26:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta\u2019s Zuckerberg wants to build prediction market app like Polymarket and Kalshi: NYT",
+        "url": "https://www.theblock.co/post/405838/meta-zuckerberg-to-build-prediction-market-app-polymarket-kalshi-nyt?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T17:20:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin price faces midweek squeeze that will decide whether $60,000 holds",
+        "url": "https://cryptoslate.com/bitcoins-pce-reaction-could-collide-with-a-quarterly-options-expiry-hours-later/",
+        "published_at": "2026-06-23T17:10:22+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A New OpenClaw Competitor: ToqanClaw Promises Privacy in AI Agent Race",
+        "url": "https://decrypt.co/371869/toqanclaw-openclaw-competitor-privacy-gdpr",
+        "published_at": "2026-06-23T17:06:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOJ seizes Huione Group cloud computing account used to launder billions in fraud proceeds",
+        "url": "https://www.theblock.co/post/405834/doj-seizes-huione-group-account-launder-billions?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T16:58:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T16:54:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldfinch set to shutter Prime after community vote backs wind-down proposal",
+        "url": "https://www.theblock.co/post/405825/goldfinch-set-shutter-prime-community-vote-backs-wind-down-proposal?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T16:42:58+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T16:23:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elizabeth Warren once said CBDCs have a \u201cgreat promise\u201d \u2013 Now she\u2019s helping block it",
+        "url": "https://cryptoslate.com/elizabeth-warren-said-cbdcs-great-promise-shes-helping-block-it/",
+        "published_at": "2026-06-23T16:15:58+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 13,
+    "signals_available": 13,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403"
+  ]
+}

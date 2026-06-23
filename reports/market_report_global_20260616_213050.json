@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-16T21:30:02 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2339347551524.6,
+    "total_market_cap_change_24h_pct": -0.8316,
+    "total_volume_24h_usd": 80826163299.73,
+    "btc_dominance_pct": 56.2868,
+    "eth_dominance_pct": 9.2499,
+    "total2_usd": 1022603414981.86,
+    "total3_usd": 806215967415.98,
+    "active_cryptocurrencies": 17431,
+    "altcoin_season_index": 35,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BSB",
+        "name": "Block Street",
+        "price_change_24h_pct": 42.6533,
+        "price_usd": 0.519875,
+        "market_cap_usd": 115810693
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 33.3719,
+        "price_usd": 12.95,
+        "market_cap_usd": 4050405897
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 32.6185,
+        "price_usd": 0.01998767,
+        "market_cap_usd": 145082019
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 31.6762,
+        "price_usd": 0.438251,
+        "market_cap_usd": 185703818
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 24.7656,
+        "price_usd": 0.446748,
+        "market_cap_usd": 446174452
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -35.5258,
+        "price_usd": 2.61,
+        "market_cap_usd": 753217996
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -33.1977,
+        "price_usd": 0.060157,
+        "market_cap_usd": 132408034
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -14.2261,
+        "price_usd": 0.125629,
+        "market_cap_usd": 264176239
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -12.6488,
+        "price_usd": 0.00868628,
+        "market_cap_usd": 471239769
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": -5.8274,
+        "price_usd": 351.81,
+        "market_cap_usd": 6582132067
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 65672,
+    "price_change_24h_pct": -1.1266,
+    "price_change_7d_pct": 5.7935,
+    "market_cap_usd": 1316628825287,
+    "volume_24h_usd": 26354577126,
+    "direction": "bearish",
+    "oi_usd": 6737318127.91,
+    "funding_rate_latest": 2.46e-06,
+    "funding_rate_7d_avg": -1.935238095238096e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4272,
+    "long_account_pct": 58.8,
+    "short_account_pct": 41.2,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1792.68,
+    "price_change_24h_pct": -1.2316,
+    "price_change_7d_pct": 8.0898,
+    "market_cap_usd": 216404572111,
+    "volume_24h_usd": 14900493983,
+    "eth_btc_ratio": 0.027297,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74782873440.61,
+    "stablecoin_market_cap_usd": 314016132960.31,
+    "stablecoin_dominance_pct": 13.4232
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 48,
+    "headlines": [
+      {
+        "headline": "SpaceX's blistering start still faces key tests that will determine the stock's true value",
+        "summary": "SpaceX's stock has yet to face true price discovery.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/16/spacexs-blistering-start-still-faces-key-tests-that-will-determine-the-stocks-true-value.html",
+        "published_at": "2026-06-16T20:27:49Z"
+      },
+      {
+        "headline": "Norway's Equinor doubles share buyback as Iran war boosts cash flow - Reuters",
+        "summary": "Norway's Equinor doubles share buyback as Iran war boosts cash flow\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVYyTlJlM1VDVktyUGV4WlYzbEs1UWhsOWNqejlOanJPNUNrN2V2ZzN3SUxxRDVEdVRWeXoxRWZCeTBNeVE0aVA3emE0c3VySGhvUEI5YlJwMU5BZU5CZlJqRWo3bFZqNnl6X3BpZjNYNmFsNTNkN2dzczM3ZHpPMWVGcHVkT29hZHkybzVnU2ZJclNaNmpueHotX3d3MDl5UlJTdzd6LVF6RUU?oc=5",
+        "published_at": "2026-06-16T19:16:22Z"
+      },
+      {
+        "headline": "Lilly opens its checkbook again, and an insider buy at Broadcom captures our attention",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/16/lilly-opens-its-checkbook-again-and-an-insider-buy-at-broadcom-captures-our-attention.html",
+        "published_at": "2026-06-16T19:09:35Z"
+      },
+      {
+        "headline": "BMW lowers profit outlook due to China downturn, Iran war double whammy - Reuters",
+        "summary": "BMW lowers profit outlook due to China downturn, Iran war double whammy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFJVT1dCYVNyQnQ2VzVWTGRlOU5TSUZYS2tON2RkLVZNQ3FmU005Q1ZJVTd6VXRtOG1jQ2VRUUZ0OU1pN1p3X3FoS0J1cE9yM2tZTEdYbWZmNklwV1JVMDAyLTdrUUF2aVF4TzRPRFM2TTZILU5NOElVZ2xtRzF1RWZlQkV4Z1RuakpPWW1KWWtrUzhPSE0tOW1USQ?oc=5",
+        "published_at": "2026-06-16T19:08:18Z"
+      },
+      {
+        "headline": "Lawmakers in the dark on Iran deal as Trump says he will send it to Congress - Reuters",
+        "summary": "Lawmakers in the dark on Iran deal as Trump says he will send it to Congress\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUjVDeGNCNHlaMHpKVXNRUHZjaXVYckE1d2ZxbXNrUFA4d0pycUswME4wSmNiZHEzNVh2WEpLaVh5ZXluZVZZamRVc2ZWMjdPZVFJbXM3YzQ3TTRIN0c3LWhFT180OEJaRlVraENneHNJa1I2NVcxMURKdmlNRGI3Y3FjRmc3cWtxbDN4UjJfN3ZTR0RTYnVlYnZwcXhtYTJJdTNQRw?oc=5",
+        "published_at": "2026-06-16T18:23:43Z"
+      },
+      {
+        "headline": "Exclusive: Iran deal includes $300 billion fund, more than half of which already committed, source says - Reuters",
+        "summary": "Exclusive: Iran deal includes $300 billion fund, more than half of which already committed, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWUQ2ODdpWjF3UzYxRTVRUi1hMkZRMEw3S3pDR0VWSzY5bjVWeE1TXzJZUUp1SWQ4QXFjVUJBNzRDcFp2cnJoMVBSQU45Vkp6YjdDanJLMlNiVFRTMm1KNnhlLWkxOXFLQUJmeTJkOThzTmlQMlpuVHlybW9SMnczd2lIWXJBcHI4Uk94R2RwUVg5aHJxR1ptNGppUVRSV1pneUp3WkN1elRrN1FSd0EwZ05kZDVEMTRpX0VGeHFwOVlvTmV3b3c?oc=5",
+        "published_at": "2026-06-16T18:19:53Z"
+      },
+      {
+        "headline": "Jim Cramer: Why we're headed back to pre-Iran war oil prices and what it means",
+        "summary": "A sustained decline in oil prices would reverberate positively through the economy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/16/jim-cramer-why-were-headed-back-to-pre-iran-war-oil-prices-and-what-it-means.html",
+        "published_at": "2026-06-16T18:11:30Z"
+      },
+      {
+        "headline": "Tehran can immediately sell oil upon signing US-Iran deal, US official says - Reuters",
+        "summary": "Tehran can immediately sell oil upon signing US-Iran deal, US official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMF8zSlRJcE1kRDQ1Y0VlSmRwMEV1YmYzbi1jZS1Ha2lPd0hocXBMMThndVRPRVk1dXlGQlhYam14c1VUTmUzaTBKQllGdkw1Zlo4bGFhRFRiU3p2b2Y2T05MY3Nfcm5Ja1BDX2gwTlhPbzFubnczOENYaWZrY0RzeTd5QlNRRTV5UmYtZDlsMDJyaTFFTXFreFRNTXpzaW1CUGxnZUg1UGpuTzU3ZUdYQQ?oc=5",
+        "published_at": "2026-06-16T17:53:04Z"
+      },
+      {
+        "headline": "Hezbollah believes Iran will not sign final nuclear deal if Israel stays in Lebanon - Reuters",
+        "summary": "Hezbollah believes Iran will not sign final nuclear deal if Israel stays in Lebanon\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS0FQbkJUQkJjSWwxamljUThJQTl2alFPeDAtdHNOeFhxQ2wtQjk0d3dROTVfNGw0bWRfSXRmUFR5NnlicnRJT0VUdzhhTXItSWVTQmFWdURjWkJ4WExRcUpHc0hUNHVDRHJONjBVaTRXTURza0szSmVySmduSHNkbHpKZ3hCWjloRXJPaC1GZDlZclFtWU5PR1VqWmExTjZaU0tOdldWWmNNaDVhRzA0QU92ZjRPcVhYQVo4amJEWQ?oc=5",
+        "published_at": "2026-06-16T17:50:19Z"
+      },
+      {
+        "headline": "Rivian laying off hundreds of workers amid R2 launch",
+        "summary": "Rivian said Tuesday it was laying off hundreds of workers, or less than 2% of its workforce.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/16/rivian-layoffs.html",
+        "published_at": "2026-06-16T17:20:57Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": 750.35,
+    "spy_change_pct": -0.5935,
+    "spy_lean": "bearish",
+    "vix_close": 16.2,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 24,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 68,
+    "positive_count": 24,
+    "negative_count": 2,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.3529,
+    "news_volume_lean": "neutral",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-16T21:26:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized asset market tops $43B as institutions accelerate blockchain adoption",
+        "url": "https://cointelegraph.com/news/tokenized-rwa-market-tops-43b-wall-street-pushes-deeper-onchain?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-16T20:55:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Exchange Binance Will Be Rejected for EU Regulatory License: Reuters",
+        "url": "https://decrypt.co/371343/binance-rejected-eu-regulatory-license-reuters",
+        "published_at": "2026-06-16T20:25:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bipartisan senators push Treasury to uphold states\u2019 authorities under the GENIUS Act",
+        "url": "https://www.theblock.co/post/405018/bipartisan-senators-push-treasury-uphold-states-authorities-under-genius-act?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-16T20:07:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ChatGPT Is Still Huge, But Rival AI Chatbots Are Catching Up Fast",
+        "url": "https://decrypt.co/371318/chatgpt-ai-market-share-claude-gemini-grok",
+        "published_at": "2026-06-16T19:59:59+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "World Liberty Financial\u2019s USD1 Stablecoin Used In UFC Bonus Pool",
+        "url": "https://bitcoinist.com/world-liberty-ufc-usd1-bonuses/",
+        "published_at": "2026-06-16T19:55:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin metric near \u2018low-risk\u2019 zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-16T19:54:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FBI Says It Foiled Drone Attack Plot Targeting White House UFC Event",
+        "url": "https://decrypt.co/371339/fbi-foiled-drone-attack-plot-targeting-white-house-ufc-event",
+        "published_at": "2026-06-16T19:47:42+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-16T19:45:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin DeFi\u2019s demand problem is becoming harder to ignore",
+        "url": "https://cryptoslate.com/bitcoin-defis-demand-problem-is-becoming-harder-to-ignore/",
+        "published_at": "2026-06-16T19:45:17+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "neutral"
+    }
+  },
+  "fetch_errors": []
+}

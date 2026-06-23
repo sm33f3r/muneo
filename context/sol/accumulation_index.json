@@ -1,61 +1,49 @@
 {
   "token": "SOL",
-  "generated_at": "2026-06-16T14:34:41 UTC",
+  "generated_at": "2026-06-22T09:02:42 UTC",
   "schema_version": "1.0.0",
-  "total_periods": 10,
+  "total_periods": 11,
   "weekly_count": 7,
-  "monthly_count": 2,
+  "monthly_count": 3,
   "quarterly_count": 1,
   "most_recent_weekly": {
-    "period_id": "2026-W24",
+    "period_id": "2026-W25",
     "period_type": "weekly",
-    "start_date": "2026-06-08",
-    "end_date": "2026-06-14",
-    "data_quality": "complete",
-    "overall_lean": "bullish",
-    "signals_available": 14,
-    "close_usd": 67.84,
-    "price_change_pct": 0.5782,
-    "filename": "weekly_2026_W24.json"
-  },
-  "most_recent_monthly": {
-    "period_id": "2026-M05",
-    "period_type": "monthly",
-    "start_date": "2026-05-04",
-    "end_date": "2026-05-29",
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-21",
     "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 82.08,
-    "price_change_pct": -2.4599,
-    "filename": "monthly_2026_M05.json"
+    "close_usd": 73.2,
+    "price_change_pct": -2.1652,
+    "filename": "weekly_2026_W25.json"
+  },
+  "most_recent_monthly": {
+    "period_id": "2026-M06",
+    "period_type": "monthly",
+    "start_date": "2026-06-03",
+    "end_date": "2026-06-21",
+    "data_quality": "partial",
+    "overall_lean": "neutral",
+    "signals_available": 14,
+    "close_usd": 73.2,
+    "price_change_pct": 2.8957,
+    "filename": "monthly_2026_M06.json"
   },
   "most_recent_quarterly": {
     "period_id": "2026-Q2",
     "period_type": "quarterly",
     "start_date": "2026-03-30",
-    "end_date": "2026-05-29",
-    "data_quality": "partial",
+    "end_date": "2026-06-21",
+    "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 82.08,
-    "price_change_pct": -0.7617,
+    "close_usd": 73.2,
+    "price_change_pct": -11.498,
     "filename": "quarterly_2026_Q2.json"
   },
   "periods": {
     "weekly": [
-      {
-        "period_id": "2026-W18",
-        "period_type": "weekly",
-        "start_date": "2026-04-27",
-        "end_date": "2026-05-03",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 84.28,
-        "price_change_pct": 0.1188,
-        "filename": "weekly_2026_W18.json"
-      },
       {
         "period_id": "2026-W19",
         "period_type": "weekly",
@@ -127,6 +115,18 @@
         "close_usd": 67.84,
         "price_change_pct": 0.5782,
         "filename": "weekly_2026_W24.json"
+      },
+      {
+        "period_id": "2026-W25",
+        "period_type": "weekly",
+        "start_date": "2026-06-15",
+        "end_date": "2026-06-21",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 73.2,
+        "price_change_pct": -2.1652,
+        "filename": "weekly_2026_W25.json"
       }
     ],
     "monthly": [
@@ -153,6 +153,18 @@
         "close_usd": 82.08,
         "price_change_pct": -2.4599,
         "filename": "monthly_2026_M05.json"
+      },
+      {
+        "period_id": "2026-M06",
+        "period_type": "monthly",
+        "start_date": "2026-06-03",
+        "end_date": "2026-06-21",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 73.2,
+        "price_change_pct": 2.8957,
+        "filename": "monthly_2026_M06.json"
       }
     ],
     "quarterly": [
@@ -160,12 +172,12 @@
         "period_id": "2026-Q2",
         "period_type": "quarterly",
         "start_date": "2026-03-30",
-        "end_date": "2026-05-29",
-        "data_quality": "partial",
+        "end_date": "2026-06-21",
+        "data_quality": "complete",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 82.08,
-        "price_change_pct": -0.7617,
+        "close_usd": 73.2,
+        "price_change_pct": -11.498,
         "filename": "quarterly_2026_Q2.json"
       }
     ]

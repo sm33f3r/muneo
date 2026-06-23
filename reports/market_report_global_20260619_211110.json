@@ -1,0 +1,362 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-19T21:10:26 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2255496932100.17,
+    "total_market_cap_change_24h_pct": 0.0306,
+    "total_volume_24h_usd": 61410376460.51,
+    "btc_dominance_pct": 56.0909,
+    "eth_dominance_pct": 9.1222,
+    "total2_usd": 990368836927.05,
+    "total3_usd": 784618550096.71,
+    "active_cryptocurrencies": 17423,
+    "altcoin_season_index": 67,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 68.3696,
+        "price_usd": 0.082491,
+        "market_cap_usd": 182574734
+      },
+      {
+        "symbol": "O",
+        "name": "o1.exchange",
+        "price_change_24h_pct": 27.5805,
+        "price_usd": 0.741417,
+        "market_cap_usd": 118583243
+      },
+      {
+        "symbol": "9BIT",
+        "name": "The9bit",
+        "price_change_24h_pct": 15.7098,
+        "price_usd": 0.04235678,
+        "market_cap_usd": 348854426
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": 9.7497,
+        "price_usd": 0.796543,
+        "market_cap_usd": 387253869
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": 9.466,
+        "price_usd": 0.486737,
+        "market_cap_usd": 466756666
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -28.2756,
+        "price_usd": 0.082291,
+        "market_cap_usd": 206073688
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -25.0835,
+        "price_usd": 12.9,
+        "market_cap_usd": 4015898708
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -12.1892,
+        "price_usd": 2.53e-06,
+        "market_cap_usd": 151640115
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -10.9663,
+        "price_usd": 0.444818,
+        "market_cap_usd": 186886953
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -8.9795,
+        "price_usd": 2.4,
+        "market_cap_usd": 138332867
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63148,
+    "price_change_24h_pct": 0.408,
+    "price_change_7d_pct": -0.6834,
+    "market_cap_usd": 1265064261499,
+    "volume_24h_usd": 23426445007,
+    "direction": "neutral",
+    "oi_usd": 6209570551.69,
+    "funding_rate_latest": 2.823e-05,
+    "funding_rate_7d_avg": -5.13809523809524e-07,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8637,
+    "long_account_pct": 65.08,
+    "short_account_pct": 34.92,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1705.69,
+    "price_change_24h_pct": 0.1809,
+    "price_change_7d_pct": 2.4964,
+    "market_cap_usd": 205692327751,
+    "volume_24h_usd": 7604882490,
+    "eth_btc_ratio": 0.027011,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72529727693.55,
+    "stablecoin_market_cap_usd": 313893120840.66,
+    "stablecoin_dominance_pct": 13.9168
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped - Reuters",
+        "summary": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5",
+        "published_at": "2026-06-19T19:58:37Z"
+      },
+      {
+        "headline": "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
+        "summary": "The DOJ in May announced it was creating the fund as part of a settlement of President Donald Trump's $10 billion lawsuit against the Internal Revenue Service.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/19/doj-anti-weaponization-fund-trump.html",
+        "published_at": "2026-06-19T19:50:56Z"
+      },
+      {
+        "headline": "Iran to lodge FIFA complaint over World Cup travel restrictions - Reuters",
+        "summary": "Iran to lodge FIFA complaint over World Cup travel restrictions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1VYU082ZUFSeVhJV1cwcWhtajVlaWVxc1ViSFhOS0wwXzRfazlXNkxUbGtqMGZOa0FZVEFQWFZ6bktXc2o0OERiMDVrVnJuWGlSUEZvSHg1ZjVJczlBU0VpMzVob1p2anJRWTVhUnVXQWpRX041Q25GLW5SVmFiYjc3aDFVaFlSdF9EbHd2NGtEdm5URVBZckZXeGIwdWFvOTYzQ2FuUUxtdUFwTFdr?oc=5",
+        "published_at": "2026-06-19T17:36:19Z"
+      },
+      {
+        "headline": "Fedspeak vs. war deal: Here are the things that drove this week's stock market",
+        "summary": "The S&P 500 surged on Thursday, making up for losses seen after central bankers convened.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/19/fedspeak-vs-war-deal-here-are-the-things-that-drove-this-weeks-stock-market.html",
+        "published_at": "2026-06-19T17:24:10Z"
+      },
+      {
+        "headline": "For US Vice President JD Vance, Iran talks could shape political rise - Reuters",
+        "summary": "For US Vice President JD Vance, Iran talks could shape political rise\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWlnWFI3SUZDeUtiRU9JdURpYTJhMkM0Qzdzay01VGNKbFBXRDdNZURuX2h4TFNrdGVhYlF0QVcxaHY0cG5FNTIxSVRpVG9yOENHbnF1M2ZJRkpYb01kdUg5YWlhRHljMXhBcll5d2xNLTVaQXZQZDh2LWZhcU9TREVLYnl5MDUtdVQtdVlqOUQyQQ?oc=5",
+        "published_at": "2026-06-19T16:46:03Z"
+      },
+      {
+        "headline": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms - Reuters",
+        "summary": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONmxOVHFxZFJqT0MyRms0akxNMzFSVG45ZDFFVHFjZkZrMmh0anBuak5MYjlwWWw3Vy04LWl1b3oxbnZHSGRqQ2V0cWN5WUhxbHpZdXRCQmdpZGpsUk40RWl3dlVyTWtTUTRQOUtjbHM4NUJtTlpwZWtMMmx3REpQMWl6OWJEYzVhSHpIVkVicGVSdzdiaHd6WkU4ZENSaWZlUVVVUFNXYTktZDRDSVdZMmRuWXhPWFBBS2RLMk01OEo0eWFy?oc=5",
+        "published_at": "2026-06-19T15:09:04Z"
+      },
+      {
+        "headline": "29-year-old making $250k in tech went 'undercover' at a coffee chain before opening her own matcha cafe",
+        "summary": "Michelle Yeung wasn't happy in tech, despite earning $250,000 a year. Before opening Matcha House, she spent months learning the business.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/19/29-year-old-software-engineer-worked-undercover-at-a-coffee-chain.html",
+        "published_at": "2026-06-19T14:00:01Z"
+      },
+      {
+        "headline": "Israel, Hezbollah agree to ceasefire starting on Friday -U.S. official - Reuters",
+        "summary": "Israel, Hezbollah agree to ceasefire starting on Friday -U.S. official\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNVlqdUp2WDdfZkNqcDlJbkVnTTh5aTZITlJaYkVUd0NEQl81b3ZodFZleFV3em5mRldLdWUySURpd2N5ZGlQREdRWDlUcUZCVHdmQnhNN3VvS21NRDFuQmZMb3UtSEFSaHY2YVlxV2NkMGRQVTA4SllfczlrVGVCaE1ibkhXNmlsZl9xQlcwTG1vYXRIQmp4bFpoZkFkZDNRTk9KdDlsbGg3NWs5cFFoVUk0NWZZUQ?oc=5",
+        "published_at": "2026-06-19T13:18:55Z"
+      },
+      {
+        "headline": "US equity fund inflows surge on Iran deal, tech draws record weekly investments - Reuters",
+        "summary": "US equity fund inflows surge on Iran deal, tech draws record weekly investments\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa2IxeWNvMGtLVFlFUGpoRG80NWMyQk54bFloejRqWUI5NlBlZlUtaFQ4UWxsMHNEQlF6ck5EN1BwTVRCeWR4Q1RmcXZiY1Y1QUNOUzVwbDJobEU3YUc2LVFDczQ2RlhMTzBlQnFCc2hOc28tNzJtbjJBV0JiY0R3aTd1TWd0SkgxS1AyUVA2QVgxUndFNFhDTVkyTDgtMUFLaHpiM3VPY2xQZHdadXNVM0U1eFNvQjhsVm1rTA?oc=5",
+        "published_at": "2026-06-19T11:17:43Z"
+      },
+      {
+        "headline": "Iran says it will waive fees for Hormuz during 60 day negotiation period - Reuters",
+        "summary": "Iran says it will waive fees for Hormuz during 60 day negotiation period\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUXNFdk9kOGRINmxCdTJYVm9wX0p1NF9TUWF0NHJKX3V5UVB6am05Q2FMUG5DSWl0SVd6N2ttN3h6TG1paE83VFRZelhGcGZqcG1BZDQ3d2xxd3JwQWlURFl0Yl9KcFVNeWMxVkZySW5jRHItWDEtNXJGMFJ2d2c4TXB6ZUluZVY0bUhSaDloeEk2QTdZVDB5V0I1RWhWZVRpYVRqcGcxeHBPTC1IMlJNa3Y5bWlWTWlScnQ3NzNlOA?oc=5",
+        "published_at": "2026-06-19T11:07:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5073,
+    "dxy_lean": "bullish",
+    "spy_close": 746.74,
+    "spy_change_pct": 0.7801,
+    "spy_lean": "bullish",
+    "vix_close": 18.44,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 11,
+    "negative_count": 11,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.1864,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "$13B Bitcoin options expiry looms: Will bulls endure more pain in June?",
+        "url": "https://cointelegraph.com/markets/13b-bitcoin-options-expiry-looms-will-bulls-endure-more-pain-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-19T20:57:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Warns Crypto Users About A Windows Clipper Malware Campaign",
+        "url": "https://bitcoinist.com/microsoft-warns-crypto-users-about-a-windows-clipper-malware-campaign/",
+        "published_at": "2026-06-19T20:45:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF Outflows Put Institutional Demand Back Under The Macro Spotlight",
+        "url": "https://bitcoinist.com/bitcoin-etf-outflows-put-institutional-demand-back-under-the-macro-spotlight/",
+        "published_at": "2026-06-19T20:30:13+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "WhiteBIT secures MiCA license in Austria ahead of July 1 EU deadline",
+        "url": "https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-19T20:07:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Charles Schwab Planning to Roll Out S&#038;P 500 Prediction Markets With Cboe: WSJ",
+        "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
+        "published_at": "2026-06-19T20:02:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
+        "url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
+        "published_at": "2026-06-19T19:36:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance MiCA Deadline Puts Europe Access Under Fresh Scrutiny",
+        "url": "https://bitcoinist.com/binance-mica-deadline-puts-europe-access-under-fresh-scrutiny/",
+        "published_at": "2026-06-19T18:50:11+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Republican lawmaker proposes prediction markets insider trading ban, not including White House officials",
+        "url": "https://cointelegraph.com/news/prediction-markets-law-white-house-officials?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-19T18:30:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter",
+        "url": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors",
+        "published_at": "2026-06-19T18:15:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Upbit Nine-Token Rollout Shows Why Korean Listings Still Move Altcoins",
+        "url": "https://bitcoinist.com/upbit-nine-token-rollout-shows-why-korean-listings-still-move-altcoins/",
+        "published_at": "2026-06-19T17:50:10+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 12,
+    "signals_available": 12,
+    "signals_null": 0,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
