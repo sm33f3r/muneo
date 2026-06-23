@@ -1,0 +1,406 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-23T21:14:50 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2228046687865.17,
+    "total_market_cap_change_24h_pct": -2.5708,
+    "total_volume_24h_usd": 74742871621.3,
+    "btc_dominance_pct": 56.1932,
+    "eth_dominance_pct": 9.0039,
+    "total2_usd": 976035618933.2,
+    "total3_usd": 775423653914.8,
+    "active_cryptocurrencies": 17408,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RUSD",
+        "name": "Royal Dollar",
+        "price_change_24h_pct": 233.3,
+        "price_usd": 0.9987,
+        "market_cap_usd": 249974163
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 59.3593,
+        "price_usd": 2.53,
+        "market_cap_usd": 705498593
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 33.1012,
+        "price_usd": 23.53,
+        "market_cap_usd": 1105475391
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": 13.7144,
+        "price_usd": 0.148236,
+        "market_cap_usd": 125090962
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 8.2569,
+        "price_usd": 0.097785,
+        "market_cap_usd": 219506158
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -33.5576,
+        "price_usd": 0.072998,
+        "market_cap_usd": 182298700
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -21.3255,
+        "price_usd": 0.104601,
+        "market_cap_usd": 189536177
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -13.151,
+        "price_usd": 0.545732,
+        "market_cap_usd": 1880833625
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": -12.8685,
+        "price_usd": 0.251368,
+        "market_cap_usd": 186210404
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -12.1566,
+        "price_usd": 0.458779,
+        "market_cap_usd": 194756063
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62448,
+    "price_change_24h_pct": -2.9188,
+    "price_change_7d_pct": -5.0825,
+    "market_cap_usd": 1252788754629,
+    "volume_24h_usd": 30009059814,
+    "direction": "bearish",
+    "oi_usd": 6163490143.63,
+    "funding_rate_latest": -1.889e-05,
+    "funding_rate_7d_avg": 2.1942380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1095,
+    "long_account_pct": 67.84,
+    "short_account_pct": 32.16,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1662.83,
+    "price_change_24h_pct": -4.0678,
+    "price_change_7d_pct": -7.2882,
+    "market_cap_usd": 200751043267,
+    "volume_24h_usd": 10830160877,
+    "eth_btc_ratio": 0.026627,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71767005473.49,
+    "stablecoin_market_cap_usd": 313736477276.55,
+    "stablecoin_dominance_pct": 14.0812
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 30,
+    "headlines": [
+      {
+        "headline": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
+        "summary": "The commission has now sued nine states in total in its battle to defend what it sees as its exclusive right to regulate event contracts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/cftc-sues-kentucky-over-actions-against-prediction-markets.html",
+        "published_at": "2026-06-23T20:55:45Z"
+      },
+      {
+        "headline": "Few in US say Iran war was worth it; Trump approval ties lowest of term, Reuters/Ipsos poll finds - Reuters",
+        "summary": "Few in US say Iran war was worth it; Trump approval ties lowest of term, Reuters/Ipsos poll finds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVWJLQVNrUDByX0d0MGo0ZEVtSzJRTTlsSjBYMUp3Wk5VZkYyeVVHYlJMQUtLZ01sV2c5cFNacnRUTHB3eFI0cGI5ZW44UG9fUW5hZVZkdE10XzkxRWp5d3dvRlBFNDJVeXE4Z3V5UW9GY0lPWWxLRG1famNNR0xTeVJMWnJRVTU0dHVwSkJkVV9tejBES0lPdkFMdzljblE0ak5VcW1kS0RSY3lycVczVmQzSnVRMnBFVGpQd2tRR25sOFlKRnRrdUhwMA?oc=5",
+        "published_at": "2026-06-23T20:33:28Z"
+      },
+      {
+        "headline": "U.S. Senate votes to halt Iran war, bucking Trump - Reuters",
+        "summary": "U.S. Senate votes to halt Iran war, bucking Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTRaMVd3TU94enBqRXpUc0tCNzVEQ2dQaHlnN0oyMm9sak5aTFNybDQtTkJBU25xYlVSV2ZBR2Jwal9WNE5HQWh1N3A3UGpCNlZkUEo0SVoyaThBVmZmamtaaThxT3dBYl9iUE9JU2xNQUhWN2hSUVltdXZJYThsUEVtcnQzV3c4cGZSSlBGQndRdw?oc=5",
+        "published_at": "2026-06-23T20:00:42Z"
+      },
+      {
+        "headline": "What DuPont's coming 1-for-3 reverse stock split means for investors",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/what-duponts-coming-1-for-3-reverse-stock-split-means-for-investors.html",
+        "published_at": "2026-06-23T18:47:25Z"
+      },
+      {
+        "headline": "PGA Tour CEO Brian Rolapp unveils sweeping changes to professional golf",
+        "summary": "Changes to the PGA Tour are designed to elevate competition and raise payouts for winners.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/pga-tour-changes.html",
+        "published_at": "2026-06-23T18:31:27Z"
+      },
+      {
+        "headline": "Can Pakistan's peacekeeping role in Iran war give it an economic dividend? - Reuters",
+        "summary": "Can Pakistan's peacekeeping role in Iran war give it an economic dividend?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNWxoaHRXckdsdzBlTkJRYkJ2YnlqWU1LNVhKVW40ank0eVhLZmN5bFNJejVrcmtyU1NUZG9IZ3N6Sk1TTVdEU2g4c1hpeHgtaTZ5c1p5NERfRU8zMF9RdnlYQk1GUWlOU2szMHh0b2ZEb092akQ0NmxmSXN1VGViQ0E0aHFRanJTeHlILVFfMG16eGNpYjRmeXFDNGFhY1JtUmsycVdyWjlXVWJ3T2g2a3VsclRvQkFyelAzci10WWo1dw?oc=5",
+        "published_at": "2026-06-23T17:22:26Z"
+      },
+      {
+        "headline": "Here's why we decided to put money to work in Tuesday's market pullback",
+        "summary": "The action on Wall Street looks far more constructive than it appeared at the crack of dawn.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/heres-why-we-decided-to-put-money-to-work-in-tuesdays-market-pullback.html",
+        "published_at": "2026-06-23T17:20:07Z"
+      },
+      {
+        "headline": "Israel fire kills two in Lebanon, testing Iran-linked ceasefire - Reuters",
+        "summary": "Israel fire kills two in Lebanon, testing Iran-linked ceasefire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTVwSnNBZWg1eXlocHBxRFFpclM1emt5M3BGdFd1Uzg4UXgxMk1nOExNMmh6UGJlQXlXS1liQVYteHRpZHJ3RUpyeEIybGdXeWFPRGdxYm45LTRYeEJGRW1DbkZ4MlhxUjRxTXFUT21kUGNaMmVuNlJGbVhOcmxJbUhVaXEtOFVXMEdqMUpSOGZTbU5xRFRhV2s3Y1hYYnUzU0s1WWZpS1RUZV80eHd3eTBPVklYVGNHUm04?oc=5",
+        "published_at": "2026-06-23T15:37:38Z"
+      },
+      {
+        "headline": "We're adding to our position in an industrial giant with a major catalyst nearing",
+        "summary": "We want to own more of the stock ahead of its long-awaited breakup.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/were-adding-to-our-position-in-an-industrial-giant-with-a-major-catalyst-nearing-.html",
+        "published_at": "2026-06-23T15:29:10Z"
+      },
+      {
+        "headline": "Highly successful people do 5 things to get luckier in life, says Stanford leadership expert: 'Good luck isn't random or rare'",
+        "summary": "Stanford University educator Tina Seelig shares what the luckiest people do every day to find success.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/the-most-successful-people-do-5-things-to-get-luckier-in-life-stanford-leadership-expert.html",
+        "published_at": "2026-06-23T13:45:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.73,
+    "spy_change_pct": -1.432,
+    "spy_lean": "bearish",
+    "vix_close": 17.28,
+    "vix_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-23T21:14:50 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.04,
+        "change_pct": -4.1265,
+        "prev_close": 208.65
+      },
+      "AMD": {
+        "close": 519.85,
+        "change_pct": -5.7611,
+        "prev_close": 551.63
+      },
+      "TSM": {
+        "close": 436.39,
+        "change_pct": -6.6885,
+        "prev_close": 467.67
+      },
+      "SMCI": {
+        "close": 33.32,
+        "change_pct": -6.035,
+        "prev_close": 35.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 713.65,
+        "change_pct": -3.2929,
+        "prev_close": 737.95
+      },
+      "SOXX": {
+        "close": 603.39,
+        "change_pct": -7.8808,
+        "prev_close": 655.01
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 63,
+    "positive_count": 10,
+    "negative_count": 14,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.1587,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Crypto\u2019s Clarity Act Has a New Enemy: Catholic Leaders",
+        "url": "https://decrypt.co/371923/crypto-clarity-act-new-enemy-catholic-leaders",
+        "published_at": "2026-06-23T21:10:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mark Zuckerberg ordered Meta staff to develop moneyless prediction market: NYT",
+        "url": "https://cointelegraph.com/news/mark-zuckerberg-meta-prediction-markets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T21:01:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump directing \u2018government dollars and time\u2019 to quantum security could be a boon for bitcoin",
+        "url": "https://www.theblock.co/post/405893/trump-directing-government-dollars-time-quantum-security-could-boon-bitcoin?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T20:34:06+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says Strategy should pause bitcoin purchases and rebuild cash reserves",
+        "url": "https://www.theblock.co/post/405885/cryptoquant-strategy-should-pause-bitcoin-purchases-rebuild-cash-reserves?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T20:23:16+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Barry Silbert\u2019s Zcash miner proposes merger, sends Nasdaq stock soaring despite rough month for ZEC",
+        "url": "https://www.theblock.co/post/405867/barry-silberts-zcash-miner-proposes-merger-nasdaq-stock-soaring-rough-month-zec?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T20:14:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mark Zuckerberg Wants a Prediction Market Too: NYT",
+        "url": "https://decrypt.co/371911/mark-zuckerberg-meta-prediction-market",
+        "published_at": "2026-06-23T20:13:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T20:07:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kentucky becomes latest state sued by CFTC over prediction markets",
+        "url": "https://www.theblock.co/post/405879/kentucky-becomes-latest-state-sued-by-cftc-over-prediction-markets?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T20:01:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto isn't the problem with the US economy, says senator",
+        "url": "https://cointelegraph.com/news/digital-chamber-overlooked-senate-affordability-hearing?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T19:49:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Liquidity Trap Warning Says Thin Upside Could Come Before $60,000 Sweep",
+        "url": "https://bitcoinist.com/bitcoin-liquidity-trap-warning-says-thin-upside-could-come-before-60-000-sweep/",
+        "published_at": "2026-06-23T19:30:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 13,
+    "signals_available": 13,
+    "signals_null": 0,
+    "bullish_count": 1,
+    "bearish_count": 8,
+    "neutral_count": 4,
+    "overall_lean": "bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403"
+  ]
+}
