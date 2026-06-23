@@ -237,6 +237,36 @@ def lean_news_volume(ratio: Optional[float]) -> str:
     return "neutral"
 
 
+def lean_tech_sector(stock_results: dict) -> Optional[str]:
+    """
+    Compute composite tech sector lean from individual ticker change_pct values.
+    Tickers with None change_pct are skipped (not counted).
+    Threshold: >+0.5% bullish, <-0.5% bearish, else neutral.
+    Returns None if no tickers returned valid data.
+    """
+    bullish = 0
+    bearish = 0
+    neutral = 0
+    for ticker, data in stock_results.items():
+        pct = data.get("change_pct")
+        if pct is None:
+            continue
+        if pct > 0.5:
+            bullish += 1
+        elif pct < -0.5:
+            bearish += 1
+        else:
+            neutral += 1
+    total = bullish + bearish + neutral
+    if total == 0:
+        return None
+    if bullish > bearish:
+        return "bullish"
+    if bearish > bullish:
+        return "bearish"
+    return "neutral"
+
+
 def compute_overall_lean(signals: dict) -> str:
     available = [v for v in signals.values() if v is not None]
     n = len(available)
@@ -1058,9 +1088,51 @@ def build_report(
     vix_lean_val = lean_vix(vix_latest, vix_prior)
 
     # ------------------------------------------------------------------
-    # [16/17] Alpha Vantage — SPY compact
+    # [17/25] through [23/25] Finnhub — tech equity quotes
     # ------------------------------------------------------------------
-    print("[16/17] Fetching Alpha Vantage — SPY compact...")
+    finnhub_api_key = os.getenv("FINNHUB_API_KEY", "").strip()
+
+    TECH_EQUITY_TICKERS = ["NVDA", "AMD", "TSM", "SMCI", "005930.KS", "QQQ", "SOXX"]
+    tech_stock_results: dict = {}
+
+    for i, ticker in enumerate(TECH_EQUITY_TICKERS, start=17):
+        step_label = f"[{i}/25]"
+        print(f"{step_label} Fetching Finnhub — {ticker} quote...")
+        if finnhub_api_key:
+            quote = safe_fetch(
+                f"Finnhub {ticker} quote",
+                lambda t=ticker: _fetch_finnhub_quote(t, finnhub_api_key),
+                fetch_errors,
+            )
+            if quote:
+                try:
+                    close_price  = float(quote["c"])
+                    prev_close   = float(quote["pc"])
+                    change_pct   = float(quote["dp"]) if quote.get("dp") is not None else None
+                    if change_pct is None and prev_close != 0:
+                        change_pct = ((close_price - prev_close) / prev_close) * 100
+                    tech_stock_results[ticker] = {
+                        "close":      round(close_price, 4),
+                        "change_pct": round(change_pct, 4) if change_pct is not None else None,
+                        "prev_close": round(prev_close, 4),
+                    }
+                except (KeyError, ValueError, TypeError) as e:
+                    fetch_errors.append(f"finnhub_{ticker}:parse_error: {e}")
+                    tech_stock_results[ticker] = {"close": None, "change_pct": None, "prev_close": None}
+            else:
+                tech_stock_results[ticker] = {"close": None, "change_pct": None, "prev_close": None}
+        else:
+            print(f"  ✗ Finnhub {ticker} — FINNHUB_API_KEY not set")
+            fetch_errors.append(f"fetch_{i}:finnhub_{ticker}: skipped — FINNHUB_API_KEY not set")
+            tech_stock_results[ticker] = {"close": None, "change_pct": None, "prev_close": None}
+        time.sleep(1)
+
+    tech_sector_lean_val = lean_tech_sector(tech_stock_results)
+
+    # ------------------------------------------------------------------
+    # [24/25] Alpha Vantage — SPY compact
+    # ------------------------------------------------------------------
+    print("[24/25] Fetching Alpha Vantage — SPY compact...")
 
     spy_close      = None
     spy_prev_close = None
@@ -1083,18 +1155,17 @@ def build_report(
                 fetch_errors.append(f"alpha_vantage_spy:parse_error: {e}")
     else:
         print("  \u2717 Alpha Vantage SPY — ALPHA_VANTAGE_API_KEY not set")
-        fetch_errors.append("fetch_16:alpha_vantage_spy: skipped — ALPHA_VANTAGE_API_KEY not set")
+        fetch_errors.append("fetch_24:alpha_vantage_spy: skipped — ALPHA_VANTAGE_API_KEY not set")
     time.sleep(15)
 
     # ------------------------------------------------------------------
-    # [17/17] Finnhub — macro news (general category)
+    # [25/25] Finnhub — macro news (general category)
     # ------------------------------------------------------------------
-    print("[17/17] Fetching Finnhub — macro news...")
+    print("[25/25] Fetching Finnhub — macro news...")
 
     finnhub_article_count_24h = 0
     finnhub_headlines: list   = []
 
-    finnhub_api_key = os.getenv("FINNHUB_API_KEY", "").strip()
     if finnhub_api_key:
         fh_data = safe_fetch(
             "Finnhub macro news",
@@ -1121,7 +1192,7 @@ def build_report(
                 fetch_errors.append(f"finnhub_news:parse_error: {e}")
     else:
         print("  \u2717 Finnhub macro news — FINNHUB_API_KEY not set")
-        fetch_errors.append("fetch_17:finnhub_news: skipped — FINNHUB_API_KEY not set")
+        fetch_errors.append("fetch_25:finnhub_news: skipped — FINNHUB_API_KEY not set")
     time.sleep(1)
 
     # ------------------------------------------------------------------
@@ -1145,6 +1216,7 @@ def build_report(
         "vix_lean":                  vix_lean_val,
         "fear_greed_lean":           fear_greed_lean,
         "news_volume_lean":          news_volume_lean,
+        "tech_sector_lean":          tech_sector_lean_val,
     }
 
     available_sigs = {k: v for k, v in signals.items() if v is not None}
@@ -1224,6 +1296,11 @@ def build_report(
             "vix_close":      round(vix_latest, 4)   if vix_latest    is not None else None,
             "vix_lean":       vix_lean_val,
         },
+        "tech_equities": {
+            "fetched_at": now_utc.strftime("%Y-%m-%dT%H:%M:%S UTC"),
+            "stocks": tech_stock_results,
+            "tech_sector_lean": tech_sector_lean_val,
+        },
         "sentiment": {
             "fear_greed_value": fg_value,
             "fear_greed_label": fg_label,
@@ -1241,7 +1318,7 @@ def build_report(
             "top_headlines":     top_headlines,
         },
         "signal_summary": {
-            "signals_evaluated": 12,
+            "signals_evaluated": 13,
             "signals_available": len(available_sigs),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1410,6 +1487,18 @@ def _fetch_finnhub_news(api_key: str) -> list:
     data = resp.json()
     if not isinstance(data, list):
         raise ValueError("Unexpected Finnhub response format")
+    return data
+
+
+def _fetch_finnhub_quote(symbol: str, api_key: str) -> dict:
+    url = "https://finnhub.io/api/v1/quote"
+    params = {"symbol": symbol, "token": api_key}
+    resp = requests.get(url, params=params, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    # Finnhub returns {"c": 0, "d": 0, ...} for unknown symbols — check c != 0
+    if data.get("c", 0) == 0 and data.get("pc", 0) == 0:
+        raise ValueError(f"No valid quote data for symbol {symbol}")
     return data
 
 
