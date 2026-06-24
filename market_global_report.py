@@ -282,6 +282,16 @@ def lean_coinbase_premium(premium_pct: Optional[float]) -> Optional[str]:
     return "neutral"
 
 
+def lean_etf_flow(net_inflow_usd: Optional[float]) -> Optional[str]:
+    if net_inflow_usd is None:
+        return None
+    if net_inflow_usd > 0:
+        return "bullish"
+    if net_inflow_usd < 0:
+        return "bearish"
+    return "neutral"
+
+
 def compute_overall_lean(signals: dict) -> str:
     available = [v for v in signals.values() if v is not None]
     n = len(available)
@@ -1106,6 +1116,7 @@ def build_report(
     # [17/25] through [23/25] Finnhub — tech equity quotes
     # ------------------------------------------------------------------
     finnhub_api_key = os.getenv("FINNHUB_API_KEY", "").strip()
+    sosovalue_api_key = os.getenv("SOSOVALUE_API_KEY", "").strip()
 
     TECH_EQUITY_TICKERS = ["NVDA", "AMD", "TSM", "SMCI", "005930.KS", "QQQ", "SOXX"]
     tech_stock_results: dict = {}
@@ -1199,9 +1210,43 @@ def build_report(
             fetch_errors.append(f"coinbase_ticker:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [26/26] Finnhub — macro news (general category)
+    # [26/27] SoSoValue — BTC spot ETF daily net flows
     # ------------------------------------------------------------------
-    print("[26/26] Fetching Finnhub — macro news...")
+    print("[26/27] Fetching SoSoValue — BTC spot ETF daily net flows...")
+
+    etf_net_inflow_usd   = None
+    etf_net_assets_usd   = None
+    etf_value_traded_usd = None
+    etf_cum_inflow_usd   = None
+    etf_data_date        = None
+
+    if sosovalue_api_key:
+        ssv_data = safe_fetch(
+            "SoSoValue BTC ETF daily flows",
+            lambda: _fetch_sosovalue_btc_etf_flows(sosovalue_api_key),
+            fetch_errors,
+        )
+        if ssv_data:
+            try:
+                latest = ssv_data[0]
+                etf_data_date        = latest.get("date")
+                etf_net_inflow_usd   = float(latest["total_net_inflow"])   if latest.get("total_net_inflow")   is not None else None
+                etf_net_assets_usd   = float(latest["total_net_assets"])   if latest.get("total_net_assets")   is not None else None
+                etf_value_traded_usd = float(latest["total_value_traded"]) if latest.get("total_value_traded") is not None else None
+                etf_cum_inflow_usd   = float(latest["cum_net_inflow"])     if latest.get("cum_net_inflow")     is not None else None
+            except (KeyError, ValueError, TypeError) as e:
+                fetch_errors.append(f"sosovalue_etf:parse_error: {e}")
+    else:
+        print("  ✗ SoSoValue BTC ETF flows — SOSOVALUE_API_KEY not set")
+        fetch_errors.append("fetch_26:sosovalue_etf: skipped — SOSOVALUE_API_KEY not set")
+    time.sleep(1)
+
+    etf_flow_lean_val = lean_etf_flow(etf_net_inflow_usd)
+
+    # ------------------------------------------------------------------
+    # [27/27] Finnhub — macro news (general category)
+    # ------------------------------------------------------------------
+    print("[27/27] Fetching Finnhub — macro news...")
 
     finnhub_article_count_24h = 0
     finnhub_headlines: list   = []
@@ -1232,7 +1277,7 @@ def build_report(
                 fetch_errors.append(f"finnhub_news:parse_error: {e}")
     else:
         print("  \u2717 Finnhub macro news — FINNHUB_API_KEY not set")
-        fetch_errors.append("fetch_26:finnhub_news: skipped — FINNHUB_API_KEY not set")
+        fetch_errors.append("fetch_27:finnhub_news: skipped — FINNHUB_API_KEY not set")
     time.sleep(1)
 
     # ------------------------------------------------------------------
@@ -1259,6 +1304,7 @@ def build_report(
         "news_volume_lean":          news_volume_lean,
         "tech_sector_lean":          tech_sector_lean_val,
         "coinbase_premium_lean":     coinbase_premium_lean_val,
+        "etf_flow_lean":             etf_flow_lean_val,
     }
 
     available_sigs = {k: v for k, v in signals.items() if v is not None}
@@ -1346,6 +1392,16 @@ def build_report(
             "stocks": tech_stock_results,
             "tech_sector_lean": tech_sector_lean_val,
         },
+        "etf_flows": {
+            "source":               "sosovalue",
+            "data_date":            etf_data_date,
+            "total_net_inflow_usd": round(etf_net_inflow_usd, 2)    if etf_net_inflow_usd   is not None else None,
+            "total_net_assets_usd": round(etf_net_assets_usd, 2)    if etf_net_assets_usd   is not None else None,
+            "total_value_traded_usd": round(etf_value_traded_usd, 2) if etf_value_traded_usd is not None else None,
+            "cum_net_inflow_usd":   round(etf_cum_inflow_usd, 2)    if etf_cum_inflow_usd   is not None else None,
+            "flow_lean":            etf_flow_lean_val,
+            "fetch_note":           None if sosovalue_api_key else "SOSOVALUE_API_KEY not set — skipped",
+        },
         "sentiment": {
             "fear_greed_value": fg_value,
             "fear_greed_label": fg_label,
@@ -1363,7 +1419,7 @@ def build_report(
             "top_headlines":     top_headlines,
         },
         "signal_summary": {
-            "signals_evaluated": 14,
+            "signals_evaluated": 15,
             "signals_available": len(available_sigs),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1573,6 +1629,21 @@ def _fetch_alpha_vantage_spy(api_key: str) -> dict:
     if not ts:
         raise ValueError("No time series data in Alpha Vantage response")
     return ts
+
+
+def _fetch_sosovalue_btc_etf_flows(api_key: str) -> list:
+    url = "https://openapi.sosovalue.com/openapi/v1/etfs/summary-history"
+    headers = {"x-soso-api-key": api_key, "Accept": "application/json"}
+    params = {"symbol": "BTC", "country_code": "US", "limit": 2}
+    resp = requests.get(url, headers=headers, params=params, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    envelope = resp.json()
+    if not isinstance(envelope, dict) or envelope.get("code") != 0:
+        raise ValueError(f"SoSoValue ETF flows unexpected response: {envelope}")
+    data = envelope.get("data", [])
+    if not isinstance(data, list) or len(data) == 0:
+        raise ValueError("SoSoValue ETF flows returned empty data array")
+    return data
 
 
 # ---------------------------------------------------------------------------
