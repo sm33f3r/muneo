@@ -1,0 +1,171 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-23T21:27:13 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.699538,
+    "price_change_24h_pct": -2.8727,
+    "price_change_7d_pct": -11.7615,
+    "volume_24h_usd": 388650548,
+    "market_cap_usd": 2817232401,
+    "volume_to_mcap_ratio": 0.137955,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -86.9161,
+    "cex_price_usd": 0.7008,
+    "cex_24h_high": 0.7294,
+    "cex_24h_low": 0.673,
+    "cex_dex_spread_pct": 0.180405,
+    "volume_on_up_days_usd": 487497329.7097548,
+    "volume_on_down_days_usd": 505668091.0377557,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 35.6338,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.106072,
+      "signal_line": -0.094335,
+      "histogram": -0.011737
+    },
+    "macd_lean": "bearish",
+    "sma_50": 1.130567,
+    "price_vs_sma50_pct": -38.125,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.235231,
+      "mid": 0.939991,
+      "lower": 0.644752,
+      "width_pct": 62.8175,
+      "position": 0.1162
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 68482232.21,
+    "oi_lean": null,
+    "funding_rate_latest": 5.875e-05,
+    "funding_rate_7d_avg": 6.204761904761911e-07,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.1095,
+    "btc_long_account_pct": 67.84,
+    "btc_short_account_pct": 32.16,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 423149482.0,
+    "tvl_7d_change_pct": -6.8556,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 75365.0,
+    "chain_fees_7d_avg_usd": 69716.0,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 2,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T16:54:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hut 8 agrees to $2.35 million settlement in investor suit tied to US Bitcoin merger",
+        "url": "https://www.theblock.co/post/405760/hut-8-agrees-to-2-35-million-settlement-in-investor-suit-tied-to-us-bitcoin-merger?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-23T10:35:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 62464.0,
+    "btc_24h_change_pct": -2.7501,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.3866,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2144136193422.671,
+    "eth_btc_ratio": 0.026643,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.73,
+    "spy_change_pct": -1.432,
+    "spy_lean": "bearish",
+    "vix_close": 17.28,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 85.71,
+    "cg_sentiment_votes_down_pct": 14.29,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
