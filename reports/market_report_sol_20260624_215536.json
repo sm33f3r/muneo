@@ -1,0 +1,160 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-24T21:54:51 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 67.75,
+    "price_change_24h_pct": -2.0496,
+    "price_change_7d_pct": -5.737,
+    "volume_24h_usd": 3180889255,
+    "market_cap_usd": 39337440766,
+    "volume_to_mcap_ratio": 0.080862,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -76.9013,
+    "cex_price_usd": 67.86,
+    "cex_24h_high": 70.44,
+    "cex_24h_low": 64.71,
+    "cex_dex_spread_pct": 0.162362,
+    "volume_on_up_days_usd": 2945267440.275021,
+    "volume_on_down_days_usd": 2736709504.7562838,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 36.8481,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -7.722239,
+      "signal_line": -7.349867,
+      "histogram": -0.372372
+    },
+    "macd_lean": "bearish",
+    "sma_50": 96.407,
+    "price_vs_sma50_pct": -29.725,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 98.501156,
+      "mid": 81.206,
+      "lower": 63.910844,
+      "width_pct": 42.5958,
+      "position": 0.1648
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 711654781.75,
+    "oi_lean": null,
+    "funding_rate_latest": -1.309e-05,
+    "funding_rate_7d_avg": -2.5684285714285713e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.6751,
+    "btc_long_account_pct": 72.79,
+    "btc_short_account_pct": 27.21,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4641723430.0,
+    "tvl_7d_change_pct": -3.454,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 5747770.0,
+    "chain_fees_7d_avg_usd": 6500441.57,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Ethereum\u2019s much-hated staking 'tax' may already be obsolete",
+        "url": "https://cointelegraph.com/features/ethereums-funding-scare-why-a-hated-staking-tax-may-already-be-obsolete?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-23T23:18:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 60951.0,
+    "btc_24h_change_pct": -2.5723,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.2388,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2098167876432.1592,
+    "eth_btc_ratio": 0.026496,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.2,
+    "spy_change_pct": -0.0518,
+    "spy_lean": "neutral",
+    "vix_close": 19.49,
+    "vix_lean": "bearish"
+  },
+  "sentiment": {
+    "fear_greed_value": 18,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 60.98,
+    "cg_sentiment_votes_down_pct": 39.02,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
