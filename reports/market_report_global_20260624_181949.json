@@ -1,0 +1,422 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-24T18:18:41 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2137417164559.51,
+    "total_market_cap_change_24h_pct": -3.9026,
+    "total_volume_24h_usd": 82881042699.28,
+    "btc_dominance_pct": 55.7888,
+    "eth_dominance_pct": 8.8389,
+    "total2_usd": 944978234015.22,
+    "total3_usd": 756054441474.98,
+    "active_cryptocurrencies": 17404,
+    "altcoin_season_index": 60,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BAS",
+        "name": "BNB Attestation Service",
+        "price_change_24h_pct": 35.0874,
+        "price_usd": 0.04227787,
+        "market_cap_usd": 105388007
+      },
+      {
+        "symbol": "O",
+        "name": "o1.exchange",
+        "price_change_24h_pct": 27.4596,
+        "price_usd": 0.707948,
+        "market_cap_usd": 113252636
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 7.5025,
+        "price_usd": 16.18,
+        "market_cap_usd": 5060816175
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": 4.6141,
+        "price_usd": 0.96169,
+        "market_cap_usd": 155852901
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 3.6762,
+        "price_usd": 0.00981525,
+        "market_cap_usd": 535361478
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -22.6178,
+        "price_usd": 0.078649,
+        "market_cap_usd": 139928078
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -21.6786,
+        "price_usd": 0.079378,
+        "market_cap_usd": 173338850
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -18.7049,
+        "price_usd": 0.266995,
+        "market_cap_usd": 266453926
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -18.0873,
+        "price_usd": 1.64,
+        "market_cap_usd": 473080511
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": -12.3684,
+        "price_usd": 0.222552,
+        "market_cap_usd": 164458256
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59549,
+    "price_change_24h_pct": -4.3573,
+    "price_change_7d_pct": -9.5476,
+    "market_cap_usd": 1193647996211,
+    "volume_24h_usd": 37101394780,
+    "direction": "bearish",
+    "oi_usd": 6207188866.34,
+    "funding_rate_latest": 2.7e-07,
+    "funding_rate_7d_avg": 2.747809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.5088,
+    "long_account_pct": 71.5,
+    "short_account_pct": 28.5,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1568.82,
+    "price_change_24h_pct": -5.1983,
+    "price_change_7d_pct": -11.404,
+    "market_cap_usd": 189176339219,
+    "volume_24h_usd": 11999442302,
+    "eth_btc_ratio": 0.026345,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70287605888.84,
+    "stablecoin_market_cap_usd": 313224998973.14,
+    "stablecoin_dominance_pct": 14.6544
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 31,
+    "headlines": [
+      {
+        "headline": "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
+        "summary": "Kalshi traders are not agreeing with Treasury Secretary Scott Bessent's prediction that the U.S. economy will have 3% growth this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/bessent-sees-gdp-growth-booming-this-year-kalshi-traders-see-little-chance-of-that.html",
+        "published_at": "2026-06-24T16:57:25Z"
+      },
+      {
+        "headline": "US airline stocks rise as oil retreats to pre-Iran war levels - Reuters",
+        "summary": "US airline stocks rise as oil retreats to pre-Iran war levels\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcWlMZ1R5R3kwcFZ5aU1SNnlnYm0wNThQTXFLU2c4U0c2WFNWLVJXZVhJRVp4VTJHaW9OT184bWI5a3ozY3NPeVVSWW9sQlEwQ1pBNWEwYlk4cUhUY1hSVXZOdUJ5U2F1eTRyZEZlYXJRM2JkdUJTUXRacDNYTWNwUXJjOV9JTU9GN0g4NEQ5TlBXR0FNdEZ5ekZBVk5YejJ6cDdTOEFBdzQ5ekk?oc=5",
+        "published_at": "2026-06-24T16:56:14Z"
+      },
+      {
+        "headline": "European shares tread water as Iran uncertainty weighs, Rheinmetall slumps - Reuters",
+        "summary": "European shares tread water as Iran uncertainty weighs, Rheinmetall slumps\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQVAzdWZUaWt2N3ZZbFdmUUJVT2I1YzVqUFJXbUVtUEFYeW9PTERaYTYyOGRPYVdNRzJDT2FUamY2UHVzMkxsRkd6VmREenlLNFZzY0xZejV1S3ljZlJieGVqSW43UkhhUUkxdmZOZ0dBT2gxd0pRaWpocmRVYzU0TjJTNzFqVDhiTzRSSF83NXdnVkZmNkJIMmdtQU1oSDJTT3k3QTFoVWpqUVlDVmx2UVVlYWE0UQ?oc=5",
+        "published_at": "2026-06-24T16:36:43Z"
+      },
+      {
+        "headline": "Rubio meets Gulf leaders, pledges security amid Iran deal doubts - Reuters",
+        "summary": "Rubio meets Gulf leaders, pledges security amid Iran deal doubts\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWl9XMUk4OHJjWllyc3MtYkZyTGRkbFoxZnV1Mkl4b1pkMlpMYW9yaDV1T2hTMjc1U3NEb2ZNeFBGUkNQcS13bG5UUkgtWTFON0hpZkQzMHUyWVBTY19KMVlUZEJBWUZPN2ZEblp6T01OODBFV0t0RmY5VXJaQVRZZ1p6ZFkxVXI0WXJtRFJpZ21YNUtxcWttb0FObmtndVdpRGhvYkE0eTVWbW5TLWF4QQ?oc=5",
+        "published_at": "2026-06-24T16:22:23Z"
+      },
+      {
+        "headline": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East - Reuters",
+        "summary": "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd2ZaZ09FYVZua01kNUt3a3EycFVoUi1rZkd3SGc2UUhNa2pqdm5PTEhfMlhMV1ZxRlI3OU5sN3o3aVdjNlpBOEEyelFxY2s5TGVNc2R0ZFZzbEROSmk3MHJGdDVBT3YwbG5KOWZqNWh1Skh6X3RYc0YybzNpU2FMaGxKTEN6Nzd6T3hJN2FJakQ3eFVsdzVFSHJvUVBTMWp0NEpURTAtbk14TDhnS1Vvb21mSUVtNUlFR1FCQ0NXVEg1a0Fn?oc=5",
+        "published_at": "2026-06-24T14:29:43Z"
+      },
+      {
+        "headline": "US-Iran deal may leave Netanyahu as biggest casualty - Reuters",
+        "summary": "US-Iran deal may leave Netanyahu as biggest casualty\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzZCak1rSmduaE1FYXJIWFVlNFlLRHFhb2c0RW9vMUp4elF1N0tTa1lHVkR1NTdDZmdacE91TDlKcEcwYW8xeDUwQkFlV0ZJaXJwc0E2OG9hTHlWMVlZSHhmRnlHanczSnlBREtZM3pKYVR4V2ZLWXFkakh6akdmT3JBcW90VGttWG11N2cyaDZIdndneEJDWTU0SlNXamFhTmZEWHNn?oc=5",
+        "published_at": "2026-06-24T14:25:49Z"
+      },
+      {
+        "headline": "Polymarket-backed platform boosts funding to root out insider trading on prediction markets",
+        "summary": "A Polymarket-backed platform raised $1.5 million in a funding round to help build tools to detect suspicious trading activity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/polymarket-backed-platform-boosts-funding-to-root-out-insider-trading-on-prediction-markets.html",
+        "published_at": "2026-06-24T14:02:44Z"
+      },
+      {
+        "headline": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war - Reuters",
+        "summary": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORDAtcFJlNU1BcXI3bU5hODkwa0p5UDJBaWZiRjhSbHRIZTB0SzhnSUhJWnZiQW0tVGxVUnNQa3NwVXBpdXFSUjFpSFR0bjhmMnNScERBVHRoRVhYdDUzUDNKTTIyQk5RenlNNU1XQ3QxcGRPcmRWYnRxZXI0ellwV0dscmtBVmk1ZU45UUVhYjIzV0tRZ0pZMU1ZOFBwWlBjTWxrMWFCLUlFRHZCMnM1WTI5SXFqZkVSRy1XWXFpdVc?oc=5",
+        "published_at": "2026-06-24T13:53:40Z"
+      },
+      {
+        "headline": "Ships start sailing through Hormuz under UN evacuation scheme, agency says - Reuters",
+        "summary": "Ships start sailing through Hormuz under UN evacuation scheme, agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzhjV0RpTTFMQkJpMENrNzBtX2lDYURTRTlwdDRZbEF6dFA1OUlwcERnOV9xcnFBdnI0SmIzRUtKRk5NM25WQXJ3eGxCMXhGQ21aTmkybzE1akhpS3plMXNhcmhyeWRGcW9UenE3X3J6aUowbnlGSEVhTVRBSjh5SFFsX0lkSUxjWHJpQl9BYUZ3aTZCU0xvQXowZDgyWC1BNGQzQnNpZmsyMHY5VGNMRFo3NW5yY1VScm5nOTRKcFBkaGUxWlE?oc=5",
+        "published_at": "2026-06-24T13:53:19Z"
+      },
+      {
+        "headline": "Qualcomm inks deal for AI startup Modular to bolster software stack, data center buildout",
+        "summary": "Qualcomm is looking to expand its position in the data center market as AI demand skyrockets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html",
+        "published_at": "2026-06-24T13:29:23Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.58,
+    "spy_change_pct": -1.4522,
+    "spy_lean": "bearish",
+    "vix_close": 19.49,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 59644.2,
+    "coinbase_premium_pct": 0.159868,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-24T18:18:41 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 198.23,
+        "change_pct": -0.9048,
+        "prev_close": 200.04
+      },
+      "AMD": {
+        "close": 512.7,
+        "change_pct": -1.3754,
+        "prev_close": 519.85
+      },
+      "TSM": {
+        "close": 438.2,
+        "change_pct": 0.4148,
+        "prev_close": 436.39
+      },
+      "SMCI": {
+        "close": 32.07,
+        "change_pct": -3.7515,
+        "prev_close": 33.32
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.97,
+        "change_pct": -0.5157,
+        "prev_close": 713.65
+      },
+      "SOXX": {
+        "close": 595.12,
+        "change_pct": -1.3706,
+        "prev_close": 603.39
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-06-23",
+    "total_net_inflow_usd": -113780200.58,
+    "total_net_assets_usd": 77540403017.48,
+    "total_value_traded_usd": 1563286122.97,
+    "cum_net_inflow_usd": 53215692917.27,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 83,
+    "positive_count": 9,
+    "negative_count": 23,
+    "neutral_count": 51,
+    "sentiment_ratio": 0.1084,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Why Bitcoin crashed below $60K as support fails when buyers are needed most",
+        "url": "https://cryptoslate.com/bitcoins-60k-break-exposed-why-dip-buyers-arrived-too-late/",
+        "published_at": "2026-06-24T18:05:41+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Synthetix Founder Takes Blame For sUSD Problems As Protocol Eyes Basis-Vault Fix",
+        "url": "https://bitcoinist.com/synthetix-founder-takes-blame-for-susd-problems-as-protocol-eyes-basis-vault-f/",
+        "published_at": "2026-06-24T17:45:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Withdraws MiCA License Application in Greece, Leaving EU Users in Limbo",
+        "url": "https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo",
+        "published_at": "2026-06-24T17:37:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto-backed candidates notch wins in three US state primaries",
+        "url": "https://cointelegraph.com/news/crypto-backed-candidates-new-york-maryland-primaries?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T17:34:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fake Crypto Influencer Gets 15 Months for $1.4M Telegram Staking Fraud",
+        "url": "https://decrypt.co/371989/fake-crypto-influencer-gets-15-months-for-1-4m-telegram-staking-fraud",
+        "published_at": "2026-06-24T17:18:31+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin falls under $60K, but traders anticipate 15% bounce",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-2-week-lows?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T17:06:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "America\u2019s Bitcoin buying turns negative as BTC drifts closer to the $57,300 liquidation trap",
+        "url": "https://cryptoslate.com/americas-bitcoin-buying-turns-negative-as-btc-drifts-closer-to-the-57300-liquidation-trap/",
+        "published_at": "2026-06-24T17:02:57+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "a16z CSX-backed Cambrian raises $6 million seed to build blockchain data oracle network",
+        "url": "https://www.theblock.co/post/406028/a16z-csx-backed-cambrian-seed-round-blockchain-data-oracle-network?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T17:00:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Hasn't Broken the 4-Year Cycle Yet, Says 21Shares as BTC Dives Below $60K",
+        "url": "https://decrypt.co/371985/bitcoin-hasnt-broken-4-year-cycle-yet-21shares",
+        "published_at": "2026-06-24T16:59:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed Hawkish Pivot Darkens Crypto Liquidity Outlook As Traders Brace For Choppy Summer",
+        "url": "https://bitcoinist.com/fed-hawkish-pivot-darkens-crypto-liquidity-outlook-as-traders-brace-for-choppy/",
+        "published_at": "2026-06-24T16:45:43+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 15,
+    "signals_available": 15,
+    "signals_null": 0,
+    "bullish_count": 2,
+    "bearish_count": 9,
+    "neutral_count": 4,
+    "overall_lean": "bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400"
+  ]
+}
