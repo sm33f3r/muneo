@@ -1,0 +1,421 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-24T15:20:12 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2189189956171.99,
+    "total_market_cap_change_24h_pct": -1.6101,
+    "total_volume_24h_usd": 66420514594.33,
+    "btc_dominance_pct": 55.7633,
+    "eth_dominance_pct": 9.0419,
+    "total2_usd": 968424354519.53,
+    "total3_usd": 770480138742.26,
+    "active_cryptocurrencies": 17404,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 29.1703,
+        "price_usd": 19.86,
+        "market_cap_usd": 6222364073
+      },
+      {
+        "symbol": "O",
+        "name": "o1.exchange",
+        "price_change_24h_pct": 18.1842,
+        "price_usd": 0.677214,
+        "market_cap_usd": 108814827
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": 9.7747,
+        "price_usd": 10.8,
+        "market_cap_usd": 165515033
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 8.7002,
+        "price_usd": 0.0102886,
+        "market_cap_usd": 561131730
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 6.6429,
+        "price_usd": 0.104917,
+        "market_cap_usd": 230553059
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -43.2964,
+        "price_usd": 0.067822,
+        "market_cap_usd": 122255364
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -17.9734,
+        "price_usd": 0.060592,
+        "market_cap_usd": 151796274
+      },
+      {
+        "symbol": "RE",
+        "name": "RE",
+        "price_change_24h_pct": -17.1174,
+        "price_usd": 0.681427,
+        "market_cap_usd": 108758998
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -14.1065,
+        "price_usd": 0.285077,
+        "market_cap_usd": 283654194
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": -7.3464,
+        "price_usd": 0.673345,
+        "market_cap_usd": 196052435
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60856,
+    "price_change_24h_pct": -2.1528,
+    "price_change_7d_pct": -6.4692,
+    "market_cap_usd": 1220290097790,
+    "volume_24h_usd": 27496021552,
+    "direction": "bearish",
+    "oi_usd": 6096923780.2,
+    "funding_rate_latest": 2.134e-05,
+    "funding_rate_7d_avg": 2.6235714285714288e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.3501,
+    "long_account_pct": 70.15,
+    "short_account_pct": 29.85,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1639.77,
+    "price_change_24h_pct": -0.7901,
+    "price_change_7d_pct": -6.8625,
+    "market_cap_usd": 197842064773,
+    "volume_24h_usd": 9126136476,
+    "eth_btc_ratio": 0.026945,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71438641230.57,
+    "stablecoin_market_cap_usd": 314093631533.19,
+    "stablecoin_dominance_pct": 14.3475
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 32,
+    "headlines": [
+      {
+        "headline": "Polymarket-backed platform boosts funding to root out insider trading on prediction markets",
+        "summary": "A Polymarket-backed platform raised $1.5 million in a funding round to help build tools to detect suspicious trading activity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/polymarket-backed-platform-boosts-funding-to-root-out-insider-trading-on-prediction-markets.html",
+        "published_at": "2026-06-24T14:02:44Z"
+      },
+      {
+        "headline": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war - Reuters",
+        "summary": "Italy rebukes NATO's Rutte over remarks on US use of bases in Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORDAtcFJlNU1BcXI3bU5hODkwa0p5UDJBaWZiRjhSbHRIZTB0SzhnSUhJWnZiQW0tVGxVUnNQa3NwVXBpdXFSUjFpSFR0bjhmMnNScERBVHRoRVhYdDUzUDNKTTIyQk5RenlNNU1XQ3QxcGRPcmRWYnRxZXI0ellwV0dscmtBVmk1ZU45UUVhYjIzV0tRZ0pZMU1ZOFBwWlBjTWxrMWFCLUlFRHZCMnM1WTI5SXFqZkVSRy1XWXFpdVc?oc=5",
+        "published_at": "2026-06-24T13:53:40Z"
+      },
+      {
+        "headline": "Rubio on Gulf tour as allies sceptical about Iran deal seek answers - Reuters",
+        "summary": "Rubio on Gulf tour as allies sceptical about Iran deal seek answers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWl9XMUk4OHJjWllyc3MtYkZyTGRkbFoxZnV1Mkl4b1pkMlpMYW9yaDV1T2hTMjc1U3NEb2ZNeFBGUkNQcS13bG5UUkgtWTFON0hpZkQzMHUyWVBTY19KMVlUZEJBWUZPN2ZEblp6T01OODBFV0t0RmY5VXJaQVRZZ1p6ZFkxVXI0WXJtRFJpZ21YNUtxcWttb0FObmtndVdpRGhvYkE0eTVWbW5TLWF4QQ?oc=5",
+        "published_at": "2026-06-24T13:47:11Z"
+      },
+      {
+        "headline": "Ships start sailing through Hormuz under UN evacuation scheme, agency says - Reuters",
+        "summary": "Ships start sailing through Hormuz under UN evacuation scheme, agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzhjV0RpTTFMQkJpMENrNzBtX2lDYURTRTlwdDRZbEF6dFA1OUlwcERnOV9xcnFBdnI0SmIzRUtKRk5NM25WQXJ3eGxCMXhGQ21aTmkybzE1akhpS3plMXNhcmhyeWRGcW9UenE3X3J6aUowbnlGSEVhTVRBSjh5SFFsX0lkSUxjWHJpQl9BYUZ3aTZCU0xvQXowZDgyWC1BNGQzQnNpZmsyMHY5VGNMRFo3NW5yY1VScm5nOTRKcFBkaGUxWlE?oc=5",
+        "published_at": "2026-06-24T13:30:37Z"
+      },
+      {
+        "headline": "Qualcomm inks deal for AI startup Modular to bolster software stack, data center buildout",
+        "summary": "Qualcomm is looking to expand its position in the data center market as AI demand skyrockets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html",
+        "published_at": "2026-06-24T13:29:23Z"
+      },
+      {
+        "headline": "We're buying the dip in a stock that we have been itching to get bigger in",
+        "summary": "The selloff is finally giving us a chance to build up this tiny position around our initial cost basis.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/were-buying-the-dip-in-a-stock-that-we-have-been-itching-to-get-bigger-in.html",
+        "published_at": "2026-06-24T13:23:25Z"
+      },
+      {
+        "headline": "Qatar PM in Oman to pave way for Iran-Gulf-Iraq Hormuz talks - Reuters",
+        "summary": "Qatar PM in Oman to pave way for Iran-Gulf-Iraq Hormuz talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR0ZxbXI3VDZwaXRHdWxyV0RvR2FXVGZXQmJjVGU4dGF4SDIzNjRTdUx3ZE1SUnRvcnkxcC0wUXdwRmQ5VHlUWVF0blk4LWM4WTdhTDNkQlVtaGJFZkhCWG1Zeks5N0hWYmtmd0dqVFRKMFB3MGFxNS15YVVyWEdVczNtQmVBV2YwQ09GbzlQYm1ZcXZFWXNLbUlNTlZDQmJ2TGYwZkh5RjBJTWZQWVBoSWZaelZnOTdPZDhyQmtGckdaVjJBSE1aajNucE1UWm8?oc=5",
+        "published_at": "2026-06-24T12:24:45Z"
+      },
+      {
+        "headline": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
+        "summary": "Bessent sees his \"3-3-3\" plan as still in reach \u2014 3% growth, a 3% deficit-to-GDP rate, and a 3 million barrels per day increase in oil production.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/treasury-secretary-bessent-says-us-gdp-growth-can-return-to-3percent-before-end-of-the-year.html",
+        "published_at": "2026-06-24T12:20:52Z"
+      },
+      {
+        "headline": "IAEA chief says Iran inspections will go ahead, working on modalities - Reuters",
+        "summary": "IAEA chief says Iran inspections will go ahead, working on modalities\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnZnbjBzNWg2N3R1eFNLelBNcDdsMkVaUGNpUUhKc2N2TWxtQTJkSnU4cXZ0aGtyN283SDVDNjNyQmpYNkxNUW9fVDFOcXRUOHRmYy1LVzZtbjRiMlprYWVvYk5iVDR1VDRRaVZDdFdHX1E2ZkhCcFBHa3FiRWJuVFhObDU4dkttTHdKX3NMMEc4bGxtS3NsODRzRk4zbzF2S25ORkgyR1Y2Sm8?oc=5",
+        "published_at": "2026-06-24T11:21:43Z"
+      },
+      {
+        "headline": "Israel, Lebanon discussing pilot scheme for handover of territory - Reuters",
+        "summary": "Israel, Lebanon discussing pilot scheme for handover of territory\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYWdCUW9kY2lOS2pVTHpubWhKMDlLZTlIRl9pMFlYNHhWWkFjaVl1MUZuRDJMZFhyY0ZabTVaZ3dmNGYtaDh0MHNPSjQ3cDN2MUtDWXJNNlhDZ0tYQ1JMQ3gyelF0SVlMbnVBbVdBazhOZTZOMTN2VldiVnFkMWRQTXRGLVhueUZKQUczTWNubGN1MnNyaWJHMWxHdkRKbWl1TFFFM0lQcDlUSDduRF9lS0lPc3JNcXpMRl9sV1ZGLXNiMEVUbFdv?oc=5",
+        "published_at": "2026-06-24T10:56:23Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.58,
+    "spy_change_pct": -1.4522,
+    "spy_lean": "bearish",
+    "vix_close": 19.49,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 60910.04,
+    "coinbase_premium_pct": 0.0888,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-24T15:20:12 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 201.08,
+        "change_pct": 0.5199,
+        "prev_close": 200.04
+      },
+      "AMD": {
+        "close": 516.87,
+        "change_pct": -0.5732,
+        "prev_close": 519.85
+      },
+      "TSM": {
+        "close": 441.18,
+        "change_pct": 1.0976,
+        "prev_close": 436.39
+      },
+      "SMCI": {
+        "close": 33.41,
+        "change_pct": 0.2701,
+        "prev_close": 33.32
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 717.22,
+        "change_pct": 0.5002,
+        "prev_close": 713.65
+      },
+      "SOXX": {
+        "close": 603.32,
+        "change_pct": -0.0116,
+        "prev_close": 603.39
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-06-23",
+    "total_net_inflow_usd": -113780200.58,
+    "total_net_assets_usd": 77540403017.48,
+    "total_value_traded_usd": 1563286122.97,
+    "cum_net_inflow_usd": 53215692917.27,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 18,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 77,
+    "positive_count": 10,
+    "negative_count": 19,
+    "neutral_count": 48,
+    "sentiment_ratio": 0.1299,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Arthur Hayes says AI rescue liquidity could send Bitcoin price to $1,000,000",
+        "url": "https://cryptoslate.com/arthur-hayes-says-ai-rescue-liquidity-could-send-bitcoin-price-to-1000000/",
+        "published_at": "2026-06-24T15:10:12+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance withdraws Greece-filed MiCA application.",
+        "url": "https://cointelegraph.com/news/binance-eu-license-greece-mica-setback?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T15:04:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Impossibility of Perfect Fairness in Transaction Ordering",
+        "url": "https://cointelegraph.com/research/the-impossibility-of-perfect-fairness-in-transaction-ordering?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T15:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi sues Illinois, Pritzker over state bill implementing prediction markets regulatory regime",
+        "url": "https://www.theblock.co/post/406000/kalshi-sues-illinois-pritzker-over-state-bill-implementing-prediction-markets-regulatory-regime?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T14:41:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Standard Chartered sees \u2018generational\u00a0wealth\u2019 in potential Aave recovery, predicts 50x upside by 2030",
+        "url": "https://www.theblock.co/post/405996/standard-chartered-generational-wealth-potential-aave-recovery-predicts-50x-upside-2030?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T14:37:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Shares Crash Below $100 as Bitcoin Sinks Towards $60K",
+        "url": "https://decrypt.co/371965/strategy-shares-crash-below-100-bitcoin-sinks-toward-60k",
+        "published_at": "2026-06-24T14:31:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Kentucky Lawsuit Extends Federal-State Fight Over Prediction Markets",
+        "url": "https://bitcoinist.com/cftc-kentucky-lawsuit-extends-federal-state-fight-over-prediction-markets/",
+        "published_at": "2026-06-24T14:30:39+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How memecoin marketing moved from online speculation to real-world risk",
+        "url": "https://cointelegraph.com/learn/pump-fun-go-bounty-memecoin-risks?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T14:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi TVL drops 39% in 2026 amid market downturn and record hack activity",
+        "url": "https://cointelegraph.com/news/defi-tvl-falls-39-2026-erases-45b-value?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T14:14:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano\u2019s scaling overhaul hit by a user confidence gap widened by ADA\u2019s slump and wallet exploit",
+        "url": "https://cryptoslate.com/cardano-advances-major-scaling-overhaul-as-security-breach-and-ada-token-slump-hits-market-conviction/",
+        "published_at": "2026-06-24T14:05:49+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 15,
+    "signals_available": 15,
+    "signals_null": 0,
+    "bullish_count": 3,
+    "bearish_count": 7,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403"
+  ]
+}
