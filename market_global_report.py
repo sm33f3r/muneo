@@ -292,6 +292,16 @@ def lean_etf_flow(net_inflow_usd: Optional[float]) -> Optional[str]:
     return "neutral"
 
 
+def lean_liq_pressure(liq_below_usd: Optional[float], liq_above_usd: Optional[float]) -> Optional[str]:
+    if liq_below_usd is None or liq_above_usd is None:
+        return None
+    if liq_below_usd >= liq_above_usd * 1.5:
+        return "bearish"
+    if liq_above_usd >= liq_below_usd * 1.5:
+        return "bullish"
+    return "neutral"
+
+
 def compute_overall_lean(signals: dict) -> str:
     available = [v for v in signals.values() if v is not None]
     n = len(available)
@@ -1210,9 +1220,59 @@ def build_report(
             fetch_errors.append(f"coinbase_ticker:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [26/27] SoSoValue — BTC spot ETF daily net flows
+    # [26/28] Binance Futures — BTC liquidation clusters (24h)
     # ------------------------------------------------------------------
-    print("[26/27] Fetching SoSoValue — BTC spot ETF daily net flows...")
+    print("[26/28] Fetching Binance Futures — BTC liquidation clusters...")
+
+    liq_above_usd  = None
+    liq_below_usd  = None
+    liq_count_above = 0
+    liq_count_below = 0
+
+    liq_orders = safe_fetch(
+        "Binance BTC liquidation clusters",
+        lambda: _fetch_binance_btc_liquidations(),
+        fetch_errors,
+    )
+    time.sleep(1)
+
+    if liq_orders and btc_price_usd:
+        try:
+            band_above_low  = btc_price_usd * 1.001
+            band_above_high = btc_price_usd * 1.05
+            band_below_low  = btc_price_usd * 0.95
+            band_below_high = btc_price_usd * 0.999
+
+            above_orders = [
+                o for o in liq_orders
+                if o.get("side") == "BUY"
+                and band_above_low <= float(o.get("price", 0)) <= band_above_high
+            ]
+            below_orders = [
+                o for o in liq_orders
+                if o.get("side") == "SELL"
+                and band_below_low <= float(o.get("price", 0)) <= band_below_high
+            ]
+
+            liq_above_usd = sum(
+                float(o.get("executedQty", 0)) * float(o.get("averagePrice", o.get("price", 0)))
+                for o in above_orders
+            )
+            liq_below_usd = sum(
+                float(o.get("executedQty", 0)) * float(o.get("averagePrice", o.get("price", 0)))
+                for o in below_orders
+            )
+            liq_count_above = len(above_orders)
+            liq_count_below = len(below_orders)
+        except (ValueError, TypeError) as e:
+            fetch_errors.append(f"binance_liq:parse_error: {e}")
+
+    liq_pressure_lean_val = lean_liq_pressure(liq_below_usd, liq_above_usd)
+
+    # ------------------------------------------------------------------
+    # [27/28] SoSoValue — BTC spot ETF daily net flows
+    # ------------------------------------------------------------------
+    print("[27/28] Fetching SoSoValue — BTC spot ETF daily net flows...")
 
     etf_net_inflow_usd   = None
     etf_net_assets_usd   = None
@@ -1238,15 +1298,15 @@ def build_report(
                 fetch_errors.append(f"sosovalue_etf:parse_error: {e}")
     else:
         print("  ✗ SoSoValue BTC ETF flows — SOSOVALUE_API_KEY not set")
-        fetch_errors.append("fetch_26:sosovalue_etf: skipped — SOSOVALUE_API_KEY not set")
+        fetch_errors.append("fetch_27:sosovalue_etf: skipped — SOSOVALUE_API_KEY not set")
     time.sleep(1)
 
     etf_flow_lean_val = lean_etf_flow(etf_net_inflow_usd)
 
     # ------------------------------------------------------------------
-    # [27/27] Finnhub — macro news (general category)
+    # [28/28] Finnhub — macro news (general category)
     # ------------------------------------------------------------------
-    print("[27/27] Fetching Finnhub — macro news...")
+    print("[28/28] Fetching Finnhub — macro news...")
 
     finnhub_article_count_24h = 0
     finnhub_headlines: list   = []
@@ -1277,7 +1337,7 @@ def build_report(
                 fetch_errors.append(f"finnhub_news:parse_error: {e}")
     else:
         print("  \u2717 Finnhub macro news — FINNHUB_API_KEY not set")
-        fetch_errors.append("fetch_27:finnhub_news: skipped — FINNHUB_API_KEY not set")
+        fetch_errors.append("fetch_28:finnhub_news: skipped — FINNHUB_API_KEY not set")
     time.sleep(1)
 
     # ------------------------------------------------------------------
@@ -1305,6 +1365,7 @@ def build_report(
         "tech_sector_lean":          tech_sector_lean_val,
         "coinbase_premium_lean":     coinbase_premium_lean_val,
         "etf_flow_lean":             etf_flow_lean_val,
+        "liq_pressure_lean":         liq_pressure_lean_val,
     }
 
     available_sigs = {k: v for k, v in signals.items() if v is not None}
@@ -1402,6 +1463,18 @@ def build_report(
             "flow_lean":            etf_flow_lean_val,
             "fetch_note":           None if sosovalue_api_key else "SOSOVALUE_API_KEY not set — skipped",
         },
+        "liquidation_map": {
+            "source":              "binance_futures",
+            "window_hours":        24,
+            "band_pct":            5.0,
+            "btc_reference_price": round(btc_price_usd, 2) if btc_price_usd is not None else None,
+            "liq_clusters_above_usd": round(liq_above_usd, 2) if liq_above_usd is not None else None,
+            "liq_clusters_below_usd": round(liq_below_usd, 2) if liq_below_usd is not None else None,
+            "liq_pressure_lean":   liq_pressure_lean_val,
+            "liq_count_above":     liq_count_above,
+            "liq_count_below":     liq_count_below,
+            "fetch_note":          None,
+        },
         "sentiment": {
             "fear_greed_value": fg_value,
             "fear_greed_label": fg_label,
@@ -1419,7 +1492,7 @@ def build_report(
             "top_headlines":     top_headlines,
         },
         "signal_summary": {
-            "signals_evaluated": 15,
+            "signals_evaluated": 16,
             "signals_available": len(available_sigs),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
@@ -1600,6 +1673,25 @@ def _fetch_finnhub_quote(symbol: str, api_key: str) -> dict:
     # Finnhub returns {"c": 0, "d": 0, ...} for unknown symbols — check c != 0
     if data.get("c", 0) == 0 and data.get("pc", 0) == 0:
         raise ValueError(f"No valid quote data for symbol {symbol}")
+    return data
+
+
+def _fetch_binance_btc_liquidations() -> list:
+    import time as _time
+    now_ms = int(_time.time() * 1000)
+    start_ms = now_ms - (24 * 60 * 60 * 1000)
+    url = "https://fapi.binance.com/fapi/v1/allForceOrders"
+    params = {
+        "symbol": "BTCUSDT",
+        "startTime": start_ms,
+        "endTime": now_ms,
+        "limit": 1000,
+    }
+    resp = requests.get(url, params=params, timeout=API_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+    if not isinstance(data, list):
+        raise ValueError("Binance allForceOrders returned non-list response")
     return data
 
 
