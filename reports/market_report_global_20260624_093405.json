@@ -1,0 +1,422 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-24T09:33:01 UTC",
+    "report_type": "global",
+    "script_version": "1.0.0",
+    "schema_version": "1.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2233607715646.09,
+    "total_market_cap_change_24h_pct": 0.4499,
+    "total_volume_24h_usd": 61546501506.76,
+    "btc_dominance_pct": 56.2205,
+    "eth_dominance_pct": 9.0076,
+    "total2_usd": 977862386610.34,
+    "total3_usd": 776667017121.44,
+    "active_cryptocurrencies": 17404,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RUSD",
+        "name": "Royal Dollar",
+        "price_change_24h_pct": 233.1999,
+        "price_usd": 0.9987,
+        "market_cap_usd": 249675000
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 35.8882,
+        "price_usd": 2.31,
+        "market_cap_usd": 669809729
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": 11.5864,
+        "price_usd": 0.148929,
+        "market_cap_usd": 125708559
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 9.2146,
+        "price_usd": 0.099414,
+        "market_cap_usd": 218159679
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": 7.7991,
+        "price_usd": 0.347801,
+        "market_cap_usd": 322439232
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -34.7988,
+        "price_usd": 0.061691,
+        "market_cap_usd": 151787584
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -19.4248,
+        "price_usd": 0.092772,
+        "market_cap_usd": 169984600
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -11.2318,
+        "price_usd": 0.302864,
+        "market_cap_usd": 302499313
+      },
+      {
+        "symbol": "RE",
+        "name": "RE",
+        "price_change_24h_pct": -9.5375,
+        "price_usd": 0.732175,
+        "market_cap_usd": 116872450
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -9.4019,
+        "price_usd": 0.00946602,
+        "market_cap_usd": 516186786
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62598,
+    "price_change_24h_pct": 0.3012,
+    "price_change_7d_pct": -4.3855,
+    "market_cap_usd": 1255316254535,
+    "volume_24h_usd": 24646231722,
+    "direction": "neutral",
+    "oi_usd": 6109277349.98,
+    "funding_rate_latest": 2.134e-05,
+    "funding_rate_7d_avg": 2.6235714285714288e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0093,
+    "long_account_pct": 66.77,
+    "short_account_pct": 33.23,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1664.71,
+    "price_change_24h_pct": 0.8604,
+    "price_change_7d_pct": -6.6686,
+    "market_cap_usd": 200941196437,
+    "volume_24h_usd": 7698007377,
+    "eth_btc_ratio": 0.026594,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71914204120.6,
+    "stablecoin_market_cap_usd": 313474125899.39,
+    "stablecoin_dominance_pct": 14.0344
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 30,
+    "headlines": [
+      {
+        "headline": "Israel, Lebanon discuss US-backed proposal for transfer of some southern territory to Lebanese army - Reuters",
+        "summary": "Israel, Lebanon discuss US-backed proposal for transfer of some southern territory to Lebanese army\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYWdCUW9kY2lOS2pVTHpubWhKMDlLZTlIRl9pMFlYNHhWWkFjaVl1MUZuRDJMZFhyY0ZabTVaZ3dmNGYtaDh0MHNPSjQ3cDN2MUtDWXJNNlhDZ0tYQ1JMQ3gyelF0SVlMbnVBbVdBazhOZTZOMTN2VldiVnFkMWRQTXRGLVhueUZKQUczTWNubGN1MnNyaWJHMWxHdkRKbWl1TFFFM0lQcDlUSDduRF9lS0lPc3JNcXpMRl9sV1ZGLXNiMEVUbFdv?oc=5",
+        "published_at": "2026-06-24T06:54:00Z"
+      },
+      {
+        "headline": "Rubio kicks off Middle East trip as allies seek answers on Iran - Reuters",
+        "summary": "Rubio kicks off Middle East trip as allies seek answers on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWl9XMUk4OHJjWllyc3MtYkZyTGRkbFoxZnV1Mkl4b1pkMlpMYW9yaDV1T2hTMjc1U3NEb2ZNeFBGUkNQcS13bG5UUkgtWTFON0hpZkQzMHUyWVBTY19KMVlUZEJBWUZPN2ZEblp6T01OODBFV0t0RmY5VXJaQVRZZ1p6ZFkxVXI0WXJtRFJpZ21YNUtxcWttb0FObmtndVdpRGhvYkE0eTVWbW5TLWF4QQ?oc=5",
+        "published_at": "2026-06-24T05:08:00Z"
+      },
+      {
+        "headline": "VIX owner Cboe jumps into prediction markets to build on zero-day options growth",
+        "summary": "Global markets operator Cboe has launched its first prediction markets products to meet consumer demand in the fast growing sector.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/24/vix-owner-cboe-jumps-into-prediction-markets-to-build-on-0dte-growth.html",
+        "published_at": "2026-06-24T02:07:56Z"
+      },
+      {
+        "headline": "Gold slips to two-week low as Fed rate-hike bets buoy dollar - Reuters",
+        "summary": "Gold slips to two-week low as Fed rate-hike bets buoy dollar\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNam5nVUZmdHE5YjRyUlF3YURJUnJBLUx1SDV6eEZrdXJYSGpneWFfWjRWT0ZIZmpyeTVGSEw0aFJQNFpnNG1pTDlld2F0UmRSbGRjLWpqNGk0VW9qcGdqeERPMENjNWNaSjZjNV8zZHVLZHVQWTI4RDV0UnNLeWhJVER3V1BLWjZzeXNoZjZxbUY3VU16N0dlTVhudDJMdw?oc=5",
+        "published_at": "2026-06-24T01:23:00Z"
+      },
+      {
+        "headline": "Oil extends slide to more than 1% on expectations of smoother crude flows via Hormuz - Reuters",
+        "summary": "Oil extends slide to more than 1% on expectations of smoother crude flows via Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5",
+        "published_at": "2026-06-24T01:17:00Z"
+      },
+      {
+        "headline": "US Senate joins House in voting to halt Iran war, rebuking Trump - Reuters",
+        "summary": "US Senate joins House in voting to halt Iran war, rebuking Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?oc=5",
+        "published_at": "2026-06-23T22:54:00Z"
+      },
+      {
+        "headline": "US Senate votes to halt Iran war in latest rebuke of Trump - Reuters",
+        "summary": "US Senate votes to halt Iran war in latest rebuke of Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTRaMVd3TU94enBqRXpUc0tCNzVEQ2dQaHlnN0oyMm9sak5aTFNybDQtTkJBU25xYlVSV2ZBR2Jwal9WNE5HQWh1N3A3UGpCNlZkUEo0SVoyaThBVmZmamtaaThxT3dBYl9iUE9JU2xNQUhWN2hSUVltdXZJYThsUEVtcnQzV3c4cGZSSlBGQndRdw?oc=5",
+        "published_at": "2026-06-23T21:34:09Z"
+      },
+      {
+        "headline": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
+        "summary": "The commission has now sued nine states in total in its battle to defend what it sees as its exclusive right to regulate event contracts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/cftc-sues-kentucky-over-actions-against-prediction-markets.html",
+        "published_at": "2026-06-23T20:55:45Z"
+      },
+      {
+        "headline": "US eases restrictions on Iran's world cup team, allowing them in a day earlier - Reuters",
+        "summary": "US eases restrictions on Iran's world cup team, allowing them in a day earlier\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQWZUbWcxX0V1V0VSU3R2TWFkbWwtQlB2ZFhubGpvXzVVdm1KSU5MMTNsS0pKRHFfVmNMZGVBaVFtcUdoUEV2YXluMHp1YVZ0OVI1aEl0R0JTWnFWNzNmeGlLZ3JDc1NrVUNraFVJYVU1VlJLdEs4bGZjSVBrVThMdXh1dFI4OElPaVV4OU1veGRqbjRFcjMzQlFCcThFYUc1WDNoS1BfLW5QNEMxZkQ1d1F1cHYweXNIY3h5M1dlcw?oc=5",
+        "published_at": "2026-06-23T19:26:36Z"
+      },
+      {
+        "headline": "What DuPont's coming 1-for-3 reverse stock split means for investors",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/23/what-duponts-coming-1-for-3-reverse-stock-split-means-for-investors.html",
+        "published_at": "2026-06-23T18:47:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.58,
+    "spy_change_pct": -1.4522,
+    "spy_lean": "bearish",
+    "vix_close": 17.28,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 62587.8,
+    "coinbase_premium_pct": -0.016294,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-24T09:33:01 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.04,
+        "change_pct": -4.1265,
+        "prev_close": 208.65
+      },
+      "AMD": {
+        "close": 519.85,
+        "change_pct": -5.7611,
+        "prev_close": 551.63
+      },
+      "TSM": {
+        "close": 436.39,
+        "change_pct": -6.6885,
+        "prev_close": 467.67
+      },
+      "SMCI": {
+        "close": 33.32,
+        "change_pct": -6.035,
+        "prev_close": 35.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 713.65,
+        "change_pct": -3.2929,
+        "prev_close": 737.95
+      },
+      "SOXX": {
+        "close": 603.39,
+        "change_pct": -7.8808,
+        "prev_close": 655.01
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "sentiment": {
+    "fear_greed_value": 20,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 77,
+    "positive_count": 8,
+    "negative_count": 17,
+    "neutral_count": 52,
+    "sentiment_ratio": 0.1039,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CryptoQuant Says Strategy Should Pause Bitcoin Buys And Rebuild Cash Reserves",
+        "url": "https://bitcoinist.com/cryptoquant-says-strategy-should-pause-bitcoin-buys-and-rebuild-cash-reserves/",
+        "published_at": "2026-06-24T09:21:22+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Law enforcement groups warn Clarity Act could hinder crypto crime investigations",
+        "url": "https://www.theblock.co/post/405945/law-enforcement-groups-warn-clarity-act?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T09:10:44+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation cuts 20% of staff as ETH sinks 44% YTD despite record usage",
+        "url": "https://cryptoslate.com/ethereum-foundation-cuts-20-of-staff-as-eth-sinks-44-ytd-despite-record-usage/",
+        "published_at": "2026-06-24T09:00:47+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korea adds token securities to capital market overhaul",
+        "url": "https://cointelegraph.com/news/south-korea-token-securities-capital-market-overhaul?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T08:56:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mark Cuban, Dallas Mavericks face appeal over dismissed Voyager crypto case",
+        "url": "https://www.theblock.co/post/405937/mark-cuban-dallas-mavericks-face-appeal-over-dismissed-voyager-crypto-case?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T08:43:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenPayd secures MiCA license as stablecoin adoption grows in Europe",
+        "url": "https://cointelegraph.com/news/openpayd-mica-license-stablecoin-adoption-europe?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T07:17:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cboe launches prediction market suite with binary option contracts on S&P 500",
+        "url": "https://www.theblock.co/post/405930/cboe-launches-prediction-market-suite?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-24T06:37:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US nears ban on CBDCs until 2030 as housing bill goes to Trump",
+        "url": "https://cointelegraph.com/news/us-nears-ban-on-cbdcs-until-2030-as-housing-bill-goes-to-trump?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T06:06:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Catholic leaders, US authorities challenge CLARITY Act over illicit activity",
+        "url": "https://cointelegraph.com/news/law-enforcement-and-catholic-groups-warn-clarity-act-facilitates-crypto-crime?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T06:06:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-24T06:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 15,
+    "signals_available": 14,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "fetch_26:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
