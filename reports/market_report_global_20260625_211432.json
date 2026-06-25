@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-25T21:13:37 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2133907496765.85,
+    "total_market_cap_change_24h_pct": -2.3433,
+    "total_volume_24h_usd": 97000431438.41,
+    "btc_dominance_pct": 55.7868,
+    "eth_dominance_pct": 8.8127,
+    "total2_usd": 943468483121.05,
+    "total3_usd": 755414679710.33,
+    "active_cryptocurrencies": 17386,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DATA",
+        "name": "Data Network",
+        "price_change_24h_pct": 15.1018,
+        "price_usd": 0.365576,
+        "market_cap_usd": 129978505
+      },
+      {
+        "symbol": "BAS",
+        "name": "BNB Attestation Service",
+        "price_change_24h_pct": 13.2705,
+        "price_usd": 0.0435333,
+        "market_cap_usd": 108423191
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 12.9174,
+        "price_usd": 17.96,
+        "market_cap_usd": 5612906832
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": 11.4711,
+        "price_usd": 0.067919,
+        "market_cap_usd": 131919837
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 11.092,
+        "price_usd": 0.101605,
+        "market_cap_usd": 264321376
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -65.8138,
+        "price_usd": 0.922136,
+        "market_cap_usd": 1215556109
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -18.4727,
+        "price_usd": 0.058351,
+        "market_cap_usd": 106490211
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price_change_24h_pct": -11.5072,
+        "price_usd": 0.442894,
+        "market_cap_usd": 1462542594
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -11.2983,
+        "price_usd": 0.323026,
+        "market_cap_usd": 113074107
+      },
+      {
+        "symbol": "STRCX",
+        "name": "Strategy PP Variable xStock",
+        "price_change_24h_pct": -8.6925,
+        "price_usd": 78.47,
+        "market_cap_usd": 115038711
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59478,
+    "price_change_24h_pct": -1.9478,
+    "price_change_7d_pct": -5.4566,
+    "market_cap_usd": 1192478377119,
+    "volume_24h_usd": 40947023911,
+    "direction": "bearish",
+    "oi_usd": 6317400633.89,
+    "funding_rate_latest": 1.58e-05,
+    "funding_rate_7d_avg": 2.412095238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.4014,
+    "long_account_pct": 70.6,
+    "short_account_pct": 29.4,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1560.92,
+    "price_change_24h_pct": -2.8678,
+    "price_change_7d_pct": -8.4194,
+    "market_cap_usd": 188448738106,
+    "volume_24h_usd": 15163172198,
+    "eth_btc_ratio": 0.026244,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 69685499957.38,
+    "stablecoin_market_cap_usd": 312757955467.22,
+    "stablecoin_dominance_pct": 14.6566
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 24,
+    "headlines": [
+      {
+        "headline": "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
+        "summary": "The stock had its worst session in more than a year as management made its first official move to pass higher memory costs onto consumers.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/apple-stock-gets-slammed-on-bigger-mac-ipad-price-hikes-why-it-can-weather-the-storm.html",
+        "published_at": "2026-06-25T20:27:58Z"
+      },
+      {
+        "headline": "UN pauses Hormuz evacuation plan after ship reports attack - Reuters",
+        "summary": "UN pauses Hormuz evacuation plan after ship reports attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVWR1YXZUaE9XT2xJQjBTUmZZa044RjRIbnhydkhZbXAzY0xuTllsNmJhdDRyXzJndWJFR3dtNjBLSFE2M2lXOTVDcjdRenBKX2dGSlNyWGhyZmhrbkRjVjcwb2pXUWx2Z0JvbmJpUmpzR2VFTkxza1htWVJMMWxPbnYzVGVuS3d3bEQzc2RTa1hEVnFtT3FjZzR4MUpPLWJjMVNTM01BcnBRSnpSQzRyd21yQ0U3b08xbXR0ajlmeG55UmxrV0RZZmVROA?oc=5",
+        "published_at": "2026-06-25T19:54:34Z"
+      },
+      {
+        "headline": "Crude shipments through Hormuz at highest since Iran war began - Reuters",
+        "summary": "Crude shipments through Hormuz at highest since Iran war began\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNXzN6X1ZFMUJfYUd1aDU5U0RWUGpqMm5VbHMwbGZ6eF9RdERyNVEzY3FIMVBkZXlPUFhGRmJXekNzNzZmbEk5WVBwbm53dTRTQW1NNTJNVjcwN0xUYkJ2Z2NyTHljQ2ktVnBOWWZpUnNVR3JKM05OR0xQRlFlRWpHQ1hWR1hxWXV0YTNldGhZMTVCZXJJclBFOHhPMW9leEd3ZzdzZGVtLWFWRDQ4Ym9HSVl3UjJUbVdnZmpzQ1cxYmZzMWhkTjUtNw?oc=5",
+        "published_at": "2026-06-25T19:12:33Z"
+      },
+      {
+        "headline": "Obesity drugs approach a major milestone, and Lilly may have a 'game changer' ahead",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/obesity-drugs-approach-a-major-milestone-and-lilly-may-have-a-game-changer-ahead.html",
+        "published_at": "2026-06-25T18:52:03Z"
+      },
+      {
+        "headline": "Iran fired on cargo ship, US officials tell Reuters - Reuters",
+        "summary": "Iran fired on cargo ship, US officials tell Reuters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb1JqTWo2bzlJWXAwR2pkVTMyRVpTZkotam9lUlBxMzhyZ1FRM195WWlpay1nemFSX0kxTU9reDJVRnZQYm5QbTVxMUtsajZkVllBZUxaVUQ3YWJWSnRQYVZDX1QzQjhZdjV4Yjh2c1F0N2dvNnNrWXJ0YS1ZNU1HNXRyNmlxM2FycnBNUFVaQWExTVBNY2JIb1JaMDh4WWJPTmRF?oc=5",
+        "published_at": "2026-06-25T18:51:15Z"
+      },
+      {
+        "headline": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
+        "summary": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/judge-blocks-trumps-rule-limiting-student-loans-for-grad-students-.html",
+        "published_at": "2026-06-25T18:10:47Z"
+      },
+      {
+        "headline": "We're trimming a health-care stock into strength and raising our price target",
+        "summary": "It's been a remarkable turnaround for a name we\u00a0started\u00a0to buy a little too high and a little too fast when the Iran war broke out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/were-trimming-a-stock-into-strength-raising-our-price-target.html",
+        "published_at": "2026-06-25T16:35:24Z"
+      },
+      {
+        "headline": "We're locking in triple-digit profits on an AI winner at record highs",
+        "summary": "The stock has soared this week for unclear reasons.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/were-locking-in-triple-digit-profits-on-an-ai-winner-at-record-highs.html",
+        "published_at": "2026-06-25T15:11:35Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Thursday",
+        "summary": "Another monster quarter from Micron has ignited a chip stock rally.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/the-clubs-top-10-things-to-watch-in-the-stock-market-thursday.html",
+        "published_at": "2026-06-25T13:11:09Z"
+      },
+      {
+        "headline": "Apple raises prices on MacBook and iPad due to memory crunch, hints at more to come",
+        "summary": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+        "published_at": "2026-06-25T12:42:17Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.5,
+    "spy_change_pct": 0.0355,
+    "spy_lean": "neutral",
+    "vix_close": 18.63,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 59499.0,
+    "coinbase_premium_pct": 0.035307,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-25T21:13:37 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 195.74,
+        "change_pct": -1.6382,
+        "prev_close": 199.0
+      },
+      "AMD": {
+        "close": 532.57,
+        "change_pct": 2.4685,
+        "prev_close": 519.74
+      },
+      "TSM": {
+        "close": 434.99,
+        "change_pct": -1.3248,
+        "prev_close": 440.83
+      },
+      "SMCI": {
+        "close": 31.68,
+        "change_pct": -2.3729,
+        "prev_close": 32.45
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.38,
+        "change_pct": 0.8106,
+        "prev_close": 710.62
+      },
+      "SOXX": {
+        "close": 625.2,
+        "change_pct": 3.9401,
+        "prev_close": 601.5
+      }
+    },
+    "tech_sector_lean": "neutral"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59478,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 66,
+    "positive_count": 7,
+    "negative_count": 11,
+    "neutral_count": 48,
+    "sentiment_ratio": 0.1061,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin bounces off new 2026 price lows: Will US stock weakness push BTC lower?",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-off-new-2026-price-lows-will-us-stock-weakness-push-btc-lower?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T21:02:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket to Refund Users After Scammers Swipe Millions in Website Exploit",
+        "url": "https://decrypt.co/372129/polymarket-refund-users-scammers-swipe-millions-website-exploit",
+        "published_at": "2026-06-25T21:02:40+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senate races to advance crypto legislation in July as housing bill turmoil threatens timeline",
+        "url": "https://www.theblock.co/post/406231/senate-races-advance-crypto-legislation-housing-bill-turmoil-threatens-timeline?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T20:37:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trillion-dollar asset manager Invesco looks to plant a flag in tokenized stablecoin reserve sector",
+        "url": "https://www.theblock.co/post/406239/trillion-dollar-asset-manager-invesco-plant-flag-tokenized-stablecoin-reserve-sector?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T20:11:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin options traders hedge downside as uncertainty lingers, Anchorage says",
+        "url": "https://cointelegraph.com/news/bitcoin-options-traders-hedge-downside-as-uncertainty-lingers-anchorage-says?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T20:10:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cura\u00e7ao Regulators Issue First Crypto Casino Rulebook, Mandate Mixer Ban By 2027",
+        "url": "https://bitcoinist.com/cura-ao-regulators-issue-first-crypto-casino-rulebook-mandate-mixer-ban-by-2027/",
+        "published_at": "2026-06-25T20:00:30+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin may fall lower but BTC power-law frames crash to $58K as \u2018normal\u2019",
+        "url": "https://cointelegraph.com/markets/key-bitcoin-price-levels-after-btc-power-law-says-58k-is-normal?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T19:51:35+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
+        "url": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
+        "published_at": "2026-06-25T19:42:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T19:32:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase-Backed Ethereum Network Base Recovers After Block Production Issue",
+        "url": "https://decrypt.co/372110/coinbase-ethereum-network-base-recovers-block-production-issue",
+        "published_at": "2026-06-25T19:19:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "neutral",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
