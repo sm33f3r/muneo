@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-25T14:46:20 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2135012364147.88,
+    "total_market_cap_change_24h_pct": -2.5864,
+    "total_volume_24h_usd": 111275120542.22,
+    "btc_dominance_pct": 55.8049,
+    "eth_dominance_pct": 8.85,
+    "total2_usd": 943571462115.58,
+    "total3_usd": 754623657376.59,
+    "active_cryptocurrencies": 17385,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CX",
+        "name": "Cortex",
+        "price_change_24h_pct": 31.92,
+        "price_usd": 0.081416,
+        "market_cap_usd": 110741901
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 11.2374,
+        "price_usd": 1.96,
+        "market_cap_usd": 565565484
+      },
+      {
+        "symbol": "SEI",
+        "name": "Sei",
+        "price_change_24h_pct": 8.0125,
+        "price_usd": 0.057119,
+        "market_cap_usd": 384638905
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": 7.5921,
+        "price_usd": 0.065498,
+        "market_cap_usd": 127190754
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price_change_24h_pct": 7.0171,
+        "price_usd": 80.91,
+        "market_cap_usd": 1228948707
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -68.1153,
+        "price_usd": 0.899232,
+        "market_cap_usd": 1184058574
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -14.8979,
+        "price_usd": 0.058282,
+        "market_cap_usd": 106366781
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -14.8698,
+        "price_usd": 0.333253,
+        "market_cap_usd": 116678574
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -13.8674,
+        "price_usd": 0.135854,
+        "market_cap_usd": 316881768
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -12.4818,
+        "price_usd": 1.95e-06,
+        "market_cap_usd": 116818722
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59398,
+    "price_change_24h_pct": -2.7809,
+    "price_change_7d_pct": -7.6384,
+    "market_cap_usd": 1190688892147,
+    "volume_24h_usd": 50350625975,
+    "direction": "bearish",
+    "oi_usd": 6249809447.62,
+    "funding_rate_latest": -1.803e-05,
+    "funding_rate_7d_avg": 2.3783809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1959,
+    "long_account_pct": 68.71,
+    "short_account_pct": 31.29,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1564.71,
+    "price_change_24h_pct": -5.1402,
+    "price_change_7d_pct": -10.5175,
+    "market_cap_usd": 188862943079,
+    "volume_24h_usd": 17348806353,
+    "eth_btc_ratio": 0.026343,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71039632031.34,
+    "stablecoin_market_cap_usd": 312926025098.04,
+    "stablecoin_dominance_pct": 14.6569
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 29,
+    "headlines": [
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Thursday",
+        "summary": "Another monster quarter from Micron has ignited a chip stock rally.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/the-clubs-top-10-things-to-watch-in-the-stock-market-thursday.html",
+        "published_at": "2026-06-25T13:11:09Z"
+      },
+      {
+        "headline": "Oil back to pre-war levels as Hormuz traffic rebounds, US tries to reassure Gulf allies - Reuters",
+        "summary": "Oil back to pre-war levels as Hormuz traffic rebounds, US tries to reassure Gulf allies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVWR1YXZUaE9XT2xJQjBTUmZZa044RjRIbnhydkhZbXAzY0xuTllsNmJhdDRyXzJndWJFR3dtNjBLSFE2M2lXOTVDcjdRenBKX2dGSlNyWGhyZmhrbkRjVjcwb2pXUWx2Z0JvbmJpUmpzR2VFTkxza1htWVJMMWxPbnYzVGVuS3d3bEQzc2RTa1hEVnFtT3FjZzR4MUpPLWJjMVNTM01BcnBRSnpSQzRyd21yQ0U3b08xbXR0ajlmeG55UmxrV0RZZmVROA?oc=5",
+        "published_at": "2026-06-25T12:52:28Z"
+      },
+      {
+        "headline": "Apple raises prices on MacBook and iPad due to memory crunch, hints at more to come",
+        "summary": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+        "published_at": "2026-06-25T12:42:17Z"
+      },
+      {
+        "headline": "U.S. giving topped $600 billion for the first time last year. Megadonors and bequests are to thank",
+        "summary": "The stock market rally turbocharged charitable giving in 2025, but primarily from wealthy donors.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/us-charitable-giving-megadonors.html",
+        "published_at": "2026-06-25T12:30:01Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Iraq warns it might leave OPEC if oil quota not raised, sources say - Reuters",
+        "summary": "EXCLUSIVE: Iraq warns it might leave OPEC if oil quota not raised, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNGtxVmo4OG9QRVAyTjJvcGpWUVFzWlJaZEhHSHBsazFQRWZxZXllakNTM2FXN2FxZjhialVFN0o1aW1DY2t1Q2JucHZRNlkzRHk4MFpCeGdOaHpEUXhRVVZSWEtGRDhfTGVKX3lyX1dqZ2tmYjg3QmtTWXMwVS1vNXlTVDRQeFVzakd3WXVuaGplbWdqY0JQUzhtcV9HSWRvSU1CUlp3aW5nYmdZbHNLeDJ2Tk5mZVhHLXh6S3AyZVFZS1ktWUg4X0J3?oc=5",
+        "published_at": "2026-06-25T11:25:24Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Dubai enlists businesses to help secure hub status after Iran war shock - Reuters",
+        "summary": "EXCLUSIVE: Dubai enlists businesses to help secure hub status after Iran war shock\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVGJ3THBrTnZTc0oxUXVuMUVmWW4tZVBNZjctQjBOYmVjbGJlOFNNdEVaaDZWTEZWWmRTUGVQa3d6Y2VJWUE2RU1yQ1haN2RhM1Y0RHRwSTB0NTJsYy1jcmxBWEtITkxzb2s2ZGw3MDBITnlyV3ppdUh5cUxpMTdXUWloUDBfeUdGaFppNmRFdm1xeXhxZFRSa3haeERuaGpIZXZ1elRfU2lXbHozLV92X0pCZ01YTnNCckwxWkp1MA?oc=5",
+        "published_at": "2026-06-25T10:41:20Z"
+      },
+      {
+        "headline": "Micron stock jumps over 16% in premarket trading after blockbuster earnings",
+        "summary": "The company's revenue more than quadrupled from $9.3 billion a year earlier to $41.46 billion, it reported on Wednesday",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html",
+        "published_at": "2026-06-25T09:26:17Z"
+      },
+      {
+        "headline": "China state refiners considering resuming Iran oil imports, sources say - Reuters",
+        "summary": "China state refiners considering resuming Iran oil imports, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONUFXek9PVlU1OEJUWXFIMzNndDNQaVl3RmdzS01VMnlMNndya253a2RrLXJGdGkyeHo0bE1qeUkyVEJNT0hETUtkVEhGaUNXZU5wbnJXLWxnTE92NzNERkVVajNkRkgxdV9WQWVJU1p2MzQ4NTNEMjEyLTVEbVRsT25TV2JMQndUcGJqc0QwT3NoYWZCWDBPTkpndGgza3BDb1JYemVMdlVyZ2lFNzhNTEZSQW9GVWUzSzRGb014aw?oc=5",
+        "published_at": "2026-06-25T08:56:22Z"
+      },
+      {
+        "headline": "Iran peace deal no silver bullet for Fed's inflation dilemma - Reuters",
+        "summary": "Iran peace deal no silver bullet for Fed's inflation dilemma\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObFpjcnYtTmhISzlfWFVnQzN2T0JwQVZIVTYxaWRkb09NdmdUSktlN1BvTk40R3IxdVN6ZVkydFB2aE52aTloX3RUY1Zud2hNWHBZZlgxbWl4VzJQVnVCd01lVUh0VTFsUHkxME50THFSQVBHUlpIbG83VmtxekVGOE54YmZmd01icjR2dVdKQXJua1JGWWdHRlZzZXhNMUVOMzYxUGdXRUNZeGNxbXNnS2pnY3ZaYjFBTWdQSnNGNkRYdw?oc=5",
+        "published_at": "2026-06-25T06:14:00Z"
+      },
+      {
+        "headline": "Rubio wraps up Gulf tour as allies share concerns over Iran peace accord - Reuters",
+        "summary": "Rubio wraps up Gulf tour as allies share concerns over Iran peace accord\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWs2OHl5WVA5bE5meTdpdEJtcnhLdjBMTXltald5eHBVSW9Ha292Zzh5MEcxTS1BNmR6TDRsbVRLX1VwNFFZTm94MEZmUzZhdnhFbjdkNzhCSGE0b2dWLUw4ZTVSMjRfU2ZTMmdfVWpSWU50bXRfUWlpUGZEdzgwT1NZR2RWRHRZZnUzeldSQUsxbEtCTVd4WHUtdDEwRzFtSVgtckFxcDY?oc=5",
+        "published_at": "2026-06-25T05:01:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 733.24,
+    "spy_change_pct": -0.0463,
+    "spy_lean": "neutral",
+    "vix_close": 18.63,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 59300.0,
+    "coinbase_premium_pct": -0.164989,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-25T14:46:20 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 194.39,
+        "change_pct": -2.3166,
+        "prev_close": 199.0
+      },
+      "AMD": {
+        "close": 517.96,
+        "change_pct": -0.3425,
+        "prev_close": 519.74
+      },
+      "TSM": {
+        "close": 439.74,
+        "change_pct": -0.2473,
+        "prev_close": 440.83
+      },
+      "SMCI": {
+        "close": 31.78,
+        "change_pct": -2.0647,
+        "prev_close": 32.45
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 712.78,
+        "change_pct": 0.304,
+        "prev_close": 710.62
+      },
+      "SOXX": {
+        "close": 612.03,
+        "change_pct": 1.7506,
+        "prev_close": 601.5
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59398,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 69,
+    "positive_count": 6,
+    "negative_count": 13,
+    "neutral_count": 50,
+    "sentiment_ratio": 0.087,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "\u2018Stablecoin\u2019 Google searches down 54% as supply growth stalls after 2025 boom",
+        "url": "https://www.theblock.co/post/405856/stablecoin-google-searches-down-54-supply-growth-stalls-after-2025-boom?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T14:36:03+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Plummets Lower as Strategy's STRC Dives Further From $100 Mark",
+        "url": "https://decrypt.co/372074/bitcoin-plummets-strategy-strc-dives-further-100",
+        "published_at": "2026-06-25T14:11:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized SpaceX Stock Liquidations Show Crypto Leverage Reaching Private Markets",
+        "url": "https://bitcoinist.com/tokenized-spacex-stock-liquidations-show-crypto-leverage-reaching-private-mark/",
+        "published_at": "2026-06-25T14:00:14+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Four arrested in Poland over crypto SIM-swap attacks; ZachXBT links \u2018Merry\u2019 to case",
+        "url": "https://www.theblock.co/post/406159/four-arrested-poland-sim-swap-attacks-crypto-exchanges-zachxbt-social-engineering-threat-merry?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T13:27:42+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T13:19:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SBI to acquire Bitbank in $289M deal creating Japan's biggest crypto exchange",
+        "url": "https://cointelegraph.com/news/sbi-acquire-bitbank-289-million-deal?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T13:08:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "About 60% of World Cup bettors on Polymarket are first-time crypto users",
+        "url": "https://cointelegraph.com/news/polymarket-first-crypto-touchpoint-world-cup-bettors?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T13:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spark migrates $150M in stablecoin to Uniswap to advance shared liquidity",
+        "url": "https://cointelegraph.com/news/spark-deploys-150m-stablecoin-liquidity-uniswap-v4?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published_at": "2026-06-25T13:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spark, Uniswap build stablecoin \u2018FX Layer\u2019 seeded with $150 million liquidity migration",
+        "url": "https://www.theblock.co/post/406154/spark-uniswap-build-stablecoin-fx-layer-seeded-with-150-million-liquidity-migration?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T13:00:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Waiting for buyers\u2019: Bitcoin holds fragile $60K floor ahead of $10.6B quarterly expiry",
+        "url": "https://www.theblock.co/post/406112/waiting-for-buyers-bitcoin-holds-fragile-60k-floor-ahead-of-10-6b-quarterly-expiry?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-25T12:57:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 8,
+    "neutral_count": 4,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
