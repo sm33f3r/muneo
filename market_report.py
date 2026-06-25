@@ -169,6 +169,39 @@ def safe_fetch(label: str, fetch_fn, fetch_errors: list = None):
         return None
 
 
+def read_latest_global_report(reports_dir) -> dict:
+    """
+    Read the most recent global report JSON from the reports directory.
+    Returns empty dict if no global report found or if file cannot be parsed.
+    Treats reports older than 25 hours as stale and returns empty dict.
+    """
+    from datetime import datetime, timezone
+    import glob as _glob
+    import json as _json
+
+    pattern = str(reports_dir / "market_report_global_*.json")
+    files = sorted(_glob.glob(pattern), reverse=True)
+    if not files:
+        print("  ⚠ No global report found on disk — tech_sector_lean will be null")
+        return {}
+    try:
+        with open(files[0]) as f:
+            report = _json.load(f)
+        generated_at = report.get("report_metadata", {}).get("generated_at")
+        if generated_at:
+            report_time = datetime.strptime(
+                generated_at, "%Y-%m-%dT%H:%M:%S UTC"
+            ).replace(tzinfo=timezone.utc)
+            age_hours = (datetime.now(timezone.utc) - report_time).total_seconds() / 3600
+            if age_hours > 25:
+                print(f"  ⚠ Global report stale ({age_hours:.1f}h old) — tech_sector_lean will be null")
+                return {}
+        return report
+    except Exception as e:
+        print(f"  ⚠ Could not read global report: {e}")
+        return {}
+
+
 # ---------------------------------------------------------------------------
 # Technical indicator math (pure Python)
 # ---------------------------------------------------------------------------
@@ -939,6 +972,16 @@ def build_report(
     now_utc = datetime.now(timezone.utc)
     today   = now_utc.date()
 
+    reports_dir = Path(__file__).parent.resolve() / "reports"
+
+    # Read latest global report for cross-report signals
+    global_report = read_latest_global_report(reports_dir)
+    tech_sector_lean_val = global_report.get("tech_equities", {}).get("tech_sector_lean")
+    if tech_sector_lean_val is not None:
+        print(f"  ✓ tech_sector_lean from global report: {tech_sector_lean_val}")
+    else:
+        print("  ⚠ tech_sector_lean not available from global report — will be null")
+
     # ------------------------------------------------------------------
     # [1/18] CoinGecko — token full data (price + community + developer + sentiment)
     # ------------------------------------------------------------------
@@ -1512,6 +1555,7 @@ def build_report(
         "fear_greed_lean":       fg_lean_val,
         "news_volume_lean":      news_volume_lean_val,
         "sentiment_lean":        sent_lean_val,
+        "tech_sector_lean":      tech_sector_lean_val,
     }
 
     available = {k: v for k, v in signals.items() if v is not None}
@@ -1612,6 +1656,8 @@ def build_report(
             "spy_lean":             spy_lean_val,
             "vix_close":            round(vix_latest, 4)       if vix_latest     is not None else None,
             "vix_lean":             vix_lean_val,
+            "tech_sector_lean":   tech_sector_lean_val,
+            "tech_sector_source": "global_report",
         },
         "sentiment": {
             "fear_greed_value":             fg_value,
@@ -1636,7 +1682,7 @@ def build_report(
             "unlock_lean":      unlock_lean,
         },
         "signal_summary": {
-            "signals_evaluated": 18,
+            "signals_evaluated": 19,
             "signals_available": len(available),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
