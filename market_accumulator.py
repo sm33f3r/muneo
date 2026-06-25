@@ -60,6 +60,18 @@ def load_config(config_path: str) -> dict:
     
     return config
 
+def _get_nested(report: dict, *keys, default=None):
+    """Safely traverse nested dict keys. Returns default if any key is missing."""
+    val = report
+    for key in keys:
+        if not isinstance(val, dict):
+            return default
+        val = val.get(key, default)
+        if val is default:
+            return default
+    return val
+
+
 def setup_directories(config: dict) -> dict:
     """Create output directories if they don't exist. Returns path dict."""
     token_dir = config["token_name"].lower()  # e.g. "sui" or "sol"
@@ -759,6 +771,8 @@ def aggregate_accumulation_metadata(daily_reports: list[dict], daily_data: list[
         "constituent_periods_available": constituent_available,
         "constituent_periods_missing": constituent_missing,
         "data_quality": data_quality,
+        "schema_version_input": "2.0.0",
+        "pre_upgrade_reports_skipped": 0,
     }
 
 
@@ -2402,6 +2416,12 @@ def write_weekly_report(iso_year, iso_week, config, paths, daily_reports, daily_
         "data_gaps": [],
         "accumulation_metadata": accumulation_metadata,
         "cex_dex_spread": cex_dex_spread,
+        "schema_v2_fields": {
+            "tech_sector_lean_modal":     None,  # modal aggregation not yet implemented
+            "coinbase_premium_pct_avg":   None,  # avg aggregation not yet implemented
+            "etf_net_inflow_sum_usd":     None,  # sum aggregation not yet implemented
+            "schema_note":                "new fields from schema 2.0.0 — aggregation planned for v1.2.0",
+        },
     }
 
     try:
@@ -2762,6 +2782,12 @@ def main():
             if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
                 print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
                 continue
+            # Schema 2.0.0 fields — null-safe for pre-upgrade reports
+            for report in daily_data:
+                tech_sector_lean   = _get_nested(report, "tech_equities", "tech_sector_lean")
+                coinbase_premium   = _get_nested(report, "macro", "coinbase_premium_pct")
+                etf_net_inflow     = _get_nested(report, "etf_flows", "total_net_inflow_usd")
+                # liquidation_map is intraday data — not aggregated, passed through as null
             price_agg = aggregate_weekly_price(daily_data)
             derivatives_agg = aggregate_weekly_derivatives(daily_data)
             on_chain_agg = aggregate_weekly_on_chain(daily_data)

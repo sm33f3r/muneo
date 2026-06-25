@@ -34,8 +34,8 @@ from dateutil import parser as dateutil_parser
 from dotenv import load_dotenv
 from rss_utils import fetch_rss_feeds, score_sentiment, CRYPTO_RSS_FEEDS
 
-SCRIPT_VERSION = "2.0.0"
-SCHEMA_VERSION = "1.0.0"
+SCRIPT_VERSION = "3.0.0"
+SCHEMA_VERSION = "2.0.0"
 API_TIMEOUT = 10  # seconds
 
 CMC_BASE  = "https://pro-api.coinmarketcap.com"
