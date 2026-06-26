@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-26T21:14:01 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2149374503090.14,
+    "total_market_cap_change_24h_pct": -0.3,
+    "total_volume_24h_usd": 95830427523.54,
+    "btc_dominance_pct": 55.6007,
+    "eth_dominance_pct": 8.7984,
+    "total2_usd": 954306958006.38,
+    "total3_usd": 765195423571.91,
+    "active_cryptocurrencies": 17449,
+    "altcoin_season_index": 62,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 45.8343,
+        "price_usd": 0.711774,
+        "market_cap_usd": 300699566
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 31.4734,
+        "price_usd": 2.46,
+        "market_cap_usd": 707188933
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 24.4277,
+        "price_usd": 0.360226,
+        "market_cap_usd": 359643666
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": 23.9148,
+        "price_usd": 0.856995,
+        "market_cap_usd": 417714115
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 15.4396,
+        "price_usd": 0.080018,
+        "market_cap_usd": 200051212
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -17.2506,
+        "price_usd": 0.763062,
+        "market_cap_usd": 1005155520
+      },
+      {
+        "symbol": "DATA",
+        "name": "Data Network",
+        "price_change_24h_pct": -11.4517,
+        "price_usd": 0.323711,
+        "market_cap_usd": 115316958
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -10.5993,
+        "price_usd": 20.37,
+        "market_cap_usd": 952353396
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": -8.9215,
+        "price_usd": 0.081284,
+        "market_cap_usd": 702268131
+      },
+      {
+        "symbol": "SEI",
+        "name": "Sei",
+        "price_change_24h_pct": -6.9535,
+        "price_usd": 0.052324,
+        "market_cap_usd": 352305238
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59640,
+    "price_change_24h_pct": 0.2525,
+    "price_change_7d_pct": -5.6262,
+    "market_cap_usd": 1195680966088,
+    "volume_24h_usd": 39740393066,
+    "direction": "neutral",
+    "oi_usd": 6192504815.28,
+    "funding_rate_latest": 7.308e-05,
+    "funding_rate_7d_avg": 2.777047619047619e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0845,
+    "long_account_pct": 67.58,
+    "short_account_pct": 32.42,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1570.46,
+    "price_change_24h_pct": 0.6065,
+    "price_change_7d_pct": -7.591,
+    "market_cap_usd": 189530369521,
+    "volume_24h_usd": 15132629565,
+    "eth_btc_ratio": 0.026332,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70492734622.78,
+    "stablecoin_market_cap_usd": 312503137902.28,
+    "stablecoin_dominance_pct": 14.5393
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 20,
+    "headlines": [
+      {
+        "headline": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
+        "summary": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html",
+        "published_at": "2026-06-26T20:21:09Z"
+      },
+      {
+        "headline": "Walmart heir Lukas Walton buys minority stake in the Chicago Bulls and United Center",
+        "summary": "Lukas Walton is the 39-year-old grandson of Walmart founder Sam Walton. He and Samantha Walton are residents of Chicago.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/walmart-heir-lukas-walton-chicago-bulls.html",
+        "published_at": "2026-06-26T19:19:29Z"
+      },
+      {
+        "headline": "Healthcare stocks have caught fire, sending all 3 of our names to record highs",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/healthcare-stocks-have-caught-fire-sending-all-3-of-our-names-to-record-highs.html",
+        "published_at": "2026-06-26T18:14:06Z"
+      },
+      {
+        "headline": "Trump chides Iran for ship attack after Tehran insists on control of the strait - Reuters",
+        "summary": "Trump chides Iran for ship attack after Tehran insists on control of the strait\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcFRwZHY1bnhkUUxWazNxYUNVdjlHV2RFN2RBc0ZnS2ZMc1JKQmtSMkRzQ0lIZkN6aXFMeENhTkJ2UURUcnJTNnZRZmdiQWdHcGdHYl9IbmdLa2tmT0VOUDN4Y1dRU0dQWkFNZkNuX2Q4VFVKUE5MUjBEaGpud3czTzdJR2Jrbzl1X2x2VkZsR1lyVjN3dDFnUHhMUXN0M3pmVFdiZnJidUF6ZFViSVpkWXB1V2t1S3d4OGpwQmdhd0ZwODVQN2NF?oc=5",
+        "published_at": "2026-06-26T17:57:42Z"
+      },
+      {
+        "headline": "Honeywell Aerospace lands an analyst endorsement ahead of its debut. This is our plan for the stock",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/honeywell-aerospace-lands-an-analyst-endorsement-ahead-of-its-debut-this-is-our-plan-for-the-stock.html",
+        "published_at": "2026-06-26T16:32:53Z"
+      },
+      {
+        "headline": "We're adding to our position in a newly public stock that's still finding its footing",
+        "summary": "The purchase will help us build up this new position.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/were-adding-to-our-position-in-a-newly-public-stock-thats-still-finding-its-footing.html",
+        "published_at": "2026-06-26T15:51:15Z"
+      },
+      {
+        "headline": "UAE says false public warning caused by technical malfunction - Reuters",
+        "summary": "UAE says false public warning caused by technical malfunction\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTA4WmxkQjRfQjJKWUlDVzZuU0p0Sm8wS2g5c3JXay1qSXdTVHpsdVdDN3NwVEV3TnJZQ0RaV0htWm5xcnZ6LU96bXAza1RXeEhJUEN5UzNYN1IzTWZCeEFrUVdYNzRmdTNzaFAzNW9LWGQ1akpXOFlOdXI2NjA0UjVaSVJnenlsa2xmQ1lSTGZ3LTNVbWRJTG40aERIMjF4TGloTVcxRGFYMUhrMjdVdWExZHQyVW8?oc=5",
+        "published_at": "2026-06-26T14:52:22Z"
+      },
+      {
+        "headline": "Why breakthrough GLP-1 weight loss pills may be a bad thing for employer insurance coverage",
+        "summary": "New GLP-1 weight-loss pills from Novo Nordisk and Eli Lilly are likely to boost consumer demand, but employer-sponsored health insurance may not foot the bill.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/glp1-weight-loss-drug-pills-insurance-plan-coverage.html",
+        "published_at": "2026-06-26T14:08:22Z"
+      },
+      {
+        "headline": "Middlemen offer Iranian oil to Indian refiners after US waiver, sources say - Reuters",
+        "summary": "Middlemen offer Iranian oil to Indian refiners after US waiver, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX3dYSTNHZ1JpWGMtSVdnNHdObEt5UlBzN1A5aGNMRE1KOV81WURqZWU5V3RzcmVjeHJUaHI3RWlPQWdtOGVxVG1DLW9YMDJGOEN1NjBGdmNPMmRWd0pjTzFNUU02WTR6V3lyY1dad3RoZ3p3TTJaUDM0THhfTEt1cm5US2FiUkFQNXpoU21mRF9idHlqcWExVmRjN1lXbTdZZ2xEMTBadmNKZVotNWJxSG1KR3ZkdFdSVnhIT3drLVk?oc=5",
+        "published_at": "2026-06-26T13:51:19Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Friday",
+        "summary": "OpenAI is reportedly considering delaying its IPO until 2027, and SpaceX is weighing a deeper push into mobile services.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/26/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+        "published_at": "2026-06-26T13:10:21Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 729.98,
+    "spy_change_pct": -0.5883,
+    "spy_lean": "bearish",
+    "vix_close": 18.89,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 59656.61,
+    "coinbase_premium_pct": 0.02785,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-26T21:14:01 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 192.53,
+        "change_pct": -1.6399,
+        "prev_close": 195.74
+      },
+      "AMD": {
+        "close": 521.58,
+        "change_pct": -2.0636,
+        "prev_close": 532.57
+      },
+      "TSM": {
+        "close": 432.35,
+        "change_pct": -0.6069,
+        "prev_close": 434.99
+      },
+      "SMCI": {
+        "close": 30.63,
+        "change_pct": -3.3144,
+        "prev_close": 31.68
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 706.52,
+        "change_pct": -1.3764,
+        "prev_close": 716.38
+      },
+      "SOXX": {
+        "close": 589.94,
+        "change_pct": -5.6398,
+        "prev_close": 625.2
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59640,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 7,
+    "negative_count": 7,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.1186,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
+        "url": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
+        "published_at": "2026-06-26T20:47:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple CEO says Michael Saylor has hurt crypto market as Strategy\u2019s STRC trades 25% below par",
+        "url": "https://www.theblock.co/post/406432/ripple-ceo-says-michael-saylor-has-hurt-crypto-market-as-strategys-strc-trades-25-below-par?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-26T20:44:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Corporate Treasury SBET Resumes Ethereum Accumulation With 5,000 ETH Purchase",
+        "url": "https://bitcoinist.com/corporate-treasury-sbet-resumes-ethereum-accumulation-with-5-000-eth-purchase/",
+        "published_at": "2026-06-26T19:30:17+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Linux Foundation, Tech Giants Launch Akrites to Defend Open Source Against AI-Powered Attacks",
+        "url": "https://decrypt.co/372244/linux-foundation-tech-giants-akrites-defend-open-source-ai-attacks",
+        "published_at": "2026-06-26T19:23:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
+        "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-26T19:20:33+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senators Demand Answers From CFTC Over Alleged Polymarket Deceptive Advertising",
+        "url": "https://decrypt.co/372239/senators-demand-answers-cftc-polymarket-deceptive-advertising",
+        "published_at": "2026-06-26T19:18:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Rolls Out GPT-5.6\u2014But Only for Some Users Due to Trump Admin",
+        "url": "https://decrypt.co/372238/openai-rolls-out-gpt-5-6-limited-access-trump-admin",
+        "published_at": "2026-06-26T19:06:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SBI Holdings Acquires Bitbank For \u00a546.7 Billion In Japanese Crypto Consolidation",
+        "url": "https://bitcoinist.com/sbi-holdings-acquires-bitbank-for-46-7-billion-in-japanese-crypto-consolidation/",
+        "published_at": "2026-06-26T19:00:15+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana DAT stocks climb double digits as SOL jumps 9%",
+        "url": "https://www.theblock.co/post/406414/solana-dat-stocks-climb-double-digits-sol-jumps-9?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-26T18:34:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
+        "url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
+        "published_at": "2026-06-26T18:02:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
