@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-27T21:10:53 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2163616957393.95,
+    "total_market_cap_change_24h_pct": 0.2737,
+    "total_volume_24h_usd": 43963286472.72,
+    "btc_dominance_pct": 55.8441,
+    "eth_dominance_pct": 8.8207,
+    "total2_usd": 955363923639.78,
+    "total3_usd": 764516788971.57,
+    "active_cryptocurrencies": 17440,
+    "altcoin_season_index": 64,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 92.3413,
+        "price_usd": 1.37,
+        "market_cap_usd": 577182680
+      },
+      {
+        "symbol": "SLX",
+        "name": "Solstice",
+        "price_change_24h_pct": 36.4885,
+        "price_usd": 0.54548,
+        "market_cap_usd": 132471848
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 25.4995,
+        "price_usd": 0.817099,
+        "market_cap_usd": 224509377
+      },
+      {
+        "symbol": "BSV",
+        "name": "Bitcoin SV",
+        "price_change_24h_pct": 11.5285,
+        "price_usd": 12.51,
+        "market_cap_usd": 250806671
+      },
+      {
+        "symbol": "WIF",
+        "name": "dogwifhat",
+        "price_change_24h_pct": 10.2739,
+        "price_usd": 0.167929,
+        "market_cap_usd": 167815907
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -30.2975,
+        "price_usd": 0.250324,
+        "market_cap_usd": 249919321
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -23.3115,
+        "price_usd": 0.072781,
+        "market_cap_usd": 160060511
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -13.9425,
+        "price_usd": 16.33,
+        "market_cap_usd": 5096897538
+      },
+      {
+        "symbol": "BAS",
+        "name": "BNB Attestation Service",
+        "price_change_24h_pct": -9.6906,
+        "price_usd": 0.0445719,
+        "market_cap_usd": 111369236
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": -7.8621,
+        "price_usd": 0.061359,
+        "market_cap_usd": 119184327
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60259,
+    "price_change_24h_pct": 1.0363,
+    "price_change_7d_pct": -5.6283,
+    "market_cap_usd": 1208245178824,
+    "volume_24h_usd": 15733381857,
+    "direction": "bullish",
+    "oi_usd": 6229728839.41,
+    "funding_rate_latest": 3.742e-05,
+    "funding_rate_7d_avg": 2.8174761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9869,
+    "long_account_pct": 66.52,
+    "short_account_pct": 33.48,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1580.88,
+    "price_change_24h_pct": 0.656,
+    "price_change_7d_pct": -8.453,
+    "market_cap_usd": 190787383697,
+    "volume_24h_usd": 5283199664,
+    "eth_btc_ratio": 0.026235,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70909928929.47,
+    "stablecoin_market_cap_usd": 312466722189.24,
+    "stablecoin_dominance_pct": 14.4419
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 13,
+    "headlines": [
+      {
+        "headline": "Tanker struck in Hormuz as Iran, US trade attacks in worst escalation since peace deal - Reuters",
+        "summary": "Tanker struck in Hormuz as Iran, US trade attacks in worst escalation since peace deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamVFR0VfZVlNU01BWjNWakdNczVUSHAzNWFlM0J3MGV1b0ZmbldmdnhQUHVpLTNabjVZSG5tSDJ0RDlQREk0emJnT3ZGbjFEZjVpTEt2UDgxOXpMdWV3dTIzX1ZtQVNpeUdDRVplMkUxd0FVNzNPTEFwZ3BVSUo4SG1BcHFDeEdYS2tIM3RUaWpZNEtyeWlub0h5c29pNjJmdDZ6Y2tha2hKWkNGa3Y0Y2JNYnk4ZWJuUlk4?oc=5",
+        "published_at": "2026-06-27T19:23:31Z"
+      },
+      {
+        "headline": "Hezbollah rejects US-brokered Israel-Lebanon security deal as 'surrender' - Reuters",
+        "summary": "Hezbollah rejects US-brokered Israel-Lebanon security deal as 'surrender'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMUlLNE8zdUhsWi1UT2xqU2F4aFdsNlpQUzlUdUlMQ19wNXFJaEpibm9ZVXlsS09xd3llRXYtd09uX2NKNzBIX0lHNlRVS2owX3pFcjlXcUU5YXNJeDRkbWNacXBaa0tSdjlCaW5BV0RJbDhXQU13ZWtWM0lHd3Y4bE43V3E3eEhlenlVc204MHZwOE5aOGFscmdvTUFMV2FpTUtPWjlZS2VEMEJfVTJWS1cycXA1RVFWMWszUg?oc=5",
+        "published_at": "2026-06-27T19:00:10Z"
+      },
+      {
+        "headline": "Trump's Iran deal falls short for these voters \u2014 and some fear it could cost Republicans the midterm - Reuters",
+        "summary": "Trump's Iran deal falls short for these voters \u2014 and some fear it could cost Republicans the midterm\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQalVNd2JyLUZIckdxYmtjWWpqVzZuY1lEMUNva2Rxb3hwQkEwU1FDSzdQLVVybHdNSEt2NjVtTDd5b3dXaXBuclJfYldLd05XWXFOdU12NHphMmU4d1MtOXJEX2pNRURSNjJpbWRpbGF4NWpsTHN1cXExZF9yR3NNRHVQVjZqTUtGRDJKN1ZGRWJKZXpsSnU2TFBKTFRhTU5ZUjQ0UWlYUXdIczZtbWNMTmd4anpUV0hzOWJOcmhpWQ?oc=5",
+        "published_at": "2026-06-27T14:59:05Z"
+      },
+      {
+        "headline": "Alphabet burnishes one of its best weapons in the battle for AI supremacy",
+        "summary": "The Google parent's homegrown silicon is a big advantage in the AI compute race.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/27/alphabet-burnishes-one-of-its-best-weapons-in-the-battle-for-ai-supremacy.html",
+        "published_at": "2026-06-27T13:12:36Z"
+      },
+      {
+        "headline": "Straight women can\u2019t get enough of gay romance stories like \u2018Heated Rivalry\u2019 and \u2018Red, White & Royal Blue\u2019",
+        "summary": "Women aren't the protagonists or love interests in a subgrenre of romance focused on gay men. Still, they're consuming these stories in droves.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/27/heated-rivalry-red-white-royal-blue-rachel-reid-gay-romance-yaoi-mlm.html",
+        "published_at": "2026-06-27T12:22:34Z"
+      },
+      {
+        "headline": "Trading in these two ETFs suggests inflation fears are overblown",
+        "summary": "It could have been a big week for bond bears, if it weren't for crude oil.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html",
+        "published_at": "2026-06-27T12:18:58Z"
+      },
+      {
+        "headline": "A surprisingly strong summer box office could mean Hollywood's first $10 billion year since the pandemic",
+        "summary": "Hollywood is having its best summer since the pandemic putting the annual box office on pace to cross $10 billion for the first time in seven years.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/27/strong-summer-box-office.html",
+        "published_at": "2026-06-27T12:00:01Z"
+      },
+      {
+        "headline": "Explosive drone targets Iranian Kurdish opposition camp north of Iraq's Erbil, security sources say - Reuters",
+        "summary": "Explosive drone targets Iranian Kurdish opposition camp north of Iraq's Erbil, security sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaW5xT1FoZjhhZUMxZlZNYzF1S2ZkeXYzTWk1d3EwaXE5TTJhd1RfT1pBeXN1aE4weWdWUWlkYkNnV0RXcXFHU2tuTjN2bDBYMDhTeExHSDdOY3hZT2FlcHZOM2RFZ1hVeWc1VmRDaV9mS0U4SWpkenBra1JIb3YtYzFmNHVrVG80d19hTVI0Z3RCcFR2UFFZVGs0bmF0bTBfUkRHZnVfYWxpV0FmbE9CeGV2QXZZdVRUVUhldXh6Sk95OEppV3c?oc=5",
+        "published_at": "2026-06-27T08:37:59Z"
+      },
+      {
+        "headline": "World Bank approves $1.1 billion emergency financing for Bangladesh - Reuters",
+        "summary": "World Bank approves $1.1 billion emergency financing for Bangladesh\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjZRMkdVV1Y4WFZ6VXQ3bVRud0Y3NTJsLTdCcU01cEVkVkFLWU5GZ29rSWEtR2Q0NTV1MHJQRnhxS29KdVNld2M2TWF2WWk0QVZvLWVOZ3Vvb1JMa2lwbE00d2RnUFV1X0VDUEVNWG9iYk5jTE96ei1vMzFlT3RDd25XZGFQd3JBVEx6U194eFc3d2NVQ2JSMWdTNm0ydFRLVjJrSWhpSFRYNnM3czdTaHBvTDBhZmc?oc=5",
+        "published_at": "2026-06-27T07:46:09Z"
+      },
+      {
+        "headline": "Iran coach criticizes US travel restrictions after Egypt match - Reuters",
+        "summary": "Iran coach criticizes US travel restrictions after Egypt match\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeURqdnpLTlJIUDEzUDJRVFBlcUR0VXVzdVRxODZ4TmZYU3dBM1REeTdMUTZJZ1ZTUFNHTGd1Q0lOZWpoYUppUTd0TE5LSHFUYXpjOWVIaTM2NVlscUxBSjhkQ2hIMnBEc1h6R3F1N0x0bnpvblRjYkVoWHV3ZWktNjMzLThFM1VPR2E1dUs4Q1JTbEV3VFN2bFhTSUE3eXVER0lxN254SkRQMEJCRHl4c1h3?oc=5",
+        "published_at": "2026-06-27T07:37:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": 728.99,
+    "spy_change_pct": -0.7231,
+    "spy_lean": "bearish",
+    "vix_close": 18.89,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 60252.86,
+    "coinbase_premium_pct": -0.010189,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-27T21:10:53 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 192.53,
+        "change_pct": -1.6399,
+        "prev_close": 195.74
+      },
+      "AMD": {
+        "close": 521.58,
+        "change_pct": -2.0636,
+        "prev_close": 532.57
+      },
+      "TSM": {
+        "close": 432.35,
+        "change_pct": -0.6069,
+        "prev_close": 434.99
+      },
+      "SMCI": {
+        "close": 30.63,
+        "change_pct": -3.3144,
+        "prev_close": 31.68
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 706.52,
+        "change_pct": -1.3764,
+        "prev_close": 716.38
+      },
+      "SOXX": {
+        "close": 589.94,
+        "change_pct": -5.6398,
+        "prev_close": 625.2
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60259,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 17,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 23,
+    "positive_count": 4,
+    "negative_count": 0,
+    "neutral_count": 19,
+    "sentiment_ratio": 0.1739,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
+        "url": "https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-27T20:53:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Shows Relative Strength as SOL/BTC Pair Reclaims 21-Day Moving Average",
+        "url": "https://bitcoinist.com/solana-shows-relative-strength-as-sol-btc-pair-reclaims-21-day-moving-average/",
+        "published_at": "2026-06-27T20:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Decouples From Stock Records as DOGE and HYPE Lead Weekly Losses While AI Stocks Rise",
+        "url": "https://bitcoinist.com/crypto-decouples-from-stock-records-as-doge-and-hype-lead-weekly-losses-while/",
+        "published_at": "2026-06-27T20:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sui Defends Macro Support as Traders Watch the $0.68 Level",
+        "url": "https://bitcoinist.com/sui-defends-macro-support-as-traders-watch-the-0-68-level/",
+        "published_at": "2026-06-27T20:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainlink Build Program Shifts From Project Token Allocations to Direct LINK Payments",
+        "url": "https://bitcoinist.com/chainlink-build-program-shifts-from-project-token-allocations-to-direct-link/",
+        "published_at": "2026-06-27T19:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-27T19:34:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
+        "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-27T19:27:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Funding Rate Spreads Spark Cross-Exchange Arbitrage Signals",
+        "url": "https://bitcoinist.com/solana-funding-rate-spreads-spark-cross-exchange-arbitrage-signals/",
+        "published_at": "2026-06-27T19:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Whales Intensify Accumulation Near Multi-Month Lows as Futures Interest Grows",
+        "url": "https://bitcoinist.com/cardano-whales-intensify-accumulation-near-multi-month-lows-as-futures-interest/",
+        "published_at": "2026-06-27T19:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave Reclaims Critical Support Level as DeFi Assets Show Recovery Signals",
+        "url": "https://bitcoinist.com/aave-reclaims-critical-support-level-as-defi-assets-show-recovery-signals/",
+        "published_at": "2026-06-27T18:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
