@@ -1,0 +1,437 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-28T21:13:55 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2144782090503.54,
+    "total_market_cap_change_24h_pct": -0.6133,
+    "total_volume_24h_usd": 43331538061.31,
+    "btc_dominance_pct": 55.7195,
+    "eth_dominance_pct": 8.8359,
+    "total2_usd": 949720417086.51,
+    "total3_usd": 760209814833.14,
+    "active_cryptocurrencies": 17435,
+    "altcoin_season_index": 65,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 31.9925,
+        "price_usd": 1.81,
+        "market_cap_usd": 760530270
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": 23.8778,
+        "price_usd": 0.160835,
+        "market_cap_usd": 337752529
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 7.7873,
+        "price_usd": 0.083813,
+        "market_cap_usd": 209374292
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 7.0233,
+        "price_usd": 2.56,
+        "market_cap_usd": 738751681
+      },
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": 6.3402,
+        "price_usd": 133.72,
+        "market_cap_usd": 319098173
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -44.6584,
+        "price_usd": 0.13865,
+        "market_cap_usd": 138433036
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -21.0172,
+        "price_usd": 0.057451,
+        "market_cap_usd": 126392690
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -11.4567,
+        "price_usd": 0.492785,
+        "market_cap_usd": 123196041
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -9.2289,
+        "price_usd": 0.123892,
+        "market_cap_usd": 288934806
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -7.0176,
+        "price_usd": 0.03561886,
+        "market_cap_usd": 855287283
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59586,
+    "price_change_24h_pct": -1.1873,
+    "price_change_7d_pct": -6.5353,
+    "market_cap_usd": 1194639784625,
+    "volume_24h_usd": 15654098392,
+    "direction": "bearish",
+    "oi_usd": 6079989195.06,
+    "funding_rate_latest": 4.43e-05,
+    "funding_rate_7d_avg": 2.9147142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2446,
+    "long_account_pct": 69.18,
+    "short_account_pct": 30.82,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1568.07,
+    "price_change_24h_pct": -0.8373,
+    "price_change_7d_pct": -9.4792,
+    "market_cap_usd": 189281040901,
+    "volume_24h_usd": 5293469268,
+    "eth_btc_ratio": 0.026316,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70212922360.67,
+    "stablecoin_market_cap_usd": 312473123322.28,
+    "stablecoin_dominance_pct": 14.569
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 15,
+    "headlines": [
+      {
+        "headline": "Qatar says citizen killed from shrapnel due to 'military operations' - Reuters",
+        "summary": "Qatar says citizen killed from shrapnel due to 'military operations'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ21SZFIxTGtjZXk3Q3hZMk52T1YzWHAwSE5KaURkR2VjcHdnZEotNm9qdTJDRXFQS3kzamppMjRZbDJaamFmNlQtVC1yeGh4RV9jRkpyRGVnaURYN19nU2t4UHNOOEFYS1RHUU5TdUFKTVREX0otR2hrajJyaUZjWDVwaDVzUDBhY19PVW92NmNXcVZadVEtb3NLY2RGWUpMQUFJSjhWc3hTalVjanRrdUln?oc=5",
+        "published_at": "2026-06-28T17:00:09Z"
+      },
+      {
+        "headline": "Eleven people killed in plane crash in northeastern France - Reuters",
+        "summary": "Eleven people killed in plane crash in northeastern France\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzZMNHNzVl9SVGxoSFJ1U1JGZWZpTzlUeEhuaVhMUUlzSkdGTHAwUUJoLWF4dEl1LVFnTXhRME5ib25na3dzcnN3N0RqMHNHUmJHbnlyNUZwY2dUbXh5Vm9PSUhaM09kOThUazFCQ25KX3NYdk10dG1ET3lHSnR1SXJTeldHRFZ1RGVNZ2ZCV3NUUGdMbmZrWm5BWk5qLTJZVzBuRkhxaHQ0V2FFX0M1dV9pRHBSZw?oc=5",
+        "published_at": "2026-06-28T16:40:29Z"
+      },
+      {
+        "headline": "America can't get enough of protein. The dairy industry can't keep up",
+        "summary": "Demand for whey protein is off the charts as American diet trends change and GLP-1s boom, and the dairy industry is struggling to produce enough.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/28/america-cant-get-enough-protein-the-dairy-industry-cant-keep-up.html",
+        "published_at": "2026-06-28T15:13:52Z"
+      },
+      {
+        "headline": "Iraq detains politicians, officials in anti-corruption crackdown - Reuters",
+        "summary": "Iraq detains politicians, officials in anti-corruption crackdown\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjhiREF4Z2I3aFhFRG1DTVJEaDlpcERlMWRmd19NRks1T05nYVUtcS05N1p6NmNZeWsyeEl0c3lRMkFsYnBfQmU5TU1kR0FnQ3ZaNTJNcGhtRmE1ODBLd1dCS0NHNkRYLTVCZ1duX052Mmw2a2l3WW9Cb3NkeHlrYXNqcnFFZU5LSUJwZnlqUVhWY2haeFBIU20zYk4xd25rUFhqY3F4NlBqUEJMWXZlZHh5UQ?oc=5",
+        "published_at": "2026-06-28T14:59:22Z"
+      },
+      {
+        "headline": "Some renters say homeownership isn't part of their American Dream: Renting is 'really freeing for me'",
+        "summary": "Some no longer see renting as a temporary stop on the path to homeownership but rather a long-term lifestyle choice, reflecting a shift in the American Dream.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/28/some-renters-say-homeownership-isnt-part-of-their-american-dream.html",
+        "published_at": "2026-06-28T14:05:01Z"
+      },
+      {
+        "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
+        "summary": "It's jobs week, and Nike has a pivotal earnings report and a long-awaited breakup is complete.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/28/here-are-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead-.html",
+        "published_at": "2026-06-28T13:30:51Z"
+      },
+      {
+        "headline": "Gulf markets mixed as US-Iran trade attacks - Reuters",
+        "summary": "Gulf markets mixed as US-Iran trade attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN0w3QkJTYncxeTYxQlBfSFJ4TDRIRFYwR0tmMTdnUXFVZDhudGpnOG9aeXBNMWZtYzF5M2dkaENRU2p1RVVuVmsyZjVPWHU1NHloT3duaTRuREwzX292VzVuYXd1RW5tZ0NjYkQxUnJYOWtLT1RVX0I3Z29QYU1SZ241SkpScnBNdWF0dm12REhmR0ozS1BzeXNB?oc=5",
+        "published_at": "2026-06-28T13:11:43Z"
+      },
+      {
+        "headline": "Israel damaged heritage sites across south Lebanon, minister says - Reuters",
+        "summary": "Israel damaged heritage sites across south Lebanon, minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQlFsWjdyLTVfeVdablVHR3p5WGE2Q3g1UEdBYmRhTDlDNEM5WE82U0JRV3oyX3hWRE1BWlRwMkNKQktBNWhhVzUwVWtnOWNzUEN4R0k2djBuMHBVNTRHMVJFeW5sSnlpOW5LTjN1UXRpdEVnM3VoMnZXMGwyVXB0RFF2SEMwanJSY1p2MXk2RVZjaVNndkx5RUV0aDFPSzJEc20zTVBkSFBEalVfSE85TTN2TGxMWFRyc3c?oc=5",
+        "published_at": "2026-06-28T12:44:45Z"
+      },
+      {
+        "headline": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says - Reuters",
+        "summary": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTl9QcUZ1VHdxdmRSYXhWRC0yWkdKMFhJYXNlM0JVMFEwR1BTeDA4djNxVjgtTnJPcVlTT0xGTDBlRE5FSllaLTdjcnFidVkwdDZKdlB6SmhKazhabUlvckNEaTF3VUdLTkgzUnZXbzB6MUZ3QkFBV09NVEZDSFpJTkkxUTlsekhMdlNsb0oxbl9QcEp3ZFZWYktvZ3dhTUNDVEJHSg?oc=5",
+        "published_at": "2026-06-28T12:44:29Z"
+      },
+      {
+        "headline": "Late drama ends Iran's hopes of reaching World Cup knockouts for first time - Reuters",
+        "summary": "Late drama ends Iran's hopes of reaching World Cup knockouts for first time\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaDEtc3VaN1lWQmNYSGVfeWlpR1MzaG9wZ0pab2dOU041S3JzTlVKdno3bW5qaTcxRE9ObEN4ZnMxUERyOUNlTUlkZG5SZ3lzclV6WXo2TWxKMElUdHB5VFVNZGhkVzU4WXpVdXRILXpKcnlpaEE3UGV3NEQyd0huMW1SVVJMQjN6cktMbmJSQ3BxaG5FXzVxeG5mZ2NlWm1QWGgtZ2RHMk0xWmpEYkhOcXVPbTBkeFFC?oc=5",
+        "published_at": "2026-06-28T05:34:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.3958,
+    "dxy_lean": "bearish",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": null,
+    "vix_close": 18.89,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 59598.68,
+    "coinbase_premium_pct": 0.02128,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-28T21:13:55 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 192.53,
+        "change_pct": -1.6399,
+        "prev_close": 195.74
+      },
+      "AMD": {
+        "close": 521.58,
+        "change_pct": -2.0636,
+        "prev_close": 532.57
+      },
+      "TSM": {
+        "close": 432.35,
+        "change_pct": -0.6069,
+        "prev_close": 434.99
+      },
+      "SMCI": {
+        "close": 30.63,
+        "change_pct": -3.3144,
+        "prev_close": 31.68
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 706.52,
+        "change_pct": -1.3764,
+        "prev_close": 716.38
+      },
+      "SOXX": {
+        "close": 589.94,
+        "change_pct": -5.6398,
+        "prev_close": 625.2
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59586,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 19,
+    "positive_count": 4,
+    "negative_count": 1,
+    "neutral_count": 14,
+    "sentiment_ratio": 0.2105,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-28T21:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Upgrade Approaches Testnet Phase Through Intersect Release",
+        "url": "https://bitcoinist.com/cardano-upgrade-approaches-testnet-phase-through-intersect-release-2/",
+        "published_at": "2026-06-28T20:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BNB Technical Setup: Binance Coin Consolidates Near Local Support",
+        "url": "https://bitcoinist.com/bnb-technical-setup-binance-coin-consolidates-near-local-support-2/",
+        "published_at": "2026-06-28T20:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave Technical Setup: AAVE Holds Support Above $98",
+        "url": "https://bitcoinist.com/aave-technical-setup-aave-holds-support-above-98-2/",
+        "published_at": "2026-06-28T19:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BIS warns stablecoins risk fragmenting global financial system",
+        "url": "https://cointelegraph.com/news/bis-warns-stablecoins-risk-fragmenting-global-financial-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-28T18:58:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sui Technical Setup: SUI Defends Key Macro Support Levels",
+        "url": "https://bitcoinist.com/sui-technical-setup-sui-defends-key-macro-support-levels-2/",
+        "published_at": "2026-06-28T18:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sui Partners With Token Terminal to Deliver Institutional On-Chain Analytics",
+        "url": "https://bitcoinist.com/sui-partners-with-token-terminal-to-deliver-institutional-on-chain-analytics-2/",
+        "published_at": "2026-06-28T17:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SecondFi Outlines Recovery Plan After $2.4 Million Cardano Wallet Exploit",
+        "url": "https://bitcoinist.com/secondfi-outlines-recovery-plan-after-2-4-million-cardano-wallet-exploit-2/",
+        "published_at": "2026-06-28T17:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainlink Smart Collateral Tech Selected for DTCC Financial Infrastructure Trial",
+        "url": "https://bitcoinist.com/chainlink-smart-collateral-tech-selected-for-dtcc-financial-infrastructure-tri-2/",
+        "published_at": "2026-06-28T16:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Michael Saylor signals another bitcoin buy as Strategy sits about $13 billion underwater",
+        "url": "https://www.theblock.co/post/406460/michael-saylor-signals-another-bitcoin-buy-as-strategy-sits-about-13-billion-underwater?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-28T16:13:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 13,
+    "signals_null": 3,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": null,
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
