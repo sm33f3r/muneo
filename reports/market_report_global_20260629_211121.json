@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-29T21:10:26 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2171263152808.08,
+    "total_market_cap_change_24h_pct": 1.709,
+    "total_volume_24h_usd": 86645674766.63,
+    "btc_dominance_pct": 55.6009,
+    "eth_dominance_pct": 8.979,
+    "total2_usd": 964020881484.59,
+    "total3_usd": 769063201810.51,
+    "active_cryptocurrencies": 17418,
+    "altcoin_season_index": 69,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TAC",
+        "name": "TAC",
+        "price_change_24h_pct": 166.4977,
+        "price_usd": 0.059125,
+        "market_cap_usd": 274992656
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 43.8159,
+        "price_usd": 0.1202,
+        "market_cap_usd": 300747509
+      },
+      {
+        "symbol": "RAVE",
+        "name": "RaveDAO",
+        "price_change_24h_pct": 38.0508,
+        "price_usd": 0.434679,
+        "market_cap_usd": 110116417
+      },
+      {
+        "symbol": "CX",
+        "name": "Cortex",
+        "price_change_24h_pct": 32.5768,
+        "price_usd": 0.08612,
+        "market_cap_usd": 126855548
+      },
+      {
+        "symbol": "RE",
+        "name": "RE",
+        "price_change_24h_pct": 26.4309,
+        "price_usd": 0.774199,
+        "market_cap_usd": 122983028
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -16.1144,
+        "price_usd": 0.606607,
+        "market_cap_usd": 800128446
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -11.8782,
+        "price_usd": 0.050668,
+        "market_cap_usd": 111509669
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": -11.8628,
+        "price_usd": 0.122028,
+        "market_cap_usd": 121611216
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -9.9326,
+        "price_usd": 0.742117,
+        "market_cap_usd": 363456750
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -9.6112,
+        "price_usd": 1.63,
+        "market_cap_usd": 685697545
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60242,
+    "price_change_24h_pct": 1.0882,
+    "price_change_7d_pct": -6.407,
+    "market_cap_usd": 1207846852007,
+    "volume_24h_usd": 33555501799,
+    "direction": "bullish",
+    "oi_usd": 6166864622.46,
+    "funding_rate_latest": 8.658e-05,
+    "funding_rate_7d_avg": 3.215428571428572e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0544,
+    "long_account_pct": 67.26,
+    "short_account_pct": 32.74,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1612.66,
+    "price_change_24h_pct": 2.8317,
+    "price_change_7d_pct": -6.9078,
+    "market_cap_usd": 194621784857,
+    "volume_24h_usd": 11563876910,
+    "eth_btc_ratio": 0.02677,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71167487706.24,
+    "stablecoin_market_cap_usd": 311902816947.34,
+    "stablecoin_dominance_pct": 14.365
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 27,
+    "headlines": [
+      {
+        "headline": "Salesforce is on an AI buying spree, but Wall Street still has its doubts",
+        "summary": "The company has announced three deals in the month of June alone.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/salesforce-is-on-an-ai-buying-spree-but-wall-street-still-has-its-doubts.html",
+        "published_at": "2026-06-29T20:47:00Z"
+      },
+      {
+        "headline": "US and Iran peace negotiators head to Doha, meeting uncertain - Reuters",
+        "summary": "US and Iran peace negotiators head to Doha, meeting uncertain\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamkzUTk4cHJ6Z1BfZm5Zc2FIX2cwaUNBVGd5dGZLenN5bjdsV2RqamY3NXhna0NpZjdiSDBobnpYNHpJaExjcWdOUWtteTdPNkd3ckJ1d0lEWFVkTlpueHlBRTV0b0lWLXVmbkxBenBKbGtmMFRKZGl4amxmcXU3RmV2ZGtIRHBoUzNoUl9mYzdpZHJwclRzNkNTNjJtYm8xbEkzcUowbnBaVWxCT2JXWEFVUlRyUkl1aDZpekJ4SlZjVFk?oc=5",
+        "published_at": "2026-06-29T20:17:31Z"
+      },
+      {
+        "headline": "Our rating, price target and outlook for newly spun off Honeywell Aerospace",
+        "summary": "Given the robust backlog, streamlined operations, and high demand for its products, we see plenty of upside in our newest position.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/our-rating-price-target-and-outlook-for-newly-spun-honeywell-aerospace.html",
+        "published_at": "2026-06-29T20:13:52Z"
+      },
+      {
+        "headline": "Wall Street ends higher as US, Iran attacks ease; major tech-related shares jump - Reuters",
+        "summary": "Wall Street ends higher as US, Iran attacks ease; major tech-related shares jump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbGhfTkRBNnFnWmRfbmpsUFZjNHByR1hpUHhzMU12ZEhnQmx0cmk5bkpneU9CdmI1X01JVl9qMXZoWEg4X0dOV1Q5QnduaFJSSXB2eTRMM0l3TUQ0RGU3RzRma0V4MGd0XzhHWU5INzdSMkp0NG51QUc4OWg4T09YUGJ4OGUtVGo3Vm5wN09lbEJ3RTZSeWc1Q0dhWTZZYU42VlhkRVZ0dlk?oc=5",
+        "published_at": "2026-06-29T20:01:19Z"
+      },
+      {
+        "headline": "Comcast's NBCUniversal spinoff raises hope for more deals. There may not be good options",
+        "summary": "Comcast plans to separate its cable and media divisions over the next year. This could set each company up for M&A, but there might not be any good options.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/comcast-nbcu-spinoff-m-and-a.html",
+        "published_at": "2026-06-29T18:59:34Z"
+      },
+      {
+        "headline": "Eli Lilly, Regeneron among first companies selected for FDA initiative to speed review of new manufacturing facilities",
+        "summary": "Eli Lilly and Regeneron are among the first seven companies the FDA has selected for its PreCheck Pilot Program, CNBC has learned.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/eli-lilly-regeneron-in-fda-precheck-manufacturing-program.html",
+        "published_at": "2026-06-29T18:53:48Z"
+      },
+      {
+        "headline": "Chip stocks rebound, and Goldman racks up a series of M&A wins",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/chip-stocks-rebound-and-goldman-racks-up-a-series-of-ma-wins-.html",
+        "published_at": "2026-06-29T18:36:00Z"
+      },
+      {
+        "headline": "Here's how Trump Accounts could affect women's retirement savings gap",
+        "summary": "While Trump Accounts are unlikely to directly improve retirement savings among women, there may be an indirect benefit, says one expert.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/heres-how-trump-accounts-could-affect-womens-retirement-savings-gap.html",
+        "published_at": "2026-06-29T17:20:30Z"
+      },
+      {
+        "headline": "Why our cybersecurity stocks are soaring, plus Big Tech tries to rebound",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/why-our-cybersecurity-stocks-are-soaring-plus-big-tech-tries-to-rebound.html",
+        "published_at": "2026-06-29T16:28:12Z"
+      },
+      {
+        "headline": "Kalshi traders expect this week's jobs report will disappoint Wall Street outlook",
+        "summary": "The Dow Jones expects over 118,000 jobs will be added, but Kalshi traders give under 60% that over 100,000 jobs will be added.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/29/kalshi-traders-expect-this-weeks-jobs-report-will-disappoint-wall-street-outlook.html",
+        "published_at": "2026-06-29T15:27:40Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 740.94,
+    "spy_change_pct": 1.6393,
+    "spy_lean": "bullish",
+    "vix_close": 18.41,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 60244.86,
+    "coinbase_premium_pct": 0.004748,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-29T21:10:26 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 194.97,
+        "change_pct": 1.2673,
+        "prev_close": 192.53
+      },
+      "AMD": {
+        "close": 539.49,
+        "change_pct": 3.4338,
+        "prev_close": 521.58
+      },
+      "TSM": {
+        "close": 455.1,
+        "change_pct": 5.2619,
+        "prev_close": 432.35
+      },
+      "SMCI": {
+        "close": 28.15,
+        "change_pct": -8.0966,
+        "prev_close": 30.63
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 724.08,
+        "change_pct": 2.4854,
+        "prev_close": 706.52
+      },
+      "SOXX": {
+        "close": 614.35,
+        "change_pct": 4.1377,
+        "prev_close": 589.94
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60242,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 17,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 12,
+    "negative_count": 8,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.2034,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "TD Cowen says crypto market structure bill passage \u2018far from assured\u2019 before midterm election",
+        "url": "https://www.theblock.co/post/406621/td-cowen-crypto-market-structure-bill-clarity-act?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-29T20:38:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China Has Its Own Mythos Now, Says Qihoo 360 Founder. And One Version Is Free",
+        "url": "https://decrypt.co/372345/china-has-own-mythos-now-one-version-free",
+        "published_at": "2026-06-29T20:16:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senate leaders push for July passage of CLARITY Act",
+        "url": "https://cointelegraph.com/news/senate-leaders-july-passage-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-29T19:59:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC wraps up NanoBit crypto fraud case in final judgment, ordering over $5 million in fines",
+        "url": "https://www.theblock.co/post/406613/sec-wraps-up-nanobit-crypto-fraud-case-final-judgment-ordering-5-million-fines?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-29T19:51:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin put-call ratio hits 1-year high: Are bears preparing for drop to $55K?",
+        "url": "https://cointelegraph.com/markets/bitcoin-put-call-ratio-hits-1-year-high-are-bears-preparing-for-drop-to-55k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-29T19:41:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Supreme Court Says Trump Can Fire SEC, CFTC Commissioners at Will\u2014At a Crucial Moment for Crypto",
+        "url": "https://decrypt.co/372342/supreme-court-trump-fire-sec-cftc-commissioners-crucial-moment-crypto",
+        "published_at": "2026-06-29T19:29:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Arkham launches ranking system for prediction market traders",
+        "url": "https://www.theblock.co/post/406604/arkham-launches-ranking-system-for-prediction-market-traders?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-29T19:04:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Unveils New Tech That Uses AI to Translate Brain Activity Into Text\u2014Without Surgery",
+        "url": "https://decrypt.co/372338/meta-brain2qwerty-ai-brain-activity-text",
+        "published_at": "2026-06-29T18:47:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Is in a Fight at $60K\u2014Here's What the Charts Say",
+        "url": "https://decrypt.co/372321/bitcoin-price-fight-60k-what-the-charts-say",
+        "published_at": "2026-06-29T18:40:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan execs draw comparison between yield stablecoins and \u2018shadow banking\u2019",
+        "url": "https://www.theblock.co/post/406599/jpmorgan-execs-draw-comparison-between-yield-stablecoins-shadow-banking?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-29T18:37:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
