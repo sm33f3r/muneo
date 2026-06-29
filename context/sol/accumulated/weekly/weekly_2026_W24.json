@@ -12,7 +12,7 @@
     "source": "accumulated",
     "script_version": "1.0.0",
     "schema_version": "1.0.0",
-    "generated_at": "2026-06-22T09:02:42 UTC",
+    "generated_at": "2026-06-29T09:01:21 UTC",
     "data_quality": "complete"
   },
   "price": {
@@ -176,11 +176,19 @@
     "constituent_periods": 7,
     "constituent_periods_available": 7,
     "constituent_periods_missing": 0,
-    "data_quality": "complete"
+    "data_quality": "complete",
+    "schema_version_input": "2.0.0",
+    "pre_upgrade_reports_skipped": 0
   },
   "cex_dex_spread": {
     "avg_spread_pct": 0.139707,
     "max_spread_pct": 0.270433,
     "min_spread_pct": 0.014646
+  },
+  "schema_v2_fields": {
+    "tech_sector_lean_modal": null,
+    "coinbase_premium_pct_avg": null,
+    "etf_net_inflow_sum_usd": null,
+    "schema_note": "new fields from schema 2.0.0 \u2014 aggregation planned for v1.2.0"
   }
 }
