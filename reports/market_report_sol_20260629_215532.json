@@ -1,0 +1,196 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-29T21:54:47 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 75.53,
+    "price_change_24h_pct": 7.2372,
+    "price_change_7d_pct": 3.9319,
+    "volume_24h_usd": 4283817333,
+    "market_cap_usd": 43862822926,
+    "volume_to_mcap_ratio": 0.097664,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -74.2506,
+    "cex_price_usd": 75.65,
+    "cex_24h_high": 76.49,
+    "cex_24h_low": 69.74,
+    "cex_dex_spread_pct": 0.158877,
+    "volume_on_up_days_usd": 2582395148.6341157,
+    "volume_on_down_days_usd": 2513929610.89526,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 37.8037,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -7.575129,
+      "signal_line": -7.396523,
+      "histogram": -0.178606
+    },
+    "macd_lean": "bearish",
+    "sma_50": 95.056,
+    "price_vs_sma50_pct": -20.5416,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 98.528662,
+      "mid": 80.599,
+      "lower": 62.669338,
+      "width_pct": 44.491,
+      "position": 0.2173
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 780700881.75,
+    "oi_lean": null,
+    "funding_rate_latest": 4.184e-05,
+    "funding_rate_7d_avg": -1.2909047619047619e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.0544,
+    "btc_long_account_pct": 67.26,
+    "btc_short_account_pct": 32.74,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4922636069.0,
+    "tvl_7d_change_pct": 1.6759,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 8956431.0,
+    "chain_fees_7d_avg_usd": 7165092.29,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 4,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "ANSEM Token Rockets From $4 Million To $97 Million In Solana Meme Coin Frenzy",
+        "url": "https://bitcoinist.com/ansem-token-rockets-from-4-million-to-97-million-in-solana-meme-coin-frenzy-2/",
+        "published_at": "2026-06-29T14:04:18+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Analyst Flags $65-$71 Solana Support Zone After 60 Million SOL Changed Hands",
+        "url": "https://bitcoinist.com/analyst-flags-65-71-solana-support-zone-after-60-million-sol-changed-hands-2/",
+        "published_at": "2026-06-29T14:04:07+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ORE Surpasses 3 Million SOL Deployed For Mining Since V3 Launch",
+        "url": "https://bitcoinist.com/ore-surpasses-3-million-sol-deployed-for-mining-since-v3-launch-2/",
+        "published_at": "2026-06-29T14:03:30+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Prediction-market operational consolidation could spur M&A wave: Bernstein",
+        "url": "https://cointelegraph.com/news/prediction-market-consolidation-ma-wave-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-29T11:21:37+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 60439.0,
+    "btc_24h_change_pct": 1.9599,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 57.9643,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2090216646528.7,
+    "eth_btc_ratio": 0.026786,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 740.94,
+    "spy_change_pct": 1.6393,
+    "spy_lean": "bullish",
+    "vix_close": 18.41,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 17,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 72.41,
+    "cg_sentiment_votes_down_pct": 27.59,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
