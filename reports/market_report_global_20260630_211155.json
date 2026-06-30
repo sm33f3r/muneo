@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-30T21:11:00 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2123323173435.61,
+    "total_market_cap_change_24h_pct": -2.461,
+    "total_volume_24h_usd": 76886434087.06,
+    "btc_dominance_pct": 55.3852,
+    "eth_dominance_pct": 8.9468,
+    "total2_usd": 947316384775.75,
+    "total3_usd": 757347658915.41,
+    "active_cryptocurrencies": 17417,
+    "altcoin_season_index": 74,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 26.2658,
+        "price_usd": 0.087872,
+        "market_cap_usd": 160460975
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 17.9074,
+        "price_usd": 0.716597,
+        "market_cap_usd": 930591205
+      },
+      {
+        "symbol": "WBT",
+        "name": "WhiteBIT Coin",
+        "price_change_24h_pct": 12.8633,
+        "price_usd": 54.1,
+        "market_cap_usd": 6393724564
+      },
+      {
+        "symbol": "SYN",
+        "name": "Synapse",
+        "price_change_24h_pct": 9.8517,
+        "price_usd": 0.545797,
+        "market_cap_usd": 119544201
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": 9.7431,
+        "price_usd": 0.177467,
+        "market_cap_usd": 149791820
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BAS",
+        "name": "BNB Attestation Service",
+        "price_change_24h_pct": -23.9064,
+        "price_usd": 0.04321519,
+        "market_cap_usd": 108022745
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -17.8126,
+        "price_usd": 0.098117,
+        "market_cap_usd": 246253842
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": -16.0824,
+        "price_usd": 0.088652,
+        "market_cap_usd": 230593620
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -14.5061,
+        "price_usd": 0.125255,
+        "market_cap_usd": 263635890
+      },
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": -10.3932,
+        "price_usd": 0.04624554,
+        "market_cap_usd": 112362616
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 58623,
+    "price_change_24h_pct": -2.8007,
+    "price_change_7d_pct": -6.0304,
+    "market_cap_usd": 1175435723474,
+    "volume_24h_usd": 31930341544,
+    "direction": "bearish",
+    "oi_usd": 6359248871.07,
+    "funding_rate_latest": 3.327e-05,
+    "funding_rate_7d_avg": 3.8841904761904756e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.8805,
+    "long_account_pct": 74.23,
+    "short_account_pct": 25.77,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1572.48,
+    "price_change_24h_pct": -2.7139,
+    "price_change_7d_pct": -5.3776,
+    "market_cap_usd": 189856043827,
+    "volume_24h_usd": 9363301018,
+    "eth_btc_ratio": 0.026824,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 69582769728.0,
+    "stablecoin_market_cap_usd": 311043984623.02,
+    "stablecoin_dominance_pct": 14.6489
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+        "summary": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+        "published_at": "2026-06-30T20:55:04Z"
+      },
+      {
+        "headline": "Faces of elimination: World Cup fans in their moment of loss - Reuters",
+        "summary": "Faces of elimination: World Cup fans in their moment of loss\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNUd1elNzOXhKcnF0TVl5YXZuNVJRS0VacThnREp6Y3hoSFpwdGFKQ3NCNTl2bFVQTEVGLXFyemhFYnJWa2dKYTFWWHJKcEUzVVU5MTlWRWxZX3NLY1hNV3hyY01OZDNXbUhsVU5LV2IxSGNZRmptT1lsVllVSlhaQ1FQck92X0U1aVlpMGpQeDlNSUxt?oc=5",
+        "published_at": "2026-06-30T20:52:51Z"
+      },
+      {
+        "headline": "Uncertainty over Qatar diplomacy clouds prospects for US-Iran deal - Reuters",
+        "summary": "Uncertainty over Qatar diplomacy clouds prospects for US-Iran deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem1UeFBMZHJrM2tKRG9fdE5oTEQzWEpsRGxPTVNwZ1cyTEMta3laT2Z0N1NMYU1zc1BzMTYtSGJSSGI0VUVselZGZnQ4cnlKSk5MekZIakY2LUNMTzFMZU5oV0dxeFNLaEpsZzRLOFJjWVVoU2xDS1ZaQ3Q4YlE2Zk1DbjFrSnoyWnlZTC1zOTQ5bnpOR3RhWVN6X3BKcjNGd3I4MVlFajF0aFBiZl96NnAyclQtMWs?oc=5",
+        "published_at": "2026-06-30T20:52:36Z"
+      },
+      {
+        "headline": "Social Security gender gap means women receive about $4,800 less in annual benefits. What to know before claiming",
+        "summary": "Women tend to earn less and spend more time outside of the work force, which may reduce their Social Security benefits. Here's what to consider before claiming.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/30/social-security-gender-gap-women-get-4800-less-in-annual-benefits.html",
+        "published_at": "2026-06-30T19:21:09Z"
+      },
+      {
+        "headline": "Wall Street says sell Goldman, buy Capital One. Here's where we stand",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/30/wall-street-says-sell-goldman-buy-capital-one-heres-where-we-stand.html",
+        "published_at": "2026-06-30T19:04:13Z"
+      },
+      {
+        "headline": "Nvidia mostly sat out the chip sector's best quarter ever. What needs to change?",
+        "summary": "The problem cannot be explained by looking at Nvidia's reported results.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/30/nvidia-mostly-sat-out-the-chip-sectors-best-quarter-ever-what-needs-to-change-.html",
+        "published_at": "2026-06-30T18:47:57Z"
+      },
+      {
+        "headline": "American Airlines brings grab-and-go lounge to New York's JFK",
+        "summary": "American Airlines is opening a grab-and-go lounge at New York's JFK",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/30/american-airlines-louge-new-york-jfk.html",
+        "published_at": "2026-06-30T18:00:01Z"
+      },
+      {
+        "headline": "Hundreds of thousands of Lebanese head home as fighting eases, many still stranded - Reuters",
+        "summary": "Hundreds of thousands of Lebanese head home as fighting eases, many still stranded\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmxibmlNRFdpVUs3dkFYdnBsSk1aRzR0eUlOaHVaa2h1WlNlZnVZcVIwUnpzbVR4QmdtdHh2d1NoSjE4MkJORDJfcFJYUmIzZGlMcnp0WWxZYk1JbjBVZ0V3TFAtWXBaV0JVY1kwR3JrQV9YV0pQUm9hd1BoUG1Zd2pXa0VDLUJxclJQamc5ODFBOHNDT0xhUFRNRDI0Zk9PS1NtRmh4MDZfZjJJNnJWd0hTTVRHbVJHbE5JSEVyamJ4TEg2?oc=5",
+        "published_at": "2026-06-30T17:58:38Z"
+      },
+      {
+        "headline": "Major egg producers settle price inflation probe for $3.3 million",
+        "summary": "Cal-Maine Foods, Versova and Hickman's Egg Ranch agreed to settle allegations of price manipulation by the Justice Department and 17 states.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/30/egg-producers-settle-price-inflation-probe-for-3point3-million.html",
+        "published_at": "2026-06-30T16:58:13Z"
+      },
+      {
+        "headline": "Netanyahu visits occupied southern Lebanon, says Israel won't leave yet - Reuters",
+        "summary": "Netanyahu visits occupied southern Lebanon, says Israel won't leave yet\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeVcySlRURGc5VDVrMkFTZk82RTBjUE1zdkNtQW1SVERHQmI3d2xwMFc1VkVnOXRNbDRYU1QteTl4LTZmdDNwa3FTdk1Udk9hR3c5WkVfclVZUEpoNmpzUU5YVGVpOTh2WVhrU1B6b08yaTBBRXlEWTVNWmJ4ajI0QlpoYUNEZWxhbHM2Sm1YclFROXNaRGhxV3ptYzNmRHNfTHNCVlpGSFlKUEZuTWtPN3pOVzdvMC1aajJiZFdUeWo?oc=5",
+        "published_at": "2026-06-30T16:45:22Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 746.52,
+    "spy_change_pct": 0.7449,
+    "spy_lean": "bullish",
+    "vix_close": 17.65,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 58492.58,
+    "coinbase_premium_pct": -0.222472,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-06-30T21:11:00 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.09,
+        "change_pct": 2.626,
+        "prev_close": 194.97
+      },
+      "AMD": {
+        "close": 580.91,
+        "change_pct": 7.6776,
+        "prev_close": 539.49
+      },
+      "TSM": {
+        "close": 477.57,
+        "change_pct": 4.9374,
+        "prev_close": 455.1
+      },
+      "SMCI": {
+        "close": 29.33,
+        "change_pct": 4.1918,
+        "prev_close": 28.15
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 736.4,
+        "change_pct": 1.7015,
+        "prev_close": 724.08
+      },
+      "SOXX": {
+        "close": 640.76,
+        "change_pct": 4.2989,
+        "prev_close": 614.35
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 58623,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 16,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 66,
+    "positive_count": 14,
+    "negative_count": 9,
+    "neutral_count": 43,
+    "sentiment_ratio": 0.2121,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SUI, ENA And EIGEN Lead $73M Token Unlock Wave This Week",
+        "url": "https://bitcoinist.com/sui-ena-and-eigen-lead-73m-token-unlock-wave-this-week/",
+        "published_at": "2026-06-30T21:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic's Claude Sonnet 5 Closes In on Opus 4.8 at a Fraction of the Price",
+        "url": "https://decrypt.co/372458/anthropic-claude-sonnet-5-close-opus-4-8",
+        "published_at": "2026-06-30T20:51:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New York Life Investment Management Debuts First Tokenized Bond Fund",
+        "url": "https://decrypt.co/372457/new-york-life-investment-management-first-tokenized-bond-fund",
+        "published_at": "2026-06-30T20:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC seeks public comment on regulating next generation of ETFs",
+        "url": "https://cointelegraph.com/news/sec-seeks-public-comment-on-regulating-novel-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-30T20:38:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi Sports Markets Banned in Michigan as Temporary Blackout Takes Effect",
+        "url": "https://decrypt.co/372454/kalshi-sports-markets-banned-michigan-temporary-blackout",
+        "published_at": "2026-06-30T20:30:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Upbit Lists Gensyn As AI Crypto Narrative Gets New Korean Market Boost",
+        "url": "https://bitcoinist.com/upbit-lists-gensyn-as-ai-crypto-narrative-gets-new-korean-market-boost/",
+        "published_at": "2026-06-30T20:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple Pushes Global Compliance Expansion Ahead Of US Clarity Act Debate",
+        "url": "https://bitcoinist.com/ripple-pushes-global-compliance-expansion-ahead-of-us-clarity-act-debate/",
+        "published_at": "2026-06-30T20:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman Sachs XRP Trust Filing Shows How Wall Street Is Testing Crypto Exposure",
+        "url": "https://bitcoinist.com/goldman-sachs-xrp-trust-filing-shows-how-wall-street-is-testing-crypto-exposure/",
+        "published_at": "2026-06-30T19:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainlink Holder Count Nears 900,000 As Wallet Growth Accelerates",
+        "url": "https://bitcoinist.com/chainlink-holder-count-nears-900-000-as-wallet-growth-accelerates/",
+        "published_at": "2026-06-30T19:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle shares sink 16% after Open USD reveal, analysts say fears are \u2018overblown\u2019",
+        "url": "https://www.theblock.co/post/406758/circle-shares-sink-16-open-usd-reveal-analysts-say-fears-overblown?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-30T19:34:38+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 5,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
