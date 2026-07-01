@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-01T21:25:28 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.722525,
+    "price_change_24h_pct": 4.7284,
+    "price_change_7d_pct": 5.4111,
+    "volume_24h_usd": 288126682,
+    "market_cap_usd": 2927920515,
+    "volume_to_mcap_ratio": 0.098407,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -86.4862,
+    "cex_price_usd": 0.7214,
+    "cex_24h_high": 0.725,
+    "cex_24h_low": 0.6778,
+    "cex_dex_spread_pct": -0.155704,
+    "volume_on_up_days_usd": 487497329.7097548,
+    "volume_on_down_days_usd": 441485306.3913936,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 34.5546,
+    "rsi_lean": "bullish",
+    "macd": {
+      "macd_line": -0.116574,
+      "signal_line": -0.101908,
+      "histogram": -0.014666
+    },
+    "macd_lean": "bearish",
+    "sma_50": 1.093941,
+    "price_vs_sma50_pct": -33.9521,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.251582,
+      "mid": 0.920216,
+      "lower": 0.588851,
+      "width_pct": 72.019,
+      "position": 0.1446
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 72508435.7,
+    "oi_lean": null,
+    "funding_rate_latest": 7.438e-05,
+    "funding_rate_7d_avg": 2.4054285714285717e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.8217,
+    "btc_long_account_pct": 64.56,
+    "btc_short_account_pct": 35.44,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 420958939.0,
+    "tvl_7d_change_pct": -1.0602,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 96591.0,
+    "chain_fees_7d_avg_usd": 82307.57,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Massachusetts AG files amended lawsuit against Kalshi over sports betting after court ruling",
+        "url": "https://cointelegraph.com/news/massachusetts-lawsuit-kalshi-sports-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-30T21:44:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 60367.0,
+    "btc_24h_change_pct": 3.1899,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 58.0123,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2088424081776.3782,
+    "eth_btc_ratio": 0.026832,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 745.72,
+    "spy_change_pct": -0.1406,
+    "spy_lean": "neutral",
+    "vix_close": 16.45,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 19,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 75.0,
+    "cg_sentiment_votes_down_pct": 25.0,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 7,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bullish",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
