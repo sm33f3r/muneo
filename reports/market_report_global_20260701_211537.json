@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-01T21:14:42 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2172771281709.58,
+    "total_market_cap_change_24h_pct": 2.4654,
+    "total_volume_24h_usd": 82244847523.15,
+    "btc_dominance_pct": 55.7112,
+    "eth_dominance_pct": 9.0063,
+    "total2_usd": 962294247696.87,
+    "total3_usd": 766607033304.26,
+    "active_cryptocurrencies": 17419,
+    "altcoin_season_index": 32,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 78.5293,
+        "price_usd": 1.28,
+        "market_cap_usd": 1682775528
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 25.6985,
+        "price_usd": 0.064663,
+        "market_cap_usd": 142170032
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 20.1473,
+        "price_usd": 2.15,
+        "market_cap_usd": 534991535
+      },
+      {
+        "symbol": "RIF",
+        "name": "Rootstock Infrastructure Framework",
+        "price_change_24h_pct": 19.9372,
+        "price_usd": 0.107086,
+        "market_cap_usd": 107689595
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price_change_24h_pct": 13.3123,
+        "price_usd": 0.236588,
+        "market_cap_usd": 785545900
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -34.853,
+        "price_usd": 9.03,
+        "market_cap_usd": 2818789096
+      },
+      {
+        "symbol": "TAC",
+        "name": "TAC",
+        "price_change_24h_pct": -30.381,
+        "price_usd": 0.04304723,
+        "market_cap_usd": 199999439
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -20.9103,
+        "price_usd": 0.069498,
+        "market_cap_usd": 126950651
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": -14.1368,
+        "price_usd": 0.152373,
+        "market_cap_usd": 128334707
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -12.6982,
+        "price_usd": 0.03403649,
+        "market_cap_usd": 820272859
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60346,
+    "price_change_24h_pct": 3.1581,
+    "price_change_7d_pct": 0.8753,
+    "market_cap_usd": 1210164264437,
+    "volume_24h_usd": 35275020024,
+    "direction": "bullish",
+    "oi_usd": 6341220138.11,
+    "funding_rate_latest": 7.073e-05,
+    "funding_rate_7d_avg": 4.367190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8217,
+    "long_account_pct": 64.56,
+    "short_account_pct": 35.44,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1619.93,
+    "price_change_24h_pct": 3.1088,
+    "price_change_7d_pct": 2.465,
+    "market_cap_usd": 195566923828,
+    "volume_24h_usd": 11142351087,
+    "eth_btc_ratio": 0.026844,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70655509083.21,
+    "stablecoin_market_cap_usd": 310167601200.58,
+    "stablecoin_dominance_pct": 14.2752
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "Defense startups raid auto and fracking sectors for parts to speed weapons output - Reuters",
+        "summary": "Defense startups raid auto and fracking sectors for parts to speed weapons output\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLXdoZFNDNWR3TXRnUjBhdERaMFM3cUlDM1o0QWVfXzQwNnpLRUc1Y0kyQUJzd1U4MVJTandHYjZkekRHWGJuWnQ3UjJjS0MxaFZacElDMWFrRUkyZU5fYjg1VHFtN0tVUUFvYVptQTNjSWZnbzZ1cmhRbDNNdkNxalo2d1hod3pzbDNkNFJneWE4T3ZRUTBJZFVxMkJFeF9rTFZ5WWRpMzhwN0RFSTNjQWxlZ2JObDR2X1kxU3JHWmNMaVFCTmk3dzB5SHQ0dw?oc=5",
+        "published_at": "2026-07-01T20:27:46Z"
+      },
+      {
+        "headline": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
+        "summary": "Nonfarm payrolls are projected to post a gain of 115,000, according to the Dow Jones consensus.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html",
+        "published_at": "2026-07-01T20:27:09Z"
+      },
+      {
+        "headline": "U.S., Iran talks conclude in Doha, focused on Strait - Reuters",
+        "summary": "U.S., Iran talks conclude in Doha, focused on Strait\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR2I3cUEydmhlWVB5bmFRM1JuTXZVRHdDVFV6MTFjWHc0V3NFeDBCNFR0ZEJ0U2NjR213NWJwYlQwb0pNQjZmbU1tdlJjRlF2ZUZKZjBBRmpteTM1SUthZV9ESXZpaVRvSVhUaUYxb1lFenoxLUU2MklQd0I1OC1XR1NGSVo4b29CdVZ5ZzQ0QXp4MFdlMnoyRS1Rak0tTVNvYVU1RVhtb29hdENLeldfakJsMHNNaWNkQ0Uw?oc=5",
+        "published_at": "2026-07-01T20:22:40Z"
+      },
+      {
+        "headline": "Chip stocks that notched record rallies in second quarter start Q3 with a dud",
+        "summary": "Memory maker Micron, which jumped over 240% in the second quarter, dropped 11% on Wednesday, wiping out nearly $200 billion of market capitalization.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/chip-stocks-notched-record-rallies-in-second-quarter-start-q3-with-dud.html",
+        "published_at": "2026-07-01T20:12:19Z"
+      },
+      {
+        "headline": "Wall Street ends lower as tech shares slip - Reuters",
+        "summary": "Wall Street ends lower as tech shares slip\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUlRDSDhyZXpFd2lVaWQyUllERFNzcHA4T2ZZZzZhWGdGaDRRcDVKY202NmFRbGFwSnRZcmhOeTBIVG1kci1qc0Zld2lKX2Z0bW1reTRiZkJCV21UNW16dFd5cWFXVW9JbXI0R0RxWGhFa1NsWXB2NFJXZTM1dHI2cmY1NmVDRHFFTm9MZEJMSnlLZUxiSGtIb1pPM1NsdFliWlI0OWR2R0V4T2tneUkw?oc=5",
+        "published_at": "2026-07-01T20:03:30Z"
+      },
+      {
+        "headline": "US factory activity eases off four-year high; input prices remain elevated - Reuters",
+        "summary": "US factory activity eases off four-year high; input prices remain elevated\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdHdmbG9IWkhIbExKVnpqbXROZmtHRDE5bXljc2JXaF9vd0pUbmRmWVZGZmNnb3B1YTE3a2I5a0JDY05odEd3UHVGSXJEU0E3b21Za0ZrREFqWnVfcWxVUHFUakg5RTBnU1ZBLTdhaWtFQ3JTUFphRjR2ZnJNb0dISklZVHZidFdpOVM2cGdLeWxyRUV2TU81c00wYkNiRi1Wd1p2S28tbw?oc=5",
+        "published_at": "2026-07-01T19:07:43Z"
+      },
+      {
+        "headline": "2026 laggards shine in Wednesday's mixed stock market that kicked off the third quarter",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/2026-laggards-shine-in-mixed-market-that-kicked-off-q3.html",
+        "published_at": "2026-07-01T18:23:36Z"
+      },
+      {
+        "headline": "The $20,000 new vehicle is all but extinct\u2014what the most affordable new car looks like now",
+        "summary": "Why the $20,000 new car disappeared, and what budget-conscious buyers can expect today.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/the-20000-new-car-is-gonewhat-the-an-affordable-car-looks-like-now.html",
+        "published_at": "2026-07-01T17:30:01Z"
+      },
+      {
+        "headline": "Bitcoin's summer swoon creates unique trade in Strategy",
+        "summary": "Outright shorting bitcoin or high-beta crypto equities after a steep decline carries immense tail risk.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/bitcoins-summer-swoon-creates-unique-trade-in-strategy.html",
+        "published_at": "2026-07-01T17:10:22Z"
+      },
+      {
+        "headline": "Cramer shares next steps for a software stock after a rare bullish analyst call",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/01/cramer-shares-next-steps-for-a-software-stock-after-a-rare-bullish-call-.html",
+        "published_at": "2026-07-01T16:36:41Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 745.72,
+    "spy_change_pct": -0.1406,
+    "spy_lean": "neutral",
+    "vix_close": 16.45,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 60368.56,
+    "coinbase_premium_pct": 0.037384,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-01T21:14:42 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 197.58,
+        "change_pct": -1.2544,
+        "prev_close": 200.09
+      },
+      "AMD": {
+        "close": 540.88,
+        "change_pct": -6.8909,
+        "prev_close": 580.91
+      },
+      "TSM": {
+        "close": 444.23,
+        "change_pct": -6.9812,
+        "prev_close": 477.57
+      },
+      "SMCI": {
+        "close": 27.65,
+        "change_pct": -5.7279,
+        "prev_close": 29.33
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.17,
+        "change_pct": -1.525,
+        "prev_close": 736.4
+      },
+      "SOXX": {
+        "close": 599.7,
+        "change_pct": -6.408,
+        "prev_close": 640.76
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60346,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 18,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 69,
+    "positive_count": 18,
+    "negative_count": 8,
+    "neutral_count": 43,
+    "sentiment_ratio": 0.2609,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Robinhood Launches 'AI-Native' Ethereum Layer-2 Network, Tokenized Stock Trading",
+        "url": "https://decrypt.co/372614/robinhood-ai-native-ethereum-layer-2-network-tokenized-stock-trading",
+        "published_at": "2026-07-01T20:56:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Token Launches Hit 80-Day High As Meme Coin Activity Returns",
+        "url": "https://bitcoinist.com/solana-token-launches-hit-80-day-high-as-meme-coin-activity-returns/",
+        "published_at": "2026-07-01T20:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Venice AI Valued at $1 Billion as Erik Voorhees Makes the Case for Private ChatGPT Rivals",
+        "url": "https://decrypt.co/372613/venice-ai-valued-1-billion-erik-voorhees-makes-case-private-chatgpt",
+        "published_at": "2026-07-01T20:38:40+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tradeweb executes real-time tokenized US Treasury transaction on Canton Network",
+        "url": "https://cointelegraph.com/news/tradeweb-executes-real-time-tokenized-us-treasury-transaction-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-01T20:38:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin bounces off 21-month low, but leverage data signals caution: Was $57K the bottom?",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-off-21-month-low-but-leverage-data-signals-caution-was-57k-the-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-01T20:27:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LongCat-2.0: The Stealth AI Model That Was Quietly Topping OpenRouter All Along",
+        "url": "https://decrypt.co/372579/longcat-2-0-meituan-ai-stealth-model-openrouter",
+        "published_at": "2026-07-01T20:18:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-01T20:12:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple USD Activity Pushes XRP Ledger Settlement Volume Above $2.5 Billion",
+        "url": "https://bitcoinist.com/ripple-usd-activity-pushes-xrp-ledger-settlement-volume-above-2-5-billion/",
+        "published_at": "2026-07-01T20:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Democrat backed by Ripple co-founder\u2019s PAC wins Colorado primary",
+        "url": "https://cointelegraph.com/news/democrat-ripple-co-founders-pac-wins-colorado?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-01T19:30:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainlink Nears 900,000 Holder Addresses As LINK Leaves Exchanges",
+        "url": "https://bitcoinist.com/chainlink-nears-900-000-holder-addresses-as-link-leaves-exchanges/",
+        "published_at": "2026-07-01T19:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
