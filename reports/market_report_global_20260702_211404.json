@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-02T21:13:09 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2213624198923.68,
+    "total_market_cap_change_24h_pct": 1.3716,
+    "total_volume_24h_usd": 94524606402.94,
+    "btc_dominance_pct": 55.7056,
+    "eth_dominance_pct": 9.2843,
+    "total2_usd": 980512487057.72,
+    "total3_usd": 774992107673.08,
+    "active_cryptocurrencies": 17407,
+    "altcoin_season_index": 36,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SLX",
+        "name": "Solstice",
+        "price_change_24h_pct": 40.7547,
+        "price_usd": 0.546642,
+        "market_cap_usd": 129744597
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 27.6518,
+        "price_usd": 1.62,
+        "market_cap_usd": 2142953027
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 24.9413,
+        "price_usd": 11.29,
+        "market_cap_usd": 3567044601
+      },
+      {
+        "symbol": "RE",
+        "name": "RE",
+        "price_change_24h_pct": 14.8342,
+        "price_usd": 0.693236,
+        "market_cap_usd": 111001630
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price_change_24h_pct": 13.3708,
+        "price_usd": 3.2,
+        "market_cap_usd": 1985201426
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -66.474,
+        "price_usd": 0.499922,
+        "market_cap_usd": 211187490
+      },
+      {
+        "symbol": "TAC",
+        "name": "TAC",
+        "price_change_24h_pct": -18.6215,
+        "price_usd": 0.03467006,
+        "market_cap_usd": 162511856
+      },
+      {
+        "symbol": "DYDX",
+        "name": "dYdX",
+        "price_change_24h_pct": -15.5084,
+        "price_usd": 0.12891,
+        "market_cap_usd": 109347604
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -4.2949,
+        "price_usd": 2.05,
+        "market_cap_usd": 512690045
+      },
+      {
+        "symbol": "GNO",
+        "name": "Gnosis",
+        "price_change_24h_pct": -4.0593,
+        "price_usd": 104.28,
+        "market_cap_usd": 275327292
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61483,
+    "price_change_24h_pct": 1.9029,
+    "price_change_7d_pct": 3.6585,
+    "market_cap_usd": 1232827394458,
+    "volume_24h_usd": 43279024293,
+    "direction": "bullish",
+    "oi_usd": 6600889212.95,
+    "funding_rate_latest": 5.261e-05,
+    "funding_rate_7d_avg": 5.326523809523809e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6774,
+    "long_account_pct": 62.65,
+    "short_account_pct": 37.35,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1702.11,
+    "price_change_24h_pct": 5.0779,
+    "price_change_7d_pct": 9.3267,
+    "market_cap_usd": 205415930869,
+    "volume_24h_usd": 13083188372,
+    "eth_btc_ratio": 0.027684,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72366711664.13,
+    "stablecoin_market_cap_usd": 309858277939.51,
+    "stablecoin_dominance_pct": 13.9978
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 28,
+    "headlines": [
+      {
+        "headline": "Iran prepares to bury slain supreme leader with week of mass mourning - Reuters",
+        "summary": "Iran prepares to bury slain supreme leader with week of mass mourning\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZDFZb2Q4bXdRa0pnRGtueDdUd3ZWQ1VyMHFsVlp5WGx6aGdtM2dxRW5YWDhLQVhSNV9CUFBNLWMwTnp4NTZ5NHN1UmxCR1RBYW12V0NEcE40NUZTNWI5NjhlNkx0TmFHV2NfTk5YWmtuczdEUGdEU1lpQlg3YmJmNkJ1OUthT0E3V2pKNGVmSmF2QTdnR2hhVzV3Q3pqTkhQdlBjc1hrZS1fdDE0UHVJNzkyOWVBNVpP?oc=5",
+        "published_at": "2026-07-02T18:33:03Z"
+      },
+      {
+        "headline": "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei - Reuters",
+        "summary": "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVjd1X1pITDBSckd0dXdzYzdCbTZ2T3o2UmFUWG5yaHRuZFZWR1pMclo4Z3BLNGYzeS1WREhPZ291WFlJcmZGOGNHclp0dEp4cVhaQTdweUx5Rl90U2tnRGdJOEtjZHNnbC05aUJRMXZJbHl3aUtKMzlxRl94SUl5N251SENtMVBqVVFHdldIcDJCTnpaamphc2VVWUlReGZCMkZpOEJYMlBxcGlOaVktWUdIR2RseW94clhPenQzVlVhOWM?oc=5",
+        "published_at": "2026-07-02T17:56:56Z"
+      },
+      {
+        "headline": "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
+        "summary": "Electrification secured $2.4 billion in data center equipment orders during the first quarter of 2026, beating the segment's total for all of 2025.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/ge-vernovas-gas-turbines-arent-the-only-way-its-winning-from-the-ai-boom.html",
+        "published_at": "2026-07-02T17:44:06Z"
+      },
+      {
+        "headline": "Blast at Damascus cafe leaves six dead, others wounded, Syrian state media say - Reuters",
+        "summary": "Blast at Damascus cafe leaves six dead, others wounded, Syrian state media say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1FuZFNuTEZTUUhkZmNuOFJ1VXBOR3JCNTJSeWE1bzlGUm5LSGZ4aGVWREdueU9uckxILVUzMzlyZWprdDc0cXBzQnVBR3h0YXJta2hBdG0yS3IyS3cwYWozN3UzNV9xTUpySFVkQW5FR2sxUmIxbmRabml3RTh1eGduZDF5RmtaZkZKT2hRQXNZYXBvc1UtbUhvT25rSHRMY0RkSHRYOHp1cUtOempvQWZ1WQ?oc=5",
+        "published_at": "2026-07-02T16:40:41Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Kuwait sharply boosts crude production in June after US-Iran deal, source says - Reuters",
+        "summary": "EXCLUSIVE: Kuwait sharply boosts crude production in June after US-Iran deal, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFJaLUh1S0VjTXZqZWRsa1JRVU1nektQQmFQd2IzNllGR3NEd25LT002dk5QREF2djg2VlZqNnU0MDROQ1NOSVowTlRwbDFzYnRIVzFOak9WREZiUXhldVUxNUFCUlFaR1VwZXd5WlZGdkZvaThFcWNGUHZNWmFoYmRseUI0ZVkxZ2p3UHByeWJTeTRacmtTTmVrRzkxY3hGazhMbWRVcVZYSnF1QjdQRA?oc=5",
+        "published_at": "2026-07-02T16:35:16Z"
+      },
+      {
+        "headline": "Married Americans tend to be wealthier and happier. Gen Z is forgoing the institution anyway",
+        "summary": "Gen Z defines the American Dream as having financial stability and being happy. Marriage could help them reach both of those goals, but many aren't sold on it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/gen-z-marriage-rates-american-dream.html",
+        "published_at": "2026-07-02T16:34:27Z"
+      },
+      {
+        "headline": "Premier Lacrosse League plans to bring in team owners by 2028 'or soon thereafter,' co-founder says",
+        "summary": "Paul Rabil told CNBC he's banking on the 2028 Los Angeles Summer Games, where lacrosse will return as an Olympic sport, to shine a spotlight on PLL.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/premier-lacrosse-league-team-ownership.html",
+        "published_at": "2026-07-02T16:23:31Z"
+      },
+      {
+        "headline": "Why Jim Cramer says investors should 'want to own' this industrial stock",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/why-jim-cramer-says-investors-should-want-to-own-this-industrial-stock.html",
+        "published_at": "2026-07-02T16:22:49Z"
+      },
+      {
+        "headline": "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
+        "summary": "Global personal wealth surged by 10.8% in 2025, the biggest jump since 2017, per UBS.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html",
+        "published_at": "2026-07-02T14:00:01Z"
+      },
+      {
+        "headline": "Trump says 'everybody's profiting' from recent market rallies \u2014 but it\u2019s mostly the 1%",
+        "summary": "A large share of U.S. households have no exposure to equities and have not benefited from the bull market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/02/trump-says-everybodys-profiting-from-market-gains-but-mostly-the-1percent.html",
+        "published_at": "2026-07-02T13:56:27Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 744.81,
+    "spy_change_pct": -0.1274,
+    "spy_lean": "neutral",
+    "vix_close": 16.59,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 61452.4,
+    "coinbase_premium_pct": -0.04977,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-02T21:13:09 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 194.83,
+        "change_pct": -1.3918,
+        "prev_close": 197.58
+      },
+      "AMD": {
+        "close": 517.82,
+        "change_pct": -4.2634,
+        "prev_close": 540.88
+      },
+      "TSM": {
+        "close": 434.16,
+        "change_pct": -2.2668,
+        "prev_close": 444.23
+      },
+      "SMCI": {
+        "close": 27.22,
+        "change_pct": -1.5552,
+        "prev_close": 27.65
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 712.6,
+        "change_pct": -1.7334,
+        "prev_close": 725.17
+      },
+      "SOXX": {
+        "close": 566.32,
+        "change_pct": -5.5661,
+        "prev_close": 599.7
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 61483,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 21,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 12,
+    "negative_count": 11,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.2069,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Treasury Department Sanctions Over 130 ISIS-Affiliated Crypto Wallets on Tron",
+        "url": "https://decrypt.co/372697/treasury-department-sanctions-130-isis-affiliated-crypto-wallets-tron",
+        "published_at": "2026-07-02T20:59:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Securitize becomes first to debut shares on NYSE and onchain, but it won\u2019t be the last",
+        "url": "https://www.theblock.co/post/407104/securitize-first-debut-shares-nyse-onchain-but-wont-be-last?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-02T20:10:16+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Researchers Got Chatbots to Share Cocaine Recipes Using This One Wild Trick",
+        "url": "https://decrypt.co/372688/ai-researchers-chatbots-share-cocaine-recipes-wild-trick",
+        "published_at": "2026-07-02T19:36:58+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "eToro leads $12.5 million round in onchain perps exchange Extended",
+        "url": "https://www.theblock.co/post/407093/etoro-leads-12-5-million-round-in-onchain-perps-exchange-extended?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-02T19:23:16+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "IMF says tokenization could transform settlement and financial stability",
+        "url": "https://cointelegraph.com/news/imf-tokenization-financial-markets-settlement-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-02T19:17:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-02T19:15:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC\u2019s Selig says Illinois lawmakers \u2018decided they know better\u2019 on crypto tax",
+        "url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-02T19:12:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia on track for digital ruble rollout on Sept. 1: Central bank governor",
+        "url": "https://cointelegraph.com/news/russia-digital-ruble-rollout-september-central-bank-governor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-02T19:04:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says Strategy\u2019s bitcoin sale policy introduced \u2018avoidable\u2019 risk into crypto markets",
+        "url": "https://www.theblock.co/post/407071/jpmorgan-strategy-mstr-bitcoin-sale-policy-risk-crypto-markets?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-02T18:52:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Securitize Begins Trading on NYSE as Tokenized Shares Land on Solana, Avalanche",
+        "url": "https://decrypt.co/372689/securitize-trading-nyse-tokenized-shares-solana-avalanche",
+        "published_at": "2026-07-02T18:43:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
