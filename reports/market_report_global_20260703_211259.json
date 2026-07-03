@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-03T21:12:04 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2259056709511.02,
+    "total_market_cap_change_24h_pct": 2.0933,
+    "total_volume_24h_usd": 67312769895.97,
+    "btc_dominance_pct": 55.6787,
+    "eth_dominance_pct": 9.4264,
+    "total2_usd": 1001243072814.26,
+    "total3_usd": 788295868013.04,
+    "active_cryptocurrencies": 17386,
+    "altcoin_season_index": 39,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 59.676,
+        "price_usd": 0.292622,
+        "market_cap_usd": 121625925
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": 51.8451,
+        "price_usd": 2.8e-06,
+        "market_cap_usd": 167944437
+      },
+      {
+        "symbol": "MAGMA",
+        "name": "Magma Finance",
+        "price_change_24h_pct": 41.9238,
+        "price_usd": 0.755373,
+        "market_cap_usd": 143520897
+      },
+      {
+        "symbol": "RIF",
+        "name": "Rootstock Infrastructure Framework",
+        "price_change_24h_pct": 21.8114,
+        "price_usd": 0.120934,
+        "market_cap_usd": 120947324
+      },
+      {
+        "symbol": "MANA",
+        "name": "Decentraland",
+        "price_change_24h_pct": 14.73,
+        "price_usd": 0.072574,
+        "market_cap_usd": 142142077
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -44.7639,
+        "price_usd": 6.25,
+        "market_cap_usd": 1953622557
+      },
+      {
+        "symbol": "TAC",
+        "name": "TAC",
+        "price_change_24h_pct": -12.7683,
+        "price_usd": 0.0301901,
+        "market_cap_usd": 141471321
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -9.1653,
+        "price_usd": 0.456705,
+        "market_cap_usd": 192258882
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -8.3064,
+        "price_usd": 0.058261,
+        "market_cap_usd": 128178246
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -6.7546,
+        "price_usd": 0.239361,
+        "market_cap_usd": 239376528
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62727,
+    "price_change_24h_pct": 2.0512,
+    "price_change_7d_pct": 5.158,
+    "market_cap_usd": 1257664450065,
+    "volume_24h_usd": 25448153155,
+    "direction": "bullish",
+    "oi_usd": 6653618238.37,
+    "funding_rate_latest": 3.74e-05,
+    "funding_rate_7d_avg": 5.5755714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5887,
+    "long_account_pct": 61.37,
+    "short_account_pct": 38.63,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1765.89,
+    "price_change_24h_pct": 3.7569,
+    "price_change_7d_pct": 12.5417,
+    "market_cap_usd": 213119354268,
+    "volume_24h_usd": 10069768956,
+    "eth_btc_ratio": 0.028152,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74069291789.2,
+    "stablecoin_market_cap_usd": 310418294278.98,
+    "stablecoin_dominance_pct": 13.7411
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 16,
+    "headlines": [
+      {
+        "headline": "In the West Bank, Israeli settlers take over Palestinian's dream home - Reuters",
+        "summary": "In the West Bank, Israeli settlers take over Palestinian's dream home\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdTVXLXIyN0poOG0tZUhzUFUySmtfdVdDRlNUREExRjZnbUZzTk1PMlZhMXNNOFlDdTlMaDR3UmZQNV93LWRHQlB2cFl2V1cxNHNHX2NvTFEwdGNwSF9SemJqNHRGMkZLeV83MzUxM0RZbXBWM1FhbnpGZXlZMnY1S3J4SFdOaWwxc25Oc0h1STUtRG5zU1EzWGZOUTluS2xEdWN4UWFEeGU4dWFoYjhXaEc5MUg?oc=5",
+        "published_at": "2026-07-03T17:15:25Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say - Reuters",
+        "summary": "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlpxZVF6RnlianRMXzVTT05hLXpuT3FCY3pCRzMweXJjUDF5N2pJa3hYOXJzdTFpMTJpWUhKckZZWlllM2pVbzRFcGQ3SUlKZWRyNmRNaW9hNWdBNEU1d2JLYnp2YWJxU2doQXl2bVdZTDlMaWJFbHJiR19VZFVwTHAydHZudzdEN0xJWTdsczNkSmQtZVNUb0FJcjVhV0NSWWJDNEVvcFE1M0RTM2VnSFFPRm1tNGpwTklqSXdUYklQZWIy?oc=5",
+        "published_at": "2026-07-03T16:59:44Z"
+      },
+      {
+        "headline": "Two Romanian men jailed for stabbing Iranian journalist in London - Reuters",
+        "summary": "Two Romanian men jailed for stabbing Iranian journalist in London\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR1BOQ05pVXg1MV9IYmUzeWxsSmFYWXItdmpnY0R3NlBnZmVRUDducmo2YThYMjlIRS1ndVVGN3dVQ1Y2TVZOQUF4V1BzWWRRZXdLUlpOc1U2Vl9kVDl4SUYyUTc5akEzSEF3VzBscmJ6RjNSeTNjWnBqd1pwemh0Z29oeW1RU0NJcnJaMUFfeTI2TFhyazVIVUFwNTlEU3djWUEwejlzeE85R1VKeVBDUGZQTkhkNHVz?oc=5",
+        "published_at": "2026-07-03T16:37:09Z"
+      },
+      {
+        "headline": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies - Reuters",
+        "summary": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXpMemJHeWdSem1ZSTR1aFZMQjgzNzZna1VrRmFIQVVkUkQzVUp4QzV1LXBhUjdOVHRWWkF0dHJyc0ZIZDhmUXNMYjVOZWs5dFNONVEwUGJmQlFNYXpLalM2Y25NMjI5UXVMNzhaMmhDaHVQb1VvMzJGZEFSMUxJN3JhWllBVzE5RFZiVzRhUks0MlBuXzZBaTNUM2QybVlyNUlabG9jekdSN3hTR3ZQZGxheTJ4ZXVGRW9lMG9VX3JOQQ?oc=5",
+        "published_at": "2026-07-03T16:30:56Z"
+      },
+      {
+        "headline": "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump - Reuters",
+        "summary": "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkJLWS1Wbnk4WEdvWjVXR01zVmJmVlBYLXpnT2g5OVlxSG15bF9QbWEzMS1Ca2EtcjFJaUt2dlNlLUhRZzAxa2tVS2Y3WWFNWDBpN0JIdkpoN1JINTUyZ1Q5dGZMaUFkWmJtaGVGeEFLWHdSZkd3VTkxUWdHR1VIM2F1a0RCVTMwUkQ2OHlEckNIUFlTdjJlTVF5YU1pWW1kMTM2Rm1tVUNaNGYyQUZSSmYwa3MwQ3UtNVgyTjgyLXpBdUs4SVpJ?oc=5",
+        "published_at": "2026-07-03T14:23:58Z"
+      },
+      {
+        "headline": "NATO leaders including Trump to affirm 'ironclad commitment' to collective defence in Ankara, summit text says - Reuters",
+        "summary": "NATO leaders including Trump to affirm 'ironclad commitment' to collective defence in Ankara, summit text says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR21mS1FvbzMzXzlxSUFEVVV5ZENiRktERHRtQ1hycW16UmphZF9RdUEybTVmYjNkOWY4dTFvZ3MyVlZPSnVaLVU2dS1DRjBkempBVkRvd2NROFBkRjlTajI5cjVLSjBxSzlaWmp2Z1RxQVlPaFBJMjQzNUd0VUdFejN1OVItOEhTQUtQU1Zzc2VfU0xQUFgxdWlvZEJfYUROWG9ZMlBhZUNsaTNLWDVzcTc0b2pLc0pRWDBkUGVSbTljVjNudFhGcU84amZSb1dPTzN2TDN0TQ?oc=5",
+        "published_at": "2026-07-03T14:22:58Z"
+      },
+      {
+        "headline": "How does the Iran crisis compare with the 1979 oil shock? - Reuters",
+        "summary": "How does the Iran crisis compare with the 1979 oil shock?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9oa3VPLW5oa2dhSDc5NXA3czBNYlVLR3lrdGprX2FpQ1VYOGxtNngweEJVVm52d0F0RmVuQXhfc0xWcWxjck9oUWN6S0NLRjhoSEkyTVN4R3Rod05JeWRPS1M0LUZtamZ6NlFDUGRmSnBxTTgxYUlZdkRjb2NaNmV3d2tKZkZ0ZEd4MmU3X19EZzhQdVlzTDM2ZDVfSjU1ZmFJZWF2QllXNkU?oc=5",
+        "published_at": "2026-07-03T13:52:45Z"
+      },
+      {
+        "headline": "Gulf oil exports jump in June on record UAE flows - Reuters",
+        "summary": "Gulf oil exports jump in June on record UAE flows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlJ4X25oUTd4MXkzQlcwOEFnYm5SLXM0NDVldUlDS3F1aXowdWlGRm1DZEZkdDVTazNLWm00Y3lDV19qU1ppMmdWcVAweVIzMkExVDljamFWbDg1Y3pRTjd4aURpcVdTamFnTDNPRjlTTm9hSzViZDEzQnZHdE1zdlNRS0xzaTd6b1NtZjh3eHRvT2JreHdsV1d2Zw?oc=5",
+        "published_at": "2026-07-03T13:22:42Z"
+      },
+      {
+        "headline": "American Express and Chase move luxury lounge wars beyond the airport",
+        "summary": "Credit card companies are increasingly offering access to lounges and perks at festivals and sporting events, often exclusively for premium cardholders.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/03/amex-chase-credit-card-lounges.html",
+        "published_at": "2026-07-03T12:00:01Z"
+      },
+      {
+        "headline": "US oil companies see big profit jump, gird for clash over pump prices with Trump - Reuters",
+        "summary": "US oil companies see big profit jump, gird for clash over pump prices with Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkJORzdZX3BXLVNLSE5DWEFMNkUybVc5U3B1TU1XclIxbEd1YXA4bnNLTkZHQ0c4OUZmOFVSUGtXcHdtMTNSYmkwT3VLZ2VlNWdKM0Q2R0Z2Q1RxZGcxRV82NnpRTzhoR1plNFFNZXhlOGdEVHRKX09vM2FJZ3ZYbFYtYU5iNTE3S3pQV3ZqNThuTFZSdHhjMlFhbkhra2Z5aVI1WU1jYXIxdmZGbUIxUk5oV21uX2NjQWVjSG5GRmNlUUxLUWc?oc=5",
+        "published_at": "2026-07-03T11:12:39Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 744.78,
+    "spy_change_pct": -0.1314,
+    "spy_lean": "neutral",
+    "vix_close": 16.59,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 62811.97,
+    "coinbase_premium_pct": 0.13546,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-03T21:12:04 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 194.83,
+        "change_pct": -1.3918,
+        "prev_close": 197.58
+      },
+      "AMD": {
+        "close": 517.82,
+        "change_pct": -4.2634,
+        "prev_close": 540.88
+      },
+      "TSM": {
+        "close": 434.16,
+        "change_pct": -2.2668,
+        "prev_close": 444.23
+      },
+      "SMCI": {
+        "close": 27.22,
+        "change_pct": -1.5552,
+        "prev_close": 27.65
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 712.6,
+        "change_pct": -1.7334,
+        "prev_close": 725.17
+      },
+      "SOXX": {
+        "close": 566.32,
+        "change_pct": -5.5661,
+        "prev_close": 599.7
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62727,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 25,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 51,
+    "positive_count": 10,
+    "negative_count": 10,
+    "neutral_count": 31,
+    "sentiment_ratio": 0.1961,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Claude Fable 5 Isn't Nerfed. The Router Is Just Paranoid",
+        "url": "https://decrypt.co/372750/claude-fable-5-not-nerfed-router-paranoid",
+        "published_at": "2026-07-03T21:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senator Gillibrand Seeks to Ban Trump, Elected Officials From Launching Meme Coins",
+        "url": "https://decrypt.co/372749/senator-gillibrand-ban-trump-elected-officials-launching-meme-coins",
+        "published_at": "2026-07-03T21:03:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-03T19:51:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood Earn Adds 7% USDG Yield Offer As Stablecoin Competition Heats Up",
+        "url": "https://bitcoinist.com/robinhood-earn-adds-7-usdg-yield-offer-as-stablecoin-competition-heats-up/",
+        "published_at": "2026-07-03T19:46:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US senator calls for ban on elected officials issuing memecoins",
+        "url": "https://cointelegraph.com/news/us-senator-ban-elected-officials-memecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-03T19:26:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Traders Watch Macro Signals As Kraken Flags Policy Uncertainty",
+        "url": "https://bitcoinist.com/bitcoin-traders-watch-macro-signals-as-kraken-flags-policy-uncertainty/",
+        "published_at": "2026-07-03T19:02:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MEXC SpaceX Derivatives Volume Shows Appetite For Private-Market Exposure",
+        "url": "https://bitcoinist.com/mexc-spacex-derivatives-volume-shows-appetite-for-private-market-exposure/",
+        "published_at": "2026-07-03T18:18:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Ironwood Upgrade Nears as Developers Work to Restore Confidence After ZEC Crash",
+        "url": "https://decrypt.co/372738/zcash-ironwood-upgrade-developers-restore-confidence-zec-crash",
+        "published_at": "2026-07-03T17:56:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin and altcoin exchange deposits have spiked, indicating higher volatility ahead",
+        "url": "https://www.theblock.co/post/407160/cryptoquant-bitcoin-ether-altcoin-exchange-deposits-volatility?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-03T17:55:56+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken API Partner Program Targets Algorithmic Traders And Platforms",
+        "url": "https://bitcoinist.com/kraken-api-partner-program-targets-algorithmic-traders-and-platforms/",
+        "published_at": "2026-07-03T17:34:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
