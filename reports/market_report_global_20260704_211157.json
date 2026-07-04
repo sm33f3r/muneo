@@ -1,0 +1,415 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-04T21:11:01 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2277088108816.06,
+    "total_market_cap_change_24h_pct": 0.8861,
+    "total_volume_24h_usd": 53387987117.89,
+    "btc_dominance_pct": 55.6516,
+    "eth_dominance_pct": 9.4666,
+    "total2_usd": 1009851300871.66,
+    "total3_usd": 794289572118.17,
+    "active_cryptocurrencies": 17362,
+    "altcoin_season_index": 44,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": 159.6154,
+        "price_usd": 16.22,
+        "market_cap_usd": 5075451561
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 23.2906,
+        "price_usd": 0.564961,
+        "market_cap_usd": 237747986
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 18.0657,
+        "price_usd": 0.078761,
+        "market_cap_usd": 156863500
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 16.6242,
+        "price_usd": 0.341594,
+        "market_cap_usd": 142037342
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 15.7517,
+        "price_usd": 0.790867,
+        "market_cap_usd": 790867291
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -11.1963,
+        "price_usd": 0.212304,
+        "market_cap_usd": 212304379
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -8.6525,
+        "price_usd": 12.26,
+        "market_cap_usd": 579106261
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -8.0373,
+        "price_usd": 0.544997,
+        "market_cap_usd": 136249985
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": -7.8569,
+        "price_usd": 9.17396e-07,
+        "market_cap_usd": 192653329
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -7.4528,
+        "price_usd": 1.4,
+        "market_cap_usd": 1844044011
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63173,
+    "price_change_24h_pct": 0.6737,
+    "price_change_7d_pct": 4.9671,
+    "market_cap_usd": 1267043515402,
+    "volume_24h_usd": 19274885908,
+    "direction": "neutral",
+    "oi_usd": 6718330669.18,
+    "funding_rate_latest": 9.48e-05,
+    "funding_rate_7d_avg": 6.34695238095238e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5013,
+    "long_account_pct": 60.02,
+    "short_account_pct": 39.98,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1786.13,
+    "price_change_24h_pct": 1.0428,
+    "price_change_7d_pct": 13.193,
+    "market_cap_usd": 215555668594,
+    "volume_24h_usd": 7390670189,
+    "eth_btc_ratio": 0.028274,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74880332059.71,
+    "stablecoin_market_cap_usd": 309935285894.48,
+    "stablecoin_dominance_pct": 13.611
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 7,
+    "headlines": [
+      {
+        "headline": "Mass grief at Khamenei funeral projects hardline grip on post-war Iran - Reuters",
+        "summary": "Mass grief at Khamenei funeral projects hardline grip on post-war Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1NHb181V19lQUxyWlFMQnU5WjNucmZBZHl3NlQtUzZTRFN6aVgweE4tdVJrNVlOYVQzQTExdllpN3NHaWlHcXZTSENOa3hWeEpycTBHdGJLRVhzYlhRdEs1UVk4VE1pR3ZnTzEyb0Z3YmxBUUV5cHJEV2VLMjAzUXp1Q1FfVWY1aWNmYVo3TUgxOXdEdExNenNKT1RyQlRFVWlrakprSWV0Zw?oc=5",
+        "published_at": "2026-07-04T17:56:45Z"
+      },
+      {
+        "headline": "Turkey's Erdogan says Israel must not scupper US-Iran deal - Reuters",
+        "summary": "Turkey's Erdogan says Israel must not scupper US-Iran deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0ViRlNyVWgyNWhQRFFuQ3A3SHhQV3VyRmxDQlBEQnVZVU1jdk5ZdEhMVHhSeHZZR2FYTk94cFM5THdSRHV5c25EQjJ4cFJaZHhFVTNWaG1IUEQxTDBGYU5Ca2syUE5oQUM5UUJ6bm1IeEdBS0phcjl1MUVhd1VFV3k5VDN5MG9Ea0lQNzZvSTY0MHlzTVMycWJpSWgwNGZjUGlVVVhRSjQ0VHo2bG5tYm93?oc=5",
+        "published_at": "2026-07-04T15:19:25Z"
+      },
+      {
+        "headline": "U.S. turns 250, Taylor-Travis wed and Iran mourns Khamenei - Reuters",
+        "summary": "U.S. turns 250, Taylor-Travis wed and Iran mourns Khamenei\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSDlEcEtGRENYaVljVGVCbVNxSjd5UW1nOTFsUWhkRTFGb2g2T2ZoaDY3WnJrOEwydVlmQ0dNZ2IzMHNmZlpfdE9meG5HZ3FWUXlnLWtNRURqZ1IyRklkVHJ2QkRUblFPOWpyUlRZQjVlbWxjNEJYVjJ0cjgzcXNtM3lzbjFzaEJzeUdnYVpjTzluUnFUN19vMG5iZDg?oc=5",
+        "published_at": "2026-07-04T14:56:10Z"
+      },
+      {
+        "headline": "The World Cup sends prediction market volumes soaring to record highs",
+        "summary": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html",
+        "published_at": "2026-07-04T12:54:04Z"
+      },
+      {
+        "headline": "Ukraine says Russia damaged more than 200 railway locomotives in 2026 - Reuters",
+        "summary": "Ukraine says Russia damaged more than 200 railway locomotives in 2026\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeFQwdlh0cWRleHdwbVpJQ2E3cnNvUzE0TGE3RHZiVlZ3SlhDemlsLWlfOG81a1dWX0Iwc0Z4NEk1cmxxc3pCMFh3TDA3X3pVWTcyN0ZQMGRXazFiNlZiblRtblllT2hHUkhxa0VCNTlYWnh2aDZSQUQtY1NjWlRkVFlWbVROZjBjNzRzaGtMMTBwa0g2VDFneU5sc2h6MVlrZkJGcHhmUFdXaGtP?oc=5",
+        "published_at": "2026-07-04T11:12:08Z"
+      },
+      {
+        "headline": "Photos of the week - Reuters",
+        "summary": "Photos of the week\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13ZXp6OWxrX0JSQnVYQU5YVVdiRlFqUUlPdkg1X3oxMHVXdVMtS0FSMTZQQ0dJM2hwV2tUaU1nU1pzeFhOekhnV3RhcHM5dENaaEVnbjdGdXExOWs1bUZCaGN1b19YMEE?oc=5",
+        "published_at": "2026-07-04T07:38:06Z"
+      },
+      {
+        "headline": "Russian defence ministry says its forces captured Kostiantynivka in eastern Ukraine - Reuters",
+        "summary": "Russian defence ministry says its forces captured Kostiantynivka in eastern Ukraine\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQ0RBRmlpN2UtbDdMQUpmZDNuaXozSW1uMm1qWTBoT3lWc25yamFFUklpYW81bFk4ZHY4cVVqdGtIU0o2bGlpeldFcjJ4b1d4aGxxQTlzS1R0T2JxRXplR1M0MGphWnpTdVFzcFJQUGFPVWhmNUFISVNHSURvYnpOMnBUVVhHWlpOekJNUkxKS3N3cEZlYUlJZzhScllvc29yVFV6UmFNa2Q0cGRqQ2dkSUhERHoyS1dxelBGVS1NM0lwOE5iN1VZSWlxaXUwZzdtQmFGenJHaVVKalE?oc=5",
+        "published_at": "2026-07-03T22:08:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.8866,
+    "dxy_lean": "neutral",
+    "spy_close": 744.78,
+    "spy_change_pct": -0.1314,
+    "spy_lean": "neutral",
+    "vix_close": 16.59,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 63170.47,
+    "coinbase_premium_pct": -0.004005,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-04T21:11:01 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 194.83,
+        "change_pct": -1.3918,
+        "prev_close": 197.58
+      },
+      "AMD": {
+        "close": 517.82,
+        "change_pct": -4.2634,
+        "prev_close": 540.88
+      },
+      "TSM": {
+        "close": 434.16,
+        "change_pct": -2.2668,
+        "prev_close": 444.23
+      },
+      "SMCI": {
+        "close": 27.22,
+        "change_pct": -1.5552,
+        "prev_close": 27.65
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 712.6,
+        "change_pct": -1.7334,
+        "prev_close": 725.17
+      },
+      "SOXX": {
+        "close": 566.32,
+        "change_pct": -5.5661,
+        "prev_close": 599.7
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63173,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 27,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 3,
+    "negative_count": 4,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Nearly 1 million wallets are down $3.81 billion on Trump\u2019s memecoin: report",
+        "url": "https://www.theblock.co/post/407170/nearly-1-million-wallets-are-down-3-81-billion-on-trumps-memecoin-report?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-04T20:44:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken lets traders use tokenized stocks as collateral for leveraged trades",
+        "url": "https://cointelegraph.com/news/kraken-lets-traders-use-tokenized-stocks-as-collateral-for-leveraged-trades?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-04T19:37:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin to $53K? Exchange Deposits Jump as Analysts Warn of Increased Volatility",
+        "url": "https://decrypt.co/372744/bitcoin-53k-exchange-deposits-jump-analysts-warn-increased-volatility",
+        "published_at": "2026-07-04T16:57:08+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi hits record June trading volume as World Cup fuels prediction markets",
+        "url": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-04T16:47:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave\u2019s new Monad market tops $100 million in deposits two days after launch",
+        "url": "https://www.theblock.co/post/407167/aaves-new-monad-market-tops-100-million-in-deposits-two-days-after-launch?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-04T16:32:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Perplexity Co-Founder: AI Safety Is an Excuse to Lock Down Frontier",
+        "url": "https://decrypt.co/372755/perplexity-co-founder-ai-safety-excuse-lock-down-frontier",
+        "published_at": "2026-07-04T16:07:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Inside the Trading Engine Behind ChangeNOW\u2019s \u2018Fast, Seamless Swaps\u2019",
+        "url": "https://decrypt.co/372679/inside-the-trading-engine-behind-changenows-fast-seamless-swaps",
+        "published_at": "2026-07-04T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-04T13:09:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-04T12:04:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revolut to delist USDT in August, citing regulatory and risk concerns",
+        "url": "https://cointelegraph.com/news/revolut-usdt-delisting-regulatory-risk-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-04T11:25:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
