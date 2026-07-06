@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-06T21:12:13 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2302805265205.53,
+    "total_market_cap_change_24h_pct": 1.2032,
+    "total_volume_24h_usd": 88649847262.27,
+    "btc_dominance_pct": 55.8614,
+    "eth_dominance_pct": 9.5482,
+    "total2_usd": 1016425775912.8,
+    "total3_usd": 796550112947.03,
+    "active_cryptocurrencies": 17345,
+    "altcoin_season_index": 27,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 43.7556,
+        "price_usd": 0.408465,
+        "market_cap_usd": 167996922
+      },
+      {
+        "symbol": "RIF",
+        "name": "Rootstock Infrastructure Framework",
+        "price_change_24h_pct": 19.426,
+        "price_usd": 0.126854,
+        "market_cap_usd": 126829742
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": 19.1402,
+        "price_usd": 0.02461085,
+        "market_cap_usd": 291027400
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 17.1188,
+        "price_usd": 28.12,
+        "market_cap_usd": 1314865722
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": 15.6336,
+        "price_usd": 0.04603147,
+        "market_cap_usd": 362542597
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -20.6413,
+        "price_usd": 0.16799,
+        "market_cap_usd": 167829596
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -18.4792,
+        "price_usd": 1.14,
+        "market_cap_usd": 1515338120
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -15.4924,
+        "price_usd": 0.062573,
+        "market_cap_usd": 137626934
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -8.7851,
+        "price_usd": 0.497814,
+        "market_cap_usd": 209808005
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -7.4004,
+        "price_usd": 2.6,
+        "market_cap_usd": 802884401
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64391,
+    "price_change_24h_pct": 2.7078,
+    "price_change_7d_pct": 6.6685,
+    "market_cap_usd": 1290016122935,
+    "volume_24h_usd": 38633684212,
+    "direction": "bullish",
+    "oi_usd": 6609719794.69,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 7.374428571428572e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2894,
+    "long_account_pct": 56.32,
+    "short_account_pct": 43.68,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1823.37,
+    "price_change_24h_pct": 2.9123,
+    "price_change_7d_pct": 12.3185,
+    "market_cap_usd": 219751388228,
+    "volume_24h_usd": 15707830074,
+    "eth_btc_ratio": 0.028317,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74727624984.76,
+    "stablecoin_market_cap_usd": 310689313072.35,
+    "stablecoin_dominance_pct": 13.4918
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 45,
+    "headlines": [
+      {
+        "headline": "Trump says there will either be a deal with Iran or US will 'finish the job' - Reuters",
+        "summary": "Trump says there will either be a deal with Iran or US will 'finish the job'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTkNkUE5kLUozQnVZUy1YTVJodXBJWmZmQ3Y5cTBCcTkzb0NCdl82TW1kbGJON1ZkYXM0LVhMWTJiSDFTNndDTkEyTk1jaWs3UEZmUjlzV3V6ZVc5MjBac3lVVFFpQlFfMkFZdVlaVmhOM1Zsa0FlaVVzSHlDX0s5NVNNMXRKNUg5aWRJcTNURmFGVW1nRElxRk5NVEdPdkJSVDdfVzJTVGMxMGZBOVpmWG9pblNKRXVEeVVrbXRycw?oc=5",
+        "published_at": "2026-07-06T20:18:37Z"
+      },
+      {
+        "headline": "Here's our plan for both Honeywell stocks after a divergent first week of trading",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/06/heres-our-plan-for-both-honeywell-stocks-after-a-divergent-first-week-of-trading.html",
+        "published_at": "2026-07-06T19:11:07Z"
+      },
+      {
+        "headline": "France's Macron visits Syria, in first trip by an EU head of state since Assad toppled - Reuters",
+        "summary": "France's Macron visits Syria, in first trip by an EU head of state since Assad toppled\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQk9jblFRY3RqU2RNMlB1dGQ4V3lsZkFxYmNDNWNYNWNPdWFMUVNlUFowTXIxMzQ4b2lOU3dtMGFZYnVra0Jnano2MjdBR0xjbk9VazZENEx4S25oMF92T2F5bkR4WFJwZE5XcWNmTmp6OVVmOGdYekMxQlJnVWhwWjk3c0hZS0tLaFJJZUNqNFRheXo4aEpJYmh6WHo5ektuZXN5NWs0V3pTb3R6UVJkNEw2Q0lIOUhQaE83U1pid20ydUxFMU9Vd0hPbGs?oc=5",
+        "published_at": "2026-07-06T18:32:16Z"
+      },
+      {
+        "headline": "As Khamenei mourners fill Iran's streets, discontent still simmers - Reuters",
+        "summary": "As Khamenei mourners fill Iran's streets, discontent still simmers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTnBNdnMxQ1NUTHFxMmxGUmNrQjV3YTRvZUFKZ3RmUzVDYjBHaTNiWE9nZm51SWJhQXhVc0JLSXo0X0JucmxYcGZMR0xYVTBLYjJ6N2lzc1BZWEZQTGpWQlBCelBPQ0pQYlB4akFmbXFNOG5ON1RDOW5PaVl1R1ZHYXZERXB0SWdyYVBUR25ody15Qi0xTHFkRUZCTDB6WDhhWGJBN2xFYXI3ODRjMjF3emMzbkNWZw?oc=5",
+        "published_at": "2026-07-06T18:30:44Z"
+      },
+      {
+        "headline": "Dutch to announce over \u20ac3 billion in defence deals at NATO forum, minister says - Reuters",
+        "summary": "Dutch to announce over \u20ac3 billion in defence deals at NATO forum, minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU3NBM29PekxQd0tENDhEY2hlYXhFRTFUb2dJOUFGZEpHZnZhMEtsZnJKYUw5OURfOF9Demh2TzhOTC16UGdtYk5kOS1XY3d5dTg4bnFDOXBCWFlCX1BzMG9EdFZ0bUdsSlYyaVBFLUZhWWZkbXJqTHlVd3haWWxmV2R6ZXN5Tkt6ZjU3aE9XUi1mWktOTGdfNy1Lb0tCM2lIMTR0ZElLWWFQVXc4MUJHbWM5RnpUeWJucVI0d2txQzRTc1hxS1NpcDRhWQ?oc=5",
+        "published_at": "2026-07-06T17:33:43Z"
+      },
+      {
+        "headline": "ECB's Schnabel says Iran shock is not over - Reuters",
+        "summary": "ECB's Schnabel says Iran shock is not over\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ1ExdjlrUy1NdGJVd2F6OTh0cEZqZWgzS0ZNUklHRFR4MTI1V1lNY0RiejREN2FWU0hIcWlkMmg4eXg0SXhxaDYxQVp0MEZiakdWcE1SUWpKd25vNllDVGN0SlFTZm8wODVGOGl2NjhZUHRxcWlmVzB6MThzQVl4cmJzSGFTVTU0SlZ3T09BSGwwYnp2TjZ0ZHR3?oc=5",
+        "published_at": "2026-07-06T17:32:16Z"
+      },
+      {
+        "headline": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession - Reuters",
+        "summary": "Iranian mourners call for vengeance on Trump during Khamenei funeral procession\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk1zeXpDeENmeEt5T2RZaHg1YUFWX1hOSmtZZnFWcnBlck02WDZNSk1QUUtRZTRfYkJuQmtvOW5iTkVZTEo0QzlUcHlIcmcybjZUUHJzWHBGWGd2aUxody1nMW9uSXRxTnRmbGd3WDVlaFVXSVBTazZ2eGtudk5YbUd2aXVJdXpjTjZXa1FDYUJpa2o4ZUNPUTVCMW1VMEtBWWFKRDVqXzlJUTJuS0VxaEdwdnZMNlNvOVczdXRCVmpsekJj?oc=5",
+        "published_at": "2026-07-06T17:28:58Z"
+      },
+      {
+        "headline": "Hamas dissolves Gaza government, Israel dismisses move as 'stunt' - Reuters",
+        "summary": "Hamas dissolves Gaza government, Israel dismisses move as 'stunt'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFo2LTlqNk9aYUFPVWY4LWtLZFVranB4RHp3SEJNaXd2VzNjWUtWUUs0TkktQnVET2N6YndZMDBzY2MwYXQ0NnVmU0lmUC1Ga3dRcWZXSXZQaVBxdWRFM3VtNUktWEZiMFA4RUNERmJoRHFOUFRoZ1hDUjlBdnhBNnJIZUdWdlRLYVRoSkcxRkdmZnV4dDc2Ykt5cmI4R3JhNmRrMlhoeTRiYUkzVGhtemRsbXNXcjFDVlV3bS1n?oc=5",
+        "published_at": "2026-07-06T17:05:09Z"
+      },
+      {
+        "headline": "Trump says Sikorsky to fund White House helicopter landing pad - Reuters",
+        "summary": "Trump says Sikorsky to fund White House helicopter landing pad\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVFmNnZHQmR4OTYwck8tbXg5UlZmUHBfWjlJRWtBY2xPZmRkS0sxZTk5QXpfRUoxT2Q4dm95Uk9NMjdQakZIbzJMRWVjSDNsNExHb01uRV84eEcyUXhZeHZSWE53TUh4UTkwZWVDWm5fV1l6SG9hLWEwQWZHV3Voc0lKeTY4YnhNTGF4ZnBoNmh4T0d0RkZuc0xWb3RuNXlOSXN4U2xjSzU1azJBd2FPWmc0WHBCanY1OXBUeVJmbw?oc=5",
+        "published_at": "2026-07-06T16:44:08Z"
+      },
+      {
+        "headline": "Israel kills 4, including school principal, in south Lebanon, health ministry says - Reuters",
+        "summary": "Israel kills 4, including school principal, in south Lebanon, health ministry says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ1JITmpGTGthNHVGLWZtTDZSY3ZVcjZ6bVJTYWhoR2M4eTRVdzVhdHRoM2VXemV5eGZsMHd6WV93UF9tczhkcU9yeERrbFVmaXlfbmFsVDlmMXdabGY5R3VyWmlPQVFlajFpa3Y5U09oc1BMSm5DeTFxNENiUHMyOXRLY0FRVklfZllyaUxkNEhUSDNlN0xKcVpSWnhsaWtfYmh6OUxQUUZYWmFyWVRoVXowRkhZNEE?oc=5",
+        "published_at": "2026-07-06T16:19:32Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 751.26,
+    "spy_change_pct": 0.8701,
+    "spy_lean": "bullish",
+    "vix_close": 15.81,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64363.8,
+    "coinbase_premium_pct": -0.042242,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-06T21:12:13 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 195.55,
+        "change_pct": 0.3696,
+        "prev_close": 194.83
+      },
+      "AMD": {
+        "close": 552.05,
+        "change_pct": 6.6104,
+        "prev_close": 517.82
+      },
+      "TSM": {
+        "close": 451.79,
+        "change_pct": 4.0607,
+        "prev_close": 434.16
+      },
+      "SMCI": {
+        "close": 27.19,
+        "change_pct": -0.1102,
+        "prev_close": 27.22
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 722.82,
+        "change_pct": 1.4342,
+        "prev_close": 712.6
+      },
+      "SOXX": {
+        "close": 581.51,
+        "change_pct": 2.6822,
+        "prev_close": 566.32
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64391,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 29,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 57,
+    "positive_count": 4,
+    "negative_count": 13,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.0702,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "UK Foreign Secretary Warns of 'AI Hiroshima' if Policymakers Don\u2019t Act",
+        "url": "https://decrypt.co/372855/uk-foreign-secretary-warns-ai-hiroshima",
+        "published_at": "2026-07-06T21:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Meme Coin Bonk Treasury Drained of $20 Million in 'Malicious' Governance Attack",
+        "url": "https://decrypt.co/372862/solana-meme-coin-bonk-treasury-drained-20-million",
+        "published_at": "2026-07-06T20:56:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BonkDAO reports $20M theft from \u2018malicious governance proposal\u2019",
+        "url": "https://cointelegraph.com/news/bonk-dao-malicious-governance-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-06T20:55:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-06T20:03:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'We Cannot Vibe Code the Future of Humanity', UN Chief Warns at AI Summit",
+        "url": "https://decrypt.co/372854/we-cannot-vibe-code-future-of-humanity-un-chief-warns-ai",
+        "published_at": "2026-07-06T19:58:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Hits Highest Price in Weeks as Bernstein Analysts Maintain 'Ambitious' $150K Target",
+        "url": "https://decrypt.co/372851/bitcoin-highest-price-weeks-bernstein-ambitious-150k-target",
+        "published_at": "2026-07-06T19:58:25+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "President Trump\u2019s strategic bitcoin reserve hits a legal and jurisdictional snag: Bloomberg",
+        "url": "https://www.theblock.co/post/407356/trump-strategic-bitcoin-reserve-hits-legal-jurisdictional-snag-bloomberg?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-06T19:56:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Yield Guild Kills Crypto Game Publishing Arm, Lays Off 35 in AI Pivot",
+        "url": "https://decrypt.co/372852/yield-guild-kills-crypto-game-publishing-arm-lays-off-35-ai-pivot",
+        "published_at": "2026-07-06T19:48:59+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple secures full MiCA license for crypto services across Europe",
+        "url": "https://cointelegraph.com/news/ripple-secures-full-mica-license-for-crypto-services-across-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-06T19:29:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Paradigm leads $5.5 million seed round in M1X Global to expand tokenized sovereign debt platform",
+        "url": "https://www.theblock.co/post/407341/paradigm-m1x-global-funding-tokenized-sovereign-debt?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-06T19:07:24+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 6,
+    "bearish_count": 1,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
