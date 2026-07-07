@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-07T21:13:35 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2279701899124.16,
+    "total_market_cap_change_24h_pct": -1.2382,
+    "total_volume_24h_usd": 77264643683.75,
+    "btc_dominance_pct": 56.0706,
+    "eth_dominance_pct": 9.4576,
+    "total2_usd": 1001458941117.66,
+    "total3_usd": 785854547130.11,
+    "active_cryptocurrencies": 17339,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 33.9943,
+        "price_usd": 0.402102,
+        "market_cap_usd": 139432302
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 12.5392,
+        "price_usd": 1.32,
+        "market_cap_usd": 1742739108
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 10.0669,
+        "price_usd": 0.288516,
+        "market_cap_usd": 122687046
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": 9.8214,
+        "price_usd": 0.313413,
+        "market_cap_usd": 264092731
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 7.233,
+        "price_usd": 0.00924645,
+        "market_cap_usd": 508858469
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -60.0343,
+        "price_usd": 6.33,
+        "market_cap_usd": 1866948244
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -21.507,
+        "price_usd": 0.390749,
+        "market_cap_usd": 164430772
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -20.0785,
+        "price_usd": 0.429897,
+        "market_cap_usd": 271730371
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -16.2659,
+        "price_usd": 0.11245,
+        "market_cap_usd": 235794930
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": -12.8836,
+        "price_usd": 0.360553,
+        "market_cap_usd": 150032018
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63739,
+    "price_change_24h_pct": -0.8789,
+    "price_change_7d_pct": 8.5625,
+    "market_cap_usd": 1278078178416,
+    "volume_24h_usd": 32335503396,
+    "direction": "neutral",
+    "oi_usd": 6377285433.25,
+    "funding_rate_latest": 6.825e-05,
+    "funding_rate_7d_avg": 7.601380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4301,
+    "long_account_pct": 58.85,
+    "short_account_pct": 41.15,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1786.63,
+    "price_change_24h_pct": -1.8271,
+    "price_change_7d_pct": 13.2191,
+    "market_cap_usd": 215605791574,
+    "volume_24h_usd": 10260966628,
+    "eth_btc_ratio": 0.02803,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74062784846.62,
+    "stablecoin_market_cap_usd": 309842312268.39,
+    "stablecoin_dominance_pct": 13.5914
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 51,
+    "headlines": [
+      {
+        "headline": "DeSantis-backed 'Stop WOKE' law meets appeals court block, teeing up possible Supreme Court fight",
+        "summary": "A Trump-appointed judge ruled against Gov. Ron DeSantis' Stop WOKE Act, leaving Florida\u2019s college speech limits blocked as a Supreme Court appeal looms.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/florida-stop-woke-act-desantis-professors-first-amendment-dei.html",
+        "published_at": "2026-07-07T20:21:09Z"
+      },
+      {
+        "headline": "As chip sector takes it on the chin, traders bet on a big Nvidia rally",
+        "summary": "Shares of Nvidia fought into the green despite a 5% sell-off in chip stocks tracked by the VanEck Semiconductor ETF (SMH).",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/as-chip-sector-takes-it-on-the-chin-traders-bet-on-a-big-nvidia-rally-.html",
+        "published_at": "2026-07-07T19:56:25Z"
+      },
+      {
+        "headline": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says - Reuters",
+        "summary": "Coffin of slain Iranian supreme leader arrives in Iraq's Najaf, Iraqi state TV says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdF9zUXUxcDJXUnNtR19PdDFuVGN0XzVmcDVjV2M5X2NaRXBxalRHRXNZRC1DbF9vT1BSUWFtX2NqdE1KZTItYkNSVnZKcEtyVlo0ZXdTTTlyVzN0Rk1iaGRmRy0zeVhVbzZUUTl6TUNwUkpvWFRDZWlpdnZVWERlNmp0OWFLcWgzMDlJdURtWHBsb21qRFI2cHY3dDdhOTFxTmd2SjkxeFBxenZMNlgxR0VVNEhxaG03Rm14Ny1iajhnYTNkd2lmcQ?oc=5",
+        "published_at": "2026-07-07T19:46:08Z"
+      },
+      {
+        "headline": "United States revokes license that authorized Iranian oil sales - Reuters",
+        "summary": "United States revokes license that authorized Iranian oil sales\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRF9kZUxkQm9QMzgwTWI4c0hrMXRiWkdFWGNOZk9KSkxfcFplSUxKLWlwZGFRWTVCYnRSZzdBRU82eXJMRHduenF5RTF4bVBVSVNVMWcwNkdjUElzd05RcjVya2hsRkplYWhRcnR4ajBhVWphWW5rdS1UZlNBSjFPNUVzcXlxSHhrUWdkZC1pcHVjQUtLV0pzUFd5UXhoY01DaE9zYUQ0V3FqemM1UW8wTm9LUlpreFJfdnBj?oc=5",
+        "published_at": "2026-07-07T19:27:14Z"
+      },
+      {
+        "headline": "The implications of Amazon's $25B bond sale, and Microsoft's evolving AI model strategy",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/the-implications-of-amazons-25b-bond-sale-and-microsofts-evolving-ai-model-strategy.html",
+        "published_at": "2026-07-07T18:50:31Z"
+      },
+      {
+        "headline": "Qatar blames Iran for strike on tanker in strait as vast crowds mourn Khamenei - Reuters",
+        "summary": "Qatar blames Iran for strike on tanker in strait as vast crowds mourn Khamenei\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+        "published_at": "2026-07-07T18:46:07Z"
+      },
+      {
+        "headline": "Strait of Hormuz threat level raised to 'severe' after Iran attacks tankers using U.S. Navy route",
+        "summary": "Iran's military has warned it will target ships that do not use a northern route approved by Tehran.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/iran-strait-hormuz-oil-tanker-lng.html",
+        "published_at": "2026-07-07T18:26:32Z"
+      },
+      {
+        "headline": "UK summons senior Iranian diplomat over stabbing of Iranian journalist in London - Reuters",
+        "summary": "UK summons senior Iranian diplomat over stabbing of Iranian journalist in London\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXRyQnZKSzhxeGZ1eUhKcWVQeTQ4TjFXeEVzZmVHR2lhSnZtVlFFTG9Kd2NOTnJlM0I5cjB5QUgwU1hvd3BJMWxXZmhlRG1JSHF4WnB1LUlZM294aC1HSDRaNXdYaTlWQjRhWFMxVzFoSnkyd0U4UnFPalREcGhGTjVfa2hNdzF4X1VOalBSN0pvVHlfQ3BBYzdFN3ItTDRXMWpfVmhlREEtZm9nczZYd0xMX0tmZ1k?oc=5",
+        "published_at": "2026-07-07T18:06:50Z"
+      },
+      {
+        "headline": "Pressure builds on Platner to drop out of Maine Senate race after sexual assault allegations",
+        "summary": "Platner has denied allegations of sexual assault leveled by Maine resident Jenny Racicot as calls for him to exit the pivotal race mount.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/graham-platner-sexual-assault-allegation-maine-senate.html",
+        "published_at": "2026-07-07T17:56:28Z"
+      },
+      {
+        "headline": "Why the global memory bottleneck may signal early innings in the cyber stock comeback",
+        "summary": "There is one key difference between the cyber trade and the memory trade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/07/why-the-global-memory-bottleneck-may-signal-early-innings-in-the-cyber-stock-comeback.html",
+        "published_at": "2026-07-07T17:51:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 747.62,
+    "spy_change_pct": -0.4872,
+    "spy_lean": "neutral",
+    "vix_close": 15.57,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63760.0,
+    "coinbase_premium_pct": 0.032947,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-07T21:13:35 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 196.93,
+        "change_pct": 0.7057,
+        "prev_close": 195.55
+      },
+      "AMD": {
+        "close": 516.11,
+        "change_pct": -6.5103,
+        "prev_close": 552.05
+      },
+      "TSM": {
+        "close": 432.57,
+        "change_pct": -4.2542,
+        "prev_close": 451.79
+      },
+      "SMCI": {
+        "close": 26.25,
+        "change_pct": -3.4572,
+        "prev_close": 27.19
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.43,
+        "change_pct": -1.8525,
+        "prev_close": 722.82
+      },
+      "SOXX": {
+        "close": 551.69,
+        "change_pct": -5.128,
+        "prev_close": 581.51
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63739,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 29,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 66,
+    "positive_count": 9,
+    "negative_count": 9,
+    "neutral_count": 48,
+    "sentiment_ratio": 0.1364,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CFTC charges North Carolina man over alleged $14 million crypto, futures fraud",
+        "url": "https://www.theblock.co/post/407516/cftc-charges-north-carolina-man-alleged-14-million-crypto-futures-fraud?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-07T20:58:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Vanguard seeks digital assets chief after years of crypto skepticism",
+        "url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-07T20:57:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jack Mallers\u2019 Strike launches \u2018volatility-proof\u2019 bitcoin loans built to protect against liquidation",
+        "url": "https://www.theblock.co/post/407511/jack-maller-strike-launches-volatility-proof-bitcoin-loans-protect-against-liquidation?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-07T20:48:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Is Changing the Workplace and Universities Aren\u2019t Keeping Up, Study Warns",
+        "url": "https://decrypt.co/372957/ai-changing-workplace-universities-not-keeping-up-study",
+        "published_at": "2026-07-07T20:46:51+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Hampshire lawmakers to hold hearing on $100M Bitcoin bonds",
+        "url": "https://cointelegraph.com/news/new-hampshire-hearing-bitcoin-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-07T20:45:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BIG3 NFT Buyers Sue Ice Cube's Basketball League Over Alleged Unfulfilled Promises",
+        "url": "https://decrypt.co/372959/big3-nft-buyers-sue-ice-cube-basketball-league-unfulfilled-benefits",
+        "published_at": "2026-07-07T20:37:40+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China May Be Following US Lead With Quiet Crackdown on AI Exports",
+        "url": "https://decrypt.co/372958/china-us-quiet-crackdown-ai-exports",
+        "published_at": "2026-07-07T19:51:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-07T19:39:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken wins $22M arbitration against former auditor Mazars",
+        "url": "https://cointelegraph.com/news/kraken-wins-22m-arbitration-against-former-auditor-mazars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-07T19:31:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Radar Chat Wants to Make Sending Bitcoin as Easy as Firing Off a Text",
+        "url": "https://decrypt.co/372941/radar-chat-make-sending-bitcoin-easy-text",
+        "published_at": "2026-07-07T18:38:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
