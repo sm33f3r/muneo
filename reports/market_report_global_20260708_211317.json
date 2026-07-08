@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-08T21:12:22 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2225113649277.58,
+    "total_market_cap_change_24h_pct": -1.8924,
+    "total_volume_24h_usd": 70834615751.57,
+    "btc_dominance_pct": 55.9344,
+    "eth_dominance_pct": 9.4109,
+    "total2_usd": 980510701196.35,
+    "total3_usd": 771107872352.75,
+    "active_cryptocurrencies": 17334,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 58213029.655,
+        "price_usd": 0.123683,
+        "market_cap_usd": 122110362
+      },
+      {
+        "symbol": "APE",
+        "name": "ApeCoin",
+        "price_change_24h_pct": 13.4121,
+        "price_usd": 0.159437,
+        "market_cap_usd": 159368576
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 7.3861,
+        "price_usd": 11.55,
+        "market_cap_usd": 545375318
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 7.2314,
+        "price_usd": 0.662106,
+        "market_cap_usd": 159824872
+      },
+      {
+        "symbol": "SFP",
+        "name": "SafePal",
+        "price_change_24h_pct": 6.4718,
+        "price_usd": 0.238508,
+        "market_cap_usd": 119237216
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -79.2193,
+        "price_usd": 1.28,
+        "market_cap_usd": 400253287
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": -19.4128,
+        "price_usd": 0.290547,
+        "market_cap_usd": 120768700
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -19.344,
+        "price_usd": 0.076157,
+        "market_cap_usd": 190349627
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -18.4958,
+        "price_usd": 0.091292,
+        "market_cap_usd": 192366975
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -13.6806,
+        "price_usd": 0.628744,
+        "market_cap_usd": 309134254
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62009,
+    "price_change_24h_pct": -2.7351,
+    "price_change_7d_pct": 3.2354,
+    "market_cap_usd": 1243512202706,
+    "volume_24h_usd": 28416462386,
+    "direction": "bearish",
+    "oi_usd": 6256559092.37,
+    "funding_rate_latest": 7.171e-05,
+    "funding_rate_7d_avg": 7.519619047619047e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7996,
+    "long_account_pct": 64.28,
+    "short_account_pct": 35.72,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1733.55,
+    "price_change_24h_pct": -2.9451,
+    "price_change_7d_pct": 7.2875,
+    "market_cap_usd": 209210152523,
+    "volume_24h_usd": 10255953056,
+    "eth_btc_ratio": 0.027956,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72587041466.68,
+    "stablecoin_market_cap_usd": 309654490732.6,
+    "stablecoin_dominance_pct": 13.9163
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 71,
+    "headlines": [
+      {
+        "headline": "US military is conducting fresh strikes on Iran - Reuters",
+        "summary": "US military is conducting fresh strikes on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTQwUnZhbGt0S2NCc3VqWUt2TnJ5Y2FZNmNUeDZBU0doUDlVMHlwc3F1ZDMwMVlIVjB6eXkwM3pqTUdPU01oNHEyaF9XZUhMeXEtcFNNNVczcHAtcF84OF85SDFuRVVWdjNld2RvR0swYTJtUGhiSk9iTFM4N1hxNHhTSXc1MjRHUjRHWHJVb3Y0ZWNwQ1ZqWWhWTExsbTA?oc=5",
+        "published_at": "2026-07-08T20:26:25Z"
+      },
+      {
+        "headline": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
+        "summary": "Levi Strauss beat quarterly expectations on the top and bottom lines during its fiscal 2026 second quarter.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html",
+        "published_at": "2026-07-08T20:12:47Z"
+      },
+      {
+        "headline": "Thousands march as Khamenei's funeral procession crosses into Iraq - Reuters",
+        "summary": "Thousands march as Khamenei's funeral procession crosses into Iraq\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamx0X0tpdE9oTTYtdTNBWm44Wms5WURGTXlYX1lTcHBXUzQ5SkVGYVJzdkVlZkh4SVVjVkRjVlp1bEh2MVFWUEV5SzRkT01YYWotdDN4UklneEFUVlV4X1VvQ2pzMzI2N2R4b0Z2dTlEektkdmx2VzZXaGJNZy14TXJwd3NnX29RM1UxV25nSUdDVG1YanBHYUVfdjBjNU5vM1dsbGVSWGpsdi1KMzdvY3laMkt5ejQ?oc=5",
+        "published_at": "2026-07-08T19:43:21Z"
+      },
+      {
+        "headline": "Trump unexpectedly switches back to old Air Force One, sidelining Qatari jet - Reuters",
+        "summary": "Trump unexpectedly switches back to old Air Force One, sidelining Qatari jet\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRUFNSFZCMUlyZmxEVTVyWGdaRzZfUEk4V0ppVmNhLWpQWlp2TEFGQTlmX2haM2dRMFk0TVAyM2VCMUZQdmE5N05HWTE1NzBQenBZOWZvS3VnZUZNX195QWtGa01MTUtOVnNmYkR4ZU5lSWF0Z2hrazRXWTV1d0dUM3NSMVE4NUxPYzRlZk5xbFdlS3RaaVRNTkJZM0h2clNtMXZ6eE43WFlvNTU1enBMOU9LeDdMNkZ6RTVzdVZBSlRQczhCNHZwZmNrYw?oc=5",
+        "published_at": "2026-07-08T19:40:31Z"
+      },
+      {
+        "headline": "Trump says he doesn't think Iran conflict will start again - Reuters",
+        "summary": "Trump says he doesn't think Iran conflict will start again\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNfYy16UERGMkFmTE01eDZtUXllSmtob0sxSHNnSzE2S1g2NFBSbm9kc1hkWEQ2alp2NV9WVG9YSjlfLWxwVDRnYjhNZTAtanB3LW42eFNTUTNaVHp4TkJjdHNoTURyTXduMnpRQzlBcndEZndjQm5DcWowVHk0OG1yUWltQWlyMmpOdTlRQURydUJla2w2UHJQRENvbnhZQjRKTW1pV3hzUWNKWWsydg?oc=5",
+        "published_at": "2026-07-08T18:51:05Z"
+      },
+      {
+        "headline": "S&P 500 dips after Trump says Iran deal is 'over' - Reuters",
+        "summary": "S&P 500 dips after Trump says Iran deal is 'over'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcTlvb203c2gzM1N5b1NUS2FVd1NXMl9ONUhXaFN6bmJ2c29WSGtDbFB3cnd4SmRkY1NJX095NEg5TWxVcVh4WG1WRmdYWW92WUVZcTZBNlFnQlo3dHN4N1B2cWxZcG9QZ3FuOFBaRFFDUUxGNXU2MlpDYWFUX2JVTlAxZ0pwQnYzS1ppQ1pkcU8yT2VNNERkbTZ2aUxWdHJSZEFNeVA0QzJjbzcz?oc=5",
+        "published_at": "2026-07-08T18:35:14Z"
+      },
+      {
+        "headline": "EXCLUSIVE: NATO's Rutte says alliance reunited at Ankara summit after Trump 'quarrel' - Reuters",
+        "summary": "EXCLUSIVE: NATO's Rutte says alliance reunited at Ankara summit after Trump 'quarrel'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjBPUnBjMm01NHlYT0JXbkFUU05hekRxaU1sc09CbnNUTFBzU1EwOEhEOEJjR1BCbmFMWTR2a3k5bnJVTVBuLXB1bHFKYjhMNVBMTmRYQ2xYNlFMTVZOUDBFeHlTa2l3MTlZbExJLTNzOEZNSUNzbXhKUWgzZ3FvVmVUcy1TVVFteklLLW85M3FDLWVaRmdyM0pIQmtBOGRlcWw0UnpkN0d0QS1ZWWpHUXFGSGlZb28?oc=5",
+        "published_at": "2026-07-08T18:24:07Z"
+      },
+      {
+        "headline": "Few bright spots in Wednesday's tough market \u2014 why Nvidia stock is one of them",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/08/few-bright-spots-in-wednesdays-tough-market-why-nvidia-stock-is-one-of-them.html",
+        "published_at": "2026-07-08T18:22:39Z"
+      },
+      {
+        "headline": "Some war insurers advise shipowners to pause Hormuz voyages after attacks, sources say - Reuters",
+        "summary": "Some war insurers advise shipowners to pause Hormuz voyages after attacks, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRXd6QnJtZEVMdGFlS1NzcWlLNVhYSDQ2eUw2bzRXV21BSTFrUFJNdy03S3pOSzROc3J6eUNpclY3M2FWb2x1dkduM3JkR3RyRnFXc21LX0N4NHJwZk5QQ3h5SUVIOEl4SGJ1bkxQaWxDTkFxelZGNlpoUWZwejdFNzlLUW9tNDlRamdVUWxkY0xTTXE1ZE1QVVMzREVHa0Nxb2lGOExyNFdmeXRBbjNxZ2pqa2xoSVUtLXRjZVJaTkR0Z2VnbkRGUG1UTQ?oc=5",
+        "published_at": "2026-07-08T18:02:02Z"
+      },
+      {
+        "headline": "IMF lowers 2026 global growth forecast to 3%, sees rebound in 2027 - Reuters",
+        "summary": "IMF lowers 2026 global growth forecast to 3%, sees rebound in 2027\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHl0YW5UTjFwZXJpZHVQc1dkeW5QdVRxem9XZFU0eVFNSDhQeGJ0R1pzV243RkIzWF9PbEVhbUNLTmszMFpXQ2RLeGlFY05Wa0VTS01VQVB3eHlkcGZITjZOWVUwbW5zVS15bHRIZld6aXByN184cjhJamtYWXJpaVI4TmtRbTktSGFvV2t0UGk1M2pyNzhobXlRSjc1UkVOdWk5eW9hTVFyWm9JWHhGcA?oc=5",
+        "published_at": "2026-07-08T16:29:03Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 745.44,
+    "spy_change_pct": -0.3036,
+    "spy_lean": "neutral",
+    "vix_close": 16.13,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 61923.63,
+    "coinbase_premium_pct": -0.137674,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-08T21:12:22 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 204.12,
+        "change_pct": 3.651,
+        "prev_close": 196.93
+      },
+      "AMD": {
+        "close": 517.405,
+        "change_pct": 0.2509,
+        "prev_close": 516.11
+      },
+      "TSM": {
+        "close": 436.98,
+        "change_pct": 1.0195,
+        "prev_close": 432.57
+      },
+      "SMCI": {
+        "close": 28.17,
+        "change_pct": 7.3143,
+        "prev_close": 26.25
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 711.44,
+        "change_pct": 0.2833,
+        "prev_close": 709.43
+      },
+      "SOXX": {
+        "close": 562.03,
+        "change_pct": 1.8742,
+        "prev_close": 551.69
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62009,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 26,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 62,
+    "positive_count": 10,
+    "negative_count": 10,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.1613,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Binance Wallet adds Plume\u2019s yield vault offering access to Invesco and Bitwise funds",
+        "url": "https://www.theblock.co/post/407632/binance-wallet-plume-yield-vault-invesco-bitwise-funds?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-08T21:00:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dogecoin Holds Above Support As Whale Flows Give DOGE Traders A Data Point",
+        "url": "https://bitcoinist.com/dogecoin-holds-above-support-as-whale-flows-give-doge-traders-a-data-point-2/",
+        "published_at": "2026-07-08T21:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Best course of action:\u2019 DeFi dashboard Zapper to shut down after 7 years",
+        "url": "https://www.theblock.co/post/407634/defi-dashboard-zapper-shut-down-after-7-years?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-08T20:57:05+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRPL EVM Sidechain Work Moves Ripple\u2019s Ecosystem Closer To Ethereum-Style Interoperability",
+        "url": "https://bitcoinist.com/xrpl-evm-sidechain-work-moves-ripple-s-ecosystem-closer-to-ethereum-style-2/",
+        "published_at": "2026-07-08T20:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRPL EVM Sidechain Work Moves Ripple\u2019s Ecosystem Closer To Ethereum-Style Interoperability",
+        "url": "https://bitcoinist.com/xrpl-evm-sidechain-work-moves-ripple-s-ecosystem-closer-to-ethereum-style/",
+        "published_at": "2026-07-08T20:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Paradigm Raises $1.2 Billion Fund as Crypto VC Pushes Further Into AI",
+        "url": "https://decrypt.co/373088/paradigm-billion-fund-crypto-vc-ai",
+        "published_at": "2026-07-08T20:40:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized stock transfers surge 105% in a month to $8.4B",
+        "url": "https://cointelegraph.com/news/tokenized-stock-transfers-surge-105-in-a-month-to-84b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-08T20:29:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Base DEX Volume Flipping Arbitrum Shows The Layer-2 Race Is Heating Up Again",
+        "url": "https://bitcoinist.com/base-dex-volume-flipping-arbitrum-shows-the-layer-2-race-is-heating-up-again-2/",
+        "published_at": "2026-07-08T20:26:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Base DEX Volume Flipping Arbitrum Shows The Layer-2 Race Is Heating Up Again",
+        "url": "https://bitcoinist.com/base-dex-volume-flipping-arbitrum-shows-the-layer-2-race-is-heating-up-again/",
+        "published_at": "2026-07-08T20:26:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken Adds SN64 Spot Trading As Exchange Listing Pipeline Stays Active",
+        "url": "https://bitcoinist.com/kraken-adds-sn64-spot-trading-as-exchange-listing-pipeline-stays-active-2/",
+        "published_at": "2026-07-08T20:09:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
