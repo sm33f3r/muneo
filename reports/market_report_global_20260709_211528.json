@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-09T21:14:32 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2257099502615.15,
+    "total_market_cap_change_24h_pct": 1.3386,
+    "total_volume_24h_usd": 61008228052.99,
+    "btc_dominance_pct": 56.2662,
+    "eth_dominance_pct": 9.3542,
+    "total2_usd": 987115538380.57,
+    "total3_usd": 775982592086.61,
+    "active_cryptocurrencies": 13735,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 26.8751,
+        "price_usd": 0.0174907,
+        "market_cap_usd": 126509744
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": 18.8395,
+        "price_usd": 0.090083,
+        "market_cap_usd": 573317527
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 13.3245,
+        "price_usd": 0.119472,
+        "market_cap_usd": 119482516
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 12.6022,
+        "price_usd": 32.56,
+        "market_cap_usd": 1522141810
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 10.871,
+        "price_usd": 0.455264,
+        "market_cap_usd": 191726930
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -19.2573,
+        "price_usd": 1.049,
+        "market_cap_usd": 327327628
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -11.4087,
+        "price_usd": 2.34e-06,
+        "market_cap_usd": 140207628
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -9.4317,
+        "price_usd": 0.00839043,
+        "market_cap_usd": 462444022
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -8.9596,
+        "price_usd": 1.2,
+        "market_cap_usd": 1586222577
+      },
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -8.5334,
+        "price_usd": 0.083482,
+        "market_cap_usd": 175361757
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63270,
+    "price_change_24h_pct": 2.1459,
+    "price_change_7d_pct": 2.9992,
+    "market_cap_usd": 1269054706990,
+    "volume_24h_usd": 26544833053,
+    "direction": "bullish",
+    "oi_usd": 6335646035.31,
+    "funding_rate_latest": 4.912e-05,
+    "funding_rate_7d_avg": 7.480904761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4839,
+    "long_account_pct": 59.74,
+    "short_account_pct": 40.26,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1747.02,
+    "price_change_24h_pct": 0.8804,
+    "price_change_7d_pct": 2.7436,
+    "market_cap_usd": 210814321755,
+    "volume_24h_usd": 6870385344,
+    "eth_btc_ratio": 0.027612,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 72922405905.4,
+    "stablecoin_market_cap_usd": 310482396034.83,
+    "stablecoin_dominance_pct": 13.7558
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 38,
+    "headlines": [
+      {
+        "headline": "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
+        "summary": "Nasdaq ends sharply higher; chip surge offsets Iran worries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5",
+        "published_at": "2026-07-09T20:17:35Z"
+      },
+      {
+        "headline": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei - Reuters",
+        "summary": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?oc=5",
+        "published_at": "2026-07-09T19:45:14Z"
+      },
+      {
+        "headline": "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
+        "summary": "Tech bulls may not have to wait much longer for fresh highs, if the single-biggest trade in the Invesco QQQ Trust ETF on Thursday is any indication.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/a-huge-trade-just-happened-on-the-nasdaq-100-bulls-are-taking-notice.html",
+        "published_at": "2026-07-09T19:26:44Z"
+      },
+      {
+        "headline": "It's a jam-packed afternoon of developments impacting 7 portfolio stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/its-a-jam-packed-afternoon-of-developments-impacting-7-portfolio-stocks.html",
+        "published_at": "2026-07-09T19:16:06Z"
+      },
+      {
+        "headline": "BP CEO says company must sharpen financial discipline - Reuters",
+        "summary": "BP CEO says company must sharpen financial discipline\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZGJmSENUeG41TjJkN1FoX3hBUXdabzFOdU9YdGE5MndJLUQzak5DXzBGR0lVNGcyaTdsNUNpWlBhMGJ5QXdFQmlsYkRYUUZVTk9OX2FRQzdJazFEN3dQaXBqcmJYRWF5cmJWbUl5RDhzNGJWcXdURjBERThMbUxhY2h1S1BpZXBCMmZ0amR3eEI2NkJRZEpkMHVNQVcyRzBvWUNOT3BTOVpONllXTlVwUXVpalZReHpjY1lsLWlkTzRtNHdR?oc=5",
+        "published_at": "2026-07-09T18:52:41Z"
+      },
+      {
+        "headline": "Why Salesforce is staying in the portfolio despite a harsh analyst downgrade",
+        "summary": "Jim Cramer isn't ready to give up on Salesforce after KeyBanc downgraded the stock",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/why-salesforce-is-staying-in-the-portfolio-despite-a-harsh-analyst-downgrade-.html",
+        "published_at": "2026-07-09T18:39:25Z"
+      },
+      {
+        "headline": "Body of slain Iranian supreme leader arrives at Shi'ite shrine for burial - Reuters",
+        "summary": "Body of slain Iranian supreme leader arrives at Shi'ite shrine for burial\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHpfT3hyLXNRcDVsVDNZdk9uSDJsbU1KQXBqdWlaMVhXdGdHay0wN2k3bEthNlpHaHlVX2dKTEpIWHdncE5Ka0lIOGVsR04zLXNUVzB2M2VSNWJxVjVxRlRHYlUtcHUxUFJvVEZGTHUzMnJXeE1JanhjUHpDMGgzOWFZNUh0RHUxT2ViMHlyOWJ6d3YzdVBiT1cxeVRKbF9MbGRrQ0F0M3pJLUN5QXc?oc=5",
+        "published_at": "2026-07-09T18:33:37Z"
+      },
+      {
+        "headline": "Kalshi traders think gas prices will stay higher for longer as U.S.-Iran tensions heat back up",
+        "summary": "Odds that gas prices are above $3.50 on Election Day in November have jumped to 75% on the platform.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/kalshi-traders-see-higher-gas-prices-lasting-through-election-day.html",
+        "published_at": "2026-07-09T18:11:22Z"
+      },
+      {
+        "headline": "Action-starved traders look to small-cap stocks for the next big move",
+        "summary": "One of the biggest options trades in the entire market Thursday seems to suggest small caps might lead the next move up or down.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/action-starved-traders-look-to-small-cap-stocks-for-the-next-big-move.html",
+        "published_at": "2026-07-09T17:58:07Z"
+      },
+      {
+        "headline": "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
+        "summary": "Members of the trust advise Anthropic leadership and do not hold any equity in the company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html",
+        "published_at": "2026-07-09T17:23:40Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 751.6,
+    "spy_change_pct": 0.8318,
+    "spy_lean": "bullish",
+    "vix_close": 16.9,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 63256.96,
+    "coinbase_premium_pct": -0.02061,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-09T21:14:32 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 202.78,
+        "change_pct": -0.6565,
+        "prev_close": 204.12
+      },
+      "AMD": {
+        "close": 546.72,
+        "change_pct": 5.6658,
+        "prev_close": 517.405
+      },
+      "TSM": {
+        "close": 436.96,
+        "change_pct": -0.0046,
+        "prev_close": 436.98
+      },
+      "SMCI": {
+        "close": 28.24,
+        "change_pct": 0.2485,
+        "prev_close": 28.17
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 723.28,
+        "change_pct": 1.6642,
+        "prev_close": 711.44
+      },
+      "SOXX": {
+        "close": 581.7,
+        "change_pct": 3.4998,
+        "prev_close": 562.03
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63270,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 69,
+    "positive_count": 8,
+    "negative_count": 13,
+    "neutral_count": 48,
+    "sentiment_ratio": 0.1159,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Coinbase Chief Legal Officer Paul Grewal steps down, remains in advisory role",
+        "url": "https://www.theblock.co/post/407809/coinbase-chief-legal-officer-paul-grewal-steps-down?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-09T21:13:44+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Swift And Chainlink Settlement Trials Keep Tokenized Assets In The Banking Conversation",
+        "url": "https://bitcoinist.com/swift-and-chainlink-settlement-trials-keep-tokenized-assets-in-the-banking/",
+        "published_at": "2026-07-09T21:10:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Avalanche Treasury Firm AVAX One Reclaims Nasdaq Compliance After Reverse Stock Split",
+        "url": "https://decrypt.co/373193/avalanche-treasury-firm-avax-one-reclaims-nasdaq-compliance",
+        "published_at": "2026-07-09T20:57:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Chicago Appointment Adds To The Agency\u2019s Enforcement Bench During A Busy Crypto Cycle",
+        "url": "https://bitcoinist.com/sec-chicago-appointment-adds-to-the-agency-s-enforcement-bench-during-a-busy/",
+        "published_at": "2026-07-09T20:55:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Perplexity Fine-Tuned a Chinese AI Model to Match Claude Opus 4.8 at One-Third the Cost",
+        "url": "https://decrypt.co/373184/perplexity-fine-tuned-chinese-ai-model-claude-opus-4-8",
+        "published_at": "2026-07-09T20:40:28+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitget Wallet TON Push Shows The Web3 Front Door Is Moving Toward Messaging Apps",
+        "url": "https://bitcoinist.com/bitget-wallet-ton-push-shows-the-web3-front-door-is-moving-toward-messaging-apps/",
+        "published_at": "2026-07-09T20:40:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Uniswap Fee Switch Talk Shows DeFi Governance Is Still Searching For Sustainable Revenue",
+        "url": "https://bitcoinist.com/uniswap-fee-switch-talk-shows-defi-governance-is-still-searching-for/",
+        "published_at": "2026-07-09T20:25:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic AI Oversight Board Adds Ben Bernanke, Who Oversaw 2008 Financial Crisis at Fed",
+        "url": "https://decrypt.co/373181/anthropic-ai-oversight-board-ben-bernanke-2008-federal-crisis-fed",
+        "published_at": "2026-07-09T20:22:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitdeer stock jumps 14% as company expands US mining hardware production",
+        "url": "https://cointelegraph.com/news/bitdeer-stock-jumps-14-bitcoin-mining-hardware-maker-expands-us-manufacturing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-09T20:19:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-09T20:17:33+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
