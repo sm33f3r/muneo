@@ -1,0 +1,185 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-09T21:52:50 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 77.93,
+    "price_change_24h_pct": 0.9233,
+    "price_change_7d_pct": -3.6558,
+    "volume_24h_usd": 1658624267,
+    "market_cap_usd": 45342518966,
+    "volume_to_mcap_ratio": 0.03658,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -73.4311,
+    "cex_price_usd": 78.01,
+    "cex_24h_high": 78.83,
+    "cex_24h_low": 76.71,
+    "cex_dex_spread_pct": 0.102656,
+    "volume_on_up_days_usd": 2617026644.0342226,
+    "volume_on_down_days_usd": 2057280194.8065014,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 48.9526,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -5.846674,
+      "signal_line": -7.018698,
+      "histogram": 1.172024
+    },
+    "macd_lean": "bullish",
+    "sma_50": 93.1062,
+    "price_vs_sma50_pct": -16.2999,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 97.546394,
+      "mid": 80.0135,
+      "lower": 62.480606,
+      "width_pct": 43.8248,
+      "position": 0.5413
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 721231385.53,
+    "oi_lean": null,
+    "funding_rate_latest": 2.46e-06,
+    "funding_rate_7d_avg": 2.700952380952381e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.4839,
+    "btc_long_account_pct": 59.74,
+    "btc_short_account_pct": 40.26,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 4953245164.0,
+    "tvl_7d_change_pct": -1.74,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 8156654.0,
+    "chain_fees_7d_avg_usd": 8013039.14,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 3,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.3333,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "OpenAI Releases GPT-5.6 Sol: Here\u2019s How It Stacks Up Against Other AI Models",
+        "url": "https://decrypt.co/373151/openai-gpt-5-6-sol-how-compares-ai-models",
+        "published_at": "2026-07-09T17:24:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tarun Chitra\u2019s Gauntlet raises $125 million Series C from sole investor SBI Holdings",
+        "url": "https://www.theblock.co/post/407723/tarun-chitra-gauntlet-125-million-series-c-funding-sbi-holdings?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-09T13:42:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stripe-owned Privy and Jito co-develop Solana transaction inclusion tool FullSend",
+        "url": "https://www.theblock.co/post/407628/stripe-privy-jito-develop-solana-transaction-inclusion-tool-fullsend?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-09T12:30:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 63195.0,
+    "btc_24h_change_pct": 1.7758,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 58.3798,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2170763869261.1086,
+    "eth_btc_ratio": 0.027607,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 751.6,
+    "spy_change_pct": 0.8318,
+    "spy_lean": "bullish",
+    "vix_close": 16.9,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 76.92,
+    "cg_sentiment_votes_down_pct": 23.08,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 1,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
