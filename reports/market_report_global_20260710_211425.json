@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-10T21:13:30 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2276116408558.82,
+    "total_market_cap_change_24h_pct": 0.9609,
+    "total_volume_24h_usd": 65229027287.51,
+    "btc_dominance_pct": 56.261,
+    "eth_dominance_pct": 9.4924,
+    "total2_usd": 995550726161.91,
+    "total3_usd": 779492212596.41,
+    "active_cryptocurrencies": 17467,
+    "altcoin_season_index": 15,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 35.5072,
+        "price_usd": 0.219039,
+        "market_cap_usd": 218781754
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 30.6322,
+        "price_usd": 0.151501,
+        "market_cap_usd": 150628179
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 22.5596,
+        "price_usd": 2.69,
+        "market_cap_usd": 832026382
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 14.6655,
+        "price_usd": 0.523425,
+        "market_cap_usd": 220367609
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": 13.0328,
+        "price_usd": 0.183374,
+        "market_cap_usd": 213420641
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GWEI",
+        "name": "ETHGas",
+        "price_change_24h_pct": -23.591,
+        "price_usd": 0.06361,
+        "market_cap_usd": 133577101
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -11.9173,
+        "price_usd": 0.936863,
+        "market_cap_usd": 302119286
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -8.0653,
+        "price_usd": 0.621432,
+        "market_cap_usd": 150019705
+      },
+      {
+        "symbol": "WEMIX",
+        "name": "WEMIX",
+        "price_change_24h_pct": -5.8802,
+        "price_usd": 0.264997,
+        "market_cap_usd": 131915158
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": -5.7052,
+        "price_usd": 0.088217,
+        "market_cap_usd": 694213533
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63877,
+    "price_change_24h_pct": 0.9487,
+    "price_change_7d_pct": 2.7656,
+    "market_cap_usd": 1281025808990,
+    "volume_24h_usd": 27859830275,
+    "direction": "neutral",
+    "oi_usd": 6622775216.87,
+    "funding_rate_latest": 9.508e-05,
+    "funding_rate_7d_avg": 7.579619047619047e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2594,
+    "long_account_pct": 55.74,
+    "short_account_pct": 44.26,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1790.23,
+    "price_change_24h_pct": 2.4627,
+    "price_change_7d_pct": 2.6097,
+    "market_cap_usd": 216038398319,
+    "volume_24h_usd": 8464219278,
+    "eth_btc_ratio": 0.028026,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74270429904.71,
+    "stablecoin_market_cap_usd": 310925633994.07,
+    "stablecoin_dominance_pct": 13.6604
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 18,
+    "headlines": [
+      {
+        "headline": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters",
+        "summary": "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjJOeUlsWVliM0doZUlfUDdXVjA5OXpjUDdPNjlFXzFzRGZKcDhhaDVGZFNDc3RRM3QwLVdWdTdaaXJZN0NfRUhjQWkxSzBVZlBMd1l1dlZpVVVOOEFfbWVmUzVYMFlZZGpCWENSR3FRVGNPZjhXcU96VTY3b1hjTk45ZWMwRnR3RVRsRG5UR1ZqdU5RLWhhWWtnWVBjeGk4YTg3c294YjdUVkVqWS1WY3dNWnpCalBERVZQbkRIdw?oc=5",
+        "published_at": "2026-07-10T20:22:32Z"
+      },
+      {
+        "headline": "US makes it easier to export Nvidia AI chips and military equipment to the UAE - Reuters",
+        "summary": "US makes it easier to export Nvidia AI chips and military equipment to the UAE\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd0RpM0tkVDY3RXZ5NzBYZnZKR1hkME1NSVE2TVdNYUJCSjY5VWk1LUhfUFd3NTlMdktER1MtOHhEUjVVOHRhSHcxTGh2TFlFMTNsZmt2dzk0WTdFbHUxZm5SNExFX3JyNldDWHpYcHg1dFRGWGdoX2Y5QU1UUGR1TmpodmktT3lXenhad3JqOTMtUERoZmpFX0dMTFh1VEtQdEp5ZERMRGJYNjloTG94X05Ka2pYQWFlU1NENjFTd0tTN002dFBOb3g0d0QxUQ?oc=5",
+        "published_at": "2026-07-10T19:39:42Z"
+      },
+      {
+        "headline": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
+        "summary": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?oc=5",
+        "published_at": "2026-07-10T19:31:16Z"
+      },
+      {
+        "headline": "Stocks rise as investors await the start of earnings season \u2014 here's what to expect",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/10/stocks-rise-as-investors-await-the-start-of-earnings-what-to-expect.html",
+        "published_at": "2026-07-10T19:04:06Z"
+      },
+      {
+        "headline": "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI buildout - Reuters",
+        "summary": "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI buildout\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWmpCaExTSktkWXFGQjlDZ2pzOHlSNm0xcXJqcWJGUkdNaWRlSnJldzhzSUZaT2drZy1RZVM5TmVJbGltTHhUU3hzeFpvbGZjbmlJWkxjejUwZVY0UTFscU45ekt2LWlBZUM3c1dtc2R1VE05OXA3NmxCVUxBVVFUQ0ZuSm0zejV6ZlE?oc=5",
+        "published_at": "2026-07-10T16:30:28Z"
+      },
+      {
+        "headline": "We're looking to buy more of this chip stock as the once-hot group cools",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/10/were-looking-to-buy-more-of-this-chip-stock-as-the-once-hot-group-cools.html",
+        "published_at": "2026-07-10T16:27:42Z"
+      },
+      {
+        "headline": "How the absence of Iran's Mojtaba Khamenei is becoming a liability for the Islamic Republic - Reuters",
+        "summary": "How the absence of Iran's Mojtaba Khamenei is becoming a liability for the Islamic Republic\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTNPR0g0ZVgwQjFWR1R4WERMR215bmNZQ0l5YVVFMWN1V1FrZ3F5SWRIQmhwc2g3ZHBFcnhjVEdHOGJTSXdNdDdMR3l5Q3JtdWxWbHlkTkJXa1FaUDVxRGdWMVBFcDNOaXZILWd3Y2RmOXhwSWtNS0ZaclhCRl9IZ1RpVnBXS2RBaldpbzNxYS1GeUVrWFh0RWo0MnRqNl8tcUVRR194akZfeTZ4SXJkU1VybG5jMmVU?oc=5",
+        "published_at": "2026-07-10T16:19:20Z"
+      },
+      {
+        "headline": "Turkey says it hopes to achieve result on lifting U.S. sanctions soon - Reuters",
+        "summary": "Turkey says it hopes to achieve result on lifting U.S. sanctions soon\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXY0ckRMNUlWWXNNNzhPVnZlamdNRTFHajk3bjFqeHg4VkU1Q25KNWUzaXRjVDhXTTFYcmR3VXR0VjNoRDBCbERpQnk3V2NUZF9XV0Y0c2NuclEyZzVqTndOTUJpWEFfMmpUQnpQSzhudmpBN2RmblBrUEJBNkJSRVdJV0h0bjJUNkNJc2diVnljQXJZWDhmNkdKdWNPREpjQjhsalZ6TEVEdmtYYkJnOXY5V1BTZw?oc=5",
+        "published_at": "2026-07-10T15:19:43Z"
+      },
+      {
+        "headline": "Iran has asked to continue talks and the US agreed, Trump says - Reuters",
+        "summary": "Iran has asked to continue talks and the US agreed, Trump says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcUtqQnRSYkhpd2ZXamR3RVhpdVVWaWIwVFc4RGRNT2xzaUpaNEdkOENLbHN0SUU3Yzd3ZXZsT3k3WFhEcEpOZWZFbEhYSXFJbGpiYlpsRnp2MTAwc09DLThKOU1meXJBS0l1SXhyUHhGZmhUR0R4VFBjeG9lVUVGN1Jnd2RaQllDTC1EQnlNTEZEQzdqNFhkSE1CYTNYZk5KVTdlSm9iUQ?oc=5",
+        "published_at": "2026-07-10T14:46:28Z"
+      },
+      {
+        "headline": "48-year-old worked at a garden center for $17/hour to make ends meet: 'It's one of the best jobs I've ever had'",
+        "summary": "\"Without a job, I felt invisible. With a job, I felt seen, useful, and purposeful again,\" says Leslie Friday, who sold plants and flowers while job searching after a layoff. \"I loved every minute.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/10/48-year-old-worked-at-a-garden-center-to-make-ends-meet-one-of-best-jobs-ever-had.html",
+        "published_at": "2026-07-10T13:42:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 754.88,
+    "spy_change_pct": 0.4217,
+    "spy_lean": "neutral",
+    "vix_close": 15.84,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63896.02,
+    "coinbase_premium_pct": 0.029776,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-10T21:13:30 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": 4.0339,
+        "prev_close": 202.78
+      },
+      "AMD": {
+        "close": 557.89,
+        "change_pct": 2.0431,
+        "prev_close": 546.72
+      },
+      "TSM": {
+        "close": 434.11,
+        "change_pct": -0.6522,
+        "prev_close": 436.96
+      },
+      "SMCI": {
+        "close": 28.31,
+        "change_pct": 0.2479,
+        "prev_close": 28.24
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.51,
+        "change_pct": 0.3083,
+        "prev_close": 723.28
+      },
+      "SOXX": {
+        "close": 581.34,
+        "change_pct": -0.0619,
+        "prev_close": 581.7
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63877,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 30,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 6,
+    "negative_count": 8,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.1017,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Senate Democrats call for hearings into Trump\u2019s ties to crypto amid CLARITY Act discussions",
+        "url": "https://cointelegraph.com/news/senate-democrats-hearings-donald-trump-crypto-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-10T21:03:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Democrats Call for Senate Hearings on Trump's Massive Crypto Profits",
+        "url": "https://decrypt.co/373289/democrats-senate-hearings-trump-massive-crypto-profits",
+        "published_at": "2026-07-10T20:35:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-10T20:14:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOJ to drop charges against man accused in $722 million BitClub crypto Ponzi scheme: Bloomberg",
+        "url": "https://www.theblock.co/post/407931/doj-drop-charges-against-man-accused-722-million-bitclub-crypto-ponzi-scheme-bloomberg?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-10T20:12:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what\u2019s next for the Clarity Act as Congress returns to Washington",
+        "url": "https://www.theblock.co/post/407930/whats-next-for-clarity-act-congress-returns-to-washington?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-10T19:50:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US CBDC ban to go into effect without Trump signoff on housing bill",
+        "url": "https://cointelegraph.com/news/us-cbdc-ban-donald-trump-housing-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-10T19:33:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Treasury Firm Empery Digital Dumps Nearly Half of BTC Holdings for $87 Million",
+        "url": "https://decrypt.co/373278/bitcoin-firm-empery-digital-dumps-half-btc-holdings-87-million",
+        "published_at": "2026-07-10T18:54:46+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SK Hynix\u2019s $26.5 billion US listing brought to Telegram users via xStocks",
+        "url": "https://www.theblock.co/post/407923/sk-hynixs-26-5-billion-us-listing-brought-to-telegram-users-via-xstocks?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-10T18:49:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Xbox CEO Joins Fed AI Jobs Task Force Days After Announcing 3,200 Layoffs",
+        "url": "https://decrypt.co/373277/xbox-ceo-fed-ai-jobs-task-force-days-after-layoffs",
+        "published_at": "2026-07-10T18:02:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Hampshire council votes down $100M Bitcoin bonds",
+        "url": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-10T17:23:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
