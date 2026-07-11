@@ -1,0 +1,365 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-11T21:14:16 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2296008568694.62,
+    "total_market_cap_change_24h_pct": 0.7547,
+    "total_volume_24h_usd": 41985305541.81,
+    "btc_dominance_pct": 56.2222,
+    "eth_dominance_pct": 9.6035,
+    "total2_usd": 1005142504177.02,
+    "total3_usd": 784644848818.45,
+    "active_cryptocurrencies": 17505,
+    "altcoin_season_index": 22,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 39.4414,
+        "price_usd": 0.214799,
+        "market_cap_usd": 208380498
+      },
+      {
+        "symbol": "THETA",
+        "name": "Theta Network",
+        "price_change_24h_pct": 13.3874,
+        "price_usd": 0.15605,
+        "market_cap_usd": 156060575
+      },
+      {
+        "symbol": "BC",
+        "name": "BCGame Coin",
+        "price_change_24h_pct": 11.1366,
+        "price_usd": 0.01442102,
+        "market_cap_usd": 144055616
+      },
+      {
+        "symbol": "ULTIMA",
+        "name": "Ultima",
+        "price_change_24h_pct": 10.7943,
+        "price_usd": 2367.24,
+        "market_cap_usd": 200524554
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": 9.8627,
+        "price_usd": 10.2,
+        "market_cap_usd": 156717405
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -44.8614,
+        "price_usd": 0.121217,
+        "market_cap_usd": 121090579
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -26.401,
+        "price_usd": 0.680468,
+        "market_cap_usd": 219367823
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -13.7431,
+        "price_usd": 0.448533,
+        "market_cap_usd": 188762654
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -12.3359,
+        "price_usd": 2.37,
+        "market_cap_usd": 732345517
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -7.426,
+        "price_usd": 0.05963,
+        "market_cap_usd": 131217717
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64340,
+    "price_change_24h_pct": 0.6764,
+    "price_change_7d_pct": 1.7088,
+    "market_cap_usd": 1290623922454,
+    "volume_24h_usd": 14816263597,
+    "direction": "neutral",
+    "oi_usd": 6576221446.78,
+    "funding_rate_latest": 4.156e-05,
+    "funding_rate_7d_avg": 6.894761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2548,
+    "long_account_pct": 55.65,
+    "short_account_pct": 44.35,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1826.25,
+    "price_change_24h_pct": 1.9755,
+    "price_change_7d_pct": 1.9068,
+    "market_cap_usd": 220385175463,
+    "volume_24h_usd": 6303287316,
+    "eth_btc_ratio": 0.028384,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74772381910.55,
+    "stablecoin_market_cap_usd": 311018377307.64,
+    "stablecoin_dominance_pct": 13.546
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 0,
+    "headlines": []
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 754.95,
+    "spy_change_pct": 0.431,
+    "spy_lean": "neutral",
+    "vix_close": 15.84,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64308.68,
+    "coinbase_premium_pct": -0.048679,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-11T21:14:16 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": 4.0339,
+        "prev_close": 202.78
+      },
+      "AMD": {
+        "close": 557.89,
+        "change_pct": 2.0431,
+        "prev_close": 546.72
+      },
+      "TSM": {
+        "close": 434.11,
+        "change_pct": -0.6522,
+        "prev_close": 436.96
+      },
+      "SMCI": {
+        "close": 28.31,
+        "change_pct": 0.2479,
+        "prev_close": 28.24
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.51,
+        "change_pct": 0.3083,
+        "prev_close": 723.28
+      },
+      "SOXX": {
+        "close": 581.34,
+        "change_pct": -0.0619,
+        "prev_close": 581.7
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64340,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 32,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 22,
+    "positive_count": 5,
+    "negative_count": 3,
+    "neutral_count": 14,
+    "sentiment_ratio": 0.2273,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Hedera lending protocol Bonzo Lend hit for $9 million after Supra verifier accepts manipulated price update",
+        "url": "https://www.theblock.co/post/407960/hedera-lending-protocol-bonzo-lend-hit-for-9-million-after-supra-verifier-accepts-manipulated-price-update?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-11T19:19:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+        "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+        "published_at": "2026-07-11T16:21:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin, ether ETFs snap eight-week outflow streaks with $282 million combined inflow",
+        "url": "https://www.theblock.co/post/407957/bitcoin-ether-etfs-snap-eight-week-outflow-streaks-with-282-million-combined-inflow?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-11T15:19:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
+        "url": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nano Banana 2 Lite vs. Nano Banana 2: When to Save Your Money and When to Upgrade",
+        "url": "https://decrypt.co/373002/google-nano-banana-2-lite-vs-nano-banana-2-comparison-review",
+        "published_at": "2026-07-11T13:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?",
+        "url": "https://cointelegraph.com/markets/ethereum-climbs-3-on-tokenization-boom-can-bulls-push-eth-price-past-1800?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T12:55:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bonzo Lend loses $9M in oracle exploit on Hedera",
+        "url": "https://cointelegraph.com/news/bonzo-lend-9m-oracle-exploit-hedera?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T11:56:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T11:21:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dollar stablecoins could improve FX access but amplify currency runs: IMF paper",
+        "url": "https://cointelegraph.com/news/imf-stablecoins-fx-access-currency-runs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T09:14:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-11T04:13:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
