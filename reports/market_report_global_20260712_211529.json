@@ -1,0 +1,414 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-12T21:14:34 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2288358130539.85,
+    "total_market_cap_change_24h_pct": -0.2403,
+    "total_volume_24h_usd": 44737612235.23,
+    "btc_dominance_pct": 56.2399,
+    "eth_dominance_pct": 9.5964,
+    "total2_usd": 1001387039970.07,
+    "total3_usd": 781787430036.01,
+    "active_cryptocurrencies": 17529,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "price_change_24h_pct": 24.6723,
+        "price_usd": 0.051112,
+        "market_cap_usd": 124098996
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 21.2883,
+        "price_usd": 46.55,
+        "market_cap_usd": 2176083433
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 10.9277,
+        "price_usd": 2.63,
+        "market_cap_usd": 814062590
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 7.0808,
+        "price_usd": 0.399847,
+        "market_cap_usd": 139955463
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 6.995,
+        "price_usd": 0.480457,
+        "market_cap_usd": 202505712
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "price_change_24h_pct": -37.9904,
+        "price_usd": 0.420094,
+        "market_cap_usd": 135552541
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -19.4812,
+        "price_usd": 0.169209,
+        "market_cap_usd": 167778656
+      },
+      {
+        "symbol": "NEX",
+        "name": "Nexus",
+        "price_change_24h_pct": -17.2418,
+        "price_usd": 1.88e-06,
+        "market_cap_usd": 112594617
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -8.8954,
+        "price_usd": 0.124044,
+        "market_cap_usd": 124034013
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -7.9773,
+        "price_usd": 0.11127,
+        "market_cap_usd": 111381372
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64167,
+    "price_change_24h_pct": -0.2418,
+    "price_change_7d_pct": 2.3,
+    "market_cap_usd": 1286982422675,
+    "volume_24h_usd": 19053807711,
+    "direction": "neutral",
+    "oi_usd": 6481884367.78,
+    "funding_rate_latest": 7.578e-05,
+    "funding_rate_7d_avg": 6.491428571428571e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3052,
+    "long_account_pct": 56.62,
+    "short_account_pct": 43.38,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1819.23,
+    "price_change_24h_pct": -0.3835,
+    "price_change_7d_pct": 2.4429,
+    "market_cap_usd": 219573159155,
+    "volume_24h_usd": 5768940279,
+    "eth_btc_ratio": 0.028351,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74545754264.59,
+    "stablecoin_market_cap_usd": 311700694295.32,
+    "stablecoin_dominance_pct": 13.6212
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 18,
+    "headlines": [
+      {
+        "headline": "Israel's election will be held on October 27, coalition head says - Reuters",
+        "summary": "Israel's election will be held on October 27, coalition head says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbVlfeEhKTEQwUVJDNzQ3eWVJM2JQd2JNMUZSV2pMVFRQUnp3YUNlN1RRQ2VmWVVITTZiUzJwZEJGbWVNUzR5Y0FPaHRZZU5YM0FpQ3Z0UWo1UGI5Tk9BNlNfNUhMMmRGckxhSHBDTzk5RWtsUTM5bGxfTjFkWEp3dF9Mb2RiT1kyNUZINksyTk9KQWt0Tk1qdjNjcjJqOURpUUxKQllTR2M3TC1wRzRLY3Z3N2o?oc=5",
+        "published_at": "2026-07-12T17:50:55Z"
+      },
+      {
+        "headline": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports - Reuters",
+        "summary": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVlFEMTBmd3hvZzZpVnBYcnNnUlBnQW9DRlkydFVqUTM0S3I2emo0TDczX3NJSGNHdXJqZGJreUhDRDhoYnNUck9vRGVpWEVtMGNnNElfY1lzR0NZakdlSWtTZEExQ2YyWFFKWTNhLXpwbk9HRkF6VGs4V0pLTDRRT013Z3dvc1hZVWthV0x6MzFneHlxei1LZWg5NVNKUE1oV2pfTUNlbkIwNU1tVU14MmhXc1Z2VmNNZnR5Q2thYjFDMWRyaUNJbw?oc=5",
+        "published_at": "2026-07-12T16:43:45Z"
+      },
+      {
+        "headline": "Iran's IRNA says 'enemy' launches missiles towards Qeshm Island - Reuters",
+        "summary": "Iran's IRNA says 'enemy' launches missiles towards Qeshm Island\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFNWV2l4NHpONDVaQ0VPNVczX3ZhaHJHS08ycWJvWDhabVJlZDZrQU5rSDZ0bGRNZXhudFVxSDkzQnNoSTZqWkRXd0RrSWNEVGpHMzBVS2J5ZlZXZ0RPeG93ZWF2QjJWY05oV2FlVlFTODJ3dmJOSnVVOFlJSHFLUzdfYXVhY0NDOEdOVXctakZucmJZLUoxVFhuSk9qRGxPX2lMT3lmenA5LXdmTUpaSVhGcTg?oc=5",
+        "published_at": "2026-07-12T16:29:41Z"
+      },
+      {
+        "headline": "Lindsey Graham dies, Iran strikes and World Cup semis set - Reuters",
+        "summary": "Lindsey Graham dies, Iran strikes and World Cup semis set\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUXhfNmVlMUNVcFlBYzVMck55ajZsTGI2X2NDZjZ5ZEQyRTBTWmtWeUtVd2ljRWZvSm5tWm1qR2tDS2RqYzdhZ0ZQWkNlN0tCaTNiakhDcmNpWUNVTHJiejExMVdGU0NlUWp1MU11U2J1VzlodzFYeExWWnl2THNRWm5oemlxaFZOdVJ4UUFYdWZmR0xCNUtrMWZBbEl0dw?oc=5",
+        "published_at": "2026-07-12T15:33:27Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market this week",
+        "summary": "The state of the U.S. economy is in focus across bank earnings and inflation data.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/12/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-07-12T14:58:48Z"
+      },
+      {
+        "headline": "Trump says Strait of Hormuz open to commercial traffic - Reuters",
+        "summary": "Trump says Strait of Hormuz open to commercial traffic\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM04zYVJRb2pfTkwzT0lIUm8wWHpKRkc4WE9TazFxdGQ4RktValc5UXhBbmM3ZGlHaFNBZm5MVDI4a3dDMG8zX2pza3NSb2o5dS1RYVNLUzFhd0wtOFZucWdhcHMzZFgyRWRaNUJUOUJ6VXp2ZEl4NXFmeXFiRWQzZDNQbWFqRDRpVnZXNmNwWmQ0a3RMeDRkTUQ0NkZXUUhZUHc?oc=5",
+        "published_at": "2026-07-12T13:30:09Z"
+      },
+      {
+        "headline": "US forces ready to ensure navigation in Strait of Hormuz, Central Command says - Reuters",
+        "summary": "US forces ready to ensure navigation in Strait of Hormuz, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeDMxYmdvOG53OXFHRXRla2dlUjR0WXYyc3E0TS1WaUVaMDJBUnp1RFhGeUdlMVdUTFpUdmZmbU42RTJIVi1Cc1ZvWWE5U0NsR2ZIeE5Hd2cyeERTMGdWQ0pPV1JmempuQzZQckp1NkY4SDJwbWR0aWhkaXVsSjd3SWVXbnFZcTZ5ZnlOdmVzZXZnTzlQMERBY2gzTV9LbEpDR1RZcDV4d1gtR29Vc0lJOVZrZDdxdzN1MmlIUHAxMA?oc=5",
+        "published_at": "2026-07-12T12:26:09Z"
+      },
+      {
+        "headline": "I've studied more than 200 kids: Parents whose kids still confide in them as adults do 7 things early on",
+        "summary": "After studying more than 200 parent-child relationships, parenting expert Reem Raouda shares the habits that help kids feel comfortable talking to their parents \u2014 from childhood through adulthood.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/12/ive-studied-more-than-200-kids-parents-whose-children-actually-enjoy-talking-to-them-do-7-things.html",
+        "published_at": "2026-07-12T12:10:20Z"
+      },
+      {
+        "headline": "One Indian national missing after attack on vessel off Oman, foreign ministry says - Reuters",
+        "summary": "One Indian national missing after attack on vessel off Oman, foreign ministry says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVWJXSGd0QTVpY0Q3ZDBxWndCTGNGOTRoSkZmYWxOUTRfdTZ4Z2lXN2FzRWJ1cjlZSnZURFBGNFJOenpWZ2dkZWNJNUdybXlZN1BQS0xDMmNhZ1dCYXIwVTNudEZvME1rUlNPLS1EMXVPamlSbzV4Z1BWYXNFQXhlNlQ2MGQ3NXFxd0dfUTd4NHptemJLdlg4ZlktMl9pd1JkQnp2YUZSQWgwQjlDNWJCWTIwYnE0aC1fRk05aFI1Y3lLRTZ4?oc=5",
+        "published_at": "2026-07-12T11:40:31Z"
+      },
+      {
+        "headline": "Iraqi prime minister to visit Washington on Monday; oil and gas deals expected - Reuters",
+        "summary": "Iraqi prime minister to visit Washington on Monday; oil and gas deals expected\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOW5nMzhBUlZCM1pkTTFfbzBjZTVPQ2hKR19BQTRsQzNYenR1UEhYdDY0eldGOEpuU2JyeVpVeUhMTjh4aVdxZjVtS3pibnFJWkFKS09hR3NtNHlzWElhcUNxWENpZVRrUVRyeXJuSHpwN0R3cnp0WWFPMlMzcnRJNlFCTHM2NHowM3NYaDNyOWJ6b1Z4V0Y5ZG1IYTJEbkRzb21pUVBFNVJ4QlU4VkdyRWZaM2I3dXBHdHhiYk53?oc=5",
+        "published_at": "2026-07-12T11:12:54Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.6902,
+    "dxy_lean": "bullish",
+    "spy_close": 754.95,
+    "spy_change_pct": 0.431,
+    "spy_lean": "neutral",
+    "vix_close": 15.84,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64168.05,
+    "coinbase_premium_pct": 0.001636,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-12T21:14:34 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": 4.0339,
+        "prev_close": 202.78
+      },
+      "AMD": {
+        "close": 557.89,
+        "change_pct": 2.0431,
+        "prev_close": 546.72
+      },
+      "TSM": {
+        "close": 434.11,
+        "change_pct": -0.6522,
+        "prev_close": 436.96
+      },
+      "SMCI": {
+        "close": 28.31,
+        "change_pct": 0.2479,
+        "prev_close": 28.24
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.51,
+        "change_pct": 0.3083,
+        "prev_close": 723.28
+      },
+      "SOXX": {
+        "close": 581.34,
+        "change_pct": -0.0619,
+        "prev_close": 581.7
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64167,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 32,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 8,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: \u2018Orange dots tell only part of the story\u2019",
+        "url": "https://www.theblock.co/post/407965/michael-saylor-posts-cryptic-strategy-chart-after-216-million-bitcoin-sale-orange-dots-tell-only-part-of-the-story?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-12T18:43:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
+        "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T18:16:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How to Make Product Ads With AI for TikTok and YouTube\u2014For (Almost) Free",
+        "url": "https://decrypt.co/373290/how-to-make-ai-ads-tiktok-youtube-free",
+        "published_at": "2026-07-12T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pakistan crypto chief seeks dialogue after scholar rules against crypto payments",
+        "url": "https://cointelegraph.com/news/pakistan-crypto-chief-dialogue-islamic-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T12:26:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
+        "url": "https://cointelegraph.com/news/ethereum-pos-energy-intensity-cambridge-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T09:29:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
+        "url": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T04:28:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T04:24:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Empery Digital shares rise after selling BTC to fund AI data center project",
+        "url": "https://cointelegraph.com/news/empery-digital-shares-rise-after-selling-bitcoin-treasury-to-fund-ai-data-center-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-12T01:05:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
