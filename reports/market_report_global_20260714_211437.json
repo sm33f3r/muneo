@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-14T21:13:40 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2298688678697.12,
+    "total_market_cap_change_24h_pct": 3.5016,
+    "total_volume_24h_usd": 73250808588.74,
+    "btc_dominance_pct": 56.2765,
+    "eth_dominance_pct": 9.839,
+    "total2_usd": 1005067654261.25,
+    "total3_usd": 778899584949.65,
+    "active_cryptocurrencies": 17565,
+    "altcoin_season_index": 24,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 33.9481,
+        "price_usd": 0.154361,
+        "market_cap_usd": 154320107
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 13.5348,
+        "price_usd": 0.00944034,
+        "market_cap_usd": 522093744
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 12.5751,
+        "price_usd": 0.766816,
+        "market_cap_usd": 185395902
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 11.361,
+        "price_usd": 2.6,
+        "market_cap_usd": 650376695
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 10.4817,
+        "price_usd": 0.122853,
+        "market_cap_usd": 122841737
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": -13.6054,
+        "price_usd": 5.73e-06,
+        "market_cap_usd": 114982280
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": -10.1291,
+        "price_usd": 0.084229,
+        "market_cap_usd": 662835152
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -9.3187,
+        "price_usd": 0.387747,
+        "market_cap_usd": 135711443
+      },
+      {
+        "symbol": "ULTIMA",
+        "name": "Ultima",
+        "price_change_24h_pct": -6.7244,
+        "price_usd": 2302.69,
+        "market_cap_usd": 195479848
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -6.3117,
+        "price_usd": 0.121196,
+        "market_cap_usd": 289799825
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64577,
+    "price_change_24h_pct": 4.1236,
+    "price_change_7d_pct": 1.4703,
+    "market_cap_usd": 1295135103098,
+    "volume_24h_usd": 29791128939,
+    "direction": "bullish",
+    "oi_usd": 6693527261.03,
+    "funding_rate_latest": 5.59e-05,
+    "funding_rate_7d_avg": 5.8854761904761906e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2022,
+    "long_account_pct": 54.59,
+    "short_account_pct": 45.41,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1877.23,
+    "price_change_24h_pct": 6.6168,
+    "price_change_7d_pct": 5.3357,
+    "market_cap_usd": 226552710961,
+    "volume_24h_usd": 12153973682,
+    "eth_btc_ratio": 0.02907,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75471070836.83,
+    "stablecoin_market_cap_usd": 308667213571.98,
+    "stablecoin_dominance_pct": 13.428
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 32,
+    "headlines": [
+      {
+        "headline": "S&P 500 and Nasdaq end higher on cool inflation data, solid bank earnings - Reuters",
+        "summary": "S&P 500 and Nasdaq end higher on cool inflation data, solid bank earnings\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNUZzZmRoMHJILU51eUxkVEo5UmFGNUx3WjUwSU9qX0k5Zzk0Ulk0MUY3aGZQc0pTVUpQb0F4MUNiQ2RwY1F4ekptWjBJTkExaWhqRE9sLTRNTU84a09pS2lUV19wLTJ4LXgtU0VXY2RHQ3RHampMUE5MTVVQTjYzM1I4V1lfdVc2UFZGOHdPY1BOVEhWUDcxTVBkX3R4QzZON18xejctM09QU3VxbXprSDRWQXJhMVAzbjUxR3JR?oc=5",
+        "published_at": "2026-07-14T20:01:16Z"
+      },
+      {
+        "headline": "Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities - Reuters",
+        "summary": "Stocks gain on softer inflation, bank results while oil rises on US-Iran hostilities\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRaMVFPRFNSMDhQQ1dQT09aWlhsdzdhVGVFcGUzblZreE9kSms3eXc3ZjRlbVhvdUtFRW5IQ3ZSSE42bnhoTGxIaVlwbVVQR0tLUE0yY1N3NTJ2Qko2S01pNHREcW5CbmpweXpORmVRRzdCR0RDcTRjeG9oS2tqR2hIWQ?oc=5",
+        "published_at": "2026-07-14T19:54:12Z"
+      },
+      {
+        "headline": "Johnson & Johnson has a chance to show it's more than just a rotation winner",
+        "summary": "The healthcare giant's second-quarter earnings will shine the spotlight on its exciting new products and pipeline.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/14/johnson-johnson-has-a-chance-to-show-its-more-than-just-a-rotation-winner.html",
+        "published_at": "2026-07-14T19:43:01Z"
+      },
+      {
+        "headline": "Trump wants fees for Hormuz just like Iran - is that legal? - Reuters",
+        "summary": "Trump wants fees for Hormuz just like Iran - is that legal?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3dNNmJQLXczRFNZeWVhc01WeGRBWEpGbGtVejR5X2VIUzVUUHVCUDNIbWxqVElSamZ0ZkhySGtUelhhNVduTUlqc2YzWnl0cnVNbDU0aVd2ZmNBUzNCWUdxanpwbVgzMnBEV2ViTGFVSXZGZ3RUMTBPMEZDbXlVVC1JMHpNT0ltRkx0YXFUQVI5YmUtaGUtOFc1MDVoSHRfTXJ6LQ?oc=5",
+        "published_at": "2026-07-14T19:32:09Z"
+      },
+      {
+        "headline": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption - Reuters",
+        "summary": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObjBFQ0x4dHAxeGhVUDB4NlR2LVlyU1JTNnJhWkV1bnI4b1Zneng1X0E4bmpBWnJLVjBHZm1aaDctN19OejdjdGpnYVlxaHJxcjRGQzZZLUNhbmtvakJmc0MxTVpmc1l3ZzBXWFhzWE8teV91d0x0WFlTc2JUM2RDNFUyMzVCWl9mMWltOTJjTWM5Mlpta3dtN3VtT1A1RHpCcUhGQmNUMWNIaTYtZGU3MjQxMnExZw?oc=5",
+        "published_at": "2026-07-14T19:12:54Z"
+      },
+      {
+        "headline": "Cybersecurity stocks surge thanks to IBM, and Nvidia climbs on more good China news",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/14/cybersecurity-stocks-surge-thanks-to-ibm-and-nvidia-climbs-on-more-good-china-news.html",
+        "published_at": "2026-07-14T18:49:06Z"
+      },
+      {
+        "headline": "Lucid stock plunges after report that EV maker is considering bankruptcy, which company denies",
+        "summary": "The report said Lucid was considering options that could include going private or filing for bankruptcy protection.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/14/lucid-stock-lcid-bankruptcy-report.html",
+        "published_at": "2026-07-14T18:42:11Z"
+      },
+      {
+        "headline": "Lebanon, Israel hold US-brokered talks in Rome to implement framework deal - Reuters",
+        "summary": "Lebanon, Israel hold US-brokered talks in Rome to implement framework deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVVXQVlKRGllTXBnSWpyQXlJUTZBOFl1Y1FjRE12cjc3MFZKeXRENlJXTlVuRGg1dXB3cGxSa2I1V1EwcHFxaHk5ZEo5anp0NjhuNE5NR0I2eG5Sc0xnb2p4dDZycF9rUVRVdGxPQWFYMlNGT1hLakh2MEh6dElLQU96bDN3WHhsbjF5V3UzcENhWXlSZ21pWWdkSlhjdklPWENzaFBsR2pPcGk3LV93aWVQNnEzRVE?oc=5",
+        "published_at": "2026-07-14T18:40:02Z"
+      },
+      {
+        "headline": "Trump drops Hormuz fee plan in favour of Gulf investment deals - Reuters",
+        "summary": "Trump drops Hormuz fee plan in favour of Gulf investment deals\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1NVbmwxanV3R25iWTRkMnNoY3hRblJYYVdDTU9FSGVrbDJkRDlNazBlbGV2MjBUYlNDX09Mcng5Vk9BdGJRSEIyNGdXdzlZOFV4aTh5N0xBSlB4WklnZ2VvUFc2WENOalA4Z1p0djZXVmFzV3RpMklJekp2U1JYbmxVREk4bTFtR19jQ2pJVzJkQU0xWmtsZzhBOHc5UkYtMGtld1RYUE91ZE9nNFQ5MTdvT2xxY2xoVjdzX2JqMG1uYy1IRTJz?oc=5",
+        "published_at": "2026-07-14T18:22:17Z"
+      },
+      {
+        "headline": "Morgan Stanley runs to Broadcom's defense as investors worry about competition",
+        "summary": "Fears of the the chipmaker losing market share are overblown, analysts say.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/14/analysts-run-to-broadcoms-defense-as-investors-worry-about-competition.html",
+        "published_at": "2026-07-14T17:48:55Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 751.86,
+    "spy_change_pct": 0.3591,
+    "spy_lean": "neutral",
+    "vix_close": 17.16,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64564.01,
+    "coinbase_premium_pct": -0.020116,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-14T21:13:40 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 211.8,
+        "change_pct": 4.0633,
+        "prev_close": 203.53
+      },
+      "AMD": {
+        "close": 548.13,
+        "change_pct": 2.5712,
+        "prev_close": 534.39
+      },
+      "TSM": {
+        "close": 420.39,
+        "change_pct": -0.2823,
+        "prev_close": 421.58
+      },
+      "SMCI": {
+        "close": 27.65,
+        "change_pct": -0.0362,
+        "prev_close": 27.66
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 719.69,
+        "change_pct": 1.117,
+        "prev_close": 711.74
+      },
+      "SOXX": {
+        "close": 567.92,
+        "change_pct": 2.5849,
+        "prev_close": 553.61
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64577,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 11,
+    "negative_count": 8,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1864,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Ethereum Foundation privacy team spins out as for-profit EthSystems to serve institutions with Lubin, Bitmine backing",
+        "url": "https://www.theblock.co/post/408331/ethereum-foundation-privacy-team-spins-out-as-for-profit-ethsystems-to-serve-institutions-with-lubin-bitmine-backing?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-14T20:56:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Velocity raises $38M to build stablecoin treasury infrastructure for enterprises",
+        "url": "https://cointelegraph.com/news/velocity-raises-38m-to-build-stablecoin-treasury-infrastructure-for-enterprises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-14T20:04:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeepMind CEO Says AGI Will Be Bigger Than Electricity or Fire",
+        "url": "https://decrypt.co/373511/deepmind-ceo-agi-bigger-than-electricity-fire",
+        "published_at": "2026-07-14T19:57:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-14T19:52:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US, UK treasuries to align transatlantic rules on tokenization and stablecoins",
+        "url": "https://cointelegraph.com/news/us-uk-treasuries-rules-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-14T19:45:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC orders Kalshi to honor Michigan trades, escalating clash with state regulators",
+        "url": "https://www.theblock.co/post/408323/cftc-orders-kalshi-honor-michigan-trades-escalating-clash-state-regulators?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-14T19:08:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US-UK transatlantic taskforce unveils digital asset roadmap promoting stablecoin innovation",
+        "url": "https://www.theblock.co/post/408305/us-uk-transatlantic-taskforce-unveils-digital-asset-roadmap-promoting-stablecoin-innovation?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-14T17:59:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CoinFund\u2019s David Pakman says crypto hasn\u2019t solved tokenomics",
+        "url": "https://www.theblock.co/post/408285/coinfunds-david-pakman-says-crypto-hasnt-solved-tokenomics?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-14T17:32:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK government defers capital gains on certain crypto with \u2018no gain, no loss\u2019 approach",
+        "url": "https://cointelegraph.com/news/uk-government-capital-gains-lending-liquidity-no-gain-no-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-14T17:24:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wall Street turns cautious on Circle as analysts warn USDC economics face mounting pressure",
+        "url": "https://www.theblock.co/post/408280/wall-street-cautious-circle-warn-usdc-economics?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-14T17:14:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
