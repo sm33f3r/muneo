@@ -1,0 +1,185 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-16T21:54:37 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 75.93,
+    "price_change_24h_pct": -1.7983,
+    "price_change_7d_pct": -2.7429,
+    "volume_24h_usd": 1666255025,
+    "market_cap_usd": 44228391385,
+    "volume_to_mcap_ratio": 0.037674,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -74.1136,
+    "cex_price_usd": 75.96,
+    "cex_24h_high": 77.74,
+    "cex_24h_low": 75.39,
+    "cex_dex_spread_pct": 0.03951,
+    "volume_on_up_days_usd": 2398199446.5403576,
+    "volume_on_down_days_usd": 1881742757.3355792,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 43.4397,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -5.046692,
+      "signal_line": -6.375998,
+      "histogram": 1.329305
+    },
+    "macd_lean": "bullish",
+    "sma_50": 91.2402,
+    "price_vs_sma50_pct": -16.7801,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 96.288991,
+      "mid": 79.077,
+      "lower": 61.865009,
+      "width_pct": 43.5322,
+      "position": 0.3755
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 671698494.46,
+    "oi_lean": null,
+    "funding_rate_latest": -3.49e-06,
+    "funding_rate_7d_avg": 2.165809523809524e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.3952,
+    "btc_long_account_pct": 58.25,
+    "btc_short_account_pct": 41.75,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 4868648113.0,
+    "tvl_7d_change_pct": -1.8021,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 5909230.0,
+    "chain_fees_7d_avg_usd": 6190481.57,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 3,
+    "positive_count": 2,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.6667,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
+        "url": "https://decrypt.co/373681/morgan-stanley-launches-bitcoin-ethereum-solana-trading-etrade",
+        "published_at": "2026-07-16T20:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Senate unanimously adopts resolution opposing clemency for SBF",
+        "url": "https://cointelegraph.com/news/senate-adopts-resolution-opposing-clemency-sbf-ftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T09:26:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Reclaims $77 Support As DEX Activity Keeps Bulls Interested",
+        "url": "https://bitcoinist.com/solana-reclaims-77-support-as-dex-activity-keeps-bulls-interested/",
+        "published_at": "2026-07-16T00:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 64162.0,
+    "btc_24h_change_pct": -0.9543,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.3808,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2204247756417.3486,
+    "eth_btc_ratio": 0.029272,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 750.77,
+    "spy_change_pct": -0.5352,
+    "spy_lean": "bearish",
+    "vix_close": 15.67,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 34,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 70.37,
+    "cg_sentiment_votes_down_pct": 29.63,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
