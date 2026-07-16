@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-16T21:11:35 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2285823139977.36,
+    "total_market_cap_change_24h_pct": -1.0573,
+    "total_volume_24h_usd": 64096228033.94,
+    "btc_dominance_pct": 56.2614,
+    "eth_dominance_pct": 9.9013,
+    "total2_usd": 999786878264.05,
+    "total3_usd": 773460317730.45,
+    "active_cryptocurrencies": 17613,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 8.9931,
+        "price_usd": 0.835272,
+        "market_cap_usd": 201419740
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "price_change_24h_pct": 7.433,
+        "price_usd": 0.059749,
+        "market_cap_usd": 2754017841
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 6.7694,
+        "price_usd": 0.119649,
+        "market_cap_usd": 119644068
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": 6.5557,
+        "price_usd": 0.050754,
+        "market_cap_usd": 399736054
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": 5.8026,
+        "price_usd": 0.0393943,
+        "market_cap_usd": 967037525
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": -9.2349,
+        "price_usd": 6.21e-06,
+        "market_cap_usd": 124588759
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -8.1034,
+        "price_usd": 0.00828859,
+        "market_cap_usd": 459024116
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -7.0714,
+        "price_usd": 0.135098,
+        "market_cap_usd": 135391607
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": -7.0511,
+        "price_usd": 62.56,
+        "market_cap_usd": 13918622230
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": -6.9308,
+        "price_usd": 0.056963,
+        "market_cap_usd": 110645952
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64114,
+    "price_change_24h_pct": -1.1386,
+    "price_change_7d_pct": 1.3575,
+    "market_cap_usd": 1285952663298,
+    "volume_24h_usd": 27077953265,
+    "direction": "bearish",
+    "oi_usd": 6470321150.68,
+    "funding_rate_latest": 6.102e-05,
+    "funding_rate_7d_avg": 6.368380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3952,
+    "long_account_pct": 58.25,
+    "short_account_pct": 41.75,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1874.28,
+    "price_change_24h_pct": -2.5141,
+    "price_change_7d_pct": 7.2618,
+    "market_cap_usd": 226229024186,
+    "volume_24h_usd": 9942806275,
+    "eth_btc_ratio": 0.029234,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75605295372.55,
+    "stablecoin_market_cap_usd": 309259751134.13,
+    "stablecoin_dominance_pct": 13.5295
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 23,
+    "headlines": [
+      {
+        "headline": "Iran and US step up attacks, release of American in dispute - Reuters",
+        "summary": "Iran and US step up attacks, release of American in dispute\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGxQSEpXZmFYRldBSGhRcTZWZlBvbUFOZFJDeVoxdXVZczVtY2w1TlhqSnhFaGxsSWlINnBKbDZhNi1mT0Q1anJRTjM0Z0toaVg3QXhMcmkyZlBQRTZ1cVZvbmhZSmU4WDU4NGdnN3FJZGRzbnYzdm0zQUVxWjNUZ1dTZHlwMTA0VTNhbUg0UHVxZmFLUlVtSmVfeHZCb0tfWEE?oc=5",
+        "published_at": "2026-07-16T19:48:46Z"
+      },
+      {
+        "headline": "Vance says some in Israeli government sought to sway US on Iran deal - Reuters",
+        "summary": "Vance says some in Israeli government sought to sway US on Iran deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY1FtT0xCbzMyYXpXME1CenRhVDZjdmpYX051ZlJpUDVQcms2LWhfY01EU2NWc0xkUE5aQTJaSDYyQ0x6SDZtTUJNUVlhZXdfOThFUkpGV3VtMUZFNGJxMU0tZ0pqSTBQZWoycHA2R0FoY2pzQzRoN29WSWNhY1ZzSkJIU1NBX21QOHZiTVctRVBZNzBtcEFYSUtqWFlkT1pONUdQVGdLRXN4MHVNVURQWHgzS1dCZDhPcE5lZ0JGQQ?oc=5",
+        "published_at": "2026-07-16T19:34:27Z"
+      },
+      {
+        "headline": "Story on booms heard in UAE's downtown Dubai is withdrawn - Reuters",
+        "summary": "Story on booms heard in UAE's downtown Dubai is withdrawn\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSF95OG9ET3BDTFJ1NGZZTlROWmJoNk90YVlsc2pPdzVTMG1PQm1DZzFNZWdZQUQ0aDlEUTFiaElRcGdpQWJkRGFXb0lPQ3ZiYkJwM3RxYmFoeElPblRfc2VqeFE5TFZaVVhtWUIxMF9LdUpoWFkzbk5nci0wcXFwV09DTWwzZnp5TEpIczdNMG1CMVpRX3JZT0ExdjUzaTZZ?oc=5",
+        "published_at": "2026-07-16T19:10:41Z"
+      },
+      {
+        "headline": "Here's a rapid-fire update on our stock portfolio, including the 5 names to buy",
+        "summary": "Jim Cramer and Jeff Marks offered their latest thoughts on the Investing Club's portfolio during the July Monthly Meeting.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/16/heres-a-rapid-fire-update-on-our-stock-portfolio-including-the-5-names-to-buy.html",
+        "published_at": "2026-07-16T18:50:06Z"
+      },
+      {
+        "headline": "We're trimming our hedge on lower rates, which may take longer to materialize",
+        "summary": "While we think it a great \"house,\" it is unfortunately in an awful \"neighborhood.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/16/were-trimming-our-hedge-on-lower-rates-which-may-take-longer-to-materialize.html",
+        "published_at": "2026-07-16T18:20:40Z"
+      },
+      {
+        "headline": "How a nightmare from my hedge fund days informs my current market view",
+        "summary": "I started Thursday's July Monthly Meeting of the CNBC Investing Club with Sunday's nightmare.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/16/cramer-a-nightmare-from-my-hedge-fund-days-informs-my-current-view.html",
+        "published_at": "2026-07-16T17:40:19Z"
+      },
+      {
+        "headline": "42% of adults rely on their parents for financial support\u2014there are no 'bad guys' here, says financial therapist",
+        "summary": "Parents can maximize the impact of their support by ensuring their gifts alleviate financial stress or help their kids move closer to their long-term goals.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html",
+        "published_at": "2026-07-16T16:30:01Z"
+      },
+      {
+        "headline": "Here's what to expect when Netflix reports earnings after the bell",
+        "summary": "Investors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to consider potential M&A.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html",
+        "published_at": "2026-07-16T16:12:11Z"
+      },
+      {
+        "headline": "Syria seizes weapons hidden in tanker truck, says cargo was for Hezbollah - Reuters",
+        "summary": "Syria seizes weapons hidden in tanker truck, says cargo was for Hezbollah\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVmZhOHVoVVJqdS05SFJFSUUycXRSVkl5dG95d1dLRVZPTkZzS2psTDNTZ3pOMm9qejZWYUtnb0hBX3dxVWxFOFVoZFVZNHgtQ1pJOU1Mc0pZRkRFamhhZzJKaTRhNGM0eE9mbnhqTlY5dGZlZFJ5Nm42TTBWQjd2d0piTE9rN3FfS1dMdnlLRzV5VzVxV1FyaE85TlkxWk5GOFZBdEZHNEI4SGl4d2JDMHhLNlRFRjg2NElYN0NsX1h2YVBiUGc?oc=5",
+        "published_at": "2026-07-16T16:06:23Z"
+      },
+      {
+        "headline": "Houthi leader threatens Saudi oil facilities if Riyadh escalates in Yemen - Reuters",
+        "summary": "Houthi leader threatens Saudi oil facilities if Riyadh escalates in Yemen\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGI2VTlhcVZDeTFzdlRiblJQdUhDSU5nLVRuNFJWdHZhZ3NjNF9OYWs5TDNfUF9jQVdsa1lIdWJUQ3Bub29ZQ28xWHlyUURrZnFnVVMzQkI4aWNCblVXUUNxanFOakIta0VEYlZZYWJYWno2SjRCZWVaNl94cEhfa0lEVlZnV09SSVBxMnI3R1F1WjZmdXFpNUhwWXhSbFU1X3VNRFB3QWNrdEU2RTNIVWI4eTdOSzhDeTdrOWNGbnVodw?oc=5",
+        "published_at": "2026-07-16T15:51:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 750.77,
+    "spy_change_pct": -0.5352,
+    "spy_lean": "bearish",
+    "vix_close": 15.67,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64117.21,
+    "coinbase_premium_pct": 0.005007,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-16T21:11:35 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 207.4,
+        "change_pct": -2.4,
+        "prev_close": 212.5
+      },
+      "AMD": {
+        "close": 500.94,
+        "change_pct": -5.3294,
+        "prev_close": 529.14
+      },
+      "TSM": {
+        "close": 409.74,
+        "change_pct": -2.3219,
+        "prev_close": 419.48
+      },
+      "SMCI": {
+        "close": 24.68,
+        "change_pct": -8.2187,
+        "prev_close": 26.89
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 705.94,
+        "change_pct": -1.644,
+        "prev_close": 717.74
+      },
+      "SOXX": {
+        "close": 530.5,
+        "change_pct": -4.4609,
+        "prev_close": 555.27
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64114,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 34,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 64,
+    "positive_count": 18,
+    "negative_count": 9,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.2812,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Leaks Reveal Suno Fed Thousands of Hours of Deezer, YouTube and Pond5 Data Into Its AI",
+        "url": "https://decrypt.co/373682/leaks-reveal-suno-fed-thousands-hours-deezer-youtube-pond5-data-ai",
+        "published_at": "2026-07-16T21:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump teleprompter operator made $100K betting on Kalshi markets tied to speeches: ABC",
+        "url": "https://cointelegraph.com/news/trump-teleprompter-operator-made-100k-betting-kalshi-markets-tied-to-speeches-abc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T20:49:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin outlook improves amid 6% weekly gain: Can BTC bulls push higher?",
+        "url": "https://cointelegraph.com/markets/bitcoin-outlook-improves-amid-6-weekly-gain-can-btc-bulls-push-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T20:29:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "1inch co-founder says he was fired, announces new venture",
+        "url": "https://cointelegraph.com/news/1inch-co-founder-not-involved-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T20:05:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
+        "url": "https://decrypt.co/373681/morgan-stanley-launches-bitcoin-ethereum-solana-trading-etrade",
+        "published_at": "2026-07-16T20:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MegaETH sunsets Mega Mafia accelerator program, noting \u2018most\u2019 of its successful apps left",
+        "url": "https://www.theblock.co/post/408718/megaeth-sunsets-mega-mafia-accelerator-program-noting-most-successful-apps-left?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-16T19:58:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Injective files for SEC transfer agent registration to bring securities ownership records onchain",
+        "url": "https://cointelegraph.com/news/injective-files-sec-transfer-agent-registration-bring-securities-ownership-records-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T19:27:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says bitcoin outlook sees \u2018encouraging sign\u2019 as Strategy boosts cash reserves",
+        "url": "https://www.theblock.co/post/408712/jpmorgan-bitcoin-outlook-encouraging-sign-strategy-cash-reserves?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-16T19:21:56+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-16T19:04:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Q-Day Recovery Proposal Aims to Let Users Prove Ownership After Quantum Attack",
+        "url": "https://decrypt.co/373666/bitcoin-q-day-recovery-proposal-prove-ownership-quantum-attack",
+        "published_at": "2026-07-16T19:00:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
