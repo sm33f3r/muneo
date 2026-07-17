@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-17T21:51:14 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 74.96,
+    "price_change_24h_pct": -1.2481,
+    "price_change_7d_pct": -3.7736,
+    "volume_24h_usd": 1638567257,
+    "market_cap_usd": 43664216066,
+    "volume_to_mcap_ratio": 0.037527,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -74.4431,
+    "cex_price_usd": 75.04,
+    "cex_24h_high": 76.04,
+    "cex_24h_low": 73.39,
+    "cex_dex_spread_pct": 0.106724,
+    "volume_on_up_days_usd": 2398199446.5403576,
+    "volume_on_down_days_usd": 1881742757.3355792,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 43.4397,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -5.046692,
+      "signal_line": -6.375998,
+      "histogram": 1.329305
+    },
+    "macd_lean": "bullish",
+    "sma_50": 91.2402,
+    "price_vs_sma50_pct": -17.8432,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 96.288991,
+      "mid": 79.077,
+      "lower": 61.865009,
+      "width_pct": 43.5322,
+      "position": 0.3755
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 668831753.63,
+    "oi_lean": null,
+    "funding_rate_latest": -4.44e-05,
+    "funding_rate_7d_avg": 1.1731428571428571e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5967,
+    "btc_long_account_pct": 61.49,
+    "btc_short_account_pct": 38.51,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4822694819.0,
+    "tvl_7d_change_pct": -2.1783,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 6924168.0,
+    "chain_fees_7d_avg_usd": 6249469.14,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "China\u2019s Kimi K3 Is Out\u2014And Beats Claude Fable and GPT 5.6 Sol on Key Benchmarks",
+        "url": "https://decrypt.co/373716/china-kimi-k3-largest-open-source-ai-model-ever-beats-claude-fable-gpt-5-6-sol",
+        "published_at": "2026-07-17T17:36:42+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 64049.0,
+    "btc_24h_change_pct": -0.1593,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.6142,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2191985351683.8687,
+    "eth_btc_ratio": 0.028745,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 743.15,
+    "spy_change_pct": -1.0084,
+    "spy_lean": "bearish",
+    "vix_close": 16.73,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 72.22,
+    "cg_sentiment_votes_down_pct": 27.78,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
