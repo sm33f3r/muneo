@@ -1,0 +1,415 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-18T21:14:44 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2291603032290.46,
+    "total_market_cap_change_24h_pct": 0.7019,
+    "total_volume_24h_usd": 36846729924.42,
+    "btc_dominance_pct": 56.5634,
+    "eth_dominance_pct": 9.7701,
+    "total2_usd": 995393474722.19,
+    "total3_usd": 771501948011.28,
+    "active_cryptocurrencies": 17645,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 38.9908,
+        "price_usd": 0.157417,
+        "market_cap_usd": 157417497
+      },
+      {
+        "symbol": "BC",
+        "name": "BCGame Coin",
+        "price_change_24h_pct": 11.4544,
+        "price_usd": 0.01717485,
+        "market_cap_usd": 171564472
+      },
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": 9.7319,
+        "price_usd": 9.05e-06,
+        "market_cap_usd": 181514542
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": 8.0686,
+        "price_usd": 0.059418,
+        "market_cap_usd": 115663536
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price_change_24h_pct": 7.2634,
+        "price_usd": 0.085162,
+        "market_cap_usd": 931817976
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BONK",
+        "name": "Bonk",
+        "price_change_24h_pct": -10.3222,
+        "price_usd": 2.82e-06,
+        "market_cap_usd": 247715190
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": -6.7376,
+        "price_usd": 0.356304,
+        "market_cap_usd": 336407169
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": -6.6823,
+        "price_usd": 0.445795,
+        "market_cap_usd": 432199600
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": -6.6114,
+        "price_usd": 0.348467,
+        "market_cap_usd": 1696773442
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": -5.7761,
+        "price_usd": 0.00179501,
+        "market_cap_usd": 170657618
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64650,
+    "price_change_24h_pct": 0.8071,
+    "price_change_7d_pct": 0.4832,
+    "market_cap_usd": 1296756473703,
+    "volume_24h_usd": 14744364353,
+    "direction": "neutral",
+    "oi_usd": 6549700938.9,
+    "funding_rate_latest": 3.326e-05,
+    "funding_rate_7d_avg": 5.7801904761904764e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4994,
+    "long_account_pct": 59.99,
+    "short_account_pct": 40.01,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1857.91,
+    "price_change_24h_pct": 0.7598,
+    "price_change_7d_pct": 1.8095,
+    "market_cap_usd": 224126891832,
+    "volume_24h_usd": 4339882310,
+    "eth_btc_ratio": 0.028738,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75662424401.63,
+    "stablecoin_market_cap_usd": 308874785508.72,
+    "stablecoin_dominance_pct": 13.4785
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 7,
+    "headlines": [
+      {
+        "headline": "Two US service members in Jordan killed in Iranian attack, US says - Reuters",
+        "summary": "Two US service members in Jordan killed in Iranian attack, US says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORC1tbUY3UU5OWWVubE9NZzhlTjZDNGNxMERBSUwxZ0d2clRBaldEZWtTUXhjZmVzb182N1M4T0VCY1JnQWhqNW5oM3ZIUV8wbno1TkdYbFM2RGNsYklHVFJ4VTZpVDdHOHcyY1BZUWNLaGxBMFBTQUJVanMxellKenFwazlMQWVYeERKa2dDVFZ3a2JBaElnRHVJcGdVc0RtVGZhM3hsRjF3REZvRzZCeFlFUQ?oc=5",
+        "published_at": "2026-07-18T17:27:35Z"
+      },
+      {
+        "headline": "Iran's Supreme Leader says US breaches show Trump's signature is 'worthless' - Reuters",
+        "summary": "Iran's Supreme Leader says US breaches show Trump's signature is 'worthless'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzdnRWcydkxHbFRjbEdiRnZnMUFwclQ1N3ZwZTVHbWRKMTFNb21ldHhfNDRBaFF1VmRoRHpUTFJlREVhc0MwZUExOUlxcWlvejU0X256Q2J4MzE0QTVaWG42WGpMS0NVcWNzOXJqX1RQRjh1czFncm1DM2ZfWm9xT0pkSWxLeDZ2ZU1mOE9KQy1JMGFyMlRCamNBSjVWNExTUkRTNXVvX0w1YWREaXJCMmNVUXVZR2oxVlBLd0lWdnB1WFUt?oc=5",
+        "published_at": "2026-07-18T16:59:43Z"
+      },
+      {
+        "headline": "Why Dana White thinks much more of UFC's future will be Power Slap and boxing",
+        "summary": "UFC president and CEO Dana White predicted that Power Slap may become as big as his flagship fighting sport at the Game Plan conference in New York.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/18/ufc-dana-white-power-slap-boxing.html",
+        "published_at": "2026-07-18T14:41:49Z"
+      },
+      {
+        "headline": "Korean beauty products are becoming mainstream in the U.S. Why there may be even more growth ahead",
+        "summary": "Morgan Stanley forecasts that K-beauty sales in the U.S. can reach approximately $4 billion in 2026.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/18/korean-beauty-products-are-becoming-mainstream-in-the-us.html",
+        "published_at": "2026-07-18T11:10:25Z"
+      },
+      {
+        "headline": "US military says it completed latest strikes on Iran, marking 7th consecutive night of attacks - Reuters",
+        "summary": "US military says it completed latest strikes on Iran, marking 7th consecutive night of attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1Zpc0tXYzd1NVhsVFJ2VHRXTkl5ZTA0Y0I0Yk9TeFNKbFZoRWpEWTM0Y0NBdmlKUFJIMHlFRGdYWTNDZEF2THo1azkyV3JabU9GOUxGQ3hwY2pxOUJXVUVlaUxHeFpiNVFxYVA2NTZmMTNLOHY1b3JjTVJfT0piMnFoZ2ZicnVXUkdMWG5jY21MUUxLZnpKeDB0V2NqaEdyWHZBTzRXV18zQzhJek9tREx3MW8wcGVaa25MbExTV0tXZWZyd2x3X21ueGNUUQ?oc=5",
+        "published_at": "2026-07-18T04:59:24Z"
+      },
+      {
+        "headline": "US says two military personnel killed in Jordan - Reuters",
+        "summary": "US says two military personnel killed in Jordan\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
+        "published_at": "2026-07-18T03:55:00Z"
+      },
+      {
+        "headline": "Boeing keeps 20-year forecast for jet demand steady, shrugs off Iran war impact - Reuters",
+        "summary": "Boeing keeps 20-year forecast for jet demand steady, shrugs off Iran war impact\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVC1qb3huZlFwTlFVOEpuUjZwWVdQMl9NNFZDQVdWXzZlSzl2UG1oTmhNeXJzeTZaYVBxcWVVQ2ZSVFFOZGp5S3k3Rkpia0tvOHZRd05nMkdBRFBWVnZlRW94WkxNSkxmQW5kYS1rbUxScUotSW8wYTY5RWthOUVLNlJCZEduN25ZT0FOUms5OEJRajRPd3ppeTdqaGs1ZEJjcnBweGJaY3NQWjVQU3BlaTdXcDJSai1GWS1vRmdrRmpBYTlST1NxQVRYUDdFeVdGX2JJ?oc=5",
+        "published_at": "2026-07-17T23:03:47Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 743.29,
+    "spy_change_pct": -0.9897,
+    "spy_lean": "bearish",
+    "vix_close": 16.73,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 64725.99,
+    "coinbase_premium_pct": 0.117541,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-18T21:14:44 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 202.81,
+        "change_pct": -2.2131,
+        "prev_close": 207.4
+      },
+      "AMD": {
+        "close": 495.76,
+        "change_pct": -1.0341,
+        "prev_close": 500.94
+      },
+      "TSM": {
+        "close": 398.37,
+        "change_pct": -2.7749,
+        "prev_close": 409.74
+      },
+      "SMCI": {
+        "close": 24.18,
+        "change_pct": -2.0259,
+        "prev_close": 24.68
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 695.33,
+        "change_pct": -1.503,
+        "prev_close": 705.94
+      },
+      "SOXX": {
+        "close": 521.81,
+        "change_pct": -1.6381,
+        "prev_close": 530.5
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64650,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "LINK Bullish Pennant Forms As Chainlink Buy Volume Rebounds",
+        "url": "https://bitcoinist.com/link-bullish-pennant-forms-as-chainlink-buy-volume-rebounds/",
+        "published_at": "2026-07-18T19:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SUI Prints Bullish Flag Pattern As Traders Watch For Breakout",
+        "url": "https://bitcoinist.com/sui-prints-bullish-flag-pattern-as-traders-watch-for-breakout/",
+        "published_at": "2026-07-18T19:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Whale Wallet Count Declines 3.6% Since May",
+        "url": "https://bitcoinist.com/solana-whale-wallet-count-declines-36-since-may/",
+        "published_at": "2026-07-18T19:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Auto-Burn Destroys 1.6M BNB Worth $932M",
+        "url": "https://bitcoinist.com/binance-auto-burn-destroys-16m-bnb-worth-932m/",
+        "published_at": "2026-07-18T18:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Japan, which holds no bitcoin, taps EVO Fund in planned $60 million raise to finally buy some",
+        "url": "https://www.theblock.co/post/408838/bitcoin-japan-which-holds-no-bitcoin-taps-evo-fund-in-planned-60-million-raise-to-finally-buy-some?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-18T18:47:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Symbiosis Private USDT Swaps On TRON Add A New Layer To Stablecoin Privacy Debate",
+        "url": "https://bitcoinist.com/symbiosis-private-usdt-swaps-on-tron-add-a-new-layer-to-stablecoin-privacy/",
+        "published_at": "2026-07-18T18:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Infrastructure Handover Marks A New Test For Decentralized Governance",
+        "url": "https://bitcoinist.com/cardano-infrastructure-handover-marks-a-new-test-for-decentralized-governance/",
+        "published_at": "2026-07-18T18:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Sanctions Freeze $131M In Iranian Central Bank Stablecoins On TRON",
+        "url": "https://bitcoinist.com/us-sanctions-freeze-131m-in-iranian-central-bank-stablecoins-on-tron/",
+        "published_at": "2026-07-18T18:05:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainlink Labs Exec Says CLARITY Act Could Unlock Institutional Crypto",
+        "url": "https://bitcoinist.com/chainlink-labs-exec-says-clarity-act-could-unlock-institutional-crypto/",
+        "published_at": "2026-07-18T17:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GPT-5.6 vs Fable 5 Review: Which One You Pick Depends on These Factors",
+        "url": "https://decrypt.co/373770/openai-gpt-5-6-vs-anthropic-fable-5-review",
+        "published_at": "2026-07-18T15:21:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
