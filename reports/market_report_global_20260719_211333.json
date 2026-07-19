@@ -1,0 +1,403 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-19T21:12:38 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2289830863845.7,
+    "total_market_cap_change_24h_pct": -0.2154,
+    "total_volume_24h_usd": 38944453893.24,
+    "btc_dominance_pct": 56.4701,
+    "eth_dominance_pct": 9.8291,
+    "total2_usd": 996760026600.91,
+    "total3_usd": 771690254573.1,
+    "active_cryptocurrencies": 17660,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 56.8011,
+        "price_usd": 0.245528,
+        "market_cap_usd": 245270689
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 20.2199,
+        "price_usd": 0.318641,
+        "market_cap_usd": 142528525
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 14.8918,
+        "price_usd": 0.00115702,
+        "market_cap_usd": 126157297
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 14.3136,
+        "price_usd": 0.00187074,
+        "market_cap_usd": 748395973
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 13.9059,
+        "price_usd": 0.940559,
+        "market_cap_usd": 227065940
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": -7.9797,
+        "price_usd": 8.37e-06,
+        "market_cap_usd": 167687638
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -4.9657,
+        "price_usd": 0.01394551,
+        "market_cap_usd": 9161509958
+      },
+      {
+        "symbol": "BORG",
+        "name": "SwissBorg",
+        "price_change_24h_pct": -4.5889,
+        "price_usd": 0.14761,
+        "market_cap_usd": 144856383
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -4.4585,
+        "price_usd": 0.715594,
+        "market_cap_usd": 572651402
+      },
+      {
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "price_change_24h_pct": -4.4488,
+        "price_usd": 0.01495779,
+        "market_cap_usd": 158022007
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64458,
+    "price_change_24h_pct": -0.3318,
+    "price_change_7d_pct": 0.4692,
+    "market_cap_usd": 1292936146196,
+    "volume_24h_usd": 15638371244,
+    "direction": "neutral",
+    "oi_usd": 6615177253.47,
+    "funding_rate_latest": 5.235e-05,
+    "funding_rate_7d_avg": 5.4945714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3832,
+    "long_account_pct": 58.04,
+    "short_account_pct": 41.96,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1864.18,
+    "price_change_24h_pct": 0.2479,
+    "price_change_7d_pct": 2.3896,
+    "market_cap_usd": 224979491744,
+    "volume_24h_usd": 6000674175,
+    "eth_btc_ratio": 0.028921,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75735134102.37,
+    "stablecoin_market_cap_usd": 309410229474.8,
+    "stablecoin_dominance_pct": 13.5124
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 12,
+    "headlines": [
+      {
+        "headline": "US service member killed in northern Iraq, U.S. Central Command says - Reuters",
+        "summary": "US service member killed in northern Iraq, U.S. Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWhlMjhBVDQ5MWpFeHNXcUZOcHF4S2NYVzlRRXo4WFhOTmRyWHI1elU3aGRKN21pVzJMTFpvQkIwak9yWnNVbERyNFpuUUhZYTR1SHA3UUJYSlc2MDNDSjhkaXROVFBuelhQbV8xSnlSYTl2Um5VOXNHQ0VqdXRzaEo2djloRWNuSXNaUm1kS2J5VkhvTC1qMDdkWmdmZlo4c3RVRjZ2WlVPUV9SR08yZktIYkNneHc?oc=5",
+        "published_at": "2026-07-19T19:31:29Z"
+      },
+      {
+        "headline": "Stop asking 'How was work today?' Successful, mentally strong couples ask these 7 questions instead",
+        "summary": "This question can get you \"stuck in a communication rut,\" says Amy Morin, author of \"13 Things Mentally Strong Couples Don't Do.\" Here's what to ask instead.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/19/stop-asking-how-was-work-today-successful-mentally-strong-couples-ask-these-questions-instead.html",
+        "published_at": "2026-07-19T13:30:01Z"
+      },
+      {
+        "headline": "Gulf bourses retreat as US\u2013Iran hostilities intensify - Reuters",
+        "summary": "Gulf bourses retreat as US\u2013Iran hostilities intensify\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTzIxWFlrMnEyMFZoNHBRTjFybFYyNWtmNktvMlRFaGM0X2RBeWNzZzhycWxlVl9rSTlpdnBGVzY2dlZzWkFGUThqbkZPQUREak85NUREUjFkalExaHBJSk53aEFScDA0dFY2b1NwMlNiRVNkWndZanEzM05HVF9NNktScnUyNDdESkY5VlBTZDNsU3c0ZVY4aG1aaWZlZi1iQ3J2Y1Rn?oc=5",
+        "published_at": "2026-07-19T12:53:43Z"
+      },
+      {
+        "headline": "Trump says Republicans should add Iran to Russian bill - Reuters",
+        "summary": "Trump says Republicans should add Iran to Russian bill\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnFZbzUwRlM5eW5NN1JqbnNQcHdUdEsxRk11OEdEeEJ4RnltcERZSkl0dlVneU5mYlhURlN4R2F1TUliWjZ2dVZUX3dJS3JucHBEUG5hY04yUUgzWnF3SHVaNTBwb3o3cUdqNEVLWGttNjdqZ2lzSDJWQy1LeW1saG9xSjZxaXpzSFg1QzNWeG50MmtDRnpVb2NsNFlpRENJSjJ4ZTlfby0?oc=5",
+        "published_at": "2026-07-19T12:11:49Z"
+      },
+      {
+        "headline": "American Airlines CEO lays out his vision to close a more than $3 billion profit gap",
+        "summary": "The carrier is working on improving reliability, investing in more premium seats and lounges, and considering Boeing and Airbus for a new wide-body plane order.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
+        "published_at": "2026-07-19T12:00:01Z"
+      },
+      {
+        "headline": "Israel to receive more US refuelling planes as Iran attacks intensify, Israeli officials say - Reuters",
+        "summary": "Israel to receive more US refuelling planes as Iran attacks intensify, Israeli officials say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR28xNFpKXzVoWU9qY0YtNnBqZlh4ck9aeTZnc1VlOVVKaTczV2J1M1pqSmRwUFc1TnFIRU5wRktydXhhXzhSY1ctbDhzU3dkX3I0dEliRDFJWDNUaFkzUUFsMEg4NnV2SWFpOGFhdHdMRHc2SDc4NE0tcXhpZ0VUVGNTQUVQazZONGdlT3hvbm4tQ0RoaFNBVkZWR0pBTlhiRmNJMnl1RFdzWWRrQl83akkybFFRUy1odzdkdFFmTmhXbS1fNDNPcG9UY0RjeFk?oc=5",
+        "published_at": "2026-07-19T11:51:03Z"
+      },
+      {
+        "headline": "Jordan has not ordered evacuation of Aqaba airport or seaport, gov't spokesperson says - Reuters",
+        "summary": "Jordan has not ordered evacuation of Aqaba airport or seaport, gov't spokesperson says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaF9oRGN1WHlqZHNLYTZ6d2V6TC10YnRqMFFmTEYzUEhDejRTV0xNUHBVdXV6TTFNNUNGUFhOSHV6WWZTZGFmX09obWZLNTV6Wm9raTdhU2tDekRCSUtONzdiQkk0dnNBQ2RKMUE1cVp5NG42R05pdkhtU0VOV1hEYVJNSTBUQU1BSGd5MlYzeGNmbHZudE1GalJ5MENvUHBJUW1zZllPRl9DTzhxS280Qklfbi1IYWM4Szg1OUk5bHR5ZHJEb1Y4NDRn?oc=5",
+        "published_at": "2026-07-19T11:13:41Z"
+      },
+      {
+        "headline": "Gulf crude exports jump in July but shipments slowing on renewed hostilities, data shows - Reuters",
+        "summary": "Gulf crude exports jump in July but shipments slowing on renewed hostilities, data shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON0s2bmk4NkZfVGZ5R2tpZzEwYXo4Ymhxb0lyYUlNQlR4X29mekhzS0RGUndSMllMbnpZTGdRYlRZV3NmT0dBNGFyOTkxSFNTZEJTcE05cWtoNzREYU16TW5IUGJ4Zm9qa0lkbUI5Rmg1X1dldEI4MnZJdjNLcTBjTlkyMnRPSzRaUGdtNG9hWFRkaExsV3B4S3ZTb3ptaGlmM2w1ZWcteU5Jc1RTSGFRVjJncHZZLXoxUFliWTFWdGhHWnlkSkRudQ?oc=5",
+        "published_at": "2026-07-19T11:03:43Z"
+      },
+      {
+        "headline": "Germany's Merz signals possible opportunity for cabinet reshuffle - Reuters",
+        "summary": "Germany's Merz signals possible opportunity for cabinet reshuffle\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbUpObUw2RENVdFZ3QnhnOElIYmoxTFlhbmRFdGIwelFwcFF4c0JvNmRzTWtmWUxXNkk1WWctZDBrQnRHeGpacTBrcXU1eWdIYURhRDlMbXl4NjBpN2Q4MGc5dnhpVUU3eXhFaTluQUVsRVNFUTRZbk40VlBXNUZnU1BoVXlKQ084dy1tREFXeGJBVWY4UHdPRmtUbUdVc2xHNS1UaQ?oc=5",
+        "published_at": "2026-07-19T10:17:43Z"
+      },
+      {
+        "headline": "Lebanon's Aoun to meet Trump at White House, hoping to generate pressure on Israel - Reuters",
+        "summary": "Lebanon's Aoun to meet Trump at White House, hoping to generate pressure on Israel\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOU4yVVlYeXdhdDFTY0pNZUZjSzRvWE1mWi1NcF9MVUI5Y3N3aTRrRzU2RnpCc2tzVV9LS21EQ1RPdUFDN0VnVURKZ0V5RTFScVUtTElSUlp3VU1xZE45UWY3ZmV6cnFmeEVFSE4yMEZ5UVFmVEFwczBtRzdoS3dyUGszV2V3anJEOTBOQ3l0bS16aU0zeU8tYUdwSzRBenlEZmVVT2oxNjZCU21mbkRzN1JIakN4UnoxRlpJWjVCNA?oc=5",
+        "published_at": "2026-07-19T06:03:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5046,
+    "dxy_lean": "neutral",
+    "spy_close": 743.29,
+    "spy_change_pct": -0.9897,
+    "spy_lean": "bearish",
+    "vix_close": 16.73,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 64483.7,
+    "coinbase_premium_pct": 0.039871,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-19T21:12:38 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 202.81,
+        "change_pct": -2.2131,
+        "prev_close": 207.4
+      },
+      "AMD": {
+        "close": 495.76,
+        "change_pct": -1.0341,
+        "prev_close": 500.94
+      },
+      "TSM": {
+        "close": 398.37,
+        "change_pct": -2.7749,
+        "prev_close": 409.74
+      },
+      "SMCI": {
+        "close": 24.18,
+        "change_pct": -2.0259,
+        "prev_close": 24.68
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 695.33,
+        "change_pct": -1.503,
+        "prev_close": 705.94
+      },
+      "SOXX": {
+        "close": 521.81,
+        "change_pct": -1.6381,
+        "prev_close": 530.5
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64458,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 7,
+    "positive_count": 0,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Upbit parent Dunamu faces sanction process nearly eight months after $30 million hack: report",
+        "url": "https://www.theblock.co/post/408848/upbit-parent-dunamu-faces-sanction-process-nearly-eight-months-after-30-million-hack-report?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-19T20:31:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-19T18:23:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "France orders internet providers to block Polymarket ahead of World Cup final",
+        "url": "https://www.theblock.co/post/408846/france-orders-internet-providers-to-block-polymarket-ahead-of-world-cup-final?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-19T17:56:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Saylor turns up heat with \u2018110 reasons\u2019 why BIP-110 is a bad idea",
+        "url": "https://cointelegraph.com/news/saylor-turns-up-heat-with-110-reasons-why-bip-110-is-a-bad-idea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-19T16:37:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US agencies miss GENIUS Act deadline for final stablecoin rules",
+        "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-19T12:56:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Upbit parent Dunamu faces South Korean regulator sanctions process: Report",
+        "url": "https://cointelegraph.com/news/south-korean-regulator-inspection-letter-upbit-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-19T10:23:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US regulators miss GENIUS Act\u2019s one-year deadline for final stablecoin rules",
+        "url": "https://www.theblock.co/post/408843/us-regulators-miss-genius-acts-one-year-deadline-for-final-stablecoin-rules?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-18T22:04:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
