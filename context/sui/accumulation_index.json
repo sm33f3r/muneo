@@ -1,85 +1,49 @@
 {
   "token": "SUI",
-  "generated_at": "2026-06-29T09:01:39 UTC",
+  "generated_at": "2026-07-20T09:03:58 UTC",
   "schema_version": "1.0.0",
-  "total_periods": 11,
+  "total_periods": 12,
   "weekly_count": 7,
   "monthly_count": 3,
-  "quarterly_count": 1,
+  "quarterly_count": 2,
   "most_recent_weekly": {
-    "period_id": "2026-W26",
+    "period_id": "2026-W29",
     "period_type": "weekly",
-    "start_date": "2026-06-23",
-    "end_date": "2026-06-28",
+    "start_date": "2026-07-13",
+    "end_date": "2026-07-19",
+    "data_quality": "complete",
+    "overall_lean": "neutral",
+    "signals_available": 14,
+    "close_usd": 0.748886,
+    "price_change_pct": 4.61,
+    "filename": "weekly_2026_W29.json"
+  },
+  "most_recent_monthly": {
+    "period_id": "2026-M07",
+    "period_type": "monthly",
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-19",
     "data_quality": "partial",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 0.680105,
-    "price_change_pct": -2.778,
-    "filename": "weekly_2026_W26.json"
-  },
-  "most_recent_monthly": {
-    "period_id": "2026-M06",
-    "period_type": "monthly",
-    "start_date": "2026-06-03",
-    "end_date": "2026-06-28",
-    "data_quality": "complete",
-    "overall_lean": "neutral",
-    "signals_available": 14,
-    "close_usd": 0.680105,
-    "price_change_pct": -15.3094,
-    "filename": "monthly_2026_M06.json"
+    "close_usd": 0.748886,
+    "price_change_pct": 6.4948,
+    "filename": "monthly_2026_M07.json"
   },
   "most_recent_quarterly": {
-    "period_id": "2026-Q2",
+    "period_id": "2026-Q3",
     "period_type": "quarterly",
-    "start_date": "2026-04-06",
-    "end_date": "2026-06-28",
-    "data_quality": "complete",
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-19",
+    "data_quality": "partial",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 0.680105,
-    "price_change_pct": -24.0819,
-    "filename": "quarterly_2026_Q2.json"
+    "close_usd": 0.748886,
+    "price_change_pct": 6.4948,
+    "filename": "quarterly_2026_Q3.json"
   },
   "periods": {
     "weekly": [
-      {
-        "period_id": "2026-W20",
-        "period_type": "weekly",
-        "start_date": "2026-05-11",
-        "end_date": "2026-05-17",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 1.069,
-        "price_change_pct": -17.7692,
-        "filename": "weekly_2026_W20.json"
-      },
-      {
-        "period_id": "2026-W21",
-        "period_type": "weekly",
-        "start_date": "2026-05-18",
-        "end_date": "2026-05-24",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 1.025,
-        "price_change_pct": -2.381,
-        "filename": "weekly_2026_W21.json"
-      },
-      {
-        "period_id": "2026-W22",
-        "period_type": "weekly",
-        "start_date": "2026-05-25",
-        "end_date": "2026-05-29",
-        "data_quality": "partial",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 0.900179,
-        "price_change_pct": -13.8585,
-        "filename": "weekly_2026_W22.json"
-      },
       {
         "period_id": "2026-W23",
         "period_type": "weekly",
@@ -127,21 +91,45 @@
         "close_usd": 0.680105,
         "price_change_pct": -2.778,
         "filename": "weekly_2026_W26.json"
-      }
-    ],
-    "monthly": [
+      },
       {
-        "period_id": "2026-M04",
-        "period_type": "monthly",
-        "start_date": "2026-04-06",
-        "end_date": "2026-05-03",
+        "period_id": "2026-W27",
+        "period_type": "weekly",
+        "start_date": "2026-06-29",
+        "end_date": "2026-07-05",
         "data_quality": "complete",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 0.9248,
-        "price_change_pct": 3.2327,
-        "filename": "monthly_2026_M04.json"
+        "close_usd": 0.759269,
+        "price_change_pct": 7.9713,
+        "filename": "weekly_2026_W27.json"
       },
+      {
+        "period_id": "2026-W28",
+        "period_type": "weekly",
+        "start_date": "2026-07-06",
+        "end_date": "2026-07-12",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.740367,
+        "price_change_pct": -2.0768,
+        "filename": "weekly_2026_W28.json"
+      },
+      {
+        "period_id": "2026-W29",
+        "period_type": "weekly",
+        "start_date": "2026-07-13",
+        "end_date": "2026-07-19",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.748886,
+        "price_change_pct": 4.61,
+        "filename": "weekly_2026_W29.json"
+      }
+    ],
+    "monthly": [
       {
         "period_id": "2026-M05",
         "period_type": "monthly",
@@ -165,6 +153,18 @@
         "close_usd": 0.680105,
         "price_change_pct": -15.3094,
         "filename": "monthly_2026_M06.json"
+      },
+      {
+        "period_id": "2026-M07",
+        "period_type": "monthly",
+        "start_date": "2026-06-29",
+        "end_date": "2026-07-19",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.748886,
+        "price_change_pct": 6.4948,
+        "filename": "monthly_2026_M07.json"
       }
     ],
     "quarterly": [
@@ -179,6 +179,18 @@
         "close_usd": 0.680105,
         "price_change_pct": -24.0819,
         "filename": "quarterly_2026_Q2.json"
+      },
+      {
+        "period_id": "2026-Q3",
+        "period_type": "quarterly",
+        "start_date": "2026-06-29",
+        "end_date": "2026-07-19",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.748886,
+        "price_change_pct": 6.4948,
+        "filename": "quarterly_2026_Q3.json"
       }
     ]
   }
