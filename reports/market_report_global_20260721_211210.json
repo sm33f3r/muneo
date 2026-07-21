@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-21T21:11:15 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2340611509637.62,
+    "total_market_cap_change_24h_pct": 1.199,
+    "total_volume_24h_usd": 70028716125.71,
+    "btc_dominance_pct": 56.8142,
+    "eth_dominance_pct": 9.8977,
+    "total2_usd": 1010812514468.1,
+    "total3_usd": 779145658420.79,
+    "active_cryptocurrencies": 17712,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 30.9405,
+        "price_usd": 0.02279798,
+        "market_cap_usd": 375716983
+      },
+      {
+        "symbol": "1INCH",
+        "name": "1INCH",
+        "price_change_24h_pct": 12.8495,
+        "price_usd": 0.083555,
+        "market_cap_usd": 117485739
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 11.3665,
+        "price_usd": 0.073611,
+        "market_cap_usd": 162349253
+      },
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": 11.2264,
+        "price_usd": 0.398852,
+        "market_cap_usd": 1941692749
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 10.273,
+        "price_usd": 12.72,
+        "market_cap_usd": 603207235
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -77.4838,
+        "price_usd": 8.18,
+        "market_cap_usd": 382239428
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price_change_24h_pct": -7.6179,
+        "price_usd": 0.09263,
+        "market_cap_usd": 1013540559
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -4.7257,
+        "price_usd": 0.605883,
+        "market_cap_usd": 604450559
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": -3.5266,
+        "price_usd": 0.183799,
+        "market_cap_usd": 213939303
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": -3.4962,
+        "price_usd": 60.54,
+        "market_cap_usd": 13466540171
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 66318,
+    "price_change_24h_pct": 1.5803,
+    "price_change_7d_pct": 2.7713,
+    "market_cap_usd": 1330275355136,
+    "volume_24h_usd": 30326520129,
+    "direction": "bullish",
+    "oi_usd": 6949137267.03,
+    "funding_rate_latest": 1.894e-05,
+    "funding_rate_7d_avg": 5.456190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0214,
+    "long_account_pct": 50.53,
+    "short_account_pct": 49.47,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1920.79,
+    "price_change_24h_pct": 0.8368,
+    "price_change_7d_pct": 2.4635,
+    "market_cap_usd": 231820319005,
+    "volume_24h_usd": 11171163547,
+    "eth_btc_ratio": 0.028963,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76968081492.18,
+    "stablecoin_market_cap_usd": 309023060354.92,
+    "stablecoin_dominance_pct": 13.2027
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Wall St ends higher on chip stocks recovery; earnings draw focus - Reuters",
+        "summary": "Wall St ends higher on chip stocks recovery; earnings draw focus\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDZOb0lyeDNtSHo4bVQ4MlJ3RnhPUUR2WmxYT2xqaWRVNFFVNkNUdHBNUUIxWm5kZGpVaVc0SFZicnBmN1F0RWI3RXpqNUpCbjQ3RHhPZEJkTmlaeGI3YXp3MUlSSXN2RGdBZ3dfekVaQzQxbFJzeHhuNU9veGtKMzdidFZ1N2QwbFE3Z3B1VmxoY1VuTUFtU3Rfa09XMlRMWl9B?oc=5",
+        "published_at": "2026-07-21T20:03:01Z"
+      },
+      {
+        "headline": "Apple prepares a new way to buy iPhones. Plus, making sense of Google's new AI models",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/apple-prepares-a-new-way-to-buy-iphones-plus-making-sense-of-googles-new-ai-models.html",
+        "published_at": "2026-07-21T19:20:31Z"
+      },
+      {
+        "headline": "Investing experts: Why 'just buy the market' doesn't necessarily apply to bonds",
+        "summary": "The flagship index for bond investors has some idiosyncracies bond investors should be aware of, experts say.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/bond-investing-buy-the-market-agg-index.html",
+        "published_at": "2026-07-21T19:04:51Z"
+      },
+      {
+        "headline": "RFK Jr. says cyclospora outbreak is 'under control'",
+        "summary": "Health and Human Services Secretary Robert F. Kennedy Jr. on Tuesday said that the ongoing outbreak of cyclosporiasis is \"under control\" despite criticism.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/cyclospora-rfk-jr-says-outbreak-is-under-control.html",
+        "published_at": "2026-07-21T18:43:24Z"
+      },
+      {
+        "headline": "Goldman Sachs creates private markets platform as rich investors seek the next SpaceX and Stripe",
+        "summary": "Goldman Sachs is launching a new alternative investments platform aimed at giving wealthy clients and family offices direct stakes in private companies.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
+        "published_at": "2026-07-21T18:23:32Z"
+      },
+      {
+        "headline": "Tankers with Saudi crude turn back as Houthis open new front in US-Iran war - Reuters",
+        "summary": "Tankers with Saudi crude turn back as Houthis open new front in US-Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0Jlc0k2UzBpUjR0R3ZWd2NKVzZVM2F6azd0VWk0WlYySWhpTU8zc2V2NTVWc3hWRzBYSUk2LXNTSzhoUnF1VUotZ1FhdTlMVE53TmtEUllYSThLU3hSU3hIRGRxZHFoaFZXM2VReGdxNGVVcGVOYXh4NTcwdHBpWkZqLWtCTHhOdjFIbWhJcExkcUo3amxFa0x3N3VadTVqbXh2LUxQYXV1Y05IM0N4QlVlUjNmWHM?oc=5",
+        "published_at": "2026-07-21T18:05:41Z"
+      },
+      {
+        "headline": "Asian refiners look to Suez Canal to move Saudi oil amid Houthi shipping threats - Reuters",
+        "summary": "Asian refiners look to Suez Canal to move Saudi oil amid Houthi shipping threats\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlp4ZjNPdFNVelczTnYxal9DRVN6YzN2clhXSmhILS1QQUFEVlJRbjdyVTZwbVAycU9FUkRmdlFwanl1N1lSYTZEZnFfY1Z0NXRPdUtScXJTWmhVbTNfRFUtOUZvUFJqTHQwa0J2UzZVbXpWdGVQcWpYS2xQY25STVFVdENfNDRCbnllZkh0LWtlTmcxb1VWSmlCWS1YY1Y2aVdGd3FFR0R5ZDdLRFhBaXRJTVBNaFU0TS1HSHhONldBdVdPM25R?oc=5",
+        "published_at": "2026-07-21T17:39:42Z"
+      },
+      {
+        "headline": "Healthcare students are turning to Kalshi and betting platforms to pay for their degrees, survey shows",
+        "summary": "\"These students aren't betting for fun,\"\u00a0said Tess Michaels, CEO of Clasp.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/healthcare-students-turn-to-kalshi-betting-platforms-to-pay-for-degrees-survey-shows.html",
+        "published_at": "2026-07-21T17:24:57Z"
+      },
+      {
+        "headline": "Houthis warn shipping companies to avoid Saudi ports, email shows - Reuters",
+        "summary": "Houthis warn shipping companies to avoid Saudi ports, email shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFE2MFI3R2M4S2lDTDFZMGZtNnJ0cm5FMThZT1pYVldXUzUwVUdFQTd0RUprcjhzbVB3OFl5NTFLMk5MX3NSV3U0UWxTempZdGJLaXdKU09VS3ZGaXo1b0hLdWJPN0JkRFplalkwNXM5SFJfLXNKTl83Tm9ZNmlJTjJRMVJ1clRETy1SOWpIYmN0cXd0WnZEYVZ0VXN4OWpMN0V4X2RaeGpvc3RyTFpRa2drYWhtQQ?oc=5",
+        "published_at": "2026-07-21T16:56:06Z"
+      },
+      {
+        "headline": "Jim Cramer says he's standing by Eli Lilly after rival's GLP-1 lawsuit. Here's why",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/21/jim-cramer-says-hes-standing-by-eli-lilly-after-rivals-glp-1-lawsuit-heres-why-.html",
+        "published_at": "2026-07-21T16:40:38Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5315,
+    "dxy_lean": "neutral",
+    "spy_close": 748.32,
+    "spy_change_pct": 0.8395,
+    "spy_lean": "bullish",
+    "vix_close": 18.65,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 66324.3,
+    "coinbase_premium_pct": 0.0095,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-21T21:11:15 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 207.29,
+        "change_pct": 1.9726,
+        "prev_close": 203.28
+      },
+      "AMD": {
+        "close": 544.43,
+        "change_pct": 8.1141,
+        "prev_close": 503.57
+      },
+      "TSM": {
+        "close": 424.61,
+        "change_pct": 5.5456,
+        "prev_close": 402.3
+      },
+      "SMCI": {
+        "close": 25.5,
+        "change_pct": 7.008,
+        "prev_close": 23.83
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 708.97,
+        "change_pct": 1.8547,
+        "prev_close": 696.06
+      },
+      "SOXX": {
+        "close": 552.69,
+        "change_pct": 5.447,
+        "prev_close": 524.14
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 66318,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 68,
+    "positive_count": 17,
+    "negative_count": 8,
+    "neutral_count": 43,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "The Digital Chamber sues Illinois over incoming crypto transaction tax",
+        "url": "https://www.theblock.co/post/409160/the-digital-chamber-sues-illinois-over-incoming-crypto-transaction-tax?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-21T21:05:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Movement Labs files for Chapter 11 bankruptcy after months of MOVE token turmoil",
+        "url": "https://cointelegraph.com/news/movement-labs-files-chapter-11-bankruptcy-move-token-turmoil?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-21T20:59:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canton developer Digital Asset raises additional $10 million at same $2 billion equity valuation",
+        "url": "https://www.theblock.co/post/409168/canton-digital-asset-additional-10-million-funding-same-2-billion-equity-valuation-expanding-round-365-million?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-21T20:42:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-21T20:26:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pavel Durov Wants to Give a Billion Telegram Users a Crypto Wallet",
+        "url": "https://decrypt.co/374001/pavel-durov-telegram-crypto-wallet-billion-users",
+        "published_at": "2026-07-21T20:20:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-21T20:12:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Satsuma shareholders approve bitcoin treasury liquidation and London delisting",
+        "url": "https://www.theblock.co/post/409155/satsuma-shareholders-approve-bitcoin-treasury-liquidation-london-delisting?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-21T20:04:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Congress weighs its role as fight over sports betting prediction market oversight forges on",
+        "url": "https://www.theblock.co/post/409152/congress-weighs-its-role-as-fight-over-sports-betting-prediction-market-oversight-forges-on?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-21T19:28:39+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pakistan steps up crypto enforcement with dedicated federal unit",
+        "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-21T19:19:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ousted founder\u2019s $1.6 million claim tops Movement Labs\u2019 bankruptcy filing",
+        "url": "https://www.theblock.co/post/409151/ousted-founders-1-6-million-claim-tops-movement-labs-bankruptcy-filing?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-21T19:11:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
