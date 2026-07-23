@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-23T21:10:10 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2303789908608.24,
+    "total_market_cap_change_24h_pct": -1.3433,
+    "total_volume_24h_usd": 60887433874.97,
+    "btc_dominance_pct": 56.6926,
+    "eth_dominance_pct": 9.879,
+    "total2_usd": 997711444640.12,
+    "total3_usd": 770121128592.95,
+    "active_cryptocurrencies": 17776,
+    "altcoin_season_index": 26,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BCAP",
+        "name": "Blockchain Capital",
+        "price_change_24h_pct": 363.1,
+        "price_usd": 106.2,
+        "market_cap_usd": 967706188
+      },
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": 21.5,
+        "price_usd": 0.05302,
+        "market_cap_usd": 116668770
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 20.4,
+        "price_usd": 0.133046,
+        "market_cap_usd": 332703342
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 19.0,
+        "price_usd": 0.325649,
+        "market_cap_usd": 138417097
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GROK",
+        "name": "GROK",
+        "price_change_24h_pct": -100.0,
+        "price_usd": 1.27724e-07,
+        "market_cap_usd": 254112161
+      },
+      {
+        "symbol": "EARNETH",
+        "name": "Lido Earn ETH",
+        "price_change_24h_pct": -58.6,
+        "price_usd": 1905.93,
+        "market_cap_usd": 142108879
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -53.2,
+        "price_usd": 2.16,
+        "market_cap_usd": 207910319
+      },
+      {
+        "symbol": "APR",
+        "name": "aPriori",
+        "price_change_24h_pct": -21.5,
+        "price_usd": 0.162959,
+        "market_cap_usd": 162893425
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -20.4,
+        "price_usd": 0.179299,
+        "market_cap_usd": 179323185
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 65076,
+    "price_change_24h_pct": -1.2,
+    "price_change_7d_pct": 1.4,
+    "market_cap_usd": 1305435867198,
+    "volume_24h_usd": 25235806560,
+    "direction": "bearish",
+    "oi_usd": 6808712834.22,
+    "funding_rate_latest": 8.458e-05,
+    "funding_rate_7d_avg": 4.438857142857143e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5452,
+    "long_account_pct": 60.71,
+    "short_account_pct": 39.29,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1884.71,
+    "price_change_24h_pct": -2.2,
+    "price_change_7d_pct": 0.6,
+    "market_cap_usd": 227452287967,
+    "volume_24h_usd": 9507840872,
+    "eth_btc_ratio": 0.028962,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76135951906.19,
+    "stablecoin_market_cap_usd": 308665306338.16,
+    "stablecoin_dominance_pct": 13.3982
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries",
+        "summary": "Southwest hired a ship this spring to send fuel from Houston to Los Angeles in case of supply shortages.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/23/southwest-shipped-jet-fuel-from-texas-to-california-amid-supply-crunch.html",
+        "published_at": "2026-07-23T20:12:42Z"
+      },
+      {
+        "headline": "OpenAI's Hugging Face hack triggers 'AI Kill Switch' bill in Congress",
+        "summary": "OpenAI disclosed this week that some of its AI models went rogue and hacked into open-source developer platform Hugging Face.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
+        "published_at": "2026-07-23T19:52:25Z"
+      },
+      {
+        "headline": "US says Saudi nuclear deal off without Israel recognition - Reuters",
+        "summary": "US says Saudi nuclear deal off without Israel recognition\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFEtb2pVRzJFQThOZGROZ0hBV0pQUHNWSE1kZkFIdG9nV3d4eHBHUXlaTW1jQlpKVmNmV2twYmQ4VjJ1WDNPeW4tOXYtamtJeXk4STFCWk5CS09yUDBoRENzakZmR1FXbXdTcy0zbGdneURkUWphR1p0bTZxOUszS3Z5TXkxQnBwYjlBYVpXSEJCR3cyR3dZZTYwQktlTDJ1ejNpYklIQmlESXJCempEYUR4UWJXX2QyR1lwVGdiUmtMYU5NdzE2UDBn?oc=5",
+        "published_at": "2026-07-23T18:52:47Z"
+      },
+      {
+        "headline": "Wall Street stumbles as oil surges, and Lilly takes a new path on next-gen obesity drug",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/23/wall-street-stumbles-as-oil-surges-and-lilly-takes-a-new-path-on-next-gen-obesity-drug.html",
+        "published_at": "2026-07-23T18:35:53Z"
+      },
+      {
+        "headline": "US House votes to curb Trump's Iran war powers but Senate backs president - Reuters",
+        "summary": "US House votes to curb Trump's Iran war powers but Senate backs president\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmZraWhuZnh2S3UwSzNiRWxNaFZuNl9jLVV2by1sUm9DdEZjbDJGb05pQWstRDVrM3J2OHE0MFJ6THdLRUc2NUUtS1hnTC1xZ2o4ZHhTOHp0cThGTFNhQkROeVpLdTJIWEVCY2pNTTNIYU0xOVhuVXJIY1ZtaDdxUmRxXzdMc0toSVJOSzR0TC1UY1FqSnJqTW84bHJidk5oMDl5eU5YZzdpWXJSTllKNWJmdU4wZG5MeEE?oc=5",
+        "published_at": "2026-07-23T18:02:16Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Iran flew IRGC commanders, missile gear to Yemen's Houthis, sources say - Reuters",
+        "summary": "EXCLUSIVE: Iran flew IRGC commanders, missile gear to Yemen's Houthis, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX0VBOVcxX1BiZmZ6M1VfVkNSVmg1bGREUzRDNWdjYWFQeXR3TXUyVm1aQURfb3ZpNlpuVVd2LXk0YTFhV3AtTW1HZzBoYjFFMGhpY0J5X1JUM3MtTmJaYmI5cExla1VOSTAzdi1CZVdGb0RXckdQU2hDSlVCMXd4eVZPalltOGQzQnE2M0w0SVYzdUNmYy0xRzFUNWRUSXZHeF9rWkY1UzI1LVpsN0NBUjdDZlJRT3oyWnpB?oc=5",
+        "published_at": "2026-07-23T17:58:00Z"
+      },
+      {
+        "headline": "UK says armed forces ready to defend country after Iran warning over US bombers - Reuters",
+        "summary": "UK says armed forces ready to defend country after Iran warning over US bombers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSUtaMHdwUWNQbXpNb0IzUXMxZm5sUFRDVlJGclZmak52YVFySlE1LUV1aTBiRDhqT055V2pIMWFQNmFILW1GSnRCRTBLYi1oSVY0Vm0tRjJPX19CazNmeUQtQkdDUXZmbVU2TFlhcnFKZVNMbVFZS05ZR1VlenRFSXRUa3d2dzhlSTNBeDQyOFA2Z3k1RXBYSWQ1Rm5Bd1FKT3ItT0UzT19nYkEwcmpPQlc0TDZSdlBCT3owXzJGMHFCRmp3dklCU0NJWmNFeTZTVy0yVy1n?oc=5",
+        "published_at": "2026-07-23T17:48:05Z"
+      },
+      {
+        "headline": "JPMorgan report finds dramatic jump in AI-themed ETFs \u2014 despite rough quarter",
+        "summary": "Wall Street is banking heavily on exchange-traded funds that give investors artificial intelligence exposure, according to JPMorgan Asset Management.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/23/jpmorgan-dramatic-jump-in-ai-etfs-despite-rough-quarter.html",
+        "published_at": "2026-07-23T17:10:06Z"
+      },
+      {
+        "headline": "Pakistan's US funding push after Iran war role draws skepticism from economists - Reuters",
+        "summary": "Pakistan's US funding push after Iran war role draws skepticism from economists\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVhSYy1UQkRpR0JLUGZzQnhWaXR1X1pkVVpDdVBaNFJBeDhpcy1fb3drWmxrWmV0X0c0Y0RKaXk4WUFMWVd3TWZoQmJCQldWa2hxazktN0pjYzdvVEdVLVNXc2d2X3ptRVZoWFp6d1E5UHlJeTM1ZTI0dkl1Qi1uWWpWRFh1cVdZYU5HM0pCYVgwbkpOdFlkWHNlOGlPV3BOamttVmVyRHRaNHMyVE5Ob1kwVmgyY3ZHaURpVUxYM2lqV1UtV0JF?oc=5",
+        "published_at": "2026-07-23T17:01:43Z"
+      },
+      {
+        "headline": "US Senate blocks resolution curbing Trump's Iran war powers - Reuters",
+        "summary": "US Senate blocks resolution curbing Trump's Iran war powers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWo0QndtdEk3N3FOVzJKRFM4N1J6MHJmYXBLVDNQVEVpb3Z2dGZlRUV2WlBsUTVtR1dfSzdEdHBTcTRsQlJBdVZ2YXpkcEdCUG9RNXc1Y0RnQ2pUMnY0bEYybmZ2VE10VVh6WkpvVlNpajZBME1qV3dGc1N2TjRlY1Vka2YtdFh3bzJ2aTh1VlpsY3VaZWlMN0VxT1otLUlQM1E?oc=5",
+        "published_at": "2026-07-23T16:44:19Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5315,
+    "dxy_lean": "neutral",
+    "spy_close": 738.3,
+    "spy_change_pct": -1.2189,
+    "spy_lean": "bearish",
+    "vix_close": 16.64,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 65025.64,
+    "coinbase_premium_pct": -0.077386,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-23T21:10:10 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 208.76,
+        "change_pct": -1.5562,
+        "prev_close": 212.06
+      },
+      "AMD": {
+        "close": 539.69,
+        "change_pct": -2.2885,
+        "prev_close": 552.33
+      },
+      "TSM": {
+        "close": 415.58,
+        "change_pct": -1.3366,
+        "prev_close": 421.21
+      },
+      "SMCI": {
+        "close": 31.2,
+        "change_pct": 2.0942,
+        "prev_close": 30.56
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 691.96,
+        "change_pct": -1.8983,
+        "prev_close": 705.35
+      },
+      "SOXX": {
+        "close": 551.24,
+        "change_pct": -0.7704,
+        "prev_close": 555.52
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 65076,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 65,
+    "positive_count": 8,
+    "negative_count": 13,
+    "neutral_count": 44,
+    "sentiment_ratio": 0.1231,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Coinbase lets businesses accept USDC payments from AI agents",
+        "url": "https://cointelegraph.com/news/coinbase-lets-businesses-accept-usdc-payments-from-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T20:51:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman Sachs CEO Breaks With Wall Street to Back Crypto Clarity Act",
+        "url": "https://decrypt.co/374186/goldman-sachs-ceo-breaks-wall-street-crypto-clarity-act",
+        "published_at": "2026-07-23T20:44:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin slides below $65K as Iran conflict fuels $100 oil and bond-yield surge",
+        "url": "https://cointelegraph.com/markets/bitcoin-dips-below-65k-iran-war-sparks-100-oil-us-bond-spike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T20:32:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nasdaq-Listed Zhibao Wants a Bitcoin Treasury, Plans to Sell $220M in Stock for BTC",
+        "url": "https://decrypt.co/374178/nasdaq-listed-zhibao-bitcoin-treasury-220-million-stock-sale",
+        "published_at": "2026-07-23T20:12:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T19:45:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto industry to contribute $55B to US economy in 2026: NCA study",
+        "url": "https://cointelegraph.com/news/crypto-industry-contributed-us-economy-2026-nca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T19:41:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "As BitMEX exits, analysts warn crypto consolidation is accelerating",
+        "url": "https://cointelegraph.com/news/as-bitmex-exits-analysts-warn-crypto-consolidation-is-accelerating?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T19:30:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood CEO Vlad Tenev's X Account Hacked to Shill Fake 'Vladhood' Token",
+        "url": "https://decrypt.co/374175/robinhood-ceo-vlad-tenevs-x-account-hacked-to-shill-fake-vladhood-token",
+        "published_at": "2026-07-23T19:27:57+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin May Have Already Bottomed\u2014If the Fed Helps, Says Grayscale",
+        "url": "https://decrypt.co/374156/bitcoin-price-already-bottomed-fed-helps-grayscale",
+        "published_at": "2026-07-23T18:53:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood CEO\u2019s X account hacked in apparent memecoin scam",
+        "url": "https://cointelegraph.com/news/robinhood-ceo-x-account-hacked-in-apparent-memecoin-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-23T18:09:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
