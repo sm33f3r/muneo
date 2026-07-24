@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-24T21:11:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2273680232742.98,
+    "total_market_cap_change_24h_pct": -1.2308,
+    "total_volume_24h_usd": 65309462197.15,
+    "btc_dominance_pct": 56.567,
+    "eth_dominance_pct": 9.8648,
+    "total2_usd": 987528263392.79,
+    "total3_usd": 763234996489.99,
+    "active_cryptocurrencies": 17789,
+    "altcoin_season_index": 33,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 59.0,
+        "price_usd": 3.49,
+        "market_cap_usd": 336763627
+      },
+      {
+        "symbol": "APR",
+        "name": "aPriori",
+        "price_change_24h_pct": 23.5,
+        "price_usd": 0.200621,
+        "market_cap_usd": 200089261
+      },
+      {
+        "symbol": "BANK",
+        "name": "Lorenzo Protocol",
+        "price_change_24h_pct": 18.4,
+        "price_usd": 0.293787,
+        "market_cap_usd": 124955194
+      },
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 17.1,
+        "price_usd": 15.31,
+        "market_cap_usd": 145647724
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -16.5,
+        "price_usd": 0.416092,
+        "market_cap_usd": 175167045
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -16.5,
+        "price_usd": 0.292025,
+        "market_cap_usd": 124307905
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": -11.3,
+        "price_usd": 0.145717,
+        "market_cap_usd": 270260561
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -9.0,
+        "price_usd": 0.959805,
+        "market_cap_usd": 231687950
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64113,
+    "price_change_24h_pct": -1.0,
+    "price_change_7d_pct": 0.1,
+    "market_cap_usd": 1286059994694,
+    "volume_24h_usd": 27153512755,
+    "direction": "neutral",
+    "oi_usd": 6808970563.56,
+    "funding_rate_latest": 5.879e-05,
+    "funding_rate_7d_avg": 4.6018095238095234e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9146,
+    "long_account_pct": 65.69,
+    "short_account_pct": 34.31,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1858.84,
+    "price_change_24h_pct": -0.8,
+    "price_change_7d_pct": 1.0,
+    "market_cap_usd": 224329961570,
+    "volume_24h_usd": 8869859704,
+    "eth_btc_ratio": 0.028993,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75789393669.93,
+    "stablecoin_market_cap_usd": 309681589464.18,
+    "stablecoin_dominance_pct": 13.6203
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Trump says he trusts Russia and China's leaders not to enable Iran - Reuters",
+        "summary": "Trump says he trusts Russia and China's leaders not to enable Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?oc=5",
+        "published_at": "2026-07-24T20:37:56Z"
+      },
+      {
+        "headline": "Trump says US and Iran are talking, but Tehran is not yet ready for deal - Reuters",
+        "summary": "Trump says US and Iran are talking, but Tehran is not yet ready for deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUDhqRjRkNElnTjZmRjllV2p0QWhHWjY3UGc5Z25PbURhcnplekRpSW9GZjlNcGh5bTAzY3BqOHAwWHpWNS0zaEZtdElPNTRrclI0LVlFR0lKN01wb1V6dDk4UG5qOTlpN25hOENSYWJFMEYzZGtVdUtKb0pYc2VJblp5SGRUNF9qM1ZRVWk4a1ZWbjJaemVyUHZlcUN6V21keTk0M1QxNlV2Q3prRnVyQXA3OA?oc=5",
+        "published_at": "2026-07-24T19:48:51Z"
+      },
+      {
+        "headline": "The 'sell chips, buy software' trade reappears as Wall Street caps off another volatile week",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/24/the-sell-chips-buy-software-trade-reappears-as-wall-street-caps-off-another-volatile-week.html",
+        "published_at": "2026-07-24T18:36:28Z"
+      },
+      {
+        "headline": "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets",
+        "summary": "Kalshi traders give less than 50% odds that the key maritime passageway will fully reopen by July 2027.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/24/odds-that-the-straits-traffic-returns-to-normal-drop-on-kalshi.html",
+        "published_at": "2026-07-24T18:12:43Z"
+      },
+      {
+        "headline": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say - Reuters",
+        "summary": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
+        "published_at": "2026-07-24T17:59:38Z"
+      },
+      {
+        "headline": "US strikes Iran from south to north after Trump threats over Red Sea shipping - Reuters",
+        "summary": "US strikes Iran from south to north after Trump threats over Red Sea shipping\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNFdZY1R2bFRCTk51X1E2U2dLZUphMDA2MVlUaGRzOEJXRXc5Vl9ObDNaVE9FNnU4eTV6TXBjYjRyR2xZekJYeGY2VHNrYW9hSjhpSjQ0aVJEdXBkSk9Ja2NXRjZjQng3Rkp1eFBHMlVwQ2paZUlVRnZUN0l3OThQRlZVLTJDanZHREpMTjFNVm9odWl5alZwRUpDbUhwSWRWeHc?oc=5",
+        "published_at": "2026-07-24T17:33:11Z"
+      },
+      {
+        "headline": "Yemen teeters towards renewed war in shadow of Iran conflict - Reuters",
+        "summary": "Yemen teeters towards renewed war in shadow of Iran conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNlpIbW1acm1ubmVwWFhETlNMNVFPRDlZQlpxR25rVW5zRW55eVVIUUNtRUZRbHpiUUlNM05ycV8yWHNUOVNHZ1E0bDJTMExEVUp5S1RNLXI5RnFiajJKc3ZoM1ZmWWRjLTdCT09tTDlpeGZ0WmJBRUxTRW1ub2dMcmRQaFNRSk5pSVlwSk9oc1UyTHFvMGhiUE9zY3JScEZwZ091Q2dDZmVacXQy?oc=5",
+        "published_at": "2026-07-24T16:47:44Z"
+      },
+      {
+        "headline": "Why we would buy the Intel dip but can't get behind the Dover bounce",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/24/why-we-would-buy-the-intel-dip-but-cant-get-behind-the-dover-bounce.html",
+        "published_at": "2026-07-24T16:38:28Z"
+      },
+      {
+        "headline": "CDC says massive cyclospora outbreak is now in nine states",
+        "summary": "The four newly linked states \u2013 Illinois, Kansas, Oklahoma and Pennsylvania \u2013 join Indiana, Kentucky, Ohio, West Virginia and hard-hit Michigan.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/24/cyclospora-cdc-says-outbreak-is-in-nine-states.html",
+        "published_at": "2026-07-24T16:13:07Z"
+      },
+      {
+        "headline": "Netanyahu to meet with Trump in Washington on Tuesday, PM's office says - Reuters",
+        "summary": "Netanyahu to meet with Trump in Washington on Tuesday, PM's office says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLWt6eWtZa3JjTG1yRDZOSVJfdENMUUJPeUJoMDV3VE1Ub1VzUU45ZzdibEpmTkRUcU9BWFd4OWhDeVlhZ2l2am82VmpQam1GNW9LcmJGdWlQS0ZBS0ZUUzdoYVNZQTdyU1I4Unl1dS1wbllWaDhGR3ZxeUZ3WW9GS3ROaEtHUENVemFzWVYtQWpOYThDUnBIc0RZYV9KRlhhYjlCcQ?oc=5",
+        "published_at": "2026-07-24T14:37:50Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5315,
+    "dxy_lean": "neutral",
+    "spy_close": 738.89,
+    "spy_change_pct": 0.0962,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64093.5,
+    "coinbase_premium_pct": -0.030415,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-24T21:11:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 206.84,
+        "change_pct": -0.9197,
+        "prev_close": 208.76
+      },
+      "AMD": {
+        "close": 521.95,
+        "change_pct": -3.2871,
+        "prev_close": 539.69
+      },
+      "TSM": {
+        "close": 403.41,
+        "change_pct": -2.9284,
+        "prev_close": 415.58
+      },
+      "SMCI": {
+        "close": 30.1,
+        "change_pct": -3.5256,
+        "prev_close": 31.2
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 684.23,
+        "change_pct": -1.1171,
+        "prev_close": 691.96
+      },
+      "SOXX": {
+        "close": 527.01,
+        "change_pct": -4.3955,
+        "prev_close": 551.24
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64113,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 8,
+    "negative_count": 8,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.1455,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Strive\u2019s SATA recovers most of June decline, trades within 3% of par",
+        "url": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-24T21:02:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "House passes bill on lawmakers using insider information for stock trading",
+        "url": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-24T20:05:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
+        "url": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
+        "published_at": "2026-07-24T19:30:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-24T19:03:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano co-founder Hoskinson says Bitcoin could lose top spot if governance fails quantum test",
+        "url": "https://www.theblock.co/post/409627/cardano-co-founder-hoskinson-bitcoin-lose-top-spot-governance-fails-quantum-test?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-24T19:01:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Claude Opus 5 Outscores Fable 5 on Most Benchmarks\u2014At Half the Price",
+        "url": "https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price",
+        "published_at": "2026-07-24T18:28:43+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Clarity Act on the Ropes as Ethics Fight and Shrinking Calendar Threaten Passage",
+        "url": "https://decrypt.co/374300/clarity-act-ethics-fight-shrinking-calendar-threaten-passage",
+        "published_at": "2026-07-24T17:50:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Poolin, Once One of Bitcoin's Biggest Mining Pools, Files for Bankruptcy",
+        "url": "https://decrypt.co/374289/poolin-bitcoin-biggest-mining-pools-files-bankruptcy",
+        "published_at": "2026-07-24T17:44:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wise plans to resubmit national trust bank application under GENIUS Act framework",
+        "url": "https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-24T17:37:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
+        "url": "https://cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-24T16:55:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
