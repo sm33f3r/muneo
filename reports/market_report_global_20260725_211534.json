@@ -1,0 +1,401 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-25T21:14:39 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2281004492377.33,
+    "total_market_cap_change_24h_pct": 0.4127,
+    "total_volume_24h_usd": 39312005155.74,
+    "btc_dominance_pct": 56.5132,
+    "eth_dominance_pct": 9.8861,
+    "total2_usd": 991934740793.16,
+    "total3_usd": 766431897129.04,
+    "active_cryptocurrencies": 17825,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": 23.0,
+        "price_usd": 4.49,
+        "market_cap_usd": 433526416
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 21.5,
+        "price_usd": 0.02377549,
+        "market_cap_usd": 237673460
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 19.4,
+        "price_usd": 0.488019,
+        "market_cap_usd": 205556223
+      },
+      {
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "price_change_24h_pct": 18.3,
+        "price_usd": 4.88e-06,
+        "market_cap_usd": 2877010880
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -9.6,
+        "price_usd": 0.00846168,
+        "market_cap_usd": 471487204
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -8.2,
+        "price_usd": 0.156644,
+        "market_cap_usd": 156616303
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": -6.5,
+        "price_usd": 0.473306,
+        "market_cap_usd": 140142208
+      },
+      {
+        "symbol": "US",
+        "name": "Talus",
+        "price_change_24h_pct": -6.2,
+        "price_usd": 0.04501731,
+        "market_cap_usd": 451157935
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64223,
+    "price_change_24h_pct": 0.2071,
+    "price_change_7d_pct": -0.6726,
+    "market_cap_usd": 1288702220399,
+    "volume_24h_usd": 14942143472,
+    "direction": "neutral",
+    "oi_usd": 6896465794.65,
+    "funding_rate_latest": 7.29e-06,
+    "funding_rate_7d_avg": 4.548142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8066,
+    "long_account_pct": 64.37,
+    "short_account_pct": 35.63,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1868.04,
+    "price_change_24h_pct": 0.5,
+    "price_change_7d_pct": 0.7,
+    "market_cap_usd": 225449573663,
+    "volume_24h_usd": 3902583399,
+    "eth_btc_ratio": 0.029087,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75891810763.79,
+    "stablecoin_market_cap_usd": 309674896787.04,
+    "stablecoin_dominance_pct": 13.5763
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 5,
+    "headlines": [
+      {
+        "headline": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor - Reuters",
+        "summary": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWtpdWZ4NW1EX0RFb3dCV1hZYVU3ZmFESlp6Qnhhd2VLX1VXc293dFp6LUF0Mlo4YWdReXhWNGNkVWNqQS1hZmJjekx4aE1QbVJiaWp1Wl82RVVDdldZVFRhaEs2VEJPRWRRbkpQX0tDbEZ4U3FFdmVUWERaTDBHVmh1Y25RS2lpaWhhSmVzcHlUcmZzeUx4RDRobEl4aDZOYVA0T01lYWVOVDZV?oc=5",
+        "published_at": "2026-07-25T20:37:09Z"
+      },
+      {
+        "headline": "How this 70-year-old honey bee farmer is keeping his family farm alive: 'We completely rely on Mother Nature'",
+        "summary": "Being a beekeeper is harder than ever, but David Bradshaw is determined to protect his hives.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/25/how-this-70-year-old-honey-bee-farmer-is-keeping-his-family-farm-alive.html",
+        "published_at": "2026-07-25T14:00:01Z"
+      },
+      {
+        "headline": "Imax 70 mm screenings become the biggest star for Christopher Nolan\u2019s \u2018The Odyssey\u2019",
+        "summary": "Moviegoers are traveling, lining up and paying premiums to see Christopher Nolan\u2019s \u2018The Odyssey\u2019 in scarce Imax 70 mm screenings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/25/the-odyssey-imax-70mm-screenings.html",
+        "published_at": "2026-07-25T12:46:34Z"
+      },
+      {
+        "headline": "Logistics giants are racing to keep up with healthcare boom as GLP-1s highlight need for cold storage",
+        "summary": "Shipping and logistics companies are tapping into the growing market of healthcare as cold chain and temperature-controlled facilities become more crucial.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
+        "published_at": "2026-07-25T12:00:02Z"
+      },
+      {
+        "headline": "Trump says Israeli PM Netanyahu will visit US next week - Reuters",
+        "summary": "Trump says Israeli PM Netanyahu will visit US next week\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLU9OTjg0b2JyczBnVFcyRkVRUllrdlB2V2RvVGNxYmQ0S1RjbXpCZVNFZ20xd041cERFVTQ5ZzV2OW5XaFNkRGx4ZHh4ME5ieERYWGtIMkppZXVCWktENWlTd0JZNU5xdnZmSWJMZG9fWkxfa0U1aWNaY1VmeWVwVkd2T0pSaVBOSVMzNHBJSFRrb1dLbFZHc2E2c2JNck8xeVNBaWNVUWRkZS1ZN3c?oc=5",
+        "published_at": "2026-07-25T03:14:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5315,
+    "dxy_lean": "neutral",
+    "spy_close": 738.93,
+    "spy_change_pct": 0.1016,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64218.77,
+    "coinbase_premium_pct": -0.006586,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-25T21:14:39 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 206.84,
+        "change_pct": -0.9197,
+        "prev_close": 208.76
+      },
+      "AMD": {
+        "close": 521.95,
+        "change_pct": -3.2871,
+        "prev_close": 539.69
+      },
+      "TSM": {
+        "close": 403.41,
+        "change_pct": -2.9284,
+        "prev_close": 415.58
+      },
+      "SMCI": {
+        "close": 30.1,
+        "change_pct": -3.5256,
+        "prev_close": 31.2
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 684.23,
+        "change_pct": -1.1171,
+        "prev_close": 691.96
+      },
+      "SOXX": {
+        "close": 527.01,
+        "change_pct": -4.3955,
+        "prev_close": 551.24
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64223,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 22,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 18,
+    "sentiment_ratio": 0.1364,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
+        "url": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-25T21:01:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin advocacy group to join US State Department\u2019s \u2018digital freedom\u2019 program",
+        "url": "https://cointelegraph.com/news/bitcoin-policy-institute-state-department-program?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-25T18:15:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood in talks to add Crypto.com prediction markets as Kalshi rivalry grows: WSJ",
+        "url": "https://www.theblock.co/post/409665/robinhood-in-talks-to-add-crypto-com-prediction-markets-as-kalshi-rivalry-grows-wsj?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-25T17:27:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wise to resubmit US charter application under GENIUS Act",
+        "url": "https://cointelegraph.com/news/wise-resubmit-occ-charter-application-genius-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-25T16:05:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is an AI Kill Switch and Why Do US Lawmakers Want One?",
+        "url": "https://decrypt.co/374332/what-is-ai-kill-switch-openai-hack-hugging-face",
+        "published_at": "2026-07-25T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF weekly trading volume falls to lowest since October 2024 as ether funds lead inflows again",
+        "url": "https://www.theblock.co/post/409660/bitcoin-etf-weekly-trading-volume-falls-to-lowest-since-october-2024-as-ether-funds-lead-inflows-again?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-25T13:59:06+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Frax Proposal Would Allow Early frxETH Redemptions With 4% Penalty",
+        "url": "https://bitcoinist.com/frax-proposal-would-allow-early-frxeth-redemptions-with-4-penalty/",
+        "published_at": "2026-07-25T13:20:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
+        "url": "https://cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-25T13:14:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Frax Community Weighs Morpho Market For bdUSD And frxUSD Liquidity",
+        "url": "https://bitcoinist.com/frax-community-weighs-morpho-market-for-bdusd-and-frxusd-liquidity/",
+        "published_at": "2026-07-25T12:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-25T12:06:01+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
