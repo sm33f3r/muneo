@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-26T21:10:03 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2297140950771.19,
+    "total_market_cap_change_24h_pct": 0.6474,
+    "total_volume_24h_usd": 37555047711.03,
+    "btc_dominance_pct": 56.422,
+    "eth_dominance_pct": 10.0469,
+    "total2_usd": 1001048452873.3,
+    "total3_usd": 770256192829.42,
+    "active_cryptocurrencies": 17841,
+    "altcoin_season_index": 43,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 20.4294,
+        "price_usd": 0.149614,
+        "market_cap_usd": 374672649
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 17.8717,
+        "price_usd": 1.16,
+        "market_cap_usd": 280795638
+      },
+      {
+        "symbol": "BANK",
+        "name": "Lorenzo Protocol",
+        "price_change_24h_pct": 17.1021,
+        "price_usd": 0.392311,
+        "market_cap_usd": 167019162
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 14.1626,
+        "price_usd": 0.179078,
+        "market_cap_usd": 179817288
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 12.624,
+        "price_usd": 0.726204,
+        "market_cap_usd": 199289009
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -20.7736,
+        "price_usd": 3.59,
+        "market_cap_usd": 167907443
+      },
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": -14.929,
+        "price_usd": 13.05,
+        "market_cap_usd": 124092015
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": -10.6277,
+        "price_usd": 50.61,
+        "market_cap_usd": 191153133
+      },
+      {
+        "symbol": "WEMIX",
+        "name": "WEMIX",
+        "price_change_24h_pct": -6.8753,
+        "price_usd": 0.216759,
+        "market_cap_usd": 107978021
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -5.8818,
+        "price_usd": 0.459079,
+        "market_cap_usd": 193354725
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64615,
+    "price_change_24h_pct": 0.4,
+    "price_change_7d_pct": 0.3,
+    "market_cap_usd": 1296283099944,
+    "volume_24h_usd": 12986711488,
+    "direction": "neutral",
+    "oi_usd": 6903168595.62,
+    "funding_rate_latest": 5.819e-05,
+    "funding_rate_7d_avg": 4.692666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6767,
+    "long_account_pct": 62.64,
+    "short_account_pct": 37.36,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1913.05,
+    "price_change_24h_pct": 2.0,
+    "price_change_7d_pct": 2.7,
+    "market_cap_usd": 230885168230,
+    "volume_24h_usd": 4437143358,
+    "eth_btc_ratio": 0.029607,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76493415737.92,
+    "stablecoin_market_cap_usd": 309631256159.63,
+    "stablecoin_dominance_pct": 13.479
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "It's a busy week filled with Big Tech earnings, a Fed meeting and inflation data.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-07-26T20:50:54Z"
+      },
+      {
+        "headline": "Iran says it will halt strikes as long as US bombing pause holds - Reuters",
+        "summary": "Iran says it will halt strikes as long as US bombing pause holds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT2hvLTRwU3J1WVZCTlA0WFVNRmhXdDVkTWhwQkdDTFZzbEVpYmRBUUppcjJudFY2M3JpQ3lzT0I0SkM4VFlmSk8xb0RuX192WjQ2dE9nbjJkUFFMTHFyZDh2c1ktdDJpSmtmdXJPYW5wNXRuM1hsQ0RqYkE4X3d1aDZ1SkpUM3ltc0h2NFNZbmpvZFhYa0ZJTlEyR0JkdDZvYWRUYXBRZE41YkVEdjV4VEZVb0hSSUxOQlFwT1U4X1FfNjJrbmhaSVkyT0w0Zw?oc=5",
+        "published_at": "2026-07-26T20:42:58Z"
+      },
+      {
+        "headline": "Iran foreign minister says Ukraine's attack on Iranian vessel 'cannot go unanswered' - Reuters",
+        "summary": "Iran foreign minister says Ukraine's attack on Iranian vessel 'cannot go unanswered'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0dDdnVkOGdDUi10WVpzQ1FKWjNjcmRWaEl3ZFdZdXQ2cnNmY3JIbDNyN2ZiZ1ctd1YtOG1iOEZubEM4RzZ1djNiT3M1djhBRnROYTNKUVgwSGlUa1VFbUJ0ekJIWkhTVmRhZFJNbEVGTHhvc0daZXNmUzNEMWpZNlBmUy1QeEF3Y1o4SlBzcnRnd0ZXZnc5REROeGFGRzFrM2RKQXhVY3hmc3Y3RDl2bUdZazNXRF9iZkJURF9rcTVXQjMw?oc=5",
+        "published_at": "2026-07-26T17:43:43Z"
+      },
+      {
+        "headline": "Trump is giving Iran talks 'a little bit of room,' US ambassador to UN says - Reuters",
+        "summary": "Trump is giving Iran talks 'a little bit of room,' US ambassador to UN says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ0pLZTJjRGRTWW02bXNWZW9QdjlJV3JWbHkwR2tRNFMzR1ZPa0NLLVBhUGxUVzVKbTVfZ1RhTGs3Rk5vZVFYVHNaRnA4dU5melZIeEYta3Y4YlpUZUtxcTlpOU5oTWtybGlxUkVjMU9heUR6V0xhbVFaUWJTTXlVNmg2VW8zemJETEN4VUgwLWdxN0VyVjJjcGxoSTU1djBfR0pnbENheDhNdU16d2ZnZl8ycGZtNnYzdHVQVQ?oc=5",
+        "published_at": "2026-07-26T14:42:04Z"
+      },
+      {
+        "headline": "How AI wealth could be distributed to all Americans",
+        "summary": "AI riches are already concentrated among a handful of powerful companies, but there are plenty of new, some radical, ideas about how to spread the wealth.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/26/how-can-ai-wealth-be-shared-with-all-americans.html",
+        "published_at": "2026-07-26T14:06:53Z"
+      },
+      {
+        "headline": "4 generations, 6 different visions of the American Dream: 'I'm optimistic because of our resilience'",
+        "summary": "CNBC Make It asked notable voices in politics, finance and relationships on what it takes to achieve happiness and success in America today.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/26/how-different-generations-are-rewriting-the-american-dream-today.html",
+        "published_at": "2026-07-26T13:30:02Z"
+      },
+      {
+        "headline": "Most Gulf markets ease after Houthi attacks on Saudi Red Sea oil sites - Reuters",
+        "summary": "Most Gulf markets ease after Houthi attacks on Saudi Red Sea oil sites\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdUY5ektKSEpjeG1EZXRCR3BGa1NxV1AtdTdZZ0ZnSi0xNjE3c2pjcE5PM3hkTHNGUDBlWVpWUDJXUUxDY3EtUWFaV0QxUnB2clJKZ3U1bjRrbGFwTlhWRGc4R0l6eEtDWXJIdFdid2c1Q3RibUNUM0NDWi04MU83TWxuUnFYd0xNaDZ1UHFYZHQzN0FGMFVMNVgtanh0MzVEMlNDM19tUWFVWXhub3FqQ1NHRnFVNm5aaFVsVm9R?oc=5",
+        "published_at": "2026-07-26T13:29:43Z"
+      },
+      {
+        "headline": "Romania shoots down third Russian drone, as president calls breaches 'intolerable' - Reuters",
+        "summary": "Romania shoots down third Russian drone, as president calls breaches 'intolerable'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ2FyQWFjNUx3VkRnVmh1S0pMM1BYaFdDRDNzQklwZ3BaLXpGc0pfTEJ0RVhOeFFCU0ZLbkpCSVExSHlIUUY0a0tiX0YwSXZoSDdkZ2VvT3lFVE9kZ2U5a1VvZkVKSksyMzR1d05KMkhxQlYzRnhGRzdnUHdoZndobkFobnA5M0JxM0M0LWxZOHhid1NMMDdHLVc4M0xnTDdJZ1VGVU5CV0pJYmgtUldkV0dwaEJ3UTNaOHc3Uk80X1lZRFNTSWFPNnhFNExFOG9yX1JXZlh3?oc=5",
+        "published_at": "2026-07-26T12:32:39Z"
+      },
+      {
+        "headline": "Main land crossing between Kuwait and Iraq reopens, Iraq's state news agency says - Reuters",
+        "summary": "Main land crossing between Kuwait and Iraq reopens, Iraq's state news agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbGRZN0lTUGJ5SmhKYWhGai1QM1RiZVM2X29OcFpJeHZrWk4wMlM1b1hXbUZhS29maFlydGZRc3lTUXNxRjJJcXRNUnN0Ri1RdEhxX01KMUhpdXlteFlpUVhMTjU0SlRSX2ZHVlZwUWphM08tTVgzZXFmdlZaNXVuRHA0dlY5c3AycngtM016WEFyRWtFbkR2eGEtNS0xY1p5Uzg2dnpyMjdLTVVGakpWOElldll1UExvSEVTQ0ltTFhtMnFGZFRlRw?oc=5",
+        "published_at": "2026-07-26T12:29:44Z"
+      },
+      {
+        "headline": "Israeli strike kills a top Hamas security official in Gaza, medics and police say - Reuters",
+        "summary": "Israeli strike kills a top Hamas security official in Gaza, medics and police say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOEdQaF9sd1FDOHRhWUhBMTFvU0lDT1RkMUVpQ1pkMWNPUmJKX3pxYlkyQXFDWkNuTE01VFZuZXNWQWxUdmY1OGlZYTdadUZ6bTczODJXQVZ1aEFxa2xVdUpRdHhWZG9CWEJxLWJRZ0N3MkVaVGdmWnBHZGJWOTlIdTdEV3hMc3czS0pMSHFOaEV2NUxrVmVfdTEwelp4SE9VTXg1cVM3V0hHT2dnendVNmJ6Ul9PM2xmNFotOWw4dGlkMWc?oc=5",
+        "published_at": "2026-07-26T10:56:32Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.5315,
+    "dxy_lean": "neutral",
+    "spy_close": 738.93,
+    "spy_change_pct": 0.1016,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64601.58,
+    "coinbase_premium_pct": -0.020769,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-26T21:10:03 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 206.84,
+        "change_pct": -0.9197,
+        "prev_close": 208.76
+      },
+      "AMD": {
+        "close": 521.95,
+        "change_pct": -3.2871,
+        "prev_close": 539.69
+      },
+      "TSM": {
+        "close": 403.41,
+        "change_pct": -2.9284,
+        "prev_close": 415.58
+      },
+      "SMCI": {
+        "close": 30.1,
+        "change_pct": -3.5256,
+        "prev_close": 31.2
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 684.23,
+        "change_pct": -1.1171,
+        "prev_close": 691.96
+      },
+      "SOXX": {
+        "close": 527.01,
+        "change_pct": -4.3955,
+        "prev_close": 551.24
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64615,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 10,
+    "positive_count": 0,
+    "negative_count": 3,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Michael Saylor teases \u2018another color\u2019 after four straight weeks without a Strategy bitcoin buy",
+        "url": "https://www.theblock.co/post/409675/michael-saylor-teases-another-color-after-four-straight-weeks-without-a-strategy-bitcoin-buy?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-26T20:49:10+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
+        "url": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T17:45:05+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia\u2019s Sberbank to launch crypto trading infrastructure this year",
+        "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T16:07:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BitMart to wind down trading platform as global CEO says he was not consulted",
+        "url": "https://www.theblock.co/post/409670/bitmart-to-wind-down-trading-platform-as-global-ceo-says-he-was-not-consulted?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-26T14:55:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mira Murati\u2019s Inkling AI Model Review: Best Open-Source Model in the West",
+        "url": "https://decrypt.co/373884/review-inkling-mira-murati-first-open-source-ai",
+        "published_at": "2026-07-26T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Galaxy",
+        "url": "https://cointelegraph.com/markets/bitcoin-og-dormant-btc-movement-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T13:06:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korea\u2019s largest bank to launch payment service on JPMorgan\u2019s Kinexys",
+        "url": "https://cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T10:23:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BitMart to wind down exchange, end trading by Aug. 26",
+        "url": "https://cointelegraph.com/news/bitmart-wind-down-exchange-end-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T07:13:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance \u2018red teams\u2019 its own staff every month to keep hackers out",
+        "url": "https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-26T02:01:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EU adds HTX to Russia sanctions list, barring transactions starting Aug. 23",
+        "url": "https://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-25T21:23:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 400",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
