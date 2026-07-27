@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-27T21:14:26 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2302770153596.32,
+    "total_market_cap_change_24h_pct": -0.0327,
+    "total_volume_24h_usd": 66899921968.72,
+    "btc_dominance_pct": 56.5089,
+    "eth_dominance_pct": 10.1959,
+    "total2_usd": 1001500638531.73,
+    "total3_usd": 766711773911.63,
+    "active_cryptocurrencies": 17847,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 19.6,
+        "price_usd": 0.00134602,
+        "market_cap_usd": 146646215
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.00216562,
+        "market_cap_usd": 861050489
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": 15.2,
+        "price_usd": 31.51,
+        "market_cap_usd": 218752349
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": 15.0,
+        "price_usd": 58.54,
+        "market_cap_usd": 217874988
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -22.2,
+        "price_usd": 2.79,
+        "market_cap_usd": 851374196
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -20.8,
+        "price_usd": 2.74,
+        "market_cap_usd": 264224556
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -19.0,
+        "price_usd": 0.0075065,
+        "market_cap_usd": 418826784
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -18.1,
+        "price_usd": 0.119114,
+        "market_cap_usd": 297820043
+      },
+      {
+        "symbol": "BANK",
+        "name": "Lorenzo Protocol",
+        "price_change_24h_pct": -17.3,
+        "price_usd": 0.333084,
+        "market_cap_usd": 142411127
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64867,
+    "price_change_24h_pct": 0.4,
+    "price_change_7d_pct": -0.3,
+    "market_cap_usd": 1301337194450,
+    "volume_24h_usd": 25814862743,
+    "direction": "neutral",
+    "oi_usd": 6795562404.22,
+    "funding_rate_latest": 5.04e-05,
+    "funding_rate_7d_avg": 4.7380476190476194e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.524,
+    "long_account_pct": 60.38,
+    "short_account_pct": 39.62,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1946.43,
+    "price_change_24h_pct": 1.7136,
+    "price_change_7d_pct": 2.278,
+    "market_cap_usd": 234925427244,
+    "volume_24h_usd": 12057224697,
+    "eth_btc_ratio": 0.030006,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76393529817.2,
+    "stablecoin_market_cap_usd": 309036523910.26,
+    "stablecoin_dominance_pct": 13.4202
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 17,
+    "headlines": [
+      {
+        "headline": "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade",
+        "summary": "This is yet another sign that investors need to look beyond AI stocks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html",
+        "published_at": "2026-07-27T19:46:20Z"
+      },
+      {
+        "headline": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
+        "summary": "Kalshi traders are predicting Warsh will mention last week's supply shock at this week's Federal Reserve press conference.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
+        "published_at": "2026-07-27T18:58:23Z"
+      },
+      {
+        "headline": "More tech pain means gains elsewhere. What's winning in Monday's mixed market",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/more-tech-pain-means-gains-elsewhere-what-is-winning-in-the-mixed-market.html",
+        "published_at": "2026-07-27T18:40:09Z"
+      },
+      {
+        "headline": "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
+        "summary": "JetBlue is doing away with its \"Core\" product and putting economy tickets under a new name.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html",
+        "published_at": "2026-07-27T17:00:01Z"
+      },
+      {
+        "headline": "Why Boeing and Corning are moving in opposite directions and what to expect next",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/why-boeing-corning-are-moving-in-opposite-directions-and-whats-next.html",
+        "published_at": "2026-07-27T16:09:09Z"
+      },
+      {
+        "headline": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
+        "summary": "Altman will preview the capabilities of the company's upcoming family of AI models and answer questions about cybersecurity and open-weight models.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
+        "published_at": "2026-07-27T14:21:48Z"
+      },
+      {
+        "headline": "We're buying more of a slumping industrial stock and a hard-hit chipmaker",
+        "summary": "We're putting money to work in Monday's market as oil prices fall.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/were-buying-more-of-a-slumping-industrial-stock-and-a-hard-hit-chipmaker.html",
+        "published_at": "2026-07-27T12:53:43Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+        "summary": "Futures are surging after a pause in fighting in the Middle East. Plus, a bunch of AI infrastructure deals.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+        "published_at": "2026-07-27T12:52:45Z"
+      },
+      {
+        "headline": "Crude oil futures are pricing market adaptability, not hopeful Iran peace - Reuters",
+        "summary": "Crude oil futures are pricing market adaptability, not hopeful Iran peace\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNGE1c0g5ZHQxVW9KaV81YjdLV3FXRFo2dnp4S1FaeWZjbTdHbjhMOXVxRDdNVmRIenhzTWdYeU5WQWVqOWVURmxGTXJEVm5mVkN3MkdzSERyM2tHUkt5QWhkNWxkY2tzSXc3OGVtUmVzYXlPSE1vQ29Sak5vN1dDQnJicUZSZlVVSlN5ZkZhUXAxbHhDeWwtQmJxanEwam1FRlVLY2d6OFd6ejVuQUVDaWw5cEJkbHo4cDJ2TG04LU1kSm1aVVNMZE02ZmxwMGZENjZvaEZpUG4?oc=5",
+        "published_at": "2026-07-27T07:39:01Z"
+      },
+      {
+        "headline": "Morning Bid: Markets dare to hope as US, Iran put war on hold - Reuters",
+        "summary": "Morning Bid: Markets dare to hope as US, Iran put war on hold\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OaG9CanBKS3oxSTNMTm9XRGJtYmxrLVV3cFVXSnRBTk84NG5YWHNVaGJjMnE5Y0JLLUlSYTN1VnF3VmRlRlFlN1lYX2p3U1ppY2tqV1ZGLUdYT0hVckJ1U3Jna1g4N2ZHQkNwZ0J3OEpwNmc1Zmc0SjBVOWlneFk?oc=5",
+        "published_at": "2026-07-27T04:32:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 739.12,
+    "spy_change_pct": 0.0257,
+    "spy_lean": "neutral",
+    "vix_close": 18.58,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64846.23,
+    "coinbase_premium_pct": -0.032019,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-27T21:14:26 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 196.51,
+        "change_pct": -4.9942,
+        "prev_close": 206.84
+      },
+      "AMD": {
+        "close": 494.95,
+        "change_pct": -5.1729,
+        "prev_close": 521.95
+      },
+      "TSM": {
+        "close": 399.09,
+        "change_pct": -1.0709,
+        "prev_close": 403.41
+      },
+      "SMCI": {
+        "close": 29.81,
+        "change_pct": -0.9635,
+        "prev_close": 30.1
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 682.12,
+        "change_pct": -0.3084,
+        "prev_close": 684.23
+      },
+      "SOXX": {
+        "close": 516.23,
+        "change_pct": -2.0455,
+        "prev_close": 527.01
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64867,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 54,
+    "positive_count": 3,
+    "negative_count": 10,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.0556,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Cross River to enable P2P payments, banking services for X Money",
+        "url": "https://cointelegraph.com/news/x-money-cross-river-embedded-banking-p2p-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-27T21:05:05+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Searchable NYC Property Database Puts Wealthy Residents at Risk, Critics Warn",
+        "url": "https://decrypt.co/374484/searchable-nyc-property-database-could-put-wealthy-residents-at-risk-crypto-execs-warn",
+        "published_at": "2026-07-27T21:05:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Prediction Market Traders Brace for Surprise Fed Rate Hike",
+        "url": "https://decrypt.co/374453/prediction-market-traders-brace-for-surprise-fed-rate-hike",
+        "published_at": "2026-07-27T20:43:16+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NY Attorney General Letitia James warns Clarity Act would \u2018dilute\u2019 states\u2019 ability to go after fraud as pressure mounts",
+        "url": "https://www.theblock.co/post/409831/ny-attorney-general-letitia-james-warns-clarity-act-dilute-states-ability-fraud-pressure-mounts?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-27T20:31:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SparkKitty Malware Found in App Stores Targets Crypto Wallet Seed Phrases",
+        "url": "https://decrypt.co/374450/sparkkitty-malware-mobile-apps-crypto-wallet",
+        "published_at": "2026-07-27T20:09:57+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fanatics Buys CFTC-Registered Exchange in Prediction Markets Land Grab",
+        "url": "https://decrypt.co/374449/fanatics-buys-cftc-registered-exchange-prediction-markets",
+        "published_at": "2026-07-27T19:45:31+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitmine keeps buying Ether as ETH outperforms Bitcoin",
+        "url": "https://cointelegraph.com/news/bitmine-keeps-buying-ether-as-eth-outperforms-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-27T19:22:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Says MDASH Beats Claude Mythos and GPT-5.6 Sol in Cybersecurity Test",
+        "url": "https://decrypt.co/374441/microsoft-mdash-beats-claude-mythos-gpt-5-6-sol-cybersecurity",
+        "published_at": "2026-07-27T19:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum, Solana and Avalanche get busier and cheaper even as token prices fall: Bitwise",
+        "url": "https://www.theblock.co/post/409799/ethereum-solana-avalanche-get-busier-cheaper-even-as-token-prices-fall-bitwise?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-27T19:00:16+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-27T18:51:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
