@@ -1,0 +1,408 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-28T21:10:50 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2272777948375.64,
+    "total_market_cap_change_24h_pct": -1.1666,
+    "total_volume_24h_usd": 66177900797.86,
+    "btc_dominance_pct": 56.3991,
+    "eth_dominance_pct": 10.1899,
+    "total2_usd": 990952706439.44,
+    "total3_usd": 759357859028.55,
+    "active_cryptocurrencies": 17863,
+    "altcoin_season_index": 65,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 21.9966,
+        "price_usd": 0.00834807,
+        "market_cap_usd": 466103901
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 21.4477,
+        "price_usd": 3.34,
+        "market_cap_usd": 1031942024
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 20.0426,
+        "price_usd": 0.091614,
+        "market_cap_usd": 201525160
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 14.2819,
+        "price_usd": 0.134754,
+        "market_cap_usd": 336862187
+      },
+      {
+        "symbol": "CHEEMS",
+        "name": "Cheems Token",
+        "price_change_24h_pct": 9.9309,
+        "price_usd": 5.1504e-07,
+        "market_cap_usd": 104918235
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": -11.6577,
+        "price_usd": 0.822547,
+        "market_cap_usd": 290501076
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -9.9842,
+        "price_usd": 0.324003,
+        "market_cap_usd": 204804388
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -9.8911,
+        "price_usd": 1.16,
+        "market_cap_usd": 280175189
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -9.604,
+        "price_usd": 0.00195414,
+        "market_cap_usd": 776683891
+      },
+      {
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "price_change_24h_pct": -8.4504,
+        "price_usd": 4.61e-06,
+        "market_cap_usd": 2715469758
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63866,
+    "price_change_24h_pct": -1.7,
+    "price_change_7d_pct": -3.8,
+    "market_cap_usd": 1281309120437,
+    "volume_24h_usd": 25969686872,
+    "direction": "bearish",
+    "oi_usd": 6640760367.21,
+    "funding_rate_latest": 6.689e-05,
+    "funding_rate_7d_avg": 4.4905238095238096e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.739,
+    "long_account_pct": 63.49,
+    "short_account_pct": 36.51,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1918.92,
+    "price_change_24h_pct": -1.4109,
+    "price_change_7d_pct": -0.1592,
+    "market_cap_usd": 231547175375,
+    "volume_24h_usd": 11255002859,
+    "eth_btc_ratio": 0.030046,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75634618292.45,
+    "stablecoin_market_cap_usd": 308395824318.19,
+    "stablecoin_dominance_pct": 13.5691
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 6,
+    "headlines": [
+      {
+        "headline": "Jim Cramer: J&J talc settlement is good for a stock that has so much going for it already",
+        "summary": "Jim Cramer described the recent trading action on Wall Street as a \"J&J market.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/28/jim-cramer-jj-talc-settlement-is-good-for-a-stock-that-has-so-much-going-for-it-already.html",
+        "published_at": "2026-07-28T18:29:55Z"
+      },
+      {
+        "headline": "We're trimming a rallying stock to protect against a potential earnings letdown",
+        "summary": "The sale comes a day before the company reports earnings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/28/were-trimming-a-rallying-stock-to-protect-against-a-potential-earnings-letdown-.html",
+        "published_at": "2026-07-28T18:17:04Z"
+      },
+      {
+        "headline": "We're buying the dip on one of our stocks for two key reasons",
+        "summary": "We don't see signs of a slowdown in the parcel delivery industry, and believe FedEx is stealing share from its rival UPS.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/28/were-buying-the-dip-on-one-of-our-stocks-for-two-key-reasons.html",
+        "published_at": "2026-07-28T17:45:21Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+        "summary": "The downturn in chip stocks continues. Is the Nvidia selling at last overdone?",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published_at": "2026-07-28T12:57:10Z"
+      },
+      {
+        "headline": "Coca-Cola is about to report earnings. Here's what to expect",
+        "summary": "Coca-Cola stock has risen 19% this year, outstripping the gains of the S&P 500.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
+        "published_at": "2026-07-28T10:25:01Z"
+      },
+      {
+        "headline": "Apple ends day as world's most valuable company, passing Nvidia",
+        "summary": "Nvidia had held the top spot as the most valuable company since June 2025, when it took the crown from Microsoft.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
+        "published_at": "2026-07-27T21:12:26Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 740.76,
+    "spy_change_pct": 0.226,
+    "spy_lean": "neutral",
+    "vix_close": 18.67,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 63852.65,
+    "coinbase_premium_pct": -0.020903,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-28T21:10:50 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 197.01,
+        "change_pct": 0.2544,
+        "prev_close": 196.51
+      },
+      "AMD": {
+        "close": 454.62,
+        "change_pct": -8.1483,
+        "prev_close": 494.95
+      },
+      "TSM": {
+        "close": 392.31,
+        "change_pct": -1.6989,
+        "prev_close": 399.09
+      },
+      "SMCI": {
+        "close": 28.45,
+        "change_pct": -4.5622,
+        "prev_close": 29.81
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 675.49,
+        "change_pct": -0.972,
+        "prev_close": 682.12
+      },
+      "SOXX": {
+        "close": 491.46,
+        "change_pct": -4.7982,
+        "prev_close": 516.23
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63866,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 8,
+    "negative_count": 13,
+    "neutral_count": 34,
+    "sentiment_ratio": 0.1455,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Claude Mythos Cracked Post-Quantum Cryptography That Humans Spent Years Failing to Break",
+        "url": "https://decrypt.co/374600/claude-mythos-cracked-post-quantum-cryptography",
+        "published_at": "2026-07-28T20:45:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ionic Digital jumps 25% in Nasdaq debut after expanding Celsius bitcoin mining assets into AI infrastructure",
+        "url": "https://www.theblock.co/post/409945/ionic-digital-jumps-22-nasdaq-debut-celsius-bitcoin-mining-assets-ai-infrastructure?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-28T20:20:12+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
+        "url": "https://cointelegraph.com/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-28T20:10:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Teacher Arrested for Clapping at AI Data Center Public Hearing",
+        "url": "https://decrypt.co/374597/teacher-arrested-clapping-ai-data-center-public-hearing",
+        "published_at": "2026-07-28T20:08:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto hacks hit record high in H1 2026 as losses top $1 billion, Blockaid says",
+        "url": "https://www.theblock.co/post/409944/crypto-hacks-hit-record-high-in-h1-2026-as-losses-top-1-billion-blockaid-says?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-28T19:45:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Michael Saylor: Bitcoin Code Is a Constitution, Changes Are Attacks on 'Economic Rights'",
+        "url": "https://decrypt.co/374588/michael-saylor-bitcoin-constitution-bip-110",
+        "published_at": "2026-07-28T19:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Morgan Stanley Expands Crypto Push With Ethereum and Solana ETPs",
+        "url": "https://decrypt.co/374592/morgan-stanley-crypto-ethereum-solana-etps",
+        "published_at": "2026-07-28T19:14:14+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
+        "url": "https://cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-28T18:47:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Price Slides as Senate Drops Clarity Act and Fed Decision Looms",
+        "url": "https://decrypt.co/374579/xrp-price-slides-senate-clarity-act-fed-rate-looms",
+        "published_at": "2026-07-28T18:35:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Activates Ironwood Upgrade After Counterfeiting Scare",
+        "url": "https://decrypt.co/374577/zcash-ironwood-upgrade-counterfeiting-scare",
+        "published_at": "2026-07-28T18:24:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
