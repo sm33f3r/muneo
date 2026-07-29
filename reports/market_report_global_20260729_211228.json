@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-29T21:11:33 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2248077184411.1,
+    "total_market_cap_change_24h_pct": -1.1735,
+    "total_volume_24h_usd": 67217406494.69,
+    "btc_dominance_pct": 56.452,
+    "eth_dominance_pct": 10.0727,
+    "total2_usd": 978992653805.83,
+    "total3_usd": 752549967259.61,
+    "active_cryptocurrencies": 17876,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": 23.7,
+        "price_usd": 5.18,
+        "market_cap_usd": 117481577
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": 14.7,
+        "price_usd": 3.87,
+        "market_cap_usd": 1198303336
+      },
+      {
+        "symbol": "HOLO",
+        "name": "Holoworld",
+        "price_change_24h_pct": 14.4,
+        "price_usd": 0.077881,
+        "market_cap_usd": 159500616
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": 13.1,
+        "price_usd": 1.31,
+        "market_cap_usd": 316685777
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -19.3,
+        "price_usd": 0.00661078,
+        "market_cap_usd": 369356569
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -13.1,
+        "price_usd": 0.079117,
+        "market_cap_usd": 174056617
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -13.1,
+        "price_usd": 0.00112368,
+        "market_cap_usd": 122328745
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": -10.9,
+        "price_usd": 54.4,
+        "market_cap_usd": 202475021
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63317,
+    "price_change_24h_pct": -0.8578,
+    "price_change_7d_pct": -3.8907,
+    "market_cap_usd": 1269750053974,
+    "volume_24h_usd": 28042375006,
+    "direction": "neutral",
+    "oi_usd": 6535491463.03,
+    "funding_rate_latest": 3.665e-05,
+    "funding_rate_7d_avg": 5.102238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5661,
+    "long_account_pct": 61.03,
+    "short_account_pct": 38.97,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1877.93,
+    "price_change_24h_pct": -1.9,
+    "price_change_7d_pct": -2.2,
+    "market_cap_usd": 226621406466,
+    "volume_24h_usd": 10345010101,
+    "eth_btc_ratio": 0.029659,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75257810496.96,
+    "stablecoin_market_cap_usd": 307675024790.56,
+    "stablecoin_dominance_pct": 13.6861
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 30,
+    "headlines": [
+      {
+        "headline": "Here are the five big takeaways from this week's Fed meeting",
+        "summary": "The Federal Reserve on Wednesday followed through on expectations for no interest rate change.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html",
+        "published_at": "2026-07-29T20:42:50Z"
+      },
+      {
+        "headline": "Drone hits gas storage tanker at Egypt's Mediterranean port, Ambrey reports - Reuters",
+        "summary": "Drone hits gas storage tanker at Egypt's Mediterranean port, Ambrey reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3F5LWg3Mm9rYmlhejJpdzJqQW9SWnU1WHJRVm9iZ1p0TUpmRTR6Mk1JYXVUekU2c1VlTHI5bV9DbzIyejlvYU13Y2cxYU12WExOYzJoVmxsVzVoc2hiWkQ2ZWFUZ0EwZHBZZlZ1UnREZjZGc243TlQtMXVKcDQ5bUpEaDR2Tmo5eTJkdlJhSXMtZ0U2cnk0OWNLLU50YlBjbnZrei1FVm9CYWw5cUE?oc=5",
+        "published_at": "2026-07-29T20:07:43Z"
+      },
+      {
+        "headline": "Trump and Netanyahu explored all Iran options including attack, Israeli official says - Reuters",
+        "summary": "Trump and Netanyahu explored all Iran options including attack, Israeli official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGRMX1g5X0U3ckZtQjhIMHFGMHVjWmZoNlU5bDBydGRabk5LR1dGUUNSaXFHWUQyWnJqd2VJS09KSmU3ZXVtVjBqemVDdTJJNE9JVDkxTm5udWZ1bVRYYmxUdmExbHFsdENjc2N3Yi15R0tEVUxuRXJiQUk4akd2dy1ZU3g5S21wNjhTX29NODVtaUNRU2JoSi04T29pUzNFMGtKR3cyZUN1RF8zZEVTZTFxSkhXZU9ESHphSWhhR1R4ZUlMSnNsVlNQTUxwRTg?oc=5",
+        "published_at": "2026-07-29T19:14:50Z"
+      },
+      {
+        "headline": "Fed keeps rates steady. The big question now: What will Microsoft and Meta say on AI capex?",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/fed-keeps-rates-steady-the-big-question-now-what-will-microsoft-and-meta-say-on-ai-capex-.html",
+        "published_at": "2026-07-29T19:11:58Z"
+      },
+      {
+        "headline": "Hims and Hers shares fall 10% as FTC sues company over data, billing practices",
+        "summary": "The FTC sued Hims & Hers over alleged health data sharing with Meta and Snap, billing practices and subscription cancellations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/hims-and-hers-ftc-lawsuit-stock.html",
+        "published_at": "2026-07-29T18:24:09Z"
+      },
+      {
+        "headline": "Jim Cramer sees opportunity to snap up more shares of this chipmaker",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/jim-cramer-sees-opportunity-to-snap-up-more-shares-of-this-chipmaker-.html",
+        "published_at": "2026-07-29T16:14:35Z"
+      },
+      {
+        "headline": "How a 40-year-old father launched a $1.6 billion-a-year meat snacks empire from a bankrupt Wisconsin business",
+        "summary": "Jack Link turned a bankruptcy into an opportunity to build a beef jerky empire. Four decades later, Link Snacks brings in more than $1 billion in annual sales.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/how-link-snacks-grew-from-jack-links-beef-jerky-to-meat-snacks-empire.html",
+        "published_at": "2026-07-29T16:03:25Z"
+      },
+      {
+        "headline": "US issues new Iran-related sanctions targeting insurers, more tankers - Reuters",
+        "summary": "US issues new Iran-related sanctions targeting insurers, more tankers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUHg0N2g3a2l6LTNFemIxenZFVEI0Unk4dnROM2JfZ3lPYXR4c2IxSFNOMG5ZM1EzdEEzeS1ETTVIbmRRTmRNMzZucTMyQU1xa0ItRWh1N2tDREZ3dDhBVGxITEphNkdlbVd1VWhWQmU4N25QZTE5Qk9vbHFQMkVDc1pqVUFCX0F0cFVqVVBlTjM4R2t2S2xuRDBlcTcxZ1F2ZGE5cDdLNmxNd3FQMDdrazZMbC1JRnlI?oc=5",
+        "published_at": "2026-07-29T15:30:44Z"
+      },
+      {
+        "headline": "FIFA is embroiled in a $20 billion World Cup controversy. Here's what's going on",
+        "summary": "UEFA \u2013 European soccer's governing body \u2013 accused FIFA of \"crossing a line\" and said the tournament is not its to sell.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/world-cup-fifa-stake-sales-uefa-soccer.html",
+        "published_at": "2026-07-29T13:42:03Z"
+      },
+      {
+        "headline": "Humana tops quarterly estimates, maintains profit outlook as medical costs stay in line",
+        "summary": "Humana maintained its 2026 adjusted profit outlook of at least $9 per share, which some analysts called a \"disappointment\" amid high expectations for insurers.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/29/humana-hum-earnings-q2-2026.html",
+        "published_at": "2026-07-29T13:23:20Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 729.54,
+    "spy_change_pct": -1.528,
+    "spy_lean": "bearish",
+    "vix_close": 18.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63352.66,
+    "coinbase_premium_pct": 0.05632,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-29T21:11:33 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 190.01,
+        "change_pct": -3.5531,
+        "prev_close": 197.01
+      },
+      "AMD": {
+        "close": 429.56,
+        "change_pct": -5.5123,
+        "prev_close": 454.62
+      },
+      "TSM": {
+        "close": 374.67,
+        "change_pct": -4.4964,
+        "prev_close": 392.31
+      },
+      "SMCI": {
+        "close": 25.7,
+        "change_pct": -9.6661,
+        "prev_close": 28.45
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 661.73,
+        "change_pct": -2.037,
+        "prev_close": 675.49
+      },
+      "SOXX": {
+        "close": 465.0,
+        "change_pct": -5.384,
+        "prev_close": 491.46
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63317,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 33,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 12,
+    "negative_count": 4,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.2143,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Flock Cameras Face Growing Backlash as Privacy Concerns Reach Capitol Hill",
+        "url": "https://decrypt.co/374603/flock-cameras-backlash-privacy-concerns-capitol-hill",
+        "published_at": "2026-07-29T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto entering biggest consolidation phase in history, says ARK analyst",
+        "url": "https://cointelegraph.com/news/crypto-entering-biggest-consolidation-phase-in-history-says-ark-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-29T20:40:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tennessee county passes another ban on crypto operations",
+        "url": "https://cointelegraph.com/news/tennessee-county-ban-crypto-operations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-29T20:11:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "There's a New Way to Protect Bitcoin From Future Quantum Attacks, Researchers Say",
+        "url": "https://decrypt.co/374651/new-research-bitcoin-wallet-quantum-attacks-safe",
+        "published_at": "2026-07-29T20:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US prosecutors propose changes to CLARITY as voting window narrows: Report",
+        "url": "https://cointelegraph.com/news/clarity-act-changes-law-enforcement-voting-narrows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-29T19:43:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed holds rates steady as 3 officials push for hike while crypto market stays flat",
+        "url": "https://www.theblock.co/post/410092/fed-holds-rates-steady-three-officials-push-hike-crypto-market-stays-flat?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-29T19:38:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MoonPay's PayBox Puts a Crypto Wallet Inside Claude and ChatGPT\u2014And Lets It Pay for Things",
+        "url": "https://decrypt.co/374687/moonpays-paybox-crypto-wallet-claude-chatgpt",
+        "published_at": "2026-07-29T19:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pump.fun token graduation rate jumps after BOOST changes launch incentives",
+        "url": "https://www.theblock.co/post/409815/pump-fun-token-graduation-rate-jumps-boost-changes-launch-incentives?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-29T18:51:01+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin, Ethereum Wobble as Fed Holds Rates Steady",
+        "url": "https://decrypt.co/374672/bitcoin-ethereum-price-fed-holds-rates-steady",
+        "published_at": "2026-07-29T18:43:45+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Ethereum Cypherpunk Manifesto\u2019 author joins Ethereum Foundation as fourth board member",
+        "url": "https://www.theblock.co/post/410083/ethereum-cypherpunk-manifesto-author-ethereum-foundation-fourth-board-member?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-29T17:22:33+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
