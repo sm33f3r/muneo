@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-30T21:11:21 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2295118398674.75,
+    "total_market_cap_change_24h_pct": 1.4746,
+    "total_volume_24h_usd": 60831603690.24,
+    "btc_dominance_pct": 56.5778,
+    "eth_dominance_pct": 10.0981,
+    "total2_usd": 996590935687.13,
+    "total3_usd": 764827756130.2,
+    "active_cryptocurrencies": 18072,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "SNDKB",
+        "name": "SanDisk (bStocks Tokenized Stock)",
+        "price_change_24h_pct": 30.3,
+        "price_usd": 1320.32,
+        "market_cap_usd": 182515414
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 29.5,
+        "price_usd": 0.00817238,
+        "market_cap_usd": 456913671
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.148742,
+        "market_cap_usd": 371817175
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 15.4,
+        "price_usd": 0.152481,
+        "market_cap_usd": 304836339
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -20.2,
+        "price_usd": 1.07,
+        "market_cap_usd": 257807505
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -15.1,
+        "price_usd": 2.32,
+        "market_cap_usd": 223506187
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -14.2,
+        "price_usd": 0.978643,
+        "market_cap_usd": 1301263628
+      },
+      {
+        "symbol": "HOLO",
+        "name": "Holoworld",
+        "price_change_24h_pct": -12.9,
+        "price_usd": 0.068211,
+        "market_cap_usd": 139692578
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64730,
+    "price_change_24h_pct": 2.0,
+    "price_change_7d_pct": -0.1,
+    "market_cap_usd": 1298620097128,
+    "volume_24h_usd": 27113204913,
+    "direction": "bullish",
+    "oi_usd": 6891165962.61,
+    "funding_rate_latest": 9.029e-05,
+    "funding_rate_7d_avg": 5.882380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2447,
+    "long_account_pct": 55.45,
+    "short_account_pct": 44.55,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1921.56,
+    "price_change_24h_pct": 2.0,
+    "price_change_7d_pct": 2.4,
+    "market_cap_usd": 231899679735,
+    "volume_24h_usd": 7426230684,
+    "eth_btc_ratio": 0.029686,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75566478611.88,
+    "stablecoin_market_cap_usd": 306835367018.76,
+    "stablecoin_dominance_pct": 13.369
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "Drone strike in Egypt sparks security concerns about Suez oil exports - Reuters",
+        "summary": "Drone strike in Egypt sparks security concerns about Suez oil exports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
+        "published_at": "2026-07-30T20:08:12Z"
+      },
+      {
+        "headline": "'The Odyssey' extends stay in 70mm IMAX theaters as shows sell out weeks in advance",
+        "summary": "Universal and IMAX have extended the availability of 70mm screenings of Christopher Nolan's retelling of Homer's epic into mid-September.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/the-odyssey-70mm-imax-run-extended-until-september.html",
+        "published_at": "2026-07-30T19:24:10Z"
+      },
+      {
+        "headline": "Iran's Araqchi presses European counterparts over use of bases in US operations - Reuters",
+        "summary": "Iran's Araqchi presses European counterparts over use of bases in US operations\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1U2RVJiSTk2d0ZGMzVLVlc4MXU2d0drYUotbVg5aEd0bUlQbHlCM2x6eVBIUmFiaE9iRGxBc2E5Q2FaaV9EcW1lcWNGSU90ck5OcU5VU1FMcGgyUkIzV3l2cTNVaXROZl9DcDZocm54TUR6aUxsN0gtQmsweDVNLXEzRVRITThFSlBjdjBxYWpQYjJ3LXZ3SllwOUtkLV9OekRNV2xtMXZCRmhfeHdzdFNZUERBQVFOekdOVS1HcUx0UW16anBYRW52UmhPMFN4?oc=5",
+        "published_at": "2026-07-30T19:07:10Z"
+      },
+      {
+        "headline": "Microsoft wins back Jim Cramer's support after a surprisingly good quarter",
+        "summary": "Jim Cramer has had a change of heart about Microsoft following Wednesday evening's earnings report.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/microsoft-wins-back-jim-cramers-support-after-a-surprisingly-good-quarter.html",
+        "published_at": "2026-07-30T18:52:13Z"
+      },
+      {
+        "headline": "Imports hold back US economic growth in Q2, but domestic demand robust - Reuters",
+        "summary": "Imports hold back US economic growth in Q2, but domestic demand robust\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWh4Um5od3luS0pRM0hOYTNwN0Z4bElZWFBXVDRRdFFVT2FpejU4ZkQ3MTVuY3hYb1NpMVd4QXV4WFhFMFUwbTRCbGs2cGlPOW11LWUxdzFyRnU0a0cwZU02b0s5b012M0p3Y2prV25KT0RQd3BGZk52aWNlanFDSDh5UTRRUVYtc2lsSm1RWjM4MjlzMXFCcEVrVjNvYVNzN3pNTm1zU2ZpV1U?oc=5",
+        "published_at": "2026-07-30T18:36:01Z"
+      },
+      {
+        "headline": "US issues sanctions targeting support networks for Iran's Mahan Air - Reuters",
+        "summary": "US issues sanctions targeting support networks for Iran's Mahan Air\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
+        "published_at": "2026-07-30T17:36:09Z"
+      },
+      {
+        "headline": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
+        "summary": "FIFA has faced backlash from global soccer governing bodies over the proposal to allow private investment.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html",
+        "published_at": "2026-07-30T17:30:06Z"
+      },
+      {
+        "headline": "Cramer predicts a breakout for Starbucks shares as CEO Niccol's turnaround accelerates",
+        "summary": "\"There are so many good things ahead here,\" Jim Cramer said Thursday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/cramer-predicts-a-breakout-for-starbucks-shares-as-ceo-niccols-turnaround-accelerates-.html",
+        "published_at": "2026-07-30T16:36:35Z"
+      },
+      {
+        "headline": "Cramer sees a 'sure signal to buy' stocks. Plus what we want from Amazon's results",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/cramer-sees-signal-to-buy-stocks-previews-reports-amzn-aapl.html",
+        "published_at": "2026-07-30T16:17:11Z"
+      },
+      {
+        "headline": "The real story at Apple is the memory crunch \u2014 and there's little room for error",
+        "summary": "It's a high-stakes quarter for the iPhone maker. Apple needs to show Wall Street exactly how it plans to mitigate the risks of rising memory costs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/the-real-story-at-apple-is-memory-and-theres-little-room-for-error.html",
+        "published_at": "2026-07-30T15:59:58Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 741.74,
+    "spy_change_pct": 1.6834,
+    "spy_lean": "bullish",
+    "vix_close": 20.66,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64702.41,
+    "coinbase_premium_pct": -0.042623,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-30T21:11:21 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 195.04,
+        "change_pct": 2.6472,
+        "prev_close": 190.01
+      },
+      "AMD": {
+        "close": 485.39,
+        "change_pct": 12.997,
+        "prev_close": 429.56
+      },
+      "TSM": {
+        "close": 403.31,
+        "change_pct": 7.6441,
+        "prev_close": 374.67
+      },
+      "SMCI": {
+        "close": 27.73,
+        "change_pct": 7.8988,
+        "prev_close": 25.7
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 683.55,
+        "change_pct": 3.2974,
+        "prev_close": 661.73
+      },
+      "SOXX": {
+        "close": 504.53,
+        "change_pct": 8.5011,
+        "prev_close": 465.0
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64730,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 54,
+    "positive_count": 10,
+    "negative_count": 9,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.1852,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Coinbase shares slip after Q2 results despite prediction markets doubling and record trading market share",
+        "url": "https://www.theblock.co/post/410208/coinbase-shares-slip-after-q2-results-despite-prediction-markets-doubling-and-record-trading-market-share?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-30T21:09:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Q2 profit misses estimates despite record crypto market share",
+        "url": "https://cointelegraph.com/markets/coinbase-q2-earnings-record-crypto-market-share?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-30T20:47:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-30T20:10:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Telegram\u2019s Pavel Durov responds to Russia\u2019s terrorism designation",
+        "url": "https://cointelegraph.com/news/pavel-durov-responds-russia-terrorism-designation-cites-mass-surveillance-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-30T19:54:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senator Schumer proposes agency to address corruption, including Trump\u2019s crypto ventures",
+        "url": "https://cointelegraph.com/news/senate-government-agency-donald-trump-cryptocurrency-ventures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-30T19:45:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury Secretary Invokes Bitcoin Creator Satoshi Nakamoto in Plea for Clarity Act",
+        "url": "https://decrypt.co/374758/treasury-secretary-bitcoin-satoshi-nakamoto-clarity-act",
+        "published_at": "2026-07-30T19:32:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "IRS warns crypto holders fraudster sending fake letters in attempt to steal digital assets or data: Bloomberg",
+        "url": "https://www.theblock.co/post/410204/irs-crypto-holders-fraudster-sending-fake-letters-steal-digital-assets-data-bloomberg?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-30T19:19:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Researchers Tried Letting AI Do Science. It Failed",
+        "url": "https://decrypt.co/374755/researchers-tried-letting-ai-do-science-it-failed",
+        "published_at": "2026-07-30T19:13:46+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bipartisan Sens. Tillis and Gallego send new ethics compromise to White House in Clarity Act push",
+        "url": "https://www.theblock.co/post/410193/bipartisan-sens-tillis-gallego-new-ethics-compromise-white-house-clarity-act-push?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-30T18:30:42+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Quantum Solutions loses top Japan ETH treasury spot after another $1.9 million sale",
+        "url": "https://www.theblock.co/post/410175/quantum-solutions-loses-top-japan-eth-treasury-spot-1-9-million-sale?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-30T18:16:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
