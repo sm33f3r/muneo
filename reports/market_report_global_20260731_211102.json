@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-07-31T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2241723363519.83,
+    "total_market_cap_change_24h_pct": -2.2703,
+    "total_volume_24h_usd": 65667613971.66,
+    "btc_dominance_pct": 56.2342,
+    "eth_dominance_pct": 10.0019,
+    "total2_usd": 981107959515.06,
+    "total3_usd": 756892473027.04,
+    "active_cryptocurrencies": 18090,
+    "altcoin_season_index": 64,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": 35.4,
+        "price_usd": 0.00141481,
+        "market_cap_usd": 153788719
+      },
+      {
+        "symbol": "US",
+        "name": "Talus",
+        "price_change_24h_pct": 27.1,
+        "price_usd": 0.055868,
+        "market_cap_usd": 558484586
+      },
+      {
+        "symbol": "GLIDR",
+        "name": "Glidr",
+        "price_change_24h_pct": 21.6,
+        "price_usd": 1.24,
+        "market_cap_usd": 124098620
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 16.5,
+        "price_usd": 1.15,
+        "market_cap_usd": 1530725908
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -12.1,
+        "price_usd": 0.362424,
+        "market_cap_usd": 126751350
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -8.1,
+        "price_usd": 2.09,
+        "market_cap_usd": 522253049
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": -7.8,
+        "price_usd": 0.346058,
+        "market_cap_usd": 289428976
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -7.6,
+        "price_usd": 0.02061186,
+        "market_cap_usd": 206102542
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62893,
+    "price_change_24h_pct": -3.0,
+    "price_change_7d_pct": -2.0,
+    "market_cap_usd": 1261589495617,
+    "volume_24h_usd": 30057324014,
+    "direction": "bearish",
+    "oi_usd": 6885809539.0,
+    "funding_rate_latest": 5.664e-05,
+    "funding_rate_7d_avg": 6.189190476190477e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2082,
+    "long_account_pct": 68.83,
+    "short_account_pct": 31.17,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1860.76,
+    "price_change_24h_pct": -3.3,
+    "price_change_7d_pct": -0.1,
+    "market_cap_usd": 224561304465,
+    "volume_24h_usd": 9259506552,
+    "eth_btc_ratio": 0.029586,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74306098237.31,
+    "stablecoin_market_cap_usd": 306885202226.75,
+    "stablecoin_dominance_pct": 13.6897
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 19,
+    "headlines": [
+      {
+        "headline": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html",
+        "published_at": "2026-07-31T18:34:20Z"
+      },
+      {
+        "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
+        "summary": "Fintech brokerage Clear Street is launching a private markets platform, beginning with Databricks stakes, to give investors more access to late-stage startups.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
+        "published_at": "2026-07-31T18:20:01Z"
+      },
+      {
+        "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market\u2019s next move",
+        "summary": "Options traders and market makers in Chicago were quick to buy dips below 7,500 in the benchmark index Friday, but almost as quick to sell rallies above that level.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html",
+        "published_at": "2026-07-31T18:07:36Z"
+      },
+      {
+        "headline": "\u2018Spider-Man: Brand New Day\u2019 sets domestic box office preview record with $72 million",
+        "summary": "Sony and Marvel's \"Spider-Man: Brave New Day\" is expected to haul in around $270 million domestically over its debut weekend.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html",
+        "published_at": "2026-07-31T17:46:45Z"
+      },
+      {
+        "headline": "Jim Cramer: Buy this industrial stock on the dip if you don't own it already",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/jim-cramer-buy-this-industrial-stock-on-the-dip-if-you-dont-own-it-already.html",
+        "published_at": "2026-07-31T16:21:00Z"
+      },
+      {
+        "headline": "FIFA tests the limits of private equity in sports with World Cup subsidiary sale",
+        "summary": "UEFA and Concacaf's rejection of FIFA's plan to sell a 20% stake in the World Cup's commercial operations highlights uneasiness with private equity in sports.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html",
+        "published_at": "2026-07-31T16:00:11Z"
+      },
+      {
+        "headline": "Microsoft shares are surging. Here\u2019s how to still make money, says Mike Khouw",
+        "summary": "Following Microsoft's (MSFT) Q4 earnings and record-setting appreciation, the immediate binary event risk is officially behind us.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html",
+        "published_at": "2026-07-31T15:26:31Z"
+      },
+      {
+        "headline": "GM to launch new in-vehicle AI system later this year",
+        "summary": "General Motors plans to launch a proprietary in-vehicle artificial intelligence system that's better tailored for its customers later this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
+        "published_at": "2026-07-31T13:20:52Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
+        "summary": "Nasdaq futures are up, driven by an excellent quarter for Amazon.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
+        "published_at": "2026-07-31T13:14:54Z"
+      },
+      {
+        "headline": "34-year-old CEO bet on AI video 5 years before ChatGPT\u2014convincing Mark Cuban to invest was the easy part",
+        "summary": "Victor Riparbelli launched Synthesia in 2017 to help people 'make a Hollywood film from a laptop.' After four years of middling results, he made a major shift.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/31/ceo-bet-on-ai-video-years-before-chatgptnow-his-startup-is-worth-billions.html",
+        "published_at": "2026-07-31T13:05:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 746.9,
+    "spy_change_pct": 0.7024,
+    "spy_lean": "bullish",
+    "vix_close": 17.09,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 62906.74,
+    "coinbase_premium_pct": 0.021847,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-07-31T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.75,
+        "change_pct": 2.9276,
+        "prev_close": 195.04
+      },
+      "AMD": {
+        "close": 476.15,
+        "change_pct": -1.9036,
+        "prev_close": 485.39
+      },
+      "TSM": {
+        "close": 404.25,
+        "change_pct": 0.2331,
+        "prev_close": 403.31
+      },
+      "SMCI": {
+        "close": 28.4,
+        "change_pct": 2.4162,
+        "prev_close": 27.73
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 687.99,
+        "change_pct": 0.6496,
+        "prev_close": 683.55
+      },
+      "SOXX": {
+        "close": 504.89,
+        "change_pct": 0.0714,
+        "prev_close": 504.53
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62893,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 34,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 3,
+    "negative_count": 8,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.0536,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SecondFi Renews Bounty Push After $16.1M Cardano Exploit",
+        "url": "https://bitcoinist.com/secondfi-renews-bounty-push-after-16-1m-cardano-exploit/",
+        "published_at": "2026-07-31T20:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears",
+        "url": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
+        "published_at": "2026-07-31T20:32:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
+        "url": "https://www.theblock.co/post/410338/george-santos-to-pay-35000-cftc-settlement-kalshi-sotu-bet?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-31T20:25:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin losses linked to Coldcard vulnerability grow to $70 million, Galaxy Research says",
+        "url": "https://www.theblock.co/post/410332/bitcoin-losses-linked-coldcard-vulnerability-70-million-galaxy-research?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-31T20:20:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
+        "url": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-31T20:10:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Music Company Suno Loses Copyright Case in Germany",
+        "url": "https://decrypt.co/374802/suno-ai-music-copyright-case-germany",
+        "published_at": "2026-07-31T20:03:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Holds Above $1.04 As Whale Activity Cools On Binance",
+        "url": "https://bitcoinist.com/xrp-holds-above-1-04-as-whale-activity-cools-on-binance/",
+        "published_at": "2026-07-31T19:50:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Is Banning Foreign Robots\u2014Even Roombas",
+        "url": "https://decrypt.co/374799/fcc-bans-foreign-humanoid-robots-china-roombas",
+        "published_at": "2026-07-31T19:43:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase\u2019s Q2 miss sparks split on Wall Street, analysts debate growth beyond crypto trading",
+        "url": "https://www.theblock.co/post/410316/coinbase-q2-miss-sparks-split-wall-street-analysts-debate-growth-beyond-trading?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-07-31T19:34:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pump.fun laid off workers before they received millions in PUMP tokens: Report",
+        "url": "https://cointelegraph.com/news/pump-fun-employees-fired-tokens-vest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-07-31T19:16:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
