@@ -1,0 +1,380 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-01T21:13:53 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2233488848859.01,
+    "total_market_cap_change_24h_pct": -0.576,
+    "total_volume_24h_usd": 36217565401.57,
+    "btc_dominance_pct": 56.3293,
+    "eth_dominance_pct": 9.9354,
+    "total2_usd": 975379740158.56,
+    "total3_usd": 753472623764.02,
+    "active_cryptocurrencies": 18102,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AGENTFUN",
+        "name": "AgentFun.AI",
+        "price_change_24h_pct": 249.3,
+        "price_usd": 1.58,
+        "market_cap_usd": 158455124
+      },
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": 49.3,
+        "price_usd": 6.67,
+        "market_cap_usd": 151242743
+      },
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": 31.0,
+        "price_usd": 0.505547,
+        "market_cap_usd": 120825652
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 27.1,
+        "price_usd": 0.00549035,
+        "market_cap_usd": 125159399
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -7.5,
+        "price_usd": 0.138492,
+        "market_cap_usd": 276943410
+      },
+      {
+        "symbol": "AAVE",
+        "name": "Aave",
+        "price_change_24h_pct": -7.3,
+        "price_usd": 89.58,
+        "market_cap_usd": 1381507376
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": -7.3,
+        "price_usd": 0.321238,
+        "market_cap_usd": 268653611
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -5.6,
+        "price_usd": 1.079,
+        "market_cap_usd": 1435543003
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62711,
+    "price_change_24h_pct": -0.5,
+    "price_change_7d_pct": -2.7,
+    "market_cap_usd": 1258259669935,
+    "volume_24h_usd": 14383820936,
+    "direction": "neutral",
+    "oi_usd": 6792901424.45,
+    "funding_rate_latest": 3.545e-05,
+    "funding_rate_7d_avg": 6.122666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1636,
+    "long_account_pct": 68.39,
+    "short_account_pct": 31.61,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1837.92,
+    "price_change_24h_pct": -1.6,
+    "price_change_7d_pct": -2.0,
+    "market_cap_usd": 221804450895,
+    "volume_24h_usd": 4377489413,
+    "eth_btc_ratio": 0.029308,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 73534409159.22,
+    "stablecoin_market_cap_usd": 306855409595.87,
+    "stablecoin_dominance_pct": 13.7388
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 2,
+    "headlines": [
+      {
+        "headline": "Looking at just the odds isn\u2019t enough. How traders gain an edge on prediction markets",
+        "summary": "Gaining an edge on prediction markets requires speed and skills beyond just reading the odds on platforms like Kalshi and Polymarket.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html",
+        "published_at": "2026-08-01T13:44:04Z"
+      },
+      {
+        "headline": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+        "summary": "The wake-up call to the cyber industry comes as industry experts descend on Black Hat, a major cybersecurity conference.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
+        "published_at": "2026-08-01T12:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": 747.03,
+    "spy_change_pct": 0.72,
+    "spy_lean": "bullish",
+    "vix_close": 17.09,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 62689.19,
+    "coinbase_premium_pct": -0.034779,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-01T21:13:53 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.75,
+        "change_pct": 2.9276,
+        "prev_close": 195.04
+      },
+      "AMD": {
+        "close": 476.15,
+        "change_pct": -1.9036,
+        "prev_close": 485.39
+      },
+      "TSM": {
+        "close": 404.25,
+        "change_pct": 0.2331,
+        "prev_close": 403.31
+      },
+      "SMCI": {
+        "close": 28.4,
+        "change_pct": 2.4162,
+        "prev_close": 27.73
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 687.99,
+        "change_pct": 0.6496,
+        "prev_close": 683.55
+      },
+      "SOXX": {
+        "close": 504.89,
+        "change_pct": 0.0714,
+        "prev_close": 504.53
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62711,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 32,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 17,
+    "positive_count": 4,
+    "negative_count": 4,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.2353,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "BNB Chain \u2018pursuing legal action\u2019 against former employee over memecoin launched from tutorial wallet",
+        "url": "https://www.theblock.co/post/410351/bnb-chain-pursuing-legal-action-against-former-employee-over-memecoin-launched-from-tutorial-wallet?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-01T19:09:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+        "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T18:07:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russian decree bans crypto mining across Moscow region through 2032",
+        "url": "https://www.theblock.co/post/410345/russian-decree-bans-crypto-mining-across-moscow-region-through-2032?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-01T16:09:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
+        "url": "https://decrypt.co/374810/cz-warns-bitcoin-holders-70-million-coldcard-wallet-exploit",
+        "published_at": "2026-08-01T16:01:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC pours another $1M into Michigan House race",
+        "url": "https://cointelegraph.com/news/crypto-pac-michigan-thanedar-mckinney?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T15:44:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The More Americans Know About AI, the Less They Like It: Gallup",
+        "url": "https://decrypt.co/374794/more-americans-know-about-ai-less-they-like-gallup",
+        "published_at": "2026-08-01T15:01:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia expands crypto mining ban to Moscow through 2032",
+        "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T10:23:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
+        "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T09:23:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs end July in the green despite late-month selling",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T07:23:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Upbit Rebalances 864B SHIB In Internal Wallet Move",
+        "url": "https://bitcoinist.com/upbit-rebalances-864b-shib-in-internal-wallet-move/",
+        "published_at": "2026-08-01T02:35:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
