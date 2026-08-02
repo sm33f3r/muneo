@@ -1,0 +1,395 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-02T21:10:04 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2262790846129.11,
+    "total_market_cap_change_24h_pct": 1.2186,
+    "total_volume_24h_usd": 36873179265.45,
+    "btc_dominance_pct": 56.2846,
+    "eth_dominance_pct": 10.0417,
+    "total2_usd": 989188985713.08,
+    "total3_usd": 761966027123.18,
+    "active_cryptocurrencies": 18108,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 13.8,
+        "price_usd": 0.075953,
+        "market_cap_usd": 151281498
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 13.0,
+        "price_usd": 0.795334,
+        "market_cap_usd": 218517957
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 11.1,
+        "price_usd": 0.089115,
+        "market_cap_usd": 852021988
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_change_24h_pct": 8.7,
+        "price_usd": 0.187509,
+        "market_cap_usd": 7001459387
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -24.7,
+        "price_usd": 3.28,
+        "market_cap_usd": 1014539686
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -23.3,
+        "price_usd": 0.080636,
+        "market_cap_usd": 177400161
+      },
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": -15.0,
+        "price_usd": 5.45,
+        "market_cap_usd": 123643297
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 1.027,
+        "market_cap_usd": 247850056
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63486,
+    "price_change_24h_pct": 1.6,
+    "price_change_7d_pct": -1.8,
+    "market_cap_usd": 1273840301078,
+    "volume_24h_usd": 14775045871,
+    "direction": "bullish",
+    "oi_usd": 6933287141.17,
+    "funding_rate_latest": 7.707e-05,
+    "funding_rate_7d_avg": 6.389285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9869,
+    "long_account_pct": 66.52,
+    "short_account_pct": 33.48,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1882.64,
+    "price_change_24h_pct": 2.6,
+    "price_change_7d_pct": -1.6,
+    "market_cap_usd": 227226412351,
+    "volume_24h_usd": 4777761743,
+    "eth_btc_ratio": 0.029654,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74549398654.83,
+    "stablecoin_market_cap_usd": 306719692603.26,
+    "stablecoin_dominance_pct": 13.5549
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 4,
+    "headlines": [
+      {
+        "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+        "summary": "Four more Club holdings report earnings. Plus, it's a loaded week of jobs data.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/02/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-08-02T15:36:01Z"
+      },
+      {
+        "headline": "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
+        "summary": "Candidates giving up in the face of relentless job searches could be part of the reason behind recent declines in the labor force participation rate.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/02/why-people-are-dropping-out-of-the-workforce-and-not-looking-for-new-jobs-the-market-wore-me-down.html",
+        "published_at": "2026-08-02T14:30:01Z"
+      },
+      {
+        "headline": "Op-ed: The U.S. lead over China in AI is all but gone",
+        "summary": "AI debate in recent years has centered on whether the U.S. can develop a strategy capable of preserving an edge over China. The answer isn't looking positive.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
+        "published_at": "2026-08-02T12:30:01Z"
+      },
+      {
+        "headline": "Why flights are so expensive and will likely stay that way",
+        "summary": "Airlines are paying billions of dollars more in fuel costs this year",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/02/flights-are-getting-even-more-expensive-as-fuel-prices-rise.html",
+        "published_at": "2026-08-02T12:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 120.7105,
+    "dxy_lean": "neutral",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": null,
+    "vix_close": 17.09,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63466.96,
+    "coinbase_premium_pct": -0.029991,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-02T21:10:04 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.75,
+        "change_pct": 2.9276,
+        "prev_close": 195.04
+      },
+      "AMD": {
+        "close": 476.15,
+        "change_pct": -1.9036,
+        "prev_close": 485.39
+      },
+      "TSM": {
+        "close": 404.25,
+        "change_pct": 0.2331,
+        "prev_close": 403.31
+      },
+      "SMCI": {
+        "close": 28.4,
+        "change_pct": 2.4162,
+        "prev_close": 27.73
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 687.99,
+        "change_pct": 0.6496,
+        "prev_close": 683.55
+      },
+      "SOXX": {
+        "close": 504.89,
+        "change_pct": 0.0714,
+        "prev_close": 504.53
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63486,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 11,
+    "positive_count": 1,
+    "negative_count": 3,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.0909,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-02T20:00:35+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Saylor hints at Strategy bitcoin buy after five-week pause as STRC rate stays at 12%: \u2018Bitcoin Drive engaged\u2019",
+        "url": "https://www.theblock.co/post/410370/saylor-hints-at-strategy-bitcoin-buy-after-five-week-pause-as-strc-rate-stays-at-12-bitcoin-drive-engaged?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-02T18:10:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets",
+        "url": "https://decrypt.co/374817/coldcard-bitcoin-exploit-88-million-attackers-draining-wallets",
+        "published_at": "2026-08-02T17:18:51+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy leaves preferred STRC dividend at 12% as price still below par",
+        "url": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-02T15:24:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Media says $165 million bitcoin transfer to Crypto.com wasn\u2019t a sale",
+        "url": "https://www.theblock.co/post/410360/trump-media-linked-wallets-move-165-million-in-bitcoin-to-crypto-com-leaving-4261-btc-in-tracked-wallets?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-02T15:16:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What\u2019s the Deal With Meta\u2019s \u2018Pervert Glasses\u2019?",
+        "url": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
+        "published_at": "2026-08-02T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BNB Chain pursues legal action after ex-employee\u2019s memecoin launch",
+        "url": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-02T11:24:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Media sells another 2,628 BTC, holdings fall to 4,261 BTC",
+        "url": "https://cointelegraph.com/news/trump-media-2628-btc-crypto-com-4261-btc-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-02T09:31:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
+        "url": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-02T08:07:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Onchain, in court: What happened in crypto legal news this week",
+        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-01T21:19:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 13,
+    "signals_null": 3,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": null,
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
