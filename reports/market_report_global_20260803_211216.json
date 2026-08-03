@@ -1,0 +1,438 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-03T21:10:28 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2267047677614.19,
+    "total_market_cap_change_24h_pct": 0.0988,
+    "total_volume_24h_usd": 56409301290.94,
+    "btc_dominance_pct": 56.4161,
+    "eth_dominance_pct": 9.9387,
+    "total2_usd": 988068206120.38,
+    "total3_usd": 762753161028.23,
+    "active_cryptocurrencies": 18109,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "GLIDR",
+        "name": "Glidr",
+        "price_change_24h_pct": 21.9,
+        "price_usd": 1.48,
+        "market_cap_usd": 147976649
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 20.4,
+        "price_usd": 0.098605,
+        "market_cap_usd": 216932081
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": 16.9,
+        "price_usd": 28.62,
+        "market_cap_usd": 198687832
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": 14.1,
+        "price_usd": 0.536831,
+        "market_cap_usd": 159093372
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -11.6,
+        "price_usd": 0.920468,
+        "market_cap_usd": 222190849
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -9.5,
+        "price_usd": 0.00118648,
+        "market_cap_usd": 129165853
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -8.5,
+        "price_usd": 3.13,
+        "market_cap_usd": 969343544
+      },
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": -7.4,
+        "price_usd": 6.6e-06,
+        "market_cap_usd": 132449277
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63693,
+    "price_change_24h_pct": 0.5,
+    "price_change_7d_pct": -1.9,
+    "market_cap_usd": 1278018820136,
+    "volume_24h_usd": 25597743354,
+    "direction": "neutral",
+    "oi_usd": 6910989029.09,
+    "funding_rate_latest": 2.474e-05,
+    "funding_rate_7d_avg": 6.446380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4716,
+    "long_account_pct": 59.54,
+    "short_account_pct": 40.46,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1865.85,
+    "price_change_24h_pct": -0.7,
+    "price_change_7d_pct": -4.2,
+    "market_cap_usd": 225174636304,
+    "volume_24h_usd": 7160505702,
+    "eth_btc_ratio": 0.029294,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74567847515.52,
+    "stablecoin_market_cap_usd": 306884992110.73,
+    "stablecoin_dominance_pct": 13.5368
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Larry Berg named next Major League Soccer commissioner",
+        "summary": "Larry Berg will take over as MLS commissioner from Don Garber next year. He will sell his stake in Los Angeles FC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/larry-berg-major-league-soccer-commissioner.html",
+        "published_at": "2026-08-03T20:46:57Z"
+      },
+      {
+        "headline": "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
+        "summary": "President Donald Trump said Jeanine Pirro, the U.S. attorney for the District of Columbia, \"choked\" and \"folded like an umbrella\" in the Reflecting Pool case.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/trump-pirro-reflecting-pool-vandalism-case.html",
+        "published_at": "2026-08-03T19:42:37Z"
+      },
+      {
+        "headline": "A trio of positive developments has Boeing shares soaring",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/a-trio-of-positive-developments-has-boeing-shares-soaring.html",
+        "published_at": "2026-08-03T19:23:04Z"
+      },
+      {
+        "headline": "Wall Street rallies to kick off August on Iran talks optimism - Reuters",
+        "summary": "Wall Street rallies to kick off August on Iran talks optimism\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTC1HdWxXY3dmcFlCNm9FZ3N5VnVhSWg0ZHV4a1RRdUdlUVM5QUhNYUlueDN2akloUFFEUWRIWXNHeFk1VEFHMDhBRTV1XzY5TnBxUXlVQk96NkFMSnNuTURuTzhCOVRBUkVVT2p1VjBOZFBZdk4zM01WQlFDY1ZZTGhqR2NaeXNrVWN0Ym5aQ1VENmZ5aGRKRWRoMHlNRTVxMWxVSFVrOA?oc=5",
+        "published_at": "2026-08-03T18:37:20Z"
+      },
+      {
+        "headline": "Trump says Iran faces 'decapitation' if it doesn't strike deal - Reuters",
+        "summary": "Trump says Iran faces 'decapitation' if it doesn't strike deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWpzQ3dqaWdURjZva2hpRmpXbFNWNWFsQnlRTDF5YlpCTlBBVGxEYWZYVEhLMl84aHdvdzBhUUhxeVBqWWVHWTR5dEpleS1XY0wwR0V4N1JaMkNOaUdvWGgwWHZ0d2hubUVNU2MxMUY5dnVaS05fTlhja0JEWGp3SEdMRmswbEVIUmY1clZWdEExNDNQTFpVelhla3o0alFQS2c?oc=5",
+        "published_at": "2026-08-03T18:33:56Z"
+      },
+      {
+        "headline": "After deadly day, Gazans say Trump's touting of plan jars with grim reality - Reuters",
+        "summary": "After deadly day, Gazans say Trump's touting of plan jars with grim reality\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUWg4ei1MaEJJbEJOYl80UkRfZGU4UXhwTUVDSERoUldCTGxERWZXVkxta1h1b1lKbFhpUTBFUWVQRjlibkliajJDMEhEbDZkNWc3cWhWMm1YSEVrdHJ0S1NNNXE1alJhS0M0Z05Hd01hREVmQ25jd015WWZiOTQtSE4yb1JoZ3hlQmNuQTBqbjlFVmFDLTEybkZ4a2FRMUo3X05YOW8zamVOcVdTTjdDR1BnR003X2JMOVEyVFJPUWNTZw?oc=5",
+        "published_at": "2026-08-03T17:57:34Z"
+      },
+      {
+        "headline": "Jim Cramer wants to 'replenish' our position in this data center play",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/jim-cramer-wants-to-replenish-our-position-in-this-data-center-play.html",
+        "published_at": "2026-08-03T17:12:31Z"
+      },
+      {
+        "headline": "Here's why a Starbucks bear changed his tune and upgraded the stock",
+        "summary": "An analyst who has been skeptical of the coffee giant acknowledges that CEO Brian Niccol's turnaround is working, reinforcing our bullish thesis on the coffee chain.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/heres-why-a-starbucks-bear-changed-his-tune-and-upgraded-the-stock.html",
+        "published_at": "2026-08-03T16:50:41Z"
+      },
+      {
+        "headline": "OPEC+ oil output hike is irrelevant for now, not for later - Reuters",
+        "summary": "OPEC+ oil output hike is irrelevant for now, not for later\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ1F5SEtvVzlTU0VibXRmNGx4ZldyYllQcHBfSEkzRHVLVGdrNUxMLUZtQXZsT1pTWjJ4Z1F0ekFyN3NkWjRITjdCc2NtcmpFZ0k2OWN5Z25WOVVFVHpJNEVWQkU3emxZYkUtVFhFand1cWVHSWUyRUpQa1FOOUtPWlRKUzRVQUs3V3oxcWphVzVKUUhSSUNZaHNtdHVkM1U5VXE2Q0ZPNzE4UG5WQmdVS2cwZlU3UnNN?oc=5",
+        "published_at": "2026-08-03T16:28:11Z"
+      },
+      {
+        "headline": "UBS fined $125 million by US regulators for money laundering violations - Reuters",
+        "summary": "UBS fined $125 million by US regulators for money laundering violations\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS2NEeHdNTkNSVkRlY2RoazlTc1F6U2tjOEd0TkpIZVY4cmZjRS1mMGdYVnRTcXQ4UmFxNENaem5tUGhKcjNDU3Y3RG1NOGEtdU9NQzlIdXhKLVBRVjBXZE9wTGVFQ1dUbmU3MHJ1c1VjbjZVTlZJUGlLaWM5Ym5vYk1feXlzLUE2Vk0tQ01KV2Y2Qk1vMkx2bkFxVHFscXhtSkpXcFJZak9pOXBydjlQbVJsZw?oc=5",
+        "published_at": "2026-08-03T15:44:53Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.7034,
+    "dxy_lean": "neutral",
+    "spy_close": 757.64,
+    "spy_change_pct": 1.4203,
+    "spy_lean": "bullish",
+    "vix_close": 15.99,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63680.0,
+    "coinbase_premium_pct": -0.02041,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-03T21:10:28 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "AMD": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "TSM": {
+        "close": 406.11,
+        "change_pct": 0.4601,
+        "prev_close": 404.25
+      },
+      "SMCI": {
+        "close": 28.64,
+        "change_pct": 0.8451,
+        "prev_close": 28.4
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 700.07,
+        "change_pct": 1.7558,
+        "prev_close": 687.99
+      },
+      "SOXX": {
+        "close": 507.68,
+        "change_pct": 0.5526,
+        "prev_close": 504.89
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63693,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 12,
+    "negative_count": 9,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.2069,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "DEXs capture record 24% of spot crypto trading as CEX volumes sink",
+        "url": "https://www.theblock.co/post/410476/dexs-capture-record-spot-crypto-trading-as-cex-volumes-sink?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-03T20:46:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+        "url": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+        "published_at": "2026-08-03T20:39:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bessent\u2019s top crypto adviser Tyler Williams exits US Treasury: Report",
+        "url": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-03T20:29:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-03T19:52:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
+        "url": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-03T19:44:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+        "url": "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+        "published_at": "2026-08-03T19:17:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FBI agent accused of stealing $1 million in crypto, allegedly turned to ChatGPT for vacation plans",
+        "url": "https://www.theblock.co/post/410491/fbi-agent-stealing-1-million-crypto-turned-to-chatgpt-vacation-plans?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-03T18:48:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi CEO invokes Nasdaq, Uber and Airbnb in defense against New York lawsuit",
+        "url": "https://www.theblock.co/post/410481/kalshi-ceo-invokes-nasdaq-uber-airbnb-defense-new-york-lawsuit?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-03T18:44:48+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Proof of Attendance Protocol is shutting down after 5+ years",
+        "url": "https://www.theblock.co/post/410482/proof-of-attendance-protocol-is-shutting-down-after-5-years?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-03T18:40:12+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Holders Can Now Borrow Ripple's RLUSD on Ethereum Without Selling Their Crypto",
+        "url": "https://decrypt.co/374862/xrp-holders-borrow-ripple-rlusd-ethereum-without-selling",
+        "published_at": "2026-08-03T17:51:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub NVDA quote \u2014 timeout",
+    "Finnhub AMD quote \u2014 timeout",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
