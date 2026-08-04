@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-04T21:13:38 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2278626648536.27,
+    "total_market_cap_change_24h_pct": 0.7327,
+    "total_volume_24h_usd": 54029089689.31,
+    "btc_dominance_pct": 56.5946,
+    "eth_dominance_pct": 9.9217,
+    "total2_usd": 989047042747.72,
+    "total3_usd": 762967640656.31,
+    "active_cryptocurrencies": 18118,
+    "altcoin_season_index": 35,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 36.4,
+        "price_usd": 0.131595,
+        "market_cap_usd": 289510602
+      },
+      {
+        "symbol": "GLIDR",
+        "name": "Glidr",
+        "price_change_24h_pct": 25.6,
+        "price_usd": 1.86,
+        "market_cap_usd": 186392111
+      },
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": 17.2,
+        "price_usd": 6.1,
+        "market_cap_usd": 138286409
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 16.8,
+        "price_usd": 0.172552,
+        "market_cap_usd": 345107586
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -32.1,
+        "price_usd": 0.127575,
+        "market_cap_usd": 318833774
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -18.6,
+        "price_usd": 2.54,
+        "market_cap_usd": 786753665
+      },
+      {
+        "symbol": "LDO",
+        "name": "Lido DAO",
+        "price_change_24h_pct": -15.2,
+        "price_usd": 0.279005,
+        "market_cap_usd": 233493019
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -10.8,
+        "price_usd": 0.00737037,
+        "market_cap_usd": 413462430
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64265,
+    "price_change_24h_pct": 0.8,
+    "price_change_7d_pct": 0.7,
+    "market_cap_usd": 1289583716278,
+    "volume_24h_usd": 23339474218,
+    "direction": "neutral",
+    "oi_usd": 6958550834.71,
+    "funding_rate_latest": 7.684e-05,
+    "funding_rate_7d_avg": 6.731666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2941,
+    "long_account_pct": 56.41,
+    "short_account_pct": 43.59,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1873.23,
+    "price_change_24h_pct": 0.4,
+    "price_change_7d_pct": -2.2,
+    "market_cap_usd": 226089117177,
+    "volume_24h_usd": 7083635430,
+    "eth_btc_ratio": 0.029149,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75039807693.39,
+    "stablecoin_market_cap_usd": 307125330155.63,
+    "stablecoin_dominance_pct": 13.4785
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says - Reuters",
+        "summary": "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmtBb0gtUVhaWUFKQ2tlakdWSDhOREJnbHM3dVN6ZGRkbEF1Mnp0VXVFYzY0TXRZRDduZDVibW0yaVpkaDg0TjNpY1VCWFlrQnRQam0xN2ZWWG1vZWpZSUlzTU5CWG9rSVM5dDlGQXRFZzVFXzZCcXVsd2ZUUmJaTi0tUDhiSVp3T1M0bGdRcGZuWmgtV01NLW5OTVFCZlQ2VWdEX2dzRUptUFhxSlVXMEI4T1A3UQ?oc=5",
+        "published_at": "2026-08-04T19:02:35Z"
+      },
+      {
+        "headline": "TikTok users are sharing the items they say are always worth the money\u2014here's what financial planners say",
+        "summary": "Financial planners weigh in on a recent trend on TikTok that has users sharing the items they swear are always worth the money.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/04/worth-the-money-financial-planners.html",
+        "published_at": "2026-08-04T19:00:01Z"
+      },
+      {
+        "headline": "Qatar says progress made toward US-Iran talks on ending war - Reuters",
+        "summary": "Qatar says progress made toward US-Iran talks on ending war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
+        "published_at": "2026-08-04T18:02:02Z"
+      },
+      {
+        "headline": "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
+        "summary": "Chipotle has pulled the affected supply from restaurants and replaced them with peppers from different growers, according to the company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/04/chipotle-stock-falls-salmonella-outbreak-minnesota.html",
+        "published_at": "2026-08-04T17:54:00Z"
+      },
+      {
+        "headline": "US-facilitated Israel-Lebanon talks have begun, says State Department - Reuters",
+        "summary": "US-facilitated Israel-Lebanon talks have begun, says State Department\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLXdzQy15RzJIczBFWU1CVzZITkFHTU84M0NZWFlGajB6bFRITGJ2UEpacm96STR6cFk1WTRiNDBiMzRTakJ5STh0YVE2WXdkdWVzZG5TeldxY3ZDbktzbXJPZVhSX1R0RnAtSlRXVmE1SmZpdVFBVU1tQ1M1ZzFqeWk1TzJDOWtha0Y3czY0RmMxOTFLUHZXZENMZ195NFY3ZGM3TEFSeEt1WTdrOXlWdHhiSHZRTFRSWTZNTlNTVQ?oc=5",
+        "published_at": "2026-08-04T17:10:02Z"
+      },
+      {
+        "headline": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters",
+        "summary": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWxZWjEzUHh2dXNYYUxyS2RjbUhHTXh1RHpVTjZwUUpScFlZbnFUVDkwUlR3bXJMU3otWDY4Q2cyTml6dXV2YVJIZkdiN0lnZUV0T19VN1QwRUY4ZmU5bjNhUHJfU2tWeEw4RVFoTUN4R2lGaW1WSXpzUWxaVmZWSF9kRGhLcE9GU1lxaHp4N0xnNFp0MG9lMkZEeTd4TTEyTTBySlEzYVJFM0RSdjFTRHJZbnFmdFBISndla004RHVTQQ?oc=5",
+        "published_at": "2026-08-04T16:21:43Z"
+      },
+      {
+        "headline": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
+        "summary": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
+        "published_at": "2026-08-04T16:16:40Z"
+      },
+      {
+        "headline": "Asia crude and fuel imports recover, still shy of pre-Iran war levels - Reuters",
+        "summary": "Asia crude and fuel imports recover, still shy of pre-Iran war levels\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGVwVDlqUHgzUTZBLWFQWGVUNWZWS0hmM3hiRElSNFNDcVhtc2pPMUI4X1lzY2pBNlFBRTdKd0s3MDlaY0NhWVV0N0lsU2RGTzI0cGJ3eFo4SFR2dEV0VFY1a2lzZW4yenVWYUFpMmNJU1pxQi15N19DZ2VfLVlTVmJuR2lZd1MyVzJHVkJXaWMyeTNRSHhPQzZybDQydmdjNnExMnRXTmNaMW1TUl9rb1BzOWI3VVR2d0QxZHdBT2NrU2hJellTTDl3?oc=5",
+        "published_at": "2026-08-04T16:04:20Z"
+      },
+      {
+        "headline": "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
+        "summary": "Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz would allow freedom of navigation.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/04/oil-rises-after-selloff-as-talks-to-end-us-iran-war-remain-uncertain.html",
+        "published_at": "2026-08-04T15:57:10Z"
+      },
+      {
+        "headline": "PODCAST: Manufacturing rebounds - Reuters",
+        "summary": "PODCAST: Manufacturing rebounds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWNUdkpLMG5rTVozVFg4clZiNGNBRDhqa1ZGUUZkZE1NTVZQdlc2bXc5M0p2Y09GaWptWnJPWG5COWxNdGNBSkdYNWdkSVZKZm5sRHFfWUdIZVJoUEVpblV1d1RJdnlTQVQtX0lZYmxoOVQxVEh0N1FaNm9mbG9iRy1IOURjR2lnUjZuVVgwVWw?oc=5",
+        "published_at": "2026-08-04T14:13:33Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.7034,
+    "dxy_lean": "neutral",
+    "spy_close": 771.24,
+    "spy_change_pct": 1.791,
+    "spy_lean": "bullish",
+    "vix_close": 15.86,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64156.81,
+    "coinbase_premium_pct": -0.16835,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-04T21:13:38 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 211.94,
+        "change_pct": 2.5648,
+        "prev_close": 206.64
+      },
+      "AMD": {
+        "close": 518.58,
+        "change_pct": 7.0031,
+        "prev_close": 484.64
+      },
+      "TSM": {
+        "close": 417.17,
+        "change_pct": 2.7234,
+        "prev_close": 406.11
+      },
+      "SMCI": {
+        "close": 31.69,
+        "change_pct": 10.6494,
+        "prev_close": 28.64
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 723.85,
+        "change_pct": 3.3968,
+        "prev_close": 700.07
+      },
+      "SOXX": {
+        "close": 542.21,
+        "change_pct": 6.8015,
+        "prev_close": 507.68
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64265,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 54,
+    "positive_count": 7,
+    "negative_count": 8,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.1296,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Jim Cramer Is Selling His Bitcoin Over Quantum Threat\u2014Crypto Twitter Is Thrilled",
+        "url": "https://decrypt.co/374923/jim-cramer-selling-bitcoin-quantum-computing-threat",
+        "published_at": "2026-08-04T20:45:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Police Have Arrested 37 Americans Over AI Data Center Protests This Year",
+        "url": "https://decrypt.co/374921/ai-data-center-protest-arrests",
+        "published_at": "2026-08-04T20:30:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-04T19:59:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US, UK reaffirm support for stablecoins, tokenization in joint financial regulation talks",
+        "url": "https://cointelegraph.com/news/us-uk-deepen-crypto-regulatory-cooperation-genius-act-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-04T19:58:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum researchers propose burning validator rewards to cap staking at 50%",
+        "url": "https://www.theblock.co/post/410643/ethereum-researchers-propose-burning-validator-rewards-cap-staking-50?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-04T19:49:58+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cloudflare kicks off stablecoin wallet rollout for AI agents to pay for APIs and online content",
+        "url": "https://www.theblock.co/post/410629/cloudflare-kicks-off-stablecoin-wallet-rollout-ai-agents-pay-apis-online-content?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-04T19:33:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard Bitcoin Exploit Explained: Entropy, How Keys Are Generated, and Why Bits Matter",
+        "url": "https://decrypt.co/374916/coldcard-bitcoin-exploit-explained-entropy-keys-bits",
+        "published_at": "2026-08-04T19:11:36+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Proposal Would Increase Daily SOL Burns More Than 10-Fold",
+        "url": "https://decrypt.co/374915/solana-proposal-increase-daily-sol-burns-10-fold",
+        "published_at": "2026-08-04T18:46:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT",
+        "url": "https://decrypt.co/374906/alibaba-best-ai-model-qwen-free-claude-chatgpt",
+        "published_at": "2026-08-04T17:16:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senators seek SEC probe of President Trump\u2019s memecoin as crypto bill enters into a pivotal week",
+        "url": "https://www.theblock.co/post/410624/senators-seek-sec-probe-president-trump-memecoin-crypto-bill-enters-pivotal-week?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-04T17:11:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
