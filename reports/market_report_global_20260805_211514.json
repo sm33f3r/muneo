@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-05T21:14:19 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2293238484373.87,
+    "total_market_cap_change_24h_pct": 0.7695,
+    "total_volume_24h_usd": 57085152862.93,
+    "btc_dominance_pct": 56.6267,
+    "eth_dominance_pct": 10.05,
+    "total2_usd": 994653222917.01,
+    "total3_usd": 764183057799.29,
+    "active_cryptocurrencies": 18137,
+    "altcoin_season_index": 34,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": 56.7,
+        "price_usd": 0.806982,
+        "market_cap_usd": 129435009
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 21.8,
+        "price_usd": 0.00791338,
+        "market_cap_usd": 444086277
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.152989,
+        "market_cap_usd": 336095820
+      },
+      {
+        "symbol": "SOSO",
+        "name": "SoSoValue",
+        "price_change_24h_pct": 15.2,
+        "price_usd": 0.364057,
+        "market_cap_usd": 124525253
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": -50.0,
+        "price_usd": 65.32,
+        "market_cap_usd": 155870356
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": -7.1,
+        "price_usd": 5.63,
+        "market_cap_usd": 127768997
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": -6.1,
+        "price_usd": 26.02,
+        "market_cap_usd": 180584419
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -5.4,
+        "price_usd": 11.32,
+        "market_cap_usd": 538720526
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64720,
+    "price_change_24h_pct": 1.1,
+    "price_change_7d_pct": 2.1,
+    "market_cap_usd": 1298445262147,
+    "volume_24h_usd": 23351938261,
+    "direction": "bullish",
+    "oi_usd": 6947466450.8,
+    "funding_rate_latest": 2.676e-05,
+    "funding_rate_7d_avg": 5.8602380952380954e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.151,
+    "long_account_pct": 53.51,
+    "short_account_pct": 46.49,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1909.93,
+    "price_change_24h_pct": 2.3,
+    "price_change_7d_pct": 1.7,
+    "market_cap_usd": 230459845220,
+    "volume_24h_usd": 8621143588,
+    "eth_btc_ratio": 0.029511,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75647528391.96,
+    "stablecoin_market_cap_usd": 307207211697.14,
+    "stablecoin_dominance_pct": 13.3962
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
+        "summary": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdklHVUNCN0JQTDlLR0piZnVyYXRkNkU1akFlU3dWWFRoQTUyVUFxTXVtbnU2V3pTY2QwZ3pXRUw3eTFZeG1IbDAzM0Q5eEJPd0VSRldTckFHb1dBYXUtQ2tocm44b2p1SE5EbGhCNUJyMG9SX0RhZTlRZjFFbURfWmhPbnN2YmNSTlF3NFFZbG5yNmFzWTNiZFBOTlFfOWp1cmZIMkxicE50d2tJWkVXOVZQRmFxc21qN01jaDR6RQ?oc=5",
+        "published_at": "2026-08-05T20:02:10Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+        "summary": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+        "published_at": "2026-08-05T19:44:24Z"
+      },
+      {
+        "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
+        "summary": "Israeli military strikes southern Lebanon after evacuation warning to village\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUNJWWdZUW9teWxlNDE2eWVZWTFmd0JQdmwwYUNvSEpES1BhMjBJNF9LczlwUTZkaTZjMm5MNFhEUFN1RnpZclZHamljVnlGcW5GdkFMclYyUjQ4dEpHRWwtNjJLdjNoNWx5YlU3Q1FIUmhoV1hxMktXNnZXanZLLW9YS1JjRGp6ZkNMbTNGOVlETVRSUGREMnZ5dDVhUjYyWlB1RzBwenhtUDg3dDdIYVpoTXBlN2dFWTkyVnJn?oc=5",
+        "published_at": "2026-08-05T19:17:01Z"
+      },
+      {
+        "headline": "Alphabet slumps on more AI brain drain. We're not too worried",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/05/alphabet-is-slumping-on-the-departure-of-another-ai-exec.html",
+        "published_at": "2026-08-05T19:11:19Z"
+      },
+      {
+        "headline": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - Reuters",
+        "summary": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFdjb1Q5RzUtcnRaUmV5U2FuN0dBcUZwT3RMa2pqVVVocG8zZmRPV2E1NjhlRTR6TXBsN1NHQ21EUTJvQ0JvV2NtbXhWbHVjMUN3NHFvTzlVR0IxUmxHaTFUbEpNX0xJSFFncjE4UllwaTJ2bm9UVTdHd00xOVBuTmZJVXRCekZPclluTDhFQUF2S3MwcG5rR3VrOE5TdFBHd3piYTRjTW9yVldvZGFVV3lfa1pLNlIzTXloYQ?oc=5",
+        "published_at": "2026-08-05T18:38:47Z"
+      },
+      {
+        "headline": "Yemen's Houthis say they attacked Saudi oil tankers in Red Sea, Gulf of Aden - Reuters",
+        "summary": "Yemen's Houthis say they attacked Saudi oil tankers in Red Sea, Gulf of Aden\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEQwU2pxeTRYSXhNQWtrT3hmNFhmOUx6eVUzUUt4aVBtOEpub01Fa3U5S0ZOYXRmU2oyb0t4WEpRRXZ3VmwxWksyYkNRcF9GbFJvbEpkMGxWWVY5alo2NS1LdDFzMWVPdmYtV082T3JOaVpoYW5NTFNncUxHZndSdnUzMXdWWHNXQWQ3NXZXMy02MDloQ3dWTHJhWHBfS2pNVnZoUXBEcVZKQm1HZXl5Ug?oc=5",
+        "published_at": "2026-08-05T18:34:15Z"
+      },
+      {
+        "headline": "Gulf oil exports steady in July, still 40% below pre-war mark - Reuters",
+        "summary": "Gulf oil exports steady in July, still 40% below pre-war mark\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU1c5cDdsaENzVWRTM3JoaUFicGFuczBDdm5GY2tkLWJhN0pSVk81MTlYMm1CQlNmQ1c5ZHZJUUFnLUhFd29CZmRjaEhkR0k3aEZRQW1JR3BKbVZiLVQ5UFJrSFZCTEFIMHpSakZ3TW5IZDctci1sT1piR2VzcGhNU21fN3FDd3ZLaEJ3dFBXdjY2Wjd4aEtwblhlTHJETENxWG5lRDNlWEpCM2ZS?oc=5",
+        "published_at": "2026-08-05T18:25:22Z"
+      },
+      {
+        "headline": "Flutter shares plummet on earnings miss and another key leadership change",
+        "summary": "FanDuel, Flutter's most important business, has been losing its dominance in market share in the United States.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/05/flutter-earnings-ceo-leadership-change-stock.html",
+        "published_at": "2026-08-05T18:20:31Z"
+      },
+      {
+        "headline": "Ukraine's Zelenskiy says he spoke to NATO head Rutte about securing interceptors - Reuters",
+        "summary": "Ukraine's Zelenskiy says he spoke to NATO head Rutte about securing interceptors\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUUFjUmxBRnF1MFlqVDcwRjdUa0hhMERkX0ZKSmRGUnlFLU5UeVd4cE1JRG9TQnFPdTFvbzE1bzdmS0hKdHJaajh2THRSemluNXRqcEJnLVVHN3hFZ0N2MHhmUkhPck5COVlEbkM5WHhJTEhQdWswMkVRZmNqZlNZeEI4QV9XVFhINEwwYnN0ZEtOZWxxbHVCbVlTempHVlk4M2NnRkozcE9QNzV5T0NKS1JNMUt2d3Ftd2ZDS24yUGpiMHdfMXFXeHJ2Y3ZFTnZ1Ui1zdGFn?oc=5",
+        "published_at": "2026-08-05T17:15:27Z"
+      },
+      {
+        "headline": "US lifts sanctions on Fly Baghdad, previously linked to Iran's IRGC - Reuters",
+        "summary": "US lifts sanctions on Fly Baghdad, previously linked to Iran's IRGC\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdGd5eGNIbFJTUDl0MlJHQ01RR3F5NVhNaVJuTVpvZ0FJMHlrNnFhQ1hsOUFyNWI0c1cyX0RwbTRwTHNrTE1yQ0NzUmlmMXBPYkM1Q1Vya3hOOFRQXzVHOEhHemQtd1dQcXlrcFVZRUh3T0RoWkRiam9jUWxhNld2MjRPMjNwd3hhaWVlZ2IwN2UzaS05NG04dHVCM0FidUxtQjBNcy1GWThaRE9RT1VmOGFzT2g1MEhiUVludGVGaWhCUQ?oc=5",
+        "published_at": "2026-08-05T16:44:59Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.7034,
+    "dxy_lean": "neutral",
+    "spy_close": 769.77,
+    "spy_change_pct": -0.2022,
+    "spy_lean": "neutral",
+    "vix_close": 16.5,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 64719.25,
+    "coinbase_premium_pct": -0.001159,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-05T21:14:19 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 219.22,
+        "change_pct": 3.4349,
+        "prev_close": 211.94
+      },
+      "AMD": {
+        "close": 482.05,
+        "change_pct": -7.0442,
+        "prev_close": 518.58
+      },
+      "TSM": {
+        "close": 414.0,
+        "change_pct": -0.7599,
+        "prev_close": 417.17
+      },
+      "SMCI": {
+        "close": 30.32,
+        "change_pct": -4.3231,
+        "prev_close": 31.69
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 717.3,
+        "change_pct": -0.9049,
+        "prev_close": 723.85
+      },
+      "SOXX": {
+        "close": 530.7,
+        "change_pct": -2.1228,
+        "prev_close": 542.21
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64720,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 63,
+    "positive_count": 4,
+    "negative_count": 9,
+    "neutral_count": 50,
+    "sentiment_ratio": 0.0635,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Block\u2019s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
+        "url": "https://www.theblock.co/post/410923/blocks-bitcoin-gross-profit-falls-31-cash-app-fee-cuts-shares-reverse-initial-gains?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-05T20:47:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cloudflare OS: Here\u2019s What\u2019s Inside the Open-Source AI Agent Platform",
+        "url": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+        "published_at": "2026-08-05T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+        "url": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+        "published_at": "2026-08-05T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Visa Widens Stablecoin Payouts via Zerohash Rails",
+        "url": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
+        "published_at": "2026-08-05T19:42:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senator Lummis still pushing for CLARITY vote before August recess",
+        "url": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-05T19:18:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-05T19:11:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI and Anthropic's Rogue Models Hacked Real Companies. The Law Has No Answer",
+        "url": "https://decrypt.co/374991/openai-anthropic-rogue-ai-models-hacked-law",
+        "published_at": "2026-08-05T19:11:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a \u2018late-stage bear market\u2019",
+        "url": "https://www.theblock.co/post/410920/cryptoquant-bitcoin-ether-xrp-whales-accumulating-late-stage-bear-market?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-05T19:09:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Marex invests in Digital Prime to expand institutional crypto lending",
+        "url": "https://cointelegraph.com/news/marex-digital-prime-tokenet-institutional-crypto-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-05T18:53:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Feds Say an NFT Founder Raised $10 Million Only to Blow It All on Gambling, Trading, and a DJ Hobby",
+        "url": "https://decrypt.co/374986/nft-founder-10-million-fraud-gambling-dj-hobby",
+        "published_at": "2026-08-05T18:43:47+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 2,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
