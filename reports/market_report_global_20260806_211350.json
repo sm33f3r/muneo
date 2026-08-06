@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-06T21:12:54 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2282571856553.48,
+    "total_market_cap_change_24h_pct": -0.411,
+    "total_volume_24h_usd": 50954471251.19,
+    "btc_dominance_pct": 56.6218,
+    "eth_dominance_pct": 10.0729,
+    "total2_usd": 990139138824.33,
+    "total3_usd": 760218713445.8,
+    "active_cryptocurrencies": 18165,
+    "altcoin_season_index": 60,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 16.9,
+        "price_usd": 0.16281,
+        "market_cap_usd": 406312983
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 16.5,
+        "price_usd": 0.182835,
+        "market_cap_usd": 402874409
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": 12.8,
+        "price_usd": 0.564046,
+        "market_cap_usd": 563223629
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 7.5,
+        "price_usd": 2.29,
+        "market_cap_usd": 571943967
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -12.6,
+        "price_usd": 2.07,
+        "market_cap_usd": 640693791
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price_change_24h_pct": -11.3,
+        "price_usd": 0.091702,
+        "market_cap_usd": 3602266400
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": -9.0,
+        "price_usd": 26.01,
+        "market_cap_usd": 180576668
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -8.5,
+        "price_usd": 0.473714,
+        "market_cap_usd": 240205610
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64420,
+    "price_change_24h_pct": -0.6,
+    "price_change_7d_pct": -0.7,
+    "market_cap_usd": 1292865516130,
+    "volume_24h_usd": 19023931223,
+    "direction": "neutral",
+    "oi_usd": 6800757878.9,
+    "funding_rate_latest": 5.939e-05,
+    "funding_rate_7d_avg": 5.402952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1853,
+    "long_account_pct": 54.24,
+    "short_account_pct": 45.76,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1906.26,
+    "price_change_24h_pct": -0.5,
+    "price_change_7d_pct": -1.0,
+    "market_cap_usd": 230051614455,
+    "volume_24h_usd": 7164615383,
+    "eth_btc_ratio": 0.029591,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75369747902.0,
+    "stablecoin_market_cap_usd": 307929991978.44,
+    "stablecoin_dominance_pct": 13.4905
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 56,
+    "headlines": [
+      {
+        "headline": "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
+        "summary": "Virginia's State Corporation Commission is tasked with reviewing the deal and will either accept, reject or impose conditions on it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html",
+        "published_at": "2026-08-06T20:50:59Z"
+      },
+      {
+        "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
+        "summary": "The salad chain has not been implicated in the ongoing cyclospora outbreak.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html",
+        "published_at": "2026-08-06T20:40:16Z"
+      },
+      {
+        "headline": "Dow, S&P slip as investors eye Mideast talks, earnings - Reuters",
+        "summary": "Dow, S&P slip as investors eye Mideast talks, earnings\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2poa2tBUFVOZFo0R0Q4T2lKVF9aWk5CWGd1Y1A0aXlTOFE1c1JBNlF3bk9qLVlnSUFmMTZoT05MVExKZk9oQzVhUmg4SnBLZ29vLUFDMU1Qb1lOZmd5ZVZHRGVuaTJHWWJyUjFRV19pU3U4NmItdkd0d2JaNWVUSmJZcFBSVEtPVDQyd1RySlA0Q2VCT3RZSzlsSUFPY2FsLUtNMWlubFpQbkZiVmt6TjBZdmRZeXlPMFBZ?oc=5",
+        "published_at": "2026-08-06T20:01:38Z"
+      },
+      {
+        "headline": "American Airlines will stop upgrading elite flyers to business from coach on long domestic flights",
+        "summary": "American Airlines will no longer give elite frequent flyers free upgrades from economy class to business on some of its longest domestic routes",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/06/american-airlines-flight-upgrades-become-harder-to-get.html",
+        "published_at": "2026-08-06T19:56:57Z"
+      },
+      {
+        "headline": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz - Reuters",
+        "summary": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVWd6ZjFIZXZHQ2JsNi1UdXBvS1JIUm0xYWtjaDQ1UXVOczhzTzZLNEY0ZTRtb1l5N2lrY09ERHFySlMyakJJNndhRUx5M0FabFZ5TllJZWZPU05na2VqMkRVckJ2VndLdUlFUGd1NklHQlN6V1VJUzRxS09jUmtVVWhMTGRuVlN3YzctZjhBWVI2UUZkQkJqZ0NvdF9uQ1I0RGtCNVNORThqQQ?oc=5",
+        "published_at": "2026-08-06T19:30:42Z"
+      },
+      {
+        "headline": "Genius Sports' media surge shows shift beyond sportsbook data",
+        "summary": "Genius Sports, which provides real-time sports data, reported revenue rose 65% in the second quarter.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/06/genius-sports-media-surge-shows-shift-beyond-sportsbook-data.html",
+        "published_at": "2026-08-06T18:17:19Z"
+      },
+      {
+        "headline": "Proposed Hormuz passage deal not feasible for shipping industry, sources say - Reuters",
+        "summary": "Proposed Hormuz passage deal not feasible for shipping industry, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQajNmWTdWUHQ1RkRPd0FjWUUzSkd5cTNhN1NxREdIUUxGZklfbGEycml6emw1VThlRXk3YU5aakNULU5DanUwclZDWEpLUTg0c0xjRElxaTlKU2NiRHJzT1JiVmltOTVlQ1hNcGkxaTNjYndSX29leFl6S1l0OGxJd0hfSGZKOEwzZ3JVOURWVGgtY2JWUDZ2aXFoTWNDZV83eXllTko1WjVCSmpCb2IwM0ZNTTRTdDdxaXJGOHhZS2laUTg?oc=5",
+        "published_at": "2026-08-06T17:56:57Z"
+      },
+      {
+        "headline": "US sanctions Cuban military officials, firms tied to weapons procurement - Reuters",
+        "summary": "US sanctions Cuban military officials, firms tied to weapons procurement\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUJlYkNHU01pX081SFpYMFJ0SFh1SjRUcTJYbXZXWVJzNVdvSG9wd2otSnVPNkNlVUMxTVc5MnhYdnBLTGxWU3FLMWxpN19TcllydUJ4QXFGQzZaTjYySWt2VXJKUTljZjFoSWcwc0Nfd2tPMXIwRmU2RVJZV0d5cE9MWnRVTGV2MUxzX3d3OU8?oc=5",
+        "published_at": "2026-08-06T17:27:26Z"
+      },
+      {
+        "headline": "Trump's Iran dilemma: He's stuck in war with no exit in sight - Reuters",
+        "summary": "Trump's Iran dilemma: He's stuck in war with no exit in sight\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTElxYUFULUk1M0M2d29aa3BiZGJHZ3BPMEpDaG9vUlRkUDUzTU5MMUYtbTlDVkt6VGpMc2g0VnpsWmRpSWhZMmxjVVIzc2NGb3psRjdCUGNUYXdFRzdHd1N1Ni1oM3BySjNWTUZiQzVSVEJWTEticG9SQUF6OHIzN0NTeWtBUlpNS2FWVWo4OEppcmVxSzlvMXBkWmVKWllteFI2QmlKVUIxUQ?oc=5",
+        "published_at": "2026-08-06T16:56:12Z"
+      },
+      {
+        "headline": "Iranian parliamentary committee reviews draft bill to bar US, Israeli ships from Hormuz, Fars says - Reuters",
+        "summary": "Iranian parliamentary committee reviews draft bill to bar US, Israeli ships from Hormuz, Fars says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRFZOdUowaEpSY3VBZWRQSmRjOGZRXzUtM0xDV3BHOTJCYk9VUTdkc1dLUUU2c1hsOTY0c3R3c294bnVoYzJ4eWgxX0k4QVdpaVViSHRsdXBlTzFpZVpXZ20yNzV2cndvUk04N29XOUIxSUl0VlJWM3BDMVJIQWFwcDN0Wl9CRzdMZlM0SlBjYUNtTmtrSU9BQXBnXzh1bWI2OXBPUVlpcVYxclZ5S3pTdDU5VGNVNzRuU0RfeU1BU0lXNG9uZXRLUG14TEI?oc=5",
+        "published_at": "2026-08-06T16:56:10Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.7034,
+    "dxy_lean": "neutral",
+    "spy_close": 768.6,
+    "spy_change_pct": -0.1546,
+    "spy_lean": "neutral",
+    "vix_close": 15.81,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64406.98,
+    "coinbase_premium_pct": -0.020211,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-06T21:12:54 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 219.835,
+        "change_pct": 0.2805,
+        "prev_close": 219.22
+      },
+      "AMD": {
+        "close": 495.29,
+        "change_pct": 2.7466,
+        "prev_close": 482.05
+      },
+      "TSM": {
+        "close": 420.69,
+        "change_pct": 1.6159,
+        "prev_close": 414.0
+      },
+      "SMCI": {
+        "close": 29.91,
+        "change_pct": -1.3522,
+        "prev_close": 30.32
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 715.99,
+        "change_pct": -0.1826,
+        "prev_close": 717.3
+      },
+      "SOXX": {
+        "close": 538.32,
+        "change_pct": 1.4358,
+        "prev_close": 530.7
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64420,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 10,
+    "negative_count": 14,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.1695,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin miners MARA and CleanSpark post double-digital revenue drops as AI infrastructure pivot continues",
+        "url": "https://www.theblock.co/post/411049/bitcoin-miners-mara-cleanspark-double-digital-revenue-drops-ai-infrastructure-pivot?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-06T21:10:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokyo Tells Trump to Stop Meme-ing Mario",
+        "url": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
+        "published_at": "2026-08-06T21:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
+        "url": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
+        "published_at": "2026-08-06T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senators Push CFTC to Ban Wildfire Bets on Prediction Markets",
+        "url": "https://decrypt.co/375066/senators-push-cftc-ban-wildfire-bets-prediction-markets",
+        "published_at": "2026-08-06T19:51:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Late Ondo founder\u2019s mother seeks control of company and removal of De Bode as CEO",
+        "url": "https://www.theblock.co/post/411006/late-ondo-founders-mother-seeks-control-of-company-and-removal-of-de-bode-as-ceo?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-06T19:45:06+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-06T19:31:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase\u2019s Base app will become \u2018less Base-centric\u2019 under Cobie, Jesse Pollak says",
+        "url": "https://www.theblock.co/post/411023/jesse-pollak-base-app-become-less-base-centric-cobie-builds-trading-platform?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-06T19:05:56+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Putin Signs Russia's First Crypto Law: Trading Is Legal, Payments Stay Banned",
+        "url": "https://decrypt.co/375062/putin-signs-russia-first-crypto-trading-payments",
+        "published_at": "2026-08-06T18:38:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Reveals How AI Agents Secretly Coordinated Before Hugging Face Hack",
+        "url": "https://decrypt.co/375058/openai-ai-agents-secretly-coordinated-hugging-face-hack",
+        "published_at": "2026-08-06T18:26:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF inflows surge after Coldcard hack, but link is unclear: Bloomberg analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-inflows-coldcard-hack-bloomberg-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-06T18:17:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
