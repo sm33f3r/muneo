@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-07T21:11:45 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2294526476818.95,
+    "total_market_cap_change_24h_pct": 0.5712,
+    "total_volume_24h_usd": 54196356438.67,
+    "btc_dominance_pct": 56.79,
+    "eth_dominance_pct": 10.0614,
+    "total2_usd": 991464920774.31,
+    "total3_usd": 760603995929.99,
+    "active_cryptocurrencies": 18247,
+    "altcoin_season_index": 20,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": 114.9,
+        "price_usd": 139.59,
+        "market_cap_usd": 333087919
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": 110.3,
+        "price_usd": 62.02,
+        "market_cap_usd": 230825834
+      },
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "SKYAI",
+        "name": "SkyAI",
+        "price_change_24h_pct": 32.6,
+        "price_usd": 0.119591,
+        "market_cap_usd": 119186584
+      },
+      {
+        "symbol": "SPCXB",
+        "name": "SpaceX (bStocks Tokenized Stock)",
+        "price_change_24h_pct": 16.8,
+        "price_usd": 133.92,
+        "market_cap_usd": 125936041
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -15.2,
+        "price_usd": 0.136379,
+        "market_cap_usd": 341259182
+      },
+      {
+        "symbol": "PEANUT",
+        "name": "Peanut",
+        "price_change_24h_pct": -14.9,
+        "price_usd": 0.00059528,
+        "market_cap_usd": 184537139
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -12.4,
+        "price_usd": 2.09,
+        "market_cap_usd": 691426534
+      },
+      {
+        "symbol": "US",
+        "name": "Talus",
+        "price_change_24h_pct": -10.5,
+        "price_usd": 0.051438,
+        "market_cap_usd": 149690214
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -10.2,
+        "price_usd": 0.00120533,
+        "market_cap_usd": 131292093
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64934,
+    "price_change_24h_pct": 0.7,
+    "price_change_7d_pct": 3.2,
+    "market_cap_usd": 1303023311260,
+    "volume_24h_usd": 21494320809,
+    "direction": "neutral",
+    "oi_usd": 6942823018.95,
+    "funding_rate_latest": 6.308e-05,
+    "funding_rate_7d_avg": 4.7654285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1079,
+    "long_account_pct": 52.56,
+    "short_account_pct": 47.44,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1913.24,
+    "price_change_24h_pct": 0.3,
+    "price_change_7d_pct": 2.5,
+    "market_cap_usd": 230893851845,
+    "volume_24h_usd": 7889668390,
+    "eth_btc_ratio": 0.029464,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75822946972.8,
+    "stablecoin_market_cap_usd": 307186220995.87,
+    "stablecoin_dominance_pct": 13.3878
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 31,
+    "headlines": [
+      {
+        "headline": "\u2018SaaSpocalypse\u2019 debate intensifies as software stocks swing wildly",
+        "summary": "This week saw massive moves in both directions for software stocks, as investors try to figure out which names are best insulated from artificial intelligence.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+        "published_at": "2026-08-07T20:22:17Z"
+      },
+      {
+        "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
+        "summary": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
+        "published_at": "2026-08-07T20:20:15Z"
+      },
+      {
+        "headline": "Dollar drops as weak US jobs data pushes out Fed hike expectations - Reuters",
+        "summary": "Dollar drops as weak US jobs data pushes out Fed hike expectations\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5",
+        "published_at": "2026-08-07T20:16:31Z"
+      },
+      {
+        "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
+        "summary": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
+        "published_at": "2026-08-07T19:15:43Z"
+      },
+      {
+        "headline": "Trump to host mining CEOs as administration seeks minerals for defense supply chains - Reuters",
+        "summary": "Trump to host mining CEOs as administration seeks minerals for defense supply chains\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOC1sWW4tTHpEM1NiQWVIbnZMRVlvcVcyNTl2UE1QU1lqSlBVaTlNai1UUm1yR0htazhtZjA1N3Jtb2dEaHhnWklPREdWdG52a0FrTjBMamVaM1FlR1JmSzZycUpWY3pKUzA4V3pRTk9FRzRsTklOMEhvQlRybVVjTHRNbjByQ3ZHY25ja2JERjBXdDUzNXo1WDNFeEFGa3hZTnZUR2lxWTZIQ2p5M01qV0lnUXBFQm1JRVdlZk90MkZhTWplb3RZdVJ0ZktrNmFKM0dr?oc=5",
+        "published_at": "2026-08-07T19:11:43Z"
+      },
+      {
+        "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
+        "summary": "US Senate passes Russia sanctions championed by Graham; US House next\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
+        "published_at": "2026-08-07T18:50:00Z"
+      },
+      {
+        "headline": "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters",
+        "summary": "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUkNKX1cxNjJBMmFrZ2tXYVNiMmxxWGJ4R1ZBb1FhNHZDTndjZVR5YW5GMzFNcWs1dnFDMGRTc0c1bFB0cnB1ZEJYek5Kb0FtcVNXSDRWZ3UtRmdrVUJYSDZBR0dVYWlaWkh4Q3lDLU9hMzc5QzVPZVNjRng0cEJxcHdsRWRqWGoyNERWbzBFVnlRN1FxeGhDbEZSMGxqQmQtTlhheUE4cFpGdlJRYXp3SThPaEJmcEl4czViLW9PZ3BGSkZId3FFRGF3OA?oc=5",
+        "published_at": "2026-08-07T18:18:41Z"
+      },
+      {
+        "headline": "A huge day and week for Corning as the S&P 500 approaches another record high",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html",
+        "published_at": "2026-08-07T16:59:17Z"
+      },
+      {
+        "headline": "Everybody wants energy security post the Iran war, but how? - Reuters",
+        "summary": "Everybody wants energy security post the Iran war, but how?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
+        "published_at": "2026-08-07T16:08:43Z"
+      },
+      {
+        "headline": "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
+        "summary": "Rockstar Energy founder Russ Savage told CNBC he now controls 12 million shares of Celsius Holdings, amounting to roughly 4.7% of the energy drink company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/07/rockstar-energy-founder-celsius-stake-ceo.html",
+        "published_at": "2026-08-07T15:26:56Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.7034,
+    "dxy_lean": "neutral",
+    "spy_close": 773.22,
+    "spy_change_pct": 0.6063,
+    "spy_lean": "bullish",
+    "vix_close": 15.15,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64983.41,
+    "coinbase_premium_pct": 0.076093,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-07T21:11:45 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 223.96,
+        "change_pct": 2.2695,
+        "prev_close": 218.99
+      },
+      "AMD": {
+        "close": 483.36,
+        "change_pct": -1.2099,
+        "prev_close": 489.28
+      },
+      "TSM": {
+        "close": 420.04,
+        "change_pct": 0.44,
+        "prev_close": 418.2
+      },
+      "SMCI": {
+        "close": 31.13,
+        "change_pct": 5.9564,
+        "prev_close": 29.38
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 723.03,
+        "change_pct": 1.1726,
+        "prev_close": 714.65
+      },
+      "SOXX": {
+        "close": 543.27,
+        "change_pct": 2.0187,
+        "prev_close": 532.52
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64934,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 50,
+    "positive_count": 9,
+    "negative_count": 8,
+    "neutral_count": 33,
+    "sentiment_ratio": 0.18,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
+        "url": "https://decrypt.co/375166/trump-media-abandons-crypto-treasury-prediction-market",
+        "published_at": "2026-08-07T21:05:59+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Media and Crypto.com end partnerships as companies shifts priorities",
+        "url": "https://www.theblock.co/news/deals/2026-08-07-trump-media-crypto-com-end-partnerships-as-companies-shifts-priorities-411198?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-07T21:01:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
+        "url": "https://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
+        "published_at": "2026-08-07T20:28:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Treasury\u2019s OFAC sanctions 2 Iran-linked crypto exchanges",
+        "url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-07T20:02:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
+        "url": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
+        "published_at": "2026-08-07T20:00:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US sanctions two more Iranian crypto exchanges under \u2018Economic Fury\u2019 campaign",
+        "url": "https://www.theblock.co/news/regulation/2026-08-07-us-sanctions-two-more-iranian-crypto-exchanges-under-economic-fury-campaign-411184?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-07T19:49:33+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SharpLink CEO warns EIP-8363 could kill ETH\u2019s biggest advantage over Bitcoin",
+        "url": "https://www.theblock.co/news/defi/2026-08-07-sharplink-ceo-warns-eip-8363-could-kill-eths-biggest-advantage-over-bitcoin-411186?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-07T19:37:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Flock Wanted to Turn 350,000 Uber Drivers Into a Nationwide Plate-Scanning Fleet",
+        "url": "https://decrypt.co/375149/flock-cameras-uber-drivers-nationwide-plate-scanning-fleet",
+        "published_at": "2026-08-07T19:18:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC cautions prediction markets over using American-style \u2018moneyline\u2019 betting odds: Bloomberg",
+        "url": "https://www.theblock.co/news/regulation/2026-08-07-cftc-cautions-prediction-markets-american-style-moneyline-betting-odds-bloomberg-411178?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-08-07T18:39:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-07T18:36:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
