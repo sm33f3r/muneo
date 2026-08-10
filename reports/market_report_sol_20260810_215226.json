@@ -1,0 +1,174 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-10T21:51:41 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 76.29,
+    "price_change_24h_pct": -1.4484,
+    "price_change_7d_pct": 3.445,
+    "volume_24h_usd": 1476032157,
+    "market_cap_usd": 44414352663,
+    "volume_to_mcap_ratio": 0.033233,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -73.9891,
+    "cex_price_usd": 76.31,
+    "cex_24h_high": 77.84,
+    "cex_24h_low": 75.58,
+    "cex_dex_spread_pct": 0.026216,
+    "volume_on_up_days_usd": 1574742076.6270504,
+    "volume_on_down_days_usd": 1393319493.6305053,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 41.9206,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -3.924203,
+      "signal_line": -4.80279,
+      "histogram": 0.878587
+    },
+    "macd_lean": "bullish",
+    "sma_50": 84.0784,
+    "price_vs_sma50_pct": -9.2633,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 85.431318,
+      "mid": 74.9035,
+      "lower": 64.375682,
+      "width_pct": 28.1104,
+      "position": 0.3915
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 644801804.43,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.363142857142858e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5887,
+    "btc_long_account_pct": 61.37,
+    "btc_short_account_pct": 38.63,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4827948290.0,
+    "tvl_7d_change_pct": 1.6543,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 9299289.69,
+    "chain_fees_7d_avg_usd": 8964542.71,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 2,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.5,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Judge stays CFTC\u2019s case against US soldier over prediction market bets",
+        "url": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-10T20:50:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Red Team founder turns to Chinese AI: \u2018It absolutely guts me\u2019",
+        "url": "https://cointelegraph.com/news/bitcoin-red-team-founder-turns-to-chinese-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-10T05:18:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 63948.0,
+    "btc_24h_change_pct": -1.6,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.6928,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2186078980103.3955,
+    "eth_btc_ratio": 0.029279,
+    "eth_btc_lean": "neutral",
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 773.05,
+    "spy_change_pct": -0.0272,
+    "spy_lean": "neutral",
+    "vix_close": 14.9,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 38,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 71.43,
+    "cg_sentiment_votes_down_pct": 28.57,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
