@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-11T21:14:11 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2269144525071.97,
+    "total_market_cap_change_24h_pct": -0.1117,
+    "total_volume_24h_usd": 50906561175.29,
+    "btc_dominance_pct": 56.3153,
+    "eth_dominance_pct": 9.9982,
+    "total2_usd": 991268320393.98,
+    "total3_usd": 764394839672.15,
+    "active_cryptocurrencies": 18377,
+    "altcoin_season_index": 64,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 50.8,
+        "price_usd": 0.629344,
+        "market_cap_usd": 267093052
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 25.4,
+        "price_usd": 0.00840777,
+        "market_cap_usd": 473881874
+      },
+      {
+        "symbol": "HOLO",
+        "name": "Holoworld",
+        "price_change_24h_pct": 21.9,
+        "price_usd": 0.084702,
+        "market_cap_usd": 173453584
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 10.8,
+        "price_usd": 0.090778,
+        "market_cap_usd": 180890160
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -31.4,
+        "price_usd": 1.1,
+        "market_cap_usd": 365091410
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -9.0,
+        "price_usd": 0.150746,
+        "market_cap_usd": 150750541
+      },
+      {
+        "symbol": "DEXE",
+        "name": "DeXe",
+        "price_change_24h_pct": -6.0,
+        "price_usd": 2.01,
+        "market_cap_usd": 193588836
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": -5.6,
+        "price_usd": 1.19,
+        "market_cap_usd": 191563439
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -5.5,
+        "price_usd": 0.02169999,
+        "market_cap_usd": 216973118
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63684,
+    "price_change_24h_pct": -0.5,
+    "price_change_7d_pct": -0.7,
+    "market_cap_usd": 1278065782512,
+    "volume_24h_usd": 20182127838,
+    "direction": "neutral",
+    "oi_usd": 6929175257.24,
+    "funding_rate_latest": 8.282e-05,
+    "funding_rate_7d_avg": 4.768476190476191e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8121,
+    "long_account_pct": 64.44,
+    "short_account_pct": 35.56,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1881.67,
+    "price_change_24h_pct": 0.2,
+    "price_change_7d_pct": 0.4,
+    "market_cap_usd": 227010009725,
+    "volume_24h_usd": 6942118461,
+    "eth_btc_ratio": 0.029547,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74862853049.35,
+    "stablecoin_market_cap_usd": 307323459591.91,
+    "stablecoin_dominance_pct": 13.5436
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 30,
+    "headlines": [
+      {
+        "headline": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
+        "summary": "Wall Street ends down as US-Iran peace optimism fades\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
+        "published_at": "2026-08-11T20:01:37Z"
+      },
+      {
+        "headline": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
+        "summary": "The quarter wasn't totally clean, but strong profitability matters the most.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/11/were-lifting-our-price-target-on-cardinal-health-after-issuing-rosy-profit-guidance-.html",
+        "published_at": "2026-08-11T19:59:28Z"
+      },
+      {
+        "headline": "Oil continues climb with doubts about potential US-Iran deal; stocks retreat - Reuters",
+        "summary": "Oil continues climb with doubts about potential US-Iran deal; stocks retreat\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
+        "published_at": "2026-08-11T19:06:56Z"
+      },
+      {
+        "headline": "Hormuz to stay closed unless US meets Iran's conditions, Iran official says - Reuters",
+        "summary": "Hormuz to stay closed unless US meets Iran's conditions, Iran official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?oc=5",
+        "published_at": "2026-08-11T17:45:22Z"
+      },
+      {
+        "headline": "Four crew killed in Red Sea attack while missile strike reported in Gulf - Reuters",
+        "summary": "Four crew killed in Red Sea attack while missile strike reported in Gulf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
+        "published_at": "2026-08-11T17:43:07Z"
+      },
+      {
+        "headline": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
+        "summary": "The CEO of the nation's largest single-family rental landlord said the new law banning large-scale investors from the market will lower prices in the long term.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/11/invitation-homes-ceo-institutional-homebuying-ban-prices.html",
+        "published_at": "2026-08-11T16:54:38Z"
+      },
+      {
+        "headline": "Trump wants to split the MMR vaccine. Experts say that's unlikely \u2014 and comes with consequences",
+        "summary": "Doctors and other experts say that splitting the measles, mumps and rubella shot has no scientific basis and is unlikely to get off the ground.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/11/mmr-vaccine-trump-wants-to-split-childhood-shot-up.html",
+        "published_at": "2026-08-11T16:50:04Z"
+      },
+      {
+        "headline": "Cramer: Intel may have something up its sleeve; Nvidia's financing push is 'monumentally positive'",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/11/cramer-intel-may-have-something-up-its-sleeve-nvidias-financing-push-is-positive.html",
+        "published_at": "2026-08-11T16:21:35Z"
+      },
+      {
+        "headline": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says - Reuters",
+        "summary": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFUwQU11ZTNtdlg0Zm1iSlQ0QlBkaFhUSzI2ZkdPY2M2anViX2l3R2xsUkxXdmszWlVDZU91ckpmeUZFOTlJUzB3T1NXZ3VNZm81R19hX25kdldEcUNZYlh0RDZYUlFYY05hVkM4dkdOUi1IMlVyak96OVphU0U5T3RwYkpqZlpQcVk4cThFM3M5U1dEcS13TDBIamk5OW5TcmEwaDY2d1JRbU80bzVFRGVSbnJTOUItdlhfNFgxRVpnTnRnNHVRRzJZOA?oc=5",
+        "published_at": "2026-08-11T16:09:56Z"
+      },
+      {
+        "headline": "Trump says Iran options are let Tehran fail economically or 'hit them really hard' - Reuters",
+        "summary": "Trump says Iran options are let Tehran fail economically or 'hit them really hard'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYUNwdDR2X2Z6TlJ2NDZ5VVVESGN1bHdOU3RHSVY5aGJSdmJldVZ6YVh5ZDVNNUxJMFpValdCa0dKSFJBLUZzeTdEU1pmcmhMVjAtQzBFdm91QW1JZERManNpTlMtbzBEaVhnZTRybjF1YkxVVVBtLWE0Vk4xOW9NWWhJU19yUUdLYy1MNHpDTTFjb3F0ajMtZHl1THdCSG00NjFNQTgtUzZpNG1DN0cwWi1lR2VNdWJvQjBkNHYtSy1GcVRLQ3hYTXJVQ2ZZZW8?oc=5",
+        "published_at": "2026-08-11T16:04:54Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 770.59,
+    "spy_change_pct": -0.3156,
+    "spy_lean": "neutral",
+    "vix_close": 15.46,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 63676.32,
+    "coinbase_premium_pct": -0.01206,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-11T21:14:11 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.5,
+        "change_pct": -0.023,
+        "prev_close": 217.55
+      },
+      "AMD": {
+        "close": 474.32,
+        "change_pct": 1.0137,
+        "prev_close": 469.56
+      },
+      "TSM": {
+        "close": 422.06,
+        "change_pct": 0.8579,
+        "prev_close": 418.47
+      },
+      "SMCI": {
+        "close": 31.6,
+        "change_pct": 0.445,
+        "prev_close": 31.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.45,
+        "change_pct": -0.3357,
+        "prev_close": 720.87
+      },
+      "SOXX": {
+        "close": 534.2,
+        "change_pct": 0.9086,
+        "prev_close": 529.39
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63684,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 2,
+    "negative_count": 12,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.0339,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SEC to address crypto regulations in absence of CLARITY passage",
+        "url": "https://cointelegraph.com/news/sec-crypto-regulations-absence-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-11T20:59:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ita\u00fa joins Brazil tokenization pilot with OpenAssets",
+        "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-11T20:55:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Bull and Bear Case for Solana\u2019s Next Price Move",
+        "url": "https://decrypt.co/375364/solana-price-death-cross-bull-bear-case-next-move",
+        "published_at": "2026-08-11T20:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Florida man charged by CFTC over $397 million crypto Ponzi scheme",
+        "url": "https://www.theblock.co/news/regulation/2026-08-11-florida-man-charged-by-cftc-over-397-million-crypto-ponzi-scheme-411491",
+        "published_at": "2026-08-11T20:14:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Prepares Escape Hatch From Securities Registration for Crypto Projects",
+        "url": "https://decrypt.co/375375/sec-prepares-escape-hatch-securities-registration-crypto-projects",
+        "published_at": "2026-08-11T20:10:00+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MoneyGram expands crypto cash ramps to Solana",
+        "url": "https://cointelegraph.com/news/moneygram-expands-crypto-cash-ramps-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-11T19:53:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Following Senate delay, crypto bill has a narrow window to become law",
+        "url": "https://cointelegraph.com/news/clarity-act-senate-delay-window-become-law-midterm-elections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-11T19:42:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agent Hacks a Gym\u2014And the Tech World Wonders What's Next",
+        "url": "https://decrypt.co/375358/ai-agent-hacks-gym-membership-tech-world-reacts",
+        "published_at": "2026-08-11T18:56:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ENS Foundation takes administrative control of $65 million Endowment following tokenholder vote",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-11-ens-foundation-administrative-control-65-million-endowment-tokenholder-vote-411464",
+        "published_at": "2026-08-11T18:49:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What\u2019s next for the Clarity Act as September brings a tough road ahead",
+        "url": "https://www.theblock.co/news/regulation/2026-08-11-whats-next-for-clarity-act-september-brings-tough-road-ahead-411465",
+        "published_at": "2026-08-11T18:35:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
