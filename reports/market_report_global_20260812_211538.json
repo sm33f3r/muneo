@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-12T21:14:42 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2266031911808.82,
+    "total_market_cap_change_24h_pct": -0.1407,
+    "total_volume_24h_usd": 51324410371.02,
+    "btc_dominance_pct": 56.2561,
+    "eth_dominance_pct": 10.0419,
+    "total2_usd": 991250103838.86,
+    "total3_usd": 763697068143.93,
+    "active_cryptocurrencies": 18397,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "APR",
+        "name": "aPriori",
+        "price_change_24h_pct": 109.8,
+        "price_usd": 0.473556,
+        "market_cap_usd": 130932786
+      },
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": 34.8,
+        "price_usd": 1.64,
+        "market_cap_usd": 263714873
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 25.4,
+        "price_usd": 0.255277,
+        "market_cap_usd": 690746241
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 15.4,
+        "price_usd": 0.15322,
+        "market_cap_usd": 153168625
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "price_change_24h_pct": -27.8,
+        "price_usd": 0.457968,
+        "market_cap_usd": 110502899
+      },
+      {
+        "symbol": "HOLO",
+        "name": "Holoworld",
+        "price_change_24h_pct": -13.6,
+        "price_usd": 0.070974,
+        "market_cap_usd": 145119801
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": -6.5,
+        "price_usd": 26.01,
+        "market_cap_usd": 180556299
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -6.4,
+        "price_usd": 0.133536,
+        "market_cap_usd": 333692660
+      },
+      {
+        "symbol": "DCR",
+        "name": "Decred",
+        "price_change_24h_pct": -5.3,
+        "price_usd": 12.16,
+        "market_cap_usd": 213520395
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63533,
+    "price_change_24h_pct": -0.1,
+    "price_change_7d_pct": -2.0,
+    "market_cap_usd": 1274861290817,
+    "volume_24h_usd": 21461987050,
+    "direction": "neutral",
+    "oi_usd": 7056297473.51,
+    "funding_rate_latest": 6.601e-05,
+    "funding_rate_7d_avg": 5.7115238095238096e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8153,
+    "long_account_pct": 64.48,
+    "short_account_pct": 35.52,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1886.38,
+    "price_change_24h_pct": 0.2,
+    "price_change_7d_pct": -1.6,
+    "market_cap_usd": 227581954260,
+    "volume_24h_usd": 6636757302,
+    "eth_btc_ratio": 0.029691,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75310583851.67,
+    "stablecoin_market_cap_usd": 307373583131.45,
+    "stablecoin_dominance_pct": 13.5644
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
+        "summary": "CoreWeave is seeing strong demand for six-year-old Nvidia chips, helping justify all the current AI capex.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
+        "published_at": "2026-08-12T20:16:05Z"
+      },
+      {
+        "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - Reuters",
+        "summary": "Credible missile threat led to secret aircraft switch for Trump, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlRqMEthQzJ3NWM2WVctYUhwMTlFekFyd0o3QVpnUkRoeUxUMGxSSThmVW1QT096QmVNUlRHZkxOUXM5M0tGdXBSRlIwbWFQbHFEdVdaR2lUVkdTaWRybHFZYzRtMk85LUNLMXF4bGFsZU1UVE54SXJsZWFRYnRmNlRoVVhWNUZVNm1OZmdlTHI3RlpYYWtULV9qZWFvVUtVMEl4aFByMDJXRHN0RHpxanJvNGY3cGNKN3Y5QUlncHljV193bEstMGFzTQ?oc=5",
+        "published_at": "2026-08-12T19:59:23Z"
+      },
+      {
+        "headline": "Iran says no progress on reviving interim peace deal with US - Reuters",
+        "summary": "Iran says no progress on reviving interim peace deal with US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
+        "published_at": "2026-08-12T19:58:02Z"
+      },
+      {
+        "headline": "How to trade gold prices as Fed rate hike and inflation odds shifts",
+        "summary": "Gold prices have been volatile in 2026, but a recent rally shows renewed investor interest amid tamer inflation data and changing Fed rate expectations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
+        "published_at": "2026-08-12T19:22:32Z"
+      },
+      {
+        "headline": "Saudi Red Sea oil exports go dark as Houthi attack threat grows - Reuters",
+        "summary": "Saudi Red Sea oil exports go dark as Houthi attack threat grows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGFZQ2Vnb3RrVVF5MGpzQzlrckRvMHM2bmtQRFFEdUdra2QxdEcwMEVTQk1GUDFBS25MS2Rmb05uZkd4Znp4aElvSEtFVzNXY1dtYUNHNmpWODhUSTFVRDc1a0VMR3NTVTlmNndDRlBnVWlfOFpZSXFRY01EUDh6WGJQb2xHY0daZGIwbzI3VWpfallqckphSVpIcHl0VkdqM3VyaUJUS1B4QVM5MXJZY0Rn?oc=5",
+        "published_at": "2026-08-12T18:49:34Z"
+      },
+      {
+        "headline": "CEO of Intel just gave Jim Cramer one more reason to call it his favorite stock",
+        "summary": "Intel on Wednesday revealed CEO Lip-Bu Tan as a big buyer in the massive stock sale that the company announced this week.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/12/ceo-of-intel-just-gave-jim-cramer-one-more-reason-to-call-it-his-favorite-stock.html",
+        "published_at": "2026-08-12T18:38:29Z"
+      },
+      {
+        "headline": "The S&P paces to snap a 2-day skid, and Goldman beefs up its asset management unit",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/12/the-sp-paces-to-snap-a-2-day-skid-and-goldman-beefs-up-its-asset-management-unit.html",
+        "published_at": "2026-08-12T18:13:44Z"
+      },
+      {
+        "headline": "US July deficit tops $432 billion as outlays grow, tariff receipts stay negative - Reuters",
+        "summary": "US July deficit tops $432 billion as outlays grow, tariff receipts stay negative\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
+        "published_at": "2026-08-12T18:05:21Z"
+      },
+      {
+        "headline": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
+        "summary": "Lettuce prices posted their sharpest month-over-month decline on record as diners reconsider the vegetable amid the cyclospora outbreak.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
+        "published_at": "2026-08-12T17:57:44Z"
+      },
+      {
+        "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - Reuters",
+        "summary": "Iranian photojournalist faces 15 years in prison over images, reporting\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkZMS1VuU2djMmpESEVFMlhMZm1lWjEzWlRCVDlwRXRaeVRGMXpxWi1RSFdYT2lCOVZkVGkyYmFxSWp5TnpOUmNNSnR1bDdVUHN6Y2w1cXBORTk1dk45ZzROUHRlVWNicG9zZlZxUWtiMjZhbDZUci1FTVRSdUFpSFYxdHVhOVVVWnJmX3RvbndjandLaUN6cnBPS0k4YzUzdW41M0FVMy1ucHFwYlozRGxCbGRIaE9ZQm5FZDl6TXpQUWQt?oc=5",
+        "published_at": "2026-08-12T17:56:19Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 772.47,
+    "spy_change_pct": 0.2479,
+    "spy_lean": "neutral",
+    "vix_close": 15.28,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63529.84,
+    "coinbase_premium_pct": -0.004974,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-12T21:14:42 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 224.09,
+        "change_pct": 3.0299,
+        "prev_close": 217.5
+      },
+      "AMD": {
+        "close": 482.93,
+        "change_pct": 1.8152,
+        "prev_close": 474.32
+      },
+      "TSM": {
+        "close": 429.15,
+        "change_pct": 1.6799,
+        "prev_close": 422.06
+      },
+      "SMCI": {
+        "close": 37.61,
+        "change_pct": 19.019,
+        "prev_close": 31.6
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 723.7,
+        "change_pct": 0.7307,
+        "prev_close": 718.45
+      },
+      "SOXX": {
+        "close": 546.61,
+        "change_pct": 2.3231,
+        "prev_close": 534.2
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63533,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 66,
+    "positive_count": 11,
+    "negative_count": 12,
+    "neutral_count": 43,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SEC clears Franklin Templeton funds to use onchain BENJI system for cash management",
+        "url": "https://www.theblock.co/news/defi/2026-08-12-sec-clears-franklin-templeton-funds-use-onchain-benji-system-cash-management-411654",
+        "published_at": "2026-08-12T21:04:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman Sachs to acquire ETF manager NEOS in $2.25B deal",
+        "url": "https://cointelegraph.com/news/goldman-sachs-to-acquire-etf-manager-neos-225b-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-12T20:37:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'Inner Thoughts' of Every Major AI Model Exposed in Massive Exploit",
+        "url": "https://decrypt.co/375501/inner-thoughts-every-major-ai-model-exposed-exploit",
+        "published_at": "2026-08-12T20:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NYC council announces probe into \u2018predatory marketing practices\u2019 on prediction markets",
+        "url": "https://cointelegraph.com/news/new-york-council-probe-marketing-practices-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-12T20:22:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China\u2019s DeepSeek Upgrades V4 Pro: Claude Fable Is Only 5% Better at 4,500% the Price",
+        "url": "https://decrypt.co/375507/china-deepseek-upgrades-v4-pro-claude-fable",
+        "published_at": "2026-08-12T20:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SpaceXAI Wants Grok Bot to Do Your Job\u2014But It Needs Access to Your Accounts",
+        "url": "https://decrypt.co/375490/spacexai-grok-bot-do-job-needs-access-accounts",
+        "published_at": "2026-08-12T19:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum staking climbs to 34% as proposal targets validator rewards and ETH treasury firm yields",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-12-ethereum-staking-climbs-34-proposal-targets-validator-rewards-eth-treasury-firm-yields-411312",
+        "published_at": "2026-08-12T19:16:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman Sachs' $2.25B NEOS Deal Hands It Ready-Made Bitcoin Income ETF Business",
+        "url": "https://decrypt.co/375491/goldman-sachs-neos-deal-ready-made-bitcoin-income-etf",
+        "published_at": "2026-08-12T18:58:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken adds S&P 500 to funded trading program, commodities to follow",
+        "url": "https://cointelegraph.com/news/kraken-prop-sp500-perpetual-commodities-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-12T18:55:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump sued over Truth Social\u2019s early-access feed as firm explores licensing data to prediction markets",
+        "url": "https://www.theblock.co/news/business/2026-08-12-trump-sued-truth-social-early-access-feed-firm-explores-licensing-data-prediction-markets-411628",
+        "published_at": "2026-08-12T18:35:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
