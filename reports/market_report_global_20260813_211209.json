@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-13T21:11:14 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2262567161473.68,
+    "total_market_cap_change_24h_pct": -0.0009,
+    "total_volume_24h_usd": 46828693276.34,
+    "btc_dominance_pct": 56.2428,
+    "eth_dominance_pct": 10.0611,
+    "total2_usd": 990036516614.3,
+    "total3_usd": 762397213312.72,
+    "active_cryptocurrencies": 18402,
+    "altcoin_season_index": 69,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 75.3,
+        "price_usd": 0.00738567,
+        "market_cap_usd": 169124619
+      },
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": 20.0,
+        "price_usd": 31.22,
+        "market_cap_usd": 216725506
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 19.0,
+        "price_usd": 0.104724,
+        "market_cap_usd": 208840331
+      },
+      {
+        "symbol": "APR",
+        "name": "aPriori",
+        "price_change_24h_pct": 14.8,
+        "price_usd": 0.508705,
+        "market_cap_usd": 141094854
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": -30.0,
+        "price_usd": 1.12,
+        "market_cap_usd": 178723913
+      },
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -20.1,
+        "price_usd": 0.921218,
+        "market_cap_usd": 305082218
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -11.7,
+        "price_usd": 0.04892438,
+        "market_cap_usd": 169785111
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -5.6,
+        "price_usd": 0.144525,
+        "market_cap_usd": 144511942
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": -5.2,
+        "price_usd": 0.00149368,
+        "market_cap_usd": 149382455
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63398,
+    "price_change_24h_pct": 0.0,
+    "price_change_7d_pct": -1.7,
+    "market_cap_usd": 1272700165501,
+    "volume_24h_usd": 19188983303,
+    "direction": "neutral",
+    "oi_usd": 6969649620.3,
+    "funding_rate_latest": 7.841e-05,
+    "funding_rate_7d_avg": 6.0195714285714285e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.881,
+    "long_account_pct": 65.29,
+    "short_account_pct": 34.71,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1886.22,
+    "price_change_24h_pct": 0.4,
+    "price_change_7d_pct": -1.2,
+    "market_cap_usd": 227633704779,
+    "volume_24h_usd": 6393396337,
+    "eth_btc_ratio": 0.029752,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75211326488.84,
+    "stablecoin_market_cap_usd": 307667382308.77,
+    "stablecoin_dominance_pct": 13.5982
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "US could not verify Israeli warnings of Iran plots against Trump, sources say - Reuters",
+        "summary": "US could not verify Israeli warnings of Iran plots against Trump, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSnhVZVpUNm9PZUM5Z3VkNWp1NVJNdmdYcTZDblZhWURVRnhKLWtNTTVUeHpaNE5wN2M0cGU1WFBycHhGT2h4T2taMTR0NUduWkRCczBUMTVwaldHY0lNVzB6QkZMMHg4dUM3ekkwaWJWME9NSHlWSUl6R0pXYk92V3BZM1NNVnRNNVRFR1hhVXU2blhNTEdKeWh6c3pGUVNSS09XTDgwNkxtMmVSU1lnQVZob2FldllGeWVMRUZ1NkRnNEs5WUE?oc=5",
+        "published_at": "2026-08-13T19:53:53Z"
+      },
+      {
+        "headline": "Cramer: How words of wisdom from Gene Hackman help me make peace with investing mistakes",
+        "summary": "This is an excerpt from the CNBC Investing Club's August Monthly Meeting, which was held Thursday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/13/cramer-how-words-of-wisdom-from-gene-hackman-help-me-make-peace-with-investing-mistakes.html",
+        "published_at": "2026-08-13T19:23:24Z"
+      },
+      {
+        "headline": "NEWSLETTER: Trump reckons with a war that won\u2019t leave him alone - Reuters",
+        "summary": "NEWSLETTER: Trump reckons with a war that won\u2019t leave him alone\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFFaUWV6X2Y0Z1ZyZnlDaHlOUG5rSnFzdDFSVGx2SzluWVVJYlFlRFdMXzQzQkV4UERITFhfaEdQdmdCVS1tUmJWWFlYdnF6dk5IcXdPdERjVzZtQV9na3dtR2VxYkc2LWtHOFdlVl9LcEQyUHRPdWhuM2drMnpQV1BCTURwYUE1d0VMV2QzaW1PWms5V2pwUg?oc=5",
+        "published_at": "2026-08-13T19:15:00Z"
+      },
+      {
+        "headline": "Stocks rise as traders reduce rate hike bets, oil prices drop - Reuters",
+        "summary": "Stocks rise as traders reduce rate hike bets, oil prices drop\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlfTWozZlI1am8yV1pmREdVZGswQ1NPWl92dGhIN3lVbWJRaFA2YWhWNDQ4NWwweXZpbmpLOGFmcDlUdDhBSGFyU1piOVBzam1JOEN2RVFDOXdWOFk2LTB1MklsRzRfVmlaR3BTb2ZFNmw2U0hjUnhNLUd3cVV0WElxVQ?oc=5",
+        "published_at": "2026-08-13T18:41:41Z"
+      },
+      {
+        "headline": "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
+        "summary": "Iran, US make competing claims over control of Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
+        "published_at": "2026-08-13T17:51:32Z"
+      },
+      {
+        "headline": "Hegseth says reports about poor conditions aboard carrier are misrepresented - Reuters",
+        "summary": "Hegseth says reports about poor conditions aboard carrier are misrepresented\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT21sVzBFV2Zad0JYdG0tTUtSLXluQ19SMWdHel9GNHBqY1BucXZ0cHByV242RDE5eTl6VEptVXU0OE5PNXFkeWhocTR5b181Nlpmdk95NElkZ2NfWXQyQ2FjVUc2MlZUZVJoMkxpb3ZnS0lrbFpydTcxYXNVNjdaVWNTRHNmRGNCdDFzMG02NWVPVEkwOUxKUDU1c25fcFNON1V0anp3Tkp4Qkd0TWJRalhZLWJCTktTYWwtRnV3?oc=5",
+        "published_at": "2026-08-13T17:29:47Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Ukraine offers Russia truce in Black Sea as food supply fears mount, source says - Reuters",
+        "summary": "EXCLUSIVE: Ukraine offers Russia truce in Black Sea as food supply fears mount, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVAyN1FTME4xT3BNeld6NHNVMEpaWElYUkJrVjdmZmFVMVBtX0NlZGp3cXk4UUItS1ZDaGhCVE54bkptY0tiSTJDTHF2VU5HSzB3YTRFay1KY09uM1RuNkZJSXFtbVNiNVlzTU1rWEF2TTV4LUZzazNDU2dkdTVsdENPdnFvZDJMWmcxWTdwNE5na2NzeVBwVlVwTnNrQUN5VHV3bEIwaS1vTmZXOVhGeEVnN1FyQ1VxMTQ0T2g4aw?oc=5",
+        "published_at": "2026-08-13T17:21:23Z"
+      },
+      {
+        "headline": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
+        "summary": "Are global oil stocks big enough to weather another six months of US-Iran war?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
+        "published_at": "2026-08-13T17:15:46Z"
+      },
+      {
+        "headline": "US can keep naval blockade on Iranian ports \"indefinitely,\" Pentagon chief says - Reuters",
+        "summary": "US can keep naval blockade on Iranian ports \"indefinitely,\" Pentagon chief says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVG5Gb2NKOTltbG9CVlpKTElmclFqS1JyWGtIckF6UzhMYlVCQUp4a1FEWnRzWDQxS24ycTZYTEstVHIzbzhpMENnMWVzV2kxdklsV0pFR3h5Nk93OGtDRUJndkJhWEMtaUNjQm1scHdJZlczYWlfcUZXQ2pLMGp6S3k0YTdMUS1zaUxyWk1Sd2VSUWpFUmxxb285T1JaUGdUM2paUGotRk5JLWY1QVJWR1lTOC1XWC1xbndPdk5LdkdpTXR2VXc?oc=5",
+        "published_at": "2026-08-13T16:43:12Z"
+      },
+      {
+        "headline": "Israel sends troops into West Bank homes besieged by Jewish settlers - Reuters",
+        "summary": "Israel sends troops into West Bank homes besieged by Jewish settlers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZnkwN181TzdJQXA2ajNoUENXQTVxVTBvaDVrMHNfT0FldklHZGZ0Y094aFRMM3B2ZXpBbjdneUdKQ2h4aFQyTjdweE1uNXRtWEpXdVhWc29HbkVyU01qcUtnek0yTjVqdU5pQUlkUVdEeGFxUVhEdGRjQ2hPT0JmYTRuMTVtVVhFU050aVhnVnlUZ2ltRVZROEJoQ3lUZC1jYVI3ZV9nSm53bU9pcGtmdjBSQXJQMFBJdzc4aGw3aU0wQQ?oc=5",
+        "published_at": "2026-08-13T16:16:40Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 777.82,
+    "spy_change_pct": 0.69,
+    "spy_lean": "bullish",
+    "vix_close": 14.55,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 63386.27,
+    "coinbase_premium_pct": -0.018502,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-13T21:11:14 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.3,
+        "change_pct": 0.54,
+        "prev_close": 224.09
+      },
+      "AMD": {
+        "close": 483.01,
+        "change_pct": 0.0166,
+        "prev_close": 482.93
+      },
+      "TSM": {
+        "close": 430.49,
+        "change_pct": 0.3122,
+        "prev_close": 429.15
+      },
+      "SMCI": {
+        "close": 39.16,
+        "change_pct": 4.1212,
+        "prev_close": 37.61
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 732.07,
+        "change_pct": 1.1566,
+        "prev_close": 723.7
+      },
+      "SOXX": {
+        "close": 550.74,
+        "change_pct": 0.7556,
+        "prev_close": 546.61
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63398,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 37,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 6,
+    "negative_count": 9,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1091,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Tether completes first full financial audit, receives clean KPMG opinion",
+        "url": "https://cointelegraph.com/news/tether-completes-first-full-financial-audit-receives-clean-kpmg-opinion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-13T20:43:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Is Quietly Watermarking Every Claude AI Output. Builders Are Already Trying to Break It",
+        "url": "https://decrypt.co/375594/anthropic-quietly-watermarking-ai-claude-output-builders-break",
+        "published_at": "2026-08-13T20:30:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
+        "url": "https://cointelegraph.com/news/delio-ceo-prison-crypto-fraud-south-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-13T19:21:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google and OpenAI Debut Super Fast AI Models\u2014Gemini 3.7 Flash Is Out, But GPT-5.6 Sol Ultrafast Is Invite-Only",
+        "url": "https://decrypt.co/375580/google-openai-super-fast-ai-models-gemini-flash-gpt-ultrafast",
+        "published_at": "2026-08-13T19:11:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether says KPMG issued \u2018clean\u2019 opinion in first full audit of USDT issuer\u2019s financials",
+        "url": "https://www.theblock.co/news/business/2026-08-13-tether-kpmg-first-full-audit-usdt-clean-opinion-411760",
+        "published_at": "2026-08-13T19:04:50+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Baltimore sues Kalshi and Polymarket, roping Coinbase, Robinhood and Webull into the fight",
+        "url": "https://www.theblock.co/news/business/2026-08-13-baltimore-sues-kalshi-polymarket-roping-coinbase-robinhood-webull-into-fight-411746",
+        "published_at": "2026-08-13T18:51:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google ad phishing scam drains $550,000 from Hyperliquid user, security specialist says",
+        "url": "https://www.theblock.co/news/regulation/2026-08-13-google-ad-phishing-scam-drains-550000-from-hyperliquid-user-security-specialist-says-411755",
+        "published_at": "2026-08-13T18:45:33+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether Claims 'Largest Inaugural Financial Audit' as KPMG Signs Off on 2025 Statements",
+        "url": "https://decrypt.co/375577/tether-inaugural-financial-audit-kpmg",
+        "published_at": "2026-08-13T18:39:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White House Lets Private Firms Hack Cybercriminals\u2014At Their Own Legal Risk",
+        "url": "https://decrypt.co/375568/white-house-private-firms-hack-cybercriminals",
+        "published_at": "2026-08-13T18:26:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC to join SEC in exploring crypto regulations without CLARITY bill",
+        "url": "https://cointelegraph.com/news/cftc-exploring-crypto-regulations-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-13T18:18:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
