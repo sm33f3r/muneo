@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-14T21:14:44 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2247041896669.87,
+    "total_market_cap_change_24h_pct": -0.7142,
+    "total_volume_24h_usd": 48318202575.67,
+    "btc_dominance_pct": 56.1247,
+    "eth_dominance_pct": 10.0803,
+    "total2_usd": 985895890945.84,
+    "total3_usd": 759387925597.45,
+    "active_cryptocurrencies": 18412,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "M",
+        "name": "Mantis",
+        "price_change_24h_pct": 66.7,
+        "price_usd": 1.29,
+        "market_cap_usd": 128717758
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 47.1,
+        "price_usd": 1.022,
+        "market_cap_usd": 433123564
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 22.3,
+        "price_usd": 0.00999397,
+        "market_cap_usd": 228813005
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 19.5,
+        "price_usd": 0.119412,
+        "market_cap_usd": 237844544
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 18.7,
+        "price_usd": 0.170586,
+        "market_cap_usd": 170585159
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -28.1,
+        "price_usd": 0.64001,
+        "market_cap_usd": 211416459
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -17.3,
+        "price_usd": 0.128836,
+        "market_cap_usd": 127068525
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": -16.6,
+        "price_usd": 26.69,
+        "market_cap_usd": 185271577
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price_change_24h_pct": -8.1,
+        "price_usd": 3.2,
+        "market_cap_usd": 1995386930
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": -7.4,
+        "price_usd": 4.26,
+        "market_cap_usd": 426018297
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62858,
+    "price_change_24h_pct": -0.7,
+    "price_change_7d_pct": -3.2,
+    "market_cap_usd": 1261528187934,
+    "volume_24h_usd": 20270044375,
+    "direction": "neutral",
+    "oi_usd": 7040488862.5,
+    "funding_rate_latest": 6.29e-06,
+    "funding_rate_7d_avg": 6.185857142857143e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0989,
+    "long_account_pct": 67.73,
+    "short_account_pct": 32.27,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1877.34,
+    "price_change_24h_pct": -0.4,
+    "price_change_7d_pct": -2.0,
+    "market_cap_usd": 226556094300,
+    "volume_24h_usd": 4951621799,
+    "eth_btc_ratio": 0.029866,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 74866509036.47,
+    "stablecoin_market_cap_usd": 307630408059.59,
+    "stablecoin_dominance_pct": 13.6905
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 45,
+    "headlines": [
+      {
+        "headline": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
+        "summary": "Oil climbs over $1 on tanker attacks, no progrees on peace\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
+        "published_at": "2026-08-14T19:21:47Z"
+      },
+      {
+        "headline": "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
+        "published_at": "2026-08-14T18:33:35Z"
+      },
+      {
+        "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
+        "summary": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
+        "published_at": "2026-08-14T17:26:57Z"
+      },
+      {
+        "headline": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
+        "summary": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively and nearly 80% see the U.S. economy negatively.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/13/cnbc-poll-half-of-those-18-to-34-view-democratic-socialism-positively.html",
+        "published_at": "2026-08-14T15:22:00Z"
+      },
+      {
+        "headline": "Disney CEO Josh D'Amaro to speak with CNBC live from D23 expo",
+        "summary": "New CEO Josh D'Amaro has said his strategy for continued growth at Disney is centered around storytelling, intellectual property and technology.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
+        "published_at": "2026-08-14T15:13:56Z"
+      },
+      {
+        "headline": "Trump asks Supreme Court to let White House ballroom construction continue",
+        "summary": "President Donald Trump tore down the White House East Wing to make way for the ballroom project.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/trump-ballroom-supreme-court-white-house.html",
+        "published_at": "2026-08-14T15:11:41Z"
+      },
+      {
+        "headline": "We're buying more shares of a recent spin-off that has great long-term prospects",
+        "summary": "The stock has hit a rough patch since reporting a\u00a0noisy quarter\u00a0back in June, as is typical of companies that were spun out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/were-buying-more-shares-of-a-recent-spin-off-that-has-great-long-term-prospects.html",
+        "published_at": "2026-08-14T15:07:25Z"
+      },
+      {
+        "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
+        "summary": "Hormuz traffic slows further after US threatens more economic pressure on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
+        "published_at": "2026-08-14T14:27:38Z"
+      },
+      {
+        "headline": "Housing investors say this is their worst market in at least 3 years",
+        "summary": "Mortgage rates hit a recent low at the end of February but rose sharply at the start of the war with Iran. They are now at their highest level in over a year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html",
+        "published_at": "2026-08-14T14:00:01Z"
+      },
+      {
+        "headline": "The Club's top 10 things to watch in the stock market Friday",
+        "summary": "Stocks are headed for a mixed open following Thursday's record S&P 500 close.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/14/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+        "published_at": "2026-08-14T13:17:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 776.32,
+    "spy_change_pct": -0.2005,
+    "spy_lean": "neutral",
+    "vix_close": 14.63,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 62837.66,
+    "coinbase_premium_pct": -0.032359,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-14T21:14:44 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.16,
+        "change_pct": -0.0621,
+        "prev_close": 225.3
+      },
+      "AMD": {
+        "close": 514.39,
+        "change_pct": 6.4968,
+        "prev_close": 483.01
+      },
+      "TSM": {
+        "close": 426.35,
+        "change_pct": -0.9617,
+        "prev_close": 430.49
+      },
+      "SMCI": {
+        "close": 39.84,
+        "change_pct": 1.7365,
+        "prev_close": 39.16
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 731.07,
+        "change_pct": -0.1366,
+        "prev_close": 732.07
+      },
+      "SOXX": {
+        "close": 550.42,
+        "change_pct": -0.0581,
+        "prev_close": 550.74
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62858,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 50,
+    "positive_count": 5,
+    "negative_count": 10,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
+        "url": "https://decrypt.co/375715/france-tax-data-leak-wrench-attacks-bitcoin",
+        "published_at": "2026-08-14T21:03:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model",
+        "url": "https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model",
+        "published_at": "2026-08-14T20:01:13+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mizuho cuts BitGo price target to $11, but says Clarity Act delays could prove advantageous",
+        "url": "https://www.theblock.co/news/markets/2026-08-14-mizuho-cuts-bitgo-price-target-to-11-but-says-clarity-act-delays-could-prove-advantageous-411878",
+        "published_at": "2026-08-14T19:34:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Honestly, I don\u2019t care\u2019: Tether CEO dismisses critics following first KPMG audit",
+        "url": "https://www.theblock.co/news/business/2026-08-14-honestly-i-dont-care-tether-ceo-dismisses-critics-first-kpmg-audit-411886",
+        "published_at": "2026-08-14T19:25:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "French tax breach exposes nearly 678,000 people as crypto wrench attacks pile up",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-14-french-tax-breach-exposes-nearly-678000-people-crypto-wrench-attacks-pile-up-411876",
+        "published_at": "2026-08-14T19:07:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs",
+        "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879",
+        "published_at": "2026-08-14T19:01:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
+        "url": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
+        "published_at": "2026-08-14T19:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dartmouth endowment\u2019s crypto exposure drops by $2M amid falling prices",
+        "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-14T18:57:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken parent Payward revenue rises 17% as trading volume falls in Q2",
+        "url": "https://cointelegraph.com/news/kraken-parent-payward-revenue-rises-as-trading-volume-falls-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-14T18:44:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Staff Blame Rush to Ship for Rogue Agent Hack",
+        "url": "https://decrypt.co/375670/openai-staff-blame-rush-ship-rogue-agent-hack",
+        "published_at": "2026-08-14T18:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
