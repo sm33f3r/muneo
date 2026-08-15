@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-15T21:14:41 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2253657164202.62,
+    "total_market_cap_change_24h_pct": 0.262,
+    "total_volume_24h_usd": 29046280951.37,
+    "btc_dominance_pct": 56.135,
+    "eth_dominance_pct": 10.0763,
+    "total2_usd": 988566787686.64,
+    "total3_usd": 761482310696.03,
+    "active_cryptocurrencies": 18423,
+    "altcoin_season_index": 71,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 26.8,
+        "price_usd": 0.146582,
+        "market_cap_usd": 292118265
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 26.1,
+        "price_usd": 0.258027,
+        "market_cap_usd": 108229960
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 7.6,
+        "price_usd": 0.177264,
+        "market_cap_usd": 177248071
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 7.6,
+        "price_usd": 0.02333931,
+        "market_cap_usd": 101358185
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": 7.5,
+        "price_usd": 0.163575,
+        "market_cap_usd": 190886204
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BEAT",
+        "name": "Audiera",
+        "price_change_24h_pct": -40.0,
+        "price_usd": 0.389914,
+        "market_cap_usd": 128895418
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": -31.7,
+        "price_usd": 0.891487,
+        "market_cap_usd": 143194898
+      },
+      {
+        "symbol": "TAG",
+        "name": "TAGGER",
+        "price_change_24h_pct": -21.9,
+        "price_usd": 0.00095451,
+        "market_cap_usd": 103908080
+      },
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": -14.7,
+        "price_usd": 26.69,
+        "market_cap_usd": 185276237
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -12.9,
+        "price_usd": 0.875494,
+        "market_cap_usd": 371109292
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63043,
+    "price_change_24h_pct": 0.2,
+    "price_change_7d_pct": -3.1,
+    "market_cap_usd": 1265294021840,
+    "volume_24h_usd": 10982551008,
+    "direction": "neutral",
+    "oi_usd": 7033654175.62,
+    "funding_rate_latest": 5.311e-05,
+    "funding_rate_7d_avg": 6.274428571428571e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0788,
+    "long_account_pct": 67.52,
+    "short_account_pct": 32.48,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1881.77,
+    "price_change_24h_pct": 0.2,
+    "price_change_7d_pct": -2.0,
+    "market_cap_usd": 227094662327,
+    "volume_24h_usd": 2894306289,
+    "eth_btc_ratio": 0.029849,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75120092608.24,
+    "stablecoin_market_cap_usd": 307060856007.04,
+    "stablecoin_dominance_pct": 13.625
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 13,
+    "headlines": [
+      {
+        "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
+        "summary": "Qatar denies detaining Iranian pilots, says it found remains of one\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
+        "published_at": "2026-08-15T19:28:45Z"
+      },
+      {
+        "headline": "Lebanon says Israeli strikes in south of the country kill at least 11\u200b\u200b\u200b - Reuters",
+        "summary": "Lebanon says Israeli strikes in south of the country kill at least 11\u200b\u200b\u200b\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
+        "published_at": "2026-08-15T18:33:50Z"
+      },
+      {
+        "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - Reuters",
+        "summary": "Yemen's Mocha port halts operations after Houthi attacks, port director says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2FPbFJIdUZSc2djcmg5V0I3VE9WY0pQaWRRdGxaM21PRXloRHluMFhBVk04SjlMVmxKdmFxblFJMFRQME5QTGFBODdSbC05LWtkNm9UM3M1Vl9kTkpTY3ppaFloSXAyV0hUU3lseUR3Rl94TlZsVDhmS0VJWE9Damc4dGRla1pRUHdENG02ZExWcnh4ZDIzbC1uUmN0cFljUDN6MGd0QlVoSVcyajZXNExMMzY4SHd6QmNoQWZDYm5udTEweGpR?oc=5",
+        "published_at": "2026-08-15T17:30:00Z"
+      },
+      {
+        "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
+        "summary": "Taliban mark five years in power as aid groups warn of crisis\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
+        "published_at": "2026-08-15T15:26:52Z"
+      },
+      {
+        "headline": "Israeli strike kills seven in south Lebanon, state news reports\u200b - Reuters",
+        "summary": "Israeli strike kills seven in south Lebanon, state news reports\u200b\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
+        "published_at": "2026-08-15T14:43:31Z"
+      },
+      {
+        "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
+        "summary": "No surprises on inflation and new financing developments in the artificial intelligence trade drove the record-breaking action on Wall Street last week.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html",
+        "published_at": "2026-08-15T14:22:54Z"
+      },
+      {
+        "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
+        "summary": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
+        "published_at": "2026-08-15T14:13:45Z"
+      },
+      {
+        "headline": "Marijuana reform is\u00a0emerging\u00a0as a midterm elections issue\u00a0on both sides of the aisle",
+        "summary": "With November's midterms fast approaching, cannabis reform is an issue. It's popular with voters, but its power to tilt elections remains uncertain.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html",
+        "published_at": "2026-08-15T13:00:01Z"
+      },
+      {
+        "headline": "A $50 million hostage ransom funded al Qaeda's Mali offensive, UN says - Reuters",
+        "summary": "A $50 million hostage ransom funded al Qaeda's Mali offensive, UN says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdkV1RXpqWTJ3NU1pZTBVaFNfdFZQOW04NXJjVUptcEk0YjhxbDM3aWNJMi1yQ2l0ZzF2dkdwYU42R1ZXcUdLNzg0T1NvRFR6eVhiMmZJMFlxb045VlRlTHFBZFI4WW0yNUswWHJ0NFViZ3hHTS1GdEVDaHg5YmRPQ01uNU9ZOVdxMnlvaHRydzZJMWpES1V4c1pPTHR3anFTNnFFd1ZheWE5cmJoUTRxbTVqUjNRalJZWWhz?oc=5",
+        "published_at": "2026-08-14T23:18:44Z"
+      },
+      {
+        "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
+        "summary": "Hormuz traffic slows further after US threatens more economic pressure on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
+        "published_at": "2026-08-14T22:36:06Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 776.34,
+    "spy_change_pct": -0.198,
+    "spy_lean": "neutral",
+    "vix_close": 14.63,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 63035.44,
+    "coinbase_premium_pct": -0.011992,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-15T21:14:41 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.16,
+        "change_pct": -0.0621,
+        "prev_close": 225.3
+      },
+      "AMD": {
+        "close": 514.39,
+        "change_pct": 6.4968,
+        "prev_close": 483.01
+      },
+      "TSM": {
+        "close": 426.35,
+        "change_pct": -0.9617,
+        "prev_close": 430.49
+      },
+      "SMCI": {
+        "close": 39.84,
+        "change_pct": 1.7365,
+        "prev_close": 39.16
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 731.07,
+        "change_pct": -0.1366,
+        "prev_close": 732.07
+      },
+      "SOXX": {
+        "close": 550.42,
+        "change_pct": -0.0581,
+        "prev_close": 550.74
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63043,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 14,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 10,
+    "sentiment_ratio": 0.2143,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+        "url": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-15T19:27:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Harvard leaves bitcoin ETF stake untouched in Q2 after cutting it 43% in the prior quarter",
+        "url": "https://www.theblock.co/news/markets/2026-08-15-harvard-leaves-bitcoin-etf-stake-untouched-in-q2-after-cutting-it-43-in-the-prior-quarter-411926",
+        "published_at": "2026-08-15T18:37:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized stock holders more than double as monthly volume surges",
+        "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-15T17:26:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Apple Turns to Alibaba to Help Build AI Model for China",
+        "url": "https://decrypt.co/375724/apple-alibaba-build-ai-model-china",
+        "published_at": "2026-08-15T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump, CFTC Chair Selig expected at Wednesday White House meeting with crypto and prediction market executives",
+        "url": "https://www.theblock.co/news/regulation/2026-08-15-trump-cftc-chair-selig-expected-at-wednesday-white-house-meeting-with-crypto-and-prediction-market-executives-411919",
+        "published_at": "2026-08-15T15:20:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
+        "url": "https://decrypt.co/375698/meta-patents-cameras-recognize-faces-log-actions",
+        "published_at": "2026-08-15T15:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-15T14:40:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin to $1M by 2030 is \u2018mathematically impossible\u2019 says Markus Thielen",
+        "url": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-15T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-Linked World Liberty Gets Conditional Bank Charter for USD1 Stablecoin",
+        "url": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
+        "published_at": "2026-08-15T13:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin could bottom in October, altcoins are \u2018basically dead,\u2019 Swan CEO says",
+        "url": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-15T12:57:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
