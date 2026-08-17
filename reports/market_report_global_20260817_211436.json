@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-17T21:13:41 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2284481598990.16,
+    "total_market_cap_change_24h_pct": 1.4681,
+    "total_volume_24h_usd": 55007221567.54,
+    "btc_dominance_pct": 56.5278,
+    "eth_dominance_pct": 10.0671,
+    "total2_usd": 993114319579.19,
+    "total3_usd": 763133019027.98,
+    "active_cryptocurrencies": 18454,
+    "altcoin_season_index": 27,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "FGRS",
+        "name": "FGRS (Figure Tokenized Stock)",
+        "price_change_24h_pct": 31.7,
+        "price_usd": 35.16,
+        "market_cap_usd": 244088701
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 24.1,
+        "price_usd": 0.304862,
+        "market_cap_usd": 126949872
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 12.5,
+        "price_usd": 0.0083959,
+        "market_cap_usd": 475130700
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": 11.4,
+        "price_usd": 17.84,
+        "market_cap_usd": 178340545
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 10.2,
+        "price_usd": 0.932527,
+        "market_cap_usd": 256555964
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -41.7,
+        "price_usd": 0.604725,
+        "market_cap_usd": 256223791
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -11.4,
+        "price_usd": 0.119537,
+        "market_cap_usd": 237884327
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": -10.3,
+        "price_usd": 0.058541,
+        "market_cap_usd": 113711994
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -9.4,
+        "price_usd": 0.00891012,
+        "market_cap_usd": 204544574
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -7.5,
+        "price_usd": 0.356116,
+        "market_cap_usd": 967264909
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64368,
+    "price_change_24h_pct": 2.0,
+    "price_change_7d_pct": 0.5,
+    "market_cap_usd": 1291956057707,
+    "volume_24h_usd": 21763048380,
+    "direction": "bullish",
+    "oi_usd": 6851969802.29,
+    "funding_rate_latest": 9.202e-05,
+    "funding_rate_7d_avg": 5.767285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5484,
+    "long_account_pct": 60.76,
+    "short_account_pct": 39.24,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1906.62,
+    "price_change_24h_pct": 1.1,
+    "price_change_7d_pct": 1.5,
+    "market_cap_usd": 230094545851,
+    "volume_24h_usd": 7004558048,
+    "eth_btc_ratio": 0.029621,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75811597636.27,
+    "stablecoin_market_cap_usd": 307479091136.33,
+    "stablecoin_dominance_pct": 13.4595
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - Reuters",
+        "summary": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
+        "published_at": "2026-08-17T20:18:05Z"
+      },
+      {
+        "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
+        "summary": "Wall Street indexes slip as oil prices rise, retail results awaited\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
+        "published_at": "2026-08-17T20:13:32Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
+        "summary": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
+        "published_at": "2026-08-17T20:09:10Z"
+      },
+      {
+        "headline": "Pictures of the Day | August 17, 2026 - Reuters",
+        "summary": "Pictures of the Day | August 17, 2026\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
+        "published_at": "2026-08-17T19:52:42Z"
+      },
+      {
+        "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
+        "summary": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
+        "published_at": "2026-08-17T19:43:52Z"
+      },
+      {
+        "headline": "US railroad Union Pacific turned charges meant to cover fuel cost spike from Iran war into profit - Reuters",
+        "summary": "US railroad Union Pacific turned charges meant to cover fuel cost spike from Iran war into profit\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTBtTmZiNU1ldVB5OEZrTGJ4QXp0M1BwVG90ZXVxa3FRN0F3NVRTTC1fNDA3SE51Q0FrcFhGLXVUU3VCN2U0SFBYZ0VOeHBISVJfZWRRdTVQOU1aRTkxMXVfQ0tQWFdFLTVZVXk4OWtBTHBPRERnN2NJRjk3c213T2c0QVh6QWRQU2s0MVQxZVJrQUc5d2E3aDd5ZTczWHQtaHQwVkRLSHVYVUhXaU1Hbm9pME02QjE2V2ZJdVBGbG83U3J0V0RkWg?oc=5",
+        "published_at": "2026-08-17T19:30:12Z"
+      },
+      {
+        "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
+        "summary": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+        "published_at": "2026-08-17T19:27:03Z"
+      },
+      {
+        "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
+        "summary": "Disney Experiences chief Thomas Mazloum is focused on balancing the needs of its most ardent parkgoers with its less frequent visitors.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
+        "published_at": "2026-08-17T18:50:36Z"
+      },
+      {
+        "headline": "Eli Lilly and J&J bounce on new data, as software stocks give up last week's gains",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/17/eli-lilly-and-jj-bounce-on-new-data-as-software-gives-up-gains.html",
+        "published_at": "2026-08-17T18:42:54Z"
+      },
+      {
+        "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - Reuters",
+        "summary": "FTSE 100 falls for sixth day in a row as consumer stocks weigh\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUR0RjdfMVp0QlRfby1EcmdQSzZvZ2hzT0xJZVdKUjF2QlRhS2p1WGU0dC1xalpqSVp0dV9HYURDTF9yNnVHLTRwZktnZlZXVjNsaWRwTGpIYWdkYUNjV2FaREZmbEpJeUcwZU4zaUVhQm4zQ3VrcDNrWjFxdHQwRXk4SzZwUU9yLWFpMUhrSlJTTFZvNUxOREc4OXY?oc=5",
+        "published_at": "2026-08-17T16:18:24Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.0649,
+    "dxy_lean": "bullish",
+    "spy_close": 772.66,
+    "spy_change_pct": -0.474,
+    "spy_lean": "neutral",
+    "vix_close": 14.25,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 64328.99,
+    "coinbase_premium_pct": -0.060605,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-17T21:13:41 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.01,
+        "change_pct": -0.0666,
+        "prev_close": 225.16
+      },
+      "AMD": {
+        "close": 506.0,
+        "change_pct": -1.6311,
+        "prev_close": 514.39
+      },
+      "TSM": {
+        "close": 430.97,
+        "change_pct": 1.0836,
+        "prev_close": 426.35
+      },
+      "SMCI": {
+        "close": 38.28,
+        "change_pct": -3.9157,
+        "prev_close": 39.84
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 729.87,
+        "change_pct": -0.1641,
+        "prev_close": 731.07
+      },
+      "SOXX": {
+        "close": 559.12,
+        "change_pct": 1.5806,
+        "prev_close": 550.42
+      }
+    },
+    "tech_sector_lean": "neutral"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64368,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 40,
+    "positive_count": 6,
+    "negative_count": 10,
+    "neutral_count": 24,
+    "sentiment_ratio": 0.15,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Tokenized equities triple market share as Ondo, Binance and xStocks dominate",
+        "url": "https://www.theblock.co/news/defi/2026-08-17-tokenized-equities-triple-market-share-ondo-binance-xstocks-dominate-411996",
+        "published_at": "2026-08-17T20:55:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury Proposes Rules Defining Who Can Legally Sell Stablecoins in US",
+        "url": "https://decrypt.co/375817/treasury-rules-sell-stablecoins-us",
+        "published_at": "2026-08-17T20:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI\u2019s Answer to Rogue Agents and Hacks Is More AI, Not Less",
+        "url": "https://decrypt.co/375816/openai-answer-rogue-agents-hacks-more-ai",
+        "published_at": "2026-08-17T19:59:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "IREN delivers first of four AI cloud deployments to Microsoft under $9.7 billion deal",
+        "url": "https://www.theblock.co/news/business/2026-08-17-iren-delivers-first-four-ai-cloud-deployments-microsoft-under-9-7-billion-deal-412016",
+        "published_at": "2026-08-17T19:54:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Price Holds to Near Two-Year Streak, But Charts Flash a Warning Sign",
+        "url": "https://decrypt.co/375794/xrp-price-two-year-streak-charts-flash-warning",
+        "published_at": "2026-08-17T19:01:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance to plan UK relaunch with FCA license application: Report",
+        "url": "https://cointelegraph.com/news/binance-uk-launch-plans-fca-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-17T18:45:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana\u2019s Pump Token Leads Crypto Market Gainers as Chart Paints Golden Cross",
+        "url": "https://decrypt.co/375788/solana-pump-price-crypto-market-golden-cross",
+        "published_at": "2026-08-17T18:29:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Developers Target Privacy Changes in Next Major Upgrade",
+        "url": "https://decrypt.co/375787/ethereum-developers-privacy-hegota-upgrade",
+        "published_at": "2026-08-17T18:19:46+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin production slips again in July for CleanSpark, BitFuFu and Canaan",
+        "url": "https://www.theblock.co/news/business/2026-08-17-bitcoin-production-slips-again-july-cleanspark-bitfufu-canaan-411985",
+        "published_at": "2026-08-17T17:13:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC seeks public input on AI compute futures contracts as CME eyes October launch",
+        "url": "https://cointelegraph.com/news/cftc-ai-compute-futures-cme-october-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-17T17:11:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "neutral",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
