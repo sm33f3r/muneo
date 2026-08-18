@@ -1,0 +1,437 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-18T21:11:47 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2288891482666.95,
+    "total_market_cap_change_24h_pct": 0.2126,
+    "total_volume_24h_usd": 46653301069.67,
+    "btc_dominance_pct": 56.6188,
+    "eth_dominance_pct": 10.0839,
+    "total2_usd": 992948231692.85,
+    "total3_usd": 762138175044.78,
+    "active_cryptocurrencies": 18476,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 20.2,
+        "price_usd": 0.00841062,
+        "market_cap_usd": 476285171
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 19.9,
+        "price_usd": 0.205586,
+        "market_cap_usd": 205559577
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.417078,
+        "market_cap_usd": 1131557128
+      },
+      {
+        "symbol": "GPS",
+        "name": "GoPlus Security",
+        "price_change_24h_pct": 12.0,
+        "price_usd": 0.01774612,
+        "market_cap_usd": 103585770
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": 10.2,
+        "price_usd": 0.671602,
+        "market_cap_usd": 283937451
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": -21.1,
+        "price_usd": 0.234909,
+        "market_cap_usd": 97704453
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -15.5,
+        "price_usd": 0.097094,
+        "market_cap_usd": 96051295
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -12.9,
+        "price_usd": 0.106073,
+        "market_cap_usd": 211299931
+      },
+      {
+        "symbol": "DCR",
+        "name": "Decred",
+        "price_change_24h_pct": -10.7,
+        "price_usd": 10.6,
+        "market_cap_usd": 186143739
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -9.0,
+        "price_usd": 0.00903493,
+        "market_cap_usd": 205989777
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64587,
+    "price_change_24h_pct": 0.5,
+    "price_change_7d_pct": 1.6,
+    "market_cap_usd": 1296297610572,
+    "volume_24h_usd": 18544481899,
+    "direction": "neutral",
+    "oi_usd": null,
+    "funding_rate_latest": 3.65e-05,
+    "funding_rate_7d_avg": 5.8286666666666665e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3535,
+    "long_account_pct": 57.51,
+    "short_account_pct": 42.49,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 1912.65,
+    "price_change_24h_pct": 0.4,
+    "price_change_7d_pct": 1.7,
+    "market_cap_usd": 230824998249,
+    "volume_24h_usd": 6077646336,
+    "eth_btc_ratio": 0.029614,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76271638278.54,
+    "stablecoin_market_cap_usd": 307422639561.56,
+    "stablecoin_dominance_pct": 13.4311
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 46,
+    "headlines": [
+      {
+        "headline": "Dollar range-bound as markets price dovish Fed response - Reuters",
+        "summary": "Dollar range-bound as markets price dovish Fed response\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
+        "published_at": "2026-08-18T20:24:26Z"
+      },
+      {
+        "headline": "UAE says two missiles detected earlier were launched from Iran - Reuters",
+        "summary": "UAE says two missiles detected earlier were launched from Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVFKQ0k0Vk10ckR0U1JfNHlsLW9nWUtrc09mMUx4UzFzRHJsVk4zYkJQT2NFNHVoVTRyYjE3OTJOcXVtcHFoWGRpQndUTXFnQjFKVGZQM1ZRTkpEeVVPZlF4ZXUydnRUckVmOHU2SEtXU000ZVFhVE8teGhQZFFPbnVFX3dBM1pNa0oxbnFoTmF2bUM3MjFj?oc=5",
+        "published_at": "2026-08-18T20:09:17Z"
+      },
+      {
+        "headline": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says - Reuters",
+        "summary": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlZuUXBialdJbERhTVMyN3NRUkxUY251V1g4c3RDS0EyUnNEVWhNcGVFTFNETFZRLTJFcUpWaEdwS0NuQ1FTck1mNURabzBNbnMtNV9RRDQzQ1d2RHlHUHFlNWdPUFlselFNSElSVmJ1ZklSUlUyaGdCbVEwMTE3YnlzMG0yUkQyNWJZSHpHVFgwZlhkTHlDaUxNMGlzQ1VVM01WaTRSVDNLZjJJT2Z3WkttVW5RZFM0R3h2M0tDSklkZGhoSkhJ?oc=5",
+        "published_at": "2026-08-18T19:42:10Z"
+      },
+      {
+        "headline": "Tech selloff pulls Wall Street to two-week lows as bond yields climb - Reuters",
+        "summary": "Tech selloff pulls Wall Street to two-week lows as bond yields climb\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
+        "published_at": "2026-08-18T18:58:42Z"
+      },
+      {
+        "headline": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
+        "summary": "Fixed income market watchers ascribe a run that began in June to a number of variables.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
+        "published_at": "2026-08-18T17:26:34Z"
+      },
+      {
+        "headline": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says - Reuters",
+        "summary": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?oc=5",
+        "published_at": "2026-08-18T16:23:47Z"
+      },
+      {
+        "headline": "Cyclospora is changing the American workplace lunch: 'We switched our marketing immediately,' says Saladworks CEO",
+        "summary": "Amid the country's ongoing cyclospora outbreak, salad-focused restaurants like Sweetgreen and Saladworks are shifting their marketing.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/18/cyclospora-outbreak-changing-american-workplace-salad-lunch.html",
+        "published_at": "2026-08-18T16:19:10Z"
+      },
+      {
+        "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
+        "summary": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+        "published_at": "2026-08-18T15:32:45Z"
+      },
+      {
+        "headline": "US housing market remains under pressure in July; factory output rises - Reuters",
+        "summary": "US housing market remains under pressure in July; factory output rises\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
+        "published_at": "2026-08-18T15:23:29Z"
+      },
+      {
+        "headline": "We're adding to our position in a stock that's been hurt by rekindled Middle East tensions",
+        "summary": "The stock has pulled back in recent weeks despite a series of positive updates.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/18/were-adding-to-our-position-in-a-stock-thats-been-hurt-by-rekindled-middle-east-tensions-.html",
+        "published_at": "2026-08-18T15:23:19Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 767.36,
+    "spy_change_pct": -0.6872,
+    "spy_lean": "bearish",
+    "vix_close": 15.19,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 64603.4,
+    "coinbase_premium_pct": 0.025392,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-18T21:11:47 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 219.74,
+        "change_pct": -2.3421,
+        "prev_close": 225.01
+      },
+      "AMD": {
+        "close": 484.39,
+        "change_pct": -4.2708,
+        "prev_close": 506.0
+      },
+      "TSM": {
+        "close": 413.41,
+        "change_pct": -4.0745,
+        "prev_close": 430.97
+      },
+      "SMCI": {
+        "close": 37.41,
+        "change_pct": -2.2727,
+        "prev_close": 38.28
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 717.51,
+        "change_pct": -1.6935,
+        "prev_close": 729.87
+      },
+      "SOXX": {
+        "close": 531.39,
+        "change_pct": -4.9596,
+        "prev_close": 559.12
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64587,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 41,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 51,
+    "positive_count": 11,
+    "negative_count": 4,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.2157,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
+        "url": "https://cointelegraph.com/news/interstice-falconx-cross-chain-swap-engine-canton-solana-ethereum-robinhood-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-18T20:45:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White House crypto adviser Patrick Witt says he is \u2018optimistic and bullish\u2019 on Clarity Act as stablecoin fight resurfaces",
+        "url": "https://www.theblock.co/news/regulation/2026-08-18-white-house-crypto-adviser-patrick-witt-optimistic-bullish-clarity-act-stablecoin-fight-412160",
+        "published_at": "2026-08-18T20:25:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-18T20:21:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Proposes Crypto Fundraising Exemptions in Abrupt About-Face",
+        "url": "https://decrypt.co/375902/sec-regulation-crypto-fundraising-exemptions",
+        "published_at": "2026-08-18T20:00:25+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple- and Coinbase-funded PAC spends $2M in Florida race with little mention of crypto",
+        "url": "https://cointelegraph.com/news/crypto-pac-ads-florida-congress-spending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-18T19:54:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple CLO says Sept. 15 will be a \u2018bellwether\u2019 for Clarity Act market structure bill",
+        "url": "https://www.theblock.co/news/regulation/2026-08-18-ripple-clo-september-15-bellwether-clarity-act-market-structure-bill-412142",
+        "published_at": "2026-08-18T19:49:12+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cypherpunk launches Zcash mining fleet controlling 18% of network hashrate",
+        "url": "https://cointelegraph.com/news/cypherpunk-zcash-mining-winklevoss-capital-zec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-18T19:31:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
+        "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145",
+        "published_at": "2026-08-18T19:23:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Markets Confident OpenAI Releases Its Next AI Model in Weeks",
+        "url": "https://decrypt.co/375892/openai-next-ai-model-gpt6-astra-prediction",
+        "published_at": "2026-08-18T19:15:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin correction may be nearing an end with 8 of 12 capitulation signals flashing, VanEck says",
+        "url": "https://www.theblock.co/news/markets/2026-08-18-bitcoin-correction-may-nearing-end-8-capitulation-signals-flashing-vaneck-412130",
+        "published_at": "2026-08-18T18:49:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Binance Futures BTC open interest \u2014 HTTP 418",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
