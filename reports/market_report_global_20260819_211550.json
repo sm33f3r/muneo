@@ -1,0 +1,437 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-19T21:14:51 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2472990988822.42,
+    "total_market_cap_change_24h_pct": 8.1026,
+    "total_volume_24h_usd": 93698812724.3,
+    "btc_dominance_pct": 56.6288,
+    "eth_dominance_pct": 11.1197,
+    "total2_usd": 1072565271447.38,
+    "total3_usd": 797576862848.8,
+    "active_cryptocurrencies": 18495,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": 19.8,
+        "price_usd": 70.44,
+        "market_cap_usd": 15684745335
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_change_24h_pct": 15.7,
+        "price_usd": 2271.93,
+        "market_cap_usd": 274286541614
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 14.3,
+        "price_usd": 0.242682,
+        "market_cap_usd": 242646584
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 13.7,
+        "price_usd": 2.73,
+        "market_cap_usd": 681659081
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": 13.7,
+        "price_usd": 0.00180701,
+        "market_cap_usd": 180745449
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -17.7,
+        "price_usd": 0.089241,
+        "market_cap_usd": 177651986
+      },
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -11.5,
+        "price_usd": 0.422644,
+        "market_cap_usd": 422106598
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -10.3,
+        "price_usd": 0.334269,
+        "market_cap_usd": 112204532
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -9.0,
+        "price_usd": 0.382014,
+        "market_cap_usd": 1035040685
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -7.4,
+        "price_usd": 0.02878502,
+        "market_cap_usd": 734736333
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 69304,
+    "price_change_24h_pct": 6.9,
+    "price_change_7d_pct": 9.1,
+    "market_cap_usd": 1391386650811,
+    "volume_24h_usd": 38803144751,
+    "direction": "bullish",
+    "oi_usd": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.365e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1478,
+    "long_account_pct": 53.44,
+    "short_account_pct": 46.56,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2251.66,
+    "price_change_24h_pct": 15.7,
+    "price_change_7d_pct": 17.8,
+    "market_cap_usd": 273082556330,
+    "volume_24h_usd": 20475262832,
+    "eth_btc_ratio": 0.03249,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 79918955736.56,
+    "stablecoin_market_cap_usd": 307644424841.81,
+    "stablecoin_dominance_pct": 12.4402
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 21,
+    "headlines": [
+      {
+        "headline": "US warns Siemens devices can be hacked amid fears Iran is breaching water plants - Reuters",
+        "summary": "US warns Siemens devices can be hacked amid fears Iran is breaching water plants\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWFBQNnUwclV2NHRhcFo3Yk5Bd1F6N1hrZzR2WTFsNUtFZWxPYXZGV2dEMmpJRG8tcDNnUGxpQkUtc0FXLWZvc2hhOWZxYll6OVQ3c1N6SHZSVndYLXI5SmtRb182RUdpeVctUVpES1I4amtHano3TnNzV2ZxTVBEZmh4aXpaOE03Z0NXYlg3SDk5a2d2VzBsLXRqVnBQRFVWMFdqR3Z1di1WMUo2ZmZuNlRHNHozbTNzdHhfLTZIQQ?oc=5",
+        "published_at": "2026-08-19T20:03:42Z"
+      },
+      {
+        "headline": "Wall St rises as yields ease, Moderna lifts healthcare stocks - Reuters",
+        "summary": "Wall St rises as yields ease, Moderna lifts healthcare stocks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNnFzX1pZYUZsd0lHWkM3SGVWNE9NRkFvRVdmQ1JIcVJMeXBKenVjQnJLVlFOTnpSVTU2VW95Y2ZUNUdaTnNqd0ItNGpUVktVMkFjR29JTExtc1NUV3lKYkw3MGRDWFozRmlJM0lIdW0xd3daMHZPTVVwZzV3d1ZZTGkybTBPYlZ6czhMVDNtY29pRE5SM2hvejNyZFFLUnRRSXMzTmhYTjBjTTBCejc5N1dxakdsSXBVSzZNRFV6cw?oc=5",
+        "published_at": "2026-08-19T20:01:14Z"
+      },
+      {
+        "headline": "Where we stand on Broadcom after Marvell muscles in on its key customer Google",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/where-we-stand-on-broadcom-as-shares-dip-on-googles-deal-with-marvell.html",
+        "published_at": "2026-08-19T18:58:48Z"
+      },
+      {
+        "headline": "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight - Reuters",
+        "summary": "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdzR1UDJHQ1pYM2Y2dzJ4Wmo3d3VCNFBEbDZQamtaSm5wdF9uWUdwRzdNa0ZtTFdzaUppUkdtelNyaDV0ZnU4aWY1aUlBLWhNdzN2VmhvZzJNdk8zM3gwSXZvc0p6Zld0UHhRQ0RjY2NTekZOekZnMEhwWlo1OXc2Mk1KZ0ZkZHF4WFR5NVRMejB2eDQxdXJJR0VocU5QVmRHbHFTZXlJNWRfdE43Sko3cXlYalB2VmFWSFczb044NlZEU21vOTNHOHpB?oc=5",
+        "published_at": "2026-08-19T18:57:09Z"
+      },
+      {
+        "headline": "A speakeasy inside a gas station is the hottest cocktail bar in a Minnesota town\u2014the business brought in almost $5 million in a year",
+        "summary": "Tony Donatell turned an empty storefront next to a gas station into a sophisticated speakeasy, The Farmer's Cellar. Inside, it's still the \"roaring twenties.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/this-gas-station-speakeasy-brought-in-almost-5-million-in-a-year.html",
+        "published_at": "2026-08-19T17:05:01Z"
+      },
+      {
+        "headline": "Jim Cramer says buy Target on any pullback as turnaround takes hold",
+        "summary": "Wall Street cheered improving financial metrics across the board in its latest earnings results.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/jim-cramer-says-buy-target-on-any-pullback-as-turnaround-takes-hold.html",
+        "published_at": "2026-08-19T15:57:17Z"
+      },
+      {
+        "headline": "Wall Street analysts just called this healthcare stock a buy \u2014 here\u2019s our take",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/wall-street-analysts-just-called-this-healthcare-stock-a-buy-heres-our-take.html",
+        "published_at": "2026-08-19T15:39:52Z"
+      },
+      {
+        "headline": "We're booking a five-fold profit on one of drug stock's rally to record highs",
+        "summary": "This trim doesn't reflect any change in our positive long-term view.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/were-booking-a-five-fold-profit-on-one-of-drug-stocks-rally-to-record-highs.html",
+        "published_at": "2026-08-19T15:14:45Z"
+      },
+      {
+        "headline": "Hedge funds are about to jump into prediction markets in a big way",
+        "summary": "Cantor Fitzgerald will be one of the first investment firms providing its clients institutional trading on prediction market platform Kalshi.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/19/hedge-funds-are-about-to-jump-in-big-to-prediction-markets.html",
+        "published_at": "2026-08-19T13:38:44Z"
+      },
+      {
+        "headline": "UAE stocks fall after missile scare; Qatar at over one-year low - Reuters",
+        "summary": "UAE stocks fall after missile scare; Qatar at over one-year low\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFBZeTZITFl5NWRzUU9DUDZZZVM4ck5NQnY2bFdpZDRHUW9ZNGZRRHdSSjdpM3NUWlFSbnR1Rkl6ajFnbW51bktTY2VqWWdNeURtOVZXS1ZzOVNFRTE3dG5JdV9TbW0tTkh2VnRxblBiZmZRWmlueDQ1d3BFNVluSGExd1hVNS1JNjdUQmt0TG9WZ2s?oc=5",
+        "published_at": "2026-08-19T13:16:33Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 769.1,
+    "spy_change_pct": 0.215,
+    "spy_lean": "neutral",
+    "vix_close": 15.84,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 69455.49,
+    "coinbase_premium_pct": 0.218588,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-19T21:14:51 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.56,
+        "change_pct": -0.9921,
+        "prev_close": 219.74
+      },
+      "AMD": {
+        "close": 466.42,
+        "change_pct": -3.7098,
+        "prev_close": 484.39
+      },
+      "TSM": {
+        "close": 412.09,
+        "change_pct": -0.3193,
+        "prev_close": 413.41
+      },
+      "SMCI": {
+        "close": 36.58,
+        "change_pct": -2.2187,
+        "prev_close": 37.41
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.08,
+        "change_pct": -0.1993,
+        "prev_close": 717.51
+      },
+      "SOXX": {
+        "close": 519.67,
+        "change_pct": -2.2055,
+        "prev_close": 531.39
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 69304,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 51,
+    "positive_count": 12,
+    "negative_count": 9,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.2353,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin.com integrates UAE-registered US dollar stablecoin into self-custodial wallet",
+        "url": "https://cointelegraph.com/news/bitcoincom-integrates-uae-registered-usdu-stablecoin-into-self-custodial-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-19T20:33:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "HYPE token surges after Trump says CFTC is working to bring Hyperliquid to US in \u2018fully compliant fashion\u2019",
+        "url": "https://www.theblock.co/news/regulation/2026-08-19-hype-token-surges-trump-says-cftc-bring-hyperliquid-us-fully-compliant-fashion-412262",
+        "published_at": "2026-08-19T20:29:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Calls on Congress to Pass 'Fair Version' of Clarity Act at White House Crypto Meeting",
+        "url": "https://decrypt.co/376006/trump-pass-fair-version-clarity-white-house-crypto-meeting",
+        "published_at": "2026-08-19T19:56:45+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump pushes for CLARITY Act passage alongside crypto leaders",
+        "url": "https://cointelegraph.com/news/donald-trump-clarity-act-passage-crypto-leaders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-19T19:54:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
+        "url": "https://decrypt.co/375990/crypto-stocks-rip-strategy-coinbase-bitcoin",
+        "published_at": "2026-08-19T19:51:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-19T19:50:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi Pushes Beyond Prediction Markets With Copper Perpetual Futures",
+        "url": "https://decrypt.co/375987/kalshi-copper-perpetual-futures",
+        "published_at": "2026-08-19T19:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin hits $69,000, ether jumps 10% as Treasury buybacks, SEC crypto proposal fuel market rally",
+        "url": "https://www.theblock.co/news/markets/2026-08-19-bitcoin-69000-ether-jumps-treasury-buybacks-sec-crypto-proposal-fuel-market-rally-412248",
+        "published_at": "2026-08-19T19:05:42+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC notches primary wins, but loses $2M Florida race",
+        "url": "https://cointelegraph.com/news/crypto-pac-wins-primaries-loses-florida-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-19T18:48:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
+        "url": "https://decrypt.co/375976/maya-protocol-halts-network-bitcoin-exploit",
+        "published_at": "2026-08-19T18:20:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Binance Futures BTC open interest \u2014 HTTP 418",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
