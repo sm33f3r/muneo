@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-20T21:11:12 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2478528599331.24,
+    "total_market_cap_change_24h_pct": 1.7066,
+    "total_volume_24h_usd": 141571223450.91,
+    "btc_dominance_pct": 58.6621,
+    "eth_dominance_pct": 11.2538,
+    "total2_usd": 1024572282674.01,
+    "total3_usd": 745643470357.29,
+    "active_cryptocurrencies": 18512,
+    "altcoin_season_index": 17,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 23.6,
+        "price_usd": 0.112471,
+        "market_cap_usd": 1103443013
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 23.6,
+        "price_usd": 0.126542,
+        "market_cap_usd": 125139455
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 18.6,
+        "price_usd": 0.00372544,
+        "market_cap_usd": 1451817954
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price_change_24h_pct": 17.8,
+        "price_usd": 3.21e-06,
+        "market_cap_usd": 1347571187
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": 17.8,
+        "price_usd": 0.00183685,
+        "market_cap_usd": 181114702
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -8.4,
+        "price_usd": 0.079806,
+        "market_cap_usd": 158871527
+      },
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": -7.5,
+        "price_usd": 61.91,
+        "market_cap_usd": 230414352
+      },
+      {
+        "symbol": "GENIUS",
+        "name": "Genius",
+        "price_change_24h_pct": -6.0,
+        "price_usd": 0.310656,
+        "market_cap_usd": 104184547
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -5.2,
+        "price_usd": 0.115178,
+        "market_cap_usd": 287966113
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": -4.6,
+        "price_usd": 7.9,
+        "market_cap_usd": 121747782
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 72556,
+    "price_change_24h_pct": 6.2,
+    "price_change_7d_pct": 14.7,
+    "market_cap_usd": 1456850767880,
+    "volume_24h_usd": 57940653112,
+    "direction": "bullish",
+    "oi_usd": 7798585523.3,
+    "funding_rate_latest": 9.422e-05,
+    "funding_rate_7d_avg": 5.7193809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9612,
+    "long_account_pct": 49.01,
+    "short_account_pct": 50.99,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2316.3,
+    "price_change_24h_pct": 10.1,
+    "price_change_7d_pct": 23.0,
+    "market_cap_usd": 279491304807,
+    "volume_24h_usd": 29353414558,
+    "eth_btc_ratio": 0.031924,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84032416884.29,
+    "stablecoin_market_cap_usd": 5.1835247261228984e+16,
+    "stablecoin_dominance_pct": 2091371.7629
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 29,
+    "headlines": [
+      {
+        "headline": "The Los Angeles Lakers sold for $12.5 billion. Here\u2019s what every NBA team is now worth",
+        "summary": "The pending $12.5 billion Lakers sale would lift CNBC\u2019s average NBA team valuation 21% to $6.68 billion, with the Warriors still No. 1.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
+        "published_at": "2026-08-20T20:28:21Z"
+      },
+      {
+        "headline": "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
+        "summary": "The previously undisclosed capacity increase is part of Hyundai's plan to invest $26 billion in the U.S. through 2028.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
+        "published_at": "2026-08-20T19:59:52Z"
+      },
+      {
+        "headline": "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government - Reuters",
+        "summary": "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?oc=5",
+        "published_at": "2026-08-20T18:20:15Z"
+      },
+      {
+        "headline": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate - Reuters",
+        "summary": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5",
+        "published_at": "2026-08-20T18:04:43Z"
+      },
+      {
+        "headline": "We're adding two new stocks to our Bullpen watchlist",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/were-adding-two-new-stocks-to-our-bullpen-watchlist.html",
+        "published_at": "2026-08-20T17:59:15Z"
+      },
+      {
+        "headline": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say - Reuters",
+        "summary": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHNxUXpMLWp6eDNUendUcVlMS01NTnk0eVNqN1FlYnBwdlgwMElUTXlfR3paamtTNFhBXzJULXlfUDBkaHFuU3poamlYVHhBMGdEQ3ZiWTdtR2dpQng4aE1CMERFWFVGLXBtSTFLY2VpODJKN3paamJSUDV5U1JYUHZIVGNILWJiZzluejV5Vy12dURhVmRfVjdLVTFETXMyRE9hUG1Da2JUcGhISGM4clB0LV9CbXVfeVBlamhRNTA5cjQ1d1hpWA?oc=5",
+        "published_at": "2026-08-20T16:53:58Z"
+      },
+      {
+        "headline": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work",
+        "summary": "AI has changed jobs and businesses, but it's also creating bottlenecks, confusion and downright awkward encounters for humans in the workplace.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/gatekeeping-bots-piles-of-slop-welcome-to-the-age-of-ai-weirdness-at-work.html",
+        "published_at": "2026-08-20T16:30:01Z"
+      },
+      {
+        "headline": "U.S. sports fans spend about $2,000 a year on their favorite teams\u2014many find themselves in debt as a result",
+        "summary": "As football season approaches, many Americans are planning to take on debt to pay for tickets, memorabilia, parlays and more.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/americans-debt-sports-fans.html",
+        "published_at": "2026-08-20T16:15:01Z"
+      },
+      {
+        "headline": "Trump threatens to isolate Iran. Who are its trading partners? - Reuters",
+        "summary": "Trump threatens to isolate Iran. Who are its trading partners?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTliUERTQVlVWVpERU5Zd3V1dXdSY2JuZExLUjMtUkMxWXVoZFJzLUx1aTFITDQwdWY5RS1pR3pDNDVWMGlFS0t6cE9DQmYwNWRDeWViME50enF1X1RZWjNVYmF2ME9obUp6TTNLcG01ekdLS1liNUhmeDdmU1hYVnVpR21vTzlDYUJKY3EzYkItZThBZE9kYS1EV3FfYkx4MXZUVFloa2FYWG5jUVE?oc=5",
+        "published_at": "2026-08-20T15:54:22Z"
+      },
+      {
+        "headline": "Arctos agrees to buy 10% of Atlanta Falcons at $10.6 billion valuation, sources say",
+        "summary": "Private equity firm Arctos has agreed to buy 10% of the Atlanta Falcons in a deal valued at $10.6 billion, two sources told CNBC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/20/arctos-agrees-to-buy-10percent-of-atlanta-falcons-at-10point6-billion-valuation-sources.html",
+        "published_at": "2026-08-20T15:08:28Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 762.78,
+    "spy_change_pct": -0.8166,
+    "spy_lean": "bearish",
+    "vix_close": 14.89,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 72630.21,
+    "coinbase_premium_pct": 0.10228,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-20T21:11:12 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 216.85,
+        "change_pct": -0.3263,
+        "prev_close": 217.56
+      },
+      "AMD": {
+        "close": 469.455,
+        "change_pct": 0.6507,
+        "prev_close": 466.42
+      },
+      "TSM": {
+        "close": 416.0,
+        "change_pct": 0.9488,
+        "prev_close": 412.09
+      },
+      "SMCI": {
+        "close": 36.5,
+        "change_pct": -0.2187,
+        "prev_close": 36.58
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 710.93,
+        "change_pct": -0.7192,
+        "prev_close": 716.08
+      },
+      "SOXX": {
+        "close": 522.35,
+        "change_pct": 0.5157,
+        "prev_close": 519.67
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 72556,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 63,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 45,
+    "positive_count": 11,
+    "negative_count": 9,
+    "neutral_count": 25,
+    "sentiment_ratio": 0.2444,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin breaks above 200-day moving average for first time since November",
+        "url": "https://cointelegraph.com/markets/bitcoin-breaks-200-day-moving-average?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-20T21:03:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC chair says agency will move forward on crypto regulation if CLARITY fails",
+        "url": "https://cointelegraph.com/news/cftc-chair-crypto-regulation-without-clarity-act-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-20T20:56:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken parent Payward explores becoming a \u2018full bank\u2019 outside the US",
+        "url": "https://www.theblock.co/news/business/2026-08-20-kraken-parent-payward-explores-becoming-a-full-bank-outside-us-412390",
+        "published_at": "2026-08-20T20:41:44+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What's Next for Bitcoin After Historic Rally? Experts Weigh In",
+        "url": "https://decrypt.co/376155/what-next-for-bitcoin-price-experts-weigh-in",
+        "published_at": "2026-08-20T20:40:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance opens crypto trading to AI agents with user-set controls",
+        "url": "https://cointelegraph.com/news/binance-opens-crypto-trading-to-ai-agents-with-user-set-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-20T20:26:28+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-20T19:50:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Is Pumping But Prediction Market Traders Aren't Convinced",
+        "url": "https://decrypt.co/376103/bitcoin-price-pumping-prediction-next-move",
+        "published_at": "2026-08-20T19:16:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Chair Readies Crypto Rules If Congress Fails to Pass Clarity Act",
+        "url": "https://decrypt.co/376151/cftc-chair-crypto-rules-if-congress-fails-clarity-act",
+        "published_at": "2026-08-20T18:44:08+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Alibaba's Revenue Jumps 9% as AI Cloud Growth Hits 45%\u2014But a Profit Plunge Sends Shares Lower",
+        "url": "https://decrypt.co/376143/alibaba-revenue-jumps-ai-cloud-growth",
+        "published_at": "2026-08-20T18:32:25+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ondo executive says tokenization is following the same path as early ETFs",
+        "url": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
+        "published_at": "2026-08-20T17:53:38+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
