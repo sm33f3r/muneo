@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-21T21:28:07 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.827334,
+    "price_change_24h_pct": 13.1786,
+    "price_change_7d_pct": 22.0911,
+    "volume_24h_usd": 859045829,
+    "market_cap_usd": 3369976146,
+    "volume_to_mcap_ratio": 0.254912,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -84.5259,
+    "cex_price_usd": 0.8295,
+    "cex_24h_high": 0.83,
+    "cex_24h_low": 0.7271,
+    "cex_dex_spread_pct": 0.261805,
+    "volume_on_up_days_usd": 139558754.29728004,
+    "volume_on_down_days_usd": 162709656.15500084,
+    "volume_lean": "bearish"
+  },
+  "technical_indicators": {
+    "rsi_14": 35.6765,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.083894,
+      "signal_line": -0.092974,
+      "histogram": 0.009079
+    },
+    "macd_lean": "bullish",
+    "sma_50": 0.878545,
+    "price_vs_sma50_pct": -5.8291,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 0.809206,
+      "mid": 0.721287,
+      "lower": 0.633367,
+      "width_pct": 24.3784,
+      "position": 0.1027
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 100614153.34,
+    "oi_lean": null,
+    "funding_rate_latest": 0.00012107,
+    "funding_rate_7d_avg": 3.828285714285714e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.0255,
+    "btc_long_account_pct": 50.63,
+    "btc_short_account_pct": 49.37,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 463056804.0,
+    "tvl_7d_change_pct": 14.7474,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 182847.14,
+    "chain_fees_7d_avg_usd": 108999.25,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Binance To Remove Seven Spot Trading Pairs Including SUI And LTC Markets",
+        "url": "https://bitcoinist.com/binance-to-remove-seven-spot-trading-pairs-including-sui-and-ltc-markets/",
+        "published_at": "2026-08-21T06:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 77979.0,
+    "btc_24h_change_pct": 6.6,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 59.6759,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2622318038471.1846,
+    "eth_btc_ratio": 0.031882,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 765.62,
+    "spy_change_pct": 0.396,
+    "spy_lean": "neutral",
+    "vix_close": 16.01,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 90.7,
+    "cg_sentiment_votes_down_pct": 9.3,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": 12286,
+    "cg_github_stars": 5403,
+    "cg_github_commits_4w": 219,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "bearish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
