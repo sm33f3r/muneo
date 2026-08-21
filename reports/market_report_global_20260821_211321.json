@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-21T21:12:24 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2619603907325.94,
+    "total_market_cap_change_24h_pct": 2.9393,
+    "total_volume_24h_usd": 159887090611.18,
+    "btc_dominance_pct": 59.1984,
+    "eth_dominance_pct": 11.2127,
+    "total2_usd": 1068839562921.35,
+    "total3_usd": 775112025743.98,
+    "active_cryptocurrencies": 18610,
+    "altcoin_season_index": 23,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GALA",
+        "name": "GALA",
+        "price_change_24h_pct": 42.1,
+        "price_usd": 0.00221667,
+        "market_cap_usd": 109711564
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": 30.4,
+        "price_usd": 286.45,
+        "market_cap_usd": 5750757287
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 30.3,
+        "price_usd": 0.141652,
+        "market_cap_usd": 1390967778
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 28.8,
+        "price_usd": 0.179466,
+        "market_cap_usd": 334081599
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 24.1,
+        "price_usd": 715.43,
+        "market_cap_usd": 12082928238
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -6.5,
+        "price_usd": 0.077605,
+        "market_cap_usd": 154672310
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -4.5,
+        "price_usd": 0.00804998,
+        "market_cap_usd": 456766046
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -4.5,
+        "price_usd": 0.00830202,
+        "market_cap_usd": 189316196
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -4.0,
+        "price_usd": 1.12,
+        "market_cap_usd": 2546096276
+      },
+      {
+        "symbol": "MNT",
+        "name": "Mantle",
+        "price_change_24h_pct": -2.4,
+        "price_usd": 0.504148,
+        "market_cap_usd": 1664790208
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77510,
+    "price_change_24h_pct": 6.6,
+    "price_change_7d_pct": 23.1,
+    "market_cap_usd": 1555331283706,
+    "volume_24h_usd": 68357764045,
+    "direction": "bullish",
+    "oi_usd": 8211815319.87,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.986285714285714e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0255,
+    "long_account_pct": 50.63,
+    "short_account_pct": 49.37,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2438.62,
+    "price_change_24h_pct": 5.0,
+    "price_change_7d_pct": 29.9,
+    "market_cap_usd": 294228781717,
+    "volume_24h_usd": 26622711187,
+    "eth_btc_ratio": 0.031462,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86607994212.95,
+    "stablecoin_market_cap_usd": 307769070000.38,
+    "stablecoin_dominance_pct": 11.7487
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
+        "summary": "Wall St rises on the day but falls for the week; bond yields and Iran in focus\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
+        "published_at": "2026-08-21T20:44:46Z"
+      },
+      {
+        "headline": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
+        "summary": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
+        "published_at": "2026-08-21T19:21:21Z"
+      },
+      {
+        "headline": "An overlooked AI winner names a new CFO \u2014 plus, Nvidia's key earnings loom",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
+        "published_at": "2026-08-21T18:55:05Z"
+      },
+      {
+        "headline": "Jim Cramer looks at why our AI data center stocks are among the worst of the week",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/cramer-on-why-our-ai-data-center-stocks-are-among-the-worst-of-the-week.html",
+        "published_at": "2026-08-21T17:38:13Z"
+      },
+      {
+        "headline": "This sleepy sector could offer big returns, says Mike Khouw",
+        "summary": "The options market rarely gives you a gift, but it might be doing that right now.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/this-sleepy-sector-could-offer-big-returns-says-mike-khouw.html",
+        "published_at": "2026-08-21T17:31:40Z"
+      },
+      {
+        "headline": "NATO members discuss Strait of Hormuz options without alliance involvement - Reuters",
+        "summary": "NATO members discuss Strait of Hormuz options without alliance involvement\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
+        "published_at": "2026-08-21T16:51:52Z"
+      },
+      {
+        "headline": "Turkey to seek Interpol notice for Netanyahu in Gaza flotilla case - Reuters",
+        "summary": "Turkey to seek Interpol notice for Netanyahu in Gaza flotilla case\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUoyZkFhckp4LWRTcFQ5azZpNDRPZjdVNGNnUVBocG9kRkN4Yk5aSHZTczg0cWhudS1FRk1EbGhGemliM1VqZWVQMUphTkk4VmhyTVAzU2tOSVZ2WExhS0ExQnB6UlpDTmZ0UWJiU3ZpRFp6N2RjZkdsVTlJb2QzMmdfVXd5RlMyOXhSZ1ZRMkkzNDA4WFplS1ppeFg0QmNlUnNLM1M4OHlKam5VMnJF?oc=5",
+        "published_at": "2026-08-21T16:33:37Z"
+      },
+      {
+        "headline": "Iran says Tehran must overcome 'unjust sanctions' as US ramps up economic pressure - Reuters",
+        "summary": "Iran says Tehran must overcome 'unjust sanctions' as US ramps up economic pressure\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
+        "published_at": "2026-08-21T15:18:19Z"
+      },
+      {
+        "headline": "Ken Griffin says Citadel unwound more than 80% of risk tied to Situational Awareness portfolio",
+        "summary": "In a letter to clients, Griffin addressed the firm's purchase of assets from Situational Awareness for the first time.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
+        "published_at": "2026-08-21T15:08:00Z"
+      },
+      {
+        "headline": "Here are the top 10 things we're watching in the stock market Friday",
+        "summary": "Stocks are set for a higher open Friday following a nasty rate-driven pullback on Thursday",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/21/here-are-the-top-10-things-were-watching-in-the-stock-market-friday.html",
+        "published_at": "2026-08-21T12:59:36Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 765.62,
+    "spy_change_pct": 0.396,
+    "spy_lean": "neutral",
+    "vix_close": 16.01,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77622.4,
+    "coinbase_premium_pct": 0.145014,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-21T21:12:24 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.72,
+        "change_pct": -0.9822,
+        "prev_close": 216.85
+      },
+      "AMD": {
+        "close": 473.25,
+        "change_pct": 0.8084,
+        "prev_close": 469.455
+      },
+      "TSM": {
+        "close": 418.95,
+        "change_pct": 0.7091,
+        "prev_close": 416.0
+      },
+      "SMCI": {
+        "close": 37.24,
+        "change_pct": 2.0274,
+        "prev_close": 36.5
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 713.44,
+        "change_pct": 0.3531,
+        "prev_close": 710.93
+      },
+      "SOXX": {
+        "close": 520.05,
+        "change_pct": -0.4403,
+        "prev_close": 522.35
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77510,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 50,
+    "positive_count": 19,
+    "negative_count": 4,
+    "neutral_count": 27,
+    "sentiment_ratio": 0.38,
+    "news_volume_lean": "neutral",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-21T20:48:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
+        "url": "https://cointelegraph.com/markets/bitget-ceo-sees-bitcoin-near-current-levels-at-year-end-doubts-us-will-buy-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-21T20:26:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
+        "url": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
+        "published_at": "2026-08-21T20:07:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ray Dalio says to buy \u2018a bit\u2019 of Bitcoin amid potential debt crisis",
+        "url": "https://cointelegraph.com/news/ray-dalio-buy-bitcoin-debt-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-21T20:00:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Onchain, in court: What happened in crypto legal news this week",
+        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-21T19:19:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin seeks support near $77K as BTC, gold near 100-day highs",
+        "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-near-77k-btc-gold-100-day-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-21T19:10:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Just Got Faster\u2014Is It Bullish for SOL?",
+        "url": "https://decrypt.co/376245/solana-faster-bullish-sol-price",
+        "published_at": "2026-08-21T18:45:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings",
+        "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
+        "published_at": "2026-08-21T18:06:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
+        "url": "https://decrypt.co/376230/strategy-profit-bitcoin-holdings-btc-rallies",
+        "published_at": "2026-08-21T17:28:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
+        "published_at": "2026-08-21T17:28:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
