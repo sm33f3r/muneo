@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-22T21:10:03 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2621585652796.95,
+    "total_market_cap_change_24h_pct": -2.3087,
+    "total_volume_24h_usd": 136615703242.77,
+    "btc_dominance_pct": 58.7803,
+    "eth_dominance_pct": 11.1065,
+    "total2_usd": 1080608598971.86,
+    "total3_usd": 789441342394.72,
+    "active_cryptocurrencies": 18618,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": 39.4,
+        "price_usd": 2.45,
+        "market_cap_usd": 607694245
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 30.4,
+        "price_usd": 0.221157,
+        "market_cap_usd": 411762252
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 28.5,
+        "price_usd": 0.00495207,
+        "market_cap_usd": 1931858990
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": 23.3,
+        "price_usd": 41.34,
+        "market_cap_usd": 529732682
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": 21.2,
+        "price_usd": 819.54,
+        "market_cap_usd": 13837850305
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": -23.6,
+        "price_usd": 48.16,
+        "market_cap_usd": 179258440
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -14.8,
+        "price_usd": 0.938828,
+        "market_cap_usd": 257979389
+      },
+      {
+        "symbol": "VELVET",
+        "name": "Velvet",
+        "price_change_24h_pct": -9.7,
+        "price_usd": 0.701387,
+        "market_cap_usd": 325349375
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -8.3,
+        "price_usd": 0.442248,
+        "market_cap_usd": 1197709823
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -8.1,
+        "price_usd": 0.143336,
+        "market_cap_usd": 143329554
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77113,
+    "price_change_24h_pct": 0.3,
+    "price_change_7d_pct": 22.6,
+    "market_cap_usd": 1547759639806,
+    "volume_24h_usd": 39860483681,
+    "direction": "neutral",
+    "oi_usd": 8174129295.71,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.527476190476191e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0084,
+    "long_account_pct": 50.21,
+    "short_account_pct": 49.79,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2421.92,
+    "price_change_24h_pct": 0.7,
+    "price_change_7d_pct": 29.2,
+    "market_cap_usd": 292172985022,
+    "volume_24h_usd": 23859632772,
+    "eth_btc_ratio": 0.031407,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89245713473.29,
+    "stablecoin_market_cap_usd": 309485251264.79,
+    "stablecoin_dominance_pct": 11.8053
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 13,
+    "headlines": [
+      {
+        "headline": "Israel strikes southern Syria; Damascus condemns attack - Reuters",
+        "summary": "Israel strikes southern Syria; Damascus condemns attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
+        "published_at": "2026-08-22T18:51:50Z"
+      },
+      {
+        "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
+        "summary": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
+        "published_at": "2026-08-22T15:45:37Z"
+      },
+      {
+        "headline": "Airbnb's new fee change frustrates hosts\u2014what to know before renting out your home",
+        "summary": "A new Airbnb fee change is one of many costs and considerations that can affect whether running a short-term rental makes money.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/22/airbnb-fee-change-frustrates-hosts-what-to-know-before-listing.html",
+        "published_at": "2026-08-22T14:00:01Z"
+      },
+      {
+        "headline": "38-year-old runs a mobile pizzeria out of his Smart car in New York City: It's 'like a circus or a magic act'",
+        "summary": "\"Pizza Pod started with a pretty ridiculous idea: What if I could turn a tiny Smart car into a mobile pizzeria?\" says founder Bradley Alvelo.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/22/bradley-alvelo-runs-pizza-pod-mobile-pizzeria-smart-car-new-york-city.html",
+        "published_at": "2026-08-22T14:00:01Z"
+      },
+      {
+        "headline": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
+        "summary": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+        "published_at": "2026-08-22T13:57:48Z"
+      },
+      {
+        "headline": "How a physician with a 1 a.m. bedtime optimizes his health: I try to 'tick all the longevity boxes that I can'",
+        "summary": "Dr. Ronald Primas, a longevity physician, offers concierge services like developing personalized health plans for clients. Here are his own wellness practices.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/22/longevity-doctor-daily-habits-healthy-aging.html",
+        "published_at": "2026-08-22T13:05:01Z"
+      },
+      {
+        "headline": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz - Reuters",
+        "summary": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
+        "published_at": "2026-08-22T12:21:29Z"
+      },
+      {
+        "headline": "For young Americans, the workplace is the new phoneless frontier. 'It allows us to hyper focus on the task at hand,' says employer",
+        "summary": "Schools and increasingly teen employers are drawing a hard line against phone use. The benefits for teens can be profound.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
+        "published_at": "2026-08-22T12:00:01Z"
+      },
+      {
+        "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
+        "summary": "Trump heads into midterms short on foreign policy wins\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
+        "published_at": "2026-08-22T05:04:00Z"
+      },
+      {
+        "headline": "Iran condemns US plans to announce new sanctions - Reuters",
+        "summary": "Iran condemns US plans to announce new sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
+        "published_at": "2026-08-22T01:05:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 765.72,
+    "spy_change_pct": 0.4091,
+    "spy_lean": "neutral",
+    "vix_close": 16.01,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77144.62,
+    "coinbase_premium_pct": 0.041005,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-22T21:10:03 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.72,
+        "change_pct": -0.9822,
+        "prev_close": 216.85
+      },
+      "AMD": {
+        "close": 473.25,
+        "change_pct": 0.8084,
+        "prev_close": 469.455
+      },
+      "TSM": {
+        "close": 418.95,
+        "change_pct": 0.7091,
+        "prev_close": 416.0
+      },
+      "SMCI": {
+        "close": 37.24,
+        "change_pct": 2.0274,
+        "prev_close": 36.5
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 713.44,
+        "change_pct": 0.3531,
+        "prev_close": 710.93
+      },
+      "SOXX": {
+        "close": 520.05,
+        "change_pct": -0.4403,
+        "prev_close": 522.35
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77113,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 76,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 17,
+    "positive_count": 3,
+    "negative_count": 3,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.1765,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
+        "url": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
+        "published_at": "2026-08-22T19:31:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash hits eight-year high near $850 with futures volume near $10 billion amid Grayscale ETF push",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
+        "published_at": "2026-08-22T17:35:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
+        "url": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code",
+        "published_at": "2026-08-22T17:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana cuts mainnet slot time to 350 milliseconds in first step toward 200ms goal",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521",
+        "published_at": "2026-08-22T15:54:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Has Made Bitcoin Software a Target\u2014This Group Is Fighting Back",
+        "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
+        "published_at": "2026-08-22T15:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
+        "url": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
+        "published_at": "2026-08-22T13:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+        "url": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-22T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "TON Validators Prepare Node Update Ahead Of Collator Vote",
+        "url": "https://bitcoinist.com/ton-validators-node-update-collator-vote/",
+        "published_at": "2026-08-22T09:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Avalanche Tokenized Asset Value Crosses $3B As RWA Push Grows",
+        "url": "https://bitcoinist.com/avalanche-tokenized-asset-value-3b-rwa/",
+        "published_at": "2026-08-22T08:15:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave Debt Concentration Raises Risk Questions After Ethereum Volatility",
+        "url": "https://bitcoinist.com/aave-debt-concentration-risk-ethereum-volatility/",
+        "published_at": "2026-08-22T07:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
