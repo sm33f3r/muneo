@@ -1,0 +1,363 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-23T21:10:49 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2628420922200.53,
+    "total_market_cap_change_24h_pct": -2.4996,
+    "total_volume_24h_usd": 85371539736.47,
+    "btc_dominance_pct": 59.1302,
+    "eth_dominance_pct": 11.2764,
+    "total2_usd": 1074229107668.85,
+    "total3_usd": 777836841654.97,
+    "active_cryptocurrencies": 18639,
+    "altcoin_season_index": 34,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price_change_24h_pct": 20.1,
+        "price_usd": 2.72,
+        "market_cap_usd": 1788597229
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.01027443,
+        "market_cap_usd": 646678981
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 17.0,
+        "price_usd": 0.357365,
+        "market_cap_usd": 234029693
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 16.3,
+        "price_usd": 0.370799,
+        "market_cap_usd": 164740327
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 14.6,
+        "price_usd": 0.128595,
+        "market_cap_usd": 128558501
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -6.0,
+        "price_usd": 0.181281,
+        "market_cap_usd": 181258357
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -4.2,
+        "price_usd": 16.77,
+        "market_cap_usd": 796639158
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": -4.2,
+        "price_usd": 0.0018761,
+        "market_cap_usd": 187670418
+      },
+      {
+        "symbol": "TEL",
+        "name": "Telcoin",
+        "price_change_24h_pct": -4.2,
+        "price_usd": 0.00178155,
+        "market_cap_usd": 175633431
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -4.0,
+        "price_usd": 0.139023,
+        "market_cap_usd": 139032366
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77626,
+    "price_change_24h_pct": 0.0,
+    "price_change_7d_pct": 22.7,
+    "market_cap_usd": 1558069227314,
+    "volume_24h_usd": 28167981006,
+    "direction": "neutral",
+    "oi_usd": 8211201973.64,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 7.584380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0416,
+    "long_account_pct": 51.02,
+    "short_account_pct": 48.98,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2462.34,
+    "price_change_24h_pct": 0.5,
+    "price_change_7d_pct": 30.0,
+    "market_cap_usd": 297122250652,
+    "volume_24h_usd": 15453898920,
+    "eth_btc_ratio": 0.031721,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 91908017612.36,
+    "stablecoin_market_cap_usd": 309161672276.85,
+    "stablecoin_dominance_pct": 11.7623
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 9,
+    "headlines": [
+      {
+        "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
+        "summary": "Iran says new sanctions threatened by 'desperate' US will fail\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
+        "published_at": "2026-08-23T18:16:16Z"
+      },
+      {
+        "headline": "Democratic House leader Jeffries meets with Jared Kushner as midterms loom",
+        "summary": "Democrats are currently favored to win a majority in the House of Representatives after November's elections.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/23/democratic-leader-jeffries-meets-with-jared-kushner-as-midterms-loom.html",
+        "published_at": "2026-08-23T17:58:06Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in the stock market this week",
+        "summary": "Nvidia reports earnings, and Fed Chairman Kevin Warsh is set to deliver his first Jackson Hole speech.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-08-23T16:56:02Z"
+      },
+      {
+        "headline": "Iran says it discovered over 7.5 trillion cubic feet of gas - Reuters",
+        "summary": "Iran says it discovered over 7.5 trillion cubic feet of gas\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSVR6WDVGa1pXVWw0aFNTbHNTcjZjeEZpS2dUYjZKdjlCcHB2VElmTFU2Vl90RTNPbWg2akxvdF8xcUV2S01JR1N3M0c2T1ZmeHM5V3BrUExMbE16dWRHSWw0QlBoYmFMVUxXUlNzT2lMYXJYNVZ0a1JHUW0xRjc3c1JOVWJlTGxSMGFiLXFVTUgtbWstY1ZHTm02a2N4UklmX0pyaG9uVlFDMVU?oc=5",
+        "published_at": "2026-08-23T15:24:02Z"
+      },
+      {
+        "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
+        "summary": "Iran says Pakistan's army chief to visit Tehran on Monday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
+        "published_at": "2026-08-23T13:13:07Z"
+      },
+      {
+        "headline": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+        "summary": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+        "published_at": "2026-08-23T12:00:01Z"
+      },
+      {
+        "headline": "United's next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+        "summary": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified, but that has been delayed by years.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
+        "published_at": "2026-08-23T12:00:01Z"
+      },
+      {
+        "headline": "Syria foreign minister sees Israel security talks resuming despite no trust - Reuters",
+        "summary": "Syria foreign minister sees Israel security talks resuming despite no trust\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUpvdEk0SVFqbENrNjRzRkFFODFJb2ZkczFRWVU1OFBTWG5Sd3JDbHRnajBMYzZHNlhGR0lVNFdTQlZIMFJVOTZadXBGWDdianhfWXBjcUVTZ0ppbllKZnBfU05zeU5ONS10M2dFOHRpbWZEeFItR2hSNk8xblFlaHRWVTdpUzRPUWt4eTI2UzBTNHpZbHVpemlmTEdMbzY5aTFqWUNCclJ6aVpSeklsa2xDc19jb0dzOGh6ZTNRUVRZT25xNjVZMA?oc=5",
+        "published_at": "2026-08-23T11:05:49Z"
+      },
+      {
+        "headline": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand - Reuters",
+        "summary": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0hPR1JrMFBOb05wQlVBbnlyNmkwQnZHQnpXdWNaRllmT2dpNzFCcDI0allOU1NkOEtjVHBOZVVpb2NOd1VFcXJ6bzN4U0tJUXBXTDJOMEc3ZF82Rm80T3FnWHE1dGxqOHpfZDlIbzloVFg1LTlMTDhrb3ZpYTZpUHV4dklUeEFMaVNxMTZReXJQZExXYjB3UlFaRVdVVk8wOV80ZGV0alljTVc2Q3hRSzhJTWZsb1h5S1lUY2c0Nno?oc=5",
+        "published_at": "2026-08-23T10:07:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.9028,
+    "dxy_lean": "neutral",
+    "spy_close": 765.72,
+    "spy_change_pct": 0.4091,
+    "spy_lean": "neutral",
+    "vix_close": 16.01,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77614.77,
+    "coinbase_premium_pct": -0.014467,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-23T21:10:49 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.72,
+        "change_pct": -0.9822,
+        "prev_close": 216.85
+      },
+      "AMD": {
+        "close": 473.25,
+        "change_pct": 0.8084,
+        "prev_close": 469.455
+      },
+      "TSM": {
+        "close": 418.95,
+        "change_pct": 0.7091,
+        "prev_close": 416.0
+      },
+      "SMCI": {
+        "close": 37.24,
+        "change_pct": 2.0274,
+        "prev_close": 36.5
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 713.44,
+        "change_pct": 0.3531,
+        "prev_close": 710.93
+      },
+      "SOXX": {
+        "close": 520.05,
+        "change_pct": -0.4403,
+        "prev_close": 522.35
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77626,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 78,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 4,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Tether\u2019s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
+        "url": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
+        "published_at": "2026-08-23T17:02:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+        "url": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+        "published_at": "2026-08-23T16:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+        "url": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-23T15:30:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robot Brains Could Have Their \u2018ChatGPT Moment\u2019 by 2027, ACE Robotics Chairman Says",
+        "url": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
+        "published_at": "2026-08-23T14:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
