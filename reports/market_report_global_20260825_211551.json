@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-25T21:14:54 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2629790081181.41,
+    "total_market_cap_change_24h_pct": -3.8776,
+    "total_volume_24h_usd": 102844126797.84,
+    "btc_dominance_pct": 59.2087,
+    "eth_dominance_pct": 11.0458,
+    "total2_usd": 1072724680752.98,
+    "total3_usd": 782244416019.83,
+    "active_cryptocurrencies": 18683,
+    "altcoin_season_index": 26,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "META",
+        "name": "MetaDAO",
+        "price_change_24h_pct": 30.4854,
+        "price_usd": 6.76,
+        "market_cap_usd": 153300608
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 22.6863,
+        "price_usd": 0.01827337,
+        "market_cap_usd": 12958991462
+      },
+      {
+        "symbol": "DOG",
+        "name": "Dog (Bitcoin)",
+        "price_change_24h_pct": 16.9658,
+        "price_usd": 0.00135168,
+        "market_cap_usd": 135420758
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 14.5915,
+        "price_usd": 0.079475,
+        "market_cap_usd": 158297138
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 12.846,
+        "price_usd": 0.255926,
+        "market_cap_usd": 476280464
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": -31.3844,
+        "price_usd": 42.1,
+        "market_cap_usd": 156696472
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -13.0006,
+        "price_usd": 0.05316,
+        "market_cap_usd": 116952964
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": -10.9577,
+        "price_usd": 0.558679,
+        "market_cap_usd": 568829807
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -9.9655,
+        "price_usd": 0.147946,
+        "market_cap_usd": 147902689
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": -9.47,
+        "price_usd": 2.2,
+        "market_cap_usd": 551372998
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78138,
+    "price_change_24h_pct": -1.0555,
+    "price_change_7d_pct": 21.0,
+    "market_cap_usd": 1568624718204,
+    "volume_24h_usd": 42115115937,
+    "direction": "bearish",
+    "oi_usd": 8346650682.85,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.62404761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0173,
+    "long_account_pct": 50.43,
+    "short_account_pct": 49.57,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2424.39,
+    "price_change_24h_pct": -2.2908,
+    "price_change_7d_pct": 27.4,
+    "market_cap_usd": 292578482325,
+    "volume_24h_usd": 15149921958,
+    "eth_btc_ratio": 0.031027,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88137697776.56,
+    "stablecoin_market_cap_usd": 310404571280.23,
+    "stablecoin_dominance_pct": 11.8034
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "2 of our software stocks face major tests of whether their rallies are for real",
+        "summary": "Here are the questions we are looking to answer when CrowdStrike and Salesforce report earnings Wednesday evening.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
+        "published_at": "2026-08-25T20:27:12Z"
+      },
+      {
+        "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+        "summary": "Six months into Iran war, almost half of global oil flows from war zones\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+        "published_at": "2026-08-25T20:27:10Z"
+      },
+      {
+        "headline": "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
+        "summary": "Explainer: Why the bond market may be resetting expectations about the US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+        "published_at": "2026-08-25T20:05:11Z"
+      },
+      {
+        "headline": "Kalshi traders see low likelihood of major crypto bill becoming law this year",
+        "summary": "The White House has pushed for Congress to pass the Clarity Act, a bill on crypto regulation. Kalshi traders see little chance the bill becomes law this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/25/kalshi-traders-see-low-likelihood-of-major-crypto-bill-becoming-law-this-year.html",
+        "published_at": "2026-08-25T19:52:43Z"
+      },
+      {
+        "headline": "U.S. Secret Service aware of Iranian video threat against Barron Trump - Reuters",
+        "summary": "U.S. Secret Service aware of Iranian video threat against Barron Trump\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkJKLVFhNWZCTm9nbWRDa0FEZklXZzJIa1pDQmF6aFFndlBpVHRMWnBsS2kzaGhjWXd2ZFBfN1A2czRPY2xmZ0lzVm12OHU2dXBWa3lvclpHZENUMFlEN1JMUW9kM3VMbmtnNTRNUmlzY1daSVJ0MjUzV2x2d2ZENS1VdklOZWtON3NRN2ZaRHdmeFR1Q2tDTWJVblFHNEE1YlBHZ3NaRkdPSkRIWWcwT0Rnd094UmNHTWZUVnQyZ1RFZw?oc=5",
+        "published_at": "2026-08-25T19:50:24Z"
+      },
+      {
+        "headline": "Bond rout ending? Massive bets on bond rally dominate options market",
+        "summary": "There's an old Wall Street adage: Stocks float on a sea of bonds. Options traders are betting the tide is going out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
+        "published_at": "2026-08-25T19:42:17Z"
+      },
+      {
+        "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
+        "summary": "US spy chief visits Russia for meetings, media reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjQyS1RmdG5WZnRTRFNaQ0o2WXM0MVY4VHdvZzQwZTZjS1hVX2ZTdC1ORzh5U2pfTEZQeG5mWF93aGZsNGxOcXluSGtBRnhiYnNGRXNGaVE1cWhMbmprTXk1ODQxQjFWMlM0czJFa3pqWjhZZVh3bXlBMVVGVTRpTFlBRHQxcGpmOXIyRXN3Tjc1VVFUUVE?oc=5",
+        "published_at": "2026-08-25T19:16:30Z"
+      },
+      {
+        "headline": "OpenAI says its Broadcom custom chip is a winner. What does that mean for Nvidia?",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/25/openai-says-its-broadcom-chip-is-a-big-advance-what-about-nvidia.html",
+        "published_at": "2026-08-25T19:01:55Z"
+      },
+      {
+        "headline": "Are you richer than you think? How to find out\u2014and what experts say to do if you are",
+        "summary": "States are holding billions of dollars in unclaimed property, and some of it may be yours.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/25/how-to-find-missing-money-and-what-to-do-if-you-get-it.html",
+        "published_at": "2026-08-25T19:00:02Z"
+      },
+      {
+        "headline": "US starts returning staff to Middle East embassies after Iran war evacuations, sources say - Reuters",
+        "summary": "US starts returning staff to Middle East embassies after Iran war evacuations, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
+        "published_at": "2026-08-25T16:48:57Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 765.85,
+    "spy_change_pct": 0.3117,
+    "spy_lean": "neutral",
+    "vix_close": 15.85,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 78217.71,
+    "coinbase_premium_pct": 0.102012,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-25T21:14:54 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 213.05,
+        "change_pct": 2.1921,
+        "prev_close": 208.48
+      },
+      "AMD": {
+        "close": 479.18,
+        "change_pct": 4.9119,
+        "prev_close": 456.745
+      },
+      "TSM": {
+        "close": 417.41,
+        "change_pct": 1.7775,
+        "prev_close": 410.12
+      },
+      "SMCI": {
+        "close": 38.46,
+        "change_pct": 9.3546,
+        "prev_close": 35.17
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 710.72,
+        "change_pct": 0.6229,
+        "prev_close": 706.32
+      },
+      "SOXX": {
+        "close": 514.06,
+        "change_pct": 1.5568,
+        "prev_close": 506.18
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78138,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 80,
+    "fear_greed_label": "Extreme greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 21,
+    "negative_count": 10,
+    "neutral_count": 27,
+    "sentiment_ratio": 0.3621,
+    "news_volume_lean": "neutral",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "These Researchers Just Shrunk an AI Model and Somehow Made It Smarter",
+        "url": "https://decrypt.co/376536/researchers-shrink-ai-model-made-smarter",
+        "published_at": "2026-08-25T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "World Liberty Financial launches USD1 natively on Canton Network",
+        "url": "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-25T20:35:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Open Interest Collapses to 12%. Is the Short Squeeze Over?",
+        "url": "https://decrypt.co/376473/bitcoin-open-interest-price-short-squeeze",
+        "published_at": "2026-08-25T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?",
+        "url": "https://decrypt.co/376516/nancy-pelosi-bloom-energy-stock-trade",
+        "published_at": "2026-08-25T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024",
+        "url": "https://decrypt.co/376503/crypto-fear-greed-index-extreme-greed",
+        "published_at": "2026-08-25T19:11:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ZRO token surges as LayerZero unveils ATLAS exchange infrastructure built on Zero blockchain",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-25-zro-token-layerzero-atlas-exchange-infrastructure-zero-blockchain-412736",
+        "published_at": "2026-08-25T18:41:50+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mistral and HUMAIN Are Building 'Sovereign AI' in Saudi Arabia",
+        "url": "https://decrypt.co/376514/mistral-humain-sovereign-ai-saudi-arabia",
+        "published_at": "2026-08-25T18:39:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-25T18:34:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin enters \u2018initial phase\u2019 of new bull market, but $83K remains key: CryptoQuant",
+        "url": "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-25T18:13:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana transactions hit record 4.2B as SOL rallies 40%",
+        "url": "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-25T18:08:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "neutral",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
