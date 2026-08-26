@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-26T21:13:12 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2651357126831.5,
+    "total_market_cap_change_24h_pct": -2.4143,
+    "total_volume_24h_usd": 77197811838.2,
+    "btc_dominance_pct": 59.2452,
+    "eth_dominance_pct": 11.2242,
+    "total2_usd": 1080555059269.87,
+    "total3_usd": 782961513480.19,
+    "active_cryptocurrencies": 18717,
+    "altcoin_season_index": 27,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": 60.3927,
+        "price_usd": 67.55,
+        "market_cap_usd": 251418356
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": 22.6884,
+        "price_usd": 0.01550404,
+        "market_cap_usd": 124917102
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": 21.4489,
+        "price_usd": 0.784745,
+        "market_cap_usd": 126191510
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": 17.4034,
+        "price_usd": 0.297017,
+        "market_cap_usd": 123180415
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 16.2507,
+        "price_usd": 0.214401,
+        "market_cap_usd": 211889952
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -16.7063,
+        "price_usd": 0.00734521,
+        "market_cap_usd": 167762628
+      },
+      {
+        "symbol": "DAI",
+        "name": "DAI on PulseChain",
+        "price_change_24h_pct": -12.8521,
+        "price_usd": 0.00255772,
+        "market_cap_usd": 113464848
+      },
+      {
+        "symbol": "DOG",
+        "name": "Dog (Bitcoin)",
+        "price_change_24h_pct": -11.3816,
+        "price_usd": 0.00120264,
+        "market_cap_usd": 120280461
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price_change_24h_pct": -10.9915,
+        "price_usd": 0.107343,
+        "market_cap_usd": 1149296133
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -8.6309,
+        "price_usd": 0.072465,
+        "market_cap_usd": 144411604
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78582,
+    "price_change_24h_pct": 0.5823,
+    "price_change_7d_pct": 14.7,
+    "market_cap_usd": 1577581328924,
+    "volume_24h_usd": 28107219852,
+    "direction": "neutral",
+    "oi_usd": 8346865624.61,
+    "funding_rate_latest": 7.091e-05,
+    "funding_rate_7d_avg": 8.877380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.053,
+    "long_account_pct": 51.29,
+    "short_account_pct": 48.71,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2487.1,
+    "price_change_24h_pct": 2.5382,
+    "price_change_7d_pct": 17.6,
+    "market_cap_usd": 300146247046,
+    "volume_24h_usd": 11418717233,
+    "eth_btc_ratio": 0.03165,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87798658076.48,
+    "stablecoin_market_cap_usd": 310618789064.86,
+    "stablecoin_dominance_pct": 11.7155
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 29,
+    "headlines": [
+      {
+        "headline": "Okta pops 15% after topping estimates as AI threat spikes demand for identity security",
+        "summary": "New products accounted for 30% of total bookings and Okta said it closed dozens of AI deals during the period",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html",
+        "published_at": "2026-08-26T20:13:25Z"
+      },
+      {
+        "headline": "Micron elevates two executives. Plus, what the Meta settlement means for its top line",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/micron-elevates-two-executives-plus-what-the-meta-settlement-means-for-its-top-line.html",
+        "published_at": "2026-08-26T18:31:26Z"
+      },
+      {
+        "headline": "How Dolly Parton inspired women in leadership: 'We all owe Dolly a debt'",
+        "summary": "The legendary Dolly Parton inspired women to dream bigger and fight for what they deserve. Female business leaders and workers share what the icon meant to them.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/dolly-parton-women-leadership.html",
+        "published_at": "2026-08-26T18:04:25Z"
+      },
+      {
+        "headline": "Nvidia, CrowdStike and Salesforce face big tests tonight. Here's what we need to see",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/nvidia-crowdstike-and-salesforce-face-big-tests-tonight.html",
+        "published_at": "2026-08-26T17:07:35Z"
+      },
+      {
+        "headline": "Economists want Warsh to share more on his view of the economy at Jackson Hole, says CNBC survey",
+        "summary": "Eighty percent of CNBC Fed Survey respondents say the Federal Reserve Chairman Warsh should provide more insight into his economic views.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/fed-survey-warsh-economy-view.html",
+        "published_at": "2026-08-26T17:02:24Z"
+      },
+      {
+        "headline": "Why we need \u2018Human Reserved\u2019 jobs, says Bill Gates\u2014and how we can combat the worst of the AI upheaval",
+        "summary": "\"This unprecedented technology demands an unprecedented global response,\" Bill Gates wrote in a 6,000-word memo.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/why-we-need-human-reserved-jobs-bill-gates-ai-memo.html",
+        "published_at": "2026-08-26T16:44:08Z"
+      },
+      {
+        "headline": "European shares muted as investors assess Iran-Oman talks, U.S. inflation - Reuters",
+        "summary": "European shares muted as investors assess Iran-Oman talks, U.S. inflation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1pZeWdGeTdjVWRoOE0zZi1zQzhRVTdhU3g3U3VPV2J4dHVRQWtiRF9CUHlWVGllbFpPYnIyUmc5TDZPVlJrX0lrNDZCME5rcWZEYmN2a1JFY1diVE5oeDk1WEFDNmhIeDZfUmdFMFBBVUh6M1ZibFFvdkNzSDRVc1NEcFdZZmVhRDVjTGtxQWZwd2JDd3hzS1lHalBGUmMwRkZDUTRidDZIQ3lM?oc=5",
+        "published_at": "2026-08-26T16:41:46Z"
+      },
+      {
+        "headline": "FTSE 100 edges lower as healthcare, energy stocks weigh; Iran-Oman talks in focus - Reuters",
+        "summary": "FTSE 100 edges lower as healthcare, energy stocks weigh; Iran-Oman talks in focus\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckdmamQ0VmdHQmliNFdqSkc5WXhHb0xoWnd5eXdEQ0JnZV9TUjVzWndHV1VYMFU0M29rNWdYMXB2RmI3QlNQaGVrMmpwM3V3dHF0empEa0hvTDVBaXVUOHEwaVlOUEhDd1h1el9MWENBeVN3eVh3bjRGejRMbmJ0WUFNU19GQzIyR1k1ZDVtYS1LdkJQVU9SbHRBQVFQZw?oc=5",
+        "published_at": "2026-08-26T16:14:23Z"
+      },
+      {
+        "headline": "We're buying the dip \u2014 again \u2014 in a retailer not getting credit for addressing weak sales",
+        "summary": "Wednesday's decline can be attributed to a downgrade at Jefferies, which we disagree with.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/were-buying-the-dip-again-in-a-retailer-not-getting-credit-for-addressing-weak-sales.html",
+        "published_at": "2026-08-26T14:48:53Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+        "summary": "It's a monumental day of earnings, led by Nvidia.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+        "published_at": "2026-08-26T12:55:38Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 766.0,
+    "spy_change_pct": 0.0118,
+    "spy_lean": "neutral",
+    "vix_close": 15.45,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 78742.34,
+    "coinbase_premium_pct": 0.204042,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-26T21:13:12 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 209.66,
+        "change_pct": -1.5912,
+        "prev_close": 213.05
+      },
+      "AMD": {
+        "close": 480.93,
+        "change_pct": 0.3652,
+        "prev_close": 479.18
+      },
+      "TSM": {
+        "close": 417.69,
+        "change_pct": 0.0671,
+        "prev_close": 417.41
+      },
+      "SMCI": {
+        "close": 37.39,
+        "change_pct": -2.7821,
+        "prev_close": 38.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 711.37,
+        "change_pct": 0.0915,
+        "prev_close": 710.72
+      },
+      "SOXX": {
+        "close": 515.4,
+        "change_pct": 0.2607,
+        "prev_close": 514.06
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78582,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 80,
+    "fear_greed_label": "Extreme greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 48,
+    "positive_count": 9,
+    "negative_count": 3,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.1875,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "What Traders Are Watching for Bitcoin's Next Move",
+        "url": "https://decrypt.co/376649/what-traders-watching-bitcoin-next-move",
+        "published_at": "2026-08-26T20:22:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Better launches Bitcoin-backed mortgages powered by Coinbase",
+        "url": "https://cointelegraph.com/news/better-launches-bitcoin-backed-mortgages-powered-by-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-26T20:09:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+        "url": "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana",
+        "published_at": "2026-08-26T19:56:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Banks Join Forces to Build a Blockchain of Their Own",
+        "url": "https://decrypt.co/376644/banks-build-blockchain-bankchain-alliance",
+        "published_at": "2026-08-26T19:21:25+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-26T19:14:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Wallets Dormant for Over a Decade Move $40M in One Week",
+        "url": "https://decrypt.co/376641/bitcoin-wallets-dormant-decade-move-40m",
+        "published_at": "2026-08-26T18:44:17+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Treasury Firm Invites Investors to Look 'Beyond the Price of SOL'",
+        "url": "https://decrypt.co/376619/solana-treasury-sol-data-beyond-price",
+        "published_at": "2026-08-26T17:52:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainalysis estimates $457B in taxable crypto activity, says CARF misses most",
+        "url": "https://cointelegraph.com/news/chainalysis-estimates-457b-in-potentially-taxable-crypto-activity-says-carf-misses-most-onchain-flows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-26T17:48:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'The Government Doesn't Own Our Data': Prosecuted GrapheneOS User",
+        "url": "https://decrypt.co/376631/the-government-doesnt-own-our-data-prosecuted-grapheneos-user",
+        "published_at": "2026-08-26T17:24:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto CEO Faces US Extradition Over Alleged $20 Million Token Scheme",
+        "url": "https://decrypt.co/376617/crypto-ceo-extradition-20-million-scheme",
+        "published_at": "2026-08-26T17:15:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
