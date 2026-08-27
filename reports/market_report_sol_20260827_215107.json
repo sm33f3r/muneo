@@ -1,0 +1,207 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-27T21:50:21 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 108.52,
+    "price_change_24h_pct": 11.1571,
+    "price_change_7d_pct": 23.9582,
+    "volume_24h_usd": 7448171801,
+    "market_cap_usd": 63353202583,
+    "volume_to_mcap_ratio": 0.117566,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -63.0022,
+    "cex_price_usd": 108.55,
+    "cex_24h_high": 109.92,
+    "cex_24h_low": 97.79,
+    "cex_dex_spread_pct": 0.027645,
+    "volume_on_up_days_usd": 4440974254.421596,
+    "volume_on_down_days_usd": 1335221333.8652864,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 69.1371,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 0.715127,
+      "signal_line": -2.704223,
+      "histogram": 3.41935
+    },
+    "macd_lean": "bullish",
+    "sma_50": 81.4482,
+    "price_vs_sma50_pct": 33.2381,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 92.954569,
+      "mid": 76.686,
+      "lower": 60.417431,
+      "width_pct": 42.429,
+      "position": 1.2795
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 997972437.9,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 9.283571428571429e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.9198,
+    "btc_long_account_pct": 47.91,
+    "btc_short_account_pct": 52.09,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 5961827542.0,
+    "tvl_7d_change_pct": 11.81,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 15400051.93,
+    "chain_fees_7d_avg_usd": 13755266.43,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 5,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
+        "url": "https://cointelegraph.com/news/charles-schwab-to-add-solana-avalanche-and-chainlink-to-crypto-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T16:13:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development Corp resumes Solana purchases, acquiring nearly 20,000 SOL",
+        "url": "https://www.theblock.co/news/business/2026-08-27-defi-development-resumes-solana-purchases-acquiring-nearly-20000-sol-412932",
+        "published_at": "2026-08-27T15:32:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Is Having Its Best Month Since 2024\u2014With a Historic Governance Vote on Deck",
+        "url": "https://decrypt.co/376706/solana-best-month-since-2024-historic-governance-vote",
+        "published_at": "2026-08-27T15:12:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform",
+        "url": "https://www.theblock.co/news/business/2026-08-27-charles-schwab-add-solana-avalanche-chainlink-to-crypto-trading-platform-412923",
+        "published_at": "2026-08-27T14:20:05+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BlackRock\u2019s Mitchnick says bitcoin\u2019s risk-off narrative is \u2018the one to bet on\u2019 long term as rally consolidates near $80,000",
+        "url": "https://www.theblock.co/news/markets/2026-08-27-blackrocks-mitchnick-says-bitcoins-risk-off-narrative-is-the-one-to-bet-on-long-term-as-rally-consolidates-near-80000-412897",
+        "published_at": "2026-08-27T12:00:09+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 80068.0,
+    "btc_24h_change_pct": 1.7708,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 59.7488,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2691019219860.0684,
+    "eth_btc_ratio": 0.03126,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 771.08,
+    "spy_change_pct": 0.6527,
+    "spy_lean": "bullish",
+    "vix_close": 15.21,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 82,
+    "fear_greed_label": "Extreme greed",
+    "fear_greed_lean": "bearish",
+    "cg_sentiment_votes_up_pct": 89.1,
+    "cg_sentiment_votes_down_pct": 10.9,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 7,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
