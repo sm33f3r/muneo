@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-27T21:11:24 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2709811941034.55,
+    "total_market_cap_change_24h_pct": -0.4165,
+    "total_volume_24h_usd": 100331408632.63,
+    "btc_dominance_pct": 59.1875,
+    "eth_dominance_pct": 11.1339,
+    "total2_usd": 1105943320244.31,
+    "total3_usd": 804234639844.26,
+    "active_cryptocurrencies": 19340,
+    "altcoin_season_index": 37,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SAFE",
+        "name": "SAFEbit",
+        "price_change_24h_pct": 27.2136,
+        "price_usd": 0.176064,
+        "market_cap_usd": 125437986
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 23.4743,
+        "price_usd": 0.171028,
+        "market_cap_usd": 1677603327
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": 19.2808,
+        "price_usd": 0.03039904,
+        "market_cap_usd": 164037871
+      },
+      {
+        "symbol": "VET",
+        "name": "VeChain",
+        "price_change_24h_pct": 19.0096,
+        "price_usd": 0.00707501,
+        "market_cap_usd": 608260552
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": 14.248,
+        "price_usd": 2.58,
+        "market_cap_usd": 648107216
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UP",
+        "name": "up",
+        "price_change_24h_pct": -9.7822,
+        "price_usd": 0.271305,
+        "market_cap_usd": 175450238
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -6.3251,
+        "price_usd": 0.089802,
+        "market_cap_usd": 275171921
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": -4.3219,
+        "price_usd": 0.255044,
+        "market_cap_usd": 474558225
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": -3.9372,
+        "price_usd": 1.13e-06,
+        "market_cap_usd": 237343693
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -3.866,
+        "price_usd": 0.096599,
+        "market_cap_usd": 791428710
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80099,
+    "price_change_24h_pct": 1.896,
+    "price_change_7d_pct": 10.2,
+    "market_cap_usd": 1608175600928,
+    "volume_24h_usd": 34465948994,
+    "direction": "bullish",
+    "oi_usd": 8742507881.72,
+    "funding_rate_latest": 6.331e-05,
+    "funding_rate_7d_avg": 8.489238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9198,
+    "long_account_pct": 47.91,
+    "short_account_pct": 52.09,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2506.35,
+    "price_change_24h_pct": 0.9298,
+    "price_change_7d_pct": 7.9,
+    "market_cap_usd": 302466617315,
+    "volume_24h_usd": 16272838724,
+    "eth_btc_ratio": 0.031291,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89152881092.52,
+    "stablecoin_market_cap_usd": 310247923586.33,
+    "stablecoin_dominance_pct": 11.4491
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Iran's security chief denies report about a potential plot against Trump's son - Reuters",
+        "summary": "Iran's security chief denies report about a potential plot against Trump's son\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMmxfUzFLX1V3NWtDWmZFZ3dsUGIzWV9VZmNZVUo1NjV6dUxQM1VpRTNPS3UtQzg3TWtPaHBuUDJ5STJNSGFnZlMwT2w4UHlpWjMtejRnbUllbWtFeVpXWUJSVkMyeGZjU1hwc1ZSU0xTdHN2eFlMNXd2SEFIWG9EeFlxNkh4TjBOM0J0dUFFV1FrYmp4NVJXZXZjbWM2UGtrRWYyMFlJeEJOb3lBSXdoRm03bmZucjhUN05yejhTRWV6cUpsV1lHVHBDZWJWdw?oc=5",
+        "published_at": "2026-08-27T19:55:44Z"
+      },
+      {
+        "headline": "Trump to meet refiners, fuel retailers as Iran war boosts gas prices ahead of midterms, sources say - Reuters",
+        "summary": "Trump to meet refiners, fuel retailers as Iran war boosts gas prices ahead of midterms, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUTVfLVZrNnM2eTJJcmZaVjN5Ym83a094ZUYxR3RqenVKVUxyWGpIaldFZTJpZUVaRFJ4TkpJUkctd0VIc1Nzb05qamt6cnZVU3lqSkw3NUdUYmE3WXpXNTUyTjNnLUFUZERfYXp6SjMzV2hrOV9nN1FDWTI4QUxSWGpIMnhwUURoeWRoOUNsYVRMOGx3d1BwdFF1LVNYejhVSjJpT201YWxKTWNBeEdJNm5nZjEyNE1zMWg4TTN4QXNORzN1akNuVEgyWQ?oc=5",
+        "published_at": "2026-08-27T18:53:21Z"
+      },
+      {
+        "headline": "What's expected at Apple's September event \u2014 plus, an uneven rally in AI stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/what-to-expect-from-apples-september-event-and-whats-driving-rally.html",
+        "published_at": "2026-08-27T18:48:33Z"
+      },
+      {
+        "headline": "What Warsh will say and how the market will react, according to prediction markets",
+        "summary": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html",
+        "published_at": "2026-08-27T18:14:57Z"
+      },
+      {
+        "headline": "Donald Trump Jr. told Republican state attorneys not to fight prediction markets, NY Times reports",
+        "summary": "The president's son, who is an advisor to two prediction market platforms, told Republican attorneys general to back off on the industry, the Times reported.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/trump-jr-told-gop-state-attorneys-general-dont-fight-prediction-markets-nyt-reports.html",
+        "published_at": "2026-08-27T18:09:54Z"
+      },
+      {
+        "headline": "After six months, the Iran war has reached its endgame \u2014 a costly stalemate - Reuters",
+        "summary": "After six months, the Iran war has reached its endgame \u2014 a costly stalemate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanlhWGJGcHdKencyMnlRUHBUejVOZlByMTJjWm8wSVVOdWRZV3FBQUlFNFI1WXVqTUdQaEtFeEJkeHl4aTEwaXJmd0MwTFY4VmJOMS02cWJ6ZGZzVEczaGFNelFqdmJoeFNhMGlzNzVzQ3hQOVFtejNvRXZqcVBQek5zY2l2VERfVlk4aHd3WXQ4YTc0MVhIdXF6ZHA4bFVBRlNNWXlKS0ZnbU1JdFo3MWFzMDg?oc=5",
+        "published_at": "2026-08-27T18:03:40Z"
+      },
+      {
+        "headline": "Jim Cramer says the 'worst is over' at Salesforce, sees another 20% upside from here",
+        "summary": "Jim Cramer believes the comeback rally in Salesforce is far from over.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/jim-cramer-says-the-worst-is-over-at-salesforce-sees-another-20percent-upside-from-here.html",
+        "published_at": "2026-08-27T16:59:00Z"
+      },
+      {
+        "headline": "We went 3 for 3 \u2014 what we learned from wins at Nvidia, Salesforce, and CrowdStrike",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/we-went-3-for-3-what-we-learned-from-wins-at-nvidia-salesforce-and-crowdstrike.html",
+        "published_at": "2026-08-27T15:17:18Z"
+      },
+      {
+        "headline": "Visa, Mastercard launch international card payments in Syria after US lifts terrorism designation - Reuters",
+        "summary": "Visa, Mastercard launch international card payments in Syria after US lifts terrorism designation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZi1lT1VCQkw2VXZWdVpNN2QtRzh3RllkOG9zcC1qUWpzRW1lenhSbm5fVU5nQVFVNFRyZ1VnYkstZTNhYUVlNDVWVFpzMnVlZUN1MFdPOTc4UWpjVXRkakg0dHlMelZYWGpJaDF3dE11SU50OVBqc2pPVER2THMwRkQxeDBhZHRnNjFmWHY1V0JRcnhDcjZYSDg0NFZvQjJVR3d2U1Y0NEYzRnR4dlZjSGNjTTduNkRueXhhWDNrenhDbHM?oc=5",
+        "published_at": "2026-08-27T14:10:18Z"
+      },
+      {
+        "headline": "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker",
+        "summary": "The data includes the portfolios of hundreds of family offices, representing a total of $1.4 trillion in assets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/27/family-offices-making-bullish-bet-on-stocks-according-to-cnbc-tracker.html",
+        "published_at": "2026-08-27T13:40:29Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 771.08,
+    "spy_change_pct": 0.6527,
+    "spy_lean": "bullish",
+    "vix_close": 15.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 80175.0,
+    "coinbase_premium_pct": 0.094883,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-27T21:11:24 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 227.98,
+        "change_pct": 8.738,
+        "prev_close": 209.66
+      },
+      "AMD": {
+        "close": 476.67,
+        "change_pct": -0.8858,
+        "prev_close": 480.93
+      },
+      "TSM": {
+        "close": 427.3,
+        "change_pct": 2.3007,
+        "prev_close": 417.69
+      },
+      "SMCI": {
+        "close": 38.46,
+        "change_pct": 2.8617,
+        "prev_close": 37.39
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 721.11,
+        "change_pct": 1.3692,
+        "prev_close": 711.37
+      },
+      "SOXX": {
+        "close": 525.43,
+        "change_pct": 1.9461,
+        "prev_close": 515.4
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80099,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 82,
+    "fear_greed_label": "Extreme greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 49,
+    "positive_count": 10,
+    "negative_count": 7,
+    "neutral_count": 32,
+    "sentiment_ratio": 0.2041,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Red Flag? OpenAI's Agentic ChatGPT Work Signs Into Your Accounts Without You",
+        "url": "https://decrypt.co/376757/openai-agentic-chatgpt-work-signs-in-without-you",
+        "published_at": "2026-08-27T21:00:57+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
+        "url": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T20:39:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$6.4 Billion in Bitcoin Options Expire Tomorrow\u2014Here's What It Means",
+        "url": "https://decrypt.co/376752/billion-bitcoin-options-expire-what-it-means",
+        "published_at": "2026-08-27T19:47:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T19:27:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump cost investors $4.7B through crypto \u2018schemes\u2019: Public Citizen",
+        "url": "https://cointelegraph.com/news/donald-trump-crypto-investors-losses-public-citizen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T19:22:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mirae Asset lays out crypto, stablecoin, tokenization plans for Digital X",
+        "url": "https://cointelegraph.com/news/mirae-asset-lays-out-crypto-stablecoin-and-tokenization-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T19:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale says Zcash can challenge Bitcoin\u2019s network effects as privacy demand grows",
+        "url": "https://cointelegraph.com/markets/zcash-bitcoin-network-effects-grayscale-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-27T18:51:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polish Olympic Committee president detained in Zondacrypto bribery probe",
+        "url": "https://www.theblock.co/news/regulation/2026-08-27-polish-olympic-committee-president-detained-in-zondacrypto-bribery-probe-412961",
+        "published_at": "2026-08-27T18:23:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "No, Ledger Wasn\u2019t Hacked: Vulnerable Ethereum App Was Patched Before Exploit, Company Says",
+        "url": "https://decrypt.co/376750/no-ledger-wasnt-hacked-ethereum-app-exploit",
+        "published_at": "2026-08-27T18:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Eyes Major Resistance as Jackson Hole Kicks Off With Unusual Fed Agenda",
+        "url": "https://decrypt.co/376737/bitcoin-resistance-jackson-hole-fed-agenda",
+        "published_at": "2026-08-27T17:36:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
