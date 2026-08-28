@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-28T21:10:42 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2627648826668.72,
+    "total_market_cap_change_24h_pct": -5.5064,
+    "total_volume_24h_usd": 97209908400.88,
+    "btc_dominance_pct": 58.9541,
+    "eth_dominance_pct": 11.1186,
+    "total2_usd": 1078541276261.34,
+    "total3_usd": 786382955109.83,
+    "active_cryptocurrencies": 19373,
+    "altcoin_season_index": 33,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 33.7399,
+        "price_usd": 0.00943736,
+        "market_cap_usd": 214991646
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 8.3866,
+        "price_usd": 0.078342,
+        "market_cap_usd": 156087652
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 6.1113,
+        "price_usd": 0.134799,
+        "market_cap_usd": 336979575
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 5.7657,
+        "price_usd": 0.289982,
+        "market_cap_usd": 289931544
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 4.0899,
+        "price_usd": 0.069662,
+        "market_cap_usd": 108666951
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -19.1921,
+        "price_usd": 0.190682,
+        "market_cap_usd": 187848144
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": -14.557,
+        "price_usd": 0.0259674,
+        "market_cap_usd": 140294507
+      },
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": -10.8728,
+        "price_usd": 0.530386,
+        "market_cap_usd": 493544343
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -10.8422,
+        "price_usd": 0.193423,
+        "market_cap_usd": 193443366
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -10.6983,
+        "price_usd": 16.33,
+        "market_cap_usd": 777930703
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77380,
+    "price_change_24h_pct": -3.3505,
+    "price_change_7d_pct": 0.5,
+    "market_cap_usd": 1553341149476,
+    "volume_24h_usd": 36043117233,
+    "direction": "bearish",
+    "oi_usd": 8262061466.6,
+    "funding_rate_latest": 5.913e-05,
+    "funding_rate_7d_avg": 8.570809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1496,
+    "long_account_pct": 53.48,
+    "short_account_pct": 46.52,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2428.89,
+    "price_change_24h_pct": -3.0836,
+    "price_change_7d_pct": 0.6,
+    "market_cap_usd": 293114091313,
+    "volume_24h_usd": 14994997256,
+    "eth_btc_ratio": 0.031389,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87566646967.62,
+    "stablecoin_market_cap_usd": 310265717971.77,
+    "stablecoin_dominance_pct": 11.8077
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 23,
+    "headlines": [
+      {
+        "headline": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+        "summary": "The Cboe Volatility Index (VIX), which measures the price of 30-day options on the S&P 500 Index, fell to as low as 14.1.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html",
+        "published_at": "2026-08-28T19:35:09Z"
+      },
+      {
+        "headline": "Bessent attacks Warren over yen intervention query, offers \u2018Foreign Exchange for Dummies\u2019 lesson",
+        "summary": "Treasury has not disclosed how much yen it bought, the execution rate or the current value of the position, despite Warren\u2019s requests for details.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html",
+        "published_at": "2026-08-28T19:23:18Z"
+      },
+      {
+        "headline": "Meta's $17 billion settlement mandates new safeguards for kids\u2014many are promising, says safety expert",
+        "summary": "Following a major legal settlement, Instagram and Facebook users under age 18 will soon have a daily two-hour limit and won't be able to see reactions on posts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/new-meta-safeguards-teens.html",
+        "published_at": "2026-08-28T19:07:05Z"
+      },
+      {
+        "headline": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/what-we-learned-from-warshs-jackson-hole-speech-and-ge-vernovas-cfo-to-retire.html",
+        "published_at": "2026-08-28T18:03:05Z"
+      },
+      {
+        "headline": "US hits Egyptian bank branches with Iran sanctions as war marks six months - Reuters",
+        "summary": "US hits Egyptian bank branches with Iran sanctions as war marks six months\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZnRmTktBaHNUcXJSeXVoMEhUSDg0QlpTRkFGcllGUW5zcW84bE81NjQxTWZ0VjBSNHpxZjBnRkNmVHAyZkFaNkYtYXZ4R1VaRlpIVHF0YVIwZ3BfY1ByZVdKM0RPOXBNMnJzTDkyVnF6b0FnNlRFQ0ozTk02cWY0dHZPYm40TUY2TVlSUklxWUJWVkdZdXNYX21TM05QV1R4dnBxU3pWekdVelEwWXZObHNn?oc=5",
+        "published_at": "2026-08-28T17:37:19Z"
+      },
+      {
+        "headline": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
+        "summary": "Apple raised prices for Apple Music by $1 per month in July, citing licensing costs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html",
+        "published_at": "2026-08-28T16:57:16Z"
+      },
+      {
+        "headline": "Cramer says he's warming back up to the AI trade, but not ready to act yet",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/cramer-says-hes-warming-back-up-to-the-ai-trade-but-not-ready-to-act-yet.html",
+        "published_at": "2026-08-28T16:53:53Z"
+      },
+      {
+        "headline": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war - Reuters",
+        "summary": "QatarEnergy cancels gas deliveries to Italy's Edison until early November over Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSGdXSEJxeEtGbnA4SWdCRkkyMFM4VFhkS0hHT1F5cGw3TGg1LXZneGR4Z2JBRzNjdldsUlZNMlp5T1I4RDBRLWJoUlptMms4MXVzVmhLOXJndHI3U2E0OTcwTXprQmFRSkRYMzFxRzMzZExybFVWcTBlZGduN18zZmVJcWxnR3QzcU9iclR3b3g5OUdBZ0twWlJnUnZkbGVyN2hvNFVHRWZjYW9jMmtxbUtIVlotOC10UjVfWkln?oc=5",
+        "published_at": "2026-08-28T16:47:22Z"
+      },
+      {
+        "headline": "52% of Gen Z investors have redirected investing money to sports bets",
+        "summary": "Some Gen Z investors are choosing gambling on sports over investing for their future.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/sports-betting-gen-z-investors.html",
+        "published_at": "2026-08-28T16:10:01Z"
+      },
+      {
+        "headline": "Big Tech's massive AI spending is putting one of its longtime strengths to the test",
+        "summary": "There's new risk emerging from Big Tech's massive artificial intelligence buildout.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
+        "published_at": "2026-08-28T15:50:58Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 769.38,
+    "spy_change_pct": -0.2231,
+    "spy_lean": "neutral",
+    "vix_close": 14.51,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 77344.0,
+    "coinbase_premium_pct": -0.046524,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-28T21:10:42 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.55,
+        "change_pct": -4.575,
+        "prev_close": 227.98
+      },
+      "AMD": {
+        "close": 465.58,
+        "change_pct": -2.3266,
+        "prev_close": 476.67
+      },
+      "TSM": {
+        "close": 417.52,
+        "change_pct": -2.2888,
+        "prev_close": 427.3
+      },
+      "SMCI": {
+        "close": 37.08,
+        "change_pct": -3.5881,
+        "prev_close": 38.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.43,
+        "change_pct": -0.649,
+        "prev_close": 721.11
+      },
+      "SOXX": {
+        "close": 508.62,
+        "change_pct": -3.1993,
+        "prev_close": 525.43
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77380,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 77,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 46,
+    "positive_count": 10,
+    "negative_count": 7,
+    "neutral_count": 29,
+    "sentiment_ratio": 0.2174,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-28T20:42:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Tests Robots to Handle Data Center Work",
+        "url": "https://decrypt.co/376843/meta-tests-robots-data-center",
+        "published_at": "2026-08-28T20:19:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana validators approve proposal to accelerate SOL disinflation",
+        "url": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-28T19:53:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ninth Circuit deals blow to Kalshi in Nevada sports betting fight, challenging CFTC\u2019s exclusive jurisdiction claim",
+        "url": "https://www.theblock.co/news/regulation/2026-08-28-ninth-circuit-deals-blow-to-kalshi-in-nevada-sports-betting-fight-challenging-cftcs-exclusive-jurisdiction-claim-413046",
+        "published_at": "2026-08-28T19:50:48+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Treasury Company Gets One Step Closer to Listing on Nasdaq",
+        "url": "https://decrypt.co/376840/xrp-treasury-evernorths-clears-sec-nasdaq",
+        "published_at": "2026-08-28T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Cities Eye AI Data Center Limits as Study Flags Water Risks",
+        "url": "https://decrypt.co/376838/us-cities-ai-data-center-limits",
+        "published_at": "2026-08-28T19:14:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
+        "url": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-28T17:46:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Will Now Print Less SOL as Disinflation Vote Passes in Dramatic Fashion",
+        "url": "https://decrypt.co/376825/solana-sol-disinflation-vote-passes",
+        "published_at": "2026-08-28T17:44:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed Chair Warsh Calls AI a 'Hinge Point in History'\u20144 Key Things He Said",
+        "url": "https://decrypt.co/376821/fed-chair-warsh-ai-hinge-point-4-key-things",
+        "published_at": "2026-08-28T17:18:52+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
+        "url": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana",
+        "published_at": "2026-08-28T16:39:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
