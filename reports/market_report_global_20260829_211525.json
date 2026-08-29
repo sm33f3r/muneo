@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-29T21:14:29 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2656060827839.49,
+    "total_market_cap_change_24h_pct": -1.7228,
+    "total_volume_24h_usd": 46010211133.37,
+    "btc_dominance_pct": 59.0152,
+    "eth_dominance_pct": 11.1342,
+    "total2_usd": 1088581354137.19,
+    "total3_usd": 792851226900.44,
+    "active_cryptocurrencies": 19410,
+    "altcoin_season_index": 22,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 64.6369,
+        "price_usd": 0.212771,
+        "market_cap_usd": 151514687
+      },
+      {
+        "symbol": "PROM",
+        "name": "Prom",
+        "price_change_24h_pct": 34.3252,
+        "price_usd": 6.85,
+        "market_cap_usd": 125106331
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 29.1182,
+        "price_usd": 0.222957,
+        "market_cap_usd": 207595899
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": 12.0271,
+        "price_usd": 0.698789,
+        "market_cap_usd": 112336919
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 11.5782,
+        "price_usd": 1.13,
+        "market_cap_usd": 309785874
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -14.3155,
+        "price_usd": 0.00816495,
+        "market_cap_usd": 186176196
+      },
+      {
+        "symbol": "ZANO",
+        "name": "Zano",
+        "price_change_24h_pct": -11.2929,
+        "price_usd": 7.25,
+        "market_cap_usd": 111912682
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": -6.3628,
+        "price_usd": 0.693499,
+        "market_cap_usd": 112469779
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price_change_24h_pct": -5.3439,
+        "price_usd": 0.102084,
+        "market_cap_usd": 1092322437
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": -5.1155,
+        "price_usd": 0.245879,
+        "market_cap_usd": 458284177
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78166,
+    "price_change_24h_pct": 1.0097,
+    "price_change_7d_pct": 0.9,
+    "market_cap_usd": 1569198204716,
+    "volume_24h_usd": 16055829795,
+    "direction": "bullish",
+    "oi_usd": 8417413969.91,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.570809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1944,
+    "long_account_pct": 54.43,
+    "short_account_pct": 45.57,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2453.09,
+    "price_change_24h_pct": 1.0486,
+    "price_change_7d_pct": 0.5,
+    "market_cap_usd": 296013404811,
+    "volume_24h_usd": 5734108084,
+    "eth_btc_ratio": 0.031383,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88047876563.62,
+    "stablecoin_market_cap_usd": 310702216862.49,
+    "stablecoin_dominance_pct": 11.6979
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "Trump administration weighs Yosemite land swap for private developer\u2019s access road",
+        "summary": "The Trump administration is considering a Yosemite land exchange that could give a developer more direct park access.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/29/trump-yosemite-land-swap-kingsbarn.html",
+        "published_at": "2026-08-29T18:21:49Z"
+      },
+      {
+        "headline": "National Park Service backs Trump\u2019s 250-foot arch despite \u2018adverse effects\u2019 on historic sites",
+        "summary": "The park service is backing the arch, despite finding that it would adversely affect historic sightlines and other visual relationships among nearby landmarks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/29/trump-arch-national-park-service-report.html",
+        "published_at": "2026-08-29T18:13:43Z"
+      },
+      {
+        "headline": "Israeli settlers stage new attack on home in West Bank's Qusra, witnesses say - Reuters",
+        "summary": "Israeli settlers stage new attack on home in West Bank's Qusra, witnesses say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaDJ3eXpHdUxRbndBaEJmblBpeC13Vk5sMF9lSGJOb3EwSzhDYXBWZnBjYWxqRWgyaGpKNDNsZWxacjRMWF8tQjNvQmNORXNEeVI0TG9nOVBSa2hhY2FFdklhVmVSNGxTalM0bWdtczdPWnd0d0FEeGNTRXdhN0I0eXBVRUFFRHpTX21wQUtJU1FqVmYyRTN2ZmZiNHEzV19OOWVmN3NPcE9SVjZzT29CY2U2bjRXdTAwVXIwcHU3Qjg?oc=5",
+        "published_at": "2026-08-29T17:58:32Z"
+      },
+      {
+        "headline": "Bessent says disorderly yen moves can destabilize global markets - Reuters",
+        "summary": "Bessent says disorderly yen moves can destabilize global markets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHBpa0Q1ZFFoeUswNkhnRWtLZEdNVmpSNU5Qd19FY2ZseVEtLTJNQ0J4SVNLUU83RDRWa0VyWWlhQlNUdXoxMldCa0VTXzlhZllsbnh6LXVPbDNSYW1rVmFyY0VNRHljVUlPZGR2MTFZTWotZ0drc2hoNHJJTDZzVEpUZW9ieEt2Ny15QmktV0l0MWx1Rnd4Y00xc2pIQ0FLZkxtdzlkUTZXMDYxOVBXX3lrMUtpN0d6?oc=5",
+        "published_at": "2026-08-29T16:47:43Z"
+      },
+      {
+        "headline": "We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions",
+        "summary": "Christopher Nolan's \"The Odyssey\" has movie and history buffs flocking to theaters this summer. That's been great news for Imax.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/29/imax-revenue-odyssey-box-office.html",
+        "published_at": "2026-08-29T14:07:51Z"
+      },
+      {
+        "headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+        "summary": "Salesforce, CrowdStrike, and Nvidia all faced major tests with investors and crushed expectations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+        "published_at": "2026-08-29T13:25:55Z"
+      },
+      {
+        "headline": "US military families ride 'roller coaster of emotions' over six months of Iran war - Reuters",
+        "summary": "US military families ride 'roller coaster of emotions' over six months of Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUm1PUndmMHEtR2czS0pLUHRwMXhjcG5mZzNjWDdQQ3I3cTlpaW5EdTFVc3BJUjBldmlZR0RJM09CZFhycFFlSmExRC05SEFvR0N1cHdaNWt4LUMxRmFpY2cyVjRfalFlT09EQXZ1XzlqaWt0SEphZFVVNGxDMmtKNUJmN090SFgwY2pfMFRBSXZ2TFpNTGJzRFlmS2ZwZlo4TThGQjhPLWJLa0ZJdmVXUm1OZldxY1hWNFoxYlJXUzF4NTJVMWZv?oc=5",
+        "published_at": "2026-08-29T13:09:27Z"
+      },
+      {
+        "headline": "Gen Zers quit their jobs to start a pickle company\u2014now it\u2019s valued at $8.5 million",
+        "summary": "Good Girl Snacks founders Leah Marcus and Yasaman Bakhitar built their startup's multimillion-dollar valuation with pickle jars and Gen Z branding strategies.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/29/how-two-gen-z-founders-made-hot-girl-pickles-stand-out.html",
+        "published_at": "2026-08-29T13:05:01Z"
+      },
+      {
+        "headline": "Six consequences after six months of war in Iran - Reuters",
+        "summary": "Six consequences after six months of war in Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUEV1S2tFLUNEVG9hdmJ3dEF5YlBmWk8xT0wwWXN3MzZGOVYzX0xITXRLbGNuTUtscXl1Sy10NHlaelVXUHMzZVNYMm42TUVmNVN6UW1pLXV3MDF4YXpaLV82VE5QdXI3R19HemNya2U5LTg1RGFTZXdvdjZ6blJwUWllYVEyaE02cmoyVmdSU3o3SzNZ?oc=5",
+        "published_at": "2026-08-29T04:26:40Z"
+      },
+      {
+        "headline": "War weighs on Iran's economy as US intensifies sanctions - Reuters",
+        "summary": "War weighs on Iran's economy as US intensifies sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?oc=5",
+        "published_at": "2026-08-29T02:04:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 769.35,
+    "spy_change_pct": -0.2269,
+    "spy_lean": "neutral",
+    "vix_close": 14.51,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 78143.71,
+    "coinbase_premium_pct": -0.028516,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-29T21:14:29 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.55,
+        "change_pct": -4.575,
+        "prev_close": 227.98
+      },
+      "AMD": {
+        "close": 465.58,
+        "change_pct": -2.3266,
+        "prev_close": 476.67
+      },
+      "TSM": {
+        "close": 417.52,
+        "change_pct": -2.2888,
+        "prev_close": 427.3
+      },
+      "SMCI": {
+        "close": 37.08,
+        "change_pct": -3.5881,
+        "prev_close": 38.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.43,
+        "change_pct": -0.649,
+        "prev_close": 721.11
+      },
+      "SOXX": {
+        "close": 508.62,
+        "change_pct": -3.1993,
+        "prev_close": 525.43
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78166,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 77,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 13,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.2308,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Polygon discloses security flaws fixed in recent hard forks",
+        "url": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-29T20:28:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cosmos Labs says it wrongly cleared the bug behind a $5.7 million six-chain hack",
+        "url": "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061",
+        "published_at": "2026-08-29T20:15:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
+        "url": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-29T19:12:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bernie Sanders Vows Legislation to 'Stop Flock and AI Mass Surveillance'",
+        "url": "https://decrypt.co/376878/bernie-sanders-ban-flock-ai-surveillance",
+        "published_at": "2026-08-29T17:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+        "url": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-29T16:27:28+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
+        "url": "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026",
+        "published_at": "2026-08-29T15:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former White House teleprompter operator ordered to pay $172,000 for Kalshi trades on mention markets",
+        "url": "https://www.theblock.co/news/regulation/2026-08-29-former-white-house-teleprompter-operator-ordered-to-pay-172000-for-kalshi-trades-on-mention-markets-413058",
+        "published_at": "2026-08-29T13:58:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
+        "url": "https://decrypt.co/376864/bitgo-buys-nydig-institutional-trading-arm",
+        "published_at": "2026-08-29T13:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-29T12:39:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-promoted brand touts GOLD before token collapse",
+        "url": "https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-29T10:53:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
