@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-30T21:14:57 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2639806788321.58,
+    "total_market_cap_change_24h_pct": -2.97,
+    "total_volume_24h_usd": 50010497876.9,
+    "btc_dominance_pct": 59.5376,
+    "eth_dominance_pct": 11.2812,
+    "total2_usd": 1068128903465.56,
+    "total3_usd": 770327902315.19,
+    "active_cryptocurrencies": 19420,
+    "altcoin_season_index": 15,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SKR",
+        "name": "Seeker",
+        "price_change_24h_pct": 138.7652,
+        "price_usd": 0.02623708,
+        "market_cap_usd": 182368890
+      },
+      {
+        "symbol": "HNT",
+        "name": "Helium",
+        "price_change_24h_pct": 121.6725,
+        "price_usd": 0.864321,
+        "market_cap_usd": 160858982
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 62.527,
+        "price_usd": 0.345957,
+        "market_cap_usd": 245818645
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "price_change_24h_pct": 18.519,
+        "price_usd": 0.828452,
+        "market_cap_usd": 133219023
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "price_change_24h_pct": 12.6013,
+        "price_usd": 5.29,
+        "market_cap_usd": 3291464460
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": -15.2191,
+        "price_usd": 0.315754,
+        "market_cap_usd": 131010546
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -11.0001,
+        "price_usd": 0.400147,
+        "market_cap_usd": 1083698234
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -9.1717,
+        "price_usd": 1.02,
+        "market_cap_usd": 280225030
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -7.6678,
+        "price_usd": 0.180551,
+        "market_cap_usd": 180470299
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -7.3609,
+        "price_usd": 0.261253,
+        "market_cap_usd": 261099250
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78474,
+    "price_change_24h_pct": 0.384,
+    "price_change_7d_pct": 1.7,
+    "market_cap_usd": 1575282064621,
+    "volume_24h_usd": 16218645490,
+    "direction": "neutral",
+    "oi_usd": 8392808739.22,
+    "funding_rate_latest": 7.058e-05,
+    "funding_rate_7d_avg": 8.348952380952382e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0496,
+    "long_account_pct": 51.21,
+    "short_account_pct": 48.79,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2473.31,
+    "price_change_24h_pct": 0.8818,
+    "price_change_7d_pct": 1.9,
+    "market_cap_usd": 298434156916,
+    "volume_24h_usd": 8466480866,
+    "eth_btc_ratio": 0.031518,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88794582747.77,
+    "stablecoin_market_cap_usd": 311254821892.11,
+    "stablecoin_dominance_pct": 11.7908
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Iran's Revolutionary Guards vow response to US attack on Larak island - Reuters",
+        "summary": "Iran's Revolutionary Guards vow response to US attack on Larak island\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmw0UHV3Nm1jZS02RVF5ZVY0aWw2S0JlUXI0bUttclN5NkNzem9tMnc1akVuUGd5MXZMdkhMSWxTRGtZa2x1a1dad3psVDI3aTJJQnVHcENXU0k3Zm1kdWw0T0NYek00T1lxSktzSmdHTnd0Q0tEZTJyQ3FrNGZReHhaSi1EeFNtLXlrc1hFd3J3UE5LRjh5N3pWUHRQQmhGekd4Qm9fVnVvZVB1eUM1bGdGQUpqNzQ?oc=5",
+        "published_at": "2026-08-30T20:08:40Z"
+      },
+      {
+        "headline": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil - Reuters",
+        "summary": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r?oc=5",
+        "published_at": "2026-08-30T17:41:00Z"
+      },
+      {
+        "headline": "Iran's Khamenei urges Gulf rulers in written message to confront 'real enemy' - Reuters",
+        "summary": "Iran's Khamenei urges Gulf rulers in written message to confront 'real enemy'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTDhtblJ1TEhZZGpCTjZQVUNEc0lHMmoxXzJYVmoxUzh5V0I2MFVWMTl4SnBGTHN6bjFTd3VmNGh4ek5MdzIxdVI5OV9WNjZ1ZEhnQUFPNXVUWldFaDNDY0ZPX1JwQW4yQXJnaE9SMmRIbWU5bVlYOVE1QnhkVTAwcmRHNjZacUVGRkp3Q2pPczlOT01iLU9MUmRjN0dEN1hTTXdNUmtvUjc2aVZjS2tXZE5ES2IyV2l3WVVKdW00Zw?oc=5",
+        "published_at": "2026-08-30T17:39:12Z"
+      },
+      {
+        "headline": "Merz says Germany finalising response to suspected Leipzig attack - Reuters",
+        "summary": "Merz says Germany finalising response to suspected Leipzig attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObXZkNUhuVmd1NFhwYXByM0hKSVNJcE52WUJrYXNZMkRQMjA4WElMZHZCcFJKN09COWdlSS1wRWlka0prdklCRF9hYVEyaWw4N0Z2UzR1TlA0SjA0TXdMZVNvWVFyaExoM3dxbW1VOXpBQWdUTF81N3UzRWpELU5SYlB6cjVnY2FXa09ONk1hWWZHOExZRFVaeGJpV1NSUW1mV2haSEZ1MA?oc=5",
+        "published_at": "2026-08-30T17:17:43Z"
+      },
+      {
+        "headline": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
+        "summary": "Trump's attack on NBC comes after the Treasury barred journalists from The New York Times, The Wall Street Journal and Bloomberg from attending the G20.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html",
+        "published_at": "2026-08-30T16:55:14Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "Broadcom and Palo Alto Networks report. Plus, it's jobs week.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/30/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-08-30T14:54:49Z"
+      },
+      {
+        "headline": "Nepal steps up rescue effort to reach hundreds trapped in tunnels - Reuters",
+        "summary": "Nepal steps up rescue effort to reach hundreds trapped in tunnels\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNXo4U3I1UGt5SHN2eEwyM0QwQmVtZllCN0RabmhCSUs2czlLRHZiaHhCYjJMUXVseWROVjdtLS1rX1Z4Y3VSejFlSU1aRjlXTzVneTNCekNBclNlSjVPMkFDeEM1YnFpcEpXQzRUVG9aTzlEQnI1LWNaX2diZVY3YkVyZi0zMVF4YlVmQl9iSlI3bm9IYW9KMDMwSnNsWGFYeC1pc2M4X0tLZWs?oc=5",
+        "published_at": "2026-08-30T14:09:43Z"
+      },
+      {
+        "headline": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks - Reuters",
+        "summary": "Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
+        "published_at": "2026-08-30T13:15:45Z"
+      },
+      {
+        "headline": "Turkey, Saudi Arabia, Pakistan to hold first defence pact meeting, source says - Reuters",
+        "summary": "Turkey, Saudi Arabia, Pakistan to hold first defence pact meeting, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGEtTUQ0dGF3WlJacDh2Y2tEZ1BsR3hrRG9BY2ZPQjRFVkloRzJPN1o0UWtRVFRnUjgtVHJvVGFwY3FNVy1mbW1DMTdXek9mdDJZSjUxRy1UQm5kVlRBTzZpcFNrVjFWd1YwOU11TUtDRVk0VHVvbFJWVWRKdDN5TlIyeDhyY3VtdXNSQ2dXLUxhRmt1X2I3QzdpbUhEQV9NMjNxNmZNVkxQbEdaU1dKV0x2Y3E3M2U3VktPNDBiM1h1ZlpVYWc?oc=5",
+        "published_at": "2026-08-30T10:05:06Z"
+      },
+      {
+        "headline": "China Eastern posts wider first-half net loss - Reuters",
+        "summary": "China Eastern posts wider first-half net loss\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3B5anN3N1FSc0hDWmFyeFhDenBPWEpRX2poRnZ6R0xZRkVJTHdqaUlQcWRibTRGUTlSYVB0NTF3dG5KR2JINnJWT3RqbzRUUXgzZzBGXzNRVk14d0NldTQ2TTJqZEhyVGZMVUViZzhnVU9nS2xNdUdiY25UUFg5Y2E5d3hZRnFlaFFjY1JSbFNqcHV6b3ExY0cyUThHT05Rd3c?oc=5",
+        "published_at": "2026-08-30T08:35:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0628,
+    "dxy_lean": "neutral",
+    "spy_close": 769.35,
+    "spy_change_pct": -0.2269,
+    "spy_lean": "neutral",
+    "vix_close": 14.51,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 78522.01,
+    "coinbase_premium_pct": 0.061179,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-30T21:14:57 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.55,
+        "change_pct": -4.575,
+        "prev_close": 227.98
+      },
+      "AMD": {
+        "close": 465.58,
+        "change_pct": -2.3266,
+        "prev_close": 476.67
+      },
+      "TSM": {
+        "close": 417.52,
+        "change_pct": -2.2888,
+        "prev_close": 427.3
+      },
+      "SMCI": {
+        "close": 37.08,
+        "change_pct": -3.5881,
+        "prev_close": 38.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.43,
+        "change_pct": -0.649,
+        "prev_close": 721.11
+      },
+      "SOXX": {
+        "close": 508.62,
+        "change_pct": -3.1993,
+        "prev_close": 525.43
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78474,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 77,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Kalshi becomes exclusive prediction market partner of US Open: report",
+        "url": "https://www.theblock.co/news/deals/2026-08-30-kalshi-becomes-exclusive-prediction-market-partner-of-us-open-report-413074",
+        "published_at": "2026-08-30T20:28:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy\u2019s Bitcoin Is $2.8 Billion in Profit\u2014Is Saylor Teeing Up a Buy?",
+        "url": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+        "published_at": "2026-08-30T19:39:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
+        "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069",
+        "published_at": "2026-08-30T18:40:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Saylor signals Strategy is \u2018Back\u2019 to Bitcoin buying",
+        "url": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-30T17:59:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
+        "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066",
+        "published_at": "2026-08-30T17:51:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
+        "url": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses",
+        "published_at": "2026-08-30T13:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-30T12:49:37+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia\u2019s Sber eyes USDT loans, questions digital ruble demand",
+        "url": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-30T09:55:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Real Trump Coins denies launching GOLD token, blames \u2018bad actors\u2019",
+        "url": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-30T08:04:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Layer 1 blockchain Fogo halts mainnet after attacker receives 400 million FOGO tokens, 10% of circulating supply",
+        "url": "https://www.theblock.co/news/defi/2026-08-29-layer-1-blockchain-fogo-halts-mainnet-after-attacker-receives-400-million-fogo-tokens-10-of-circulating-supply-413064",
+        "published_at": "2026-08-29T21:16:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 5,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
