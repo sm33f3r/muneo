@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-31T21:13:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2667011273363.93,
+    "total_market_cap_change_24h_pct": -1.7726,
+    "total_volume_24h_usd": 87359813667.94,
+    "btc_dominance_pct": 59.1991,
+    "eth_dominance_pct": 11.1555,
+    "total2_usd": 1088163662040.57,
+    "total3_usd": 790646076475.98,
+    "active_cryptocurrencies": 19435,
+    "altcoin_season_index": 28,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SAFE",
+        "name": "SAFEbit",
+        "price_change_24h_pct": 25.2282,
+        "price_usd": 0.223155,
+        "market_cap_usd": 158991540
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": 12.083,
+        "price_usd": 0.099839,
+        "market_cap_usd": 666899132
+      },
+      {
+        "symbol": "BTSE",
+        "name": "BTSE Token",
+        "price_change_24h_pct": 11.0314,
+        "price_usd": 0.771984,
+        "market_cap_usd": 125025008
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "price_change_24h_pct": 11.0105,
+        "price_usd": 0.336074,
+        "market_cap_usd": 521712461
+      },
+      {
+        "symbol": "FLR",
+        "name": "Flare",
+        "price_change_24h_pct": 10.345,
+        "price_usd": 0.00703817,
+        "market_cap_usd": 613100414
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HNT",
+        "name": "Helium",
+        "price_change_24h_pct": -20.8798,
+        "price_usd": 0.682412,
+        "market_cap_usd": 127145721
+      },
+      {
+        "symbol": "POL",
+        "name": "POL (ex-MATIC)",
+        "price_change_24h_pct": -9.0191,
+        "price_usd": 0.090478,
+        "market_cap_usd": 968766062
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -8.6548,
+        "price_usd": 0.204618,
+        "market_cap_usd": 202743668
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -8.3644,
+        "price_usd": 0.086269,
+        "market_cap_usd": 264930241
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "price_change_24h_pct": -7.7995,
+        "price_usd": 0.439741,
+        "market_cap_usd": 226860033
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78833,
+    "price_change_24h_pct": 0.5158,
+    "price_change_7d_pct": 0.1,
+    "market_cap_usd": 1582794398523,
+    "volume_24h_usd": 31996306860,
+    "direction": "neutral",
+    "oi_usd": 8470727016.32,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.219000000000001e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9936,
+    "long_account_pct": 49.84,
+    "short_account_pct": 50.16,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2472.71,
+    "price_change_24h_pct": -0.0586,
+    "price_change_7d_pct": 0.0,
+    "market_cap_usd": 298380693683,
+    "volume_24h_usd": 14629562503,
+    "eth_btc_ratio": 0.031366,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88396968740.96,
+    "stablecoin_market_cap_usd": 310871310152.94,
+    "stablecoin_dominance_pct": 11.6562
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel",
+        "summary": "The risk-reward of buying protection in the equity market looks compelling.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/risk-reward-outlook-for-stocks-is-getting-worse-says-citadel.html",
+        "published_at": "2026-08-31T19:09:07Z"
+      },
+      {
+        "headline": "Lilly taps obesity windfall for more M&A. Plus, Elon Musk remarks pull GE Vernova lower",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/lilly-taps-obesity-windfall-for-more-ma-plus-elon-musk-remarks-pull-ge-vernova-lower.html",
+        "published_at": "2026-08-31T18:27:11Z"
+      },
+      {
+        "headline": "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
+        "summary": "The expectation had been for falling rates this year, but the war with Iran and its resulting rise in oil prices upended that.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/mortgage-rates-surge-middle-east-attacks-oil.html",
+        "published_at": "2026-08-31T17:56:01Z"
+      },
+      {
+        "headline": "Trump reportedly plans to announce new drug pricing deals with nearly a dozen drugmakers",
+        "summary": "The string of deals builds on the Trump administration's push to link the nation's drug prices to cheaper ones abroad.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html",
+        "published_at": "2026-08-31T17:20:45Z"
+      },
+      {
+        "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+        "summary": "Mortgage rates aren't expected to get much cheaper for homebuyers in 2027, especially if inflation stays high.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+        "published_at": "2026-08-31T17:16:59Z"
+      },
+      {
+        "headline": "Why Nvidia and CrowdStrike are up in an otherwise down stock market",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/why-nvidia-and-crowdstrike-are-up-in-an-otherwise-down-stock-market.html",
+        "published_at": "2026-08-31T16:38:01Z"
+      },
+      {
+        "headline": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain - Reuters",
+        "summary": "Europe's STOXX 600 falls as oil prices jump, but secures fifth monthly gain\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzdFeEJfZ24zM2Yxemdobk42RnA2M1RVTWMwdWZ1NDA1X21PTS04d3BMWVZwTkNUTGRCNWdmS2phTUhJdUVZR29TMWVBU3dqUkhtVFdZRVgtUEM5WldFRlNFcGh4U05tdGYtN21pam5uU1hzd19aSlFGaXRzbXlMWFp2ZmZDMXdQeXc3QVRXdDM4UHg4OVlUODdmLTNCVk5PQzZEaQ?oc=5",
+        "published_at": "2026-08-31T16:19:55Z"
+      },
+      {
+        "headline": "Trump was sending message to Iran with Kharg Island post, says Vance - Reuters",
+        "summary": "Trump was sending message to Iran with Kharg Island post, says Vance\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeElJSjJGWk5EandMUHVfb3J5dmhzdzh2eVNWQjdZYnFPaGFzMmNLX2N1c21TQzFtb0tfeTRhTlBJMnlUVThxR1FqNXg2Q0pTanRSMnVlY0s5RDNqcHhqVVE3YjVrTnlTWGVXd3hERnc0N0lsdmJLcEM2Yk5EUnBKSnI4UUZKeDkwY2ZFVm1aRFJYRG8yR3hRV0RzZFhucUNzdnNjcTJGN3lPdVdPQXVwYmVOUHdzS01zRVE?oc=5",
+        "published_at": "2026-08-31T15:46:18Z"
+      },
+      {
+        "headline": "Depleted US oil stash loses potency as Iran war grinds on - Reuters",
+        "summary": "Depleted US oil stash loses potency as Iran war grinds on\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUhmd2cwQ2lLMjFlWXpza0hEZWhGZU1NcGg2eGJ3Y0x4OVA0YWhIUVptWmcxVnU0V0hKRnRJR1FQSU5WT2M4aUZDRngzSDVpczVybkN5dUEyZ0FrdFFSaVlxZ0I2WjVLTEprenVzY2VCdFN2c0NXQXhldWxzN1daOGNya2RjMkZsSHN2ZXhuS19kdXJvS3VBYkk4OFVIYmtyN2JoRFJR?oc=5",
+        "published_at": "2026-08-31T15:33:05Z"
+      },
+      {
+        "headline": "We're trimming one of our top-performing tech stocks to lock in some gains",
+        "summary": "This sale does not reflect a call on earnings Tuesday evening after the closing bell.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/were-trimming-a-top-performing-stock-to-lock-in-some-gains.html",
+        "published_at": "2026-08-31T15:23:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 767.02,
+    "spy_change_pct": -0.3029,
+    "spy_lean": "neutral",
+    "vix_close": 14.43,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 78808.41,
+    "coinbase_premium_pct": -0.031193,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-08-31T21:13:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 220.78,
+        "change_pct": 1.4847,
+        "prev_close": 217.55
+      },
+      "AMD": {
+        "close": 470.72,
+        "change_pct": 1.104,
+        "prev_close": 465.58
+      },
+      "TSM": {
+        "close": 415.32,
+        "change_pct": -0.5269,
+        "prev_close": 417.52
+      },
+      "SMCI": {
+        "close": 37.28,
+        "change_pct": 0.5394,
+        "prev_close": 37.08
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.76,
+        "change_pct": 0.0461,
+        "prev_close": 716.43
+      },
+      "SOXX": {
+        "close": 511.04,
+        "change_pct": 0.4758,
+        "prev_close": 508.62
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78833,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 75,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 42,
+    "positive_count": 6,
+    "negative_count": 6,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.1429,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
+        "url": "https://decrypt.co/376992/strive-adds-143-million-bitcoin",
+        "published_at": "2026-08-31T21:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-31T20:32:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ireland excludes crypto from new tax-advantaged investment accounts",
+        "url": "https://cointelegraph.com/news/ireland-crypto-tax-advantaged-investment-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-31T20:25:25+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "George Santos Bet on Whether He'd Show Up to the State of the Union\u2014Kalshi Just Banned Him for Life",
+        "url": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban",
+        "published_at": "2026-08-31T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana fees hit record as validators double pace of inflation cuts",
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-31-solana-fees-hit-record-as-validators-double-pace-of-inflation-cuts-413135",
+        "published_at": "2026-08-31T20:14:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+        "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+        "published_at": "2026-08-31T19:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia's Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
+        "url": "https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt",
+        "published_at": "2026-08-31T18:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid seeks US foothold through Kraken parent Payward in crypto perpetuals deal: Bloomberg",
+        "url": "https://www.theblock.co/news/markets/2026-08-31-hyperliquid-eyes-us-entry-kraken-parent-payward-perpetual-futures-deal-bloomberg-413129",
+        "published_at": "2026-08-31T18:16:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenSea adds Solana NFT trading more than four years after initial beta",
+        "url": "https://www.theblock.co/news/markets/2026-08-31-opensea-solana-nft-trading-413128",
+        "published_at": "2026-08-31T18:11:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid in Talks With Kraken Parent to Bring Crypto Perps to US Traders",
+        "url": "https://decrypt.co/376963/hyperliquid-crypto-perps-us-kraken-parent",
+        "published_at": "2026-08-31T17:54:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
