@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-01T21:11:59 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2619980228129.99,
+    "total_market_cap_change_24h_pct": -4.2395,
+    "total_volume_24h_usd": 81220118875.5,
+    "btc_dominance_pct": 59.1084,
+    "eth_dominance_pct": 11.1043,
+    "total2_usd": 1071352020482.36,
+    "total3_usd": 780422590852.68,
+    "active_cryptocurrencies": 19472,
+    "altcoin_season_index": 58,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": 58.4149,
+        "price_usd": 0.58753,
+        "market_cap_usd": 139924863
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 19.9281,
+        "price_usd": 0.110557,
+        "market_cap_usd": 110636344
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 14.9671,
+        "price_usd": 0.421424,
+        "market_cap_usd": 300367495
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": 14.5719,
+        "price_usd": 0.774668,
+        "market_cap_usd": 644341568
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 11.7073,
+        "price_usd": 0.0087242,
+        "market_cap_usd": 198876323
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SKR",
+        "name": "Seeker",
+        "price_change_24h_pct": -19.8618,
+        "price_usd": 0.02328915,
+        "market_cap_usd": 162002969
+      },
+      {
+        "symbol": "A7A5",
+        "name": "A7A5",
+        "price_change_24h_pct": -16.9693,
+        "price_usd": 0.00959646,
+        "market_cap_usd": 376494216
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "price_change_24h_pct": -10.6739,
+        "price_usd": 0.261452,
+        "market_cap_usd": 108468594
+      },
+      {
+        "symbol": "SAFE",
+        "name": "SAFEbit",
+        "price_change_24h_pct": -9.6278,
+        "price_usd": 0.202689,
+        "market_cap_usd": 144268115
+      },
+      {
+        "symbol": "DOG",
+        "name": "Dog (Bitcoin)",
+        "price_change_24h_pct": -8.4799,
+        "price_usd": 0.00116777,
+        "market_cap_usd": 116786013
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77136,
+    "price_change_24h_pct": -2.0393,
+    "price_change_7d_pct": -1.9,
+    "market_cap_usd": 1549205547189,
+    "volume_24h_usd": 29632866057,
+    "direction": "bearish",
+    "oi_usd": 8395283229.12,
+    "funding_rate_latest": 3.844e-05,
+    "funding_rate_7d_avg": 8.052714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2568,
+    "long_account_pct": 55.69,
+    "short_account_pct": 44.31,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2409.7,
+    "price_change_24h_pct": -2.5483,
+    "price_change_7d_pct": -1.8,
+    "market_cap_usd": 290911840573,
+    "volume_24h_usd": 12145545541,
+    "eth_btc_ratio": 0.03124,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85335020661.95,
+    "stablecoin_market_cap_usd": 310129432211.31,
+    "stablecoin_dominance_pct": 11.8371
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+        "summary": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+        "published_at": "2026-09-01T20:12:35Z"
+      },
+      {
+        "headline": "Stan Kroenke buys controlling stake in MLB's Los Angeles Angels",
+        "summary": "Kroenke Sports and Entertainment was valued at more than $26 billion in CNBC's most recent list of the world's most valuable sports empire.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html",
+        "published_at": "2026-09-01T19:40:10Z"
+      },
+      {
+        "headline": "We're sitting on more cash than at any time this year. Here's why",
+        "summary": "Cash management is an important part of managing risk. This current market demands our attention.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/were-sitting-on-more-cash-than-at-any-time-this-year-heres-why.html",
+        "published_at": "2026-09-01T18:02:14Z"
+      },
+      {
+        "headline": "Jim Cramer says selling Amazon shares over new FTC lawsuit would be 'hysterical'",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/cramer-selling-amazon-shares-over-new-ftc-lawsuit-would-be-hysterical.html",
+        "published_at": "2026-09-01T16:19:13Z"
+      },
+      {
+        "headline": "Students are reconsidering their majors, career paths and industries due to AI: CNBC survey",
+        "summary": "As AI continues to reshape industries, some students are wondering what their careers will look like once they graduate.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/students-are-reconsidering-majors-career-paths-due-to-ai-cnbc-survey.html",
+        "published_at": "2026-09-01T16:17:59Z"
+      },
+      {
+        "headline": "AI token prices are hitting new record lows",
+        "summary": "A closely followed measure of artificial intelligence token prices touched fresh lows.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html",
+        "published_at": "2026-09-01T16:08:31Z"
+      },
+      {
+        "headline": "We're exiting a data center stock to protect big gains as the AI trade hits a rough patch",
+        "summary": "We are concerned about AI exposure, given how the group has even disregarded good news.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/were-exiting-a-data-center-stock-to-protect-big-gains-as-the-ai-trade-hits-a-rough-patch.html",
+        "published_at": "2026-09-01T15:54:28Z"
+      },
+      {
+        "headline": "U.S. House aims to avoid government shutdown amid GOP hardliner resistance",
+        "summary": "The U.S. House on Tuesday is expected to vote on a short-term spending measure that would avoid a government shutdown until after November's midterm election.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/congress-government-shutdown-vote.html",
+        "published_at": "2026-09-01T13:51:58Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+        "summary": "Robinhood lands an upgrades. And is there a path for rates to go lower?",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published_at": "2026-09-01T12:59:37Z"
+      },
+      {
+        "headline": "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
+        "summary": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
+        "published_at": "2026-09-01T10:47:52Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 761.72,
+    "spy_change_pct": -0.6949,
+    "spy_lean": "bearish",
+    "vix_close": 14.92,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77044.84,
+    "coinbase_premium_pct": -0.118181,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-01T21:11:59 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.44,
+        "change_pct": -1.5128,
+        "prev_close": 220.78
+      },
+      "AMD": {
+        "close": 459.61,
+        "change_pct": -2.3602,
+        "prev_close": 470.72
+      },
+      "TSM": {
+        "close": 414.0,
+        "change_pct": -0.3178,
+        "prev_close": 415.32
+      },
+      "SMCI": {
+        "close": 36.71,
+        "change_pct": -1.529,
+        "prev_close": 37.28
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 707.64,
+        "change_pct": -1.2724,
+        "prev_close": 716.76
+      },
+      "SOXX": {
+        "close": 500.31,
+        "change_pct": -2.0996,
+        "prev_close": 511.04
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77136,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 14,
+    "negative_count": 5,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.2545,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Robinhood Chain DEX Volume Jumps to $1.6 billion",
+        "url": "https://decrypt.co/377126/robinhood-chain-dex-volume-jumps",
+        "published_at": "2026-09-01T21:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance expands TradFi push with options on 1,000 US stocks, ETFs",
+        "url": "https://cointelegraph.com/news/binance-adds-options-on-1000-us-stocks-and-etfs-in-tradfi-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-01T20:42:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One",
+        "url": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse",
+        "published_at": "2026-09-01T20:31:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK crime agency froze $13.5M amid probe into Premier League crypto sponsor",
+        "url": "https://cointelegraph.com/news/uk-crime-agency-froze-premier-league-crypto-partner-sorare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-01T20:14:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw",
+        "url": "https://decrypt.co/377099/dropbox-security-breach",
+        "published_at": "2026-09-01T20:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-01T20:00:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Buying memecoins with credit cards on Robinhood Wallet and Fomo appears to sidestep card-network crypto rules",
+        "url": "https://www.theblock.co/news/business/2026-09-01-buying-memecoins-with-credit-cards-on-robinhood-wallet-fomo-sidestep-card-network-crypto-rules-411911",
+        "published_at": "2026-09-01T19:33:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Ships Claude Fable 5.1, More Than Doubling Its Predecessor on Key Benchmark",
+        "url": "https://decrypt.co/377078/anthropic-claude-fable-5-1",
+        "published_at": "2026-09-01T19:29:12+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin's Next Move: Bullish Bets Run Up Against a Historical Wall",
+        "url": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall",
+        "published_at": "2026-09-01T18:22:09+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto treasury companies hit $340 billion market cap as altcoin DATs outperform",
+        "url": "https://www.theblock.co/news/markets/2026-09-01-crypto-treasury-companies-hit-340-billion-market-cap-as-altcoin-dats-outperform-413142",
+        "published_at": "2026-09-01T18:11:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 7,
+    "neutral_count": 7,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
