@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-02T21:10:44 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2619281844757.12,
+    "total_market_cap_change_24h_pct": -2.6505,
+    "total_volume_24h_usd": 75448634438.73,
+    "btc_dominance_pct": 59.0902,
+    "eth_dominance_pct": 11.108,
+    "total2_usd": 1071542590778.75,
+    "total3_usd": 780594053206.16,
+    "active_cryptocurrencies": 19509,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 140.2035,
+        "price_usd": 0.02094996,
+        "market_cap_usd": 475486604
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 28.0127,
+        "price_usd": 0.531619,
+        "market_cap_usd": 1439088473
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 22.315,
+        "price_usd": 0.272937,
+        "market_cap_usd": 269761385
+      },
+      {
+        "symbol": "EGLD",
+        "name": "MultiversX",
+        "price_change_24h_pct": 20.8839,
+        "price_usd": 4.75,
+        "market_cap_usd": 146104883
+      },
+      {
+        "symbol": "A7A5",
+        "name": "A7A5",
+        "price_change_24h_pct": 19.7048,
+        "price_usd": 0.01148734,
+        "market_cap_usd": 450667335
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": -19.117,
+        "price_usd": 0.47793,
+        "market_cap_usd": 114610934
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -12.1354,
+        "price_usd": 0.00743165,
+        "market_cap_usd": 426901755
+      },
+      {
+        "symbol": "CVX",
+        "name": "Convex Finance",
+        "price_change_24h_pct": -7.8704,
+        "price_usd": 2.25,
+        "market_cap_usd": 209453151
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "price_change_24h_pct": -7.8411,
+        "price_usd": 0.00462889,
+        "market_cap_usd": 228839820
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -7.8023,
+        "price_usd": 0.156046,
+        "market_cap_usd": 156041557
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77294,
+    "price_change_24h_pct": 0.0496,
+    "price_change_7d_pct": -1.3,
+    "market_cap_usd": 1551961953284,
+    "volume_24h_usd": 27410622437,
+    "direction": "neutral",
+    "oi_usd": 8356748248.66,
+    "funding_rate_latest": 3.819e-05,
+    "funding_rate_7d_avg": 8.007952380952382e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2139,
+    "long_account_pct": 54.83,
+    "short_account_pct": 45.17,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2391.3,
+    "price_change_24h_pct": -0.7786,
+    "price_change_7d_pct": -3.1,
+    "market_cap_usd": 291746937490,
+    "volume_24h_usd": 13173435778,
+    "eth_btc_ratio": 0.030938,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85284567518.79,
+    "stablecoin_market_cap_usd": 309637852350.9,
+    "stablecoin_dominance_pct": 11.8215
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
+        "summary": "The NBA also fined the Los Angeles Clippers $30 million and said the team will forfeit five first-round picks, one in each year in drafts starting in 2029.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html",
+        "published_at": "2026-09-02T20:59:37Z"
+      },
+      {
+        "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
+        "summary": "Broadcom gave a disappointing revenue forecast for the current quarter.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
+        "published_at": "2026-09-02T20:27:45Z"
+      },
+      {
+        "headline": "Judge refuses to block Arkansas news reporting on Google data center energy documents",
+        "summary": "Entergy Arkansas said the documents cited by the Arkansas Democrat-Gazette contained \"trade secrets\" and \"highly sensitive protected information.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/google-data-center-arkansas-entergy-court.html",
+        "published_at": "2026-09-02T19:57:30Z"
+      },
+      {
+        "headline": "We're starting positions in 2 more defensive stocks to balance our AI exposure",
+        "summary": "We're adding a couple of new positions to the portfolio following Tuesday's exit of a data center name.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/were-starting-positions-in-2-more-defensive-stocks-to-balance-our-ai-exposure.html",
+        "published_at": "2026-09-02T16:19:02Z"
+      },
+      {
+        "headline": "What to watch in Broadcom\u2019s upcoming earnings \u2013 and why Nvidia is running",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/what-to-watch-in-broadcoms-upcoming-earnings-and-why-nvidia-is-running-.html",
+        "published_at": "2026-09-02T15:54:23Z"
+      },
+      {
+        "headline": "These women were laid off while on maternity leave. Yes, it's legal, and probably more common than you thought",
+        "summary": "It's never a good time to be laid off. Losing your job with a newborn can be especially hard.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/getting-laid-off-on-maternity-leave.html",
+        "published_at": "2026-09-02T15:44:18Z"
+      },
+      {
+        "headline": "Private equity funds are losing to the S&P 500 of late\u2014why investments for the wealthy aren't necessarily better",
+        "summary": "Private equity has lagged the S&P 500 in the last few years despite longer-term outperformance.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html",
+        "published_at": "2026-09-02T14:08:48Z"
+      },
+      {
+        "headline": "American Airlines continues premium push with redesigned Boeing planes",
+        "summary": "American Airlines is adding its most premium seats to its largest planes, which it uses for its most popular long international flights.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html",
+        "published_at": "2026-09-02T14:00:01Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+        "summary": "Dell might've delivered the best quarter of the year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+        "published_at": "2026-09-02T12:51:28Z"
+      },
+      {
+        "headline": "Apple shares are doing something they haven't done in 20 years. Here\u2019s what\u2019s happening",
+        "summary": "Apple stock hasn't been this inversely correlated to its tech peers since 2005.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
+        "published_at": "2026-09-02T12:10:05Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 765.2,
+    "spy_change_pct": 0.4489,
+    "spy_lean": "neutral",
+    "vix_close": 16.34,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77317.98,
+    "coinbase_premium_pct": 0.031024,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-02T21:10:44 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 224.41,
+        "change_pct": 3.2055,
+        "prev_close": 217.44
+      },
+      "AMD": {
+        "close": 457.06,
+        "change_pct": -0.5548,
+        "prev_close": 459.61
+      },
+      "TSM": {
+        "close": 415.5,
+        "change_pct": 0.3623,
+        "prev_close": 414.0
+      },
+      "SMCI": {
+        "close": 37.0,
+        "change_pct": 0.79,
+        "prev_close": 36.71
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.24,
+        "change_pct": 0.2261,
+        "prev_close": 707.64
+      },
+      "SOXX": {
+        "close": 501.44,
+        "change_pct": 0.2259,
+        "prev_close": 500.31
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77294,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 71,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 8,
+    "negative_count": 8,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1429,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Anthony Armstrong, former CFO at Elon Musk\u2019s xAI and X, joins Coinbase board",
+        "url": "https://www.theblock.co/news/business/2026-09-02-anthony-armstrong-former-cfo-elon-musk-xai-x-joins-coinbase-board-413405",
+        "published_at": "2026-09-02T21:03:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase launches regulated crypto derivatives in Canada",
+        "url": "https://cointelegraph.com/news/coinbase-launches-regulated-crypto-derivatives-in-canada?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-02T20:55:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Top Pentagon AI Official Sold Millions in Perplexity Stock, Disclosures Show",
+        "url": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock",
+        "published_at": "2026-09-02T20:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch",
+        "url": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin",
+        "published_at": "2026-09-02T20:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'The Right Trade': Strategy CEO Has No Regrets Selling Bitcoin at $60K Before Buying Back Higher",
+        "url": "https://decrypt.co/377215/right-trade-strategy-no-regrets-selling-bitcoin",
+        "published_at": "2026-09-02T19:15:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-02T19:11:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Jersey officials petition US Supreme Court over prediction markets",
+        "url": "https://cointelegraph.com/news/new-jersey-supreme-court-kalshi-prediction-markets-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-02T18:55:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wyoming adds Chainlink reserve verification to state-issued stable token",
+        "url": "https://cointelegraph.com/news/wyoming-chainlink-onchain-reserves-of-state-issued-stable-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-02T18:38:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Is Bitcoin About to Flash Crash? What a 'Bart Simpson' Pattern Would Actually Take",
+        "url": "https://decrypt.co/377185/bitcoin-flash-crash-real-bart-simpson-pattern",
+        "published_at": "2026-09-02T18:30:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New Jersey asks Supreme Court to decide who regulates sports betting on prediction markets",
+        "url": "https://www.theblock.co/news/regulation/2026-09-02-new-jersey-asks-supreme-court-to-decide-who-regulates-sports-betting-on-prediction-markets-413398",
+        "published_at": "2026-09-02T18:18:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
