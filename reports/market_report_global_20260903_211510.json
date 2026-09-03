@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-03T21:14:14 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2743319953577.68,
+    "total_market_cap_change_24h_pct": 1.9531,
+    "total_volume_24h_usd": 100352302153.89,
+    "btc_dominance_pct": 59.3682,
+    "eth_dominance_pct": 11.1031,
+    "total2_usd": 1114659501845.28,
+    "total3_usd": 810065170797.21,
+    "active_cryptocurrencies": 19535,
+    "altcoin_season_index": 29,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 54.4523,
+        "price_usd": 0.189139,
+        "market_cap_usd": 189185396
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 44.2925,
+        "price_usd": 0.613211,
+        "market_cap_usd": 214626624
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 40.4097,
+        "price_usd": 0.588224,
+        "market_cap_usd": 418697755
+      },
+      {
+        "symbol": "HNT",
+        "name": "Helium",
+        "price_change_24h_pct": 32.4549,
+        "price_usd": 0.663668,
+        "market_cap_usd": 123811754
+      },
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": 19.924,
+        "price_usd": 0.790842,
+        "market_cap_usd": 118680523
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -27.8294,
+        "price_usd": 0.01536261,
+        "market_cap_usd": 350143409
+      },
+      {
+        "symbol": "SKR",
+        "name": "Seeker",
+        "price_change_24h_pct": -20.2019,
+        "price_usd": 0.01941709,
+        "market_cap_usd": 135483633
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -7.6265,
+        "price_usd": 0.49626,
+        "market_cap_usd": 1344249103
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -3.2048,
+        "price_usd": 0.136847,
+        "market_cap_usd": 327234904
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": -2.7749,
+        "price_usd": 0.05628,
+        "market_cap_usd": 443226199
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81452,
+    "price_change_24h_pct": 5.37,
+    "price_change_7d_pct": 1.9,
+    "market_cap_usd": 1635220172695,
+    "volume_24h_usd": 36984516856,
+    "direction": "bullish",
+    "oi_usd": 9151846452.59,
+    "funding_rate_latest": 8.893e-05,
+    "funding_rate_7d_avg": 8.061285714285715e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.8012,
+    "long_account_pct": 44.48,
+    "short_account_pct": 55.52,
+    "btc_ls_lean": "bullish"
+  },
+  "eth": {
+    "price_usd": 2507.41,
+    "price_change_24h_pct": 4.7996,
+    "price_change_7d_pct": 0.2,
+    "market_cap_usd": 305932174931,
+    "volume_24h_usd": 15930314263,
+    "eth_btc_ratio": 0.030784,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88327493027.8,
+    "stablecoin_market_cap_usd": 310230340288.56,
+    "stablecoin_dominance_pct": 11.3086
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 32,
+    "headlines": [
+      {
+        "headline": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
+        "summary": "Adobe announced Anil Chakravarthy as its next CEO, replacing Shantanu Narayen, who announced his departure last March.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
+        "published_at": "2026-09-03T20:29:28Z"
+      },
+      {
+        "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - Reuters",
+        "summary": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
+        "published_at": "2026-09-03T20:13:57Z"
+      },
+      {
+        "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
+        "summary": "Vance: US probing airstrike that Iran says hit a wedding party\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
+        "published_at": "2026-09-03T18:31:32Z"
+      },
+      {
+        "headline": "We're lifting our price targets on 2 stocks that have shaken off AI disruption concerns",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/were-lifting-our-price-targets-on-2-stocks-that-have-shaken-off-ai-disruption-concerns.html",
+        "published_at": "2026-09-03T18:27:33Z"
+      },
+      {
+        "headline": "What's behind Nvidia buying Hugging Face? A past Microsoft deal offers clues",
+        "summary": "This is nothing new to the world of Big Tech.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/whats-behind-nvidia-buying-hugging-face-look-to-microsoft.html",
+        "published_at": "2026-09-03T18:14:30Z"
+      },
+      {
+        "headline": "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
+        "summary": "Options traders are kicking off the historically worst month for stocks by piling on bullish bets on a handful of retail trading favorites.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html",
+        "published_at": "2026-09-03T17:56:53Z"
+      },
+      {
+        "headline": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
+        "summary": "Major automakers in the U.S. are urging Congress to ban the domestic sale, import and manufacturing of Chinese connected vehicles, hardware and software.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
+        "published_at": "2026-09-03T16:51:13Z"
+      },
+      {
+        "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - Reuters",
+        "summary": "US to seek back payment from Europe for Ukraine aid, Trump says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5",
+        "published_at": "2026-09-03T15:59:00Z"
+      },
+      {
+        "headline": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
+        "summary": "For stock investors, 2026 has meant constantly adjusting to geopolitical and economic pressures \u2014 and most importantly, protecting profits.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/big-lessons-from-12-stock-exits-including-cramers-biggest-ever-disappointment-.html",
+        "published_at": "2026-09-03T15:53:06Z"
+      },
+      {
+        "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - Reuters",
+        "summary": "US pressure on Iran starting to tell, as sanctions and blockade bite\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
+        "published_at": "2026-09-03T15:04:15Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 773.15,
+    "spy_change_pct": 1.0442,
+    "spy_lean": "bullish",
+    "vix_close": 15.2,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81615.14,
+    "coinbase_premium_pct": 0.20029,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-03T21:14:14 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 228.45,
+        "change_pct": 1.8003,
+        "prev_close": 224.41
+      },
+      "AMD": {
+        "close": 456.16,
+        "change_pct": -0.1969,
+        "prev_close": 457.06
+      },
+      "TSM": {
+        "close": 417.01,
+        "change_pct": 0.3634,
+        "prev_close": 415.5
+      },
+      "SMCI": {
+        "close": 37.87,
+        "change_pct": 2.3514,
+        "prev_close": 37.0
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 717.67,
+        "change_pct": 1.1886,
+        "prev_close": 709.24
+      },
+      "SOXX": {
+        "close": 502.2,
+        "change_pct": 0.1516,
+        "prev_close": 501.44
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81452,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 78,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 46,
+    "positive_count": 8,
+    "negative_count": 12,
+    "neutral_count": 26,
+    "sentiment_ratio": 0.1739,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
+        "url": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-03T21:09:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase seeks SEC greenlight to list 24/7 equity perpetuals",
+        "url": "https://www.theblock.co/news/regulation/2026-09-03-coinbase-seeks-sec-greenlight-to-list-24-7-equity-perpetuals-413487",
+        "published_at": "2026-09-03T20:46:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is Pons? The Robinhood Chain Meme Coin Factory Token Up 18,000% Since July",
+        "url": "https://decrypt.co/377349/pons-robinhood-chain-meme-coin-token-factory",
+        "published_at": "2026-09-03T20:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-03T20:30:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bernie Sanders Pushes Bill to Ban Advanced AI Development",
+        "url": "https://decrypt.co/377340/bernie-sanders-ban-advanced-ai",
+        "published_at": "2026-09-03T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto market cap surges to $2.82 trillion as Zcash leads rally alongside stocks",
+        "url": "https://www.theblock.co/news/markets/2026-09-03-crypto-market-cap-surges-2-82-trillion-zcash-leads-rally-alongside-stocks-413478",
+        "published_at": "2026-09-03T20:09:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mantle adds Paxos\u2019 USDG stablecoin, joins Global Dollar Network",
+        "url": "https://cointelegraph.com/news/paxos-usdg-goes-live-mantle-network-joins-global-dollar-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-03T19:36:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Releases GPT-6 Astra: The Closest AI Model Yet to AGI",
+        "url": "https://decrypt.co/377341/openai-releases-gpt-6-astra-agi",
+        "published_at": "2026-09-03T19:24:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Michigan authorities continue pursuit to block Kalshi as Supreme Court fight looms",
+        "url": "https://cointelegraph.com/news/michigan-block-kalshi-supreme-court-legal-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-03T19:11:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin reclaims $80K as DXY falls amid continuing suspected yen intervention",
+        "url": "https://cointelegraph.com/markets/bitcoin-reclaims-810-dxy-falls-amid-continuing-suspected-yen-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-03T18:44:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 6,
+    "bearish_count": 3,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
