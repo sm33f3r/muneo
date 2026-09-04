@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-04T21:14:50 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2699124798797.13,
+    "total_market_cap_change_24h_pct": -4.3208,
+    "total_volume_24h_usd": 103748657336.12,
+    "btc_dominance_pct": 59.2297,
+    "eth_dominance_pct": 11.07,
+    "total2_usd": 1100440517451.49,
+    "total3_usd": 801647527274.62,
+    "active_cryptocurrencies": 19572,
+    "altcoin_season_index": 36,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": 79.245,
+        "price_usd": 0.189493,
+        "market_cap_usd": 189148691
+      },
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": 42.4284,
+        "price_usd": 0.487304,
+        "market_cap_usd": 116522316
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 33.2139,
+        "price_usd": 0.251024,
+        "market_cap_usd": 251023925
+      },
+      {
+        "symbol": "XCN",
+        "name": "Onyxcoin",
+        "price_change_24h_pct": 26.8336,
+        "price_usd": 0.00446665,
+        "market_cap_usd": 175884144
+      },
+      {
+        "symbol": "DASH",
+        "name": "Dash",
+        "price_change_24h_pct": 22.8604,
+        "price_usd": 57.55,
+        "market_cap_usd": 737647773
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -21.0558,
+        "price_usd": 0.142035,
+        "market_cap_usd": 132439577
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -17.146,
+        "price_usd": 0.220647,
+        "market_cap_usd": 218735000
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -16.4819,
+        "price_usd": 0.25421,
+        "market_cap_usd": 251301325
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -14.4744,
+        "price_usd": 0.01304976,
+        "market_cap_usd": 297539126
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -11.9267,
+        "price_usd": 1.018,
+        "market_cap_usd": 279625900
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79799,
+    "price_change_24h_pct": -2.1806,
+    "price_change_7d_pct": 2.8,
+    "market_cap_usd": 1602341217723,
+    "volume_24h_usd": 37981947771,
+    "direction": "bearish",
+    "oi_usd": 8584662068.03,
+    "funding_rate_latest": 4.455e-05,
+    "funding_rate_7d_avg": 7.919380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0259,
+    "long_account_pct": 50.64,
+    "short_account_pct": 49.36,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2454.48,
+    "price_change_24h_pct": -2.2083,
+    "price_change_7d_pct": 0.7,
+    "market_cap_usd": 299479307521,
+    "volume_24h_usd": 17153681835,
+    "eth_btc_ratio": 0.030758,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87428754148.29,
+    "stablecoin_market_cap_usd": 311125494154.73,
+    "stablecoin_dominance_pct": 11.5269
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
+        "summary": "President Trump has said damage to the Reflecting Pool was due to vandalism, not to a flawed installation of a new liner as prosecutors say.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html",
+        "published_at": "2026-09-04T20:22:09Z"
+      },
+      {
+        "headline": "Trump says US may hit Iran's Pickaxe Mountain soon - Reuters",
+        "summary": "Trump says US may hit Iran's Pickaxe Mountain soon\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmd2SXBwYUJhclYxN0pLMDhjUXVmeHhzUTRPY0FsM3hPZlN4YkprT2Y0R0l6Z3U5UXNWVjRDcFJUN2NNa1FsaXlIejlDUXVpbWh4UWJNdUZzZUZpdGN5WkxQa24zYkktU191MTZsV0VwNXcwRzVPRHA4YjlCUUwwajE4akV3Y3pLX0thQXEtTTlSRkJRMGc?oc=5",
+        "published_at": "2026-09-04T20:11:43Z"
+      },
+      {
+        "headline": "Trump says Witkoff, Kushner heading abroad to discuss Ukraine peace - Reuters",
+        "summary": "Trump says Witkoff, Kushner heading abroad to discuss Ukraine peace\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
+        "published_at": "2026-09-04T19:27:03Z"
+      },
+      {
+        "headline": "What strong jobs data means for rates \u2014 plus, an out-of-favor trade shines this week",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
+        "published_at": "2026-09-04T18:51:01Z"
+      },
+      {
+        "headline": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters",
+        "summary": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
+        "published_at": "2026-09-04T18:22:57Z"
+      },
+      {
+        "headline": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - Reuters",
+        "summary": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
+        "published_at": "2026-09-04T18:12:50Z"
+      },
+      {
+        "headline": "Cybercabs are a game changer, says Mike Khouw. Here's how he's trading Tesla",
+        "summary": "The strategist at YieldMaxETFs breaks down how a bullish bet on Tesla could pay off for options traders.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html",
+        "published_at": "2026-09-04T16:56:28Z"
+      },
+      {
+        "headline": "WBNA Commissioner Cathy Engelbert to retire at the end of 2026",
+        "summary": "Engelbert oversaw a period of unprecedented growth for the WNBA, but has faced criticism from players over her leadership.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/04/wbna-commissioner-cathy-engelbert-to-retire-at-the-end-of-2026-.html",
+        "published_at": "2026-09-04T15:56:07Z"
+      },
+      {
+        "headline": "US and allies push IAEA board to report Iran to UN Security Council, diplomats say - Reuters",
+        "summary": "US and allies push IAEA board to report Iran to UN Security Council, diplomats say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWN6cU9lV0RMREdsVnRUZW1vS0tKZk9tZUJmMnFpTTdNM2c4c2J2bUtzOElSbjA2WnFCQzdZSnotczdsYnNPRWFLckFyV0EwNWg1akIyTFo4NDF4ODVMTnVSNnBjcWREd1Q4dWk3Q3FyWFkwMFdLbzY5YU9yLVkySDlEOGJBVktZQTJ1d2NJMkJSUGpKaks5dTNUb2xySnVBb3VGUUdILXZpaVZqeHVtcWR4Nm03M1oxNUFUNA?oc=5",
+        "published_at": "2026-09-04T15:36:48Z"
+      },
+      {
+        "headline": "Only a quarter of Americans think Iran war is worthwhile, Reuters/Ipsos poll shows - Reuters",
+        "summary": "Only a quarter of Americans think Iran war is worthwhile, Reuters/Ipsos poll shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDktVk9zLXloNkRZVGMzYVRQWUVwOFZwYmdWVEVVeXAwcWNBWnNHYTBXdU44UUlOdkVKV0xwWEZfSUFDWkNHenVHemlDM1dWWWI3c3FiYmhhOE5HT1JhbHpRNUFOSVc3MFRjVTJwQTRrNjlteWE2MG50a2V0WnRVdnkwYjVxUFpFbWtZem44Y0M2bjVpTGRIUlNvcjY3V21jUTBGTVNoR2M1a1lRNXhPMVRMSk9VVVJE?oc=5",
+        "published_at": "2026-09-04T14:56:55Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 770.24,
+    "spy_change_pct": -0.379,
+    "spy_lean": "neutral",
+    "vix_close": 14.32,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 79808.28,
+    "coinbase_premium_pct": 0.011629,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-04T21:14:50 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 230.36,
+        "change_pct": 0.8361,
+        "prev_close": 228.45
+      },
+      "AMD": {
+        "close": 477.57,
+        "change_pct": 4.6935,
+        "prev_close": 456.16
+      },
+      "TSM": {
+        "close": 428.91,
+        "change_pct": 2.8536,
+        "prev_close": 417.01
+      },
+      "SMCI": {
+        "close": 39.59,
+        "change_pct": 4.5419,
+        "prev_close": 37.87
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.96,
+        "change_pct": 0.1797,
+        "prev_close": 717.67
+      },
+      "SOXX": {
+        "close": 519.86,
+        "change_pct": 3.5165,
+        "prev_close": 502.2
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 79799,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 75,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 50,
+    "positive_count": 12,
+    "negative_count": 1,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.24,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
+        "url": "https://decrypt.co/377483/polymarket-crypto-perpetual-futures",
+        "published_at": "2026-09-04T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
+        "url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-04T20:30:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pineapple Financial puts $1B in mortgage records on Injective",
+        "url": "https://cointelegraph.com/news/pineapple-financial-puts-1b-in-mortgage-records-on-injective?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-04T19:31:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FinCEN ties $13B in crypto scams to non-US operations",
+        "url": "https://cointelegraph.com/news/fincen-crypto-overseas-scam-centers-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-04T19:22:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Traders Are Pairing Meme Coins With Stocks on Robinhood\u2014And It's Working (Sort Of)",
+        "url": "https://decrypt.co/377463/crypto-meme-coin-stock-pairs-robinhood",
+        "published_at": "2026-09-04T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'Send Your Lawyers': Robinhood Isn't Backing Down From AMC Over Stock Tokens",
+        "url": "https://decrypt.co/377461/send-your-lawyers-robinhood-not-backing-down-amc",
+        "published_at": "2026-09-04T18:36:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "President Trump says he wants Hyperliquid to enter the US \u2014 here\u2019s how it could happen",
+        "url": "https://www.theblock.co/news/regulation/2026-09-04-trump-wants-hyperliquid-enter-us-how-it-could-happen-413594",
+        "published_at": "2026-09-04T18:35:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-04T18:31:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Biz: AI took a back seat when Bitcoin started climbing",
+        "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-miners-strategy-strive-bitmine-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-04T17:22:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A16z-Backed OpenReserve Gets Approval for Full-Service National Bank",
+        "url": "https://decrypt.co/377458/openreserve-occ-approval-full-service-national-bank",
+        "published_at": "2026-09-04T17:19:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 5,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
