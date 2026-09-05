@@ -1,0 +1,415 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-05T21:11:52 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2714210107927.15,
+    "total_market_cap_change_24h_pct": -1.9334,
+    "total_volume_24h_usd": 59335915407.97,
+    "btc_dominance_pct": 58.8413,
+    "eth_dominance_pct": 11.1086,
+    "total2_usd": 1117134278339.62,
+    "total3_usd": 815623434940.61,
+    "active_cryptocurrencies": 19614,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 43.6598,
+        "price_usd": 0.01876195,
+        "market_cap_usd": 427702028
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 34.9821,
+        "price_usd": 0.913154,
+        "market_cap_usd": 650259486
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 28.4982,
+        "price_usd": 0.172829,
+        "market_cap_usd": 172829109
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": 25.7084,
+        "price_usd": 0.276712,
+        "market_cap_usd": 274308085
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": 25.0417,
+        "price_usd": 0.164885,
+        "market_cap_usd": 1101117321
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RLB",
+        "name": "Rollbit Coin",
+        "price_change_24h_pct": -8.0657,
+        "price_usd": 0.07511,
+        "market_cap_usd": 118588308
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -7.5543,
+        "price_usd": 0.0039694,
+        "market_cap_usd": 1569414004
+      },
+      {
+        "symbol": "EGLD",
+        "name": "MultiversX",
+        "price_change_24h_pct": -6.4288,
+        "price_usd": 4.56,
+        "market_cap_usd": 140101619
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -6.2632,
+        "price_usd": 0.126355,
+        "market_cap_usd": 302139129
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -4.7352,
+        "price_usd": 0.076273,
+        "market_cap_usd": 151920124
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79774,
+    "price_change_24h_pct": -0.0245,
+    "price_change_7d_pct": 2.0,
+    "market_cap_usd": 1601869590908,
+    "volume_24h_usd": 18847104873,
+    "direction": "neutral",
+    "oi_usd": 8483541858.48,
+    "funding_rate_latest": 1.923e-05,
+    "funding_rate_7d_avg": 6.62352380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0509,
+    "long_account_pct": 51.24,
+    "short_account_pct": 48.76,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2477.63,
+    "price_change_24h_pct": 0.9426,
+    "price_change_7d_pct": 1.0,
+    "market_cap_usd": 302323651539,
+    "volume_24h_usd": 6620852828,
+    "eth_btc_ratio": 0.031058,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88119340774.25,
+    "stablecoin_market_cap_usd": 311510664008.99,
+    "stablecoin_dominance_pct": 11.477
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 7,
+    "headlines": [
+      {
+        "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
+        "summary": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
+        "published_at": "2026-09-05T18:15:00Z"
+      },
+      {
+        "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
+        "summary": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
+        "published_at": "2026-09-05T16:19:53Z"
+      },
+      {
+        "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
+        "summary": "Japanese nutritionist and longevity expert Michiko Tomioka shares the inflammation-fighting foods that are always in her kitchen.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/05/nutritionist-from-japan-essential-anti-inflammatory-foods-i-swear-by.html",
+        "published_at": "2026-09-05T15:30:01Z"
+      },
+      {
+        "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
+        "summary": "US military strikes three Iranian crude oil carriers, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
+        "published_at": "2026-09-05T14:16:10Z"
+      },
+      {
+        "headline": "Icons Dolly Parton and Gloria Steinem never officially retired\u2014why that's a choice for some and requirement for others",
+        "summary": "The idea of never retiring sounds awful to some, but inspiring to others who want to pursue their passions long after they've left full-time work.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/05/dolly-parton-gloria-steinem-never-retired.html",
+        "published_at": "2026-09-05T13:00:01Z"
+      },
+      {
+        "headline": "US ambassador to Israel says there is no plan to force Palestinians out of Gaza - Reuters",
+        "summary": "US ambassador to Israel says there is no plan to force Palestinians out of Gaza\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTVYNkUxR29PRkZoM2ZrMGF0b0toaDNSbWthcG85cjNrZUpnZVMzUHpZRUpaMmpqNFBPSTRNUy16d2VyRUE5V1ExOUVuUDFWSFBzUW94bDY2U25yaGpiWWxWUjBsV0VIei1kZkdEMUw0S3VxVTAwZzcxVm1iU1NSeWotYm9KOTFWU3ZmSWFrekFiZHVfSEFpTUN0b2ttLVZNZTJQeHUwSGFvN2hwLWNiRWRGdG1oQjdrLU1jcXdwb0lqdw?oc=5",
+        "published_at": "2026-09-05T11:11:43Z"
+      },
+      {
+        "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
+        "summary": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
+        "published_at": "2026-09-04T21:52:11Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 770.19,
+    "spy_change_pct": -0.3854,
+    "spy_lean": "neutral",
+    "vix_close": 14.32,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 79781.04,
+    "coinbase_premium_pct": 0.008825,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-05T21:11:52 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 230.36,
+        "change_pct": 0.8361,
+        "prev_close": 228.45
+      },
+      "AMD": {
+        "close": 477.57,
+        "change_pct": 4.6935,
+        "prev_close": 456.16
+      },
+      "TSM": {
+        "close": 428.91,
+        "change_pct": 2.8536,
+        "prev_close": 417.01
+      },
+      "SMCI": {
+        "close": 39.59,
+        "change_pct": 4.5419,
+        "prev_close": 37.87
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.96,
+        "change_pct": 0.1797,
+        "prev_close": 717.67
+      },
+      "SOXX": {
+        "close": 519.86,
+        "change_pct": 3.5165,
+        "prev_close": 502.2
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 79774,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 75,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 11,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.2727,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "UBS, Jane Street among firms with combined $75 million in Hyperliquid ETF holdings: Bloomberg",
+        "url": "https://www.theblock.co/news/defi/2026-09-05-ubs-jane-street-among-firms-with-combined-75-million-in-hyperliquid-etf-holdings-bloomberg-413616",
+        "published_at": "2026-09-05T20:02:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
+        "url": "https://decrypt.co/377510/ancient-bitcoin-wallet-3-million-wakes-up",
+        "published_at": "2026-09-05T17:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+        "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
+        "published_at": "2026-09-05T16:06:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Update Your Browser: Google Patches Chrome Flaw Hackers Were Already Using",
+        "url": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
+        "published_at": "2026-09-05T15:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "LeBron James teases Polymarket partnership in new social media video",
+        "url": "https://www.theblock.co/news/deals/2026-09-05-lebron-james-teases-polymarket-partnership-in-new-social-media-video-413608",
+        "published_at": "2026-09-05T14:01:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
+        "url": "https://decrypt.co/377491/ai-solved-350-year-old-math-problem",
+        "published_at": "2026-09-05T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-05T11:16:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
+        "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-05T10:44:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-05T08:03:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "TikTok's Parent Company Just Borrowed $30 Billion to Go All-In on AI",
+        "url": "https://decrypt.co/377489/tiktok-bytedance-loan-ai",
+        "published_at": "2026-09-04T21:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
