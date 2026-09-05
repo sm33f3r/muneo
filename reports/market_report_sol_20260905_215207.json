@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-05T21:51:21 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 103.81,
+    "price_change_24h_pct": 1.9635,
+    "price_change_7d_pct": -1.3488,
+    "volume_24h_usd": 2367831094,
+    "market_cap_usd": 60774727857,
+    "volume_to_mcap_ratio": 0.038961,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -64.6069,
+    "cex_price_usd": 103.82,
+    "cex_24h_high": 104.37,
+    "cex_24h_low": 101.47,
+    "cex_dex_spread_pct": 0.009633,
+    "volume_on_up_days_usd": 3602954471.2556686,
+    "volume_on_down_days_usd": 1827692480.4880745,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 70.1048,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 3.584623,
+      "signal_line": -0.671083,
+      "histogram": 4.255705
+    },
+    "macd_lean": "bullish",
+    "sma_50": 82.2496,
+    "price_vs_sma50_pct": 26.2134,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 102.030223,
+      "mid": 79.939,
+      "lower": 57.847777,
+      "width_pct": 55.2702,
+      "position": 1.0437
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 835537006.57,
+    "oi_lean": null,
+    "funding_rate_latest": 5.459e-05,
+    "funding_rate_7d_avg": -5.887142857142856e-06,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.0509,
+    "btc_long_account_pct": 51.24,
+    "btc_short_account_pct": 48.76,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 5916043871.0,
+    "tvl_7d_change_pct": 0.0851,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 10334385.31,
+    "chain_fees_7d_avg_usd": 11751610.46,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
+        "url": "https://decrypt.co/377491/ai-solved-350-year-old-math-problem",
+        "published_at": "2026-09-05T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 79891.0,
+    "btc_24h_change_pct": 0.1259,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 59.2327,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2708497913687.8604,
+    "eth_btc_ratio": 0.031165,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 770.19,
+    "spy_change_pct": -0.3854,
+    "spy_lean": "neutral",
+    "vix_close": 14.32,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 76,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish",
+    "cg_sentiment_votes_up_pct": 73.33,
+    "cg_sentiment_votes_down_pct": 26.67,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
