@@ -1,73 +1,49 @@
 {
   "token": "SUI",
-  "generated_at": "2026-08-24T09:01:30 UTC",
+  "generated_at": "2026-09-07T09:00:49 UTC",
   "schema_version": "1.0.0",
   "total_periods": 12,
   "weekly_count": 7,
   "monthly_count": 3,
   "quarterly_count": 2,
   "most_recent_weekly": {
-    "period_id": "2026-W34",
+    "period_id": "2026-W36",
     "period_type": "weekly",
-    "start_date": "2026-08-17",
-    "end_date": "2026-08-23",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-06",
     "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 0.852949,
-    "price_change_pct": 26.251,
-    "filename": "weekly_2026_W34.json"
+    "close_usd": 0.812596,
+    "price_change_pct": 12.0451,
+    "filename": "weekly_2026_W36.json"
   },
   "most_recent_monthly": {
     "period_id": "2026-M08",
     "period_type": "monthly",
     "start_date": "2026-08-03",
-    "end_date": "2026-08-23",
-    "data_quality": "partial",
+    "end_date": "2026-08-30",
+    "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 0.852949,
-    "price_change_pct": 23.0326,
+    "close_usd": 0.740236,
+    "price_change_pct": 6.7744,
     "filename": "monthly_2026_M08.json"
   },
   "most_recent_quarterly": {
     "period_id": "2026-Q3",
     "period_type": "quarterly",
     "start_date": "2026-06-29",
-    "end_date": "2026-08-23",
+    "end_date": "2026-08-30",
     "data_quality": "partial",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 0.852949,
-    "price_change_pct": 21.2929,
+    "close_usd": 0.740236,
+    "price_change_pct": 5.2647,
     "filename": "quarterly_2026_Q3.json"
   },
   "periods": {
     "weekly": [
-      {
-        "period_id": "2026-W28",
-        "period_type": "weekly",
-        "start_date": "2026-07-06",
-        "end_date": "2026-07-12",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 0.740367,
-        "price_change_pct": -2.0768,
-        "filename": "weekly_2026_W28.json"
-      },
-      {
-        "period_id": "2026-W29",
-        "period_type": "weekly",
-        "start_date": "2026-07-13",
-        "end_date": "2026-07-19",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 0.748886,
-        "price_change_pct": 4.61,
-        "filename": "weekly_2026_W29.json"
-      },
       {
         "period_id": "2026-W30",
         "period_type": "weekly",
@@ -127,6 +103,30 @@
         "close_usd": 0.852949,
         "price_change_pct": 26.251,
         "filename": "weekly_2026_W34.json"
+      },
+      {
+        "period_id": "2026-W35",
+        "period_type": "weekly",
+        "start_date": "2026-08-24",
+        "end_date": "2026-08-30",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.740236,
+        "price_change_pct": -8.3552,
+        "filename": "weekly_2026_W35.json"
+      },
+      {
+        "period_id": "2026-W36",
+        "period_type": "weekly",
+        "start_date": "2026-08-31",
+        "end_date": "2026-09-06",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 0.812596,
+        "price_change_pct": 12.0451,
+        "filename": "weekly_2026_W36.json"
       }
     ],
     "monthly": [
@@ -158,12 +158,12 @@
         "period_id": "2026-M08",
         "period_type": "monthly",
         "start_date": "2026-08-03",
-        "end_date": "2026-08-23",
-        "data_quality": "partial",
+        "end_date": "2026-08-30",
+        "data_quality": "complete",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 0.852949,
-        "price_change_pct": 23.0326,
+        "close_usd": 0.740236,
+        "price_change_pct": 6.7744,
         "filename": "monthly_2026_M08.json"
       }
     ],
@@ -184,12 +184,12 @@
         "period_id": "2026-Q3",
         "period_type": "quarterly",
         "start_date": "2026-06-29",
-        "end_date": "2026-08-23",
+        "end_date": "2026-08-30",
         "data_quality": "partial",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 0.852949,
-        "price_change_pct": 21.2929,
+        "close_usd": 0.740236,
+        "price_change_pct": 5.2647,
         "filename": "quarterly_2026_Q3.json"
       }
     ]
