@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-07T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2684600549786.65,
+    "total_market_cap_change_24h_pct": -3.3445,
+    "total_volume_24h_usd": 75794809605.43,
+    "btc_dominance_pct": 59.1046,
+    "eth_dominance_pct": 11.3051,
+    "total2_usd": 1097879435028.29,
+    "total3_usd": 794382209969.08,
+    "active_cryptocurrencies": 19671,
+    "altcoin_season_index": 62,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": 21.7461,
+        "price_usd": 0.700112,
+        "market_cap_usd": 167330309
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 20.2575,
+        "price_usd": 1.24,
+        "market_cap_usd": 340806918
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 19.1637,
+        "price_usd": 0.01733154,
+        "market_cap_usd": 395323284
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": 18.4173,
+        "price_usd": 6.13,
+        "market_cap_usd": 613143619
+      },
+      {
+        "symbol": "KAS",
+        "name": "Kaspa",
+        "price_change_24h_pct": 16.6376,
+        "price_usd": 0.03658232,
+        "market_cap_usd": 1012478879
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -17.307,
+        "price_usd": 0.704168,
+        "market_cap_usd": 500813629
+      },
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": -16.5002,
+        "price_usd": 0.152511,
+        "market_cap_usd": 152569476
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -14.7167,
+        "price_usd": 0.191344,
+        "market_cap_usd": 188968635
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -9.5453,
+        "price_usd": 0.050565,
+        "market_cap_usd": 126132343
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": -8.6859,
+        "price_usd": 0.17002,
+        "market_cap_usd": 1129731586
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79206,
+    "price_change_24h_pct": -0.9406,
+    "price_change_7d_pct": 0.4,
+    "market_cap_usd": 1590622185810,
+    "volume_24h_usd": 24377864030,
+    "direction": "neutral",
+    "oi_usd": 8476648218.47,
+    "funding_rate_latest": 2.185e-05,
+    "funding_rate_7d_avg": 4.9175714285714285e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1561,
+    "long_account_pct": 53.62,
+    "short_account_pct": 46.38,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2492.5,
+    "price_change_24h_pct": -0.7259,
+    "price_change_7d_pct": 0.5,
+    "market_cap_usd": 304152939579,
+    "volume_24h_usd": 11932732257,
+    "eth_btc_ratio": 0.031469,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88216310572.23,
+    "stablecoin_market_cap_usd": 311309326050.05,
+    "stablecoin_dominance_pct": 11.5961
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 18,
+    "headlines": [
+      {
+        "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - Reuters",
+        "summary": "Iran warns US energy assets in Gulf are vulnerable after latest clashes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
+        "published_at": "2026-09-07T18:48:25Z"
+      },
+      {
+        "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
+        "summary": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
+        "published_at": "2026-09-07T17:13:38Z"
+      },
+      {
+        "headline": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
+        "summary": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmxrUWIzN25kQzlJZVBjcy11SXlFeWJQZElmWi1ocVU1Qm94T2w3OXV4djNYd2JKTEE0QTFaeWVvQ2I4MmZZOEhwZVc2U1JmUEJTbXQ4SjdBb3lYNklqZDZJZ2s5MndibnlnMGw2YVJZWnB3R2MxWVNoWTlSSFlHNDFKdWd0STNGRFBselBtUDVrbGlsLUthbl9iQTFTMkFNYXhxUGJJWjJrT0oyNjFfRlJKNV9wWUE?oc=5",
+        "published_at": "2026-09-07T17:11:31Z"
+      },
+      {
+        "headline": "Gulf equities mixed amid US-Iran flare-ups - Reuters",
+        "summary": "Gulf equities mixed amid US-Iran flare-ups\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
+        "published_at": "2026-09-07T14:27:38Z"
+      },
+      {
+        "headline": "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
+        "summary": "After months of fruitlessly searching for a job, Tim Millard decided to turn his calamity into comedy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/07/45-year-old-turns-job-search-into-a-one-man-show.html",
+        "published_at": "2026-09-07T13:45:01Z"
+      },
+      {
+        "headline": "UAE says its energy exports will not be 'held hostage' by Iran war - Reuters",
+        "summary": "UAE says its energy exports will not be 'held hostage' by Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
+        "published_at": "2026-09-07T13:13:23Z"
+      },
+      {
+        "headline": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - Reuters",
+        "summary": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEZFOFdkQkNyVk5LRXRVVEdIbWtYY0VkUENMOGFSMUhJdmxXWmFyR0d4UVQxRk4yVXd0N1BWR2ctQnVQSHlCOFV0OUd4UTczWTZmc2NJSXYtVnZJU2xpUkNDUG40aTU0M3dsa1BzTHVVZUF1NEtBdFBwazd3SWgtRll4bXZRWmtXQm9jaHRrVkxpaHQzVWhKZWo4dmJzaGdFV29qeDNONmpNQ0MzLXVCU3N3OUFmNmMtNzJF?oc=5",
+        "published_at": "2026-09-07T12:49:45Z"
+      },
+      {
+        "headline": "Sweden to buy Lockheed Martin's Himars artillery rocket system in $729 mln deal - Reuters",
+        "summary": "Sweden to buy Lockheed Martin's Himars artillery rocket system in $729 mln deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNkUwazJZZE4xSlNLRHJ5ZFMyOW9RM1NQUkdrOGxHZFNxN25DaGRMRjhlcmV6MmpQYmVBUURwME5vLVhGQUdRTjJDTk43YUEwcGRnSElubmR5RFZyakVpdjUyWE5DU2N5LVM2ckhRTy1mNFp2eHJiakZLSjY4Zk13b1ZtOUJoaUg5aTZlbU1BSnEzWWJVckJjamVNZENDWmdyQVBOMTR5bGsweVFkbWlHLWVvdXV1QTBGaXZFa2pQaU5UVnp2WExYSWoxSmJPaGs?oc=5",
+        "published_at": "2026-09-07T12:13:47Z"
+      },
+      {
+        "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+        "summary": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+        "published_at": "2026-09-07T11:30:03Z"
+      },
+      {
+        "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
+        "summary": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUp5ZGlTQWNQSDNtbzRnQzdZNTM4TXpLeFpjV1E3SElQRmxzSWVqRU5mODRJN0ZCTzdyaFZ2dW5GMEQxMVB6ZldNS2JOQzFpRk9KeGNMNFlZVnpMSDZ3MFJnRVByT0JCaEdyZHhONFRjTjgtVG8yeXVmQngxM2xSd3ZyeExZS0tZejN2QkhyQk44NTdlZTFscDZaTmF4Um41S3c4Q2tKaXkyMXFOa2JVTEZjdU9aSENuMV95Z2tFZnd4Yk5BQ1E?oc=5",
+        "published_at": "2026-09-07T11:04:02Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.7479,
+    "dxy_lean": "bearish",
+    "spy_close": 770.19,
+    "spy_change_pct": -0.3854,
+    "spy_lean": "neutral",
+    "vix_close": 14.32,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 79188.05,
+    "coinbase_premium_pct": -0.022662,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-07T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 230.36,
+        "change_pct": 0.8361,
+        "prev_close": 228.45
+      },
+      "AMD": {
+        "close": 477.57,
+        "change_pct": 4.6935,
+        "prev_close": 456.16
+      },
+      "TSM": {
+        "close": 428.91,
+        "change_pct": 2.8536,
+        "prev_close": 417.01
+      },
+      "SMCI": {
+        "close": 39.59,
+        "change_pct": 4.5419,
+        "prev_close": 37.87
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.96,
+        "change_pct": 0.1797,
+        "prev_close": 717.67
+      },
+      "SOXX": {
+        "close": 519.86,
+        "change_pct": 3.5165,
+        "prev_close": 502.2
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 79206,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 38,
+    "positive_count": 6,
+    "negative_count": 9,
+    "neutral_count": 23,
+    "sentiment_ratio": 0.1579,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "UK financial watchdog weighs lifting prediction markets ban: Report",
+        "url": "https://cointelegraph.com/news/uk-financial-watchdog-prediction-markets-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-07T20:40:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
+        "url": "https://decrypt.co/377621/brazilian-banks-expand-crypto-offerings",
+        "published_at": "2026-09-07T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation names 2 \u2018must ship\u2019 EIPs for Hegot\u00e1 upgrade",
+        "url": "https://cointelegraph.com/news/ethereum-foundation-names-2-must-ship-eips-for-hegot-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-07T20:21:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Will the Crypto Trenches Show Up for Hunter Biden's Meme Coin?",
+        "url": "https://decrypt.co/377613/will-crypto-traders-buy-hunter-biden-meme-coin",
+        "published_at": "2026-09-07T19:47:27+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Liquid Hackers Return $270M in Bitcoin After Swiping $320 Million",
+        "url": "https://decrypt.co/377600/liquid-hackers-return-270m-bitcoin",
+        "published_at": "2026-09-07T19:13:56+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Joe Biden\u2019s son to launch memecoin, will send to TRUMP holders: WSJ",
+        "url": "https://cointelegraph.com/news/hunter-biden-laptop-memecoin-reimburse-trump-holders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-07T18:53:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Middle East Crypto Activity Triples to $350 Billion Amid Ongoing Conflict, Report Finds",
+        "url": "https://decrypt.co/377597/middle-east-crypto-activity-350-billion",
+        "published_at": "2026-09-07T18:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polish prosecutors charge suspect in Zondacrypto probe, seek pretrial detention",
+        "url": "https://cointelegraph.com/news/polish-prosecutors-charge-man-in-zondacrypto-probe-seek-pretrial-detention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-07T17:58:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Malone Lam Faces Plea Hearing Over $245M Bitcoin Theft",
+        "url": "https://decrypt.co/377595/malone-lam-faces-plea-hearing-over-245m-bitcoin-theft",
+        "published_at": "2026-09-07T17:41:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
+        "url": "https://cointelegraph.com/markets/crypto-fund-flows-show-investors-trading-fed-rate-path-not-exiting-market-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-07T17:29:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
