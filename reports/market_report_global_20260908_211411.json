@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-08T21:13:15 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2695496776395.04,
+    "total_market_cap_change_24h_pct": -2.2659,
+    "total_volume_24h_usd": 91535723442.47,
+    "btc_dominance_pct": 58.3643,
+    "eth_dominance_pct": 11.2203,
+    "total2_usd": 1122288005725.85,
+    "total3_usd": 819846012382.4,
+    "active_cryptocurrencies": 19696,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 36.797,
+        "price_usd": 0.18163,
+        "market_cap_usd": 157487175
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 30.4696,
+        "price_usd": 24.31,
+        "market_cap_usd": 1164108128
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 25.723,
+        "price_usd": 0.149856,
+        "market_cap_usd": 470880708
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 24.1123,
+        "price_usd": 0.279986,
+        "market_cap_usd": 279737324
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 18.1446,
+        "price_usd": 0.824864,
+        "market_cap_usd": 587502796
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": -16.8601,
+        "price_usd": 0.128173,
+        "market_cap_usd": 128067058
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -10.7266,
+        "price_usd": 0.205603,
+        "market_cap_usd": 205580626
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -8.0124,
+        "price_usd": 0.120561,
+        "market_cap_usd": 301408329
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -7.6615,
+        "price_usd": 0.01594891,
+        "market_cap_usd": 363895383
+      },
+      {
+        "symbol": "CRCLON",
+        "name": "Circle Internet Group (Ondo Tokenized Stock)",
+        "price_change_24h_pct": -6.0357,
+        "price_usd": 95.86,
+        "market_cap_usd": 115930391
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78543,
+    "price_change_24h_pct": -0.8139,
+    "price_change_7d_pct": 1.6,
+    "market_cap_usd": 1577147798952,
+    "volume_24h_usd": 36125682502,
+    "direction": "neutral",
+    "oi_usd": 8378548134.55,
+    "funding_rate_latest": 9.029e-05,
+    "funding_rate_7d_avg": 4.8901904761904765e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2957,
+    "long_account_pct": 56.44,
+    "short_account_pct": 43.56,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2485.76,
+    "price_change_24h_pct": -0.2724,
+    "price_change_7d_pct": 2.8,
+    "market_cap_usd": 303335193570,
+    "volume_24h_usd": 12216706781,
+    "eth_btc_ratio": 0.031648,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88059505703.01,
+    "stablecoin_market_cap_usd": 311000154906.16,
+    "stablecoin_dominance_pct": 11.5378
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 43,
+    "headlines": [
+      {
+        "headline": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
+        "summary": "Crude oil is back above $90 and energy stocks in the S&P 500 index are approaching fresh 52-week highs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
+        "published_at": "2026-09-08T20:23:21Z"
+      },
+      {
+        "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
+        "summary": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+        "published_at": "2026-09-08T20:21:44Z"
+      },
+      {
+        "headline": "Wall Street slides, oil surges amid worries over inflation, Middle East - Reuters",
+        "summary": "Wall Street slides, oil surges amid worries over inflation, Middle East\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+        "published_at": "2026-09-08T20:17:40Z"
+      },
+      {
+        "headline": "Huawei heads to trial in US over its business dealings in Iran - Reuters",
+        "summary": "Huawei heads to trial in US over its business dealings in Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYnZfcVJUeEZKOFpSTE5oQk9WTU1GWE5fc1U2R1g3NGFuOGdnNnZfT29tOU4xbmFISzhvd2paSmIyb2Y1V05nTFRjTl9xejZrUGdoSTJHS3prREdOOVlSbkl2UkxFQlk3NFRvM3J6YUdBdklRZ2RmZ3gzVUd2NXFsN01PcUFTXzZmSU1SQ3NUakdWc1MxU2V5N0RGMzd1ejFydDNnR2ptdUlYZw?oc=5",
+        "published_at": "2026-09-08T20:00:16Z"
+      },
+      {
+        "headline": "Air traffic control issue disrupts flights at major UK airports - Reuters",
+        "summary": "Air traffic control issue disrupts flights at major UK airports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjFUM1NiblY2enh0S3E5UEZUV0hXby1vNTM3T2twdTVlSEtZeDAyclZmR2dNWHlJdXpDUzVVWXRkWWRLUTZ2WnNYazlQSHRpSU5icjEtZXR0T3A4MW8ySjZCY1ZkNlZ4TGdWOVdseWZ2cXZ4V0lPWjFTV2JlUnVIQnZ0cHdCa3Z6Q05zZHlpUXZuM0dSQU9YV0RyWVF5dnkyRGF2NFczVktWM0lvUHF0dUgwc2ZlZ19VS0E?oc=5",
+        "published_at": "2026-09-08T19:45:37Z"
+      },
+      {
+        "headline": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions - Reuters",
+        "summary": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
+        "published_at": "2026-09-08T19:07:09Z"
+      },
+      {
+        "headline": "Lilly perseveres in a bad day for drug stocks \u2014 plus, Boeing's mixed deliveries",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/08/lilly-perseveres-in-a-bad-day-for-drug-stocks-plus-boeings-mixed-deliveries.html",
+        "published_at": "2026-09-08T19:03:06Z"
+      },
+      {
+        "headline": "When someone asks you a loaded question, use Gloria Steinem's powerful trick to reject their 'unfair framing,' says expert",
+        "summary": "Communication expert Dorie Clark calls it the \"word trade\" strategy. You can push back \"without seeming defensive,\" she says. Here's how.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/08/when-someone-asks-loaded-question-use-gloria-steinem-powerful-trick-reject-unfair-framing.html",
+        "published_at": "2026-09-08T18:17:46Z"
+      },
+      {
+        "headline": "EasyJet faces $72 million lawsuit over stranded Airbus planes, FT reports - Reuters",
+        "summary": "EasyJet faces $72 million lawsuit over stranded Airbus planes, FT reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPXy1wYzNrampYR09qMHpOcUl0ZGJ1TU1JWHdWMkZRU2Nnd0ZHczRPNmlKRjhrN093MlFyRmVjby13SHZHYVBpMENvVUd6eVA0Q1FyU0dXRFNMX1JYU28tUUFqdHhyLUMtZElBNWItUzFZZWdwNXdjaXY2RzVOY3U3R3JfQ3ZtZXZoMnpTU091V1hhb2JuLW9VTVZ6d3FSM0dobXpFZktpT2d4bHczbzVjdVBOdmFiQ0xqNjhuZC1jS3gwbUpGYjNLaElFbFJBM0U?oc=5",
+        "published_at": "2026-09-08T17:24:02Z"
+      },
+      {
+        "headline": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains",
+        "summary": "Vertiv shares are up a Micron-like 1043% over the past five years, so investors might be forgiven for profit taking.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/08/this-data-center-stock-is-up-over-1000percent-in-the-last-five-years-trader-mike-khouw-sees-more-gains.html",
+        "published_at": "2026-09-08T17:06:39Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 766.0,
+    "spy_change_pct": -0.544,
+    "spy_lean": "bearish",
+    "vix_close": 15.3,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 78538.31,
+    "coinbase_premium_pct": -0.005971,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-08T21:13:15 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.73,
+        "change_pct": -2.0099,
+        "prev_close": 230.36
+      },
+      "AMD": {
+        "close": 505.74,
+        "change_pct": 5.8986,
+        "prev_close": 477.57
+      },
+      "TSM": {
+        "close": 439.0,
+        "change_pct": 2.3525,
+        "prev_close": 428.91
+      },
+      "SMCI": {
+        "close": 40.26,
+        "change_pct": 1.6923,
+        "prev_close": 39.59
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.36,
+        "change_pct": -0.0835,
+        "prev_close": 718.96
+      },
+      "SOXX": {
+        "close": 528.4,
+        "change_pct": 1.6427,
+        "prev_close": 519.86
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78543,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 8,
+    "negative_count": 6,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.1429,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Franklin Templeton digital asset veteran takes helm at StablecoinX",
+        "url": "https://cointelegraph.com/news/stablecoinx-franklin-templeton-veteran-to-oversee-roughly-480m-ena-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-08T20:59:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$47M Still Missing After Liquid Hack as Blockstream Bargains With 'White Hats'",
+        "url": "https://decrypt.co/377723/liquid-hack-47m-blockstream-bargains-white-hat",
+        "published_at": "2026-09-08T20:46:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-08T20:13:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid open interest climbs to $14.3 billion as HYPE hits all-time high",
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-08-hyperliquid-open-interest-climbs-14-3-billion-hype-hits-all-time-high-413855",
+        "published_at": "2026-09-08T20:08:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "A 22 year-old crypto ringleader pleads guilty to $245 million racketeering scheme",
+        "url": "https://www.theblock.co/news/regulation/2026-09-08-a-22-year-old-crypto-ringleader-pleads-guilty-to-245-million-racketeering-scheme-413911",
+        "published_at": "2026-09-08T19:17:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
+        "url": "https://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
+        "published_at": "2026-09-08T18:59:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bybit launches 24/7 perpetuals for major currency pairs",
+        "url": "https://cointelegraph.com/news/bybit-expands-tradfi-push-with-100x-fx-perpetuals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-08T18:51:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development closes Strategy-style $11 million CHAD offering to grow Solana treasury",
+        "url": "https://www.theblock.co/news/markets/2026-09-08-defi-development-closes-strategy-style-11-million-chad-offering-grow-solana-treasury-413892",
+        "published_at": "2026-09-08T18:33:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Visa Taps Onchain Lending to Finance Stablecoin Card Programs",
+        "url": "https://decrypt.co/377696/visa-onchain-lending-finance-stablecoin-card",
+        "published_at": "2026-09-08T18:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strive Buys $109 Million in Bitcoin, Pushes Preferred Stock Toward $1 Billion",
+        "url": "https://decrypt.co/377689/strive-buys-109-million-bitcoin-preferred-stock-1-billion",
+        "published_at": "2026-09-08T17:46:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
