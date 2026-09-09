@@ -1,0 +1,185 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-09T21:54:37 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 101.96,
+    "price_change_24h_pct": -0.9325,
+    "price_change_7d_pct": 2.2769,
+    "volume_24h_usd": 2993927253,
+    "market_cap_usd": 59750052483,
+    "volume_to_mcap_ratio": 0.050108,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -65.2398,
+    "cex_price_usd": 102.05,
+    "cex_24h_high": 105.2,
+    "cex_24h_low": 101.84,
+    "cex_dex_spread_pct": 0.08827,
+    "volume_on_up_days_usd": 3602954471.2556686,
+    "volume_on_down_days_usd": 2406732408.407464,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 69.7851,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 4.576139,
+      "signal_line": 0.368111,
+      "histogram": 4.208028
+    },
+    "macd_lean": "bullish",
+    "sma_50": 82.6724,
+    "price_vs_sma50_pct": 23.3302,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 105.585508,
+      "mid": 81.643,
+      "lower": 57.700492,
+      "width_pct": 58.6517,
+      "position": 0.9621
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 802597414.52,
+    "oi_lean": null,
+    "funding_rate_latest": -6.173e-05,
+    "funding_rate_7d_avg": 2.0885238095238096e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.1777,
+    "btc_long_account_pct": 54.08,
+    "btc_short_account_pct": 45.92,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 5920104679.0,
+    "tvl_7d_change_pct": 3.6899,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 16668504.15,
+    "chain_fees_7d_avg_usd": 13699807.53,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 3,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 3,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+        "url": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+        "published_at": "2026-09-09T20:31:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
+        "url": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
+        "published_at": "2026-09-09T17:56:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "10 of the greatest unsolved crypto mysteries",
+        "url": "https://cointelegraph.com/magazine/10-of-the-greatest-unsolved-crypto-mysteries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-09T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 78075.0,
+    "btc_24h_change_pct": -0.4709,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.9472,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2660291996321.772,
+    "eth_btc_ratio": 0.031466,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 762.45,
+    "spy_change_pct": -0.4582,
+    "spy_lean": "neutral",
+    "vix_close": 15.72,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 71,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 72.97,
+    "cg_sentiment_votes_down_pct": 27.03,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
