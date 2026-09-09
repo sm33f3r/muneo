@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-09T21:11:37 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2682590338320.77,
+    "total_market_cap_change_24h_pct": -3.1075,
+    "total_volume_24h_usd": 91537862488.91,
+    "btc_dominance_pct": 58.4709,
+    "eth_dominance_pct": 11.2065,
+    "total2_usd": 1114055122210.49,
+    "total3_usd": 813431190088.28,
+    "active_cryptocurrencies": 19746,
+    "altcoin_season_index": 58,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MINA",
+        "name": "Mina Protocol",
+        "price_change_24h_pct": 14.607,
+        "price_usd": 0.094212,
+        "market_cap_usd": 121899531
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 13.9207,
+        "price_usd": 0.596473,
+        "market_cap_usd": 149090944
+      },
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": 10.5389,
+        "price_usd": 0.77688,
+        "market_cap_usd": 185747842
+      },
+      {
+        "symbol": "XTZ",
+        "name": "Tezos",
+        "price_change_24h_pct": 8.8251,
+        "price_usd": 0.264362,
+        "market_cap_usd": 289522607
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 8.1334,
+        "price_usd": 0.204649,
+        "market_cap_usd": 204769726
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -21.1036,
+        "price_usd": 0.651368,
+        "market_cap_usd": 464292023
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -12.9665,
+        "price_usd": 0.243127,
+        "market_cap_usd": 242373890
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -11.6417,
+        "price_usd": 0.210661,
+        "market_cap_usd": 208949020
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -11.2387,
+        "price_usd": 0.12299,
+        "market_cap_usd": 116500566
+      },
+      {
+        "symbol": "DOT",
+        "name": "Polkadot",
+        "price_change_24h_pct": -11.1004,
+        "price_usd": 1.11,
+        "market_cap_usd": 1893632813
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78263,
+    "price_change_24h_pct": -0.3535,
+    "price_change_7d_pct": 1.3,
+    "market_cap_usd": 1571707620988,
+    "volume_24h_usd": 34568104491,
+    "direction": "neutral",
+    "oi_usd": 8210773326.8,
+    "funding_rate_latest": 4.815e-05,
+    "funding_rate_7d_avg": 4.8373809523809524e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1777,
+    "long_account_pct": 54.08,
+    "short_account_pct": 45.92,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2469.24,
+    "price_change_24h_pct": -0.6713,
+    "price_change_7d_pct": 3.3,
+    "market_cap_usd": 301349220692,
+    "volume_24h_usd": 12510561484,
+    "eth_btc_ratio": 0.031551,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88353025480.55,
+    "stablecoin_market_cap_usd": 310980056983.71,
+    "stablecoin_dominance_pct": 11.5925
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 43,
+    "headlines": [
+      {
+        "headline": "Trump says Iran war will end right after U.S. midterm elections - Reuters",
+        "summary": "Trump says Iran war will end right after U.S. midterm elections\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUt1ZG9kcVg5Q3VMUjZuM0JScHFocjZZOFNvTjRsYWNRZ1lBQUlLUm45XzBJTEh2dnVLLXVqeDh1dlh2aGFObVVqN09PTHFtck02aUZrX3VZRWFLVURzeUt3eFFXc25NcFoxVFNSMHdLSmQ1alBaWGRsOHBpc2RTTy1ULWUyZEk4TXNKc0FxX3NlWXhYS3hVMERTb2R4RVo2UjJPRzRFN2w0a0hhbHE0d0EyZmZHUQ?oc=5",
+        "published_at": "2026-09-09T20:06:33Z"
+      },
+      {
+        "headline": "Brent settles at over $100 a barrel as Middle East conflict intensifies - Reuters",
+        "summary": "Brent settles at over $100 a barrel as Middle East conflict intensifies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
+        "published_at": "2026-09-09T19:56:09Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back - Reuters",
+        "summary": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjRjUTJjbW9GMXo2aGNZTXVJTmxOQWhON20ycG5GTGxhcjlSZWJqOWFkSGdCZDVTTldYMnBSeHpYT09GTU5fS0ZVSTVLamF3cDFXc21KTzJaTE56cEdZc2JjNFk4WG53UTQ2OURwMTFrTUE5SHFjQS03M084UExUZlRTOWlURlpDVm1aRzBBc0QxeV9pQy1IUVlGN0xaVW5KMFc0Nm90VFhWNlk?oc=5",
+        "published_at": "2026-09-09T19:36:55Z"
+      },
+      {
+        "headline": "Houthis attack southern Saudi cities for second day, Saudi-led coalition says - Reuters",
+        "summary": "Houthis attack southern Saudi cities for second day, Saudi-led coalition says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkFZWWVmRkxOZ0dqSFdYQnh1dkpQTkZBbFdyU2Rydm1aMUo5eDFhNGpTaURVcmZLN25rS0s0ZUlEd1hFdEJ1TXJjT01mVzYtS1I1X2duVjhXTTFseHZOVGNWLURySnN3M0d1aGpVdUZLUXBDT0NMUjlhYXRHdGo4ekY0Q2stN3VyY09XSFRFZTdka1BhMDJnTFR2NzB2eVVzSW9ENV8wYi1jcWZhdEl0VjQxd1l2VXFI?oc=5",
+        "published_at": "2026-09-09T19:15:29Z"
+      },
+      {
+        "headline": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks - Reuters",
+        "summary": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckd4WVFmZEhoNEFkVzRzdE9JMVJ2QVUwMmk3MDRuUTA3NHc3N0xrY2VLZl9GY2Q2WU1ybzBodjhINEQwaV9GQmpKS3FSdXpSY3B3M0VUY3V6NUJvSU1zR1NPYmpLMUtvN3ZrYlZEVlZVNmhZTWZhdnhpM2dEaEZJZzBlbDN3cE42cXNsbDdnYmNkT3ROZTVzVjdBZUJ0NjRCYW4tQUdQQk5NNTV4NFIw?oc=5",
+        "published_at": "2026-09-09T18:10:03Z"
+      },
+      {
+        "headline": "What a historic summer box office reveals about massive shifts in the theatrical industry",
+        "summary": "The domestic box office posted a record-breaking summer movie season which was bolstered by an extra week of ticket sales and higher priced premium screenings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/09/summer-box-theatrical-shifts.html",
+        "published_at": "2026-09-09T18:08:00Z"
+      },
+      {
+        "headline": "UAE and Germany look to build ties with investment, energy and AI deals - Reuters",
+        "summary": "UAE and Germany look to build ties with investment, energy and AI deals\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHVyY1EyVkN0ejVTZnJMXzVmVGNCQTJzUmNmWTJkVi1ZWnRfRTJSd3NTT3V3ZmdUc2xXdGZhOHVpUnNtRVZNT1B4VkV3dWJhWFVZamJjT0FzdElsbGRvSk90UE1iSjFoR0txNmttdXFsUDNfcVVIWWlZeDhaMnFHYktsb2FuYm9qZGpUQXdCOERJcE5aWmQzWm9aS0JKMUM0YmxlY3NnSEEzUWFicThkU3VuNA?oc=5",
+        "published_at": "2026-09-09T18:04:09Z"
+      },
+      {
+        "headline": "These are the top 10 U.S. states for workers' rights, says new report\u20148 of them have a minimum wage over $15",
+        "summary": "These states provide strong minimum wages, worker protections and rights to organize, according to Oxfam's research.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/09/the-top-us-states-for-workers-in-2026-according-to-oxfam-report.html",
+        "published_at": "2026-09-09T17:36:45Z"
+      },
+      {
+        "headline": "NEWSLETTER: The Gulf of uncertainty - Reuters",
+        "summary": "NEWSLETTER: The Gulf of uncertainty\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pb3BRNkJ2X2FQSWNZZGJDN3ppYl9ad0xnMThaNjAtUF9lcW9ZbWlsY2RTMlpucnRBRU1NRG1CN2x6S0oyQlFRcFF0OVNLcGhhcE0tc3Y3eXRLNXNoSG5ZeUhoaEFacGVnS3hYXzNnQkdIM19fM3FPandR?oc=5",
+        "published_at": "2026-09-09T17:05:00Z"
+      },
+      {
+        "headline": "GE Aerospace bets on 'black art' of castings to secure jet engine supply - Reuters",
+        "summary": "GE Aerospace bets on 'black art' of castings to secure jet engine supply\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEZ2VlUxNWU2bFdQdGJtVWp6cHR0bTJoRW1hQVF5RThyMWJ4cGFESGVqelc0MXkyTHZjWWo0ZmRmUnFqN0tHci1OUHdBWDVfdVZPUVZnYmowc1J1QTVmbVZaZFZfbV9nRElDLVJMdERtMzZlVllfZ0oydTdjRm1LTlIwbkhKVGdBOWJTaGZOT2doeld3X1BVTks5VG1VTmcta3lhVmNXT2pvUnV3UG1IV3ctV3Nlc3ZhTlVIYXpoMGo?oc=5",
+        "published_at": "2026-09-09T16:27:28Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 762.45,
+    "spy_change_pct": -0.4582,
+    "spy_lean": "neutral",
+    "vix_close": 15.72,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 78179.76,
+    "coinbase_premium_pct": -0.106359,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-09T21:11:37 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 223.67,
+        "change_pct": -0.9126,
+        "prev_close": 225.73
+      },
+      "AMD": {
+        "close": 521.095,
+        "change_pct": 3.0361,
+        "prev_close": 505.74
+      },
+      "TSM": {
+        "close": 435.36,
+        "change_pct": -0.8292,
+        "prev_close": 439.0
+      },
+      "SMCI": {
+        "close": 38.93,
+        "change_pct": -3.3035,
+        "prev_close": 40.26
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.31,
+        "change_pct": -0.2854,
+        "prev_close": 718.36
+      },
+      "SOXX": {
+        "close": 532.0,
+        "change_pct": 0.6813,
+        "prev_close": 528.4
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78263,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 71,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 54,
+    "positive_count": 11,
+    "negative_count": 13,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.2037,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+        "url": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+        "published_at": "2026-09-09T20:31:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
+        "url": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-09T20:08:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
+        "url": "https://decrypt.co/377810/crypto-banks-clarity-act-lobbying-senators",
+        "published_at": "2026-09-09T18:56:58+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Consensys to split into MetaMask and institutional blockchain company",
+        "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-09T18:47:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DoubleZero adds Kalshi\u2019s election markets ahead of November midterms",
+        "url": "https://www.theblock.co/news/regulation/2026-09-09-doublezero-adds-kalshis-election-markets-ahead-november-midterms-414075",
+        "published_at": "2026-09-09T18:17:58+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
+        "url": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
+        "published_at": "2026-09-09T17:56:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Apple Unveils Redesigned Siri AI and A20 Pro Chip as CEO John Ternus Makes Debut",
+        "url": "https://decrypt.co/377807/apple-redesigned-siri-ai-a20-pro-chip",
+        "published_at": "2026-09-09T17:50:14+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin miners are missing the crypto rally as exchanges, stablecoins surge",
+        "url": "https://www.theblock.co/news/markets/2026-09-09-bitcoin-miners-are-missing-the-crypto-rally-as-exchanges-stablecoins-surge-413848",
+        "published_at": "2026-09-09T17:36:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "TRM Labs doubles valuation to $2B in Series C expansion",
+        "url": "https://cointelegraph.com/news/trm-labs-doubles-valuation-to-2b-in-series-c-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-09T17:30:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Secret Service Freezes $52.8 Million in Crypto Tied to Telegram Bazaar Behind Global Scams",
+        "url": "https://decrypt.co/377804/secret-service-freezes-crypto-telegram-bazaar-xinbi",
+        "published_at": "2026-09-09T17:16:08+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 0,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
