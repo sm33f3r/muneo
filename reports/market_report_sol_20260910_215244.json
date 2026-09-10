@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-10T21:51:59 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 99.95,
+    "price_change_24h_pct": -1.936,
+    "price_change_7d_pct": -4.7507,
+    "volume_24h_usd": 3064270076,
+    "market_cap_usd": 58608414063,
+    "volume_to_mcap_ratio": 0.052284,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -65.925,
+    "cex_price_usd": 99.9,
+    "cex_24h_high": 102.2,
+    "cex_24h_low": 98.5,
+    "cex_dex_spread_pct": -0.050025,
+    "volume_on_up_days_usd": 4152667688.2549505,
+    "volume_on_down_days_usd": 2406732408.407464,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 69.7851,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 4.576139,
+      "signal_line": 0.368111,
+      "histogram": 4.208028
+    },
+    "macd_lean": "bullish",
+    "sma_50": 82.6724,
+    "price_vs_sma50_pct": 20.8989,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 105.585508,
+      "mid": 81.643,
+      "lower": 57.700492,
+      "width_pct": 58.6517,
+      "position": 0.9621
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 806650458.01,
+    "oi_lean": null,
+    "funding_rate_latest": -4.489e-05,
+    "funding_rate_7d_avg": 7.94e-06,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5988,
+    "btc_long_account_pct": 61.52,
+    "btc_short_account_pct": 38.48,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 5785954137.0,
+    "tvl_7d_change_pct": -2.3904,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 15520294.05,
+    "chain_fees_7d_avg_usd": 14147051.9,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 0,
+    "sentiment_ratio": 1.0,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana sees record 263K tokens issued in a single day",
+        "url": "https://cointelegraph.com/news/solana-record-263k-tokens-issued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-10T13:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 77154.0,
+    "btc_24h_change_pct": -1.1497,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.9719,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2627045125304.3286,
+    "eth_btc_ratio": 0.031876,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 757.94,
+    "spy_change_pct": -0.585,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 72.09,
+    "cg_sentiment_votes_down_pct": 27.91,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
