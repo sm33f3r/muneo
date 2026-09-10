@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-10T21:14:56 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2649503709978.88,
+    "total_market_cap_change_24h_pct": -4.0013,
+    "total_volume_24h_usd": 91865460694.13,
+    "btc_dominance_pct": 58.4705,
+    "eth_dominance_pct": 11.3215,
+    "total2_usd": 1100325488461.66,
+    "total3_usd": 800363210646.59,
+    "active_cryptocurrencies": 19790,
+    "altcoin_season_index": 83,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "\u725b\u6765",
+        "name": "\u725b\u6765 (Niu Lai)",
+        "price_change_24h_pct": 42.9468,
+        "price_usd": 0.11675,
+        "market_cap_usd": 117174514
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 29.667,
+        "price_usd": 0.220325,
+        "market_cap_usd": 189156653
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 20.1299,
+        "price_usd": 0.479603,
+        "market_cap_usd": 122303195
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price_change_24h_pct": 16.2512,
+        "price_usd": 1.47,
+        "market_cap_usd": 394264819
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": 15.275,
+        "price_usd": 1.44e-06,
+        "market_cap_usd": 302597505
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAPTOP",
+        "name": "Hunter Biden's Laptop",
+        "price_change_24h_pct": -65.0139,
+        "price_usd": 0.628309,
+        "market_cap_usd": 221170700
+      },
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": -22.9702,
+        "price_usd": 0.596674,
+        "market_cap_usd": 142579317
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -11.8011,
+        "price_usd": 0.00381945,
+        "market_cap_usd": 1583861358
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": -11.0236,
+        "price_usd": 226.69,
+        "market_cap_usd": 4554611095
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -10.542,
+        "price_usd": 0.04696145,
+        "market_cap_usd": 117010318
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77262,
+    "price_change_24h_pct": -1.2302,
+    "price_change_7d_pct": -5.5,
+    "market_cap_usd": 1551576999701,
+    "volume_24h_usd": 30930222672,
+    "direction": "bearish",
+    "oi_usd": 8275575623.15,
+    "funding_rate_latest": 7.199e-05,
+    "funding_rate_7d_avg": 4.6747142857142855e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5988,
+    "long_account_pct": 61.52,
+    "short_account_pct": 38.48,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2461.16,
+    "price_change_24h_pct": -0.2926,
+    "price_change_7d_pct": -2.2,
+    "market_cap_usd": 300347462058,
+    "volume_24h_usd": 15873067230,
+    "eth_btc_ratio": 0.031855,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87048264389.27,
+    "stablecoin_market_cap_usd": 311167034745.32,
+    "stablecoin_dominance_pct": 11.7444
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 52,
+    "headlines": [
+      {
+        "headline": "Yemen's Houthis close in on Bab el-Mandeb Strait in new threat to shipping - Reuters",
+        "summary": "Yemen's Houthis close in on Bab el-Mandeb Strait in new threat to shipping\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUNHSEc4V2xmVVpPcmx6cE1GaF85MVB3Tnl5ZzdyWVBlYy0zcnNzOTQ1R2ZyNFdzbmp6c2xodVlOallDQTAyeUFodEUwa0dkOFFCN3ZIcmg0V3Iyc0NiUGczTklDSzhUOGNkUUd5ZWlRME5LRGhBdHFvSDdVUm9WdjZacC0zcFdkM0xZY09LUHFDR3lua1ZXMW1GN0NxT21CTFRYNkFOVGRNMzFsTjJXS1hnejFfVTdUZHBvMEJoMmJGU2xLQnc?oc=5",
+        "published_at": "2026-09-10T20:21:45Z"
+      },
+      {
+        "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Reuters",
+        "summary": "US slaps new sanctions on networks aiding Iran's proxies in Middle East\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2p0aERlM3VXMFFWMkg4ZUtIejRIWDdUNUtlbnkwLWlyTWFBNGMyUzBUVnczaGdsNGIxcjJNT3BIekZrQXhOVEdwY0ZaQ0RZVmE2SW5RWTdLN1F6M01vbXZyMXF1OE9XbHphN1dnRWxwWmNyV2V2WDg3dGVOTDR3TXd5dDFwcEl6X2pxd05LRmc4d2NkUzFMS3piTFg1eWppdW8xNWNHd0VYZ3EwOFM4a19SMmNkeE9TZlE?oc=5",
+        "published_at": "2026-09-10T19:30:16Z"
+      },
+      {
+        "headline": "Jim Cramer's least-favorite tech stock gets a new analyst endorsement \u2014 our take",
+        "summary": "Analysts at Piper called Broadcom the \"ASIC compute king\" in a new note to clients.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/10/cramers-least-favorite-tech-stock-gets-a-new-bullish-analyst-endorsement.html",
+        "published_at": "2026-09-10T19:26:20Z"
+      },
+      {
+        "headline": "Trump touts $5,000 payout if Republicans win as Vance waits in wings - Reuters",
+        "summary": "Trump touts $5,000 payout if Republicans win as Vance waits in wings\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObTBDWU8wZ01YSnowWGVWbUFZQ0ozZlZaSzRYWFhuaUdxajB6T05JS29iX180anZIUWdKUUE4SjZGdzN1cmc3Tmx2bjMtT0Z4TE55bGQ1NjYxUThlU21OTnZvbVJxeTNXVjZZcXJrdG1pQzRMTnVqeGUzcVY5aGluV1V0YTh0UlN1eVBScUZTajd4S0tCaFNEWGltbE9jRHk5eS1rTFVkRHg?oc=5",
+        "published_at": "2026-09-10T19:08:44Z"
+      },
+      {
+        "headline": "Carney says he spoke recently to Trump about Iran, Ukraine - Reuters",
+        "summary": "Carney says he spoke recently to Trump about Iran, Ukraine\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdVZHZ3p3WFkzek96eVB5elNZRXdVTWoxN1ZHM0kxMlpDN1hZN3llRFBKcjRrRlY1Y1I2czhYdzBRSDcwUE91cldXdWtsTklIZk5vRlZXMkEzVDgtSy1qdElvV2N1TUgtRGhyQkV4NlRSenhVanVvU3lkWXZPdkt4ODM3cFBpbV9vdWhMMlZTSVczN0FkdmlTdm14cVc?oc=5",
+        "published_at": "2026-09-10T18:46:13Z"
+      },
+      {
+        "headline": "Here\u2019s a rapid-fire update on our 33-stock portfolio, including Cramer\u2019s 6 favorites to buy",
+        "summary": "Jim's current faves include three tech names and a bank stock.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+        "published_at": "2026-09-10T18:20:12Z"
+      },
+      {
+        "headline": "UAE to invest \u20ac40 billion in Germany amid slew of business deals - Reuters",
+        "summary": "UAE to invest \u20ac40 billion in Germany amid slew of business deals\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3VkT2E1dEJFUUo5OW9VQlU1SjlaeGhleXNuQmlyUkZKQnp2VFBsNlQxNkdWdWI2dHc0VUwtbGFlMHZzU3VJOXpUbmVFeWlITjlxN2Q0ZHllTTlWbThlSDZRZXB0cHNHaGRzanJlSjB2Q0RBNVVXQkpmTG5ZOThYQ0pGM3g5QTJDUEl6R05NeE0xMGJQbE1KRVRiWG9DajE2YkNnR1IwSmo4Y3VkLS1v?oc=5",
+        "published_at": "2026-09-10T18:15:36Z"
+      },
+      {
+        "headline": "Iran says IAEA moves will push countries to exit NPT - Reuters",
+        "summary": "Iran says IAEA moves will push countries to exit NPT\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONXBmQUx6bXN0ZG9uS0xwd1JoZHg2M01NV3VFMUM3NVpYRzFEZnZwZ0JfZ2VMTkI0cncyMThHYk1rNU9kTlZQcWFlZlpTS0UzMF8zYTJuOEJVSTFvS0IyTjJ6Z3ppS25qdndFaEtKcldmcm5HNXliN3pQaktNNkRDMmxLMS1hYXJMcmxjQ1N4UVI4cHQ0V0E?oc=5",
+        "published_at": "2026-09-10T18:13:49Z"
+      },
+      {
+        "headline": "Israeli whistleblowers detail Gaza civilian toll in Venice film - Reuters",
+        "summary": "Israeli whistleblowers detail Gaza civilian toll in Venice film\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX3YwMVozSG9aYk5BZDkybFJFMFMxUF9nNGtNdm1mN2w3VVpwc3lYOWFWbnZoTmNFUEVFM3owWHRZSVBJdTRucFh3ckFpZUh5TW1BanFOdE1DT1lSMGFsVzhsRFZkemgtRnJPQWk2WlFJMVVmaV9KS2FrQWVBMHJhSzFzQmZHUEttOHZCSW52SEROVmVGNjFOZHdpcUZCTmd5Szl0UGFLRmE2WGpfS0FFdnNoeDI?oc=5",
+        "published_at": "2026-09-10T18:09:48Z"
+      },
+      {
+        "headline": "Algeria cuts diplomatic ties with the UAE - Reuters",
+        "summary": "Algeria cuts diplomatic ties with the UAE\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
+        "published_at": "2026-09-10T18:01:35Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 757.94,
+    "spy_change_pct": -0.585,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77211.94,
+    "coinbase_premium_pct": -0.064793,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-10T21:14:56 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 218.36,
+        "change_pct": -2.374,
+        "prev_close": 223.67
+      },
+      "AMD": {
+        "close": 503.6,
+        "change_pct": -3.3574,
+        "prev_close": 521.095
+      },
+      "TSM": {
+        "close": 428.03,
+        "change_pct": -1.6837,
+        "prev_close": 435.36
+      },
+      "SMCI": {
+        "close": 37.38,
+        "change_pct": -3.9815,
+        "prev_close": 38.93
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 708.69,
+        "change_pct": -1.0638,
+        "prev_close": 716.31
+      },
+      "SOXX": {
+        "close": 517.43,
+        "change_pct": -2.7387,
+        "prev_close": 532.0
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77262,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 42,
+    "positive_count": 9,
+    "negative_count": 11,
+    "neutral_count": 22,
+    "sentiment_ratio": 0.2143,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
+        "url": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
+        "published_at": "2026-09-10T20:34:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise shuts down Dogecoin ETF less than a year after launch",
+        "url": "https://www.theblock.co/news/markets/2026-09-10-bitwise-shuts-down-dogecoin-etf-less-than-a-year-after-launch-414184",
+        "published_at": "2026-09-10T20:28:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
+        "url": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-10T20:10:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senate Republicans unveil revised crypto bill ahead of key Clarity Act vote next week",
+        "url": "https://www.theblock.co/news/regulation/2026-09-10-senate-republicans-unveil-revised-crypto-bill-ahead-of-key-clarity-act-vote-next-week-414180",
+        "published_at": "2026-09-10T19:42:06+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Wallet Rebrands to Chase 'Anything, Anywhere' Trading as Robinhood Chain Heats Up",
+        "url": "https://decrypt.co/377601/coinbase-wallet-rebrand-robinhood-chain",
+        "published_at": "2026-09-10T18:51:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+        "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+        "published_at": "2026-09-10T18:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Banks Have Minutes, Not Weeks, to Fix Flaws as AI Speeds Up Attacks: BIS",
+        "url": "https://decrypt.co/377902/ai-hacks-shrinking-bank-time-fix-flaws-bis",
+        "published_at": "2026-09-10T18:13:13+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase rebrands Base App back to Coinbase Wallet after just over a year as social experiment falls short",
+        "url": "https://www.theblock.co/news/defi/2026-09-10-coinbase-rebrands-base-app-back-to-coinbase-wallet-after-just-over-a-year-as-social-experiment-falls-short-414115",
+        "published_at": "2026-09-10T18:00:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
+        "url": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-10T17:54:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Guy Cloned Sam Altman, Elon Musk, and Zuckerberg Into AI Bots. They Immediately Started Fighting",
+        "url": "https://decrypt.co/377898/sam-altman-elon-musk-zuckerberg-ai-bots",
+        "published_at": "2026-09-10T17:07:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 7,
+    "neutral_count": 5,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
