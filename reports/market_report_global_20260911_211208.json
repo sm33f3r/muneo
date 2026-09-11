@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-11T21:11:13 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2662995299461.84,
+    "total_market_cap_change_24h_pct": -2.1222,
+    "total_volume_24h_usd": 109318675992.59,
+    "btc_dominance_pct": 58.2193,
+    "eth_dominance_pct": 11.5852,
+    "total2_usd": 1112617314844.15,
+    "total3_usd": 804104516525.13,
+    "active_cryptocurrencies": 21085,
+    "altcoin_season_index": 79,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 52.27,
+        "price_usd": 0.329438,
+        "market_cap_usd": 280501176
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 31.0734,
+        "price_usd": 0.619488,
+        "market_cap_usd": 158015909
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": 25.7382,
+        "price_usd": 0.273259,
+        "market_cap_usd": 150154508
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": 23.9541,
+        "price_usd": 0.279709,
+        "market_cap_usd": 277108071
+      },
+      {
+        "symbol": "XCN",
+        "name": "Onyxcoin",
+        "price_change_24h_pct": 15.1246,
+        "price_usd": 0.00435145,
+        "market_cap_usd": 171034713
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LAPTOP",
+        "name": "Hunter Biden's Laptop",
+        "price_change_24h_pct": -43.7226,
+        "price_usd": 0.356723,
+        "market_cap_usd": 124764395
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -9.1226,
+        "price_usd": 0.01394472,
+        "market_cap_usd": 317727828
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub",
+        "price_change_24h_pct": -8.6494,
+        "price_usd": 1.64,
+        "market_cap_usd": 871934021
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -8.5736,
+        "price_usd": 0.02751494,
+        "market_cap_usd": 721724266
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -8.383,
+        "price_usd": 0.223467,
+        "market_cap_usd": 223215525
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77372,
+    "price_change_24h_pct": 0.1383,
+    "price_change_7d_pct": -3.1,
+    "market_cap_usd": 1553816928052,
+    "volume_24h_usd": 35340657849,
+    "direction": "neutral",
+    "oi_usd": 7977013740.28,
+    "funding_rate_latest": 3.593e-05,
+    "funding_rate_7d_avg": 4.351380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5069,
+    "long_account_pct": 60.11,
+    "short_account_pct": 39.89,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2534.61,
+    "price_change_24h_pct": 2.9606,
+    "price_change_7d_pct": 2.9,
+    "market_cap_usd": 309362029240,
+    "volume_24h_usd": 24545532904,
+    "eth_btc_ratio": 0.032759,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88059421843.74,
+    "stablecoin_market_cap_usd": 310791851753.94,
+    "stablecoin_dominance_pct": 11.6708
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 39,
+    "headlines": [
+      {
+        "headline": "Yemen's Houthis reach strategic island at mouth of vital shipping lane - Reuters",
+        "summary": "Yemen's Houthis reach strategic island at mouth of vital shipping lane\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
+        "published_at": "2026-09-11T19:19:05Z"
+      },
+      {
+        "headline": "Twenty-five years after September 11, Americans reflect on attack that changed a nation - Reuters",
+        "summary": "Twenty-five years after September 11, Americans reflect on attack that changed a nation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUV1QV9MNGlUbTdkanZIUUEwY0x1UlRXaXViVFlMVi14NW1aMkwwUjMzOUdnclVJSWFCQ3p6SGYtQ1NtY3NDMlVvUmZ3bk42bUdjVDAwNHpaLUVGTkFqak40WTlrdFhJX2RRdjZDTV9sUmRYSXU5V3dtM09hOVpmT3hwbzRxbDlCZFFqUnY3dGZNZ0VraWR5WC1qeFNEM0ZmRWFwZUd3ZjZlYWRfWjBfZEprWE5MZw?oc=5",
+        "published_at": "2026-09-11T18:40:36Z"
+      },
+      {
+        "headline": "Why this industrial gas giant deserves its premium valuation (and should be owned)",
+        "summary": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html",
+        "published_at": "2026-09-11T18:26:28Z"
+      },
+      {
+        "headline": "Meet Ottava, J&J's surgical robot leading the healthcare giant into a lucrative new market",
+        "summary": "J&J is confident that Ottava, it's new robotic surgical system can compete in the robotic surgery  market",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/meet-ottava-jjs-surgical-robot-leading-the-healthcare-giant-into-a-lucrative-new-market.html",
+        "published_at": "2026-09-11T17:33:44Z"
+      },
+      {
+        "headline": "Election officials ban certain public workers from trading on prediction markets ahead of midterms",
+        "summary": "Ahead of the midterms, election officials ban certain workers from using prediction markets to reassure the public they are committed to election integrity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html",
+        "published_at": "2026-09-11T17:00:48Z"
+      },
+      {
+        "headline": "In pictures: The U.S. commemorates the 25th anniversary of 9/11",
+        "summary": "On Sept. 11, 2001, hijackers flew planes into the World Trade Center and other monuments, killing thousands. 25 years later, photos capture those marking 9/11.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html",
+        "published_at": "2026-09-11T16:41:40Z"
+      },
+      {
+        "headline": "India's Modi stresses need to protect navigation, seafarers in talks with Iran's Pezeshkian - Reuters",
+        "summary": "India's Modi stresses need to protect navigation, seafarers in talks with Iran's Pezeshkian\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNU9meER5NzRINzdPNU5vM1NPeHJqaXRfUkxOS29Gdi1QWUtYLVNOOXZWR2NuNnJnM0xpblV3VEhTd0FkZm84U1FqTWlZZDMzUVRqVVRtNmttS0hyZEdKdDM1LTBvNld4cFI2N1B1LVdHT2lEUERORWRSYXdVaG11OUQxYjZ2a25qZHZsMXRESWZheEdza25xNE16em1Ibm9fdmhvLWI1aDdDc3FjNzJ6SlRKRFE1TkJFeXFR?oc=5",
+        "published_at": "2026-09-11T16:38:47Z"
+      },
+      {
+        "headline": "Bonds are going on tilt. How to play them, says Mike Khouw",
+        "summary": "Warren Buffett once said interest rates are to asset prices what gravity is to matter. If the options market is correct, things could get heavy, says Mike Khouw.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html",
+        "published_at": "2026-09-11T16:26:14Z"
+      },
+      {
+        "headline": "The inside story on the historic U.S.-Venezuela oil deal and how it will work",
+        "summary": "CNBC was one of just a handful of news organizations allowed to travel to Caracas with the U.S. secretary of energy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
+        "published_at": "2026-09-11T16:23:06Z"
+      },
+      {
+        "headline": "Jim Cramer calls an AI data center stock a buy, offers a level to buy a household name",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/jim-cramer-calls-an-ai-data-center-stock-a-buy-offers-a-level-to-buy-a-household-name.html",
+        "published_at": "2026-09-11T16:16:23Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 764.2,
+    "spy_change_pct": 0.8406,
+    "spy_lean": "bullish",
+    "vix_close": 17.84,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77374.9,
+    "coinbase_premium_pct": 0.003748,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-11T21:11:13 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 218.29,
+        "change_pct": -0.0321,
+        "prev_close": 218.36
+      },
+      "AMD": {
+        "close": 516.13,
+        "change_pct": 2.4881,
+        "prev_close": 503.6
+      },
+      "TSM": {
+        "close": 433.24,
+        "change_pct": 1.2172,
+        "prev_close": 428.03
+      },
+      "SMCI": {
+        "close": 40.1,
+        "change_pct": 7.2766,
+        "prev_close": 37.38
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 714.88,
+        "change_pct": 0.8734,
+        "prev_close": 708.69
+      },
+      "SOXX": {
+        "close": 527.07,
+        "change_pct": 1.8631,
+        "prev_close": 517.43
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77372,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 69,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 39,
+    "positive_count": 7,
+    "negative_count": 7,
+    "neutral_count": 25,
+    "sentiment_ratio": 0.1795,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
+        "url": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off",
+        "published_at": "2026-09-11T20:53:39+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
+        "url": "https://cointelegraph.com/news/bitcoin-suisse-to-shift-up-to-half-of-swiss-jobs-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-11T19:46:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid\u2019s biggest risk is regulation, says Ran Neuner",
+        "url": "https://cointelegraph.com/news/hyperliquids-biggest-risk-is-regulation-says-ran-neuner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-11T18:45:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
+        "url": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal",
+        "published_at": "2026-09-11T18:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin, ether rise as inflation data does little to alter Fed interest rate outlook",
+        "url": "https://www.theblock.co/news/markets/2026-09-11-bitcoin-ether-rise-inflation-data-does-little-alter-fed-interest-rate-outlook-414287",
+        "published_at": "2026-09-11T17:40:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood Crypto Trading Volume Jumps 61% in August",
+        "url": "https://decrypt.co/377982/robinhoods-crypto-volume-jumps-august",
+        "published_at": "2026-09-11T17:22:39+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018DeFi\u2019s federal bank\u2019: Standard Chartered sees SKY token rising fivefold by end-2028",
+        "url": "https://www.theblock.co/news/markets/2026-09-11-standard-chartered-sky-token-defi-federal-bank-414280",
+        "published_at": "2026-09-11T16:48:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+        "url": "https://decrypt.co/377973/bitwise-shuts-dogecoin-etf",
+        "published_at": "2026-09-11T16:16:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anchorage Digital adds institutional access to Frgmnt\u2019s fUSD stablecoin",
+        "url": "https://cointelegraph.com/news/anchorage-digital-adds-institutional-access-to-frgmnts-fusd-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-11T16:05:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+        "url": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-11T16:03:37+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 3,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
