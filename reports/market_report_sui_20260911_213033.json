@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-11T21:29:45 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.730922,
+    "price_change_24h_pct": -1.2461,
+    "price_change_7d_pct": -3.4673,
+    "volume_24h_usd": 633032475,
+    "market_cap_usd": 2994601168,
+    "volume_to_mcap_ratio": 0.211391,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -86.3291,
+    "cex_price_usd": 0.7301,
+    "cex_24h_high": 0.766,
+    "cex_24h_low": 0.7072,
+    "cex_dex_spread_pct": -0.112461,
+    "volume_on_up_days_usd": 855371664.7594571,
+    "volume_on_down_days_usd": 306420275.1731499,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 52.065,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -0.038753,
+      "signal_line": -0.065555,
+      "histogram": 0.026801
+    },
+    "macd_lean": "bullish",
+    "sma_50": 0.855382,
+    "price_vs_sma50_pct": -14.5502,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 0.81848,
+      "mid": 0.723802,
+      "lower": 0.629123,
+      "width_pct": 26.1615,
+      "position": 0.9981
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 95750493.14,
+    "oi_lean": null,
+    "funding_rate_latest": -1.533e-05,
+    "funding_rate_7d_avg": 4.179571428571429e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5069,
+    "btc_long_account_pct": 60.11,
+    "btc_short_account_pct": 39.89,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 455897935.0,
+    "tvl_7d_change_pct": -1.3059,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 121447.69,
+    "chain_fees_7d_avg_usd": 104808.45,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
+        "url": "https://cointelegraph.com/news/bitcoin-suisse-to-shift-up-to-half-of-swiss-jobs-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-11T19:46:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 77399.0,
+    "btc_24h_change_pct": 0.2542,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.6718,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2647781344902.671,
+    "eth_btc_ratio": 0.032777,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 764.2,
+    "spy_change_pct": 0.8406,
+    "spy_lean": "bullish",
+    "vix_close": 17.84,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 69,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 78.26,
+    "cg_sentiment_votes_down_pct": 21.74,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
