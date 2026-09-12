@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-12T21:12:23 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2656941690373.42,
+    "total_market_cap_change_24h_pct": -2.8082,
+    "total_volume_24h_usd": 50784545323.47,
+    "btc_dominance_pct": 58.2172,
+    "eth_dominance_pct": 11.5645,
+    "total2_usd": 1110143399176.61,
+    "total3_usd": 802881369764.36,
+    "active_cryptocurrencies": 21145,
+    "altcoin_season_index": 72,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": 140.0362,
+        "price_usd": 0.154784,
+        "market_cap_usd": 154938616
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 16.406,
+        "price_usd": 0.01622437,
+        "market_cap_usd": 370051638
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 10.6338,
+        "price_usd": 0.552309,
+        "market_cap_usd": 1498674009
+      },
+      {
+        "symbol": "PENDLE",
+        "name": "Pendle",
+        "price_change_24h_pct": 8.149,
+        "price_usd": 2.19,
+        "market_cap_usd": 378813562
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": 7.9928,
+        "price_usd": 0.055402,
+        "market_cap_usd": 436230209
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -22.6508,
+        "price_usd": 0.256493,
+        "market_cap_usd": 218330554
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": -17.16,
+        "price_usd": 0.226866,
+        "market_cap_usd": 124982747
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": -16.2478,
+        "price_usd": 0.51888,
+        "market_cap_usd": 132320446
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": -14.0533,
+        "price_usd": 1.32e-06,
+        "market_cap_usd": 277484091
+      },
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": -7.2232,
+        "price_usd": 0.607368,
+        "market_cap_usd": 145185063
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77213,
+    "price_change_24h_pct": -0.2047,
+    "price_change_7d_pct": -3.3,
+    "market_cap_usd": 1550688175673,
+    "volume_24h_usd": 16776275686,
+    "direction": "neutral",
+    "oi_usd": 7972132144.26,
+    "funding_rate_latest": 5.169e-05,
+    "funding_rate_7d_avg": 4.9613333333333335e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6434,
+    "long_account_pct": 62.17,
+    "short_account_pct": 37.83,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2526.57,
+    "price_change_24h_pct": -0.4719,
+    "price_change_7d_pct": 1.7,
+    "market_cap_usd": 308301269084,
+    "volume_24h_usd": 9133176024,
+    "eth_btc_ratio": 0.032722,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88447237540.63,
+    "stablecoin_market_cap_usd": 312325153939.97,
+    "stablecoin_dominance_pct": 11.7551
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 16,
+    "headlines": [
+      {
+        "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
+        "summary": "Xi urges BRICS peace role in Middle East, courts Modi on India visit\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2hwaW9IeTRsWlZUMXI0TnRSYUhSM0ZNZVRXUHpQM0NKMHJIMlhJaFZZUUJYRE5PbEpvSjg4bDFxT0FVQUp1X0hHSUhOcXJjOFZpaDY3RmRMeFpFT0VaZVlQWG12ZlZJQ3BjdF9MMVJXYUxHV0xwQjVJWGstZWpJYWxlM2pmMzBCdFc5d1NCeE5IWENOUC1Id1ZfZGJDMkMwckY5Y082T2NLOEk?oc=5",
+        "published_at": "2026-09-12T19:16:35Z"
+      },
+      {
+        "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
+        "summary": "Iran and UAE back joint BRICS statement urging restraint in war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
+        "published_at": "2026-09-12T19:11:21Z"
+      },
+      {
+        "headline": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports - Reuters",
+        "summary": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzF6RlhPNHFNSGk2RzFzNnNVc3ZaT0RWYldmaWNGaDNQWkE1ZTl2MDQ2VnpKN0xuMENvc05KaG1xdjFVaEpPQWN1cXFjMk1IdVcxRkN0YzI5cEtHdjNUeUVfUUxHTVVfbGxfejVnZVFnVHZTWjNTa0RiQWhud2F0RmZJZExhOEZBa0xmaUxoaHF4YXk4bWN5VllHRFlSQ21wekM0Ri1aR1p5V2pEbkYyLTJzQWxBa0p6Ri1IVktiVnE1MkZieXpR?oc=5",
+        "published_at": "2026-09-12T16:45:33Z"
+      },
+      {
+        "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
+        "summary": "Houthi advance in Yemen puts U.S. in a new bind\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
+        "published_at": "2026-09-12T15:22:51Z"
+      },
+      {
+        "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - Reuters",
+        "summary": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5",
+        "published_at": "2026-09-12T13:44:20Z"
+      },
+      {
+        "headline": "I worked with Gloria Steinem for 30 years\u2014This was her No. 1 antidote to fear",
+        "summary": "Take The Lead founder Gloria Feldt recalls working with Gloria Steinem and the part of her legacy she will carry with her.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/12/i-worked-with-gloria-steinem-for-30-years-this-was-her-no-1-antidote-to-fear.html",
+        "published_at": "2026-09-12T13:00:01Z"
+      },
+      {
+        "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
+        "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+        "published_at": "2026-09-12T12:40:05Z"
+      },
+      {
+        "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
+        "summary": "Trump says Iran probably responsible for attack on Saudi pipeline\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
+        "published_at": "2026-09-12T10:19:56Z"
+      },
+      {
+        "headline": "BRICS bloc agrees on joint declaration, sources say - Reuters",
+        "summary": "BRICS bloc agrees on joint declaration, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
+        "published_at": "2026-09-12T08:02:40Z"
+      },
+      {
+        "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
+        "summary": "Trump arrives in Ireland to meet leaders before attending golf tournament\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
+        "published_at": "2026-09-12T05:04:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 764.29,
+    "spy_change_pct": 0.8524,
+    "spy_lean": "bullish",
+    "vix_close": 17.84,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77158.64,
+    "coinbase_premium_pct": -0.070403,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-12T21:12:23 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 218.29,
+        "change_pct": -0.0321,
+        "prev_close": 218.36
+      },
+      "AMD": {
+        "close": 516.13,
+        "change_pct": 2.4881,
+        "prev_close": 503.6
+      },
+      "TSM": {
+        "close": 433.24,
+        "change_pct": 1.2172,
+        "prev_close": 428.03
+      },
+      "SMCI": {
+        "close": 40.1,
+        "change_pct": 7.2766,
+        "prev_close": 37.38
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 714.88,
+        "change_pct": 0.8734,
+        "prev_close": 708.69
+      },
+      "SOXX": {
+        "close": 527.07,
+        "change_pct": 1.8631,
+        "prev_close": 517.43
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77213,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 13,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 10,
+    "sentiment_ratio": 0.1538,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov\u2019t domain",
+        "url": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+        "published_at": "2026-09-12T18:57:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
+        "url": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach",
+        "published_at": "2026-09-12T17:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto billionaires Ben Delo and Christopher Harborne each donate \u00a336 million to Farage\u2019s Reform UK",
+        "url": "https://www.theblock.co/news/regulation/2026-09-12-crypto-billionaires-ben-delo-and-christopher-harborne-each-donate-36-million-to-farages-reform-uk-414509",
+        "published_at": "2026-09-12T16:18:05+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-12T16:09:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korea using foreign talent to help infiltrate US companies: Report",
+        "url": "https://cointelegraph.com/news/north-korea-using-foreign-talent-to-help-infiltrate-us-companies-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-12T16:08:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GPT-6 Astra Users Say OpenAI's Newest Model Got Dumber. It Happened Before, Too",
+        "url": "https://decrypt.co/378101/gpt-6-astra-openai-model-dumber-nerfed",
+        "published_at": "2026-09-12T16:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Billionaires Hand Reform UK $97M in Record Donations",
+        "url": "https://decrypt.co/378107/crypto-billionaires-hand-reform-uk-97m-in-record-donations",
+        "published_at": "2026-09-12T15:51:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Farage\u2019s Reform UK gets $97M from two crypto billionaires",
+        "url": "https://cointelegraph.com/news/farages-reform-uk-gets-biggest-donation-ever-from-crypto-billionaire-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-12T15:50:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+        "url": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-12T15:12:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GTA Mod Adds Flock Cameras\u2014And Lets Players Destroy Them",
+        "url": "https://decrypt.co/377997/gta-mod-flock-cameras-players-destroy",
+        "published_at": "2026-09-12T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
