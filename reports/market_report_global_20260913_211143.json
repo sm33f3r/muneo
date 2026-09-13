@@ -1,0 +1,378 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-13T21:10:48 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2633697469204.03,
+    "total_market_cap_change_24h_pct": -3.4449,
+    "total_volume_24h_usd": 49522467251.85,
+    "btc_dominance_pct": 58.7989,
+    "eth_dominance_pct": 11.6128,
+    "total2_usd": 1085111215644.79,
+    "total3_usd": 779264645340.81,
+    "active_cryptocurrencies": 21175,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "LSK",
+        "name": "Lisk",
+        "price_change_24h_pct": 303.0488,
+        "price_usd": 0.940913,
+        "market_cap_usd": 219187169
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 26.876,
+        "price_usd": 0.702126,
+        "market_cap_usd": 1903253560
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": 22.3165,
+        "price_usd": 0.983165,
+        "market_cap_usd": 811716455
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": 14.1676,
+        "price_usd": 0.13771,
+        "market_cap_usd": 344021541
+      },
+      {
+        "symbol": "XTZ",
+        "name": "Tezos",
+        "price_change_24h_pct": 13.6508,
+        "price_usd": 0.295008,
+        "market_cap_usd": 323836843
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "UAI",
+        "name": "UnifAI Network",
+        "price_change_24h_pct": -18.1925,
+        "price_usd": 0.496955,
+        "market_cap_usd": 118789689
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": -9.8271,
+        "price_usd": 0.649818,
+        "market_cap_usd": 627076566
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -9.578,
+        "price_usd": 0.495461,
+        "market_cap_usd": 123865787
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -8.4731,
+        "price_usd": 21.93,
+        "market_cap_usd": 1051509418
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -7.8417,
+        "price_usd": 0.274281,
+        "market_cap_usd": 271897828
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77287,
+    "price_change_24h_pct": 0.0983,
+    "price_change_7d_pct": -3.1,
+    "market_cap_usd": 1552219991820,
+    "volume_24h_usd": 14898366939,
+    "direction": "neutral",
+    "oi_usd": 8112403754.71,
+    "funding_rate_latest": 6.45e-05,
+    "funding_rate_7d_avg": 5.339e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6399,
+    "long_account_pct": 62.12,
+    "short_account_pct": 37.88,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2512.17,
+    "price_change_24h_pct": -0.5555,
+    "price_change_7d_pct": 0.9,
+    "market_cap_usd": 306523166434,
+    "volume_24h_usd": 8845720423,
+    "eth_btc_ratio": 0.032504,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88458082376.38,
+    "stablecoin_market_cap_usd": 311490459745.98,
+    "stablecoin_dominance_pct": 11.8271
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 8,
+    "headlines": [
+      {
+        "headline": "Oman meeting between Gulf states and Iran postponed, Omani foreign minister says - Reuters",
+        "summary": "Oman meeting between Gulf states and Iran postponed, Omani foreign minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT01mN2pHSkgtLWNGSFhGWm9vSDBvNjlLVVB5N2lFRnczZ012SW1pZDdxTXRmY2NZWmw2MmRiOEJPZ1ZNdklvMkgxbXlEQXd6a3ozbWNrLTNaLWlMekNhalBBQjZTSXhEZEItM0s5WUM2cGN5akN6SXRVZVJseUR1M2Q1X2RoM2VBMEFMZHNrdVU0VUZyU2k5eWEtalNvbGVjQk5sS1NkbUV1QThfaUxocWV5NkVmRDBLQmdrNXJBQmp1ckhHTDBOdQ?oc=5",
+        "published_at": "2026-09-13T19:14:32Z"
+      },
+      {
+        "headline": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice - Reuters",
+        "summary": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0JoY2VGb08xV0N2bWR6cnNzaFZoVm9MMGZ4WW1aa292SHNWTVBoVERfLW96ZVllX2thQjdUU1RMOTBvRkRoMGpDd2ZyMXVyb0t2bEFabVBJczM2SnhwM0w5c3diVnZiT1E4QnBxZ3YxaEVnYjE1cVJndExhaUloWENHQjlWdmtvUHRmNG1sSWtWQ3ZIRTJQUU5wQTFDaEw0MDVIdThHdnl5NnVCSTdHUmUwR3RPU0tXalFfSA?oc=5",
+        "published_at": "2026-09-13T16:58:09Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in this week's stock market",
+        "summary": "We're looking forward to what promises to be a consequential Federal Reserve meeting and a slew of conferences.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
+        "published_at": "2026-09-13T16:57:43Z"
+      },
+      {
+        "headline": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+        "summary": "The House is scheduled to be sent home in the coming days until after November's midterm elections, leaving a narrow window to pass any form of AI regulation.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+        "published_at": "2026-09-13T16:56:17Z"
+      },
+      {
+        "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
+        "summary": "Trump says US could stay in Iran and keep oil, like Venezuela deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+        "published_at": "2026-09-13T15:28:53Z"
+      },
+      {
+        "headline": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups - Reuters",
+        "summary": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
+        "published_at": "2026-09-13T13:37:57Z"
+      },
+      {
+        "headline": "I'm a psychologist who studies couples: Emotionally intelligent partners ask 1 question every morning\u2014that most neglect",
+        "summary": "A \"capacity check\" might be the most thoughtful question to ask in the morning, says Mark Travers, a psychologist who studies relationships. How to do it right.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/emotionally-intelligent-couples-ask-question-every-morning-psychologist.html",
+        "published_at": "2026-09-13T13:07:01Z"
+      },
+      {
+        "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - Reuters",
+        "summary": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+        "published_at": "2026-09-13T02:22:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.0732,
+    "dxy_lean": "neutral",
+    "spy_close": 764.29,
+    "spy_change_pct": 0.8524,
+    "spy_lean": "bullish",
+    "vix_close": 17.84,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77321.33,
+    "coinbase_premium_pct": 0.044419,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-13T21:10:48 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 218.29,
+        "change_pct": -0.0321,
+        "prev_close": 218.36
+      },
+      "AMD": {
+        "close": 516.13,
+        "change_pct": 2.4881,
+        "prev_close": 503.6
+      },
+      "TSM": {
+        "close": 433.24,
+        "change_pct": 1.2172,
+        "prev_close": 428.03
+      },
+      "SMCI": {
+        "close": 40.1,
+        "change_pct": 7.2766,
+        "prev_close": 37.38
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 714.88,
+        "change_pct": 0.8734,
+        "prev_close": 708.69
+      },
+      "SOXX": {
+        "close": 527.07,
+        "change_pct": 1.8631,
+        "prev_close": 517.43
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77287,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 6,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
+        "published_at": "2026-09-13T18:29:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T16:47:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Spending Money Online? New Research Says Not Really",
+        "url": "https://decrypt.co/378103/ai-agents-spending-money-research",
+        "published_at": "2026-09-13T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic chief urges slowdown in AI development to safer pace",
+        "url": "https://cointelegraph.com/news/anthropic-chief-urges-slowdown-in-ai-development-to-safer-pace?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T11:09:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revolut says customer data exposed through fake government email",
+        "url": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T09:27:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin must clear resistance at $81,700 to confirm new bull market",
+        "url": "https://www.theblock.co/news/markets/2026-09-12-cryptoquant-bitcoin-resistance-support-levels-414519",
+        "published_at": "2026-09-12T21:39:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
