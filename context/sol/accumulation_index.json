@@ -1,22 +1,22 @@
 {
   "token": "SOL",
-  "generated_at": "2026-09-07T09:00:30 UTC",
+  "generated_at": "2026-09-14T09:01:00 UTC",
   "schema_version": "1.0.0",
   "total_periods": 12,
   "weekly_count": 7,
   "monthly_count": 3,
   "quarterly_count": 2,
   "most_recent_weekly": {
-    "period_id": "2026-W36",
+    "period_id": "2026-W37",
     "period_type": "weekly",
-    "start_date": "2026-08-31",
-    "end_date": "2026-09-06",
+    "start_date": "2026-09-07",
+    "end_date": "2026-09-13",
     "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 105.96,
-    "price_change_pct": 1.9827,
-    "filename": "weekly_2026_W36.json"
+    "close_usd": 101.29,
+    "price_change_pct": -2.5214,
+    "filename": "weekly_2026_W37.json"
   },
   "most_recent_monthly": {
     "period_id": "2026-M08",
@@ -44,18 +44,6 @@
   },
   "periods": {
     "weekly": [
-      {
-        "period_id": "2026-W30",
-        "period_type": "weekly",
-        "start_date": "2026-07-20",
-        "end_date": "2026-07-26",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 75.63,
-        "price_change_pct": -2.8267,
-        "filename": "weekly_2026_W30.json"
-      },
       {
         "period_id": "2026-W31",
         "period_type": "weekly",
@@ -127,6 +115,18 @@
         "close_usd": 105.96,
         "price_change_pct": 1.9827,
         "filename": "weekly_2026_W36.json"
+      },
+      {
+        "period_id": "2026-W37",
+        "period_type": "weekly",
+        "start_date": "2026-09-07",
+        "end_date": "2026-09-13",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 101.29,
+        "price_change_pct": -2.5214,
+        "filename": "weekly_2026_W37.json"
       }
     ],
     "monthly": [
