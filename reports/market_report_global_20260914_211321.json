@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-14T21:12:26 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2702819850468.02,
+    "total_market_cap_change_24h_pct": -0.0079,
+    "total_volume_24h_usd": 91823941574.82,
+    "btc_dominance_pct": 58.457,
+    "eth_dominance_pct": 11.5089,
+    "total2_usd": 1122833679345.47,
+    "total3_usd": 811768691603.49,
+    "active_cryptocurrencies": 21233,
+    "altcoin_season_index": 46,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 62.6384,
+        "price_usd": 0.508937,
+        "market_cap_usd": 151052256
+      },
+      {
+        "symbol": "ZCAT",
+        "name": "Anonymous Cat",
+        "price_change_24h_pct": 39.0078,
+        "price_usd": 0.131372,
+        "market_cap_usd": 127276689
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 27.2913,
+        "price_usd": 0.254921,
+        "market_cap_usd": 255046705
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": 15.7713,
+        "price_usd": 0.317048,
+        "market_cap_usd": 313984275
+      },
+      {
+        "symbol": "PENDLE",
+        "name": "Pendle",
+        "price_change_24h_pct": 12.8867,
+        "price_usd": 2.41,
+        "market_cap_usd": 419294046
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -12.0257,
+        "price_usd": 0.12657,
+        "market_cap_usd": 397365256
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -9.8996,
+        "price_usd": 0.631121,
+        "market_cap_usd": 1709294219
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -7.617,
+        "price_usd": 0.007357,
+        "market_cap_usd": 425955635
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -7.239,
+        "price_usd": 0.211447,
+        "market_cap_usd": 211555255
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -6.6905,
+        "price_usd": 0.01425919,
+        "market_cap_usd": 10120987606
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 78999,
+    "price_change_24h_pct": 2.1606,
+    "price_change_7d_pct": -0.3,
+    "market_cap_usd": 1586422396978,
+    "volume_24h_usd": 32502497576,
+    "direction": "bullish",
+    "oi_usd": 8222086914.63,
+    "funding_rate_latest": 4.22e-05,
+    "funding_rate_7d_avg": 5.878238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1645,
+    "long_account_pct": 53.8,
+    "short_account_pct": 46.2,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2556.7,
+    "price_change_24h_pct": 1.7174,
+    "price_change_7d_pct": 3.0,
+    "market_cap_usd": 312204464251,
+    "volume_24h_usd": 16286963249,
+    "eth_btc_ratio": 0.032364,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89196633535.57,
+    "stablecoin_market_cap_usd": 312223795739.81,
+    "stablecoin_dominance_pct": 11.5518
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Billionaire Dangote launches oil refinery 'people's IPO', Africa's biggest - Reuters",
+        "summary": "Billionaire Dangote launches oil refinery 'people's IPO', Africa's biggest\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNm15SzdOekVDNV9rUTlPanJOckRvYlVjbzNtRU1BVFlWLV9DUVFBRHIxQWwzbzZJNHNuUWt4VXpyM0piZVZCTjRXelNxMUN3ZHB4WXNuZmdoeTJvZkI5Mmp5azBwVGxRNU1qdEEwelJ4c3lCUGxORXRGUFkxckEwZFkwMjRIR3pUbnZhQnllUXp6ZVN2QllZeEg5LUhuVm9tdDhHZmhlTEt5RV8temxtSTJqb0RYWENfckZLTVV1RmlzNjQwdjBj?oc=5",
+        "published_at": "2026-09-14T19:34:10Z"
+      },
+      {
+        "headline": "Not all tech is under fire in Monday's selling, while investors seek refuge in defensive stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/not-all-tech-is-under-fire-in-monday-selling-investors-seek-out-defensives.html",
+        "published_at": "2026-09-14T19:27:29Z"
+      },
+      {
+        "headline": "U.S. imposes Iran-related sanctions on Russia's VTB - Reuters",
+        "summary": "U.S. imposes Iran-related sanctions on Russia's VTB\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUV9iZ1hvNXptVGtUeEZ2X3Q1bkxtdm93Zm1neUNFdjlKM3Y2eElENzhEbHNpMFRRUXlGaWtUakU1al9wM3gtanR4R05saV9fWXVmNXlOWFUtQkpvRnJBbDdybE5CdVJtUmFRVDdLazdXRGljQUVVa0xpcUEzWHNpUEd5ZEhjOUlQMVMzY2hnamY1endIa0RZbFRlM3pKOUUx?oc=5",
+        "published_at": "2026-09-14T19:04:23Z"
+      },
+      {
+        "headline": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+        "summary": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+        "published_at": "2026-09-14T18:50:32Z"
+      },
+      {
+        "headline": "Is a 'SaaSpocalypse'-like sell-off coming for AI hardware stocks? Not so fast",
+        "summary": "Anthropic's safety warning is crushing data center stocks, but demand for compute still outstrips supply.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/is-a-saaspocalypse-like-sell-off-coming-for-ai-hardware-stocks-not-so-fast.html",
+        "published_at": "2026-09-14T18:43:44Z"
+      },
+      {
+        "headline": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
+        "summary": "Michael Khouw breaks down how he's trading this energy name.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html",
+        "published_at": "2026-09-14T17:16:23Z"
+      },
+      {
+        "headline": "Jim Cramer on why 'sitting on your hands' is worth it in this oversold market",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/jim-cramer-on-why-sitting-on-your-hands-is-worth-it-in-this-oversold-market.html",
+        "published_at": "2026-09-14T16:11:22Z"
+      },
+      {
+        "headline": "Senior Sunni cleric shot dead by unidentified gunmen in southeast Iran - Iranian state media - Reuters",
+        "summary": "Senior Sunni cleric shot dead by unidentified gunmen in southeast Iran - Iranian state media\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXc0MkRtdlNRQUxNbjlDN3pHenA5cnEwdFBLU2ZPS3FBZDlpdXI4UDZ1WEZFQnZaemdZUVd6Q1JMOWNyc2s1QWZMU0YzWWVuSjl3V0hGS3BLTzFQWFZtalViVUZEcmduVElMUm0zU19oenVaUkdlRHAyUUF5TW9GelVoNlZyUktjV1FpQWNDbVRiOGdzNHg1X3JBNFRwZ0dDbGIyeWs2dWhVbERSVWJFYlhwLWtSSm00Z0ZIcDJtMXJ2U3dlY3pvZA?oc=5",
+        "published_at": "2026-09-14T15:10:56Z"
+      },
+      {
+        "headline": "Etihad Airways says passenger numbers have rebounded from Iran war impact - Reuters",
+        "summary": "Etihad Airways says passenger numbers have rebounded from Iran war impact\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYzdYYUtHSkVTSDY0dUZQVUZzdkY3WDVCZmgteEFHcXhrNGxmVmY5X1k4dGR3Z3o4ek9CdTNycWw3Z01jcHlRUFhJYllYLUd0V3JpRF9JVzY5eDh4WEFOVVBOSDd6RXhGa3lrSFFKVlBjV2cwMDhCdG5jcE1zN180Q0J1Y3lyVXNsWE9CaHBZWHlJZGtxdXNRWFlTWmVSR3RNV2dtR2RYV1JoU3VQcllHaUhIUEhMS2UwNzY4QzQxc2dwZjRQRFhtMkExRHI1Ukk?oc=5",
+        "published_at": "2026-09-14T14:15:11Z"
+      },
+      {
+        "headline": "Here are our top 10 things to watch in the stock market Monday",
+        "summary": "AI semiconductor and infrastructure stocks are under heavy pressure ahead of Monday's open on Wall Street.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/14/here-are-our-top-10-things-to-watch-in-the-stock-market-monday.html",
+        "published_at": "2026-09-14T13:14:57Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 760.81,
+    "spy_change_pct": -0.4553,
+    "spy_lean": "neutral",
+    "vix_close": 15.84,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 78911.51,
+    "coinbase_premium_pct": -0.110748,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-14T21:12:26 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": -3.3579,
+        "prev_close": 218.29
+      },
+      "AMD": {
+        "close": 493.41,
+        "change_pct": -4.402,
+        "prev_close": 516.13
+      },
+      "TSM": {
+        "close": 418.01,
+        "change_pct": -3.5154,
+        "prev_close": 433.24
+      },
+      "SMCI": {
+        "close": 36.74,
+        "change_pct": -8.3791,
+        "prev_close": 40.1
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.18,
+        "change_pct": -0.7973,
+        "prev_close": 714.88
+      },
+      "SOXX": {
+        "close": 497.4,
+        "change_pct": -5.6292,
+        "prev_close": 527.07
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 78999,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 70,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 46,
+    "positive_count": 8,
+    "negative_count": 2,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.1739,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Kraken brings DeFi yield to tokenized stocks and ETFs",
+        "url": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-14T20:54:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-14T20:41:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood Chain\u2019s rapid growth is being driven by 4 key factors, analyst says",
+        "url": "https://www.theblock.co/news/business/2026-09-14-robinhood-chain-rapid-growth-being-driven-4-key-factors-analyst-says-414687",
+        "published_at": "2026-09-14T20:21:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Says He 'Likes' Flock Surveillance Cameras Amid Bipartisan Pushback",
+        "url": "https://decrypt.co/378171/trump-likes-flocks-ai-surveillance-cameras",
+        "published_at": "2026-09-14T20:07:41+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White House crypto adviser feels \u2018very good\u2019 ahead of Senate Clarity Act vote on Tuesday",
+        "url": "https://www.theblock.co/news/regulation/2026-09-14-white-house-crypto-adviser-feels-very-good-ahead-senate-clarity-act-vote-tuesday-414702",
+        "published_at": "2026-09-14T19:29:41+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft Unveils 'Humanist AI' Code of Conduct, Asks the Public to Poke Holes in It",
+        "url": "https://decrypt.co/378168/microsoft-humanist-ai-code-of-conduct",
+        "published_at": "2026-09-14T19:07:28+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
+        "url": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-14T18:56:28+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Says He\u2019s the Only \u2018Guardrails\u2019 AI Needs, Attacks Anthropic and Defends Data Centers",
+        "url": "https://decrypt.co/378166/trump-ai-guardrails-attacks-anthropic",
+        "published_at": "2026-09-14T18:26:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin production rebounds in August for BitFuFu, edges higher at CleanSpark as Canaan slips",
+        "url": "https://www.theblock.co/news/markets/2026-09-14-bitcoin-production-rebounds-august-bitfufu-edges-higher-cleanspark-canaan-slips-414660",
+        "published_at": "2026-09-14T18:01:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
+        "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-14T17:50:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
