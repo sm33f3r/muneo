@@ -44,3 +44,7 @@ roadmaps/
 logs/
 context/
 .claude/
+*.log                  # any log files
+*.bak                  # backup files
+.env.local             # common local override name
+**/.env.local
