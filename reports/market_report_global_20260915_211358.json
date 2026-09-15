@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-15T21:13:02 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2590651190160.28,
+    "total_market_cap_change_24h_pct": -6.8761,
+    "total_volume_24h_usd": 103950697501.27,
+    "btc_dominance_pct": 58.4847,
+    "eth_dominance_pct": 11.262,
+    "total2_usd": 1075515844190.21,
+    "total3_usd": 783756596831.03,
+    "active_cryptocurrencies": 21260,
+    "altcoin_season_index": 42,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 69.9632,
+        "price_usd": 0.02678774,
+        "market_cap_usd": 610495571
+      },
+      {
+        "symbol": "BLORB",
+        "name": "BLORB",
+        "price_change_24h_pct": 54.5065,
+        "price_usd": 0.112752,
+        "market_cap_usd": 112756468
+      },
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": 20.9577,
+        "price_usd": 0.192606,
+        "market_cap_usd": 192591330
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 10.7099,
+        "price_usd": 0.695869,
+        "market_cap_usd": 1884764975
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 10.4618,
+        "price_usd": 0.139749,
+        "market_cap_usd": 438756058
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -20.9206,
+        "price_usd": 0.183556,
+        "market_cap_usd": 154600253
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -17.4298,
+        "price_usd": 0.196477,
+        "market_cap_usd": 196478580
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": -14.0892,
+        "price_usd": 0.01993338,
+        "market_cap_usd": 160464756
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": -13.8447,
+        "price_usd": 5.43,
+        "market_cap_usd": 543375053
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -13.1585,
+        "price_usd": 0.815747,
+        "market_cap_usd": 675302675
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75715,
+    "price_change_24h_pct": -4.069,
+    "price_change_7d_pct": -3.2,
+    "market_cap_usd": 1520679187006,
+    "volume_24h_usd": 39419018518,
+    "direction": "bearish",
+    "oi_usd": 8191147471.39,
+    "funding_rate_latest": 9.812e-05,
+    "funding_rate_7d_avg": 5.774047619047619e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7503,
+    "long_account_pct": 63.64,
+    "short_account_pct": 36.36,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2398.1,
+    "price_change_24h_pct": -6.1464,
+    "price_change_7d_pct": -3.0,
+    "market_cap_usd": 292698115380,
+    "volume_24h_usd": 19475874298,
+    "eth_btc_ratio": 0.031673,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86882806329.64,
+    "stablecoin_market_cap_usd": 311331535236.46,
+    "stablecoin_dominance_pct": 12.0175
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 28,
+    "headlines": [
+      {
+        "headline": "Best of the Emmy Awards - Reuters",
+        "summary": "Best of the Emmy Awards\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yNlkzNUF6QXZ2YjkzclJJdWhjUUNoSTVGY1A2SV9QNzI2R3MzUHBfemhjTnRRRHFRcDZzc21hYThRem4wTW1OQ09udGZVaG5HVHNYaDV4TEVFYnpkT2s2Uk5fdzF4c3pDRHpOZWFn?oc=5",
+        "published_at": "2026-09-15T19:36:13Z"
+      },
+      {
+        "headline": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - Reuters",
+        "summary": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNEs4SmV2UTYzblAwenVTemk5SWQtMTRPbkpoLTVxaEVrYzBYNDJfX0RrSmVVZVZadlFBVnF0WkJNeGc5czMxVWREeDFtS0dZeGJ2V2tqSVg5VWM5UUFtN1hsMXlPX3g4d1RMbk5BR1oxcVdyYjBIaHg0bFl1SXY1dDMzazVEZlNBOHdCWm8zRno2Vjc1TEJ6ekdnQ25COEVkS3FVNHJmeWEyRVZJd2p3aF80RFlhZmVtREhQbkpIdw?oc=5",
+        "published_at": "2026-09-15T19:33:12Z"
+      },
+      {
+        "headline": "Wells Fargo sees improvement in a key metric \u2014 plus, Lilly gets praise beyond GLP-1s",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/wells-fargo-sees-improvement-in-a-key-metric-plus-lilly-gets-praise-beyond-glp-1s.html",
+        "published_at": "2026-09-15T19:09:58Z"
+      },
+      {
+        "headline": "US Treasury's Bessent says bond yields reflect 'global issues' - Reuters",
+        "summary": "US Treasury's Bessent says bond yields reflect 'global issues'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTlaeHpnSkMzSU5ieGJqNEpUTFdaYU8yTzc2OExDcElaWFVFclZyNkVNcThWaFRiM29ZNGhaY3dpWS1RbVh0NUhZczdVLUhLVFNjN3RCRFhZMlVmeU5ibVhCXy14VnItdkpzVHNJZXlxWmhxbzRLX3BjOTFzcE9yRVFteHcwS0Jaa19QaTVPdnh5WDFLcXdvTXBrNldnNVJDd0RvN1NRYllyRWM?oc=5",
+        "published_at": "2026-09-15T18:41:11Z"
+      },
+      {
+        "headline": "US Republican lawmaker seeks Hegseth's impeachment over Iran - Reuters",
+        "summary": "US Republican lawmaker seeks Hegseth's impeachment over Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRkdVNklYVkNGY3dIRmFVaWVhU2tpR0I2cG9XcVNZRmVSQ0h0VklFdGlMRVZ3VXVHMzA2RjJkWDBBdUY5bXRKU1MtQmlSWmpXcm54M3R3UkR2WS16VE9HRVM3Z2dndlVkMnNxd0E4TUFwS3JRREFETmxtaC05Vy1Zb0o1Rk5kMTVWLTRGSmxzbVBrMnNEQldDdVpXS1VpR3NNTzVNSlAyaw?oc=5",
+        "published_at": "2026-09-15T18:01:43Z"
+      },
+      {
+        "headline": "US energy chief says Saudi Arabia oil pipeline should be back online within days - Reuters",
+        "summary": "US energy chief says Saudi Arabia oil pipeline should be back online within days\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVqU3FIVkpudnZrWWI3ZndxaldTN2FtV0lXR0JuSnIweGhPRDFYS0FPUWxxVG5YS1Rmb3J0QlBRZ0hucFgxX3hWc3JBWllZbDZLWkJ4STd6X1lUekNXeUd6OXNRZTJ5dEFQRmwzY2M4bUlLSmlHTkZzUWFFRkJCWTZSRlJ1TGtQNnNydFdGZ01uQmVtNWplOG9yLTFidlV6aG5jaE51SXRSSGVMUmdJTGh2M3pVdG5sWWM4SzBQcFlOdzA?oc=5",
+        "published_at": "2026-09-15T16:55:32Z"
+      },
+      {
+        "headline": "UK, US and Netherlands issue advisory on Iran-linked spyware - Reuters",
+        "summary": "UK, US and Netherlands issue advisory on Iran-linked spyware\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWk93UklibjZvS0JuVFBwX2RiTFVTM3BEOExqM1dFYnM4cDZ0TFZsV3JjMkR5WThrN2ZJZkdoQ1R5amNsZF84ZFh6RzBjcmpjSmtma0VxbHBreVBNMDJZVXc2REhYVHVUWlQwVEVLX3ZYN1NFUkE0Y3A0VkFTSEIyY0h2RGNMbE1KRFBnM05YT1E?oc=5",
+        "published_at": "2026-09-15T16:35:20Z"
+      },
+      {
+        "headline": "Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game'",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/cramer-says-these-2-stocks-are-still-buys-warns-against-playing-fed-rate-parlor-game.html",
+        "published_at": "2026-09-15T16:12:59Z"
+      },
+      {
+        "headline": "We're buying the dip in one of our newest stocks",
+        "summary": "Nothing has changed in this bank's positive operating-leverage story.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/were-buying-the-dip-in-one-of-our-newest-stocks.html",
+        "published_at": "2026-09-15T15:59:55Z"
+      },
+      {
+        "headline": "Airfares, gas and hotel prices were up this summer\u2014Americans traveled anyway",
+        "summary": "If the fall travel season looks anything like the summer, costs for flights, hotels and gas will be higher and Americans will still find money for vacations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/fall-travel-costs-vacation-demand.html",
+        "published_at": "2026-09-15T14:30:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 757.43,
+    "spy_change_pct": -0.4534,
+    "spy_lean": "neutral",
+    "vix_close": 17.1,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 75901.01,
+    "coinbase_premium_pct": 0.245671,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-15T21:13:02 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 212.17,
+        "change_pct": 0.5736,
+        "prev_close": 210.96
+      },
+      "AMD": {
+        "close": 504.2,
+        "change_pct": 2.1868,
+        "prev_close": 493.41
+      },
+      "TSM": {
+        "close": 413.75,
+        "change_pct": -1.0191,
+        "prev_close": 418.01
+      },
+      "SMCI": {
+        "close": 35.64,
+        "change_pct": -2.994,
+        "prev_close": 36.74
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.54,
+        "change_pct": -0.6543,
+        "prev_close": 709.18
+      },
+      "SOXX": {
+        "close": 498.85,
+        "change_pct": 0.2915,
+        "prev_close": 497.4
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75715,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 63,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 49,
+    "positive_count": 5,
+    "negative_count": 7,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.102,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
+        "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
+        "published_at": "2026-09-15T21:10:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto stocks slide after CLARITY Act fails to advance in Senate",
+        "url": "https://cointelegraph.com/markets/crypto-stocks-slide-after-clarity-act-fails-to-advance-in-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T20:37:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI's Brockman Says Safety Concerns Have Already Slowed Its Most Advanced AI Work",
+        "url": "https://decrypt.co/378300/openai-safety-concerns-slowed-most-advanced-ai-work",
+        "published_at": "2026-09-15T20:09:19+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T19:53:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Reacts: Bitcoin Slides as Clarity Act Fails to Clear Senate Vote",
+        "url": "https://decrypt.co/378286/crypto-clarity-act-fails-clear-senate-bitcoin-slides",
+        "published_at": "2026-09-15T19:18:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Clarity Act preliminary vote falls short in Senate amid ethics fight over Trump\u2019s crypto wealth",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-clarity-act-preliminary-vote-falls-short-in-senate-amid-ethics-fight-over-trumps-crypto-wealth-415010",
+        "published_at": "2026-09-15T18:57:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Clarity Act Stalls in Senate as Crypto Bill Fails to Clear Key Vote",
+        "url": "https://decrypt.co/378283/clarity-act-fails-senate-hurdle",
+        "published_at": "2026-09-15T18:54:10+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Senate fails to advance CLARITY Act",
+        "url": "https://cointelegraph.com/news/us-senate-fails-to-advance-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T18:46:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stablecoin growth could boost dollar dominance, US Treasury demand: BoE official",
+        "url": "https://cointelegraph.com/news/stablecoins-us-dollar-dominance-treasury-demand-boe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T17:53:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOJ charges Robinhood former engineers with front-running crypto listings on Hyperliquid",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-doj-charges-robinhood-engineers-front-running-crypto-listings-hyperliquid-414865",
+        "published_at": "2026-09-15T17:50:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
