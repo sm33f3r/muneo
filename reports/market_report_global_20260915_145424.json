@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-15T14:53:17 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2591697643590.53,
+    "total_market_cap_change_24h_pct": -5.1834,
+    "total_volume_24h_usd": 90277637463.67,
+    "btc_dominance_pct": 58.209,
+    "eth_dominance_pct": 11.2804,
+    "total2_usd": 1083096210322.84,
+    "total3_usd": 790743265229.39,
+    "active_cryptocurrencies": 21251,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 71.2775,
+        "price_usd": 0.02627298,
+        "market_cap_usd": 600146041
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": 19.2623,
+        "price_usd": 0.307184,
+        "market_cap_usd": 304562918
+      },
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": 11.9787,
+        "price_usd": 0.175652,
+        "market_cap_usd": 175126050
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 10.1522,
+        "price_usd": 0.143563,
+        "market_cap_usd": 451287344
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 6.5086,
+        "price_usd": 0.622448,
+        "market_cap_usd": 445129805
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -24.4167,
+        "price_usd": 0.172308,
+        "market_cap_usd": 145850308
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -15.9817,
+        "price_usd": 0.01256362,
+        "market_cap_usd": 8904011137
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -13.878,
+        "price_usd": 0.858893,
+        "market_cap_usd": 710963404
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -13.007,
+        "price_usd": 0.130882,
+        "market_cap_usd": 124000959
+      },
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -12.9878,
+        "price_usd": 0.213084,
+        "market_cap_usd": 212959184
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75676,
+    "price_change_24h_pct": -3.5685,
+    "price_change_7d_pct": -2.5,
+    "market_cap_usd": 1520154392912,
+    "volume_24h_usd": 33632648071,
+    "direction": "bearish",
+    "oi_usd": 8147006180.46,
+    "funding_rate_latest": 6.188e-05,
+    "funding_rate_7d_avg": 5.736761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7473,
+    "long_account_pct": 63.6,
+    "short_account_pct": 36.4,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2398.74,
+    "price_change_24h_pct": -4.1601,
+    "price_change_7d_pct": -0.9,
+    "market_cap_usd": 293341484854,
+    "volume_24h_usd": 17047543758,
+    "eth_btc_ratio": 0.031697,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 87878059399.46,
+    "stablecoin_market_cap_usd": 311779768156.82,
+    "stablecoin_dominance_pct": 12.0299
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 23,
+    "headlines": [
+      {
+        "headline": "Airfares, gas and hotel prices were up this summer\u2014Americans traveled anyway",
+        "summary": "If the fall travel season looks anything like the summer, costs for flights, hotels and gas will be higher and Americans will still find money for vacations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/fall-travel-costs-vacation-demand.html",
+        "published_at": "2026-09-15T14:30:01Z"
+      },
+      {
+        "headline": "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
+        "summary": "Higher interest rates are typically viewed as dicey for stocks but also mean you can earn more on your fixed income investments.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/what-higher-for-longer-interest-rates-mean-for-your-investments.html",
+        "published_at": "2026-09-15T14:00:02Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+        "summary": "We're headed for a slightly lower open today.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+        "published_at": "2026-09-15T13:14:54Z"
+      },
+      {
+        "headline": "Fed up with AI interviews, some job seekers are dropping out as candidates and blacklisting companies from consideration",
+        "summary": "AI-driven job interviews, without a human present, are a dealbreaker for some job candidates, even in this tough market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/job-seekers-refusing-ai-interviews-blacklisting-employers.html",
+        "published_at": "2026-09-15T13:05:01Z"
+      },
+      {
+        "headline": "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage - Reuters",
+        "summary": "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGhFMHZVNGthdVl1bjYza3ZOWVpRY3ZMS1JmZkgxVnJTWGRhZFdFS3JfYk1nX2Y1Nzl3RlZDN21lWFA3b0xUU1E3UkdZR0hPQXNXdG5seEhsQ0hUR1gxVnZCWHFpTXdQdGhGQkFKTFd0cW80QUNBdnpXYzdOX25zZEJpN2lkOW1IWVlnc0RZNDk0cGgzSTlNYXFaMS1EcUJTM0ZUUjlhS0FLV0NrbGtsM3BKOVlFOWdFUi1sbGQtWmRqX3ZsODdPczRYRUw?oc=5",
+        "published_at": "2026-09-15T11:58:52Z"
+      },
+      {
+        "headline": "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "summary": "While higher oil is cited as a main reason for the change in view, roughly three quarters of respondents see the inflation problem as broader than just energy prices.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html",
+        "published_at": "2026-09-15T11:10:05Z"
+      },
+      {
+        "headline": "U.S. confirms for first time it has weapons deployed in space",
+        "summary": "U.S. Air Force Secretary Troy Meink said Monday that the U.S. has \"on-orbit space control weapons,\" as he outlined a broader push to modernize the Air Force.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/weapons-in-space-us-air-force-meink.html",
+        "published_at": "2026-09-15T11:06:33Z"
+      },
+      {
+        "headline": "LNG demand in China, India and Pakistan expected to rebound after US-Iran war ends - Reuters",
+        "summary": "LNG demand in China, India and Pakistan expected to rebound after US-Iran war ends\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb19XZTBOamlRdWRZa2xJc2F1b0g2ZmlzU1BObHJlSXpldVdQVHR3T2JSWFVvUDEyWTk1Zm9RU3dCUmVmQXIyWjVBTkVpam8xVndOTTNjS3k3c0R1LVlDN09taHZHNDVTUU84TF9fZmNKWTZhQVVpeFJpVXBqb0w3TjB0V0ZDM3Q5aWFpZ1R3WVdaUl9hZURqcG5tOVhiaXIwQ3c4S2I2Q1lCMmZ6OGtqSzhVOA?oc=5",
+        "published_at": "2026-09-15T10:57:50Z"
+      },
+      {
+        "headline": "Children's clothing retailer Carter's is rebranding to appeal to a new generation of parents",
+        "summary": "Children's clothing brand Carter's is announcing a rebrand as it tries to keep up with the modern parent and its core customer base.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/carters-kids-clothing-retailer-rebrands.html",
+        "published_at": "2026-09-15T10:00:01Z"
+      },
+      {
+        "headline": "China's August oil throughput rises as fuel exports rebound amid Iran war - Reuters",
+        "summary": "China's August oil throughput rises as fuel exports rebound amid Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3JiM0k1cEJ2SDhnVmNCbHJpeWlQWTJyWjVTUDlSX0dhM0I4MHAwOHltcFl6WW5RazFEWE0yYk1ja0hJcnE1cWpJYVZDZFp0cW1XeVpMeXFEc01veFFRRmNZeFhkSXBIeFphV0pYU3NGZjJNbzhfRlFrUk5Gc3puWVo2SllOZm5CM19xZ2dSWGV3aGpzdkdOTFpRVHVMNDRyMTB1WWJRSVFKbVV6YXRJNG9JZU1iMk9XRF9KMlFXUHdNZw?oc=5",
+        "published_at": "2026-09-15T05:12:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 760.88,
+    "spy_change_pct": -0.4462,
+    "spy_lean": "neutral",
+    "vix_close": 17.1,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 75755.01,
+    "coinbase_premium_pct": 0.104406,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-15T14:53:17 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 211.82,
+        "change_pct": 0.4077,
+        "prev_close": 210.96
+      },
+      "AMD": {
+        "close": 504.54,
+        "change_pct": 2.2557,
+        "prev_close": 493.41
+      },
+      "TSM": {
+        "close": 414.3,
+        "change_pct": -0.8875,
+        "prev_close": 418.01
+      },
+      "SMCI": {
+        "close": 36.46,
+        "change_pct": -0.7621,
+        "prev_close": 36.74
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.43,
+        "change_pct": -0.6698,
+        "prev_close": 709.18
+      },
+      "SOXX": {
+        "close": 498.6,
+        "change_pct": 0.2413,
+        "prev_close": 497.4
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75676,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 65,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 47,
+    "positive_count": 6,
+    "negative_count": 4,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.1277,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Lead Senate Republican Lummis rejects Democratic counteroffer as Clarity Act vote nears",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-senate-republican-lummis-rejects-democratic-counteroffer-clarity-act-vote-414850",
+        "published_at": "2026-09-15T14:38:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Morning Minute: Clarity Act Odds Slump After Democrat Pushback",
+        "url": "https://decrypt.co/378230/morning-minute-clarity-act-odds-slump-after-democrat-pushback",
+        "published_at": "2026-09-15T14:05:47+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USDT payments feature in Polish energy giant\u2019s failed $230M oil deal: FT",
+        "url": "https://cointelegraph.com/news/usdt-payments-polish-energy-giants-failed-230m-oil-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T13:37:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why an AI Slowdown Could Collapse Under Commercial and US-China Pressure",
+        "url": "https://decrypt.co/378203/ai-slowdown-us-china-pressure",
+        "published_at": "2026-09-15T13:00:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "House committee releases sweeping crypto tax bill ahead of Wednesday markup",
+        "url": "https://www.theblock.co/news/regulation/2026-09-15-house-committee-crypto-tax-bill-414824",
+        "published_at": "2026-09-15T11:52:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Standard Chartered sees Arbitrum at $10 by end-2030, up 70-fold",
+        "url": "https://www.theblock.co/news/markets/2026-09-15-standard-chartered-sees-arbitrum-at-10-by-end-2030-up-70-fold-414821",
+        "published_at": "2026-09-15T11:50:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
+        "url": "https://decrypt.co/378183/solana-defi-development-corp-chad",
+        "published_at": "2026-09-15T11:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US House crypto tax package omits mining, staking reward deferral",
+        "url": "https://cointelegraph.com/news/us-house-crypto-tax-bill-mining-staking-reward-deferral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T10:04:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
+        "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-15T09:40:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tonkeeper rebrands as Keeper with support for 7 networks, including Bitcoin and Ethereum",
+        "url": "https://www.theblock.co/news/business/2026-09-15-tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum-414807",
+        "published_at": "2026-09-15T09:35:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
