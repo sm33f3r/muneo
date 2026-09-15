@@ -2,6 +2,7 @@
 
 Muneo is an open-source crypto market analysis stack. It runs on a daily schedule, pulls data from across the market using only free-tier APIs, and produces structured JSON (and optional Markdown) reports covering price action, technical indicators, on-chain data, macro context, and news — all in one place, ready for a human or an AI to read and act on.
 <img src="assets/muneo.png" align="right" width="380">
+
 Muneo is read-only by design and fetches public market data and writes report files. The different reports are produced daily - Muneo Global (covering the whole crypto market), Muneo Solana (covering Solana-specific market data) and Muneo Sui (covering Sui-specific market data). More blockchain-specific builds may be incoming and I encourage others to contribute to fork this thing to make that happen.
 
 The purpose of Muneo is to give you people market data that you or your agent can use for market information. This can be used for research, trading or whatever you want. Power to the people. Cheers.
