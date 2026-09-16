@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-16T21:50:39 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 98.19,
+    "price_change_24h_pct": 1.3077,
+    "price_change_7d_pct": -4.2599,
+    "volume_24h_usd": 3420856317,
+    "market_cap_usd": 57635411022,
+    "volume_to_mcap_ratio": 0.059353,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -66.5251,
+    "cex_price_usd": 98.21,
+    "cex_24h_high": 98.94,
+    "cex_24h_low": 96.09,
+    "cex_dex_spread_pct": 0.020369,
+    "volume_on_up_days_usd": 4152667688.2549505,
+    "volume_on_down_days_usd": 3560142446.871554,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 60.0268,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": 5.187982,
+      "signal_line": 2.106139,
+      "histogram": 3.081844
+    },
+    "macd_lean": "bullish",
+    "sma_50": 83.4538,
+    "price_vs_sma50_pct": 17.6579,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 109.487989,
+      "mid": 84.606,
+      "lower": 59.724011,
+      "width_pct": 58.8185,
+      "position": 0.7464
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 795314717.61,
+    "oi_lean": null,
+    "funding_rate_latest": 3.283e-05,
+    "funding_rate_7d_avg": 1.0417619047619049e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.5164,
+    "btc_long_account_pct": 60.26,
+    "btc_short_account_pct": 39.74,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 5741187544.0,
+    "tvl_7d_change_pct": -1.9778,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 13879232.73,
+    "chain_fees_7d_avg_usd": 14521367.58,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 0,
+    "sentiment_ratio": 1.0,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
+        "url": "https://cointelegraph.com/news/deutsche-bank-regulatory-nod-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-16T10:33:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 75910.0,
+    "btc_24h_change_pct": 0.3774,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.9289,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2587316882281.103,
+    "eth_btc_ratio": 0.031615,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 754.13,
+    "spy_change_pct": -0.4304,
+    "spy_lean": "neutral",
+    "vix_close": 17.2,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 63,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 69.44,
+    "cg_sentiment_votes_down_pct": 30.56,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 12,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
