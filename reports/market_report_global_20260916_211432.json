@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-16T21:13:36 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2609697570950.05,
+    "total_market_cap_change_24h_pct": -2.2931,
+    "total_volume_24h_usd": 92710664758.8,
+    "btc_dominance_pct": 58.4479,
+    "eth_dominance_pct": 11.2403,
+    "total2_usd": 1084383846212.52,
+    "total3_usd": 791045548683.02,
+    "active_cryptocurrencies": 21306,
+    "altcoin_season_index": 45,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 145.5418,
+        "price_usd": 0.639651,
+        "market_cap_usd": 189387487
+      },
+      {
+        "symbol": "LSK",
+        "name": "Lisk",
+        "price_change_24h_pct": 94.5409,
+        "price_usd": 0.730001,
+        "market_cap_usd": 170222830
+      },
+      {
+        "symbol": "BULLA",
+        "name": "BULLA",
+        "price_change_24h_pct": 66.2678,
+        "price_usd": 0.123,
+        "market_cap_usd": 123002434
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 38.3264,
+        "price_usd": 0.1919,
+        "market_cap_usd": 191872786
+      },
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": 20.2625,
+        "price_usd": 0.915039,
+        "market_cap_usd": 137229460
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -27.8119,
+        "price_usd": 0.01932444,
+        "market_cap_usd": 440558813
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -11.3126,
+        "price_usd": 0.561546,
+        "market_cap_usd": 399930312
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -11.0301,
+        "price_usd": 0.0241157,
+        "market_cap_usd": 636397261
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price_change_24h_pct": -7.7996,
+        "price_usd": 0.056538,
+        "market_cap_usd": 1324129914
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -7.6419,
+        "price_usd": 0.265393,
+        "market_cap_usd": 263070119
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76100,
+    "price_change_24h_pct": 0.3962,
+    "price_change_7d_pct": -2.7,
+    "market_cap_usd": 1528432964504,
+    "volume_24h_usd": 31587393637,
+    "direction": "neutral",
+    "oi_usd": 8225477698.9,
+    "funding_rate_latest": 5.258e-05,
+    "funding_rate_7d_avg": 5.454714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5164,
+    "long_account_pct": 60.26,
+    "short_account_pct": 39.74,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2409.42,
+    "price_change_24h_pct": 0.2906,
+    "price_change_7d_pct": -2.3,
+    "market_cap_usd": 294130670375,
+    "volume_24h_usd": 15995373045,
+    "eth_btc_ratio": 0.031661,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 86507325352.26,
+    "stablecoin_market_cap_usd": 310879416690.35,
+    "stablecoin_dominance_pct": 11.9125
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - reuters.com",
+        "summary": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUktRelVFeVlmRUh4NjlTNU5vVFNRZDBsaE9Wd2YybUlQYTNSY0NONXhUMjJEcTJzSnRjaWZNM2pNN0E4YnVyTVdLZVhOX2FmM0l1MXU2SU01NXR2aWw3bC1IY2lZM3BZbzZQQ01kN3loX09KU2x5dTd4RXl6cXU0TUd5eVppY3NSbXpibXBnRmxyeHJyUUtjME5FU2tBaHZyMDB4RXgyQ3E0dnh5X1lZY2oxOWpqQTdCQlJiZFZtYw?oc=5",
+        "published_at": "2026-09-16T20:11:13Z"
+      },
+      {
+        "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
+        "summary": "Boeing CEO said stabilizing its 737 Max production is taking longer than expected to stabilize.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/boeing-ceo-737-max-production.html",
+        "published_at": "2026-09-16T19:12:52Z"
+      },
+      {
+        "headline": "Fed delivers its first hike in 3 years. Plus, what's moving Starbucks and GE Vernova",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/fed-delivers-its-first-hike-in-3-years-plus-whats-moving-starbucks-and-ge-vernova.html",
+        "published_at": "2026-09-16T19:00:14Z"
+      },
+      {
+        "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - reuters.com",
+        "summary": "US House expected to pass Russia sanctions bill backed by late Senator Graham\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
+        "published_at": "2026-09-16T18:29:12Z"
+      },
+      {
+        "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
+        "summary": "Yemen offensive elevates enigmatic Houthi commander's standing\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0FZY0J4cFN1dGZjZEsxUXc5aVlrd2ZJdHF5LWtEcWU2bnJ6aFZ4X1I5WHhRQ3pfZUNfVzJUYlEzbW9lSTdINmtnVFYyUXNBZW5LcXlYQS0zVUNlTllVTUhkR29xaWFhZFlsSTgzU1p5Z3FTSzJtMEpka0lHS0VoZHltRXMxME40Zldtb0xOcWxEekxIOGN5WG5vV2I5NHpZbGd6X21kTzMzT3hnWjVLUDZFejNYeEgzcEJnRFFuQlN5UQ?oc=5",
+        "published_at": "2026-09-16T18:04:31Z"
+      },
+      {
+        "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
+        "summary": "Quietly, the communications sector has started to claw back some of the year's underperformance.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/lagging-sector-looks-poised-for-a-rebound-heres-how-mike-khouw-is-trading-it.html",
+        "published_at": "2026-09-16T17:21:49Z"
+      },
+      {
+        "headline": "American Airlines says 30% of seats drive half of revenue as premium cabin rush heats up",
+        "summary": "American says a minority of its seats now accounts for half of its revenue.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/american-airlines-ceo-first-class-seats.html",
+        "published_at": "2026-09-16T16:55:44Z"
+      },
+      {
+        "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
+        "summary": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
+        "published_at": "2026-09-16T16:38:32Z"
+      },
+      {
+        "headline": "We're significantly trimming a stock that has not gone to plan",
+        "summary": "We're selling half of our remaining position and downgrading the name to our sell-on-further-strength 3 rating.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/were-significantly-trimming-a-stock-that-has-not-gone-to-plan.html",
+        "published_at": "2026-09-16T16:37:22Z"
+      },
+      {
+        "headline": "Jim Cramer says this enterprise software stock is 'way too cheap'",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/16/jim-cramer-says-this-enterprise-software-stock-is-way-too-cheap.html",
+        "published_at": "2026-09-16T16:04:44Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 754.13,
+    "spy_change_pct": -0.4304,
+    "spy_lean": "neutral",
+    "vix_close": 17.2,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 76030.94,
+    "coinbase_premium_pct": -0.090749,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-16T21:13:36 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 213.9,
+        "change_pct": 0.8154,
+        "prev_close": 212.17
+      },
+      "AMD": {
+        "close": 512.5,
+        "change_pct": 1.6462,
+        "prev_close": 504.2
+      },
+      "TSM": {
+        "close": 417.72,
+        "change_pct": 0.9595,
+        "prev_close": 413.75
+      },
+      "SMCI": {
+        "close": 36.85,
+        "change_pct": 3.3951,
+        "prev_close": 35.64
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.72,
+        "change_pct": 0.0255,
+        "prev_close": 704.54
+      },
+      "SOXX": {
+        "close": 502.06,
+        "change_pct": 0.6435,
+        "prev_close": 498.85
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 76100,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 64,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 49,
+    "positive_count": 8,
+    "negative_count": 5,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.1633,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CLARITY Act could get another shot during lame-duck session, policy advocate says",
+        "url": "https://cointelegraph.com/news/clarity-act-could-get-another-shot-during-lame-duck-session-policy-advocate-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-16T20:51:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI's Rogue AI Agents Were Probing Hugging Face Two Months Before Hack",
+        "url": "https://decrypt.co/378446/openai-rogue-agents-hugging-face-two-months-before-hack",
+        "published_at": "2026-09-16T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin, ether swing after unanimous quarter-point Fed rate hike as Warsh takes aim at inflation",
+        "url": "https://www.theblock.co/news/markets/2026-09-16-bitcoin-ether-swing-unanimous-quarter-point-fed-rate-hike-warsh-aim-inflation-415307",
+        "published_at": "2026-09-16T20:02:16+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed Chair Implies Trump Is Only Half Right on the Economy Following Rate Hike",
+        "url": "https://decrypt.co/378433/fed-hikes-rates-warsh-implies-trump-only-half-right",
+        "published_at": "2026-09-16T19:43:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-16T19:25:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK FCA sets crypto authorization guidance ahead of September application window",
+        "url": "https://cointelegraph.com/news/uk-fca-sets-crypto-authorization-guidance-ahead-of-september-application-window?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-16T19:19:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Core Software Update Aims for Speed and Security Patches",
+        "url": "https://decrypt.co/378430/bitcoin-core-software-october-update",
+        "published_at": "2026-09-16T18:53:48+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed Hikes Rates for the First Time Since 2023, Bitcoin Spikes",
+        "url": "https://decrypt.co/378417/fed-hikes-rates-first-time-since-2023-bitcoin",
+        "published_at": "2026-09-16T18:15:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Go time\u2019: SEC, CFTC prepare to push crypto rules as Clarity Act stalls in Senate",
+        "url": "https://www.theblock.co/news/regulation/2026-09-16-go-time-sec-cftc-prepare-push-crypto-rules-clarity-act-stalls-senate-415281",
+        "published_at": "2026-09-16T18:06:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US House tax committee advances crypto tax overhaul in 38\u20135 vote",
+        "url": "https://cointelegraph.com/news/house-tax-committee-advances-crypto-tax-overhaul-in-385-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-16T18:01:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
