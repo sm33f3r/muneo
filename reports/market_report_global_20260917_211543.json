@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-17T21:14:47 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2632484216374.85,
+    "total_market_cap_change_24h_pct": -1.7408,
+    "total_volume_24h_usd": 80677372186.86,
+    "btc_dominance_pct": 58.16,
+    "eth_dominance_pct": 11.3243,
+    "total2_usd": 1101430943443.68,
+    "total3_usd": 803320985318.75,
+    "active_cryptocurrencies": 21260,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MCAT",
+        "name": "Marscat Token",
+        "price_change_24h_pct": 162.1462,
+        "price_usd": 0.624905,
+        "market_cap_usd": 624688864
+      },
+      {
+        "symbol": "STAU",
+        "name": "STAU",
+        "price_change_24h_pct": 81.3181,
+        "price_usd": 0.01197789,
+        "market_cap_usd": 119778527
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": 43.2983,
+        "price_usd": 0.38093,
+        "market_cap_usd": 377616532
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 29.4542,
+        "price_usd": 0.226705,
+        "market_cap_usd": 191397511
+      },
+      {
+        "symbol": "ZCAT",
+        "name": "Anonymous Cat",
+        "price_change_24h_pct": 28.649,
+        "price_usd": 0.14539,
+        "market_cap_usd": 141068216
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": -6.9571,
+        "price_usd": 0.200442,
+        "market_cap_usd": 200413624
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -4.2132,
+        "price_usd": 0.701398,
+        "market_cap_usd": 1899616669
+      },
+      {
+        "symbol": "ANTFUN",
+        "name": "AntFun",
+        "price_change_24h_pct": -3.6693,
+        "price_usd": 0.086864,
+        "market_cap_usd": 163966474
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price_change_24h_pct": -3.5282,
+        "price_usd": 0.081608,
+        "market_cap_usd": 915778371
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -3.1339,
+        "price_usd": 0.181276,
+        "market_cap_usd": 181272313
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76444,
+    "price_change_24h_pct": 0.5165,
+    "price_change_7d_pct": -0.8,
+    "market_cap_usd": 1535409056971,
+    "volume_24h_usd": 24529030508,
+    "direction": "neutral",
+    "oi_usd": 8266756212.74,
+    "funding_rate_latest": 8.505e-05,
+    "funding_rate_7d_avg": 5.5754761904761905e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4372,
+    "long_account_pct": 58.97,
+    "short_account_pct": 41.03,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2448.89,
+    "price_change_24h_pct": 1.746,
+    "price_change_7d_pct": -0.5,
+    "market_cap_usd": 298902327961,
+    "volume_24h_usd": 12353044961,
+    "eth_btc_ratio": 0.032035,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88483984679.1,
+    "stablecoin_market_cap_usd": 311332559807.2,
+    "stablecoin_dominance_pct": 11.8266
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 23,
+    "headlines": [
+      {
+        "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
+        "summary": "US allies fret over how Trump might play his Taiwan hand with Xi\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
+        "published_at": "2026-09-17T20:07:39Z"
+      },
+      {
+        "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+        "summary": "Impoverished by war in Iran, Afghan migrants return to Taliban rule\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
+        "published_at": "2026-09-17T20:05:38Z"
+      },
+      {
+        "headline": "US to allow Iranian leaders to attend UN General Assembly - Reuters",
+        "summary": "US to allow Iranian leaders to attend UN General Assembly\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
+        "published_at": "2026-09-17T20:02:56Z"
+      },
+      {
+        "headline": "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/17/intel-and-micron-lead-our-portfolio-higher-and-jjs-strengthens-our-case-for-owning-it-.html",
+        "published_at": "2026-09-17T18:55:23Z"
+      },
+      {
+        "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
+        "summary": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
+        "published_at": "2026-09-17T18:29:25Z"
+      },
+      {
+        "headline": "Stephen Curry says his Li-Ning signature shoe will debut early next year",
+        "summary": "Golden State Warrior superstar Stephen Curry announced in June he was signing a long-term partnership with Chinese brand Li-Ning.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/17/stephen-curry-li-ning-signature-shoe.html",
+        "published_at": "2026-09-17T17:27:15Z"
+      },
+      {
+        "headline": "We're buying more shares of a retailer that's been punished enough for a rare misstep",
+        "summary": "Shares have been in the dumps since earnings in August.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/17/were-buying-more-shares-of-a-retailer-thats-been-punished-enough-for-a-rare-misstep.html",
+        "published_at": "2026-09-17T17:08:40Z"
+      },
+      {
+        "headline": "Stocks stage a comeback after Fed-induced declines \u2014 plus, what's ailing Boeing",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/17/stocks-stage-a-comeback-after-fed-induced-declines-plus-whats-ailing-boeing.html",
+        "published_at": "2026-09-17T16:37:00Z"
+      },
+      {
+        "headline": "Why are world leaders at the UN next week and what will they talk about? - Reuters",
+        "summary": "Why are world leaders at the UN next week and what will they talk about?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWxWOU16ZUF2MDh5UlVqc2pMM0d1WGFVSGJzdUl6aGZCZ09QeGFNX2pwTkdaNkRuaGJmUGtvUWRqZDlmMTdaZlA1V05WanlTQnlhRXJZQXlGTFE2bVhoT1lJYlZER3pkQ0EzcEdDLTNJVHVUd2RYU0VjUUNoWkplNDNrcGhtX1hrMUVpMG5vQkFKVjRJSkZuZHBGZ3NCbFN0YjJYYmN2aWt5Y0pIeXFZY2pQcWpOUQ?oc=5",
+        "published_at": "2026-09-17T16:18:42Z"
+      },
+      {
+        "headline": "How Yemen's Houthis went from a small mountain militia to a big regional threat - Reuters",
+        "summary": "How Yemen's Houthis went from a small mountain militia to a big regional threat\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGthY0luQlRSdV83a2g1VktUVlRKMVJCeXVjME5lNEU3MUNocU55OUhIQXhoRThxT0ZiVlUyMkM1ZENVVlowLWNaX0p5bFpjVnpfMDhPTl9EYU01MV94Y19fOE91Ym9oQS1XdENUbGotVjVRcjNsZzFGbnJDQi13Z0tSSEhMYlBiZ2pSallYMkRBb2F0Q24xT0ZpcnRUdzR0OEJLTUo4NEZtazJidEl5N3ItbkhFZmdpWVM5Mw?oc=5",
+        "published_at": "2026-09-17T13:43:06Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 762.7,
+    "spy_change_pct": 1.1471,
+    "spy_lean": "bullish",
+    "vix_close": 17.71,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 76452.63,
+    "coinbase_premium_pct": 0.011289,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-17T21:14:47 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 219.34,
+        "change_pct": 2.5432,
+        "prev_close": 213.9
+      },
+      "AMD": {
+        "close": 545.09,
+        "change_pct": 6.359,
+        "prev_close": 512.5
+      },
+      "TSM": {
+        "close": 430.26,
+        "change_pct": 3.002,
+        "prev_close": 417.72
+      },
+      "SMCI": {
+        "close": 40.35,
+        "change_pct": 9.498,
+        "prev_close": 36.85
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 716.92,
+        "change_pct": 1.7312,
+        "prev_close": 704.72
+      },
+      "SOXX": {
+        "close": 519.1,
+        "change_pct": 3.394,
+        "prev_close": 502.06
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 76444,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 64,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 51,
+    "positive_count": 5,
+    "negative_count": 5,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.098,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Why Is Chipotle Now Working With the CIA-Funded Palantir?",
+        "url": "https://decrypt.co/378553/why-chipotle-working-with-palantir",
+        "published_at": "2026-09-17T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-17T20:44:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Opens Door for Crypto Apps to Offer Regulated Derivatives Access",
+        "url": "https://decrypt.co/378560/cftc-crypto-apps-regulated-derivatives-access",
+        "published_at": "2026-09-17T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC",
+        "url": "https://www.theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462",
+        "published_at": "2026-09-17T20:05:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Says It's Made Progress on a Second $1 Million Math Problem",
+        "url": "https://decrypt.co/378551/openai-progress-second-millennium-prize-math-problem",
+        "published_at": "2026-09-17T19:32:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC expands regulatory relief for passive trading software providers",
+        "url": "https://cointelegraph.com/news/cftc-expands-regulatory-relief-for-passive-trading-software-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-17T19:30:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Founder Vitalik Buterin Says AI Won\u2019t Doom Crypto Security",
+        "url": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security",
+        "published_at": "2026-09-17T19:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Andrew Yang Calls for AI Kill Switch as Safety Fears Mount",
+        "url": "https://decrypt.co/378522/andrew-yang-ai-kill-switch-safety-fears",
+        "published_at": "2026-09-17T18:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says bitcoin could get more support than gold if ETF hedging eases",
+        "url": "https://www.theblock.co/news/markets/2026-09-17-jpmorgan-bitcoin-gold-415421",
+        "published_at": "2026-09-17T17:48:51+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "King Charles Convenes OpenAI, Anthropic, Nvidia and Google for AI Safety Summit",
+        "url": "https://decrypt.co/378504/king-charles-openai-anthropic-nvidia-google-deepmind-ai-safety",
+        "published_at": "2026-09-17T17:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
