@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-18T21:14:35 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2787016582299.03,
+    "total_market_cap_change_24h_pct": 2.856,
+    "total_volume_24h_usd": 127841516606.86,
+    "btc_dominance_pct": 58.3661,
+    "eth_dominance_pct": 11.5071,
+    "total2_usd": 1160343301442.25,
+    "total3_usd": 839638527766.91,
+    "active_cryptocurrencies": 21298,
+    "altcoin_season_index": 55,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HOOD",
+        "name": "GreenHood",
+        "price_change_24h_pct": 182.6265,
+        "price_usd": 0.146976,
+        "market_cap_usd": 149379782
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 94.2644,
+        "price_usd": 0.0414554,
+        "market_cap_usd": 949372161
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 49.8584,
+        "price_usd": 0.04271773,
+        "market_cap_usd": 314088497
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 41.958,
+        "price_usd": 1.02,
+        "market_cap_usd": 260054642
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": 37.7422,
+        "price_usd": 3.61,
+        "market_cap_usd": 236305545
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "ZCAT",
+        "name": "Anonymous Cat",
+        "price_change_24h_pct": -15.6244,
+        "price_usd": 0.12437,
+        "market_cap_usd": 120870901
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -14.7972,
+        "price_usd": 0.319398,
+        "market_cap_usd": 315601450
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -10.643,
+        "price_usd": 0.626736,
+        "market_cap_usd": 1696727057
+      },
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": -9.0768,
+        "price_usd": 0.219922,
+        "market_cap_usd": 219957988
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -6.2238,
+        "price_usd": 0.081927,
+        "market_cap_usd": 163313095
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81207,
+    "price_change_24h_pct": 6.2162,
+    "price_change_7d_pct": 4.9,
+    "market_cap_usd": 1630917688841,
+    "volume_24h_usd": 43877496711,
+    "direction": "bullish",
+    "oi_usd": 8818580370.92,
+    "funding_rate_latest": 6.853e-05,
+    "funding_rate_7d_avg": 6.042333333333333e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9212,
+    "long_account_pct": 47.95,
+    "short_account_pct": 52.05,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2635.03,
+    "price_change_24h_pct": 7.6394,
+    "price_change_7d_pct": 3.6,
+    "market_cap_usd": 321559353605,
+    "volume_24h_usd": 22955225376,
+    "eth_btc_ratio": 0.032448,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92399844663.21,
+    "stablecoin_market_cap_usd": 311714388267.48,
+    "stablecoin_dominance_pct": 11.1845
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 31,
+    "headlines": [
+      {
+        "headline": "Republican China committee chair urges tough Trump line with Xi - Reuters",
+        "summary": "Republican China committee chair urges tough Trump line with Xi\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHE0eGdjejdPVC0wcEJESG1KY3hhNU1DMUZmOHZJUTFjZHRpM1BsLVcwbzVlOUJpVHFxZnBPNzJlTldZelp1WlcwVU5fQ2d2MXZCZS1NSm9uWkQ4MlpHRUQwY21BdU5BRUs2a3ZBODhETlZNd1pTMk94a1NWN3BMaGNHMVl0MWVIeTdWQk9KWVFvS0ZnVnZ1RWJQSlFMcjNVRm1TYkFfMTRvSUY2?oc=5",
+        "published_at": "2026-09-18T19:34:31Z"
+      },
+      {
+        "headline": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+        "summary": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
+        "published_at": "2026-09-18T18:36:03Z"
+      },
+      {
+        "headline": "What it will take for us to buy the dip in DuPont. Plus, profit-taking hits cyber stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/what-it-will-take-for-us-to-buy-the-dip-in-dupont-plus-profit-taking-hits-cyber-stocks.html",
+        "published_at": "2026-09-18T18:32:55Z"
+      },
+      {
+        "headline": "McDonald's is the new 'Value Meal,' says trader Mike Khouw",
+        "summary": "McDonald's announced this week that it is revising its U.S. value strategy after recording its slowest sales growth in more than a year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/mcdonalds-is-the-new-value-meal-says-trader-mike-khouw.html",
+        "published_at": "2026-09-18T18:11:47Z"
+      },
+      {
+        "headline": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact - Reuters",
+        "summary": "Caviar and champagne: Air France's luxury shift helps ride out Iran war impact\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRi1pY1Bqc1lTWGhEbU5ydjdqZFVDQ2RYb3NidmNYTTc4Mkw2WkZFbXNqWlEzS0FVN200UjgwWElaWFlWcTRPSXRIN2Z4YmVDZ2dJdGZ2cnJWMDA4NUNVUnoxS3RuV2IwNDBZVjRSaGFFMTZ6Q3hUeF9fdEg4MEg4VVBtT2hyLTllVmw2QmRCNlVJY3IyVTEzM2hwbnpKTVVnN2hwem9wZmpFQUpaTHpEQTJtUkxnRC1Jc1RFX2Znem1IVmth?oc=5",
+        "published_at": "2026-09-18T17:55:36Z"
+      },
+      {
+        "headline": "Nike parts ways with Kylian Mbapp\u00e9, soccer superstar signs with On",
+        "summary": "Mbappe had been signed with Nike for roughly two decades, and his agreement with On is the first it has made with a soccer player.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/kylian-mbappe-signs-with-on-after-nike-parts-ways.html",
+        "published_at": "2026-09-18T16:42:14Z"
+      },
+      {
+        "headline": "We're buying more of this defensive stock ahead of an upcoming long-term catalyst",
+        "summary": "The stock has been on a tough road since our initiation at the beginning of the month.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/were-buying-more-of-this-defensive-stock-ahead-of-an-upcoming-long-term-catalyst.html",
+        "published_at": "2026-09-18T16:14:27Z"
+      },
+      {
+        "headline": "Disney names CTO for the first time as media giant expands tech push",
+        "summary": "Disney has hired a chief technology officer, a newly minted role for the company, as it looks to further its embrace of tech under CEO Josh D'Amaro.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
+        "published_at": "2026-09-18T16:14:26Z"
+      },
+      {
+        "headline": "What Jim Cramer learned at NYC's flagship Apple Store for the iPhone 18 launch",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/what-cramer-learned-at-nycs-flagship-apple-store-for-iphone-18-launch.html",
+        "published_at": "2026-09-18T15:53:36Z"
+      },
+      {
+        "headline": "Wendy's franchisee files for Chapter 11 bankruptcy protection as burger chain struggles",
+        "summary": "One of Wendy's biggest U.S. franchisees, Meritage Hospitality Group, filed for Chapter 11 bankruptcy protection.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/18/wendys-franchisee-files-for-chapter-11-bankruptcy-protection.html",
+        "published_at": "2026-09-18T15:41:28Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 761.54,
+    "spy_change_pct": -0.139,
+    "spy_lean": "neutral",
+    "vix_close": 15.44,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81209.41,
+    "coinbase_premium_pct": 0.002968,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-18T21:14:35 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 222.27,
+        "change_pct": 1.3358,
+        "prev_close": 219.34
+      },
+      "AMD": {
+        "close": 559.82,
+        "change_pct": 2.7023,
+        "prev_close": 545.09
+      },
+      "TSM": {
+        "close": 434.67,
+        "change_pct": 1.025,
+        "prev_close": 430.26
+      },
+      "SMCI": {
+        "close": 39.09,
+        "change_pct": -3.1227,
+        "prev_close": 40.35
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 721.45,
+        "change_pct": 0.6319,
+        "prev_close": 716.92
+      },
+      "SOXX": {
+        "close": 533.07,
+        "change_pct": 2.6912,
+        "prev_close": 519.1
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81207,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 74,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 38,
+    "positive_count": 11,
+    "negative_count": 3,
+    "neutral_count": 24,
+    "sentiment_ratio": 0.2895,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
+        "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia",
+        "published_at": "2026-09-18T21:01:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-18T21:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase files to bring single-stock perpetual futures to US market",
+        "url": "https://cointelegraph.com/news/coinbase-files-to-bring-single-stock-perpetual-futures-to-us-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-18T19:53:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Is Running\u2014Devs Want to Make It Faster",
+        "url": "https://decrypt.co/378667/zcash-upgrade-make-private-payments-3x-faster",
+        "published_at": "2026-09-18T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance launches 24/7 FX perps with weekend pricing system",
+        "url": "https://cointelegraph.com/news/binance-expands-tradfi-push-with-247-foreign-exchange-perpetuals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-18T19:06:30+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Will Hit $1 Million, Says Kevin O\u2019Leary\u2014But There\u2019s a Quantum Catch",
+        "url": "https://decrypt.co/378664/kevin-oleary-bitcoin-1-million-quantum-catch",
+        "published_at": "2026-09-18T18:35:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto stocks rebound after CLARITY Act selloff",
+        "url": "https://cointelegraph.com/news/crypto-stocks-rebound-after-clarity-selloff-as-us-regulators-move-ahead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-18T17:55:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Surges 6.9% as Bitcoin Rebound Reopens Door to Golden Cross",
+        "url": "https://decrypt.co/378641/xrp-surges-bitcoin-rebound-reopens-golden-cross",
+        "published_at": "2026-09-18T16:42:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Kicks Off Crypto Rulemaking, Bypassing a Stalled Congress",
+        "url": "https://decrypt.co/378638/cftc-crypto-rules-white-house-congress-clarity-act",
+        "published_at": "2026-09-18T16:08:13+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC submits crypto market regulation plan for White House review",
+        "url": "https://cointelegraph.com/news/cftc-submits-crypto-market-regulation-plan-for-white-house-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-18T16:04:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 4,
+    "bearish_count": 1,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
