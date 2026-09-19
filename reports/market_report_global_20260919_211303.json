@@ -1,0 +1,401 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-19T21:12:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2790917067209.93,
+    "total_market_cap_change_24h_pct": -2.5797,
+    "total_volume_24h_usd": 81684566793.93,
+    "btc_dominance_pct": 58.3228,
+    "eth_dominance_pct": 11.5099,
+    "total2_usd": 1163177390302.6,
+    "total3_usd": 841944394231.94,
+    "active_cryptocurrencies": 21323,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BLORB",
+        "name": "BLORB",
+        "price_change_24h_pct": 74.3919,
+        "price_usd": 0.215894,
+        "market_cap_usd": 215949181
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 52.8619,
+        "price_usd": 0.063642,
+        "market_cap_usd": 1451125467
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 36.6082,
+        "price_usd": 0.389804,
+        "market_cap_usd": 389478811
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": 33.6221,
+        "price_usd": 0.082812,
+        "market_cap_usd": 207410251
+      },
+      {
+        "symbol": "XTZ",
+        "name": "Tezos",
+        "price_change_24h_pct": 25.0511,
+        "price_usd": 0.358651,
+        "market_cap_usd": 394411781
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -20.8978,
+        "price_usd": 0.182754,
+        "market_cap_usd": 180663638
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -17.6257,
+        "price_usd": 0.566427,
+        "market_cap_usd": 388629907
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -13.552,
+        "price_usd": 0.252172,
+        "market_cap_usd": 252455930
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -13.0438,
+        "price_usd": 0.275336,
+        "market_cap_usd": 274422869
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": -8.8278,
+        "price_usd": 0.204827,
+        "market_cap_usd": 1388027224
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81096,
+    "price_change_24h_pct": -0.1302,
+    "price_change_7d_pct": 5.1,
+    "market_cap_usd": 1629288591503,
+    "volume_24h_usd": 24390734097,
+    "direction": "neutral",
+    "oi_usd": 8715803710.15,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.568380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9361,
+    "long_account_pct": 48.35,
+    "short_account_pct": 51.65,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2630.49,
+    "price_change_24h_pct": -0.1506,
+    "price_change_7d_pct": 4.5,
+    "market_cap_usd": 321307313695,
+    "volume_24h_usd": 11797290487,
+    "eth_btc_ratio": 0.032437,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93548783571.17,
+    "stablecoin_market_cap_usd": 310561554433.33,
+    "stablecoin_dominance_pct": 11.1276
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 5,
+    "headlines": [
+      {
+        "headline": "Flames, black smoke seen near Riyadh airport, eyewitness says - Reuters",
+        "summary": "Flames, black smoke seen near Riyadh airport, eyewitness says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVhEVEhONEZLVTN1Q0NyUzZwOXdIS3JLY0VVMVhabU40LV96QjY3d3A5M3NNTElCTy1SdzFFSVIyOEhxWW1OMUxKM1hHUFc0UDNnaXpLRlBPR2VhZkdsWVktOWtCSWxTUWhYV1FFcnN6c3A1WVVoc192OWNJSWhJQnc0U1QwZ1ZtRXd2a0hlNkJJMVVrckJpSXFlZzJDNVhUTVI5RWtGcVd6SW01UHNEWk9lMA?oc=5",
+        "published_at": "2026-09-19T11:21:11Z"
+      },
+      {
+        "headline": "Iran executes man convicted of spying for Israel's Mossad, judiciary says - Reuters",
+        "summary": "Iran executes man convicted of spying for Israel's Mossad, judiciary says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUHlXMU02X1Q1U245V0NOTFNPTGFPLXBYTFBNUG84ZlBWY2hteTNWRTNadlNxWWUzQVktelVDbmxOenJuQlZzV1h2bHlfNXZfWTh2RVNYeTVRVkhfTFpGTVNGSm5xeHhNUnE0U2E2ZmEtYmVDaFkwY25wUFl3alBnYXhJUnZGeVc5dVZKTU1aYTIxcW1xTmk3UGpBSmt4bU1lTHpsN1Rya1o2WDZlZ295LVZISUpXc0dZZEE?oc=5",
+        "published_at": "2026-09-19T06:28:00Z"
+      },
+      {
+        "headline": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital - Reuters",
+        "summary": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5",
+        "published_at": "2026-09-19T00:42:00Z"
+      },
+      {
+        "headline": "Trump signs Russia sanctions bill into law - Reuters",
+        "summary": "Trump signs Russia sanctions bill into law\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMWZ3NVV2eHJuOEVQcDhZX3BVSnh2aWxQcE0wWERtWGc3MG9ZS3VmN1lqemJPNS1NbE1pU3RDTlR5TUIteF9hMVdNY2NITDU2N3lva3hWelYydUQ1Nm9xWUZZUHN3R29QeXR3VzhIdFNyOXJ6T1FLNlNEU3JIbUx3Q1ZCVWxHdnI4ZmhJVjFfd0s?oc=5",
+        "published_at": "2026-09-18T22:20:53Z"
+      },
+      {
+        "headline": "Turkey revokes operating license of Iran's Mellat Bank amid US measures - Reuters",
+        "summary": "Turkey revokes operating license of Iran's Mellat Bank amid US measures\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5",
+        "published_at": "2026-09-18T21:58:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 761.69,
+    "spy_change_pct": -0.1193,
+    "spy_lean": "neutral",
+    "vix_close": 15.44,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81000.01,
+    "coinbase_premium_pct": -0.118366,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-19T21:12:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 222.27,
+        "change_pct": 1.3358,
+        "prev_close": 219.34
+      },
+      "AMD": {
+        "close": 559.82,
+        "change_pct": 2.7023,
+        "prev_close": 545.09
+      },
+      "TSM": {
+        "close": 434.67,
+        "change_pct": 1.025,
+        "prev_close": 430.26
+      },
+      "SMCI": {
+        "close": 39.09,
+        "change_pct": -3.1227,
+        "prev_close": 40.35
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 721.45,
+        "change_pct": 0.6319,
+        "prev_close": 716.92
+      },
+      "SOXX": {
+        "close": 533.07,
+        "change_pct": 2.6912,
+        "prev_close": 519.1
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81096,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 12,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana Pushes Into 250ms Slots As SIMD-0525 Mainnet Rollout Advances",
+        "url": "https://bitcoinist.com/solana-pushes-into-250ms-slots-as-simd-0525-mainnet-rollout-advances/",
+        "published_at": "2026-09-19T20:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
+        "url": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-19T19:14:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi joins Coinbase with filing for US stock perpetual futures",
+        "url": "https://cointelegraph.com/news/kalshi-joins-coinbase-with-filing-for-us-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-19T18:35:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak",
+        "url": "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871",
+        "published_at": "2026-09-19T18:01:09+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How the Clarity Act's Defeat Handed the SEC and CFTC the Wheel on Crypto",
+        "url": "https://decrypt.co/378688/how-clarity-act-defeat-sec-cftc-wheel-crypto",
+        "published_at": "2026-09-19T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "VanEck criticizes Metaplanet over executive dilution despite compensation cuts",
+        "url": "https://cointelegraph.com/news/vaneck-labels-metaplanet-compensation-bad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-19T16:15:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
+        "url": "https://decrypt.co/378686/bitcoin-sharpest-rally-two-years-short-liquidations",
+        "published_at": "2026-09-19T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Visa to close Crossmint memecoin rewards loophole following The Block investigation: report",
+        "url": "https://www.theblock.co/news/regulation/2026-09-19-visa-to-close-crossmint-memecoin-rewards-loophole-following-the-block-investigation-report-415866",
+        "published_at": "2026-09-19T15:11:22+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale Is Making Its Red-Hot Zcash ETF More Affordable",
+        "url": "https://decrypt.co/378675/grayscale-zcash-etf-more-affordable-split",
+        "published_at": "2026-09-19T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+        "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade",
+        "published_at": "2026-09-19T13:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
