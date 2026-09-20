@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-20T21:11:01 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2752868831502.94,
+    "total_market_cap_change_24h_pct": -3.6956,
+    "total_volume_24h_usd": 76359729445.73,
+    "btc_dominance_pct": 58.7428,
+    "eth_dominance_pct": 11.5753,
+    "total2_usd": 1135756477969.2,
+    "total3_usd": 817104973961.7,
+    "active_cryptocurrencies": 21343,
+    "altcoin_season_index": 55,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 37.0287,
+        "price_usd": 0.855249,
+        "market_cap_usd": 213812310
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 31.3461,
+        "price_usd": 0.162883,
+        "market_cap_usd": 511451138
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 28.0217,
+        "price_usd": 0.75152,
+        "market_cap_usd": 2035224259
+      },
+      {
+        "symbol": "HOOD",
+        "name": "GreenHood",
+        "price_change_24h_pct": 21.5869,
+        "price_usd": 0.125451,
+        "market_cap_usd": 126705930
+      },
+      {
+        "symbol": "BLORB",
+        "name": "BLORB",
+        "price_change_24h_pct": 18.169,
+        "price_usd": 0.255503,
+        "market_cap_usd": 255503494
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": -17.1302,
+        "price_usd": 0.919228,
+        "market_cap_usd": 234445163
+      },
+      {
+        "symbol": "UB",
+        "name": "Unibase",
+        "price_change_24h_pct": -13.1932,
+        "price_usd": 0.122699,
+        "market_cap_usd": 306747856
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -8.3246,
+        "price_usd": 0.072886,
+        "market_cap_usd": 145173540
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -7.6502,
+        "price_usd": 0.169541,
+        "market_cap_usd": 167498397
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -6.5348,
+        "price_usd": 0.946959,
+        "market_cap_usd": 786569336
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80927,
+    "price_change_24h_pct": -0.2081,
+    "price_change_7d_pct": 4.9,
+    "market_cap_usd": 1625590117680,
+    "volume_24h_usd": 23829492988,
+    "direction": "neutral",
+    "oi_usd": 8683624826.72,
+    "funding_rate_latest": 7.524e-05,
+    "funding_rate_7d_avg": 7.087238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9697,
+    "long_account_pct": 49.23,
+    "short_account_pct": 50.77,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2625.08,
+    "price_change_24h_pct": -0.4264,
+    "price_change_7d_pct": 5.1,
+    "market_cap_usd": 320429842889,
+    "volume_24h_usd": 11146033197,
+    "eth_btc_ratio": 0.032438,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93504247240.02,
+    "stablecoin_market_cap_usd": 311417448479.84,
+    "stablecoin_dominance_pct": 11.3125
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "Iran and US trade threats after Houthi attacks escalate regional conflict - Reuters",
+        "summary": "Iran and US trade threats after Houthi attacks escalate regional conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdWJkS01sRHBUcXZGZVVoTy1zVU04amJ0VUc3WnZ4UkVZd25TTTR6RGY1ZkV5OUtGZzFULVNDcEo4MzlZMmNkamt0VjR5VHg3YzRDaWhEOFAtZklDbFpGSXpCeE9BeGR3UWp3aFN1MVp2aUMyZE93ZnFUN0VTdzdkZGJnMDdrOFNtc1lhZC1UQlNDWFl3dGRWdjZwYkc2SHJGelBn?oc=5",
+        "published_at": "2026-09-20T17:46:57Z"
+      },
+      {
+        "headline": "Qatar launches wealth fund division for domestic investments - Reuters",
+        "summary": "Qatar launches wealth fund division for domestic investments\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbjFTdjVSY2VJTE13ZGZLR0FHWnFlNWNScVFWNHN4N1g0TzNKZElMY3dKb2hWajdiNHRlUjRRdlB0WGdmODZ2aDlBUXN0eUFsYUFWQUIwVC10emkxbnEtbllDNV81Wlp3ZGlzakExV3lWblNjeVZQTi1Vb2RiYm9kVUs0eUg2aVhIX2VSRF9IcEJENG1oTjZ0OTBCVFBGZEZjTmlFa1IzUkQ4U2xnQ1Nr?oc=5",
+        "published_at": "2026-09-20T14:55:43Z"
+      },
+      {
+        "headline": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist - Reuters",
+        "summary": "Palestinian gunman shoots dead Israeli in the West Bank, soldiers kill motorist\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVE03eUJ3dTJkVEpVNXZXT3dXZVVBT2Nzel9PSVVRSHBSOTEyRDB1UmxGcUlyTDR2WHo2MjdoZGp0Z1ozOU9RSEdLQTZqNWw0R1VyanNvY1NEWFlVeEgwT00zcWtDTUMzU3Rud25ZbDlrMDdPakJIWnItVjNGWWR5b1ZIRTR5WjRoMlIyWDg5dmhiYnlRVzctR3VNNXQzQWZaVGZiNTBKTk9pNkJmMGF2Y2M4Nk5wTGZDRG9IV1ZsWTdvREE?oc=5",
+        "published_at": "2026-09-20T14:20:11Z"
+      },
+      {
+        "headline": "8 signs you're raising a resilient, emotionally mature child, says psychologist",
+        "summary": "\"They turn into adaptable, reasonable people who can solve problems, sustain satisfying long-term relationships and engage in meaningful work,\" says Lindsay C. Gibson.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/20/signs-parents-raising-emotionally-mature-child-psychologist.html",
+        "published_at": "2026-09-20T13:34:01Z"
+      },
+      {
+        "headline": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks - Reuters",
+        "summary": "Saudi, Gulf stocks fall after Houthis claim Riyadh attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnFXQ1lvNTg5TnJvazhfY3VXa0hrVms4RW1mdVBpR0k4QXZkempjX0h4Y2JIaGNvSm04YVJkTHRDTWpESVFDakhJMExiNGZSSktLcVFsM3VlM3ZibDQwVlE3czF4OEdLdXdnU0FPaUN1aHFLVWN3cW9uVHRTTDdDU1BNaUNMd3NQMlY5VGZPYzA5ODlMQi1rcWVDXzhFZHJWUF9tQjJqUUtzQW1yc0tYNw?oc=5",
+        "published_at": "2026-09-20T12:59:36Z"
+      },
+      {
+        "headline": "Iran seals French language centre in Tehran, accuses it of illegal activities - Reuters",
+        "summary": "Iran seals French language centre in Tehran, accuses it of illegal activities\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXN4WDAwcUZkX2E4emIyUUMyczNhNldiSVlQcENLSDVrSng0SVl6bjBrSU9QRDJHbE5HSHBWeVZvX0J2RjlUQm1WclN4UnBmTmFoM29sZzNaa19uT1pUMjZuTndiT1hWXzBnQlZKalpCZGZQd2ZnOXo2cWlJZ05yT21vbUx4QXRIY2haTW5NQjhRcFJIeG5TSi10aGdOUkRxdHBCZDFXYUMyTlRNWF9UUW91NDJiRlp4ckpHSUpRVGxidw?oc=5",
+        "published_at": "2026-09-20T12:08:54Z"
+      },
+      {
+        "headline": "Budget airline king Bill Franke warms to first-class seats and premium upgrades",
+        "summary": "Serial airline investor Bill Franke is embracing more upmarket changes like first-class seats.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/20/bill-franke-frontier-spirit-budget-airlines.html",
+        "published_at": "2026-09-20T12:00:01Z"
+      },
+      {
+        "headline": "European Commissioner discussed EU-Israel relationship, Gaza with Israeli minister - Reuters",
+        "summary": "European Commissioner discussed EU-Israel relationship, Gaza with Israeli minister\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcWJqeXlJTjQxcDVjYU03Q09mYWE3clFzVVBpRENyRGoydU1BVzl2dHlxR3Y0Zm83WjJOVmJJaEhuQlVnUEtLNTZxcXlsbDhQeUlja2lGNHozV3M1Ym5UTUxCQ1ZBamtILVBqSlo4QUQ2YjNvNE9saE1tN1BKTUU0U245dzBOYWIzYzMzZC1OZVdPMElfZHllUHY4TmtLU19VdU1nM0k2d0pBR0dicU92ZHlhZXk1SS1uVXZCVENCQktYVWpv?oc=5",
+        "published_at": "2026-09-20T11:55:54Z"
+      },
+      {
+        "headline": "North Korea fires two ballistic missiles off east coast in three hours - Reuters",
+        "summary": "North Korea fires two ballistic missiles off east coast in three hours\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTDFuRjFrR3lVU05OakZFWFlOdWFSTGsyelUxZmZrMkZvamthRHNRVkx0ZG95NnRIdXlWUFVhX2pfaUo2M1haY1B5RXNzVjJTRDZ3bXN6MUpYWUxiZThYbE9FWHBUemMtbC1SMHRQeWdBdC00YmxUWEZkXzljNm9PTnBCNS14WGFUOUFQRVZEN25feWZLNkRmcFN4M0pyM3pBZDF2cktnVGF6OXM?oc=5",
+        "published_at": "2026-09-20T06:18:00Z"
+      },
+      {
+        "headline": "World leaders return to UN amid wars in Middle East and Ukraine - Reuters",
+        "summary": "World leaders return to UN amid wars in Middle East and Ukraine\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5",
+        "published_at": "2026-09-20T05:05:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 761.69,
+    "spy_change_pct": -0.1193,
+    "spy_lean": "neutral",
+    "vix_close": 15.44,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 80629.5,
+    "coinbase_premium_pct": -0.367615,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-20T21:11:01 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 222.27,
+        "change_pct": 1.3358,
+        "prev_close": 219.34
+      },
+      "AMD": {
+        "close": 559.82,
+        "change_pct": 2.7023,
+        "prev_close": 545.09
+      },
+      "TSM": {
+        "close": 434.67,
+        "change_pct": 1.025,
+        "prev_close": 430.26
+      },
+      "SMCI": {
+        "close": 39.09,
+        "change_pct": -3.1227,
+        "prev_close": 40.35
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 721.45,
+        "change_pct": 0.6319,
+        "prev_close": 716.92
+      },
+      "SOXX": {
+        "close": 533.07,
+        "change_pct": 2.6912,
+        "prev_close": 519.1
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80927,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 3,
+    "negative_count": 1,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
+        "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878",
+        "published_at": "2026-09-20T20:11:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket faced $10 million fraud attempt as its CEO pushed growth over compliance concerns: WSJ",
+        "url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875",
+        "published_at": "2026-09-20T16:07:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
+        "url": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole",
+        "published_at": "2026-09-20T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
+        "url": "https://decrypt.co/378695/holding-anything-but-bitcoin-losing-bet",
+        "published_at": "2026-09-20T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump says US will form \u2018AI Force\u2019 and appoint AI czar: Reports",
+        "url": "https://cointelegraph.com/news/trump-says-us-will-form-ai-force-and-appoint-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-20T12:00:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale\u2019s Zcash ETF files for 3-for-1 forward share split",
+        "url": "https://cointelegraph.com/news/grayscales-zcash-etf-files-for-3-for-1-forward-share-split?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-20T09:14:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic taps Accenture\u00a0as embedded evaluator to help with AI slowdown proposal",
+        "url": "https://cointelegraph.com/news/anthropic-tabs-accenture-as-embedded-evaluator-to-help-with-ai-slowdown-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-20T07:51:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NEAR Ships nearcore 2.14.0 RC With Protocol And Database Upgrade",
+        "url": "https://bitcoinist.com/near-ships-nearcore-2-14-0-rc-with-protocol-and-database-upgrade/",
+        "published_at": "2026-09-20T02:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Avalanche Helicon Upgrade Set For September 22 Mainnet Activation",
+        "url": "https://bitcoinist.com/avalanche-helicon-upgrade-set-for-september-22-mainnet-activation/",
+        "published_at": "2026-09-20T01:45:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Lido Completes Wind-Down Of Simple DVT Module",
+        "url": "https://bitcoinist.com/lido-completes-wind-down-of-simple-dvt-module/",
+        "published_at": "2026-09-20T01:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
