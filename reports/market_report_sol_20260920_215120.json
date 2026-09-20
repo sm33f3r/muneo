@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-20T21:50:35 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "2.0.0"
+  },
+  "price_data": {
+    "price_usd": 109.78,
+    "price_change_24h_pct": -0.7267,
+    "price_change_7d_pct": 8.2103,
+    "volume_24h_usd": 3096245613,
+    "market_cap_usd": 64471570492,
+    "volume_to_mcap_ratio": 0.048025,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -62.5712,
+    "cex_price_usd": 109.83,
+    "cex_24h_high": 111.22,
+    "cex_24h_low": 107.4,
+    "cex_dex_spread_pct": 0.045546,
+    "volume_on_up_days_usd": 4573587732.457446,
+    "volume_on_down_days_usd": 3671875048.6375413,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 69.4506,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 6.252348,
+      "signal_line": 2.942084,
+      "histogram": 3.310264
+    },
+    "macd_lean": "bullish",
+    "sma_50": 83.9334,
+    "price_vs_sma50_pct": 30.7942,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 113.547159,
+      "mid": 86.2895,
+      "lower": 59.031841,
+      "width_pct": 63.1772,
+      "position": 0.9536
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 873578684.11,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.736809523809524e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.9697,
+    "btc_long_account_pct": 49.23,
+    "btc_short_account_pct": 50.77,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 6204482359.0,
+    "tvl_7d_change_pct": 6.319,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 14868522.43,
+    "chain_fees_7d_avg_usd": 15014204.5,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
+        "url": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878",
+        "published_at": "2026-09-20T20:11:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 80890.0,
+    "btc_24h_change_pct": -0.2193,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.6566,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2770787809407.4546,
+    "eth_btc_ratio": 0.032455,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.2126,
+    "dxy_lean": "neutral",
+    "spy_close": 761.69,
+    "spy_change_pct": -0.1193,
+    "spy_lean": "neutral",
+    "vix_close": 15.44,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 76.92,
+    "cg_sentiment_votes_down_pct": 23.08,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 19,
+    "signals_available": 18,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
