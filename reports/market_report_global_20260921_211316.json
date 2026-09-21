@@ -1,0 +1,436 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-21T21:12:21 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2941652474616.98,
+    "total_market_cap_change_24h_pct": 3.647,
+    "total_volume_24h_usd": 156558181008.73,
+    "btc_dominance_pct": 58.9813,
+    "eth_dominance_pct": 11.4622,
+    "total2_usd": 1206627704645.11,
+    "total3_usd": 869450545852.46,
+    "active_cryptocurrencies": 21358,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "FORM",
+        "name": "Four",
+        "price_change_24h_pct": 41.351,
+        "price_usd": 0.361329,
+        "market_cap_usd": 138131048
+      },
+      {
+        "symbol": "AIOZ",
+        "name": "AIOZ Network",
+        "price_change_24h_pct": 39.3643,
+        "price_usd": 0.126851,
+        "market_cap_usd": 161533768
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price_change_24h_pct": 23.6089,
+        "price_usd": 4.86e-06,
+        "market_cap_usd": 2043432411
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 22.6308,
+        "price_usd": 0.435668,
+        "market_cap_usd": 294827621
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 22.3733,
+        "price_usd": 0.289365,
+        "market_cap_usd": 289208249
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": -38.3062,
+        "price_usd": 13.06,
+        "market_cap_usd": 124198830
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -22.4472,
+        "price_usd": 0.127487,
+        "market_cap_usd": 400365981
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -8.5628,
+        "price_usd": 0.04400799,
+        "market_cap_usd": 323530226
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -6.522,
+        "price_usd": 0.056162,
+        "market_cap_usd": 1280334741
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": -5.5902,
+        "price_usd": 4.48,
+        "market_cap_usd": 294229737
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 86639,
+    "price_change_24h_pct": 7.3494,
+    "price_change_7d_pct": 10.0983,
+    "market_cap_usd": 1740755591492,
+    "volume_24h_usd": 59610282978,
+    "direction": "bullish",
+    "oi_usd": 9438658340.99,
+    "funding_rate_latest": 5.485e-05,
+    "funding_rate_7d_avg": 7.100142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9106,
+    "long_account_pct": 47.66,
+    "short_account_pct": 52.34,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2770.93,
+    "price_change_24h_pct": 6.0751,
+    "price_change_7d_pct": 9.5339,
+    "market_cap_usd": 338147536709,
+    "volume_24h_usd": 27242742372,
+    "eth_btc_ratio": 0.031982,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96395268895.28,
+    "stablecoin_market_cap_usd": 312404456730.22,
+    "stablecoin_dominance_pct": 10.62
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 27,
+    "headlines": [
+      {
+        "headline": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
+        "summary": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+        "published_at": "2026-09-21T20:01:13Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters",
+        "summary": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
+        "published_at": "2026-09-21T19:13:35Z"
+      },
+      {
+        "headline": "Intel surges 12% as CPU stocks rally. Here's what's driving the move",
+        "summary": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/21/intel-surges-12percent-as-cpu-stocks-rally-heres-whats-driving-the-move.html",
+        "published_at": "2026-09-21T18:37:57Z"
+      },
+      {
+        "headline": "Gaza students return to in-person schooling for first time in three years - Reuters",
+        "summary": "Gaza students return to in-person schooling for first time in three years\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWU4dWw2cjB2T1E3bV80M1JsUHpuZ3ZfUXNCak41UWx3T2kwdmgtY0RuOGd3Y3lWZzNmbGY3VU14SzJJRHpBTExyRmhLSDNfVlN3Uy1aRUZXaVduczlHajZ2WXBGVzBiY0J2US1zZFNEV3VzeHRaTXJWLXA3R1pGY2xnQ3hFcUw4WnVZczMxQ2U2M2czOGNJR29UZVA2VjBJMWtqQ1BHaUVtY3NxUTZXR0pRUEszN3Zq?oc=5",
+        "published_at": "2026-09-21T18:19:20Z"
+      },
+      {
+        "headline": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - Reuters",
+        "summary": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczdRcTBZOTMtVlJTZ0ljR0lvX0VpdzJRbzAwaXdPN0tmVGJMNWJyRVY5d3ZsZUlENm9aWmdDN0dFellPVmMwc0JJdzA2a2dxTUVJNWdfZTJQQUhxUWJSalQyMC12UmxiR3NEZDBBQUpDdFE1V1dTQktKQUFqZ3JIc2N3SVkxMWxiTVhYYXdYelVxUU9XMGlDN3FOX0ZvSmc5dEVCdkJTNXE3dTFxUVVZQVQ4eTBhaG9EUmpWVG1FamY5UUkySGtFRQ?oc=5",
+        "published_at": "2026-09-21T18:05:24Z"
+      },
+      {
+        "headline": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat - Reuters",
+        "summary": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
+        "published_at": "2026-09-21T16:40:56Z"
+      },
+      {
+        "headline": "Global diesel prices hit record highs, further rises possible - Reuters",
+        "summary": "Global diesel prices hit record highs, further rises possible\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbTJkVThNdEJxOWJFWkljaTdsVjJZbTJlUXU4M19XSm1fMFVQSUZ1VUxRYjV6dkNaTE5FZnkwWndvX2UzcTlYVU5IV1JEVGUwSXprOTJEMjI3eTlJWkJodFVhWDFsX1N2akxCMm1pQ2hWbVRhR3huTjlPSTg5cGtwMjJpQ2J5RUd0SlZ1RUJWeW1lMXB2VXd0NWdYLWk3bmw1T3ZTclRLazF0RW1MVUFHZThB?oc=5",
+        "published_at": "2026-09-21T16:03:43Z"
+      },
+      {
+        "headline": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
+        "summary": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
+        "published_at": "2026-09-21T15:26:41Z"
+      },
+      {
+        "headline": "Kind Snacks founder Daniel Lubetzky: The No.1 piece of advice I give my kids about failure",
+        "summary": "Kind Snacks founder and \"Build or Break\" host Daniel Lubetzky reveals the lessons about success and failure that he imparts to his children.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/21/kind-snacks-founder-daniel-lubetzky-the-advice-i-give-my-kids-about-failure.html",
+        "published_at": "2026-09-21T14:30:02Z"
+      },
+      {
+        "headline": "Czech government reinstates fuel margin caps, plans windfall tax on refineries - Reuters",
+        "summary": "Czech government reinstates fuel margin caps, plans windfall tax on refineries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdVZJUm9nYjlBVDQ3d2R1bEQzVk5JRkFMTDE4a0RBa3dxclgzNE0wNDFJY2JHQjkxaEhVUkhKdllrb2dMWFliczdNNlV6U1pxLVlwSEpmZjFtem82aVBIS3h5M0tBMUtyVTBadzQzRjVJcEMxUFVaWERESm1RY21rRHoySTJKdUc3VHJnSDdhQWtJQUxLTWRIbEl4cWlxRE9VZTZFNFQ0UE1VSFlscXpUejhMdFdHeEZJV2U4ekFIOF9WZ0FN?oc=5",
+        "published_at": "2026-09-21T14:01:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5133,
+    "dxy_lean": "neutral",
+    "spy_close": 773.51,
+    "spy_change_pct": 1.5518,
+    "spy_lean": "bullish",
+    "vix_close": 14.81,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 86627.63,
+    "coinbase_premium_pct": -0.013123,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-21T21:12:21 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 227.38,
+        "change_pct": 2.299,
+        "prev_close": 222.27
+      },
+      "AMD": {
+        "close": 615.52,
+        "change_pct": 9.9496,
+        "prev_close": 559.82
+      },
+      "TSM": {
+        "close": 445.14,
+        "change_pct": 2.4087,
+        "prev_close": 434.67
+      },
+      "SMCI": {
+        "close": 41.2,
+        "change_pct": 5.3978,
+        "prev_close": 39.09
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 741.47,
+        "change_pct": 2.775,
+        "prev_close": 721.45
+      },
+      "SOXX": {
+        "close": 559.34,
+        "change_pct": 4.9281,
+        "prev_close": 533.07
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 86639,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 80,
+    "fear_greed_label": "Extreme greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 48,
+    "positive_count": 11,
+    "negative_count": 7,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.2292,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Saudi Arabia exits China-backed mBridge CBDC project: FT",
+        "url": "https://cointelegraph.com/news/saudi-arabia-exits-china-backed-mbridge-cbdc-project-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-21T20:37:15+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "X Sues Two Bitcoin Influencers Over Bot Army That Milked Creator Payouts",
+        "url": "https://decrypt.co/378877/x-sues-bitcoin-influencers-bot-army-creator-payout",
+        "published_at": "2026-09-21T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-21T19:53:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Brings IPO Shares to US Retail Traders, With Oura Up First",
+        "url": "https://decrypt.co/378874/coinbase-ipo-shares-us-traders-oura",
+        "published_at": "2026-09-21T19:26:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Europe\u2019s Central Bank Prepares to Invest Own Funds in Tokenized Securities",
+        "url": "https://decrypt.co/378872/europe-central-bank-invest-funds-tokenized-securities",
+        "published_at": "2026-09-21T19:00:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ondo lets institutions convert stocks directly into tokenized shares",
+        "url": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-21T18:35:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is VVV? The Privacy-Obsessed AI Token That\u2019s Up 3,000% in 2026",
+        "url": "https://decrypt.co/378840/what-is-vvv-privacy-ai-token-up-3000-percent-2026",
+        "published_at": "2026-09-21T18:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC to spend $30M opposing Sherrod Brown in Ohio, again",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-spending-sherrod-brown-ohio-senate-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-21T18:15:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Can a Fruit Fly Brain Mine Bitcoin? These Companies Are Testing It",
+        "url": "https://decrypt.co/378836/fruit-fly-brain-mine-bitcoin-these-companies-testing",
+        "published_at": "2026-09-21T17:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "xAI Launches Grok 4.7. It's Bigger, But Late to the AI Frontier Party",
+        "url": "https://decrypt.co/378824/xai-launches-grok-4-7",
+        "published_at": "2026-09-21T17:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 14,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
