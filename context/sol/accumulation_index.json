@@ -1,61 +1,49 @@
 {
   "token": "SOL",
-  "generated_at": "2026-09-14T09:01:00 UTC",
+  "generated_at": "2026-09-21T09:03:58 UTC",
   "schema_version": "1.0.0",
   "total_periods": 12,
   "weekly_count": 7,
   "monthly_count": 3,
   "quarterly_count": 2,
   "most_recent_weekly": {
-    "period_id": "2026-W37",
+    "period_id": "2026-W38",
     "period_type": "weekly",
-    "start_date": "2026-09-07",
-    "end_date": "2026-09-13",
+    "start_date": "2026-09-14",
+    "end_date": "2026-09-20",
     "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 101.29,
-    "price_change_pct": -2.5214,
-    "filename": "weekly_2026_W37.json"
+    "close_usd": 109.78,
+    "price_change_pct": 6.2936,
+    "filename": "weekly_2026_W38.json"
   },
   "most_recent_monthly": {
-    "period_id": "2026-M08",
+    "period_id": "2026-M09",
     "period_type": "monthly",
-    "start_date": "2026-08-03",
-    "end_date": "2026-08-30",
-    "data_quality": "complete",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-20",
+    "data_quality": "partial",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 104.26,
-    "price_change_pct": 41.523,
-    "filename": "monthly_2026_M08.json"
+    "close_usd": 109.78,
+    "price_change_pct": 5.6593,
+    "filename": "monthly_2026_M09.json"
   },
   "most_recent_quarterly": {
     "period_id": "2026-Q3",
     "period_type": "quarterly",
     "start_date": "2026-06-29",
-    "end_date": "2026-08-30",
-    "data_quality": "partial",
+    "end_date": "2026-09-20",
+    "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 104.26,
-    "price_change_pct": 38.0379,
+    "close_usd": 109.78,
+    "price_change_pct": 45.3462,
     "filename": "quarterly_2026_Q3.json"
   },
   "periods": {
     "weekly": [
-      {
-        "period_id": "2026-W31",
-        "period_type": "weekly",
-        "start_date": "2026-07-27",
-        "end_date": "2026-08-02",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 74.01,
-        "price_change_pct": -1.9215,
-        "filename": "weekly_2026_W31.json"
-      },
       {
         "period_id": "2026-W32",
         "period_type": "weekly",
@@ -127,21 +115,21 @@
         "close_usd": 101.29,
         "price_change_pct": -2.5214,
         "filename": "weekly_2026_W37.json"
-      }
-    ],
-    "monthly": [
+      },
       {
-        "period_id": "2026-M06",
-        "period_type": "monthly",
-        "start_date": "2026-06-03",
-        "end_date": "2026-06-28",
+        "period_id": "2026-W38",
+        "period_type": "weekly",
+        "start_date": "2026-09-14",
+        "end_date": "2026-09-20",
         "data_quality": "complete",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 70.44,
-        "price_change_pct": -0.984,
-        "filename": "monthly_2026_M06.json"
-      },
+        "close_usd": 109.78,
+        "price_change_pct": 6.2936,
+        "filename": "weekly_2026_W38.json"
+      }
+    ],
+    "monthly": [
       {
         "period_id": "2026-M07",
         "period_type": "monthly",
@@ -165,6 +153,18 @@
         "close_usd": 104.26,
         "price_change_pct": 41.523,
         "filename": "monthly_2026_M08.json"
+      },
+      {
+        "period_id": "2026-M09",
+        "period_type": "monthly",
+        "start_date": "2026-08-31",
+        "end_date": "2026-09-20",
+        "data_quality": "partial",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 109.78,
+        "price_change_pct": 5.6593,
+        "filename": "monthly_2026_M09.json"
       }
     ],
     "quarterly": [
@@ -184,12 +184,12 @@
         "period_id": "2026-Q3",
         "period_type": "quarterly",
         "start_date": "2026-06-29",
-        "end_date": "2026-08-30",
-        "data_quality": "partial",
+        "end_date": "2026-09-20",
+        "data_quality": "complete",
         "overall_lean": "neutral",
         "signals_available": 14,
-        "close_usd": 104.26,
-        "price_change_pct": 38.0379,
+        "close_usd": 109.78,
+        "price_change_pct": 45.3462,
         "filename": "quarterly_2026_Q3.json"
       }
     ]
