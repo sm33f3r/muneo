@@ -1,0 +1,437 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-22T21:13:16 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "2.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2936739856609.15,
+    "total_market_cap_change_24h_pct": -3.1158,
+    "total_volume_24h_usd": 122169842234.83,
+    "btc_dominance_pct": 58.8251,
+    "eth_dominance_pct": 11.3948,
+    "total2_usd": 1209200352921.06,
+    "total3_usd": 874564161839.18,
+    "active_cryptocurrencies": 21381,
+    "altcoin_season_index": 59,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 42.4127,
+        "price_usd": 1.33,
+        "market_cap_usd": 337743804
+      },
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": 38.3427,
+        "price_usd": 0.139277,
+        "market_cap_usd": 139484285
+      },
+      {
+        "symbol": "BCH",
+        "name": "Bitcoin Cash",
+        "price_change_24h_pct": 27.4062,
+        "price_usd": 340.5,
+        "market_cap_usd": 6840277129
+      },
+      {
+        "symbol": "MINA",
+        "name": "Mina Protocol",
+        "price_change_24h_pct": 19.8879,
+        "price_usd": 0.155854,
+        "market_cap_usd": 201665741
+      },
+      {
+        "symbol": "BSV",
+        "name": "Bitcoin SV",
+        "price_change_24h_pct": 18.1697,
+        "price_usd": 21.38,
+        "market_cap_usd": 429479123
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": -45.0892,
+        "price_usd": 0.137545,
+        "market_cap_usd": 137478129
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -15.1151,
+        "price_usd": 0.312372,
+        "market_cap_usd": 257787269
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -14.2638,
+        "price_usd": 0.805406,
+        "market_cap_usd": 201947039
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -11.6999,
+        "price_usd": 1.31,
+        "market_cap_usd": 2974281939
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -10.1969,
+        "price_usd": 0.050673,
+        "market_cap_usd": 1155838756
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 86251,
+    "price_change_24h_pct": -0.4439,
+    "price_change_7d_pct": 13.3023,
+    "market_cap_usd": 1732383757506,
+    "volume_24h_usd": 43881914770,
+    "direction": "neutral",
+    "oi_usd": 9226661739.55,
+    "funding_rate_latest": 2.784e-05,
+    "funding_rate_7d_avg": 7.142238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 0.9048,
+    "long_account_pct": 47.5,
+    "short_account_pct": 52.5,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2748.01,
+    "price_change_24h_pct": -0.8707,
+    "price_change_7d_pct": 13.9164,
+    "market_cap_usd": 335430021762,
+    "volume_24h_usd": 16359442931,
+    "eth_btc_ratio": 0.031861,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96602377335.38,
+    "stablecoin_market_cap_usd": 312157898307.77,
+    "stablecoin_dominance_pct": 10.6294
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 59,
+    "headlines": [
+      {
+        "headline": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
+        "summary": "The bullish sentiment comes despite calls to slow down AI model development and rekindled investor enthusiasm for a competing part of the AI chip ecosystem.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/22/a-top-chip-stock-analyst-sees-big-things-for-nvidia-broadcom-how-his-case-aligns-with-ours.html",
+        "published_at": "2026-09-22T20:43:48Z"
+      },
+      {
+        "headline": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters",
+        "summary": "Trump warns in UN speech he could 'annihilate' Iran without peace deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFdkQk9aWHdzT0hrcFhDNDZPSmlwQVBUUm12TGd4SUVPUURUMVo4Y3I0WHZBSTIxdjdKTWZ4WkF3cVUzUnlrWmNrbTA5T21UN3R0Z0JnekdrZm5ReC1ZS2JmUWVQRXRVNzhaYmNucDI5YVh6d2JxeHp5Yi00Y3p2d0loRTY5YXNiWGRHTlJZb1ZiX1paMVh3UU1XVThfUXR2NHF3T0pod3BBS3VpU3AyTDB3?oc=5",
+        "published_at": "2026-09-22T20:20:18Z"
+      },
+      {
+        "headline": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says - reuters.com",
+        "summary": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYVI5Zk1aX3RhYUR3djFoUE4wTGo1cEJscDJwelUwamFLQV9WVEh3OU1BcFhkOGJKWWtCVXFPSndFUUpFV2xvWWctLTQxVWFlWmE0d3ctNmJuYzVDLXJSdjdwaktKWFREMVBQeUlZakZvalZOQTAtSlQ5UzZFQkFlUVZPblc2bEE5dzNVRV9pTzM2ZkxURHlFMzVlamZCWG50RUlkaVd5MDc4MzZTbWp1N1J1Y3NnQnUwMnFNRjhWMnd6Y0Z1LWp5NA?oc=5",
+        "published_at": "2026-09-22T19:46:20Z"
+      },
+      {
+        "headline": "Royal Caribbean nears $3 billion deal to take 50% equity stake in Sandals",
+        "summary": "Royal Caribbean has been trying to diversify beyond cruises and become a leader overall in vacations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/22/royal-caribbean-sandals.html",
+        "published_at": "2026-09-22T19:33:37Z"
+      },
+      {
+        "headline": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
+        "summary": "Cisco stock hit a record over the summer, but Piper Sandler analysts expressed concerns that growth is peaking in the industry.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
+        "published_at": "2026-09-22T19:21:11Z"
+      },
+      {
+        "headline": "Trump at UN: Threats, diplomacy and 'super intelligence' - Reuters",
+        "summary": "Trump at UN: Threats, diplomacy and 'super intelligence'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb05jNXUydzFHZ2tRUzBGUndIZFAxTW1jYUtVU3U5NzI1ZjRsckp2YXJuOG9KRE9hOTg1Q3B3b3U1ZC1jWmN1d2J0VU1OMkVfbElFRGhONElJd3I4UklnbVZHTExmT1g2dHFESmJhQWplNWlYUzZsU1ctMW9HRVBXVDJGazNhd1JDbWltQ0hEYmttU2hh?oc=5",
+        "published_at": "2026-09-22T19:09:42Z"
+      },
+      {
+        "headline": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - Reuters",
+        "summary": "Trump says Iran deal nearing, Tehran offers Hormuz reopening\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?oc=5",
+        "published_at": "2026-09-22T18:05:59Z"
+      },
+      {
+        "headline": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman - Reuters",
+        "summary": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
+        "published_at": "2026-09-22T17:37:37Z"
+      },
+      {
+        "headline": "Trump says talks with Iran continue and he thinks settlement will be reached - Reuters",
+        "summary": "Trump says talks with Iran continue and he thinks settlement will be reached\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN3J1Q19pcFNqX1dZdk1GNllCTzNBWWlmWHB3bF9nMGNrcEdvUjc2anM1bndiLWFOYlVjRl9qeTBKby1qaW1zaWY1ZEU1ZEFnM3RTWXB5WUFwNTczcjlOT2ZXc3pfdW1nNFJzY185Wkkxc0UzcEstaHhxNVhHMk0zbERBc2lQTGtKY0dyaGhTWHg5LW5TZUZITXFwTklFcmZadVh4eks3Q1VZeGFGUm1QTW5yV3MzOVZBeFp6SGp1U09NNThl?oc=5",
+        "published_at": "2026-09-22T17:09:43Z"
+      },
+      {
+        "headline": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
+        "summary": "A curious dynamic is happening in shares of Nvidia ahead of two potential catalysts this month.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/22/nvidia-options-are-doing-something-unusual-ahead-of-two-catalysts-heres-how-one-trader-is-playing-it.html",
+        "published_at": "2026-09-22T16:58:28Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 119.5133,
+    "dxy_lean": "neutral",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": null,
+    "vix_close": 14.87,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 86273.33,
+    "coinbase_premium_pct": 0.02589,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-22T21:13:16 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 228.87,
+        "change_pct": 0.6553,
+        "prev_close": 227.38
+      },
+      "AMD": {
+        "close": 623.77,
+        "change_pct": 1.3403,
+        "prev_close": 615.52
+      },
+      "TSM": {
+        "close": 452.0,
+        "change_pct": 1.5411,
+        "prev_close": 445.14
+      },
+      "SMCI": {
+        "close": 41.54,
+        "change_pct": 0.8252,
+        "prev_close": 41.2
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 747.46,
+        "change_pct": 0.8079,
+        "prev_close": 741.47
+      },
+      "SOXX": {
+        "close": 572.78,
+        "change_pct": 2.4028,
+        "prev_close": 559.34
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": "SOSOVALUE_API_KEY not set \u2014 skipped"
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 86251,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 79,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 50,
+    "positive_count": 11,
+    "negative_count": 7,
+    "neutral_count": 32,
+    "sentiment_ratio": 0.22,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CFTC Chairman Selig says markets must prepare for \u2018mass tokenization\u2019",
+        "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
+        "published_at": "2026-09-22T21:08:20+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Republican senator calls for probe into US presidents\u2019 sons, citing crypto ventures",
+        "url": "https://cointelegraph.com/news/us-senator-probe-donald-trump-hunter-biden-crypto-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-22T20:57:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
+        "url": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures",
+        "published_at": "2026-09-22T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave Proposal Seeks Higher Borrowing Limits For ETH And Bitcoin Collateral",
+        "url": "https://bitcoinist.com/aave-proposal-seeks-higher-borrowing-limits-for-eth-and-bitcoin-collateral/",
+        "published_at": "2026-09-22T20:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-22T20:03:30+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Inside Coinbase\u2019s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
+        "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody",
+        "published_at": "2026-09-22T20:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canada\u2019s six largest banks explore tokenized Canadian dollar deposits",
+        "url": "https://cointelegraph.com/news/canada-six-largest-banks-explore-tokenized-canadian-dollar-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-22T19:56:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
+        "url": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust",
+        "published_at": "2026-09-22T19:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Arbitrum DAO Votes On Grant Ban For Three Projects After Watchdog Cases",
+        "url": "https://bitcoinist.com/arbitrum-dao-votes-on-grant-ban-for-three-projects-after-watchdog-cases/",
+        "published_at": "2026-09-22T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
+        "url": "https://decrypt.co/378986/openai-launches-gpt-6-sol-luna-anthropic-claude-opus-5-5",
+        "published_at": "2026-09-22T19:00:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 16,
+    "signals_available": 13,
+    "signals_null": 3,
+    "bullish_count": 1,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": null,
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bearish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "fetch_27:sosovalue_etf: skipped \u2014 SOSOVALUE_API_KEY not set"
+  ]
+}
