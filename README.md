@@ -33,8 +33,9 @@ All free-tier, no paid endpoints:
 |---|---|---|
 | [CoinGecko](https://coingecko.com/en/api) | Market data, token metadata | Yes — free Demo key |
 | [CoinMarketCap](https://coinmarketcap.com/api/) | Price, market cap, volume, OHLCV, Fear & Greed | Yes — free Basic key |
-| [FRED](https://fredaccount.stlouisfed.org) | DXY, macro economic series | Yes — free key |
-| [Alpha Vantage](https://alphavantage.co) | SPY, VIX, equities data | Yes — free key, 25 req/day |
+| [FRED](https://fredaccount.stlouisfed.org) | Broad Dollar Index (DTWEXBGS), macro economic series | Yes — free key |
+| | *Note: DTWEXBGS is now exposed as `broad_dollar_index`, not `dxy` — see [Signals](#signals).* | |
+| [Alpha Vantage](https://alphavantage.co) | SPY, VIX, DXY (computed from FX basket) equities/FX data | Yes — free key, 25 req/day |
 | [CryptoPanic](https://cryptopanic.com/developers/api) | Aggregated crypto news | Yes — free Developer key |
 | [Finnhub](https://finnhub.io) | Macro news (global report only) | Yes — free key, 60 req/min |
 | [Binance](https://binance-docs.github.io/apidocs/spot/en/) | CEX ticker, funding rates, long/short ratio | No |

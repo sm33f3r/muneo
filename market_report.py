@@ -35,7 +35,7 @@ from dotenv import load_dotenv
 from rss_utils import fetch_rss_feeds, score_sentiment, CRYPTO_RSS_FEEDS
 
 SCRIPT_VERSION = "3.0.0"
-SCHEMA_VERSION = "2.0.0"
+SCHEMA_VERSION = "3.0.0"
 API_TIMEOUT = 10  # seconds
 
 CMC_BASE  = "https://pro-api.coinmarketcap.com"
@@ -509,6 +509,18 @@ def fetch_alpha_vantage_spy(api_key: str) -> dict:
     return ts
 
 
+def fetch_alpha_vantage_fx_daily(from_symbol: str, to_symbol: str, api_key: str) -> dict:
+    url = "https://www.alphavantage.co/query"
+    params = {"function": "FX_DAILY", "from_symbol": from_symbol, "to_symbol": to_symbol,
+              "outputsize": "compact", "apikey": api_key}
+    resp = requests.get(url, params=params, timeout=30)
+    resp.raise_for_status()
+    ts = resp.json().get("Time Series FX (Daily)", {})
+    if not ts:
+        raise ValueError("No time series data in Alpha Vantage response")
+    return ts
+
+
 # ---------------------------------------------------------------------------
 # Signal lean helpers
 # ---------------------------------------------------------------------------
@@ -603,7 +615,41 @@ def lean_btc_dominance(pct: Optional[float]) -> str:
     return "neutral"
 
 
+def compute_ice_dxy(
+    eurusd: Optional[float],
+    usdjpy: Optional[float],
+    gbpusd: Optional[float],
+    usdcad: Optional[float],
+    usdsek: Optional[float],
+    usdchf: Optional[float],
+) -> Optional[float]:
+    """ICE US Dollar Index, computed from its published formula. None if any input is missing —
+    a partial basket is not a trustworthy index value."""
+    if None in (eurusd, usdjpy, gbpusd, usdcad, usdsek, usdchf):
+        return None
+    return (
+        50.14348112
+        * (eurusd ** -0.576)
+        * (usdjpy ** 0.136)
+        * (gbpusd ** -0.119)
+        * (usdcad ** 0.091)
+        * (usdsek ** 0.042)
+        * (usdchf ** 0.036)
+    )
+
+
 def lean_dxy(latest: Optional[float], prior: Optional[float]) -> str:
+    if latest is None or prior is None or prior == 0:
+        return "neutral"
+    change_pct = ((latest - prior) / prior) * 100
+    if change_pct > 0.3:
+        return "bearish"
+    if change_pct < -0.3:
+        return "bullish"
+    return "neutral"
+
+
+def lean_broad_dollar_index(latest: Optional[float], prior: Optional[float]) -> str:
     if latest is None or prior is None or prior == 0:
         return "neutral"
     change_pct = ((latest - prior) / prior) * 100
@@ -874,9 +920,12 @@ def render_markdown(report: dict) -> str:
     lines.append(f"| ETH/BTC Ratio | {_fmt(macro.get('eth_btc_ratio'), 4)} |")
     ethbtc_lean = macro.get('eth_btc_lean')
     lines.append(f"| ETH/BTC Lean | {_lean_icon(ethbtc_lean)} {ethbtc_lean or 'N/A'} |")
-    lines.append(f"| DXY | {_fmt(macro.get('dxy'), 2)} |")
+    lines.append(f"| DXY (computed, ICE formula) | {_fmt(macro.get('dxy'), 2)} |")
     dxy_lean = macro.get('dxy_lean')
     lines.append(f"| DXY Lean | {_lean_icon(dxy_lean)} {dxy_lean or 'N/A'} |")
+    lines.append(f"| Broad Dollar Index (FRED DTWEXBGS) | {_fmt(macro.get('broad_dollar_index'), 2)} |")
+    broad_dollar_index_lean = macro.get('broad_dollar_index_lean')
+    lines.append(f"| Broad Dollar Index Lean | {_lean_icon(broad_dollar_index_lean)} {broad_dollar_index_lean or 'N/A'} |")
     lines.append(f"| SPY Close | {_usd(macro.get('spy_close'))} |")
     lines.append(f"| SPY Change | {_pct(macro.get('spy_change_pct'))} |")
     spy_lean = macro.get('spy_lean')
@@ -1414,28 +1463,77 @@ def build_report(
             fetch_errors.append(f"binance_btc_ls:parse_error: {e}")
 
     # ------------------------------------------------------------------
-    # [16/18] FRED — DXY latest
+    # [16/18] FRED — Broad Dollar Index latest (DTWEXBGS)
     # ------------------------------------------------------------------
-    print("[16/18] Fetching FRED — DXY latest...")
-    dxy_latest = None
-    dxy_prior  = None
+    print("[16/18] Fetching FRED — Broad Dollar Index latest (DTWEXBGS)...")
+    broad_dollar_index_latest = None
+    broad_dollar_index_prior  = None
 
     if fred_api_key:
         dxy_data = safe_fetch(
-            "FRED DXY",
+            "FRED Broad Dollar Index",
             lambda: fetch_fred_series("DTWEXBGS", fred_api_key, 5),
             fetch_errors,
         )
         if dxy_data:
             non_null = [o for o in dxy_data if o.get("value") not in (".", None, "")]
             if non_null:
-                dxy_latest = float(non_null[0]["value"])
+                broad_dollar_index_latest = float(non_null[0]["value"])
             if len(non_null) >= 2:
-                dxy_prior = float(non_null[1]["value"])
+                broad_dollar_index_prior = float(non_null[1]["value"])
     else:
-        print("  \u2717 FRED DXY — FRED_API_KEY not set")
-        fetch_errors.append("fetch_14:fred_dxy: skipped — FRED_API_KEY not set")
+        print("  \u2717 FRED Broad Dollar Index — FRED_API_KEY not set")
+        fetch_errors.append("fetch_14:fred_broad_dollar_index: skipped — FRED_API_KEY not set")
     time.sleep(1)
+
+    # ------------------------------------------------------------------
+    # [16b/18] Alpha Vantage — FX basket for computed ICE DXY
+    # ------------------------------------------------------------------
+    FX_PAIRS_FOR_DXY = [
+        ("EUR", "USD"),
+        ("USD", "JPY"),
+        ("GBP", "USD"),
+        ("USD", "CAD"),
+        ("USD", "SEK"),
+        ("USD", "CHF"),
+    ]
+
+    fx_latest: dict = {}
+    fx_prior: dict = {}
+
+    for from_sym, to_sym in FX_PAIRS_FOR_DXY:
+        pair_label = f"{from_sym}{to_sym}"
+        print(f"[16b/18] Fetching Alpha Vantage — {pair_label} FX daily...")
+        fx_latest[pair_label] = None
+        fx_prior[pair_label]  = None
+
+        if alpha_vantage_api_key:
+            fx_data = safe_fetch(
+                f"Alpha Vantage {pair_label}",
+                lambda f=from_sym, t=to_sym: fetch_alpha_vantage_fx_daily(f, t, alpha_vantage_api_key),
+                fetch_errors,
+            )
+            if fx_data:
+                try:
+                    dates = sorted(fx_data.keys(), reverse=True)
+                    fx_latest[pair_label] = float(fx_data[dates[0]]["4. close"])
+                    if len(dates) >= 2:
+                        fx_prior[pair_label] = float(fx_data[dates[1]]["4. close"])
+                except (KeyError, IndexError, ValueError) as e:
+                    fetch_errors.append(f"alpha_vantage_fx_{pair_label.lower()}:parse_error: {e}")
+        else:
+            print(f"  \u2717 Alpha Vantage {pair_label} — ALPHA_VANTAGE_API_KEY not set")
+            fetch_errors.append(f"fetch_16b:alpha_vantage_fx_{pair_label.lower()}: skipped — ALPHA_VANTAGE_API_KEY not set")
+        time.sleep(1)
+
+    ice_dxy_latest = compute_ice_dxy(
+        fx_latest["EURUSD"], fx_latest["USDJPY"], fx_latest["GBPUSD"],
+        fx_latest["USDCAD"], fx_latest["USDSEK"], fx_latest["USDCHF"],
+    )
+    ice_dxy_prior = compute_ice_dxy(
+        fx_prior["EURUSD"], fx_prior["USDJPY"], fx_prior["GBPUSD"],
+        fx_prior["USDCAD"], fx_prior["USDSEK"], fx_prior["USDCHF"],
+    )
 
     # ------------------------------------------------------------------
     # [17/18] FRED — VIX latest
@@ -1527,7 +1625,8 @@ def build_report(
     chain_fees_lean_val = chain_fees_lean
     dom_lean_val        = lean_btc_dominance(btc_dominance)
     eth_btc_lean_val = "neutral"  # single snapshot — direction indeterminate
-    dxy_lean_val     = lean_dxy(dxy_latest, dxy_prior)
+    dxy_lean_val     = lean_dxy(ice_dxy_latest, ice_dxy_prior)
+    broad_dollar_index_lean_val = lean_broad_dollar_index(broad_dollar_index_latest, broad_dollar_index_prior)
     spy_lean_val     = lean_spy(spy_change_pct)
     vix_lean_val     = lean_vix(vix_latest, vix_prior)
     fg_lean_val      = lean_fear_greed(fg_value)
@@ -1550,6 +1649,7 @@ def build_report(
         "btc_dominance_lean":    dom_lean_val,
         "eth_btc_lean":          eth_btc_lean_val,
         "dxy_lean":              dxy_lean_val,
+        "broad_dollar_index_lean": broad_dollar_index_lean_val,
         "spy_lean":              spy_lean_val,
         "vix_lean":              vix_lean_val,
         "fear_greed_lean":       fg_lean_val,
@@ -1649,8 +1749,13 @@ def build_report(
             "total_crypto_mcap_usd": total_mcap_usd,
             "eth_btc_ratio":        round(eth_btc_ratio, 6)   if eth_btc_ratio  is not None else None,
             "eth_btc_lean":         eth_btc_lean_val,
-            "dxy":                  round(dxy_latest, 4)       if dxy_latest     is not None else None,
+            "dxy":                  round(ice_dxy_latest, 4)   if ice_dxy_latest is not None else None,
             "dxy_lean":             dxy_lean_val,
+            "dxy_source":           "computed_ice_formula",
+            "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+            "broad_dollar_index":      round(broad_dollar_index_latest, 4) if broad_dollar_index_latest is not None else None,
+            "broad_dollar_index_lean": broad_dollar_index_lean_val,
+            "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) — a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
             "spy_close":            round(spy_close, 4)        if spy_close      is not None else None,
             "spy_change_pct":       round(spy_change_pct, 4)   if spy_change_pct is not None else None,
             "spy_lean":             spy_lean_val,
@@ -1682,7 +1787,7 @@ def build_report(
             "unlock_lean":      unlock_lean,
         },
         "signal_summary": {
-            "signals_evaluated": 19,
+            "signals_evaluated": 20,
             "signals_available": len(available),
             "signals_null":      len(null_sigs),
             "bullish_count":     bullish_count,
