@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-23T21:10:49 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2868237587737.66,
+    "total_market_cap_change_24h_pct": -5.0539,
+    "total_volume_24h_usd": 128156787398.0,
+    "btc_dominance_pct": 58.8744,
+    "eth_dominance_pct": 11.3443,
+    "total2_usd": 1179580058881.03,
+    "total3_usd": 854199049263.64,
+    "active_cryptocurrencies": 21532,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DBR",
+        "name": "deBridge",
+        "price_change_24h_pct": 25.3612,
+        "price_usd": 0.02061616,
+        "market_cap_usd": 122222251
+      },
+      {
+        "symbol": "\u9f99\u867e",
+        "name": "\u9f99\u867e (Lobster)",
+        "price_change_24h_pct": 18.3008,
+        "price_usd": 0.1628,
+        "market_cap_usd": 162537101
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 17.2548,
+        "price_usd": 1.023,
+        "market_cap_usd": 2768432286
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price_change_24h_pct": 15.92,
+        "price_usd": 2.07,
+        "market_cap_usd": 559573658
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 13.1198,
+        "price_usd": 0.48201,
+        "market_cap_usd": 482232990
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SPX",
+        "name": "SPX6900",
+        "price_change_24h_pct": -17.4371,
+        "price_usd": 0.43706,
+        "market_cap_usd": 406473286
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -14.9139,
+        "price_usd": 0.290418,
+        "market_cap_usd": 290497980
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -12.6955,
+        "price_usd": 0.404597,
+        "market_cap_usd": 1475310035
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -12.6098,
+        "price_usd": 0.04438945,
+        "market_cap_usd": 1012110751
+      },
+      {
+        "symbol": "ZEN",
+        "name": "Horizen",
+        "price_change_24h_pct": -12.3007,
+        "price_usd": 7.15,
+        "market_cap_usd": 131540332
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84262,
+    "price_change_24h_pct": -2.3068,
+    "price_change_7d_pct": 10.8163,
+    "market_cap_usd": 1692621665997,
+    "volume_24h_usd": 44379107658,
+    "direction": "bearish",
+    "oi_usd": 8302916857.63,
+    "funding_rate_latest": 1.286e-05,
+    "funding_rate_7d_avg": 6.696714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1464,
+    "long_account_pct": 53.41,
+    "short_account_pct": 46.59,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2671.03,
+    "price_change_24h_pct": -2.8266,
+    "price_change_7d_pct": 10.9922,
+    "market_cap_usd": 326038225497,
+    "volume_24h_usd": 18600084009,
+    "eth_btc_ratio": 0.031699,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 94790532254.34,
+    "stablecoin_market_cap_usd": 311921814506.79,
+    "stablecoin_dominance_pct": 10.875
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender - Reuters",
+        "summary": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5",
+        "published_at": "2026-09-23T20:16:05Z"
+      },
+      {
+        "headline": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
+        "summary": "Wall Street ends down as oil prices, Treasury yields rise\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+        "published_at": "2026-09-23T20:01:00Z"
+      },
+      {
+        "headline": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
+        "summary": "Altman is one of several tech executives who's argued that AI companies should temper the pace of AI development in order to manage potential risks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
+        "published_at": "2026-09-23T19:55:31Z"
+      },
+      {
+        "headline": "A rare Microsoft bear warms up to the stock. Here's what changed their mind",
+        "summary": "Stifel upgraded the software and cloud giant to buy from hold.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/23/a-rare-microsoft-bear-warms-up-to-the-stock-heres-what-changed-their-mind.html",
+        "published_at": "2026-09-23T19:53:16Z"
+      },
+      {
+        "headline": "Tesla Roadster reveal is creating a unique options opportunity, says Mike Khouw",
+        "summary": "Teslas are expensive cars, and the Roadster, which the company will reveal on October 1st, will likely be the its most expensive.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/23/tesla-roadster-reveal-is-creating-a-unique-options-opportunity-says-mike-khouw.html",
+        "published_at": "2026-09-23T18:52:11Z"
+      },
+      {
+        "headline": "Oil settles up around 4% as Iran's president vows to never surrender - Reuters",
+        "summary": "Oil settles up around 4% as Iran's president vows to never surrender\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
+        "published_at": "2026-09-23T18:48:44Z"
+      },
+      {
+        "headline": "Bond yields spike and stocks drop \u2014 plus, why Boeing is bucking the trend",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/23/bond-yields-spike-and-stocks-drop-plus-why-boeing-is-bucking-the-trend.html",
+        "published_at": "2026-09-23T18:42:17Z"
+      },
+      {
+        "headline": "Rubio, after Lavrov talks, says Russia has also voiced interest in 'limited ceasefire' - Reuters",
+        "summary": "Rubio, after Lavrov talks, says Russia has also voiced interest in 'limited ceasefire'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3MzYlZCZEgzcUlDYjZORWhrZEFaczhhdjlTV2tXYW9lcjk0V1BIZlpqNVM1d21rQU1GYi1vX1p2QWtLV2MtRFNUZ2VuZzRmSkNCUGZibHFPVjF1NjdBUkhrU2NmR3pzZk4wdDFSdFdfWkJfX19wdll1LUROTGVVTkF6RUQzSmZ2NXBsRi14WHJnZkJiajIxUXVfbnc5Wk5zRXBncjZhRHNveHl2Yl9MeE9GWHliX0dW?oc=5",
+        "published_at": "2026-09-23T17:53:45Z"
+      },
+      {
+        "headline": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender - Reuters",
+        "summary": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
+        "published_at": "2026-09-23T17:38:47Z"
+      },
+      {
+        "headline": "Trump plans grand spectacle for potentially tense Xi talks - Reuters",
+        "summary": "Trump plans grand spectacle for potentially tense Xi talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVBYbDJtMVNJRWNyaDlFLXhaWDBIbERYTkRRYVliRGR3eklaai1JTHBhZ2tOTjBqRk1CSTFvOENrMjduNVhWRUFiNzRsbDg0Y1ZJdFlKTy1oSUVBaUpTNlkwVS02emZkaHVUZVRaZjJleVhJWF9uY09xSHZMOVh3YXh2aVMwV09HeGJGSXVZTWZCRE5iNHdNdDI0bDU5aXZvMjJzMQ?oc=5",
+        "published_at": "2026-09-23T17:07:39Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 100.5461,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 119.5133,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 767.83,
+    "spy_change_pct": -0.7176,
+    "spy_lean": "bearish",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 84348.62,
+    "coinbase_premium_pct": 0.102798,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-23T21:10:49 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.51,
+        "change_pct": -1.4681,
+        "prev_close": 228.87
+      },
+      "AMD": {
+        "close": 614.61,
+        "change_pct": -1.4685,
+        "prev_close": 623.77
+      },
+      "TSM": {
+        "close": 446.57,
+        "change_pct": -1.2013,
+        "prev_close": 452.0
+      },
+      "SMCI": {
+        "close": 41.44,
+        "change_pct": -0.2407,
+        "prev_close": 41.54
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 741.21,
+        "change_pct": -0.8362,
+        "prev_close": 747.46
+      },
+      "SOXX": {
+        "close": 565.72,
+        "change_pct": -1.2326,
+        "prev_close": 572.78
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-22",
+    "total_net_inflow_usd": 714748985.5,
+    "total_net_assets_usd": 110839570707.0,
+    "total_value_traded_usd": 2822847326.6,
+    "cum_net_inflow_usd": 56874634313.61,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84262,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 12,
+    "negative_count": 7,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.2069,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
+        "url": "https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how",
+        "published_at": "2026-09-23T20:44:20+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former Hack VC partner Hsin-Ju Chuang found dead at 37",
+        "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-23T20:43:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
+        "url": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-23T20:28:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-23T19:39:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash's Wall Street Moment Reaches Europe With Its First ETP Listing",
+        "url": "https://decrypt.co/379105/zcash-wall-street-europe-first-etp",
+        "published_at": "2026-09-23T19:36:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Valour Launches AI-Managed Smart Crypto Fund SP",
+        "url": "https://bitcoinist.com/valour-launches-ai-managed-smart-crypto-fund-sp/",
+        "published_at": "2026-09-23T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
+        "url": "https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-23T19:05:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$15.6 Billion in Bitcoin Options Expire Friday\u2014Here's What It Means",
+        "url": "https://decrypt.co/379093/15-6-billion-bitcoin-options-expire-friday-what-means",
+        "published_at": "2026-09-23T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development Corp Adds 101,381 SOL To Corporate Treasury",
+        "url": "https://bitcoinist.com/defi-development-corp-adds-101381-sol-to-corporate-treasury/",
+        "published_at": "2026-09-23T18:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US stablecoin adoption could surge with bank-like protections: Visa survey",
+        "url": "https://cointelegraph.com/news/stablecoin-adoption-bank-level-protections-visa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-23T18:17:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
