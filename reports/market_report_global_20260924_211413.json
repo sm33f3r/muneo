@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-24T21:13:09 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2889295141847.81,
+    "total_market_cap_change_24h_pct": -2.021,
+    "total_volume_24h_usd": 106408340534.16,
+    "btc_dominance_pct": 58.5548,
+    "eth_dominance_pct": 11.3389,
+    "total2_usd": 1197475134280.17,
+    "total3_usd": 869860414157.09,
+    "active_cryptocurrencies": 21551,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "price_change_24h_pct": 24.9377,
+        "price_usd": 0.513122,
+        "market_cap_usd": 2497277904
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 23.1941,
+        "price_usd": 0.995356,
+        "market_cap_usd": 248831331
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 22.4629,
+        "price_usd": 86.64,
+        "market_cap_usd": 1260619935
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 21.4901,
+        "price_usd": 0.108507,
+        "market_cap_usd": 301283201
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": 17.3358,
+        "price_usd": 0.066777,
+        "market_cap_usd": 132989787
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -17.6456,
+        "price_usd": 0.03640995,
+        "market_cap_usd": 830358333
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -10.4598,
+        "price_usd": 0.996553,
+        "market_cap_usd": 295663326
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -9.9564,
+        "price_usd": 0.156704,
+        "market_cap_usd": 148434363
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -8.1727,
+        "price_usd": 0.223489,
+        "market_cap_usd": 221509494
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -6.7036,
+        "price_usd": 0.448195,
+        "market_cap_usd": 447783067
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84328,
+    "price_change_24h_pct": 0.0118,
+    "price_change_7d_pct": 10.1813,
+    "market_cap_usd": 1693969263103,
+    "volume_24h_usd": 38212454066,
+    "direction": "neutral",
+    "oi_usd": 8091349856.38,
+    "funding_rate_latest": 1.422e-05,
+    "funding_rate_7d_avg": 5.991190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2282,
+    "long_account_pct": 55.12,
+    "short_account_pct": 44.88,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2685.72,
+    "price_change_24h_pct": 0.5201,
+    "price_change_7d_pct": 9.7543,
+    "market_cap_usd": 327862309356,
+    "volume_24h_usd": 14549298970,
+    "eth_btc_ratio": 0.031848,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95384211616.19,
+    "stablecoin_market_cap_usd": 312715499074.43,
+    "stablecoin_dominance_pct": 10.8232
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers - reuters.com",
+        "summary": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMU45a3FvODBzSXpndWg1QUVuQzlqUmVJWjZEWUFXNWltVUx0Sm4zbDE1X3lFSnFYd2hQeGotT1YtejB1NU9lZDJKcnJjeEZqNkJtZkQ0anhFUG92V3pWLXlyQzhIalFwTzRuVnVvd3BGQ2tfYTJ3RUxMRlhlWTdTUFE3MnAzMUxmallxcE9SZU5ldmxJeE1fYnhyT0c5eG9lVXVydVg2TFhnbnFJYUFsOE56U194eTltTnc2bGFR?oc=5",
+        "published_at": "2026-09-24T20:34:36Z"
+      },
+      {
+        "headline": "S&P 500 ends marginally lower as investors focus on US-Iran war - reuters.com",
+        "summary": "S&P 500 ends marginally lower as investors focus on US-Iran war\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+        "published_at": "2026-09-24T20:17:06Z"
+      },
+      {
+        "headline": "Netanyahu's fleeting visit to New York mirrors strained US ties - reuters.com",
+        "summary": "Netanyahu's fleeting visit to New York mirrors strained US ties\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0dMX1dTN0FUMTNHM3B6Yi0zelh2NDZKR2toOTJlYmZlRktKVW91TVV2YlJ2M1E4Qy1BTmlGb2Y4NUJURWstS1J0OEhaRWg0LWt6eHBDV21hYTNfS2F3M3BUNDkzQVAwV3g1WUJxWVZZa0xfRWlUeXptSzNNTUxZenBaMEtYcXYwU1pQck1qT2NZcmw3bTFWVkJhV3lMM2w0SzNaZVMtZWFFdHY4U1o2V1UwWQ?oc=5",
+        "published_at": "2026-09-24T19:43:54Z"
+      },
+      {
+        "headline": "What must happen for Boeing stock to get unstuck. The company needs, at least, to do its part",
+        "summary": "Some of the headwinds facing the jetmaker \u2014 both in and out of its control \u2014 need to clear up.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/24/what-must-happen-for-boeing-stock-to-get-unstuck-the-company-needs-to-do-its-part.html",
+        "published_at": "2026-09-24T19:27:25Z"
+      },
+      {
+        "headline": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu - reuters.com",
+        "summary": "Houthis say they attacked Riyadh and Aramco facilities in Yanbu\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMWlXS0IwYk9WRDdxeGk1MmxybUpOa2lqYWN5Zm8wckN4ZVJJQUlCNXBJUkpsdXdTT240ZDhHMmJOWEszcHJUZDZscy1ibVkyZjlEUm03c3ZXZHlEanBFcE5Wa3A3QjVabTdPRTgtcnd5bWRhcVB0M0hEbW5QTUN0R2R3clB2OV9YblRYREFsY0NLU3ItMTFqRlFoRDVyV00zWnVoTUNzQ1ZDXzV1aUVN?oc=5",
+        "published_at": "2026-09-24T19:24:40Z"
+      },
+      {
+        "headline": "Dozens of delegates walk out of UN hall at start of Netanyahu speech - reuters.com",
+        "summary": "Dozens of delegates walk out of UN hall at start of Netanyahu speech\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekk0eU1sNTF4VFZQZ0diQ1d2R05UZVN3a011d1JBeDJRemY1SGU2eHQwemxHcnNQa0JkLXpReklrN0FZR19pcW80NkFCMU1JTmptX3Y0UUVzWWI4YTlhMklyQ2dzbFZEaDRodUk2NTNPYVB6ZF84TkxJa3VMcUduOEtMdkdaa3ZUTS02QVFlWmhwYi1ubEtDbFRHa19Xc0hHREp2SHU5dTVyaHFxeTgw?oc=5",
+        "published_at": "2026-09-24T19:23:43Z"
+      },
+      {
+        "headline": "US Senate rejects resolution curbing Trump's Iran war powers - reuters.com",
+        "summary": "US Senate rejects resolution curbing Trump's Iran war powers\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNODVQSjliMlBWTFZPaHV3aXY5Y3hMVGl0dWc0bTRDdGxOU1NhOXZJVmx1eWh2Q3VmX0h3UWZnOVZlODRXcEU1LVNtWHpVSDNVOGpmU3BWVVNzUzd1T1d5UlRLcktuVENkeGpMem1FcmJkUWVoR1dpMFY0QnZ1ZDZZV0pHczRpOWI4ZnZtRS1CdGUzQlZMUlRzazU5dk9yZUl6NjdlMlNFSQ?oc=5",
+        "published_at": "2026-09-24T18:51:47Z"
+      },
+      {
+        "headline": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say - reuters.com",
+        "summary": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXMwQlBmRVM4WXVFeXhQVkcyYnpaUzE3dk1wUWswS3pZWDBKTGNWVEpqdFNsWXZEYm5PQ3pSVmRhVFl1empQN3p6SFY0YTVHRmxxNWpxbXFNWVlCOEF5T0tBLVp0MzNyWVlyQnpkbUtyVzNTeGtxQXZVc3hhb0E4aVV6bU5QVEdHMFhCaXRhV3hxQVJ3MWRXNF9tNG5EeUVzcTdEOUhGSExiS3F2SUlkS2xzRk1mNlg4bkRhR0FoaE5QZw?oc=5",
+        "published_at": "2026-09-24T17:52:33Z"
+      },
+      {
+        "headline": "New US sanctions shut down Iranian flights - reuters.com",
+        "summary": "New US sanctions shut down Iranian flights\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORXFRdU50SU1neUhFbzk2V2JmSXRiRDFJbm5BR1VFaWp6NXhaZ2hRcExwUjJNeHRwVlFNd0xKY2tBWnI4N0c3Tk0zWTFyUHNCSnZJRUw3Znp3bU1UREd5OHo5anJLY21GdkVTa2V1TnQ2ZTVxOGRXSHRfUmIxN0dCRzFSaXJFVWRJOHQzVWE4dTdjcXRZNk5nSVg0eFBEYWd4akJGNWVzbE5rNEhwSVowcUp5SXhHZzV3OVBsUkp3UkQ1RTZvWHNwWTdn?oc=5",
+        "published_at": "2026-09-24T17:27:27Z"
+      },
+      {
+        "headline": "Meta nears first new high in a year as Muse success showcases winning AI strategy",
+        "summary": "Meta is transforming into more than a social-media juggernaut in the AI era. Muse is the centerpiece of its strategy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/24/meta-nears-first-new-high-in-a-year-as-muse-success-showcases-winning-ai-strategy.html",
+        "published_at": "2026-09-24T17:07:45Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.1387,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 119.5133,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 767.27,
+    "spy_change_pct": -0.0703,
+    "spy_lean": "neutral",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 84330.69,
+    "coinbase_premium_pct": 0.00319,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-24T21:13:09 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 224.58,
+        "change_pct": -0.4124,
+        "prev_close": 225.51
+      },
+      "AMD": {
+        "close": 629.26,
+        "change_pct": 2.3836,
+        "prev_close": 614.61
+      },
+      "TSM": {
+        "close": 451.15,
+        "change_pct": 1.0256,
+        "prev_close": 446.57
+      },
+      "SMCI": {
+        "close": 41.51,
+        "change_pct": 0.1689,
+        "prev_close": 41.44
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 741.1,
+        "change_pct": -0.0148,
+        "prev_close": 741.21
+      },
+      "SOXX": {
+        "close": 566.07,
+        "change_pct": 0.0619,
+        "prev_close": 565.72
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-23",
+    "total_net_inflow_usd": 346977216.17,
+    "total_net_assets_usd": 108663294328.43,
+    "total_value_traded_usd": 3058052640.8,
+    "cum_net_inflow_usd": 57221611529.78,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84328,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 73,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 7,
+    "negative_count": 8,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.125,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+        "url": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-24T20:32:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "WisdomTree Updates SEC Registration For Tokenized Fund Expansion",
+        "url": "https://bitcoinist.com/wisdomtree-updates-sec-registration-for-tokenized-fund-expansion/",
+        "published_at": "2026-09-24T20:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed proposes reserve limits, capital standards for stablecoin issuers under GENIUS Act",
+        "url": "https://www.theblock.co/news/regulation/2026-09-24-fed-proposes-reserve-limits-capital-standards-stablecoin-issuers-genius-act-416336",
+        "published_at": "2026-09-24T20:19:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+        "url": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-24T20:04:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+        "url": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
+        "published_at": "2026-09-24T20:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-24T19:50:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CleanSpark Bitcoin Reserves Reach 10,500 BTC",
+        "url": "https://bitcoinist.com/cleanspark-bitcoin-reserves-reach-10500-btc/",
+        "published_at": "2026-09-24T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+        "url": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
+        "published_at": "2026-09-24T19:17:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+        "url": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
+        "published_at": "2026-09-24T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
+        "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
+        "published_at": "2026-09-24T18:37:22+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
