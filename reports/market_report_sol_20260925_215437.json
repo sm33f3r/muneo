@@ -1,0 +1,199 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-25T21:53:45 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 121.09,
+    "price_change_24h_pct": 3.4453,
+    "price_change_7d_pct": 6.6596,
+    "volume_24h_usd": 6445768615,
+    "market_cap_usd": 71153465803,
+    "volume_to_mcap_ratio": 0.09059,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -58.7152,
+    "cex_price_usd": 121.03,
+    "cex_24h_high": 122.94,
+    "cex_24h_low": 115.86,
+    "cex_dex_spread_pct": -0.04955,
+    "volume_on_up_days_usd": 3924687872.2711725,
+    "volume_on_down_days_usd": 3671875048.6375413,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 71.5468,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 7.334752,
+      "signal_line": 3.833211,
+      "histogram": 3.50154
+    },
+    "macd_lean": "bullish",
+    "sma_50": 84.561,
+    "price_vs_sma50_pct": 43.1984,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 117.952841,
+      "mid": 87.963,
+      "lower": 57.973159,
+      "width_pct": 68.1874,
+      "position": 0.9501
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 1034725976.15,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.590714285714285e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.3084,
+    "btc_long_account_pct": 56.68,
+    "btc_short_account_pct": 43.32,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 6620573271.0,
+    "tvl_7d_change_pct": 4.9928,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 16115817.29,
+    "chain_fees_7d_avg_usd": 16253997.22,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 3,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.3333,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Forward Industries Raises $25M To Buy More Solana",
+        "url": "https://bitcoinist.com/forward-industries-raises-25m-to-buy-more-solana/",
+        "published_at": "2026-09-25T17:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits\u2014XRP and Solana Keep Climbing",
+        "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+        "published_at": "2026-09-25T16:06:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canadian-Dollar Stablecoin CADD Goes Live On Solana",
+        "url": "https://bitcoinist.com/canadian-dollar-stablecoin-cadd-goes-live-on-solana/",
+        "published_at": "2026-09-25T14:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 83862.0,
+    "btc_24h_change_pct": -0.6409,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.5987,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2875176851245.3926,
+    "eth_btc_ratio": 0.031996,
+    "eth_btc_lean": "neutral",
+    "dxy": null,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 119.5133,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": "neutral",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 90.54,
+    "cg_sentiment_votes_down_pct": 9.46,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage EURUSD \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDJPY \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage GBPUSD \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDCAD \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDSEK \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDCHF \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response"
+  ]
+}
