@@ -1,0 +1,434 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-26T21:15:27 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2890698323851.36,
+    "total_market_cap_change_24h_pct": -2.7112,
+    "total_volume_24h_usd": 57863441624.37,
+    "btc_dominance_pct": 58.3598,
+    "eth_dominance_pct": 11.2958,
+    "total2_usd": 1203692404213.56,
+    "total3_usd": 877164626303.74,
+    "active_cryptocurrencies": 21621,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 32.9436,
+        "price_usd": 0.03236556,
+        "market_cap_usd": 144440580
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 25.2706,
+        "price_usd": 122.42,
+        "market_cap_usd": 1781380684
+      },
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": 23.9814,
+        "price_usd": 0.142056,
+        "market_cap_usd": 141814100
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": 20.5414,
+        "price_usd": 0.04993017,
+        "market_cap_usd": 280844602
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": 18.5322,
+        "price_usd": 0.07001,
+        "market_cap_usd": 243082911
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -20.3305,
+        "price_usd": 1.036,
+        "market_cap_usd": 2805215313
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -7.5685,
+        "price_usd": 0.283267,
+        "market_cap_usd": 231287915
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -7.4896,
+        "price_usd": 0.070412,
+        "market_cap_usd": 144226507
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": -6.6065,
+        "price_usd": 7.6,
+        "market_cap_usd": 759429729
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -6.0806,
+        "price_usd": 0.246183,
+        "market_cap_usd": 244042121
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84084,
+    "price_change_24h_pct": 0.4467,
+    "price_change_7d_pct": 3.3055,
+    "market_cap_usd": 1689223955925,
+    "volume_24h_usd": 17509434710,
+    "direction": "neutral",
+    "oi_usd": 7928978593.54,
+    "funding_rate_latest": -5.45e-06,
+    "funding_rate_7d_avg": 4.0453809523809525e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2894,
+    "long_account_pct": 56.32,
+    "short_account_pct": 43.68,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2679.62,
+    "price_change_24h_pct": 0.0172,
+    "price_change_7d_pct": 1.5805,
+    "market_cap_usd": 327083010744,
+    "volume_24h_usd": 5764851143,
+    "eth_btc_ratio": 0.031868,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95530352198.51,
+    "stablecoin_market_cap_usd": 313578335144.01,
+    "stablecoin_dominance_pct": 10.8478
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 9,
+    "headlines": [
+      {
+        "headline": "China pushes back against US on Iran and Cuba in UN speech - Reuters",
+        "summary": "China pushes back against US on Iran and Cuba in UN speech\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
+        "published_at": "2026-09-26T19:14:37Z"
+      },
+      {
+        "headline": "Trump rejects Iranian proposal to open Hormuz and end fighting - Reuters",
+        "summary": "Trump rejects Iranian proposal to open Hormuz and end fighting\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+        "published_at": "2026-09-26T15:15:54Z"
+      },
+      {
+        "headline": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
+        "summary": "A federal jury awarded Taction Technology more than $5.7 billion after finding Apple infringed claims from two haptics patents. Apple plans to appeal.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+        "published_at": "2026-09-26T14:55:59Z"
+      },
+      {
+        "headline": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
+        "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
+        "published_at": "2026-09-26T13:43:42Z"
+      },
+      {
+        "headline": "27-year-old started a run club to meet new people\u2014now his NYC side hustle brings in $640K a year",
+        "summary": "When Owen Akhibi Herrera started his New York City-based run club in 2024, he craved community \u2014 and entrepreneurial opportunity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/26/nyc-run-club-side-hustle.html",
+        "published_at": "2026-09-26T13:05:01Z"
+      },
+      {
+        "headline": "Six big takeaways from a turbulent week of UN diplomacy - Reuters",
+        "summary": "Six big takeaways from a turbulent week of UN diplomacy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
+        "published_at": "2026-09-26T05:09:00Z"
+      },
+      {
+        "headline": "Britain warns Iran it will not tolerate hostile activity on UK soil - Reuters",
+        "summary": "Britain warns Iran it will not tolerate hostile activity on UK soil\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
+        "published_at": "2026-09-26T03:45:47Z"
+      },
+      {
+        "headline": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters",
+        "summary": "Saudi coalition says it intercepts Houthi missiles, drones\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
+        "published_at": "2026-09-26T01:25:00Z"
+      },
+      {
+        "headline": "Here's exactly what Paramount promised Hollywood to land WBD \u2014 and why some are still skeptical",
+        "summary": "Paramount CEO David Ellison's antitrust settlement eased some theatrical concerns, but questions remain about what happens when the five-year agreement ends.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
+        "published_at": "2026-09-25T22:31:32Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.055,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 119.5133,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 771.35,
+    "spy_change_pct": 0.5435,
+    "spy_lean": "bullish",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 84112.8,
+    "coinbase_premium_pct": 0.034251,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-26T21:15:27 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.07,
+        "change_pct": 0.2182,
+        "prev_close": 224.58
+      },
+      "AMD": {
+        "close": 630.63,
+        "change_pct": 0.2177,
+        "prev_close": 629.26
+      },
+      "TSM": {
+        "close": 450.61,
+        "change_pct": -0.1197,
+        "prev_close": 451.15
+      },
+      "SMCI": {
+        "close": 43.26,
+        "change_pct": 4.2159,
+        "prev_close": 41.51
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 744.5,
+        "change_pct": 0.4588,
+        "prev_close": 741.1
+      },
+      "SOXX": {
+        "close": 572.68,
+        "change_pct": 1.1677,
+        "prev_close": 566.07
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-25",
+    "total_net_inflow_usd": 134465169.16,
+    "total_net_assets_usd": 108422523880.82,
+    "total_value_traded_usd": 2258218295.9,
+    "cum_net_inflow_usd": 57546722809.19,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84084,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 19,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 14,
+    "sentiment_ratio": 0.1579,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
+        "published_at": "2026-09-26T17:24:12+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+        "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+        "published_at": "2026-09-26T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+        "url": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
+        "published_at": "2026-09-26T16:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi loses appeal over Ohio and Tennessee sports betting laws, widening circuit split",
+        "url": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937",
+        "published_at": "2026-09-26T15:17:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap\u2014And Winning",
+        "url": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+        "published_at": "2026-09-26T15:01:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bullish And Equiniti Form Coalition For Issuer-Backed Tokenized Stocks",
+        "url": "https://bitcoinist.com/bullish-and-equiniti-form-coalition-for-issuer-backed-tokenized-stocks/",
+        "published_at": "2026-09-26T14:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK Banks Complete First Live Tokenized Sterling Deposit Payments",
+        "url": "https://bitcoinist.com/uk-banks-complete-first-live-tokenized-sterling-deposit-payments/",
+        "published_at": "2026-09-26T13:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi loses appeal, setting up potential Supreme Court case",
+        "url": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-26T13:21:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+        "url": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
+        "published_at": "2026-09-26T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise And Vise Bring Crypto Model Portfolios To Financial Advisors",
+        "url": "https://bitcoinist.com/bitwise-and-vise-bring-crypto-model-portfolios-to-financial-advisors/",
+        "published_at": "2026-09-26T12:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
