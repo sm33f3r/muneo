@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-27T21:13:24 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2885062073613.35,
+    "total_market_cap_change_24h_pct": -2.7793,
+    "total_volume_24h_usd": 66968589429.91,
+    "btc_dominance_pct": 58.7953,
+    "eth_dominance_pct": 11.3518,
+    "total2_usd": 1188780698827.67,
+    "total3_usd": 861273374502.2,
+    "active_cryptocurrencies": 21641,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 62.8834,
+        "price_usd": 198.72,
+        "market_cap_usd": 2880211253
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 43.1379,
+        "price_usd": 0.570608,
+        "market_cap_usd": 275578586
+      },
+      {
+        "symbol": "GRT",
+        "name": "The Graph",
+        "price_change_24h_pct": 19.1247,
+        "price_usd": 0.0327795,
+        "market_cap_usd": 359011417
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 17.7756,
+        "price_usd": 0.00506822,
+        "market_cap_usd": 2354541894
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 16.5256,
+        "price_usd": 1.21,
+        "market_cap_usd": 3284761978
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -12.1006,
+        "price_usd": 0.215608,
+        "market_cap_usd": 213732578
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -10.7084,
+        "price_usd": 0.0065098,
+        "market_cap_usd": 380100658
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": -7.9012,
+        "price_usd": 0.02193083,
+        "market_cap_usd": 158746059
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -7.4569,
+        "price_usd": 0.882808,
+        "market_cap_usd": 261757500
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -7.0141,
+        "price_usd": 0.582867,
+        "market_cap_usd": 398346855
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84605,
+    "price_change_24h_pct": 0.6207,
+    "price_change_7d_pct": 4.1474,
+    "market_cap_usd": 1699726994495,
+    "volume_24h_usd": 21678614327,
+    "direction": "neutral",
+    "oi_usd": 8010476444.64,
+    "funding_rate_latest": 1.051e-05,
+    "funding_rate_7d_avg": 3.077714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1863,
+    "long_account_pct": 54.26,
+    "short_account_pct": 45.74,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2688.12,
+    "price_change_24h_pct": 0.3141,
+    "price_change_7d_pct": 1.9816,
+    "market_cap_usd": 328184335846,
+    "volume_24h_usd": 8253377910,
+    "eth_btc_ratio": 0.031773,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96017454404.48,
+    "stablecoin_market_cap_usd": 312886566510.43,
+    "stablecoin_dominance_pct": 10.8451
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 12,
+    "headlines": [
+      {
+        "headline": "Trump to have dinner with Anthropic CEO Amodei at the White House, Axios reports",
+        "summary": "Athropic CEO Dario Amodei is set to have dinner with President Donald Trump at the White House on Sunday, Axios reported.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html",
+        "published_at": "2026-09-27T18:44:07Z"
+      },
+      {
+        "headline": "Israel revokes diplomatic status of Dutch diplomats in Ramallah - Reuters",
+        "summary": "Israel revokes diplomatic status of Dutch diplomats in Ramallah\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN3pkY0Zia2l4Qm1yYmVVUzlQZWpYc1dnWkZJRllIREhJTy1PNWxPYXByWGdPNDVYNVN2bWx5cWxPNnFINDhIVWhEaW5BRk9qNjVJS3ExdVM5SW9MTmJ0UkJJTzFHS2Fvam5rMVhsZzZsVmZnWXFFVzFDTk05UW96V0IxNFpydV9nTEREeFJSamlqeTJWX0h0Mjl6U2ZWUG41eWtoekJiZE1Pa0dOaUZOaA?oc=5",
+        "published_at": "2026-09-27T18:15:33Z"
+      },
+      {
+        "headline": "Trump says men arrested at UK air base used by US were looking to do 'big damage' - Reuters",
+        "summary": "Trump says men arrested at UK air base used by US were looking to do 'big damage'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOThaUHcwMHZuZEY2dldUNjhYQ29PeWRJdEYxWFBPV3NEUUdSc0l4MkdhN3liTGdyNG9XaEhwWG8xRk8xR29JVlA0ZEV2ZXM3RVZCRDlPSHhzU29Pek9tZVREdUdvOHRXS1ZuaTR0TXVGV253bkplU1lNbG85WXRjYzcwV2ZSekFCa1gtR1RtV09zM3NYeF93?oc=5",
+        "published_at": "2026-09-27T16:44:50Z"
+      },
+      {
+        "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
+        "summary": "Both sides of the Fed's dual mandate are in focus. Plus, Micron reports and Eli Lilly delivers updates on its obesity pipeline.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-09-27T16:16:43Z"
+      },
+      {
+        "headline": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections - Reuters",
+        "summary": "PODCAST: Iran-US diplomacy, RAF Fairford and Brazil elections\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMEhHb1NVZ2VyRG1XTjdXS2hvVWVDem9lNERpM3hNWWstWjFrbjA5YXhHb0c5a0txQW1mT3IyWGFBa2FCQ19melMwVkh2S2xINWdOdXVrSDBHanRaeUU0d0N6aXk2LTJaQ3RZc3NRNmFFZi1PcWJzV29VU0pwcXBUR3pOZVFLUmhRMHBOajZtYlBua0diZEE?oc=5",
+        "published_at": "2026-09-27T16:01:24Z"
+      },
+      {
+        "headline": "At NFL games this season, drone defense tech aims to bring down disruptions",
+        "summary": "The NFL told CNBC it recorded 10,852 drone violations over stadiums between 2021 and 2025. The Jaguars became the first team to sign a drone defense firm.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/27/nfl-drone-defense-tech-game-disruptions.html",
+        "published_at": "2026-09-27T12:00:01Z"
+      },
+      {
+        "headline": "Wall Street money takes back over from small investors as driving force of the stock market",
+        "summary": "One firm sees a \"reasonably constructive signal for risk appetite\" among institutional investors.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/27/institutional-investors-stocks-treaurys-retail-traders.html",
+        "published_at": "2026-09-27T11:32:35Z"
+      },
+      {
+        "headline": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis - Reuters",
+        "summary": "Deputy chair of Turkey's AK Party resigns after trading allegation amid funds crisis\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcTYwUjZCOEZlU3ZxVDI1Q1Ytb2pqM1l1U2NLQUxoVU5nQzZ3ZDdkZ1U2LXF2MEZVSHFFR1NWdWlGek5aS1ZoelpVaG5wSjZaamVSVWM3alBqY3FqWmk0SXdmUjRmWEdvQ2ZKU3JTQ3M5TFpJeDFjdk82Y05aNmNYUWhrUzJhQ0x4enNDXy15WVp2VWJCNndSaG5oYWZpTHZxTEd4T1ZiTlJUYzVaemdnQWNpNUxZeFJFS2xiRENDR3R6aWFIWUVMQWp1RkJ2dVk?oc=5",
+        "published_at": "2026-09-27T11:11:43Z"
+      },
+      {
+        "headline": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says - Reuters",
+        "summary": "Seven people killed in strike on market in Yemen, Houthi-run health ministry says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjI3MkxLdHM5cEZjNElqWk1FbnN6bnFnN2Rzdm0teV9IM3lBYnVkNUJuci0xS281b0dlTVJwalJpOEZmNGc0RmJLeUhreUV0QWtybE9YZU8waUNsM1BybjdUR1hSQ0lNWmpPZktPQ2k5VksyZ0dhd3p0QTVDOWhrUGgxQzhIU3A0Y0tiaUpWS0JoZlZqUnJZbXBpOUwxeWxESG1pR1RtYW9aSmhHTE1XN21POGIxa05xcHJ2SDQ3RkxQbGc?oc=5",
+        "published_at": "2026-09-27T11:04:46Z"
+      },
+      {
+        "headline": "Iranian tennis player savours refuge from war at Asian Games - Reuters",
+        "summary": "Iranian tennis player savours refuge from war at Asian Games\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmY1bllrTGZaelFybmRMUUFvU180NGRmbWFYQkM4NVNhaE5MRndnbTRSSXVwQzZyVDVqZWlYZFZsNl9Ldnl0ZFpiUG5pcUZjMHJLQS03YV91blFEODlPbWVmNXhzUzBockJISmYzSjg0RmpsMjE5NmdMWmNkOUhFTGtzU05iSzN1dU9EeG5jMjQ5YUp5MDBIdjdnVmxtdnd0VDJFdg?oc=5",
+        "published_at": "2026-09-27T10:36:04Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.0223,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 119.5133,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 771.35,
+    "spy_change_pct": 0.5435,
+    "spy_lean": "bullish",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 84674.17,
+    "coinbase_premium_pct": 0.081756,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-27T21:13:24 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 225.07,
+        "change_pct": 0.2182,
+        "prev_close": 224.58
+      },
+      "AMD": {
+        "close": 630.63,
+        "change_pct": 0.2177,
+        "prev_close": 629.26
+      },
+      "TSM": {
+        "close": 450.61,
+        "change_pct": -0.1197,
+        "prev_close": 451.15
+      },
+      "SMCI": {
+        "close": 43.26,
+        "change_pct": 4.2159,
+        "prev_close": 41.51
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 744.5,
+        "change_pct": 0.4588,
+        "prev_close": 741.1
+      },
+      "SOXX": {
+        "close": 572.68,
+        "change_pct": 1.1677,
+        "prev_close": 566.07
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-25",
+    "total_net_inflow_usd": 134465169.16,
+    "total_net_assets_usd": 108422523880.82,
+    "total_value_traded_usd": 2258218295.9,
+    "cum_net_inflow_usd": 57546722809.19,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84605,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 72,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 10,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "AI Agents Keep Escaping Their Creators' Control\u2014Here's What We Know",
+        "url": "https://decrypt.co/379402/ai-agents-keep-escaping-creators-control",
+        "published_at": "2026-09-27T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It",
+        "url": "https://decrypt.co/379400/bitcoins-quantum-problem-three-ways-researchers-are-trying-to-fix-it",
+        "published_at": "2026-09-27T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018It\u2019s really not just a blockchain anymore\u2019: Vitalik Buterin maps Ethereum\u2019s path to 2030",
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-27-its-really-not-just-a-blockchain-anymore-vitalik-buterin-maps-ethereums-path-to-2030-416953",
+        "published_at": "2026-09-27T14:35:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Staff Says Token Buybacks Don't Make Crypto a Security\u2014If the Network Works",
+        "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security",
+        "published_at": "2026-09-27T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
+        "url": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-27T12:46:28+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bond Volatility Hits Highest Since March While Bitcoin Traders Stay Calm",
+        "url": "https://bitcoinist.com/bond-volatility-hits-highest-since-march-while-bitcoin-traders-stay-calm/",
+        "published_at": "2026-09-27T10:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Riot Platforms repays $200M credit facility, releases collateral",
+        "url": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-27T09:57:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Quant Jumps 39% As Altcoins Rally While Bitcoin Stalls Near $84K",
+        "url": "https://bitcoinist.com/quant-jumps-39-as-altcoins-rally-while-bitcoin-stalls-near-84k/",
+        "published_at": "2026-09-27T09:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BIX Card Wants To Expand Crypto Spending From 29 To 49 US States",
+        "url": "https://bitcoinist.com/bix-card-wants-to-expand-crypto-spending-from-29-to-49-us-states/",
+        "published_at": "2026-09-27T08:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$15.6B Bitcoin Options Expiry Clears As BTC Holds Near $84K",
+        "url": "https://bitcoinist.com/15-6b-bitcoin-options-expiry-clears-as-btc-holds-near-84k/",
+        "published_at": "2026-09-27T07:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
