@@ -116,6 +116,93 @@ def discover_daily_reports(reports_dir: Path, output_prefix: str) -> list[dict]:
         })
     return sorted(results, key=lambda x: x["timestamp"])
 
+def select_daily_reports_to_delete(daily_reports: list[dict], rolled_up_weeks: set, retain_days: int = RETAIN_DAILY, today: datetime | None = None) -> list[dict]:
+    """
+    Return the subset of daily_reports eligible for deletion.
+    A report is eligible only if BOTH hold:
+      1. It is >= retain_days old (by date_str, midnight UTC comparison)
+      2. Its (iso_year, iso_week) is present in rolled_up_weeks
+         (i.e. that week already produced a written weekly report — never
+         delete data from a week that was skipped for insufficient days)
+    """
+    if today is None:
+        today = datetime.now(timezone.utc).replace(tzinfo=None)
+
+    eligible = []
+    for r in daily_reports:
+        report_date = datetime.strptime(r["date_str"], "%Y-%m-%d")
+        age_days = (today - report_date).days
+        week_key = (r["iso_year"], r["iso_week"])
+        if age_days >= retain_days and week_key in rolled_up_weeks:
+            eligible.append(r)
+    return eligible
+
+def cleanup_old_daily_reports(daily_reports: list[dict], rolled_up_weeks: set) -> dict:
+    """
+    Delete daily report files that are >= RETAIN_DAILY days old and whose
+    ISO week already has a written weekly report. Deletes both the local
+    copy and the GitHub copy under reports/{filename}. Non-blocking —
+    any single file failure logs a warning and continues.
+    Returns {"local": [...], "remote": [...], "skipped_no_sha": [...]}.
+    """
+    to_delete = select_daily_reports_to_delete(daily_reports, rolled_up_weeks)
+    result = {"local": [], "remote": [], "skipped_no_sha": []}
+
+    if not to_delete:
+        return result
+
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    } if token else None
+
+    for r in to_delete:
+        filename = r["filename"]
+        local_path = r["path"]
+
+        # Local delete
+        try:
+            if local_path.exists():
+                local_path.unlink()
+                result["local"].append(filename)
+        except Exception as e:
+            print(f"  ⚠ Failed to delete local {filename}: {e}")
+
+        # Remote delete
+        if not token or not repo:
+            continue
+
+        github_path = f"reports/{filename}"
+        api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+        try:
+            check = requests.get(api_url, headers=headers, params={"ref": branch}, timeout=10)
+            if check.status_code != 200:
+                result["skipped_no_sha"].append(filename)
+                continue
+            sha = check.json().get("sha")
+            if not sha:
+                result["skipped_no_sha"].append(filename)
+                continue
+
+            payload = {
+                "message": f"chore: prune daily report {filename} (retention {RETAIN_DAILY}d)",
+                "sha": sha,
+                "branch": branch
+            }
+            response = requests.delete(api_url, json=payload, headers=headers, timeout=15)
+            if response.status_code == 200:
+                result["remote"].append(filename)
+                print(f"  ✓ Deleted from GitHub — {github_path}")
+            else:
+                print(f"  ✗ GitHub delete failed — {github_path} HTTP {response.status_code}: {response.text[:100]}")
+        except Exception as e:
+            print(f"  ✗ GitHub delete failed — {github_path}: {e}")
+
+    return result
+
 def group_by_iso_week(daily_reports: list[dict]) -> dict:
     from collections import defaultdict
     groups = defaultdict(list)
@@ -2773,6 +2860,7 @@ def main():
 
         print("\nGenerating weekly reports...")
         weekly_written = []
+        rolled_up_weeks = set()
         for (yr, wk), reports in sorted(weekly_groups.items()):
             deduped = deduplicate_by_date(reports)
             if len(deduped) < MIN_DAYS_FOR_WEEKLY:
@@ -2800,8 +2888,21 @@ def main():
             output_path = write_weekly_report(yr, wk, config, paths, deduped, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread)
             if output_path:
                 weekly_written.append(output_path)
+                rolled_up_weeks.add((yr, wk))
                 print(f"  Written: {output_path.name}")
         print(f"\n{len(weekly_written)} weekly reports written.")
+
+        # Clean up old daily reports (local + GitHub) now rolled up into weekly reports
+        print("\nCleaning up old daily reports...")
+        cleanup_result = cleanup_old_daily_reports(daily_reports, rolled_up_weeks)
+        local_deleted = len(cleanup_result["local"])
+        remote_deleted = len(cleanup_result["remote"])
+        if local_deleted == 0 and remote_deleted == 0:
+            print("  Nothing to clean up.")
+        else:
+            print(f"  Deleted {local_deleted} local, {remote_deleted} remote daily report(s).")
+        if cleanup_result["skipped_no_sha"]:
+            print(f"  ⚠ {len(cleanup_result['skipped_no_sha'])} file(s) skipped — could not fetch GitHub sha")
 
         # Monthly aggregation
         print("\nGenerating monthly reports...")
