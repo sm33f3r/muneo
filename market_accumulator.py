@@ -2603,38 +2603,93 @@ def write_accumulation_index(config: dict, paths: dict) -> Path:
         return None
 
 
-def prune_accumulated_output(paths: dict) -> dict:
+def select_files_to_prune(files: list, retain: int) -> list:
     """
-    Prune old accumulated files according to retention thresholds.
-    Keeps the most recent RETAIN_WEEKLY weekly files and RETAIN_MONTHLY monthly files.
-    Quarterly files are never pruned.
-    Returns a dict summarising what was deleted.
+    Given a list of Path objects already sorted ascending (oldest first,
+    matching sorted(glob(...)) filename ordering), return the files that
+    exceed the retention count — i.e. everything except the most recent
+    `retain` files. Returns [] if len(files) <= retain. Pure — no I/O.
     """
-    deleted = {"weekly": [], "monthly": []}
+    if len(files) <= retain:
+        return []
+    return files[:-retain]
 
-    # Prune weekly
-    weekly_files = sorted(paths["weekly"].glob("weekly_*.json"))
-    if len(weekly_files) > RETAIN_WEEKLY:
-        to_delete = weekly_files[:-RETAIN_WEEKLY]
+
+def prune_accumulated_output(paths: dict, config: dict) -> dict:
+    """
+    Prune old accumulated files according to retention thresholds, both
+    locally and on GitHub. Keeps the most recent RETAIN_WEEKLY weekly files
+    and RETAIN_MONTHLY monthly files. Quarterly files are never pruned.
+    Non-blocking — a GitHub deletion failure for one file logs and continues,
+    it never raises or stops local pruning.
+    Returns a dict summarising what was deleted locally and remotely.
+    """
+    deleted = {
+        "weekly": [], "monthly": [],
+        "weekly_remote": [], "monthly_remote": [],
+        "remote_skipped_no_sha": [], "remote_failed": [],
+    }
+
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+    github_enabled = bool(token and repo)
+    if not github_enabled:
+        print("  ⚠ GitHub prune skipped — GITHUB_TOKEN or GITHUB_REPO not set in .env")
+
+    token_lower = config["token_name"].lower()
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+    } if github_enabled else {}
+
+    def delete_remote(github_path: str) -> str:
+        """Returns 'deleted', 'skipped_no_sha', or 'failed'."""
+        try:
+            api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+            check = requests.get(api_url, headers=headers, timeout=10)
+            if check.status_code != 200:
+                return "skipped_no_sha"
+            sha = check.json().get("sha")
+            if not sha:
+                return "skipped_no_sha"
+            payload = {
+                "message": f"accumulator: prune {github_path.split('/')[-1]}",
+                "sha": sha,
+                "branch": branch,
+            }
+            response = requests.delete(api_url, json=payload, headers=headers, timeout=15)
+            if response.status_code == 200:
+                return "deleted"
+            print(f"  ✗ GitHub prune failed — {github_path} HTTP {response.status_code}: {response.text[:100]}")
+            return "failed"
+        except Exception as e:
+            print(f"  ✗ GitHub prune failed — {github_path}: {e}")
+            return "failed"
+
+    def prune_group(files: list, retain: int, local_key: str, remote_subdir: str):
+        to_delete = select_files_to_prune(sorted(files), retain)
         for f in to_delete:
             try:
                 f.unlink()
-                deleted["weekly"].append(f.name)
-                print(f"  Pruned weekly: {f.name}")
+                deleted[local_key].append(f.name)
+                print(f"  Pruned {local_key}: {f.name}")
             except Exception as e:
                 print(f"  ⚠ Failed to prune {f.name}: {e}")
+                continue
+            if github_enabled:
+                github_path = f"context/{token_lower}/accumulated/{remote_subdir}/{f.name}"
+                result = delete_remote(github_path)
+                if result == "deleted":
+                    deleted[f"{local_key}_remote"].append(f.name)
+                    print(f"  ✓ GitHub prune — {github_path}")
+                elif result == "skipped_no_sha":
+                    deleted["remote_skipped_no_sha"].append(f.name)
+                else:
+                    deleted["remote_failed"].append(f.name)
 
-    # Prune monthly
-    monthly_files = sorted(paths["monthly"].glob("monthly_*.json"))
-    if len(monthly_files) > RETAIN_MONTHLY:
-        to_delete = monthly_files[:-RETAIN_MONTHLY]
-        for f in to_delete:
-            try:
-                f.unlink()
-                deleted["monthly"].append(f.name)
-                print(f"  Pruned monthly: {f.name}")
-            except Exception as e:
-                print(f"  ⚠ Failed to prune {f.name}: {e}")
+    prune_group(paths["weekly"].glob("weekly_*.json"), RETAIN_WEEKLY, "weekly", "weekly")
+    prune_group(paths["monthly"].glob("monthly_*.json"), RETAIN_MONTHLY, "monthly", "monthly")
 
     return deleted
 
@@ -2974,7 +3029,7 @@ def main():
 
         # Prune old accumulated files
         print("\nPruning old accumulated files...")
-        pruned = prune_accumulated_output(paths)
+        pruned = prune_accumulated_output(paths, config)
         weekly_pruned = len(pruned["weekly"])
         monthly_pruned = len(pruned["monthly"])
         if weekly_pruned == 0 and monthly_pruned == 0:
