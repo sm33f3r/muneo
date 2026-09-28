@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-28T21:12:23 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2880898576388.76,
+    "total_market_cap_change_24h_pct": -2.9751,
+    "total_volume_24h_usd": 156201554103.65,
+    "btc_dominance_pct": 58.2553,
+    "eth_dominance_pct": 11.3761,
+    "total2_usd": 1202621639112.8,
+    "total3_usd": 874888145543.89,
+    "active_cryptocurrencies": 21668,
+    "altcoin_season_index": 77,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price_change_24h_pct": 28.6484,
+        "price_usd": 0.122096,
+        "market_cap_usd": 5351663710
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 26.4233,
+        "price_usd": 251.71,
+        "market_cap_usd": 3660960922
+      },
+      {
+        "symbol": "MARSCOIN",
+        "name": "MarsCoin",
+        "price_change_24h_pct": 25.635,
+        "price_usd": 0.158974,
+        "market_cap_usd": 158973689
+      },
+      {
+        "symbol": "ALGO",
+        "name": "Algorand",
+        "price_change_24h_pct": 14.4756,
+        "price_usd": 0.135597,
+        "market_cap_usd": 1228206419
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_change_24h_pct": 9.5386,
+        "price_usd": 15.39,
+        "market_cap_usd": 11515006149
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -17.2988,
+        "price_usd": 0.239359,
+        "market_cap_usd": 239344653
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -14.1915,
+        "price_usd": 0.16821,
+        "market_cap_usd": 168196263
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -13.5907,
+        "price_usd": 1.049,
+        "market_cap_usd": 2839723993
+      },
+      {
+        "symbol": "ZEN",
+        "name": "Horizen",
+        "price_change_24h_pct": -13.0671,
+        "price_usd": 6.86,
+        "market_cap_usd": 126179728
+      },
+      {
+        "symbol": "AR",
+        "name": "Arweave",
+        "price_change_24h_pct": -12.7001,
+        "price_usd": 4.24,
+        "market_cap_usd": 278073970
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 83587,
+    "price_change_24h_pct": -1.2111,
+    "price_change_7d_pct": -3.522,
+    "market_cap_usd": 1679297177019,
+    "volume_24h_usd": 42568809427,
+    "direction": "bearish",
+    "oi_usd": 7770171957.35,
+    "funding_rate_latest": 6.501e-05,
+    "funding_rate_7d_avg": 2.4214285714285715e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3646,
+    "long_account_pct": 57.71,
+    "short_account_pct": 42.29,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2686.26,
+    "price_change_24h_pct": -0.0726,
+    "price_change_7d_pct": -2.9516,
+    "market_cap_usd": 327967452286,
+    "volume_24h_usd": 17381853194,
+    "eth_btc_ratio": 0.032137,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95177814941.65,
+    "stablecoin_market_cap_usd": 313102945976.73,
+    "stablecoin_dominance_pct": 10.8682
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 43,
+    "headlines": [
+      {
+        "headline": "Michael Burry believes the AI bubble 'may burst' sooner than he first believed",
+        "summary": "The famed short seller is switching to puts with expiries in June for his major tech short bets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/michael-burry-believes-the-ai-bubble-may-burst-sooner-than-he-first-believed.html",
+        "published_at": "2026-09-28T20:43:14Z"
+      },
+      {
+        "headline": "Stocks fall as higher oil prices, Treasury yields weigh - reuters.com",
+        "summary": "Stocks fall as higher oil prices, Treasury yields weigh\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+        "published_at": "2026-09-28T20:38:51Z"
+      },
+      {
+        "headline": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says - reuters.com",
+        "summary": "EXCLUSIVE: US to grant sanctions waiver for flights between Iran and Iraq's Najaf, source says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOHIxYnY3TE1lQ1JIaWFqTGo2bE5IZ20wamRnZUhEMVdaZWdfWVRQVUpUQjFTSUg1elR2a1dMb1RwNTNnMmg1QXExOGthdmlQbkIweWwyS3JNaXVocWlPRU9kLWRQWmRQSlY1dHVWQ014b1cxT2dPY3pvUmNpMENwN29NV0E3VWpmaEU5N0h6WDFzcjBmNTBQSjlKRlRRQ2dpZEdHX3JUSGh5aTZiTjc0S0FTMmpfeUFld1VXZjd0LXloZw?oc=5",
+        "published_at": "2026-09-28T20:31:13Z"
+      },
+      {
+        "headline": "Trump says US will win Iran war 'very soon' - reuters.com",
+        "summary": "Trump says US will win Iran war 'very soon'\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTG94TG8yOEo5eWNpRUFIUkMta1JRQ2RPZUJiTWxVbXdfdENtbmJxOXZOYUgxRTY5YUJ5eW92Z2tSUWtoVGVobXhhUk5CTkVBMW1rMndfR2FldUZud05YSkZuSFZRSmZQTU1xbmhSTFQyd3ozTk5LYVp1OGZzWGRvWWt6clZ1UzViY2JhMVVlODhvSFNTQno0Y1ZKOA?oc=5",
+        "published_at": "2026-09-28T20:26:33Z"
+      },
+      {
+        "headline": "Meta's splashy new business AI hire offers yet another reason to bank on Zuckerberg",
+        "summary": "By poaching MongoDB's CJ Desai, Mark Zuckerberg shows he's serious about building an enterprise AI business.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/metas-splashy-new-business-ai-hire-offers-yet-another-reason-to-bank-on-zuckerberg.html",
+        "published_at": "2026-09-28T20:01:16Z"
+      },
+      {
+        "headline": "Boeing 737 Max 10 certification delayed by software issue, FAA says",
+        "summary": "The FAA administrator said the Max 10 will be delayed until the agency can assess a software issue on the aircraft.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html",
+        "published_at": "2026-09-28T19:46:42Z"
+      },
+      {
+        "headline": "Suspected plot to attack UK's Fairford airbase, used by US: What do we know? - reuters.com",
+        "summary": "Suspected plot to attack UK's Fairford airbase, used by US: What do we know?\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnV2QWZzNUNIR09FaDEtTFBwU0g2SmZwZ0U3YVNNd0kyVGFQTDFLU2Y1T1FSOUFnSVNHNmtoc2hCYklVeHg4QVJ0UDJPRndqZVBiV3h1U3ZsZmpRQzdELWdMejhzazZMenlmT3FrdkVaM0dBRlBieGRlWG1DRDVnOTB0bjhiT3ppNzZSaWFwc2tGMU83U2c?oc=5",
+        "published_at": "2026-09-28T19:12:34Z"
+      },
+      {
+        "headline": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says - reuters.com",
+        "summary": "US, Iran set to hold separate talks with mediators on Monday or Tuesday, official says\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMmZHcTFrcTNwTDVHTi1veU9KdXk1SC11X1NDWHB3VnBhbUQyOXh6Y002MFJaN1cyb0pfLVRIZnE4RUgwR1pieG0zY05NajZrNmFIbl9CTmpGbENaa01VOGEwZVZURnphdVdmUHJ2cWxGMURSNXNrRzdGanlKdWhqc0NiMWlHRnhTWlN4dlZIMjlNSEhxVlpkNFI4N1VTWHZfYWZsNi1lcE9GYjFsWDVmRW1QbFk2WjBhTWpfUS1aSTBNc3dBYW90RDVadjg?oc=5",
+        "published_at": "2026-09-28T19:11:36Z"
+      },
+      {
+        "headline": "UK examines foreign state involvement in suspected airbase plot, releases suspects - reuters.com",
+        "summary": "UK examines foreign state involvement in suspected airbase plot, releases suspects\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXYwS1pBdDdVa1JYckZZdFNGeWpwdGRUR0hOX1NuMV9vOWFBYUlDbDAzdjFVbVZ1c2J1N0xrM0hPc2RvLVhlM2d5MlZ4WnJtOW9iSzJGNEw2UTJhR25tdWZKYzhucGVKZG1sRDYyZDZudmViaGRjMmdLNVdqS1NWZERRR3EyY1JxMG5tWUNDTTJpZFJxbHZkR0FqU3BPdFBpMTdGWmVWOGQzOEJq?oc=5",
+        "published_at": "2026-09-28T19:11:04Z"
+      },
+      {
+        "headline": "What the market needs to branch out beyond AI stocks. Plus, a win for CrowdStrike",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/28/what-the-market-needs-to-branch-out-beyond-ai-stocks-plus-a-win-for-crowdstrike-.html",
+        "published_at": "2026-09-28T18:54:06Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.0223,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 765.55,
+    "spy_change_pct": -0.7519,
+    "spy_lean": "bearish",
+    "vix_close": 14.21,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 83554.72,
+    "coinbase_premium_pct": -0.038618,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-28T21:12:23 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 228.86,
+        "change_pct": 1.6839,
+        "prev_close": 225.07
+      },
+      "AMD": {
+        "close": 607.87,
+        "change_pct": -3.6091,
+        "prev_close": 630.63
+      },
+      "TSM": {
+        "close": 452.88,
+        "change_pct": 0.5038,
+        "prev_close": 450.61
+      },
+      "SMCI": {
+        "close": 41.78,
+        "change_pct": -3.4212,
+        "prev_close": 43.26
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 736.53,
+        "change_pct": -1.0705,
+        "prev_close": 744.5
+      },
+      "SOXX": {
+        "close": 560.79,
+        "change_pct": -2.0762,
+        "prev_close": 572.68
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-25",
+    "total_net_inflow_usd": 134465169.16,
+    "total_net_assets_usd": 108422523880.82,
+    "total_value_traded_usd": 2258218295.9,
+    "cum_net_inflow_usd": 57546722809.19,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 83587,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 70,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 43,
+    "positive_count": 3,
+    "negative_count": 10,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.0698,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Canadian \u2018crypto king\u2019 set to represent himself at fraud trial",
+        "url": "https://cointelegraph.com/news/canada-aiden-pleterski-fraud-trial-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-28T20:41:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Citi Clients Can Now Take Stablecoin Payments Through Coinbase\u2014Without Touching Crypto",
+        "url": "https://decrypt.co/379497/citi-stablecoin-payments-coinbase-without-touching-crypto",
+        "published_at": "2026-09-28T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blockchain.com eyes $500M IPO as crypto capital markets thaw: Report",
+        "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-28T20:28:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic's Claude Sonnet 5.5 Is Out, Beats Opus 5.5 at Coding for Half the Price",
+        "url": "https://decrypt.co/379482/anthropic-claude-sonnet-5-5-release",
+        "published_at": "2026-09-28T20:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "After AI Agent Hacked Its Government, Australia Calls Altman and Amodei to Testify",
+        "url": "https://decrypt.co/379481/australia-sam-altman-dario-amodei-ai-hack",
+        "published_at": "2026-09-28T19:36:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether\u2019s USDT at center of Iran\u2019s shadow banking network, new Senate Report says",
+        "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
+        "published_at": "2026-09-28T19:10:42+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-28T19:02:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia Built a Kill Switch for AI Agents Because They Keep Getting Out",
+        "url": "https://decrypt.co/379468/nvidia-kill-switch-ai-agents",
+        "published_at": "2026-09-28T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US SEC follows CFTC in staff guidance for crypto",
+        "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-28T18:39:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strive Buys $94.5 Million in Bitcoin, Pushing Holdings Past 27,000 BTC",
+        "url": "https://decrypt.co/379465/strive-buys-94-5-million-in-bitcoin-pushing-holdings-past-27000-btc",
+        "published_at": "2026-09-28T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
