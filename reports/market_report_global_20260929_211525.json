@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-29T21:14:21 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2869277365931.54,
+    "total_market_cap_change_24h_pct": -2.8215,
+    "total_volume_24h_usd": 116653415909.14,
+    "btc_dominance_pct": 58.3352,
+    "eth_dominance_pct": 11.4053,
+    "total2_usd": 1195479694830.29,
+    "total3_usd": 868229312318.49,
+    "active_cryptocurrencies": 21701,
+    "altcoin_season_index": 75,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "price_change_24h_pct": 33.7211,
+        "price_usd": 0.395677,
+        "market_cap_usd": 392535007
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 30.1232,
+        "price_usd": 1.37,
+        "market_cap_usd": 3710121946
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 27.4322,
+        "price_usd": 0.737484,
+        "market_cap_usd": 516812929
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": 20.9041,
+        "price_usd": 0.00245362,
+        "market_cap_usd": 245369219
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 18.831,
+        "price_usd": 0.294118,
+        "market_cap_usd": 238782163
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "price_change_24h_pct": -15.1293,
+        "price_usd": 0.103633,
+        "market_cap_usd": 4538853700
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -13.991,
+        "price_usd": 0.187362,
+        "market_cap_usd": 185691281
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -11.72,
+        "price_usd": 0.525483,
+        "market_cap_usd": 254852777
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -10.9058,
+        "price_usd": 1.043,
+        "market_cap_usd": 2379530285
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -9.6818,
+        "price_usd": 0.204873,
+        "market_cap_usd": 184437859
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 83525,
+    "price_change_24h_pct": -0.0415,
+    "price_change_7d_pct": -3.017,
+    "market_cap_usd": 1678042273966,
+    "volume_24h_usd": 28611433826,
+    "direction": "neutral",
+    "oi_usd": 7727573550.77,
+    "funding_rate_latest": 1.399e-05,
+    "funding_rate_7d_avg": 2.0207619047619045e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3929,
+    "long_account_pct": 58.21,
+    "short_account_pct": 41.79,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2687.76,
+    "price_change_24h_pct": 0.0704,
+    "price_change_7d_pct": -2.2203,
+    "market_cap_usd": 328150798568,
+    "volume_24h_usd": 15512076293,
+    "eth_btc_ratio": 0.032179,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95104984461.85,
+    "stablecoin_market_cap_usd": 312689354261.93,
+    "stablecoin_dominance_pct": 10.8978
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Goldman Sachs CEO succession planning faces one big problem",
+        "summary": "The Goldman Sachs board has reportedly discussed replacing CEO David Solomon, 64, with president John Waldron, 57, as early as next year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
+        "published_at": "2026-09-29T20:50:10Z"
+      },
+      {
+        "headline": "US sanctions 10 over allegedly procuring weapons for Iran - Reuters",
+        "summary": "US sanctions 10 over allegedly procuring weapons for Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWZ2NlJ3d0swV0JKWFhhREdzNmxnUlhaSlE0eFlrbUhBZ3RBMXhQeEJSS1JCTnR2UV82cTA4YW4yUDR5YnNUd1FmN2M1Z1liMWhfNEJOUnFMLVYtTzFCMjFSTWJuaWlhUFdHc3lLVE9tMHZUWkRldzJXaFd3SDdqX1NIOXJxRTBFZF9FT1Fvalg1b25FWm1RVEYySkUzZS1nNHItOXMtVUVTQjVt?oc=5",
+        "published_at": "2026-09-29T20:09:58Z"
+      },
+      {
+        "headline": "Prediction market traders think the U.S. added more jobs in September than economists estimate",
+        "summary": "The higher-than-consensus expectations are a bet that the U.S. had another strong month of job growth.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
+        "published_at": "2026-09-29T19:11:51Z"
+      },
+      {
+        "headline": "John Ternus' vision for Apple is coming into view, and we like what we see",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/john-ternus-vision-for-apple-is-coming-into-view-and-we-like-what-we-see.html",
+        "published_at": "2026-09-29T19:08:43Z"
+      },
+      {
+        "headline": "Using old election playbook, Netanyahu projects image as Israel's protector despite Hamas attack - Reuters",
+        "summary": "Using old election playbook, Netanyahu projects image as Israel's protector despite Hamas attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaGhLcllsckhTZ1ZsYzVwdzc1V2p5UWhmZFpSa2xJbVhmNTJXckNxVTE2ckkzcGl0N25US0JaTjFId1hMZHFSelBoUWx0Y0VvNEZlVWstOWp1b2F0Wm5fOEZVNW1GRkIwbHYyaE1QSmRkSnpuNVo2UkJ5SHZpT094a0xkcmFKaE5GLU53U3hPTlVqWjFoNjRMUWY5cWRyN0pxa3BhUGU3My0tNEN4bTE1MTVVZXVKQTNTTG1FYl9oNE1MLVBUUkVCSHRIcS0?oc=5",
+        "published_at": "2026-09-29T18:40:53Z"
+      },
+      {
+        "headline": "UK police say no explosive devices found in airbase probe - Reuters",
+        "summary": "UK police say no explosive devices found in airbase probe\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUxVYmd1LVFBRTFKeTE2cjhic3VRLVpTN2xkMnhhQlFGMVFxUm1qM3FlMnVDZkM3RjBLS0QzMHlXQ3h4RlI4SXVEZF9CMXVGblg5WlE5NVVOOXJKRkI3ZkdTQWMyQlRuNVdaeUQtTnZHeHNla3JyNXdXbzY4c19yRUdtWDIxdjYxS3ZxZDFZQ3VMVW5hejhteWJmOFI?oc=5",
+        "published_at": "2026-09-29T17:36:53Z"
+      },
+      {
+        "headline": "US to loan up to 40 million barrels of oil from SPR, last batch from global deal - Reuters",
+        "summary": "US to loan up to 40 million barrels of oil from SPR, last batch from global deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYzc4cTNMeUhoSHg2R2Mxa1hVMUtWb2xGbk92dHp0aWUzejZKbWVVbjBRb240dzRuX0dNVTMwbDVPOXRJbWJhT28xTEpwTGMyZEZKMXpSTlJFLTRVZkd6RDVzYk9vZFBKNkNEdE9ENFo0WDhXaWRTZ2Q0bzBpeEFRUDM5WF9JOFpBYmJ6U3ZkRnRtdFBUQmkzN0M3WEtsazI5TDFPNEl3eHViVGNuSlJHZzBVbFN6eXdrVVNYWmx2OA?oc=5",
+        "published_at": "2026-09-29T17:26:10Z"
+      },
+      {
+        "headline": "Cramer weighs in on Goldman amid CEO succession talks \u2014 plus, Boeing bounces back",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/cramers-take-on-goldman-ceo-succession-plus-boeing-bounces-back.html",
+        "published_at": "2026-09-29T16:08:12Z"
+      },
+      {
+        "headline": "Gina Raimondo thinks AI ultimately will create jobs. It's the initial mass layoffs wave that worries her",
+        "summary": "No one knows what AI will mean for jobs long-term, but the layoffs are likely to hit first without proper planning, says former US Commerce Sec. Gina Raimondo.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/ai-job-losses-layoffs.html",
+        "published_at": "2026-09-29T15:36:48Z"
+      },
+      {
+        "headline": "Exxon veteran Liam Mallon joins TMC board ahead of seabed mining push - Reuters",
+        "summary": "Exxon veteran Liam Mallon joins TMC board ahead of seabed mining push\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb0cxSUFycjRrZ3l3TFJORGJaTUdFTWcteGlYVjBsYU1CSXhnZXlXWVlZeTVmeS1pbUNFNHZJUENGSFk2Mng3NE1OX1hZcVU2T1dBc243OVB3dDR5ZklSdVNqV00xUjR0dERCN2didjVqYzJGSHdVNnRUMHJEYjJCQXY5U0ZPZWxYYzBVUV80Vl9qWHFYaW42eDVtX2xNMTZNUWpZRXZ3RDBKb2hHNTJiNktRal8xeEEyUV9r?oc=5",
+        "published_at": "2026-09-29T15:24:10Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.1914,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 764.3,
+    "spy_change_pct": -0.1711,
+    "spy_lean": "neutral",
+    "vix_close": 16.07,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 83489.45,
+    "coinbase_premium_pct": -0.042562,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-29T21:14:21 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 227.21,
+        "change_pct": -0.721,
+        "prev_close": 228.86
+      },
+      "AMD": {
+        "close": 607.57,
+        "change_pct": -0.0494,
+        "prev_close": 607.87
+      },
+      "TSM": {
+        "close": 456.94,
+        "change_pct": 0.8965,
+        "prev_close": 452.88
+      },
+      "SMCI": {
+        "close": 41.02,
+        "change_pct": -1.8191,
+        "prev_close": 41.78
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 737.93,
+        "change_pct": 0.1901,
+        "prev_close": 736.53
+      },
+      "SOXX": {
+        "close": 567.44,
+        "change_pct": 1.1858,
+        "prev_close": 560.79
+      }
+    },
+    "tech_sector_lean": "neutral"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-28",
+    "total_net_inflow_usd": 31070566.45,
+    "total_net_assets_usd": 107816350545.4,
+    "total_value_traded_usd": 2046912080.6,
+    "cum_net_inflow_usd": 57577793375.64,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 83525,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 39,
+    "positive_count": 17,
+    "negative_count": 2,
+    "neutral_count": 20,
+    "sentiment_ratio": 0.4359,
+    "news_volume_lean": "neutral",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitwise Launches First US Spot Near ETF After Token Nearly Triples Since August",
+        "url": "https://decrypt.co/379612/bitwise-launches-first-spot-near-etf",
+        "published_at": "2026-09-29T20:36:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Lost $42 Billion Last Year. It Wants to Go Public at $2 Trillion",
+        "url": "https://decrypt.co/379605/anthropic-lost-42-billion-last-year-wants-ipo-2-trillion",
+        "published_at": "2026-09-29T20:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto regulation at SEC, CFTC to come down to 3 commissioners following key resignation",
+        "url": "https://cointelegraph.com/news/us-sec-cftc-crypto-regulation-few-commissioners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-29T19:59:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI valuation could hit $1.4T in new funding round: Report",
+        "url": "https://cointelegraph.com/news/openai-30-billion-funding-round-1-4-trillion-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-29T19:55:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kakaopay partners with Dinari, Ondo to explore tokenized Korean stocks",
+        "url": "https://cointelegraph.com/news/kakaopay-securities-dinari-ondo-tokenized-korean-stocks-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-29T19:49:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-29T19:42:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Someone Finally Jailbroke the PS5\u2014Just After Sony Said Players Don\u2019t Own Their Games",
+        "url": "https://decrypt.co/379583/sony-ps5-jailbreak-digital-games-ownership",
+        "published_at": "2026-09-29T19:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin correction could be near as traders\u2019 unrealized profit hits 21-month high",
+        "url": "https://www.theblock.co/news/markets/2026-09-29-cryptoquant-says-bitcoin-correction-could-near-traders-unrealized-profit-21-month-high-417206",
+        "published_at": "2026-09-29T19:14:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Gave AI Agents Their Own Computers at DevDay 2026. Here's Everything It Announced",
+        "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+        "published_at": "2026-09-29T18:55:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
+        "url": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion",
+        "published_at": "2026-09-29T18:18:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 1,
+    "neutral_count": 13,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "tech_sector_lean": "neutral",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
