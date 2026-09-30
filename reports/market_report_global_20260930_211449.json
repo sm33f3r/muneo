@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-09-30T21:13:43 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2877730593808.9,
+    "total_market_cap_change_24h_pct": -2.6208,
+    "total_volume_24h_usd": 107895774784.89,
+    "btc_dominance_pct": 58.3376,
+    "eth_dominance_pct": 11.3607,
+    "total2_usd": 1198932018554.87,
+    "total3_usd": 872002463024.26,
+    "active_cryptocurrencies": 21734,
+    "altcoin_season_index": 81,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SOON",
+        "name": "SOON",
+        "price_change_24h_pct": 19.0001,
+        "price_usd": 0.483952,
+        "market_cap_usd": 164217145
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 17.0831,
+        "price_usd": 0.03796864,
+        "market_cap_usd": 630402515
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 12.0815,
+        "price_usd": 0.360788,
+        "market_cap_usd": 674179667
+      },
+      {
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "price_change_24h_pct": 10.9048,
+        "price_usd": 0.415861,
+        "market_cap_usd": 186036374
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 10.4515,
+        "price_usd": 0.580326,
+        "market_cap_usd": 281741646
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -16.5355,
+        "price_usd": 0.245312,
+        "market_cap_usd": 199393068
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -14.6697,
+        "price_usd": 3.84,
+        "market_cap_usd": 958547538
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -12.8166,
+        "price_usd": 0.702245,
+        "market_cap_usd": 208084503
+      },
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -10.5576,
+        "price_usd": 0.058738,
+        "market_cap_usd": 300251653
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": -8.7866,
+        "price_usd": 1.24,
+        "market_cap_usd": 411605314
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 83713,
+    "price_change_24h_pct": 0.2266,
+    "price_change_7d_pct": -1.0372,
+    "market_cap_usd": 1681864093838,
+    "volume_24h_usd": 34883115622,
+    "direction": "neutral",
+    "oi_usd": 7989566710.89,
+    "funding_rate_latest": 6.606e-05,
+    "funding_rate_7d_avg": 2.5644761904761904e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3175,
+    "long_account_pct": 56.85,
+    "short_account_pct": 43.15,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2683.42,
+    "price_change_24h_pct": -0.139,
+    "price_change_7d_pct": 0.0858,
+    "market_cap_usd": 327626569893,
+    "volume_24h_usd": 14017050065,
+    "eth_btc_ratio": 0.032055,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 94825937706.39,
+    "stablecoin_market_cap_usd": 312689849238.07,
+    "stablecoin_dominance_pct": 10.8658
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot-on-pilot stabbing - Reuters",
+        "summary": "Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot-on-pilot stabbing\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnpLNmZJUXN6UzQ0RlhKSFhxT2xYMWZ1R1VwYVdZX3ZuZWFTYUZyV1VYTVhralA5Y0ROVjlNVl9XOGpTSWhEcGM3UE01WVA3clNKcm5KdDZ2dUY1U3FyODdsWkkzSWs2VW5NZUJWQXFYQ0dxamNudlljZl92REs3SnFXSEUzTEswdjh4NnRia2VWZGd2TGE2SmZ6VDBQTXpiRDM0SDZSZ29ubUZUd3Zsa0E4LTBoRmxpSDRjd0JkcmhYbkNV?oc=5",
+        "published_at": "2026-09-30T19:49:06Z"
+      },
+      {
+        "headline": "Why Jim Cramer isn't buying more Boeing despite its huge Navy contract win",
+        "summary": "Two main issues are holding him up.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/30/why-jim-cramer-isnt-buying-more-boeing-despite-its-huge-navy-contract-win-.html",
+        "published_at": "2026-09-30T19:47:03Z"
+      },
+      {
+        "headline": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets - Reuters",
+        "summary": "Oil prices rise by about $1/bbl on stalled US-Iran talks and tight fuel markets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZNSGlvd0hfTjdOVTQxTEVYczRjUjdId3NlSGJDSV90UVVjTGhjaFF2OS1xckpOWElrcWRoUXNPa29WTHhsLW9yWVc2N1REdXZONl9iZ2ZUSkNOQ0xndE16LWpMa3c3T2FHWE0yajBlek1La3hVeTVnWkpLc2hhTTRNMnVILWY0RG9VbzVVZnZGV0JmM3VJWkNhVmlfNDlVMThOSVNtNlR3cFJUekNpMVZ3aE03Zw?oc=5",
+        "published_at": "2026-09-30T19:16:51Z"
+      },
+      {
+        "headline": "Wall Street is closing out a strong quarter. Plus, Lilly's mixed obesity drug trial data",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/30/wall-streets-strong-quarter-plus-lillys-mixed-obesity-drug-trial-data.html",
+        "published_at": "2026-09-30T18:57:02Z"
+      },
+      {
+        "headline": "Israel to ramp up pilot checks after flydubai scare - Reuters",
+        "summary": "Israel to ramp up pilot checks after flydubai scare\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1J1a0RUdFZlOHpZY3RrM0FDaWVyamd4Rk5hUHZ4aVpMZHFwd0NpS1RYaGthT0NkOXNKRUlnam9PelFpUGM5V1RTN2hvMzY5X0EwWUlDa2xLUUp6SlNBRktQWE1JSERza004ellOTTFMaXR0N293VDl1WGxWRnd6eXVsN3BlZ1RwMkRNa1VJM05qc3RqS2k3OU15M1RrVEpTbnFwaA?oc=5",
+        "published_at": "2026-09-30T18:54:02Z"
+      },
+      {
+        "headline": "Two trades that just happened in 'Magnificent Seven' stocks point to big gains ahead",
+        "summary": "Options volume was more than 50% above the 30-day average in both names Wednesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/30/two-trades-that-just-happened-in-magnificent-seven-stocks-point-to-big-gains-ahead.html",
+        "published_at": "2026-09-30T18:47:35Z"
+      },
+      {
+        "headline": "Israeli strikes kill seven people in Gaza, medics say - reuters.com",
+        "summary": "Israeli strikes kill seven people in Gaza, medics say\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamZFVnF3ODVXUkV4Q3ViOWR5aEpob1QzOVJWSTdQQ0otU2p0MkVTaWdJRXVfTU1hUng1eGZ3dkJqVk1JVjZlV0E0WVVUdGV4NzFZNF9OQ1FaRlFHdmJNRUJVNk84UUJNcDN5Nm41UzhhM21qV1NPaDgzMndCQVI1bG42OVBBWU5QWnJLUklLTHR3bmpGUEstano1Q1lwOVl1RDZZcg?oc=5",
+        "published_at": "2026-09-30T17:56:22Z"
+      },
+      {
+        "headline": "MGM CEO leaves door open to People Inc. bid as casino dealmaking heats up",
+        "summary": "The Wall Street Journal reported MGM was exploring an offer for People Inc. after People Inc. withdrew its $48.30-per-share proposal to buy the rest of MGM.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/30/mgm-barry-diller-people-inc-casino-dealmaking.html",
+        "published_at": "2026-09-30T17:50:49Z"
+      },
+      {
+        "headline": "Saudi Arabia turned down Israeli request to allow its planes to pick up Israeli passengers, security sources say - Reuters",
+        "summary": "Saudi Arabia turned down Israeli request to allow its planes to pick up Israeli passengers, security sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbFpGNk5ZNkpKU3hHQ0JreW1HOGw0bzZhNVpoTXM3SnV5cmh3ZFBhNTctYUJVc3FXT3FzNUZHWmpfdlotRU9PdV8xQVZMZTRhMmhiNkZKcUcxa1QyT1FFYWwxWS1DaVRVZ01oSzJzaldkckNRTEl5M2Q3S1dPaERfcnVlemdwaDhTWUJhZGh4LXhaZVo1T3VfeTRZMmtaYmY4WnJmWUhfOTUzcjlfbE1aYUMtakIwNThoTkxldnlBWWZKZ1AxckE?oc=5",
+        "published_at": "2026-09-30T16:20:53Z"
+      },
+      {
+        "headline": "UK links Iran to suspected plot outside airbase used by US bombers - Reuters",
+        "summary": "UK links Iran to suspected plot outside airbase used by US bombers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXZwczdvclVqQk9CUG8tcG81SUlpdmZLcVUtcmxUWW1xLXFQU09BX3FhZ2NkRnlOMUNZaUJiOW4yT09PLVR4TGUxQW9yT2xuOTU5VzY3dVVoeXNhLVRpWTVIU01obUpZd1hKZElLMks0OGRydDRyMFZYTjZ6cWdnbElqbFpLQW5abGx2ZHZlck1ta0ZSNmxn?oc=5",
+        "published_at": "2026-09-30T16:19:05Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.3906,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 762.48,
+    "spy_change_pct": -0.2251,
+    "spy_lean": "neutral",
+    "vix_close": 16.04,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 83731.31,
+    "coinbase_premium_pct": 0.021872,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-09-30T21:13:43 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 228.38,
+        "change_pct": 0.5149,
+        "prev_close": 227.21
+      },
+      "AMD": {
+        "close": 611.76,
+        "change_pct": 0.6896,
+        "prev_close": 607.57
+      },
+      "TSM": {
+        "close": 456.19,
+        "change_pct": -0.1641,
+        "prev_close": 456.94
+      },
+      "SMCI": {
+        "close": 41.07,
+        "change_pct": 0.1219,
+        "prev_close": 41.02
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 739.77,
+        "change_pct": 0.2493,
+        "prev_close": 737.93
+      },
+      "SOXX": {
+        "close": 568.64,
+        "change_pct": 0.2115,
+        "prev_close": 567.44
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-29",
+    "total_net_inflow_usd": 66194702.4,
+    "total_net_assets_usd": 107961129364.43,
+    "total_value_traded_usd": 1598218153.2,
+    "cum_net_inflow_usd": 57643988078.04,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 83713,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 10,
+    "negative_count": 5,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1818,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Standard Chartered sees Ethena\u2019s USDe reaching $40B, ENA hitting $2",
+        "url": "https://cointelegraph.com/markets/standard-chartered-ethena-usde-growth-40b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-30T20:57:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC secures over $30 million judgment against defendants in Fundsz fraud case",
+        "url": "https://www.theblock.co/news/regulation/2026-09-30-cftc-secures-over-30-million-judgment-against-defendants-in-fundsz-fraud-case-417365",
+        "published_at": "2026-09-30T20:37:08+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
+        "url": "https://decrypt.co/379767/coinbase-crypto-group-senate-midterm-endorsements-clarity-act",
+        "published_at": "2026-09-30T20:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Charges Two Investment Advisors In $15 Million WhatsApp Crypto Fraud",
+        "url": "https://bitcoinist.com/sec-charges-two-investment-advisors-in-15-million-whatsapp-crypto-frau/",
+        "published_at": "2026-09-30T20:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitget Hacker Turns to Zcash Privacy Pool After Near Rejects $50M in Swaps",
+        "url": "https://decrypt.co/379759/bitget-hacker-zcash-private-pool-near-thorchain",
+        "published_at": "2026-09-30T19:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-30T19:37:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Interpol Declares Southeast Asian Romance & Crypto Scams National Security Threat",
+        "url": "https://bitcoinist.com/interpol-declares-southeast-asian-romance-crypto-scams-national-securi/",
+        "published_at": "2026-09-30T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Government's New AI Chatbot Has a Weird Minecraft Secret",
+        "url": "https://decrypt.co/379739/america-gov-ai-chatbot-minecraft-end-poem",
+        "published_at": "2026-09-30T19:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto advocacy group announces picks for US Congress as midterms loom",
+        "url": "https://cointelegraph.com/news/stand-with-crypto-coinbase-senate-picks-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-30T19:11:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Base completes Cobalt upgrade, adds new tools for tokenized assets",
+        "url": "https://cointelegraph.com/news/base-cobalt-upgrade-tokenized-finance-b20-kyc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-30T19:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
