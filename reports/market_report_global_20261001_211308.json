@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-01T21:12:00 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2894608092332.97,
+    "total_market_cap_change_24h_pct": -2.0954,
+    "total_volume_24h_usd": 97346092163.73,
+    "btc_dominance_pct": 58.6284,
+    "eth_dominance_pct": 11.3559,
+    "total2_usd": 1197544454609.88,
+    "total3_usd": 868835491899.36,
+    "active_cryptocurrencies": 21765,
+    "altcoin_season_index": 39,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 27.6989,
+        "price_usd": 3.0,
+        "market_cap_usd": 180209004
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 21.0985,
+        "price_usd": 0.082052,
+        "market_cap_usd": 128490677
+      },
+      {
+        "symbol": "SHX",
+        "name": "Stronghold",
+        "price_change_24h_pct": 17.5442,
+        "price_usd": 0.00706613,
+        "market_cap_usd": 130824416
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": 15.9689,
+        "price_usd": 0.03403205,
+        "market_cap_usd": 402488440
+      },
+      {
+        "symbol": "JASMY",
+        "name": "JasmyCoin",
+        "price_change_24h_pct": 13.0568,
+        "price_usd": 0.00562553,
+        "market_cap_usd": 278153758
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -17.1944,
+        "price_usd": 0.480334,
+        "market_cap_usd": 233364033
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -12.5074,
+        "price_usd": 0.153679,
+        "market_cap_usd": 152276007
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": -12.2281,
+        "price_usd": 253.19,
+        "market_cap_usd": 3681779312
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -9.8933,
+        "price_usd": 0.00582033,
+        "market_cap_usd": 340444415
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "price_change_24h_pct": -9.8613,
+        "price_usd": 4.83,
+        "market_cap_usd": 6311971853
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84612,
+    "price_change_24h_pct": 1.072,
+    "price_change_7d_pct": 0.2785,
+    "market_cap_usd": 1700138114027,
+    "volume_24h_usd": 33435624724,
+    "direction": "bullish",
+    "oi_usd": 8222226859.31,
+    "funding_rate_latest": 6.98e-05,
+    "funding_rate_7d_avg": 3.192047619047619e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0454,
+    "long_account_pct": 51.11,
+    "short_account_pct": 48.89,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2696.68,
+    "price_change_24h_pct": 0.4884,
+    "price_change_7d_pct": 0.0889,
+    "market_cap_usd": 329273624041,
+    "volume_24h_usd": 13797150943,
+    "eth_btc_ratio": 0.031871,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95497297416.58,
+    "stablecoin_market_cap_usd": 312801636948.3,
+    "stablecoin_dominance_pct": 10.8064
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "UK police arrest dual UK-Iranian man in Fairford air base investigation - Reuters",
+        "summary": "UK police arrest dual UK-Iranian man in Fairford air base investigation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXZoS0pkNjVhU0QyeEtaTFh2OU9nb2FPNVJHa1R3NENYMUx3ZGVWd0Y0UEcyTnNHdGxmSF9ndU5nSXNPUVpfV1pvMnBlTUZHYk9OUGhBWjEyTmJpcy0zNkx3TWVwQ2RzcEtnYklxRzVxOXY5M1NJSm9oVzBkSFd4aEZESFlUSmVabUN4Wm1sQmJtaFpIY2VpNFZ0ajZoWVhVN0lIMm5B?oc=5",
+        "published_at": "2026-10-01T20:14:04Z"
+      },
+      {
+        "headline": "Boeing engineers and technical workers approve new contract, avoiding strike",
+        "summary": "The work group comprises Boeing's largest white-collar union.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/boeing-contract-engineers-technical-workers.html",
+        "published_at": "2026-10-01T19:36:58Z"
+      },
+      {
+        "headline": "Jim Cramer sees a huge catalyst on the horizon for Apple. How to play the stock",
+        "summary": "The iPhone Duo is what will drive Apple's next leg higher, Jim Cramer predicted.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/jim-cramer-sees-a-huge-catalyst-on-the-horizon-for-apple-how-to-play-the-stock.html",
+        "published_at": "2026-10-01T19:23:49Z"
+      },
+      {
+        "headline": "The September jobs report will be released Friday. Here's what to expect",
+        "summary": "Wall Street is looking for job growth of 84,000 to close out the summer.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+        "published_at": "2026-10-01T18:55:02Z"
+      },
+      {
+        "headline": "United Airlines goes after top frequent flyers at Delta, American with status match",
+        "summary": "United Airlines launched an aggressive status match program for Delta and American's top frequent flyer elites.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/united-airlines-status-match-delta-american.html",
+        "published_at": "2026-10-01T18:52:08Z"
+      },
+      {
+        "headline": "One of our most recent defensive buys cleared a hurdle and its stock jumped",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/one-of-our-most-recent-defensive-buys-cleared-a-hurdle-and-its-stock-jumped.html",
+        "published_at": "2026-10-01T18:45:17Z"
+      },
+      {
+        "headline": "You think Nvidia's $235 billion buyback is big? Just wait and see what Micron might do",
+        "summary": "Micron's expected repurchase program has the potential to be a really, really big number as a percentage of its market cap.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/you-think-nvidias-235-billion-buyback-is-big-just-wait-and-see-what-micron-might-do.html",
+        "published_at": "2026-10-01T18:26:26Z"
+      },
+      {
+        "headline": "The 2 most important skills for entry-level workers in the age of AI, says IBM's chief talent officer",
+        "summary": "Aparna Nair, IBM's chief talent officer, says college students and entry-level workers need these two skills to succeed as AI reshapes their work.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/01/ibm-talent-officer-top-skills-entry-level-workers-ai.html",
+        "published_at": "2026-10-01T18:15:03Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Syrian government officials and Hezbollah held secret talks in Turkey, sources say - Reuters",
+        "summary": "EXCLUSIVE: Syrian government officials and Hezbollah held secret talks in Turkey, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdzNSVk8xcS0weTJwZkdGVVR2OVJqSUlnRlhRaG9HVlUxVEs0dWs0R2VTSkpCUlV4alRiVENpNnc4M3ZCVF9VVVBmWW9CQzJLRzhOaC1SODlHNmNhRWdXZHBDZ0g5UEJ1c2Fkd3ltenFpSHcwRWp6VEt6YnBhX0pUdVUyMUdTTkRKV2FBRDNRb3dJdk9BQVBqdGRBd19RNHltTUtmMERiZEFYUHJ0d2dHel9CSEpYeWlmRlZWbE5uaVlWVF9MbjBj?oc=5",
+        "published_at": "2026-10-01T18:08:26Z"
+      },
+      {
+        "headline": "US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes - Reuters",
+        "summary": "US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGQ5cWhPbnlFT0hFQU1VME1qVVB2SndmZVROdUpzUU1sVGxRcDZndDN0R1BwdGVXRThreEJhTnV4WWQzZ19xUjlqZ3hqWjBWSEJWQ1JtcExJNVVRTG95UHQ1RjFsc21pbWQ4Q3c3dnhvYWZXUF9uNmQ0UHhWT1pJRXg3Yk42b0dOS0FJVmNsbGJLeFZTQkNKcW5ocVZVSzBlS2tnSnRpM044NEhMZW1FMG94N1U2dW1fUXJkbng1clJZSHpaZVVGLXFyeDBYcXM?oc=5",
+        "published_at": "2026-10-01T17:53:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.4719,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 764.04,
+    "spy_change_pct": 0.1849,
+    "spy_lean": "neutral",
+    "vix_close": 16.34,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 84623.31,
+    "coinbase_premium_pct": 0.013367,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-01T21:12:00 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 230.86,
+        "change_pct": 1.0859,
+        "prev_close": 228.38
+      },
+      "AMD": {
+        "close": 615.73,
+        "change_pct": 0.6489,
+        "prev_close": 611.76
+      },
+      "TSM": {
+        "close": 459.2,
+        "change_pct": 0.6598,
+        "prev_close": 456.19
+      },
+      "SMCI": {
+        "close": 41.92,
+        "change_pct": 2.0696,
+        "prev_close": 41.07
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 742.03,
+        "change_pct": 0.3055,
+        "prev_close": 739.77
+      },
+      "SOXX": {
+        "close": 576.33,
+        "change_pct": 1.3523,
+        "prev_close": 568.64
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-09-30",
+    "total_net_inflow_usd": -148687762.2,
+    "total_net_assets_usd": 107981652503.06,
+    "total_value_traded_usd": 2359178178.5,
+    "cum_net_inflow_usd": 57495300315.84,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84612,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 68,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 53,
+    "positive_count": 5,
+    "negative_count": 10,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.0943,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SEC proposes framework allowing investment advisers, funds to self-custody crypto",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498",
+        "published_at": "2026-10-01T21:00:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump to host 3rd \u2018exclusive\u2019 memecoin event amid corruption claims",
+        "url": "https://cointelegraph.com/news/donald-trump-memecoin-dinner-corruption-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-01T21:00:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Proposes Rules to Clear Up How Advisers and Funds Can Hold Crypto",
+        "url": "https://decrypt.co/379899/sec-proposes-rules-advisers-funds-hold-crypto",
+        "published_at": "2026-10-01T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Reddit Is Killing RSS Feeds and Public API Access to Fight AI Scrapers",
+        "url": "https://decrypt.co/379892/reddit-killing-rss-feeds-public-api-access-ai-scrapers",
+        "published_at": "2026-10-01T20:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-01T20:07:25+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Says People Linked to China's Moonshot Tried to Copy Its AI's Hidden Reasoning",
+        "url": "https://decrypt.co/379890/openai-china-moonshot-copy-ai-hidden-reasoning",
+        "published_at": "2026-10-01T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Pushes Back on Claim That Muse AI Read a User's Messages Without Consent",
+        "url": "https://decrypt.co/379868/meta-muse-ai-agent-read-messages-without-permission",
+        "published_at": "2026-10-01T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid Policy Center, Circle press EU on perps and stablecoin reserves in MiCA review",
+        "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
+        "published_at": "2026-10-01T19:10:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The 'Largest Pure-Play' XRP Treasury Is About to Go Public",
+        "url": "https://decrypt.co/379856/the-largest-pure-play-xrp-treasury-is-about-to-go-public",
+        "published_at": "2026-10-01T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
+        "url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-01T18:45:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
