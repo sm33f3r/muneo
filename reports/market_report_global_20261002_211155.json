@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-02T21:10:51 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2885907142333.98,
+    "total_market_cap_change_24h_pct": -3.1867,
+    "total_volume_24h_usd": 122152901496.55,
+    "btc_dominance_pct": 58.8257,
+    "eth_dominance_pct": 11.2721,
+    "total2_usd": 1188252069550.55,
+    "total3_usd": 862948823642.92,
+    "active_cryptocurrencies": 21783,
+    "altcoin_season_index": 21,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 62.1436,
+        "price_usd": 21.17,
+        "market_cap_usd": 201340075
+      },
+      {
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "price_change_24h_pct": 41.8719,
+        "price_usd": 0.063189,
+        "market_cap_usd": 186417778
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 22.189,
+        "price_usd": 0.247848,
+        "market_cap_usd": 222333283
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 18.5033,
+        "price_usd": 0.04650375,
+        "market_cap_usd": 772087121
+      },
+      {
+        "symbol": "ATH",
+        "name": "Aethir",
+        "price_change_24h_pct": 11.2036,
+        "price_usd": 0.00651903,
+        "market_cap_usd": 131245701
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "2Z",
+        "name": "DoubleZero",
+        "price_change_24h_pct": -18.0239,
+        "price_usd": 0.04572812,
+        "market_cap_usd": 234163255
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -14.307,
+        "price_usd": 1.17,
+        "market_cap_usd": 292653268
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -13.7998,
+        "price_usd": 0.414144,
+        "market_cap_usd": 201243234
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -10.1057,
+        "price_usd": 0.00526195,
+        "market_cap_usd": 2445829355
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -9.1046,
+        "price_usd": 0.661198,
+        "market_cap_usd": 196157725
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84487,
+    "price_change_24h_pct": -0.1392,
+    "price_change_7d_pct": 0.4629,
+    "market_cap_usd": 1697555428455,
+    "volume_24h_usd": 45436809406,
+    "direction": "neutral",
+    "oi_usd": 8350507518.86,
+    "funding_rate_latest": 1.214e-05,
+    "funding_rate_7d_avg": 3.704190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1519,
+    "long_account_pct": 53.53,
+    "short_account_pct": 46.47,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2663.21,
+    "price_change_24h_pct": -1.2469,
+    "price_change_7d_pct": -1.196,
+    "market_cap_usd": 325174293255,
+    "volume_24h_usd": 18751972530,
+    "eth_btc_ratio": 0.031522,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95039327040.27,
+    "stablecoin_market_cap_usd": 312430061595.26,
+    "stablecoin_dominance_pct": 10.8261
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 26,
+    "headlines": [
+      {
+        "headline": "Israeli officials to question co-pilot of flydubai flight, source says - Reuters",
+        "summary": "Israeli officials to question co-pilot of flydubai flight, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGxxTlpqUHE0NEg5VG14WnhFcU54UVJnSjV4SUdEdGxUVXlUSTVUMkNRQWtDand4UmUxdWtONDlfU2Z5QW5kSVc5NTJrekxscVdoQ0hvT2UyaWdFNHA0dnozZHVHcVViZkJxZmdhTE1zMDAyQlpXOERLMm1NU2pHckFpakUwRWR0V1NfTXRfSTlaQlBjSHNJdXVueGgzd2hUSUl3ZUtSZVA2ZDJ2QzBNdTdMeXdoUDVI?oc=5",
+        "published_at": "2026-10-02T20:20:50Z"
+      },
+      {
+        "headline": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community - Reuters",
+        "summary": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN1pSQkNGMThITHRzNldaeUlFYjFYWk5Bckx6cllZZkJXU0R5ZEtkTGpxcDdxX3B5c1pQZFlzN0hvOGNjUjMtR2tMRW5iVDg0bVRERkk4RXBKT2dmUEJmdDJjZWNpSXVJTHhqdGp2SzdPSkVMY3pkM0xaVnBoTXZyZi1EaF9uRGtkWTlYenhvSDVKU1BXUEZ4cFA4SWlOWHVhSDBjeExKZ2ZnTVB1M281WUdWd3NvM1hJenc?oc=5",
+        "published_at": "2026-10-02T19:48:11Z"
+      },
+      {
+        "headline": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure - reuters.com",
+        "summary": "EXCLUSIVE: G7 countries agree on release of diesel and oil stocks after US pressure\u00a0\u00a0reuters.com",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
+        "published_at": "2026-10-02T18:22:23Z"
+      },
+      {
+        "headline": "Saudis plan assault on Houthis to break Red Sea chokehold - Reuters",
+        "summary": "Saudis plan assault on Houthis to break Red Sea chokehold\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5",
+        "published_at": "2026-10-02T18:13:41Z"
+      },
+      {
+        "headline": "Friday's rally in the S&P 500 might not be enough, but Linde is out of this world",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/02/fridays-rally-in-the-sp-500-might-not-be-enough-but-linde-is-out-of-this-world.html",
+        "published_at": "2026-10-02T18:03:35Z"
+      },
+      {
+        "headline": "Photos of the week - Reuters",
+        "summary": "Photos of the week\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST1Vlam5INGJkYkZwRklEdXp4bXlJOFpsRUxtR2M2UUt3Snd2dl9Cd3g1MUJQM0dvWWJUM3h5cjBxRkZRWjFoYUZuU1BfZEpzNGVHTTg3a3JzMVZtUnpjSHNwMjNjX2M?oc=5",
+        "published_at": "2026-10-02T17:57:51Z"
+      },
+      {
+        "headline": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf - Reuters",
+        "summary": "Iraq says 40 daily Iranian flights cleared to fly to and from Najaf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkJSVEI3TWpXNlBROHk2RmowaVBxM0RhTlBEcmF0aVdwbnI5blc4R3hvV0J6QUo1UGxTMExXT0xtMnNqcXJrZEtjUG5fZGtnc1hSZjEtNWdSYTg4dGFxMlBneG5yMDhxTzdVVEdWenhsZmdnZl9WdFhqMEZVOEdiN0pINUp4djFQa0Y2SUV2R1MxRkdJbEwxTnVHN1JmTWVTb3B6RUMwMjVBZw?oc=5",
+        "published_at": "2026-10-02T16:37:43Z"
+      },
+      {
+        "headline": "1.7 million skilled trade jobs will open annually through 2035, report says\u2014experts don't know who will fill them",
+        "summary": "Jobs in the skilled trades are abundant as the industry struggles to keep up with job creation, an aging workforce, and high turnover rates.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/02/1point7-million-skilled-trade-jobs-to-open-annually-through-2035-report-says.html",
+        "published_at": "2026-10-02T16:15:01Z"
+      },
+      {
+        "headline": "UK new car sales rise 12% in September as EVs and Chinese brands gain ground - Reuters",
+        "summary": "UK new car sales rise 12% in September as EVs and Chinese brands gain ground\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeHZ6ZW1IM2ZoUVdSWTVLdVA3cHRxQmE1STZ5aXQ4akJGc3V6NExmVnpZOGtJUHhMajdvY2FwclpscEsxYzRqcnlSM3UwbXpoWW5iMjdjVWlMeFZ6THJCWWpMWkFpZ2k1UG1jTjd2V3JhVGZmb005MDlNQnRTT25ldHlCQUZuTTNIWkFnd3diQzNvZ0NYVWgyeVZZUkVtQkEtQ1lIclNndTVicXN5NF9haVZCZlJUaWZvLUpubWp3?oc=5",
+        "published_at": "2026-10-02T16:01:03Z"
+      },
+      {
+        "headline": "The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
+        "summary": "An interesting tug of war is happening in one of the market's hottest sectors: utilities.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html",
+        "published_at": "2026-10-02T15:34:28Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.0335,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.66,
+    "spy_change_pct": 0.7422,
+    "spy_lean": "bullish",
+    "vix_close": 16.39,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 84509.73,
+    "coinbase_premium_pct": 0.026904,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-02T21:10:51 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 233.95,
+        "change_pct": 1.3385,
+        "prev_close": 230.86
+      },
+      "AMD": {
+        "close": 633.91,
+        "change_pct": 2.9526,
+        "prev_close": 615.73
+      },
+      "TSM": {
+        "close": 472.78,
+        "change_pct": 2.9573,
+        "prev_close": 459.2
+      },
+      "SMCI": {
+        "close": 43.69,
+        "change_pct": 4.2223,
+        "prev_close": 41.92
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 749.58,
+        "change_pct": 1.0175,
+        "prev_close": 742.03
+      },
+      "SOXX": {
+        "close": 588.9,
+        "change_pct": 2.181,
+        "prev_close": 576.33
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-01",
+    "total_net_inflow_usd": 102670557.08,
+    "total_net_assets_usd": 109337825263.06,
+    "total_value_traded_usd": 1970672970.0,
+    "cum_net_inflow_usd": 57597970872.92,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84487,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 67,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 52,
+    "positive_count": 7,
+    "negative_count": 9,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.1346,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-02T20:46:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "European crypto users have \u2018more faith\u2019 in regulated firms under MiCA: Bitpanda co-CEO",
+        "url": "https://cointelegraph.com/news/mica-strengthened-retail-trust-regulated-crypto-exchanges-bitpanda-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-02T20:40:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
+        "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
+        "published_at": "2026-10-02T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle Pushes Back on MiCA's Bank-Deposit Mandate for Stablecoins",
+        "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins",
+        "published_at": "2026-10-02T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This AI Is Already Fooling People on Video Calls Into Thinking It's Human, Company Says",
+        "url": "https://decrypt.co/379975/tavus-griffin-ai-fools-people-video-thinking-human",
+        "published_at": "2026-10-02T19:05:35+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
+        "url": "https://cointelegraph.com/news/anchorage-digital-cuts-workforce-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-02T18:41:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blast to wind down Ethereum L2 after costs outpace revenue",
+        "url": "https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-02T18:24:05+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
+        "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+        "published_at": "2026-10-02T17:47:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
+        "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
+        "published_at": "2026-10-02T17:30:40+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Drift opens exploit recovery claims with initial payouts of just over 1% of user losses",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-02-drift-opens-exploit-recovery-claims-initial-payouts-just-over-1-user-losses-417581",
+        "published_at": "2026-10-02T17:10:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
