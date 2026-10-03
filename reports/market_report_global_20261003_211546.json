@@ -1,0 +1,430 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-03T21:14:36 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2894015062085.44,
+    "total_market_cap_change_24h_pct": -2.0813,
+    "total_volume_24h_usd": 47215918825.65,
+    "btc_dominance_pct": 58.5773,
+    "eth_dominance_pct": 11.2953,
+    "total2_usd": 1198780117818.14,
+    "total3_usd": 871892584632.14,
+    "active_cryptocurrencies": 21818,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 22.8101,
+        "price_usd": 0.051414,
+        "market_cap_usd": 381763435
+      },
+      {
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "price_change_24h_pct": 21.2019,
+        "price_usd": 0.076882,
+        "market_cap_usd": 224908684
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": 18.9737,
+        "price_usd": 0.00627134,
+        "market_cap_usd": 2913082455
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": 16.8894,
+        "price_usd": 0.087761,
+        "market_cap_usd": 223602672
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 16.2696,
+        "price_usd": 266.66,
+        "market_cap_usd": 3877062418
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -22.2265,
+        "price_usd": 0.51382,
+        "market_cap_usd": 152338986
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -11.5389,
+        "price_usd": 0.403778,
+        "market_cap_usd": 274936285
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -9.0134,
+        "price_usd": 0.00539827,
+        "market_cap_usd": 316454140
+      },
+      {
+        "symbol": "AI",
+        "name": "Artificial Inu",
+        "price_change_24h_pct": -7.2491,
+        "price_usd": 0.133115,
+        "market_cap_usd": 131918940
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -5.1007,
+        "price_usd": 0.217492,
+        "market_cap_usd": 174796540
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84652,
+    "price_change_24h_pct": 0.1885,
+    "price_change_7d_pct": 0.8747,
+    "market_cap_usd": 1700664620024,
+    "volume_24h_usd": 14914289143,
+    "direction": "neutral",
+    "oi_usd": 8259685853.04,
+    "funding_rate_latest": 4.528e-05,
+    "funding_rate_7d_avg": 3.9093809523809525e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2222,
+    "long_account_pct": 55.0,
+    "short_account_pct": 45.0,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2685.41,
+    "price_change_24h_pct": 0.8496,
+    "price_change_7d_pct": 0.0896,
+    "market_cap_usd": 327843289314,
+    "volume_24h_usd": 5565688374,
+    "eth_btc_ratio": 0.031723,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 95562061185.54,
+    "stablecoin_market_cap_usd": 312797214370.52,
+    "stablecoin_dominance_pct": 10.8084
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "Gen Alpha kids are earning money. Here's how parents can help them save and invest",
+        "summary": "Gen Alpha kids are earning and spending their own money. Parents can use savings, investing and education tools to build healthy habits.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/03/investing-for-kids-accounts.html",
+        "published_at": "2026-10-03T14:00:01Z"
+      },
+      {
+        "headline": "Portugal prosecutors probe legality of US use of Lajes base in Iran war - Reuters",
+        "summary": "Portugal prosecutors probe legality of US use of Lajes base in Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPalVaWllxS1FsVThCWHF3bXZTLXVRNWNhMTdNaERvemRJSWRtZU1iRHNTN19WSGt5THpaRjZpZkE5OGtMYkZPY3JOSG95ZlF3TU10M05VYkdCMHJ0bW93dlk5THJmYm9pM2daU1VteXJKWnp1bm5GSDBobkZyUDBzNDNkaExRSElQSG9zR3hfNFFtazQ4Y2ZtWk92a1NXZXRRbUd1Y0ZQOA?oc=5",
+        "published_at": "2026-10-03T13:55:15Z"
+      },
+      {
+        "headline": "Fire, smoke seen near Aramco facility in Riyadh, witness says - Reuters",
+        "summary": "Fire, smoke seen near Aramco facility in Riyadh, witness says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
+        "published_at": "2026-10-03T13:38:10Z"
+      },
+      {
+        "headline": "Novig credits Sydney Sweeney-backed campaign for platform\u2019s surge in growth",
+        "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/03/novig-credits-sydney-sweeney-backed-campaign-for-platforms-surge-in-growth.html",
+        "published_at": "2026-10-03T13:30:48Z"
+      },
+      {
+        "headline": "Private capital is reshaping Hollywood moviemaking",
+        "summary": "As Hollywood's financing structures diversify, private capital is increasingly funding the big screen and changing the types of movies that are being made.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
+        "published_at": "2026-10-03T12:00:01Z"
+      },
+      {
+        "headline": "Two Iranians appear in UK court over alleged plot to target Jews - Reuters",
+        "summary": "Two Iranians appear in UK court over alleged plot to target Jews\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEpZdXR4cjlWM01SNUpLcnVmZ2VyZm5uM0VjU0hPV0Fwc0F4RkRBSGlBRWR0OEdKcXNkUEtlQVJ6SUFoVHFlMGxES09mOFhSQnZGRFIzdnpzbmJfSTRQdWg5NFdGeGxuQWozUll2RVM0amlhN2NxbmRvLWY1bnlHVkVJX0tEdUpibHRSSUUwWXQzZTlMdkkyeVFqZ19JUlVHVlFnQ3ln?oc=5",
+        "published_at": "2026-10-03T11:42:12Z"
+      },
+      {
+        "headline": "Man arrested in Fairford air base investigation released on bail - Reuters",
+        "summary": "Man arrested in Fairford air base investigation released on bail\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZlM4THR1SEZQZDZfdFlpejVLZ2tuMk5qbTFiVjhNbEtpRW1tNjMwZHV0dlhKWjdXdU5TWTZ5dm5ZTW9jRjBjcV9YWUxWVGQ4cjRyN1pDd0I3bDhiSms3LTB6THluWTVfeFBRTUdNWjlJMkJnTEpXRTQ3SlR3bTlFSWFkM3lUd3pIUEVESkpHcWVLVWNMQmdRNzZlR01XNXZYd3Vtcjdn?oc=5",
+        "published_at": "2026-10-03T11:18:09Z"
+      },
+      {
+        "headline": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+        "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+        "published_at": "2026-10-03T11:00:01Z"
+      },
+      {
+        "headline": "Aboard the USS George Washington, young sailors adjust to war with Iran - Reuters",
+        "summary": "Aboard the USS George Washington, young sailors adjust to war with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmwtU1dvSVNubGRlbFl6OE9ObzN4MFVRYkUtMFVueTVRbE5KWGx5RTR4T1NFS2oyN1J3V0YxOEVhU3ZTeXAwX0ppOHNKRWE1S1NNYXl3UWt3WGQ2SWFJbkdHMmJLTVRNanp6THZ1R1VPUmRoR1lLSGRvYWtLRWk4bjJnTGJsLWlqMklpeVhPbUx2dTBpN2Z2YVpkOE83Rm8waTdaNmtDaWpxdTlHb0FzQkE5RnFiWFhk?oc=5",
+        "published_at": "2026-10-03T10:31:43Z"
+      },
+      {
+        "headline": "Iran executes detainee over January protests, judiciary says - Reuters",
+        "summary": "Iran executes detainee over January protests, judiciary says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWGdCTURnWkJyS1ZoczFjQWo3VF9BaXVrdm1tZV8wR0pwSmxYSFZMNVl0V19fU2NIWGRxNG0zSl9vM3BnRWVDUGpzRG5jM28tTmVibEZuNG5UeTZ1elJ1eVgzVFhQQ21GOXVVUFJqbEppZFMzTld0dExWXy16X245eTVrc2htcWl0dkxsNFMwQUdpSHEyTUFSX0Y4cEwyNXVHODdoUjV6VXF3QlR2bHNsYjFzVQ?oc=5",
+        "published_at": "2026-10-03T09:56:07Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9191,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.64,
+    "spy_change_pct": 0.7395,
+    "spy_lean": "bullish",
+    "vix_close": 16.39,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 84675.82,
+    "coinbase_premium_pct": 0.028139,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-03T21:14:36 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 233.95,
+        "change_pct": 1.3385,
+        "prev_close": 230.86
+      },
+      "AMD": {
+        "close": 633.91,
+        "change_pct": 2.9526,
+        "prev_close": 615.73
+      },
+      "TSM": {
+        "close": 472.78,
+        "change_pct": 2.9573,
+        "prev_close": 459.2
+      },
+      "SMCI": {
+        "close": 43.69,
+        "change_pct": 4.2223,
+        "prev_close": 41.92
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 749.58,
+        "change_pct": 1.0175,
+        "prev_close": 742.03
+      },
+      "SOXX": {
+        "close": 588.9,
+        "change_pct": 2.181,
+        "prev_close": 576.33
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-01",
+    "total_net_inflow_usd": 102670557.08,
+    "total_net_assets_usd": 109337825263.06,
+    "total_value_traded_usd": 1970672970.0,
+    "cum_net_inflow_usd": 57597970872.92,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84652,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 67,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 9,
+    "positive_count": 0,
+    "negative_count": 4,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
+        "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea",
+        "published_at": "2026-10-03T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Banned PewDiePie Twice While He Built Ajax, an Uncensored AI That Will Run on Your PC",
+        "url": "https://decrypt.co/380001/openai-banned-pewdiepie-twice-ajax-uncensored-ai",
+        "published_at": "2026-10-03T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details",
+        "url": "https://decrypt.co/380002/trump-third-meme-coin-dinner-details",
+        "published_at": "2026-10-03T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Pope Has Thoughts on AI Art\u2014And They're Not Flattering",
+        "url": "https://decrypt.co/379983/pope-leo-human-art-ai-creation",
+        "published_at": "2026-10-03T13:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-03T12:20:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NEAR Intents recovers entire stolen $3.8M after ultimatum to exploiter",
+        "url": "https://cointelegraph.com/news/near-intents-recovers-entire-stolen-38m-after-ultimatum-to-exploiter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-03T11:59:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Community banks sue OCC over trust bank charters of crypto firms",
+        "url": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-03T09:25:01+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+        "url": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-03T07:06:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "California Subpoenas OpenAI Over AI Models That Hacked Their Way Out of a Test",
+        "url": "https://decrypt.co/379998/california-subpoena-openai-ai-models-hack",
+        "published_at": "2026-10-02T21:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
