@@ -1,0 +1,395 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-04T21:13:21 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2904778363031.14,
+    "total_market_cap_change_24h_pct": -2.5727,
+    "total_volume_24h_usd": 44534922598.01,
+    "btc_dominance_pct": 59.2387,
+    "eth_dominance_pct": 11.3489,
+    "total2_usd": 1184026535034.71,
+    "total3_usd": 854365831277.38,
+    "active_cryptocurrencies": 21848,
+    "altcoin_season_index": 19,
+    "altcoin_season_label": "bitcoin_season",
+    "altcoin_season_lean": "bearish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 22.2674,
+        "price_usd": 0.00260159,
+        "market_cap_usd": 133534041
+      },
+      {
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "price_change_24h_pct": 13.9833,
+        "price_usd": 0.256508,
+        "market_cap_usd": 593067656
+      },
+      {
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "price_change_24h_pct": 13.505,
+        "price_usd": 1.37,
+        "market_cap_usd": 239108215
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": 13.1657,
+        "price_usd": 0.767825,
+        "market_cap_usd": 229582330
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 12.3634,
+        "price_usd": 0.057773,
+        "market_cap_usd": 428637718
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -18.3751,
+        "price_usd": 1.26,
+        "market_cap_usd": 3400794290
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -10.9152,
+        "price_usd": 0.238664,
+        "market_cap_usd": 213116994
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": -6.6863,
+        "price_usd": 0.0452273,
+        "market_cap_usd": 750961441
+      },
+      {
+        "symbol": "SUPER",
+        "name": "SuperVerse",
+        "price_change_24h_pct": -6.0285,
+        "price_usd": 0.243402,
+        "market_cap_usd": 158255144
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": -6.008,
+        "price_usd": 1.021,
+        "market_cap_usd": 341644927
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 85892,
+    "price_change_24h_pct": 1.4814,
+    "price_change_7d_pct": 1.283,
+    "market_cap_usd": 1725407123574,
+    "volume_24h_usd": 14800195104,
+    "direction": "bullish",
+    "oi_usd": 8430841177.28,
+    "funding_rate_latest": 3.785e-05,
+    "funding_rate_7d_avg": 3.846857142857143e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1173,
+    "long_account_pct": 52.77,
+    "short_account_pct": 47.23,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2708.53,
+    "price_change_24h_pct": 0.8608,
+    "price_change_7d_pct": 0.5248,
+    "market_cap_usd": 330728950767,
+    "volume_24h_usd": 4779023251,
+    "eth_btc_ratio": 0.031534,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96159451590.52,
+    "stablecoin_market_cap_usd": 314082946358.68,
+    "stablecoin_dominance_pct": 10.8126
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 5,
+    "headlines": [
+      {
+        "headline": "It's time for us to put cash to work in this ugly market. Here's where we will do our buying",
+        "summary": "In his Sunday column, Jim Cramer explains why investors need to hold their nose and do some buying.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/04/its-time-for-us-to-put-cash-to-work-in-this-ugly-market-heres-where-we-will-do-our-buying.html",
+        "published_at": "2026-10-04T20:32:16Z"
+      },
+      {
+        "headline": "Supreme Court Justice Alito said he's 'thought about' retirement as Senate control hangs in balance",
+        "summary": "The Senate could flip to Democrats after November's midterm election, jeopardizing a potential Supreme Court nomination by President Donald Trump.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/04/supreme-court-justice-alito-thought-about-retiring.html",
+        "published_at": "2026-10-04T17:53:11Z"
+      },
+      {
+        "headline": "Here are 3 things we're watching in the stock market in the week ahead",
+        "summary": "The oil and bond markets will remain a critical driver of stocks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/04/here-are-3-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-10-04T15:33:05Z"
+      },
+      {
+        "headline": "This NYC startup requires 4 days in office but just let everyone work remote for a whole month",
+        "summary": "SolComms, a New York City-based PR firm, says letting employees work from anywhere in the world boosted revenue, productivity and happiness.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/04/work-from-anywhere-month.html",
+        "published_at": "2026-10-04T14:00:01Z"
+      },
+      {
+        "headline": "Starting a watch collection? What beginners should know before buying",
+        "summary": "Watch experts explain how beginners can start a collection, what tends to hold value, when to buy used and how to avoid costly mistakes.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/04/watch-collecting-beginners.html",
+        "published_at": "2026-10-04T13:44:31Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9191,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 120.33,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.64,
+    "spy_change_pct": 0.7395,
+    "spy_lean": "bullish",
+    "vix_close": 16.39,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 86033.99,
+    "coinbase_premium_pct": 0.165312,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-04T21:13:21 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 233.95,
+        "change_pct": 1.3385,
+        "prev_close": 230.86
+      },
+      "AMD": {
+        "close": 633.91,
+        "change_pct": 2.9526,
+        "prev_close": 615.73
+      },
+      "TSM": {
+        "close": 472.78,
+        "change_pct": 2.9573,
+        "prev_close": 459.2
+      },
+      "SMCI": {
+        "close": 43.69,
+        "change_pct": 4.2223,
+        "prev_close": 41.92
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 749.58,
+        "change_pct": 1.0175,
+        "prev_close": 742.03
+      },
+      "SOXX": {
+        "close": 588.9,
+        "change_pct": 2.181,
+        "prev_close": 576.33
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-01",
+    "total_net_inflow_usd": 102670557.08,
+    "total_net_assets_usd": 109337825263.06,
+    "total_value_traded_usd": 1970672970.0,
+    "cum_net_inflow_usd": 57597970872.92,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 85892,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 69,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 9,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.2222,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-04T18:51:50+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Taps Jay Clayton, the SEC Chair Who Sued Ripple, to Lead AI Push",
+        "url": "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence",
+        "published_at": "2026-10-04T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Banking Group Sues to Block Crypto's 'Side Door' Into the Banking System",
+        "url": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking",
+        "published_at": "2026-10-04T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
+        "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million",
+        "published_at": "2026-10-04T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump taps intel chief Jay Clayton to lead new Super Intelligence Force",
+        "url": "https://cointelegraph.com/news/trump-taps-jay-clayton-to-lead-new-super-intelligence-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-04T13:48:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'We Have Identified You, Sir': Near Intents Recovers $3.8 Million After 48-Hour Ultimatum",
+        "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum",
+        "published_at": "2026-10-04T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Japan adds Garantex to list of Russia sanctions over Ukraine war",
+        "url": "https://cointelegraph.com/news/japan-adds-garantex-to-list-of-russia-sanctions-over-ukraine-war?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-04T12:42:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "El Salvador receives $138 million from IMF after Bitcoin waivers granted",
+        "url": "https://cointelegraph.com/news/el-salvador-receives-138-million-from-imf-after-bitcoin-waivers-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-04T09:40:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia\u2019s Finance Ministry pays wages in digital rubles for first time",
+        "url": "https://cointelegraph.com/news/russias-finance-ministry-pays-wages-in-digital-rubles-for-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-04T07:18:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
