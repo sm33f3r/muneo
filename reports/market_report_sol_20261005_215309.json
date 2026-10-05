@@ -1,0 +1,217 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-05T21:52:13 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 120.66,
+    "price_change_24h_pct": -0.6647,
+    "price_change_7d_pct": 1.5765,
+    "volume_24h_usd": 2703982493,
+    "market_cap_usd": 70991647628,
+    "volume_to_mcap_ratio": 0.038089,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -58.8635,
+    "cex_price_usd": 120.71,
+    "cex_24h_high": 122.29,
+    "cex_24h_low": 118.93,
+    "cex_dex_spread_pct": 0.041439,
+    "volume_on_up_days_usd": 3986602318.5924244,
+    "volume_on_down_days_usd": 3759034075.9436717,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 70.3068,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 9.307236,
+      "signal_line": 5.715547,
+      "histogram": 3.591689
+    },
+    "macd_lean": "bullish",
+    "sma_50": 85.7792,
+    "price_vs_sma50_pct": 40.6635,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 126.975281,
+      "mid": 92.333,
+      "lower": 57.690719,
+      "width_pct": 75.0377,
+      "position": 0.8759
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 1009355303.79,
+    "oi_lean": null,
+    "funding_rate_latest": -1.707e-05,
+    "funding_rate_7d_avg": 2.491714285714286e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.1304,
+    "btc_long_account_pct": 53.06,
+    "btc_short_account_pct": 46.94,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 6751815637.0,
+    "tvl_7d_change_pct": 4.6202,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 16064970.72,
+    "chain_fees_7d_avg_usd": 15738151.67,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 5,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "DeFi Development Corp Adds $3 Million in Solana as SOL Buys Slow",
+        "url": "https://decrypt.co/380125/defi-development-corp-adds-3m-solana",
+        "published_at": "2026-10-05T21:48:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development sees NAV per share more than doubling, holds 2.56 million SOL",
+        "url": "https://www.theblock.co/news/markets/2026-10-05-defi-development-nav-per-share-doubles-2-56-million-sol-417674",
+        "published_at": "2026-10-05T14:33:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Metaplanet sold 10,000 BTC in Q3 before buying back 11,000 BTC to \u2018demonstrate liquidity\u2019",
+        "url": "https://www.theblock.co/news/business/2026-10-05-metaplanet-sold-10000-btc-in-q3-before-buying-back-11000-btc-to-demonstrate-liquidity-417640",
+        "published_at": "2026-10-05T12:04:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Metaplanet Sold 10,000 Bitcoin and Bought Back 11,000 to Prove a Point",
+        "url": "https://decrypt.co/380053/metaplanet-sold-10000-bitcoin-and-bought-back-11000-to-prove-a-point",
+        "published_at": "2026-10-05T12:04:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Greek Soldiers Among Alleged Leaders of $8M Crypto Pyramid Scheme",
+        "url": "https://decrypt.co/380040/greek-soldiers-among-alleged-leaders-of-8m-crypto-pyramid-scheme",
+        "published_at": "2026-10-05T11:18:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 85894.0,
+    "btc_24h_change_pct": -0.0756,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.9769,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2927112601562.3506,
+    "eth_btc_ratio": 0.031629,
+    "eth_btc_lean": "neutral",
+    "dxy": null,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": null,
+    "spy_change_pct": null,
+    "spy_lean": "neutral",
+    "vix_close": 15.31,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 67,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 81.82,
+    "cg_sentiment_votes_down_pct": 18.18,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 6,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage USDSEK \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDCHF \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage SPY \u2014 No time series data in Alpha Vantage response"
+  ]
+}
