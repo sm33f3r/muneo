@@ -1,0 +1,413 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-05T21:13:26 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2931982706939.46,
+    "total_market_cap_change_24h_pct": -1.8536,
+    "total_volume_24h_usd": 93598292819.11,
+    "btc_dominance_pct": 58.651,
+    "eth_dominance_pct": 11.2722,
+    "total2_usd": 1212346540307.97,
+    "total3_usd": 881846251783.11,
+    "active_cryptocurrencies": 21883,
+    "altcoin_season_index": 40,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": 23.8887,
+        "price_usd": 2.19,
+        "market_cap_usd": 182996019
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 23.5192,
+        "price_usd": 1.26,
+        "market_cap_usd": 422749662
+      },
+      {
+        "symbol": "SHX",
+        "name": "Stronghold",
+        "price_change_24h_pct": 21.3389,
+        "price_usd": 0.00889869,
+        "market_cap_usd": 165175801
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 21.0473,
+        "price_usd": 0.288728,
+        "market_cap_usd": 258337056
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 13.6139,
+        "price_usd": 0.051353,
+        "market_cap_usd": 853826542
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -12.8561,
+        "price_usd": 0.184967,
+        "market_cap_usd": 148069572
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -9.3651,
+        "price_usd": 0.03110792,
+        "market_cap_usd": 367823302
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -9.3621,
+        "price_usd": 0.03085194,
+        "market_cap_usd": 703440958
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -7.8402,
+        "price_usd": 0.053168,
+        "market_cap_usd": 394564801
+      },
+      {
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "price_change_24h_pct": -7.7858,
+        "price_usd": 0.068864,
+        "market_cap_usd": 202302425
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 85721,
+    "price_change_24h_pct": -0.3046,
+    "price_change_7d_pct": 2.8944,
+    "market_cap_usd": 1722466741196,
+    "volume_24h_usd": 33558992892,
+    "direction": "neutral",
+    "oi_usd": 8101405817.56,
+    "funding_rate_latest": -1.541e-05,
+    "funding_rate_7d_avg": 4.0484761904761904e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.1304,
+    "long_account_pct": 53.06,
+    "short_account_pct": 46.94,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2711.1,
+    "price_change_24h_pct": 0.1246,
+    "price_change_7d_pct": 1.4842,
+    "market_cap_usd": 331043614082,
+    "volume_24h_usd": 13230362852,
+    "eth_btc_ratio": 0.031627,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96531057995.79,
+    "stablecoin_market_cap_usd": 313953078379.58,
+    "stablecoin_dominance_pct": 10.7079
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 6,
+    "headlines": [
+      {
+        "headline": "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
+        "summary": "Melius Research's Ben Reitzes has warned about AI disrupting legacy software providers for years. Now, he loves Microsoft's place in the AI race.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/05/wall-street-rewards-microsofts-ai-pivot-a-longtime-skeptic-flips-bullish.html",
+        "published_at": "2026-10-05T18:43:12Z"
+      },
+      {
+        "headline": "Nvidia looks to take out its record high close \u2014 plus, don't worry about Intel's dip",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/05/nvidia-looks-to-take-out-its-record-high-close-plus-dont-worry-about-intels-dip.html",
+        "published_at": "2026-10-05T18:25:31Z"
+      },
+      {
+        "headline": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html",
+        "published_at": "2026-10-05T16:29:58Z"
+      },
+      {
+        "headline": "These are the cheapest and most expensive U.S. flights this November",
+        "summary": "Holiday airplane tickets are up more than 23% this year, according to Hopper.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/cheapest-most-expensive-us-flights-in-november.html",
+        "published_at": "2026-10-05T15:38:27Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+        "summary": "Microsoft and Wells Fargo landed upgrades, and there's some encouraging M&A activity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+        "published_at": "2026-10-05T12:59:40Z"
+      },
+      {
+        "headline": "Why airfare could rise even more, but airline profits won't",
+        "summary": "Airlines are trimming capacity as jet fuel prices keep climbing and travelers keep booking.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html",
+        "published_at": "2026-10-05T11:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9191,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 774.88,
+    "spy_change_pct": 0.6808,
+    "spy_lean": "bullish",
+    "vix_close": 15.31,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 85731.04,
+    "coinbase_premium_pct": 0.011712,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-05T21:13:26 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 238.9,
+        "change_pct": 2.1158,
+        "prev_close": 233.95
+      },
+      "AMD": {
+        "close": 631.75,
+        "change_pct": -0.3407,
+        "prev_close": 633.91
+      },
+      "TSM": {
+        "close": 485.8,
+        "change_pct": 2.7539,
+        "prev_close": 472.78
+      },
+      "SMCI": {
+        "close": 43.19,
+        "change_pct": -1.1444,
+        "prev_close": 43.69
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 756.2,
+        "change_pct": 0.8832,
+        "prev_close": 749.58
+      },
+      "SOXX": {
+        "close": 589.51,
+        "change_pct": 0.1036,
+        "prev_close": 588.9
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-02",
+    "total_net_inflow_usd": 189844086.2,
+    "total_net_assets_usd": 108893049844.69,
+    "total_value_traded_usd": 3025876699.6,
+    "cum_net_inflow_usd": 57787814959.12,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 85721,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 67,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 45,
+    "positive_count": 7,
+    "negative_count": 6,
+    "neutral_count": 32,
+    "sentiment_ratio": 0.1556,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "FinCEN withdraws proposed crypto mixing rule over \u2018legitimate activity\u2019 concerns",
+        "url": "https://cointelegraph.com/news/fincen-crypto-mixing-rule-legitimate-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T20:46:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why a 4chan Bitcoin Prophecy Says Today Is the End of Crypto Winter",
+        "url": "https://decrypt.co/380113/4chan-bitcoin-prophecy-end-crypto-winter",
+        "published_at": "2026-10-05T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury Kills Crypto 'Unhosted Wallet' and Mixer Surveillance Rules",
+        "url": "https://decrypt.co/380120/treasury-kills-crypto-unhosted-wallet-mixer-surveillance-rules",
+        "published_at": "2026-10-05T20:19:38+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Modern Treasury seeks US trust bank charter for digital asset custody",
+        "url": "https://cointelegraph.com/news/modern-treasury-seeks-us-trust-bank-charter-for-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T19:53:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T19:25:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Advocacy group pushes back on banks\u2019 lawsuit against OCC over charters",
+        "url": "https://cointelegraph.com/news/crypto-advocacy-groups-icba-lawsuit-occ-charters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T19:15:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Sleuth ZachXBT Fronted $350K to Pose as a Client of Lazarus' Chinese Launderers",
+        "url": "https://decrypt.co/380092/zachxbt-fronted-350k-pose-client-lazarus-chinese-crypto-launderers",
+        "published_at": "2026-10-05T18:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading",
+        "url": "https://decrypt.co/380108/sec-clears-3x-leveraged-bitcoin-ethereum-funds",
+        "published_at": "2026-10-05T18:12:28+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "S&P Global brings risk assessments to growing crypto lending vault sector",
+        "url": "https://cointelegraph.com/news/sp-global-launches-risk-assessments-for-10b-crypto-lending-vault-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T17:58:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC joins SEC in proposing crypto framework after failed CLARITY vote",
+        "url": "https://cointelegraph.com/news/cftc-proposed-crypto-framework-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-05T17:40:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
