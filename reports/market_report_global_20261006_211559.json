@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-06T21:14:55 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2921231281665.5,
+    "total_market_cap_change_24h_pct": -3.103,
+    "total_volume_24h_usd": 97279615370278.27,
+    "btc_dominance_pct": 58.7167,
+    "eth_dominance_pct": 11.2509,
+    "total2_usd": 1205980527645.47,
+    "total3_usd": 877315185893.55,
+    "active_cryptocurrencies": 21955,
+    "altcoin_season_index": 27,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 38.9784,
+        "price_usd": 0.613473,
+        "market_cap_usd": 182050436
+      },
+      {
+        "symbol": "ORCA",
+        "name": "Orca",
+        "price_change_24h_pct": 37.0942,
+        "price_usd": 3.01,
+        "market_cap_usd": 183049142
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 20.1824,
+        "price_usd": 0.089096,
+        "market_cap_usd": 138987944
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 14.3107,
+        "price_usd": 0.211217,
+        "market_cap_usd": 168823226
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": 13.847,
+        "price_usd": 0.02341134,
+        "market_cap_usd": 188797128
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MINA",
+        "name": "Mina Protocol",
+        "price_change_24h_pct": -24.4652,
+        "price_usd": 0.119801,
+        "market_cap_usd": 154762636
+      },
+      {
+        "symbol": "SHX",
+        "name": "Stronghold",
+        "price_change_24h_pct": -18.978,
+        "price_usd": 0.00722377,
+        "market_cap_usd": 134468251
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": -14.3054,
+        "price_usd": 0.136705,
+        "market_cap_usd": 135027049
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -12.6301,
+        "price_usd": 0.669757,
+        "market_cap_usd": 468594752
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": -11.4049,
+        "price_usd": 1.93,
+        "market_cap_usd": 161537904
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 85539,
+    "price_change_24h_pct": -0.2303,
+    "price_change_7d_pct": 2.4316,
+    "market_cap_usd": 1718675296106,
+    "volume_24h_usd": 27355909484,
+    "direction": "neutral",
+    "oi_usd": 8161206788.95,
+    "funding_rate_latest": 2.245e-05,
+    "funding_rate_7d_avg": 3.3882380952380954e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0864,
+    "long_account_pct": 52.07,
+    "short_account_pct": 47.93,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2696.23,
+    "price_change_24h_pct": -0.5677,
+    "price_change_7d_pct": 0.3235,
+    "market_cap_usd": 329235190767,
+    "volume_24h_usd": 11155068507,
+    "eth_btc_ratio": 0.03152,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 96510038775.6,
+    "stablecoin_market_cap_usd": 314071898933.81,
+    "stablecoin_dominance_pct": 10.7514
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Former German spy chief arrested for attempted treason, obtaining state secrets - Reuters",
+        "summary": "Former German spy chief arrested for attempted treason, obtaining state secrets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObU8wUVdxRFgxQzZyTGZXbHhIOEhBTHAzR2luYTFzZDkyXzhLV21OZHhtYWFFd1c4TDFTZzFURFc1SzRPRFA2NlJaYm1VbFFNMU4yT2t1NHRBYW8zZmFXVW52clZJbWJVeVZfVHlfYVk4N2hRUnRxcHN3SFhFSHBPOHBIaVRGRkdaZWd2QnpNQ21QSU0tV3FhQlg1Z2tzZzM5MTRWazcwS211bTJrM3k0N0M3MkJLNmFZczE2RkhkaVkxOEhP?oc=5",
+        "published_at": "2026-10-06T18:57:43Z"
+      },
+      {
+        "headline": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio - Reuters",
+        "summary": "'I'm getting fed up': voters line up before dawn as early voting begins in Ohio\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3NBVWtIOEhDaDlKenA1S0x2NUh3dDFfa1c5REw3OThWbjVzQnpwWVhQd09nYnBJU2dwMFJfZWxhcU1nb1JTR1JETm85R1lRV0RVZEViRmR0UGZJdmpSQUdNLXZhTWRleFRaMndmX283c29UY3FvZE9KSVBsRVM0ZW5rMXZYam9FeklWUTZoU3FKQ2pDcFBzc21LVFF6QndO?oc=5",
+        "published_at": "2026-10-06T18:52:59Z"
+      },
+      {
+        "headline": "What Marvell's rosy long-term guidance means for our AI chip stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+        "published_at": "2026-10-06T18:51:01Z"
+      },
+      {
+        "headline": "Kalshi launches transparency features on its election contracts ahead of midterms",
+        "summary": "The platform will now provide tags that indicate which election markets have low volumes.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/06/kalshi-launches-transparency-features-on-its-election-contracts-ahead-of-midterms-.html",
+        "published_at": "2026-10-06T18:34:49Z"
+      },
+      {
+        "headline": "Northeast Democrats urge Trump administration action as heating oil costs surge - Reuters",
+        "summary": "Northeast Democrats urge Trump administration action as heating oil costs surge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSjNTOThyMXhvc1UzM1A2TVVrak53cDQ2d2h5dElha3lIWVU1NXVVbjhpRHhCejJldi1IS04tOVpBNzR1eDFGeGthX0F3TUNmSXljbkhaWnR6X0xIRmtMNUZtbW5KeG9nQ0NTMXFsdE9rdmdlTjE5dlFOR3JfbFJiWGJUU1pBUTd3RE8wNHgtcVowX1NlWUxRM3VESDM3d1NYRFFJdUJEeGR0eGd3blZtZnhKRDZpTlR3bE1fMEtKS25NS0l0OFVvVw?oc=5",
+        "published_at": "2026-10-06T17:52:48Z"
+      },
+      {
+        "headline": "How the S&P 500 can be at record highs, while the market remains oversold",
+        "summary": "The S&P 500's new all-time high Tuesday might just be one of the most hated records in recent memory.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/06/how-the-sp-500-can-be-at-record-highs-while-the-market-remains-oversold.html",
+        "published_at": "2026-10-06T17:41:46Z"
+      },
+      {
+        "headline": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
+        "summary": "US EIA hikes oil price forecasts again as Iran war drains global stockpile\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
+        "published_at": "2026-10-06T17:39:05Z"
+      },
+      {
+        "headline": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego - Reuters",
+        "summary": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMTY3RjZOMDVYS2VsdWNRS0ZWR0FoRTU1V1MtQk8wLWdEMmdvTXYwVUxORXFpQXNFM25wbU9uVFFKNnhMSmlYUkFEQ0xhNnNKMk5hTjZURGhtV3piTlhieVVhb3h4N3hCYmtTQUVZZUh5dkhPaERqT0hFWXdPQl8wYVNfemd6VkZqSXVEVHQ0Q2NzWWpQUlVjVUhpdHhDWnZUMWl4RUZKTVplVWp6c3prRDhGZw?oc=5",
+        "published_at": "2026-10-06T17:16:50Z"
+      },
+      {
+        "headline": "EU to delay methane emissions rules for one year and no more, energy chief says - Reuters",
+        "summary": "EU to delay methane emissions rules for one year and no more, energy chief says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWJxRGxvRk5YTXVKbjZPSndYMTdEa3dlZjByT3dFN1k0dXZ1NWdiNVBGUVlDVEt5akxfckFZYUJHOV9sUDMwVnlpWVR0MG5mNGtacnhfVW80azQwUU1jVzR5NlhYNXRzX0p5TUdQQXVVeGF0OUFvd3VMR2ZXcFhpa3RYTkJTeXVzR2hrYWFTcTRhaVdrTmlNRFd0ckNiTURRaHQ1Ny05TzctaThrQ1RXSzlGQUVkTzBpeEZz?oc=5",
+        "published_at": "2026-10-06T17:01:53Z"
+      },
+      {
+        "headline": "UK police make further arrest over suspected Fairford airbase plot - Reuters",
+        "summary": "UK police make further arrest over suspected Fairford airbase plot\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2c1UTlFZXNSUXNHTkZYTmxtSjZTekZRYlEtanhyRHQ1SlkzbWtaN0ZpZzBuY3ZuUEIyQ2ZncjdGQ3lvMUNXaTFPdHFYRDZhTWxfbzRtUHF0VGZXZHJvdjQ4X2tZcXRFTGxjRG5fOU5OLUY2YmpqWkxDUGVGQW5ta05wVU9VYmJpX0I0X3p3YWtBX2FhLWV5VVV4Mkx1eDg4NmVuc3Z2TVBzUQ?oc=5",
+        "published_at": "2026-10-06T16:26:05Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.1231,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 779.14,
+    "spy_change_pct": 0.5563,
+    "spy_lean": "bullish",
+    "vix_close": 15.52,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 85554.26,
+    "coinbase_premium_pct": 0.01784,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-06T21:14:55 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 239.24,
+        "change_pct": 0.1423,
+        "prev_close": 238.9
+      },
+      "AMD": {
+        "close": 649.42,
+        "change_pct": 2.797,
+        "prev_close": 631.75
+      },
+      "TSM": {
+        "close": 482.3,
+        "change_pct": -0.7205,
+        "prev_close": 485.8
+      },
+      "SMCI": {
+        "close": 43.46,
+        "change_pct": 0.6251,
+        "prev_close": 43.19
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 759.66,
+        "change_pct": 0.4576,
+        "prev_close": 756.2
+      },
+      "SOXX": {
+        "close": 589.45,
+        "change_pct": -0.0102,
+        "prev_close": 589.51
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-05",
+    "total_net_inflow_usd": -89897783.0,
+    "total_net_assets_usd": 110772879753.91,
+    "total_value_traded_usd": 2176922723.3,
+    "cum_net_inflow_usd": 57697917176.12,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 85539,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 67,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 62,
+    "positive_count": 15,
+    "negative_count": 8,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.2419,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Conduit sues Tether over allegedly freezing $2.8M without explanation",
+        "url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-06T21:00:44+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Winklevoss-backed Zcash ETF files with SEC for Nasdaq listing",
+        "url": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-06T20:53:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-06T20:48:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
+        "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+        "published_at": "2026-10-06T20:28:53+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pudgy Penguins-backed Ethereum L2 Abstract to shut down after losing \u2018tens of millions\u2019",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-06-abstract-ethereum-layer-2-shutting-down-pudgy-penguins-igloo-417855",
+        "published_at": "2026-10-06T20:11:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether Hit With Lawsuit Over $2.76 Million Stablecoin Freeze",
+        "url": "https://decrypt.co/380222/tether-lawsuit-2-76-million-stablecoin-freeze",
+        "published_at": "2026-10-06T19:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK names 6 banks to lead first digitally native government bond",
+        "url": "https://cointelegraph.com/news/uk-taps-6-banks-to-lead-first-digitally-native-government-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-06T19:19:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bryan Johnson Spent Millions to Reverse Aging. He Says a Filter Works Better",
+        "url": "https://decrypt.co/380211/bryan-johnson-best-anti-aging-filters",
+        "published_at": "2026-10-06T19:15:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Another Zcash ETF Is Coming: Winklevoss Twins File for 'WINK'",
+        "url": "https://decrypt.co/380210/another-zcash-etf-coming-winklevoss-twins-wink",
+        "published_at": "2026-10-06T18:42:34+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia\u2019s digital ruble accounts top 220K in first month, nearly 4X central bank forecast",
+        "url": "https://cointelegraph.com/news/russia-digital-ruble-adoption-brics-cbdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-06T18:19:35+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
