@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-07T21:10:30 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2844771413974.85,
+    "total_market_cap_change_24h_pct": -5.4233,
+    "total_volume_24h_usd": 108834507004.82,
+    "btc_dominance_pct": 58.7863,
+    "eth_dominance_pct": 11.0261,
+    "total2_usd": 1172435380907.02,
+    "total3_usd": 858766911176.1,
+    "active_cryptocurrencies": 22031,
+    "altcoin_season_index": 41,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 61.9772,
+        "price_usd": 21.15,
+        "market_cap_usd": 201176417
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": 34.1158,
+        "price_usd": 0.444676,
+        "market_cap_usd": 250138381
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 24.6062,
+        "price_usd": 1.41,
+        "market_cap_usd": 477441805
+      },
+      {
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "price_change_24h_pct": 17.7763,
+        "price_usd": 0.07801,
+        "market_cap_usd": 229616912
+      },
+      {
+        "symbol": "RAY",
+        "name": "Raydium",
+        "price_change_24h_pct": 12.7365,
+        "price_usd": 2.49,
+        "market_cap_usd": 672780784
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": -21.394,
+        "price_usd": 0.166411,
+        "market_cap_usd": 133285384
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -17.2608,
+        "price_usd": 0.507944,
+        "market_cap_usd": 150720476
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price_change_24h_pct": -11.107,
+        "price_usd": 0.079002,
+        "market_cap_usd": 1850733209
+      },
+      {
+        "symbol": "FIL",
+        "name": "Filecoin",
+        "price_change_24h_pct": -10.698,
+        "price_usd": 1.04,
+        "market_cap_usd": 868047670
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -10.3425,
+        "price_usd": 0.02569067,
+        "market_cap_usd": 303913514
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 83333,
+    "price_change_24h_pct": -2.5943,
+    "price_change_7d_pct": -0.2187,
+    "market_cap_usd": 1674575959836,
+    "volume_24h_usd": 39208284412,
+    "direction": "bearish",
+    "oi_usd": 8029519965.12,
+    "funding_rate_latest": 1.152e-05,
+    "funding_rate_7d_avg": 2.5640952380952383e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6831,
+    "long_account_pct": 62.73,
+    "short_account_pct": 37.27,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2572.16,
+    "price_change_24h_pct": -4.6271,
+    "price_change_7d_pct": -3.5815,
+    "market_cap_usd": 314094604254,
+    "volume_24h_usd": 18929987940,
+    "eth_btc_ratio": 0.030866,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 93483855074.59,
+    "stablecoin_market_cap_usd": 314323912042.7,
+    "stablecoin_dominance_pct": 11.0492
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 34,
+    "headlines": [
+      {
+        "headline": "SpaceX\u2019s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
+        "summary": "SpaceX shows that companies are making a return on their AI compute investments, according to Jim Cramer.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/07/spacexs-plans-to-buy-more-nvidia-gpus-is-keeping-jim-cramer-bullish-on-the-chip-stock-.html",
+        "published_at": "2026-10-07T20:24:48Z"
+      },
+      {
+        "headline": "Explainer: The status of Iran's uranium enrichment programme - Reuters",
+        "summary": "Explainer: The status of Iran's uranium enrichment programme\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnlJOEpCTFRFNHYydjJsZE5xaXBTQUZtbGxveEo4MlJlYlR2V083Z29pLXV4TFdxWS1zTjVNTS1fWHh4Zkt4TTNqcXIzVDhiOGluLUZoaDNtS216c3R0WVQ3VmJkY0xFVUgzWVpKVGZjbTFlRmpKdnB4MzBIT055cWpVMGJrV29Db2llb2tlTVhMU2RMSFJrS19WUQ?oc=5",
+        "published_at": "2026-10-07T20:02:51Z"
+      },
+      {
+        "headline": "Most Republicans in tight midterm races distance themselves from Trump, Reuters review finds - Reuters",
+        "summary": "Most Republicans in tight midterm races distance themselves from Trump, Reuters review finds\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWpHUU05ZlNYUVZhUDRvOEtsU2tKOWJWLWM4OUZFWm1PRkJDZDJCZzBIenFyenhDT3o2T1c0QzhJRG4xS2xQTUMxX0VyZVZoSm92ZG8wdGlKdjRmeTI3SldqeHgxM3FabHRZMHI1SXA2dUsySGtza0dWNllWT21ZeVdPWEwwaHdoeUowSEJ2dWdqakxFTDNiQ1dUNkZhT0xyRThrZTM2Z0lmM1JKa2xManNhLUphOVlOOUJ0eVJzdw?oc=5",
+        "published_at": "2026-10-07T19:47:02Z"
+      },
+      {
+        "headline": "IEA to accelerate oil reserve release, says 100 million barrels still to come - Reuters",
+        "summary": "IEA to accelerate oil reserve release, says 100 million barrels still to come\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWQwZFJidm90SFN2SzVMQVk2ZTZrVDI0LVhoWDloYnNCU2NuTE1ZUlZFM3dyZTFPaUptLXFZNlA2TTQtZFRFdXRDREdIZUtyWHhQbDQ4TDZOU1JpdjhENmxZLVdpU21ZaC1GcEFGT3MyZE5YX0FoZXJPUTM2TDNrTXpoTjRzUTh5V2VQdFlYTmFVTmtBYWIzR0hleXJ3RnZRNy1YTVRNQkxtSDF2OTZ1OUhYMkxFaGdNaUVSWnhxWQ?oc=5",
+        "published_at": "2026-10-07T19:28:08Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say - Reuters",
+        "summary": "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZDFQZzNVZkV5bHhCZ2FaemZmZDdyMTZtWndQR2tTakxOaW9SWTI2clhnZWpKcDZaVU9RS2p0TUJ0UGoxWWxUQm1JZ3pWYzZJN1pKSkROLTFzc2pqdE9TUEd6b1pQM2dlVE16VEZJbVlOOWFxUUhud3c5UXZ1N3NMMldSRkwxNS1hbnN2ZkxHX1hMaTAzSHMxODdFa2xhU1dTcVpmQ282d2xOUEZRbGpTejZmRFFCVzBsMTh6bnh3?oc=5",
+        "published_at": "2026-10-07T19:07:56Z"
+      },
+      {
+        "headline": "New data strengthens our faith in a TJX comeback. Plus, the Nvidia-Microsoft PC is here",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/07/new-data-strengthens-our-faith-in-a-tjx-comeback-plus-the-nvidia-microsoft-pc-is-here.html",
+        "published_at": "2026-10-07T19:07:37Z"
+      },
+      {
+        "headline": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
+        "summary": "So instead of buying QQQ outright and exposing your portfolio to severe downside risk, buying calls at current option prices is a smarter, capital-efficient way to stay long.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/07/strange-market-anomaly-is-creating-a-buying-opportunity-in-the-nasdaq-100.html",
+        "published_at": "2026-10-07T18:44:33Z"
+      },
+      {
+        "headline": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say - Reuters",
+        "summary": "Syria weighs military aid for Saudi Arabia amid Yemen war, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWZMNEFpTGtIVEhwLWJHUXdGdGliYUtUazZhMk1yd3RDLW9yZllOblA2U1BvLVZaN2pvejZpaWwwenF5MzhObG93NC1BYzJhVGdIelROY2VXSTF6RTJ3MDROSzVYMUVoUm9UMHdCcTZEbVBxODRVVEYxRGIxZWljUHdiSVJDcUxubndSdFM3RFdNYmZOWDdBZk1tdXgzVzRFTGZmWlZPeDZVOGtZUXNwaEFEVTZnMzMxclRZ?oc=5",
+        "published_at": "2026-10-07T18:21:26Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Saudi Arabia launches air safety probe into flydubai incident, sources say - Reuters",
+        "summary": "EXCLUSIVE: Saudi Arabia launches air safety probe into flydubai incident, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjBULXpYUldRcnZ0TUJ2bXJSUFlkNkdQSHdoT3YtX1RUVWZNb2NYdlI0OF9seXUwMU5CbFRtTnkxeXRuRUNaV01yQlBHZE5HS2pGZDJPMlVxalpacXpxOUVjZDhpc3hYTURMUDBBV0tEMFdNX0I3RS1naEVsOHVjTTB2S0cwM1owQklJVVlrblFGeXpVelE4SmotNGFxYmZyMFpuNXhSaHNFOVl3MGFrckpvb3RDakFOMnh1SnlSaTZYZnRYWUE?oc=5",
+        "published_at": "2026-10-07T18:12:06Z"
+      },
+      {
+        "headline": "Another Micron triple? Where we agree with this wildly bullish call and where we don't",
+        "summary": "Micron shares are too cheap. But the debate around the sustainability of the cycle isn't ending anytime soon.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/07/another-micron-triple-where-we-agree-with-this-wildly-bullish-call-and-where-we-dont.html",
+        "published_at": "2026-10-07T17:52:55Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.8493,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 777.26,
+    "spy_change_pct": -0.2349,
+    "spy_lean": "neutral",
+    "vix_close": 15.01,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 83297.99,
+    "coinbase_premium_pct": -0.042012,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-07T21:10:30 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 237.47,
+        "change_pct": -0.7398,
+        "prev_close": 239.24
+      },
+      "AMD": {
+        "close": 645.86,
+        "change_pct": -0.5482,
+        "prev_close": 649.42
+      },
+      "TSM": {
+        "close": 472.2,
+        "change_pct": -2.0941,
+        "prev_close": 482.3
+      },
+      "SMCI": {
+        "close": 44.94,
+        "change_pct": 3.4054,
+        "prev_close": 43.46
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 757.73,
+        "change_pct": -0.2541,
+        "prev_close": 759.66
+      },
+      "SOXX": {
+        "close": 582.82,
+        "change_pct": -1.1248,
+        "prev_close": 589.45
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-06",
+    "total_net_inflow_usd": 118862451.88,
+    "total_net_assets_usd": 110676765532.6,
+    "total_value_traded_usd": 1836745281.3,
+    "cum_net_inflow_usd": 57816779628.0,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 83333,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 61,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 51,
+    "positive_count": 9,
+    "negative_count": 9,
+    "neutral_count": 33,
+    "sentiment_ratio": 0.1765,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
+        "url": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-07T20:48:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic Launches Haiku 5.5: Its Cheapest and Fastest Claude Model Yet",
+        "url": "https://decrypt.co/380351/anthropic-launches-haiku-5-5-cheapest-fastest-claude-model",
+        "published_at": "2026-10-07T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC and CFTC Crypto Rules 'Fall Short' of Clarity, Says Rep. French Hill",
+        "url": "https://decrypt.co/380349/sec-cftc-crypto-rules-fall-short-clarity-french-hill",
+        "published_at": "2026-10-07T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Lets Traders Use Tokenized JPMorgan And Eli Lilly Shares As Margin Collateral",
+        "url": "https://bitcoinist.com/binance-lets-traders-use-tokenized-jpmorgan-and-eli-lilly-shares-as/",
+        "published_at": "2026-10-07T20:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether Signs Deal With Kazakhstan's Central Bank to Explore a Stablecoin and Tokenized Assets",
+        "url": "https://decrypt.co/380347/tether-kazakhstan-central-bank-stablecoin-tokenized-assets",
+        "published_at": "2026-10-07T19:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Used AI Agents to Raid a Megachurch's Database, Exposing 850,000 Members",
+        "url": "https://decrypt.co/380339/hackers-ai-agents-megachurch-database",
+        "published_at": "2026-10-07T19:10:31+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Moomoo Taps CROSSx To Bring Institutional-Grade Crypto Execution To Retail Traders",
+        "url": "https://bitcoinist.com/moomoo-taps-crossx-to-bring-institutional-grade-crypto-execution-to/",
+        "published_at": "2026-10-07T19:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-07T18:55:36+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale says crypto ETF market is entering new phase as Zcash ETF tops $1 billion",
+        "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953",
+        "published_at": "2026-10-07T18:37:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Lets You Build a Video Game by Typing a Description",
+        "url": "https://decrypt.co/380326/google-build-video-game-typing-description",
+        "published_at": "2026-10-07T18:08:51+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 6,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
