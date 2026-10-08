@@ -1,0 +1,257 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-08T21:50:08 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 110.04,
+    "price_change_24h_pct": -4.674,
+    "price_change_7d_pct": -6.8308,
+    "volume_24h_usd": 4791718177,
+    "market_cap_usd": 64828455281,
+    "volume_to_mcap_ratio": 0.073914,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -62.4847,
+    "cex_price_usd": 110.1,
+    "cex_24h_high": 116.81,
+    "cex_24h_low": 105.71,
+    "cex_dex_spread_pct": 0.054526,
+    "volume_on_up_days_usd": 3652257492.8498974,
+    "volume_on_down_days_usd": 3954678911.8874116,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 71.4722,
+    "rsi_lean": "bearish",
+    "macd": {
+      "macd_line": 9.91279,
+      "signal_line": 6.575875,
+      "histogram": 3.336915
+    },
+    "macd_lean": "bullish",
+    "sma_50": 86.4124,
+    "price_vs_sma50_pct": 27.3428,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 130.466807,
+      "mid": 94.621,
+      "lower": 58.775193,
+      "width_pct": 75.7671,
+      "position": 0.8646
+    },
+    "bb_lean": "bearish"
+  },
+  "derivatives": {
+    "oi_usd": 948912573.49,
+    "oi_lean": null,
+    "funding_rate_latest": 2.517e-05,
+    "funding_rate_7d_avg": 3.094285714285715e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.9011,
+    "btc_long_account_pct": 65.53,
+    "btc_short_account_pct": 34.47,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 6282268730.0,
+    "tvl_7d_change_pct": -4.4556,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 13634451.7,
+    "chain_fees_7d_avg_usd": 15153125.23,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 9,
+    "positive_count": 4,
+    "negative_count": 0,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.4444,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Securitize stock jumps over 10% after launching tokenized US equities on Solana",
+        "url": "https://cointelegraph.com/news/securitize-stock-jumps-launching-tokenized-us-equities-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-08T19:31:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana DeFi Firms Orca and Loopscale Merge Under New Formation Brand",
+        "url": "https://decrypt.co/380522/solana-defi-firms-orca-and-loopscale-merge-under-new-formation-brand",
+        "published_at": "2026-10-08T18:16:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Decrypt Money Accounts on Solana to Power The Information Exchange",
+        "url": "https://decrypt.co/380436/decrypt-money-accounts-on-solana-to-power-the-information-exchange",
+        "published_at": "2026-10-08T15:42:16+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Securitize Brings Nvidia, Apple and Amazon Onchain With Tokenized Stocks on Solana",
+        "url": "https://decrypt.co/380458/securitize-nvidia-apple-amazon-tokenized-stocks-solana",
+        "published_at": "2026-10-08T15:10:49+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto lending rises again\u2026 but have they solved the risks?",
+        "url": "https://cointelegraph.com/magazine/crypto-lending-rises-again-but-have-they-solved-the-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-08T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices",
+        "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+        "published_at": "2026-10-08T09:05:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+        "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
+        "published_at": "2026-10-08T02:50:01+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized Securities Firm KoreInside Targets Ethereum, Solana And Avalanche With New Web3 Partnership",
+        "url": "https://bitcoinist.com/tokenized-securities-firm-koreinside-targets-ethereum-solana-and/",
+        "published_at": "2026-10-08T02:00:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana\u2019s Orca merges with Loopscale in push to finance AI, robotics and defense",
+        "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
+        "published_at": "2026-10-07T22:01:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 81651.0,
+    "btc_24h_change_pct": -1.8164,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 59.4322,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2758034840540.8086,
+    "eth_btc_ratio": 0.030293,
+    "eth_btc_lean": "neutral",
+    "dxy": 102.2805,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 773.97,
+    "spy_change_pct": -0.4182,
+    "spy_lean": "neutral",
+    "vix_close": 15.08,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 77.27,
+    "cg_sentiment_votes_down_pct": 22.73,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 6,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bearish",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bearish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
