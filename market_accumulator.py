@@ -27,6 +27,15 @@ RETAIN_MONTHLY = 3            # Keep last 3 monthly reports locally
 SCRIPT_VERSION = "1.0.0"
 SCHEMA_VERSION = "1.0.0"
 
+GLOBAL_CONFIG = {"token_name": "global", "output_prefix": "market_report_global"}
+GLOBAL_ROLLUP_SCHEMA_VERSION = "1.0.0"
+GLOBAL_SIGNAL_KEYS = [
+    "market_cap_direction_lean", "btc_dominance_lean", "altcoin_season_lean", "btc_direction_lean",
+    "btc_funding_lean", "btc_ls_lean", "eth_btc_lean", "dxy_lean", "broad_dollar_index_lean",
+    "spy_lean", "vix_lean", "fear_greed_lean", "news_volume_lean", "tech_sector_lean",
+    "coinbase_premium_lean", "etf_flow_lean", "liq_pressure_lean",
+]
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Muneo Market Accumulator — rolls up daily reports into weekly/monthly/quarterly summaries"
@@ -45,6 +54,12 @@ def parse_args():
         "--md",
         action="store_true",
         help="Write Markdown summaries alongside JSON output"
+    )
+    parser.add_argument(
+        "--global-weekly",
+        dest="global_weekly",
+        action="store_true",
+        help="Generate global weekly rollups from reports/market_report_global_*.json (local only)"
     )
     return parser.parse_args()
 
@@ -2947,8 +2962,399 @@ def clear_accumulated_output(paths: dict) -> None:
     
     print("  ✓ Cleared accumulated output — rebuilding from scratch")
 
+# ---------------------------------------------------------------------------
+# Global weekly rollup (local only — no network, no deletion)
+# ---------------------------------------------------------------------------
+
+def _global_values(daily_data: list[dict], *keys) -> list:
+    """Non-None values of a nested key across daily reports, in order."""
+    out = []
+    for d in daily_data:
+        v = _get_nested(d, *keys)
+        if v is not None:
+            out.append(v)
+    return out
+
+def _global_modal(values: list):
+    """Most frequent non-None value; ties go to the value whose last occurrence is latest."""
+    vals = [v for v in values if v is not None]
+    if not vals:
+        return None
+    counts, last_idx = {}, {}
+    for i, v in enumerate(vals):
+        counts[v] = counts.get(v, 0) + 1
+        last_idx[v] = i
+    return max(counts, key=lambda v: (counts[v], last_idx[v]))
+
+def _global_pct_change(start, end):
+    if start is None or end is None or start == 0:
+        return None
+    return round((end / start - 1) * 100, 4)
+
+def _global_mean(values: list, digits: int = 4):
+    if not values:
+        return None
+    return round(sum(values) / len(values), digits)
+
+def _global_start_end(values: list):
+    if not values:
+        return None, None
+    return values[0], values[-1]
+
+def _global_lean_streaks(daily_leans: list) -> dict:
+    """Streak logic identical to aggregate_weekly_signal_summary, over a list of daily leans."""
+    current_lean = None
+    current_len = 0
+    longest_bull = 0
+    longest_bear = 0
+    if daily_leans:
+        current_lean = daily_leans[-1]
+        for lean in reversed(daily_leans):
+            if lean == current_lean:
+                current_len += 1
+            else:
+                break
+        streak = 1
+        for i in range(1, len(daily_leans)):
+            if daily_leans[i] == daily_leans[i - 1] and daily_leans[i] is not None:
+                streak += 1
+            else:
+                streak = 1
+            if daily_leans[i] == "bullish":
+                longest_bull = max(longest_bull, streak)
+            elif daily_leans[i] == "bearish":
+                longest_bear = max(longest_bear, streak)
+        if daily_leans[0] == "bullish":
+            longest_bull = max(longest_bull, 1)
+        elif daily_leans[0] == "bearish":
+            longest_bear = max(longest_bear, 1)
+    return {
+        "current_streak_lean": current_lean,
+        "current_streak_length": current_len,
+        "longest_bullish_streak_in_period": longest_bull,
+        "longest_bearish_streak_in_period": longest_bear,
+    }
+
+def _global_last_nonempty_list(daily_data: list[dict], *keys, limit: int = 10) -> list:
+    for d in reversed(daily_data):
+        v = _get_nested(d, *keys)
+        if isinstance(v, list) and v:
+            return v[:limit]
+    return []
+
+def aggregate_global_weekly_market_structure(daily_data: list[dict]) -> dict:
+    ms = lambda k: _global_values(daily_data, "market_structure", k)
+    cap_s, cap_e = _global_start_end(ms("total_market_cap_usd"))
+    btcd_s, btcd_e = _global_start_end(ms("btc_dominance_pct"))
+    ethd_s, ethd_e = _global_start_end(ms("eth_dominance_pct"))
+    t2_s, t2_e = _global_start_end(ms("total2_usd"))
+    t3_s, t3_e = _global_start_end(ms("total3_usd"))
+    alt = ms("altcoin_season_index")
+    return {
+        "total_market_cap_usd_start": cap_s,
+        "total_market_cap_usd_end": cap_e,
+        "total_market_cap_change_pct": _global_pct_change(cap_s, cap_e),
+        "btc_dominance_pct_start": btcd_s,
+        "btc_dominance_pct_end": btcd_e,
+        "eth_dominance_pct_start": ethd_s,
+        "eth_dominance_pct_end": ethd_e,
+        "total2_usd_start": t2_s,
+        "total2_usd_end": t2_e,
+        "total3_usd_start": t3_s,
+        "total3_usd_end": t3_e,
+        "total_volume_24h_usd_avg": _global_mean(ms("total_volume_24h_usd")),
+        "altcoin_season_index_avg": _global_mean(alt),
+        "altcoin_season_index_close": alt[-1] if alt else None,
+        "altcoin_season_lean_modal": _global_modal(ms("altcoin_season_lean")),
+        "days_included": len(daily_data),
+    }
+
+def aggregate_global_weekly_btc(daily_data: list[dict]) -> dict:
+    bt = lambda k: _global_values(daily_data, "btc", k)
+    prices = bt("price_usd")
+    p_open, p_close = _global_start_end(prices)
+    oi_s, oi_e = _global_start_end(bt("oi_usd"))
+    return {
+        "price_open": p_open,
+        "price_close": p_close,
+        "price_high": max(prices) if prices else None,
+        "price_low": min(prices) if prices else None,
+        "period_return_pct": _global_pct_change(p_open, p_close),
+        "oi_usd_start": oi_s,
+        "oi_usd_end": oi_e,
+        "oi_change_pct": _global_pct_change(oi_s, oi_e),
+        "funding_rate_avg": _global_mean(bt("funding_rate_latest"), digits=8),
+        "long_short_ratio_avg": _global_mean(bt("long_short_ratio")),
+        "direction_modal": _global_modal(bt("direction")),
+        "funding_lean_modal": _global_modal(bt("funding_lean")),
+        "btc_ls_lean_modal": _global_modal(bt("btc_ls_lean")),
+        "days_included": len(daily_data),
+    }
+
+def aggregate_global_weekly_eth(daily_data: list[dict]) -> dict:
+    et = lambda k: _global_values(daily_data, "eth", k)
+    p_open, p_close = _global_start_end(et("price_usd"))
+    r_s, r_e = _global_start_end(et("eth_btc_ratio"))
+    return {
+        "price_open": p_open,
+        "price_close": p_close,
+        "period_return_pct": _global_pct_change(p_open, p_close),
+        "eth_btc_ratio_start": r_s,
+        "eth_btc_ratio_end": r_e,
+        "eth_btc_lean_modal": _global_modal(et("eth_btc_lean")),
+        "days_included": len(daily_data),
+    }
+
+def aggregate_global_weekly_defi(daily_data: list[dict]) -> dict:
+    df = lambda k: _global_values(daily_data, "defi", k)
+    tvl_s, tvl_e = _global_start_end(df("total_defi_tvl_usd"))
+    sc_s, sc_e = _global_start_end(df("stablecoin_market_cap_usd"))
+    sd_s, sd_e = _global_start_end(df("stablecoin_dominance_pct"))
+    return {
+        "total_defi_tvl_usd_start": tvl_s,
+        "total_defi_tvl_usd_end": tvl_e,
+        "tvl_change_pct": _global_pct_change(tvl_s, tvl_e),
+        "stablecoin_market_cap_usd_start": sc_s,
+        "stablecoin_market_cap_usd_end": sc_e,
+        "stablecoin_dominance_pct_start": sd_s,
+        "stablecoin_dominance_pct_end": sd_e,
+        "days_included": len(daily_data),
+    }
+
+def aggregate_global_weekly_macro(daily_data: list[dict]) -> dict:
+    mc = lambda k: _global_values(daily_data, "macro", k)
+    dxy_s, dxy_e = _global_start_end(mc("dxy"))
+    bd_s, bd_e = _global_start_end(mc("broad_dollar_index"))
+    spy_s, spy_e = _global_start_end(mc("spy_close"))
+    vix = mc("vix_close")
+    return {
+        "dxy_start": dxy_s,
+        "dxy_end": dxy_e,
+        "dxy_lean_modal": _global_modal(mc("dxy_lean")),
+        "broad_dollar_index_start": bd_s,
+        "broad_dollar_index_end": bd_e,
+        "broad_dollar_index_lean_modal": _global_modal(mc("broad_dollar_index_lean")),
+        "spy_close_start": spy_s,
+        "spy_close_end": spy_e,
+        "spy_return_pct": _global_pct_change(spy_s, spy_e),
+        "spy_lean_modal": _global_modal(mc("spy_lean")),
+        "vix_close_avg": _global_mean(vix),
+        "vix_close_end": vix[-1] if vix else None,
+        "vix_lean_modal": _global_modal(mc("vix_lean")),
+        "coinbase_premium_pct_avg": _global_mean(mc("coinbase_premium_pct")),
+        "coinbase_premium_lean_modal": _global_modal(mc("coinbase_premium_lean")),
+    }
+
+def aggregate_global_weekly_tech_equities(daily_data: list[dict]) -> dict:
+    leans = _global_values(daily_data, "tech_equities", "tech_sector_lean")
+    return {
+        "tech_sector_lean_modal": _global_modal(leans),
+        "days_with_data": len(leans),
+    }
+
+def aggregate_global_weekly_etf_flows(daily_data: list[dict]) -> dict:
+    by_date = {}
+    for d in daily_data:  # ascending, so later reports overwrite earlier ones for the same data_date
+        data_date = _get_nested(d, "etf_flows", "data_date")
+        net = _get_nested(d, "etf_flows", "total_net_inflow_usd")
+        if data_date is None or net is None:
+            continue
+        by_date[data_date] = d["etf_flows"]
+    days_with_data = len(_global_values(daily_data, "etf_flows", "total_net_inflow_usd"))
+    if not by_date:
+        return {
+            "net_inflow_sum_usd": None,
+            "unique_data_dates": 0,
+            "cum_net_inflow_usd_close": None,
+            "total_net_assets_usd_close": None,
+            "flow_lean_modal": None,
+            "days_with_data": 0,
+        }
+    cum = _global_values(daily_data, "etf_flows", "cum_net_inflow_usd")
+    assets = _global_values(daily_data, "etf_flows", "total_net_assets_usd")
+    return {
+        "net_inflow_sum_usd": sum(v["total_net_inflow_usd"] for v in by_date.values()),
+        "unique_data_dates": len(by_date),
+        "cum_net_inflow_usd_close": cum[-1] if cum else None,
+        "total_net_assets_usd_close": assets[-1] if assets else None,
+        "flow_lean_modal": _global_modal([v.get("flow_lean") for v in by_date.values()]),
+        "days_with_data": days_with_data,
+    }
+
+def aggregate_global_weekly_sentiment(daily_data: list[dict]) -> dict:
+    fg = _global_values(daily_data, "sentiment", "fear_greed_value")
+    label = None
+    for d in reversed(daily_data):
+        if _get_nested(d, "sentiment", "fear_greed_value") is not None:
+            label = _get_nested(d, "sentiment", "fear_greed_label")
+            break
+    return {
+        "fear_greed_avg": _global_mean(fg),
+        "fear_greed_min": min(fg) if fg else None,
+        "fear_greed_max": max(fg) if fg else None,
+        "fear_greed_close": fg[-1] if fg else None,
+        "fear_greed_label_close": label,
+        "fear_greed_lean_modal": _global_modal(_global_values(daily_data, "sentiment", "fear_greed_lean")),
+    }
+
+def aggregate_global_weekly_news(daily_data: list[dict]) -> dict:
+    counts = []
+    for d in daily_data:
+        c = _get_nested(d, "news", "article_count_24h")
+        if c is None:
+            c = _get_nested(d, "news", "news_article_count_24h")
+        if c is not None:
+            counts.append(c)
+    nw = lambda k: _global_values(daily_data, "news", k)
+    return {
+        "article_count_sum": sum(counts),
+        "positive_count_sum": sum(nw("positive_count")),
+        "negative_count_sum": sum(nw("negative_count")),
+        "neutral_count_sum": sum(nw("neutral_count")),
+        "sentiment_ratio_avg": _global_mean(nw("sentiment_ratio")),
+        "news_spike_days": sum(1 for v in nw("news_spike") if v is True),
+        "news_volume_lean_modal": _global_modal(nw("news_volume_lean")),
+        "top_headlines": _global_last_nonempty_list(daily_data, "news", "top_headlines"),
+        "macro_article_count_sum": sum(_global_values(daily_data, "macro_news", "article_count_24h")),
+        "macro_headlines": _global_last_nonempty_list(daily_data, "macro_news", "headlines"),
+    }
+
+def aggregate_global_weekly_signal_summary(daily_data: list[dict]) -> dict:
+    period_end = {}
+    modal = {}
+    for k in GLOBAL_SIGNAL_KEYS:
+        vals = _global_values(daily_data, "signal_summary", "signals", k)
+        period_end[k] = vals[-1] if vals else None
+        modal[k] = _global_modal(vals)
+    available = [k for k, v in period_end.items() if v is not None]
+    bullish = sum(1 for v in period_end.values() if v == "bullish")
+    bearish = sum(1 for v in period_end.values() if v == "bearish")
+    neutral = sum(1 for v in period_end.values() if v == "neutral")
+    if not available:
+        overall = None
+    elif bullish > bearish and bullish > neutral:
+        overall = "bullish"
+    elif bearish > bullish and bearish > neutral:
+        overall = "bearish"
+    else:
+        overall = "neutral"
+    daily_leans = [_get_nested(d, "signal_summary", "overall_lean") for d in daily_data]
+    return {
+        "signals_evaluated": len(GLOBAL_SIGNAL_KEYS),
+        "signals_available": len(available),
+        "signals_null": len(GLOBAL_SIGNAL_KEYS) - len(available),
+        "bullish_count": bullish,
+        "bearish_count": bearish,
+        "neutral_count": neutral,
+        "overall_lean": overall,
+        "signals": period_end,
+        "signal_modal": modal,
+        "signal_streaks": _global_lean_streaks(daily_leans),
+    }
+
+GLOBAL_GAP_PATHS = [
+    "market_structure.total_market_cap_usd", "btc.price_usd", "eth.price_usd",
+    "defi.total_defi_tvl_usd", "macro.dxy", "macro.spy_close", "macro.vix_close",
+    "macro.coinbase_premium_pct", "tech_equities.tech_sector_lean",
+    "etf_flows.total_net_inflow_usd", "sentiment.fear_greed_value", "news.article_count_24h",
+]
+
+def aggregate_global_weekly_data_gaps(daily_data: list[dict]) -> list:
+    return [p for p in GLOBAL_GAP_PATHS if not _global_values(daily_data, *p.split("."))]
+
+def aggregate_global_weekly_accumulation_metadata(daily_data: list[dict]) -> dict:
+    available = len(daily_data)
+    missing = 7 - available
+    if missing == 0:
+        quality = "complete"
+    elif available >= MIN_DAYS_FOR_WEEKLY:
+        quality = "partial"
+    else:
+        quality = "insufficient"
+    versions = sorted({v for v in _global_values(daily_data, "report_metadata", "schema_version") if isinstance(v, str)})
+    return {
+        "source": "accumulated",
+        "constituent_periods": 7,
+        "constituent_periods_available": available,
+        "constituent_periods_missing": missing,
+        "data_quality": quality,
+        "schema_versions_input": versions,
+        "days_with_fetch_errors": sum(1 for d in daily_data if d.get("fetch_errors")),
+    }
+
+def write_global_weekly_report(iso_year, iso_week, paths, deduped, daily_data) -> Path | None:
+    try:
+        acc = aggregate_global_weekly_accumulation_metadata(daily_data)
+        report = {
+            "period_metadata": {
+                "type": "weekly",
+                "scope": "global",
+                "period_id": f"{iso_year}-W{iso_week:02d}",
+                "iso_year": iso_year,
+                "iso_week": iso_week,
+                "start_date": deduped[0]["date_str"],
+                "end_date": deduped[-1]["date_str"],
+                "token": "global",
+                "days_included": len(daily_data),
+                "days_possible": 7,
+                "source": "accumulated",
+                "script_version": SCRIPT_VERSION,
+                "schema_version": GLOBAL_ROLLUP_SCHEMA_VERSION,
+                "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC"),
+                "data_quality": acc["data_quality"],
+            },
+            "market_structure": aggregate_global_weekly_market_structure(daily_data),
+            "btc": aggregate_global_weekly_btc(daily_data),
+            "eth": aggregate_global_weekly_eth(daily_data),
+            "defi": aggregate_global_weekly_defi(daily_data),
+            "macro": aggregate_global_weekly_macro(daily_data),
+            "tech_equities": aggregate_global_weekly_tech_equities(daily_data),
+            "etf_flows": aggregate_global_weekly_etf_flows(daily_data),
+            "sentiment": aggregate_global_weekly_sentiment(daily_data),
+            "news": aggregate_global_weekly_news(daily_data),
+            "signal_summary": aggregate_global_weekly_signal_summary(daily_data),
+            "data_gaps": aggregate_global_weekly_data_gaps(daily_data),
+            "not_aggregated": {"liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"},
+            "accumulation_metadata": acc,
+        }
+        out_path = paths["weekly"] / f"weekly_{iso_year}_W{iso_week:02d}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2)
+        return out_path
+    except Exception as e:
+        print(f"  ✗ Failed to write global weekly {iso_year}-W{iso_week:02d}: {e}")
+        return None
+
+def run_global_weekly() -> list[Path]:
+    """Build global weekly rollups from reports/market_report_global_*.json. Local only."""
+    paths = setup_directories(GLOBAL_CONFIG)
+    daily_reports = discover_daily_reports(paths["reports"], GLOBAL_CONFIG["output_prefix"])
+    print(f"Found {len(daily_reports)} global daily reports")
+    if not daily_reports:
+        return []
+    written = []
+    for (yr, wk), reports in sorted(group_by_iso_week(daily_reports).items()):
+        deduped = deduplicate_by_date(reports)
+        if len(deduped) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
+            continue
+        daily_data = [d for d in (load_daily_report(r["path"]) for r in deduped) if d is not None]
+        if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
+            continue
+        out = write_global_weekly_report(yr, wk, paths, deduped, daily_data)
+        if out:
+            written.append(out)
+            print(f"  Written: {out.name}")
+    print(f"\n{len(written)} global weekly reports written.")
+    return written
+
 def main():
     args = parse_args()
+
+    if args.global_weekly:
+        run_global_weekly()
+        return
 
     config_files = sorted(Path("configs").glob("*.json"))
     if not config_files:
