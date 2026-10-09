@@ -28,7 +28,7 @@ SCRIPT_VERSION = "1.0.0"
 SCHEMA_VERSION = "1.0.0"
 
 GLOBAL_CONFIG = {"token_name": "global", "output_prefix": "market_report_global"}
-GLOBAL_ROLLUP_SCHEMA_VERSION = "1.0.0"
+GLOBAL_ROLLUP_SCHEMA_VERSION = "1.1.0"
 GLOBAL_SIGNAL_KEYS = [
     "market_cap_direction_lean", "btc_dominance_lean", "altcoin_season_lean", "btc_direction_lean",
     "btc_funding_lean", "btc_ls_lean", "eth_btc_lean", "dxy_lean", "broad_dollar_index_lean",
@@ -3169,6 +3169,7 @@ def aggregate_global_weekly_etf_flows(daily_data: list[dict]) -> dict:
             "total_net_assets_usd_close": None,
             "flow_lean_modal": None,
             "days_with_data": 0,
+            "daily_flows": [],
         }
     cum = _global_values(daily_data, "etf_flows", "cum_net_inflow_usd")
     assets = _global_values(daily_data, "etf_flows", "total_net_assets_usd")
@@ -3179,6 +3180,10 @@ def aggregate_global_weekly_etf_flows(daily_data: list[dict]) -> dict:
         "total_net_assets_usd_close": assets[-1] if assets else None,
         "flow_lean_modal": _global_modal([v.get("flow_lean") for v in by_date.values()]),
         "days_with_data": days_with_data,
+        "daily_flows": [
+            {"data_date": dd, "net_inflow_usd": by_date[dd]["total_net_inflow_usd"]}
+            for dd in sorted(by_date)
+        ],
     }
 
 def aggregate_global_weekly_sentiment(daily_data: list[dict]) -> dict:
