@@ -2732,6 +2732,51 @@ def prune_accumulated_output(paths: dict, config: dict) -> dict:
     return deleted
 
 
+def push_weekly_files_to_github(paths: dict, config: dict, weeks: set) -> set:
+    """
+    Push the weekly rollup files for the given (iso_year, iso_week) tuples to GitHub.
+    Returns the set of weeks whose PUT succeeded (HTTP 200/201). Never raises.
+    """
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+    if not token or not repo:
+        print("  ⚠ Weekly push skipped — GITHUB_TOKEN or GITHUB_REPO not set; no daily reports will be deleted")
+        return set()
+
+    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+    token_lower = config["token_name"].lower()
+    confirmed = set()
+    for yr, wk in sorted(weeks):
+        filename = f"weekly_{yr}_W{wk:02d}.json"
+        github_path = f"context/{token_lower}/accumulated/weekly/{filename}"
+        try:
+            local_path = paths["weekly"] / filename
+            if not local_path.exists():
+                print(f"  ⚠ Weekly file missing locally — {filename} not pushed")
+                continue
+            api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
+            sha = None
+            get_resp = requests.get(api_url, headers=headers, timeout=10)
+            if get_resp.status_code == 200:
+                sha = get_resp.json().get("sha")
+            payload = {
+                "message": f"accumulator: update {filename}",
+                "content": base64.b64encode(local_path.read_text(encoding="utf-8").encode()).decode(),
+                "branch": branch,
+            }
+            if sha:
+                payload["sha"] = sha
+            put_resp = requests.put(api_url, headers=headers, json=payload, timeout=15)
+            if put_resp.status_code in (200, 201):
+                confirmed.add((yr, wk))
+                print(f"  ✓ Weekly confirmed on GitHub — {github_path}")
+            else:
+                print(f"  ✗ Weekly push failed — {github_path} HTTP {put_resp.status_code}: {put_resp.text[:100]}")
+        except Exception as e:
+            print(f"  ✗ Weekly push failed — {github_path}: {e}")
+    return confirmed
+
 def push_accumulated_to_github(paths: dict, config: dict) -> None:
     """
     Push all accumulated output files to GitHub.
@@ -2998,9 +3043,16 @@ def main():
                 print(f"  Written: {output_path.name}")
         print(f"\n{len(weekly_written)} weekly reports written.")
 
+        print("\nPushing weekly reports to GitHub before cleanup...")
+        confirmed_weeks = push_weekly_files_to_github(paths, config, rolled_up_weeks)
+        unconfirmed = rolled_up_weeks - confirmed_weeks
+        print(f"  {len(confirmed_weeks)} weekly report(s) confirmed on GitHub.")
+        if unconfirmed:
+            print(f"  ⚠ {len(unconfirmed)} week(s) not confirmed — their daily reports will NOT be deleted this run")
+
         # Clean up old daily reports (local + GitHub) now rolled up into weekly reports
         print("\nCleaning up old daily reports...")
-        cleanup_result = cleanup_old_daily_reports(daily_reports, rolled_up_weeks)
+        cleanup_result = cleanup_old_daily_reports(daily_reports, confirmed_weeks)
         local_deleted = len(cleanup_result["local"])
         remote_deleted = len(cleanup_result["remote"])
         if local_deleted == 0 and remote_deleted == 0:
