@@ -61,6 +61,12 @@ def parse_args():
         action="store_true",
         help="Generate global weekly rollups from reports/market_report_global_*.json (local only)"
     )
+    parser.add_argument(
+        "--global-rollups",
+        dest="global_rollups",
+        action="store_true",
+        help="Generate global monthly and quarterly rollups from existing global weekly files (local only)"
+    )
     return parser.parse_args()
 
 def load_config(config_path: str) -> dict:
@@ -3354,11 +3360,376 @@ def run_global_weekly() -> list[Path]:
     print(f"\n{len(written)} global weekly reports written.")
     return written
 
+# ---------------------------------------------------------------------------
+# Global monthly / quarterly rollups (local only — no network, no deletion)
+# ---------------------------------------------------------------------------
+
+def _global_weights(reports: list[dict]) -> list[int]:
+    return [(_get_nested(r, "period_metadata", "days_included") or 1) for r in reports]
+
+def _global_weighted_mean(reports: list[dict], *keys, digits: int = 4):
+    total = 0.0
+    weight = 0
+    for r, w in zip(reports, _global_weights(reports)):
+        v = _get_nested(r, *keys)
+        if v is not None:
+            total += v * w
+            weight += w
+    if weight == 0:
+        return None
+    return round(total / weight, digits)
+
+def _global_first(reports: list[dict], *keys):
+    vals = _global_values(reports, *keys)
+    return vals[0] if vals else None
+
+def _global_last(reports: list[dict], *keys):
+    vals = _global_values(reports, *keys)
+    return vals[-1] if vals else None
+
+def _global_sum(reports: list[dict], *keys):
+    vals = _global_values(reports, *keys)
+    return sum(vals) if vals else None
+
+def _global_max(reports: list[dict], *keys):
+    vals = _global_values(reports, *keys)
+    return max(vals) if vals else None
+
+def _global_min(reports: list[dict], *keys):
+    vals = _global_values(reports, *keys)
+    return min(vals) if vals else None
+
+def _global_reps(period_reports: list[dict]) -> list[dict]:
+    return [p["report"] for p in period_reports]
+
+def aggregate_global_rollup_market_structure(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    ms = lambda *k: ("market_structure",) + k
+    out = {
+        "total_market_cap_usd_start": _global_first(r, *ms("total_market_cap_usd_start")),
+        "total_market_cap_usd_end": _global_last(r, *ms("total_market_cap_usd_end")),
+    }
+    out["total_market_cap_change_pct"] = _global_pct_change(out["total_market_cap_usd_start"], out["total_market_cap_usd_end"])
+    for name in ("btc_dominance_pct", "eth_dominance_pct", "total2_usd", "total3_usd"):
+        out[f"{name}_start"] = _global_first(r, *ms(f"{name}_start"))
+        out[f"{name}_end"] = _global_last(r, *ms(f"{name}_end"))
+    out["total_volume_24h_usd_avg"] = _global_weighted_mean(r, *ms("total_volume_24h_usd_avg"))
+    out["altcoin_season_index_avg"] = _global_weighted_mean(r, *ms("altcoin_season_index_avg"))
+    out["altcoin_season_index_close"] = _global_last(r, *ms("altcoin_season_index_close"))
+    out["altcoin_season_lean_modal"] = _global_modal(_global_values(r, *ms("altcoin_season_lean_modal")))
+    out["periods_included"] = len(period_reports)
+    return out
+
+def aggregate_global_rollup_btc(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    p_open = _global_first(r, "btc", "price_open")
+    p_close = _global_last(r, "btc", "price_close")
+    oi_s = _global_first(r, "btc", "oi_usd_start")
+    oi_e = _global_last(r, "btc", "oi_usd_end")
+    return {
+        "price_open": p_open,
+        "price_close": p_close,
+        "price_high": _global_max(r, "btc", "price_high"),
+        "price_low": _global_min(r, "btc", "price_low"),
+        "period_return_pct": _global_pct_change(p_open, p_close),
+        "oi_usd_start": oi_s,
+        "oi_usd_end": oi_e,
+        "oi_change_pct": _global_pct_change(oi_s, oi_e),
+        "funding_rate_avg": _global_weighted_mean(r, "btc", "funding_rate_avg", digits=8),
+        "long_short_ratio_avg": _global_weighted_mean(r, "btc", "long_short_ratio_avg"),
+        "direction_modal": _global_modal(_global_values(r, "btc", "direction_modal")),
+        "funding_lean_modal": _global_modal(_global_values(r, "btc", "funding_lean_modal")),
+        "btc_ls_lean_modal": _global_modal(_global_values(r, "btc", "btc_ls_lean_modal")),
+        "periods_included": len(period_reports),
+    }
+
+def aggregate_global_rollup_eth(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    p_open = _global_first(r, "eth", "price_open")
+    p_close = _global_last(r, "eth", "price_close")
+    return {
+        "price_open": p_open,
+        "price_close": p_close,
+        "period_return_pct": _global_pct_change(p_open, p_close),
+        "eth_btc_ratio_start": _global_first(r, "eth", "eth_btc_ratio_start"),
+        "eth_btc_ratio_end": _global_last(r, "eth", "eth_btc_ratio_end"),
+        "eth_btc_lean_modal": _global_modal(_global_values(r, "eth", "eth_btc_lean_modal")),
+        "periods_included": len(period_reports),
+    }
+
+def aggregate_global_rollup_defi(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    tvl_s = _global_first(r, "defi", "total_defi_tvl_usd_start")
+    tvl_e = _global_last(r, "defi", "total_defi_tvl_usd_end")
+    return {
+        "total_defi_tvl_usd_start": tvl_s,
+        "total_defi_tvl_usd_end": tvl_e,
+        "tvl_change_pct": _global_pct_change(tvl_s, tvl_e),
+        "stablecoin_market_cap_usd_start": _global_first(r, "defi", "stablecoin_market_cap_usd_start"),
+        "stablecoin_market_cap_usd_end": _global_last(r, "defi", "stablecoin_market_cap_usd_end"),
+        "stablecoin_dominance_pct_start": _global_first(r, "defi", "stablecoin_dominance_pct_start"),
+        "stablecoin_dominance_pct_end": _global_last(r, "defi", "stablecoin_dominance_pct_end"),
+        "periods_included": len(period_reports),
+    }
+
+def aggregate_global_rollup_macro(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    mm = lambda k: _global_modal(_global_values(r, "macro", k))
+    spy_s = _global_first(r, "macro", "spy_close_start")
+    spy_e = _global_last(r, "macro", "spy_close_end")
+    return {
+        "dxy_start": _global_first(r, "macro", "dxy_start"),
+        "dxy_end": _global_last(r, "macro", "dxy_end"),
+        "dxy_lean_modal": mm("dxy_lean_modal"),
+        "broad_dollar_index_start": _global_first(r, "macro", "broad_dollar_index_start"),
+        "broad_dollar_index_end": _global_last(r, "macro", "broad_dollar_index_end"),
+        "broad_dollar_index_lean_modal": mm("broad_dollar_index_lean_modal"),
+        "spy_close_start": spy_s,
+        "spy_close_end": spy_e,
+        "spy_return_pct": _global_pct_change(spy_s, spy_e),
+        "spy_lean_modal": mm("spy_lean_modal"),
+        "vix_close_avg": _global_weighted_mean(r, "macro", "vix_close_avg"),
+        "vix_close_end": _global_last(r, "macro", "vix_close_end"),
+        "vix_lean_modal": mm("vix_lean_modal"),
+        "coinbase_premium_pct_avg": _global_weighted_mean(r, "macro", "coinbase_premium_pct_avg"),
+        "coinbase_premium_lean_modal": mm("coinbase_premium_lean_modal"),
+    }
+
+def aggregate_global_rollup_tech_equities(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    return {
+        "tech_sector_lean_modal": _global_modal(_global_values(r, "tech_equities", "tech_sector_lean_modal")),
+        "days_with_data": _global_sum(r, "tech_equities", "days_with_data") or 0,
+    }
+
+def aggregate_global_rollup_etf_flows(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    merged = {}
+    for rep in r:  # later constituent overrides earlier for the same data_date
+        flows = _get_nested(rep, "etf_flows", "daily_flows")
+        if not isinstance(flows, list):
+            continue
+        for entry in flows:
+            if isinstance(entry, dict) and entry.get("data_date") is not None and entry.get("net_inflow_usd") is not None:
+                merged[entry["data_date"]] = entry["net_inflow_usd"]
+    return {
+        "net_inflow_sum_usd": sum(merged.values()) if merged else None,
+        "unique_data_dates": len(merged),
+        "cum_net_inflow_usd_close": _global_last(r, "etf_flows", "cum_net_inflow_usd_close"),
+        "total_net_assets_usd_close": _global_last(r, "etf_flows", "total_net_assets_usd_close"),
+        "flow_lean_modal": _global_modal(_global_values(r, "etf_flows", "flow_lean_modal")),
+        "days_with_data": _global_sum(r, "etf_flows", "days_with_data") or 0,
+        "daily_flows": [{"data_date": d, "net_inflow_usd": merged[d]} for d in sorted(merged)],
+    }
+
+def aggregate_global_rollup_sentiment(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    return {
+        "fear_greed_avg": _global_weighted_mean(r, "sentiment", "fear_greed_avg"),
+        "fear_greed_min": _global_min(r, "sentiment", "fear_greed_min"),
+        "fear_greed_max": _global_max(r, "sentiment", "fear_greed_max"),
+        "fear_greed_close": _global_last(r, "sentiment", "fear_greed_close"),
+        "fear_greed_label_close": _global_last(r, "sentiment", "fear_greed_label_close"),
+        "fear_greed_lean_modal": _global_modal(_global_values(r, "sentiment", "fear_greed_lean_modal")),
+    }
+
+def aggregate_global_rollup_news(period_reports: list[dict]) -> dict:
+    r = _global_reps(period_reports)
+    return {
+        "article_count_sum": _global_sum(r, "news", "article_count_sum"),
+        "positive_count_sum": _global_sum(r, "news", "positive_count_sum"),
+        "negative_count_sum": _global_sum(r, "news", "negative_count_sum"),
+        "neutral_count_sum": _global_sum(r, "news", "neutral_count_sum"),
+        "sentiment_ratio_avg": _global_weighted_mean(r, "news", "sentiment_ratio_avg"),
+        "news_spike_days": _global_sum(r, "news", "news_spike_days"),
+        "news_volume_lean_modal": _global_modal(_global_values(r, "news", "news_volume_lean_modal")),
+        "top_headlines": _global_last_nonempty_list(r, "news", "top_headlines"),
+        "macro_article_count_sum": _global_sum(r, "news", "macro_article_count_sum"),
+        "macro_headlines": _global_last_nonempty_list(r, "news", "macro_headlines"),
+    }
+
+def aggregate_global_rollup_signal_summary(period_reports: list[dict], unit: str) -> dict:
+    r = _global_reps(period_reports)
+    period_end = {}
+    modal = {}
+    for k in GLOBAL_SIGNAL_KEYS:
+        period_end[k] = _global_last(r, "signal_summary", "signals", k)
+        modal[k] = _global_modal(_global_values(r, "signal_summary", "signal_modal", k))
+    available = [k for k, v in period_end.items() if v is not None]
+    bullish = sum(1 for v in period_end.values() if v == "bullish")
+    bearish = sum(1 for v in period_end.values() if v == "bearish")
+    neutral = sum(1 for v in period_end.values() if v == "neutral")
+    if not available:
+        overall = None
+    elif bullish > bearish and bullish > neutral:
+        overall = "bullish"
+    elif bearish > bullish and bearish > neutral:
+        overall = "bearish"
+    else:
+        overall = "neutral"
+    streaks = _global_lean_streaks([_get_nested(x, "signal_summary", "overall_lean") for x in r])
+    streaks["streak_unit"] = unit
+    return {
+        "signals_evaluated": len(GLOBAL_SIGNAL_KEYS),
+        "signals_available": len(available),
+        "signals_null": len(GLOBAL_SIGNAL_KEYS) - len(available),
+        "bullish_count": bullish,
+        "bearish_count": bearish,
+        "neutral_count": neutral,
+        "overall_lean": overall,
+        "signals": period_end,
+        "signal_modal": modal,
+        "signal_streaks": streaks,
+    }
+
+def aggregate_global_rollup_data_gaps(period_reports: list[dict]) -> list:
+    gap_sets = []
+    for rep in _global_reps(period_reports):
+        gaps = rep.get("data_gaps") if isinstance(rep, dict) else None
+        gap_sets.append(set(gaps) if isinstance(gaps, list) else set())
+    if not gap_sets:
+        return []
+    return sorted(set.intersection(*gap_sets))
+
+def build_global_rollup_breakdown(period_reports: list[dict], unit: str) -> list[dict]:
+    out = []
+    for rep in _global_reps(period_reports):
+        out.append({
+            "period_id": _get_nested(rep, "period_metadata", "period_id"),
+            "start_date": _get_nested(rep, "period_metadata", "start_date"),
+            "end_date": _get_nested(rep, "period_metadata", "end_date"),
+            "overall_lean": _get_nested(rep, "signal_summary", "overall_lean"),
+            "btc_price_close": _get_nested(rep, "btc", "price_close"),
+            "btc_period_return_pct": _get_nested(rep, "btc", "period_return_pct"),
+            "fear_greed_close": _get_nested(rep, "sentiment", "fear_greed_close"),
+            "total_market_cap_change_pct": _get_nested(rep, "market_structure", "total_market_cap_change_pct"),
+            "days_included": _get_nested(rep, "period_metadata", "days_included"),
+            "data_quality": _get_nested(rep, "period_metadata", "data_quality"),
+        })
+    return out
+
+def aggregate_global_rollup_accumulation_metadata(period_reports: list[dict], unit: str) -> dict:
+    r = _global_reps(period_reports)
+    n = len(r)
+    if unit == "week":
+        possible = 4
+        missing = max(0, possible - n)
+        quality = "complete" if missing == 0 else ("partial" if n >= MIN_WEEKS_FOR_MONTHLY else "insufficient")
+        no_flows = sum(1 for x in r if not (isinstance(_get_nested(x, "etf_flows"), dict) and "daily_flows" in x["etf_flows"]))
+    else:
+        possible = 3
+        missing = max(0, possible - n)
+        quality = "complete" if n == 3 else ("partial" if n >= MIN_MONTHS_FOR_QUARTERLY else "insufficient")
+        no_flows = sum((_get_nested(x, "accumulation_metadata", "weeks_missing_daily_flows") or 0) for x in r)
+    versions = sorted({v for v in _global_values(r, "period_metadata", "schema_version") if isinstance(v, str)})
+    return {
+        "source": "accumulated",
+        "constituent_periods": possible,
+        "constituent_periods_available": n,
+        "constituent_periods_missing": missing,
+        "data_quality": quality,
+        "days_included_total": sum(_get_nested(x, "period_metadata", "days_included") or 0 for x in r),
+        "schema_versions_input": versions,
+        "weeks_missing_daily_flows": no_flows,
+    }
+
+def _build_global_rollup(kind, pm_head, pm_tail, period_reports, unit, breakdown_key, out_path):
+    """Assemble and write one global monthly/quarterly report. Returns the path, or None on failure."""
+    try:
+        acc = aggregate_global_rollup_accumulation_metadata(period_reports, unit)
+        pm = {"type": kind, "scope": "global"}
+        pm.update(pm_head)
+        pm["start_date"] = period_reports[0]["start_date"]
+        pm["end_date"] = period_reports[-1]["end_date"]
+        pm["token"] = "global"
+        pm.update(pm_tail)
+        pm["days_included"] = acc["days_included_total"]
+        pm.update({
+            "source": "accumulated",
+            "script_version": SCRIPT_VERSION,
+            "schema_version": GLOBAL_ROLLUP_SCHEMA_VERSION,
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC"),
+            "data_quality": acc["data_quality"],
+        })
+        report = {
+            "period_metadata": pm,
+            "market_structure": aggregate_global_rollup_market_structure(period_reports),
+            "btc": aggregate_global_rollup_btc(period_reports),
+            "eth": aggregate_global_rollup_eth(period_reports),
+            "defi": aggregate_global_rollup_defi(period_reports),
+            "macro": aggregate_global_rollup_macro(period_reports),
+            "tech_equities": aggregate_global_rollup_tech_equities(period_reports),
+            "etf_flows": aggregate_global_rollup_etf_flows(period_reports),
+            "sentiment": aggregate_global_rollup_sentiment(period_reports),
+            "news": aggregate_global_rollup_news(period_reports),
+            "signal_summary": aggregate_global_rollup_signal_summary(period_reports, "weeks" if unit == "week" else "months"),
+            breakdown_key: build_global_rollup_breakdown(period_reports, unit),
+            "data_gaps": aggregate_global_rollup_data_gaps(period_reports),
+            "not_aggregated": {"liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"},
+            "accumulation_metadata": acc,
+        }
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2)
+        return out_path
+    except Exception as e:
+        print(f"  ✗ Failed to write global {kind} report {out_path.name}: {e}")
+        return None
+
+def write_global_monthly_report(cal_year, cal_month, paths, weekly_reports) -> Path | None:
+    return _build_global_rollup(
+        "monthly",
+        {"period_id": f"{cal_year}-M{cal_month:02d}", "cal_year": cal_year, "cal_month": cal_month},
+        {"weeks_included": len(weekly_reports), "weeks_possible": 4},
+        weekly_reports, "week", "weekly_breakdown",
+        paths["monthly"] / f"monthly_{cal_year}_M{cal_month:02d}.json",
+    )
+
+def write_global_quarterly_report(cal_year, quarter, paths, monthly_reports) -> Path | None:
+    return _build_global_rollup(
+        "quarterly",
+        {"period_id": f"{cal_year}-Q{quarter}", "cal_year": cal_year, "quarter": quarter},
+        {"months_included": len(monthly_reports), "months_possible": 3},
+        monthly_reports, "month", "monthly_breakdown",
+        paths["quarterly"] / f"quarterly_{cal_year}_Q{quarter}.json",
+    )
+
+def run_global_rollups() -> dict:
+    """Build global monthly then quarterly rollups from existing global weekly files. Local only."""
+    paths = setup_directories(GLOBAL_CONFIG)
+    result = {"monthly": [], "quarterly": []}
+
+    weekly = discover_weekly_reports(paths["weekly"])
+    print(f"Found {len(weekly)} global weekly reports")
+    for (yr, mo), weeks in sorted(group_by_calendar_month(weekly).items()):
+        if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
+            print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
+            continue
+        out = write_global_monthly_report(yr, mo, paths, weeks)
+        if out:
+            result["monthly"].append(out)
+            print(f"  Written: {out.name}")
+    print(f"\n{len(result['monthly'])} global monthly reports written.")
+
+    monthly = discover_monthly_reports(paths["monthly"])
+    for (yr, q), months in sorted(group_by_quarter(monthly).items()):
+        if len(months) < MIN_MONTHS_FOR_QUARTERLY:
+            print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
+            continue
+        out = write_global_quarterly_report(yr, q, paths, months)
+        if out:
+            result["quarterly"].append(out)
+            print(f"  Written: {out.name}")
+    print(f"\n{len(result['quarterly'])} global quarterly reports written.")
+    return result
+
 def main():
     args = parse_args()
 
-    if args.global_weekly:
-        run_global_weekly()
+    if args.global_weekly or args.global_rollups:
+        if args.global_weekly:
+            run_global_weekly()
+        if args.global_rollups:
+            run_global_rollups()
         return
 
     config_files = sorted(Path("configs").glob("*.json"))
