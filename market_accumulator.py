@@ -2951,6 +2951,95 @@ def pull_reports_from_github(token_symbol: str, output_prefix: str) -> int:
         return 0
 
 
+def pull_accumulated_from_github(paths: dict, config: dict) -> dict:
+    """
+    Download existing weekly/monthly/quarterly rollup files for one token (or
+    "global") from GitHub into the local accumulated folders. Never overwrites
+    an existing local file. A 404 on a subfolder is treated as empty.
+    Non-blocking — never raises.
+    """
+    token = os.getenv("GITHUB_TOKEN")
+    repo = os.getenv("GITHUB_REPO")
+    branch = os.getenv("GITHUB_BRANCH", "main")
+
+    result = {
+        "weekly": 0, "monthly": 0, "quarterly": 0,
+        "skipped_existing": 0, "failed": 0,
+        "listing_failed": [], "skipped": False,
+    }
+
+    if not token or not repo:
+        print("  ⚠ Accumulated pull skipped — GITHUB_TOKEN or GITHUB_REPO not set")
+        result["skipped"] = True
+        return result
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+    try:
+        token_lower = config["token_name"].lower()
+        for subdir in ("weekly", "monthly", "quarterly"):
+            try:
+                api_url = (
+                    f"https://api.github.com/repos/{repo}/contents/"
+                    f"context/{token_lower}/accumulated/{subdir}"
+                )
+                response = requests.get(api_url, headers=headers, params={"ref": branch}, timeout=15)
+                if response.status_code == 404:
+                    continue
+                if response.status_code != 200:
+                    print(f"  ⚠ Accumulated pull: failed to list {subdir}/ HTTP {response.status_code}")
+                    result["listing_failed"].append(subdir)
+                    continue
+                entries = response.json()
+                if not isinstance(entries, list):
+                    print(f"  ⚠ Accumulated pull: unexpected response listing {subdir}/")
+                    result["listing_failed"].append(subdir)
+                    continue
+            except Exception as e:
+                print(f"  ⚠ Accumulated pull: failed to list {subdir}/: {e}")
+                result["listing_failed"].append(subdir)
+                continue
+
+            for entry in entries:
+                try:
+                    if not isinstance(entry, dict) or entry.get("type") != "file":
+                        continue
+                    name = entry["name"]
+                    download_url = entry.get("download_url")
+                    if not (name.startswith(f"{subdir}_") and name.endswith(".json") and download_url):
+                        continue
+
+                    local_path = paths[subdir] / name
+                    if local_path.exists():
+                        result["skipped_existing"] += 1
+                        continue
+
+                    file_response = requests.get(download_url, headers=headers, timeout=15)
+                    if file_response.status_code != 200:
+                        print(f"  ⚠ Failed to download {subdir}/{name}: HTTP {file_response.status_code}")
+                        result["failed"] += 1
+                        continue
+                    json.loads(file_response.content)
+                    local_path.write_bytes(file_response.content)
+                    result[subdir] += 1
+                except Exception as e:
+                    print(f"  ⚠ Failed to download {subdir}/{entry.get('name') if isinstance(entry, dict) else entry}: {e}")
+                    result["failed"] += 1
+    except Exception as e:
+        print(f"  ⚠ Accumulated pull failed: {e}")
+
+    print(
+        f"  Accumulated pull ({config.get('token_name')}): "
+        f"{result['weekly']} weekly, {result['monthly']} monthly, {result['quarterly']} quarterly, "
+        f"{result['skipped_existing']} existing, {result['failed']} failed, "
+        f"listing_failed={result['listing_failed']}"
+    )
+    return result
+
+
 def clear_accumulated_output(paths: dict) -> None:
     """
     In --rebuild mode: delete all files in weekly/, monthly/, quarterly/
