@@ -120,7 +120,8 @@ def select_daily_reports_to_delete(daily_reports: list[dict], rolled_up_weeks: s
     """
     Return the subset of daily_reports eligible for deletion.
     A report is eligible only if BOTH hold:
-      1. It is >= retain_days old (by date_str, midnight UTC comparison)
+      1. The report's entire ISO week ended >= retain_days ago
+         (age measured from the week's Sunday at midnight)
       2. Its (iso_year, iso_week) is present in rolled_up_weeks
          (i.e. that week already produced a written weekly report — never
          delete data from a week that was skipped for insufficient days)
@@ -130,12 +131,49 @@ def select_daily_reports_to_delete(daily_reports: list[dict], rolled_up_weeks: s
 
     eligible = []
     for r in daily_reports:
-        report_date = datetime.strptime(r["date_str"], "%Y-%m-%d")
-        age_days = (today - report_date).days
+        week_end = datetime.fromisocalendar(r["iso_year"], r["iso_week"], 7)
+        age_days = (today - week_end).days
         week_key = (r["iso_year"], r["iso_week"])
         if age_days >= retain_days and week_key in rolled_up_weeks:
             eligible.append(r)
     return eligible
+
+def fetch_existing_weekly(paths: dict, config: dict, iso_year: int, iso_week: int) -> tuple[dict | None, str | None]:
+    """
+    Look up an already-written weekly rollup: local disk first, then GitHub.
+    Returns (parsed_json, source) with source in {"local", "github", None}. Never raises.
+    """
+    filename = f"weekly_{iso_year}_W{iso_week:02d}.json"
+    try:
+        local_path = paths["weekly"] / filename
+        if local_path.exists():
+            with open(local_path, "r", encoding="utf-8") as f:
+                return json.load(f), "local"
+    except Exception:
+        pass
+    try:
+        token = os.getenv("GITHUB_TOKEN")
+        repo = os.getenv("GITHUB_REPO")
+        if not token or not repo:
+            return None, None
+        branch = os.getenv("GITHUB_BRANCH") or "main"
+        url = f"https://api.github.com/repos/{repo}/contents/context/{config['token_name'].lower()}/accumulated/weekly/{filename}"
+        resp = requests.get(
+            url,
+            headers={"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"},
+            params={"ref": branch},
+            timeout=10,
+        )
+        if resp.status_code != 200:
+            return None, None
+        content = resp.json()["content"].replace("\n", "")
+        return json.loads(base64.b64decode(content).decode("utf-8")), "github"
+    except Exception:
+        return None, None
+
+def should_overwrite_weekly(new_days: int, existing_days: int | None) -> bool:
+    """True if there is no existing weekly or the regenerated one has at least as many days."""
+    return existing_days is None or new_days >= existing_days
 
 def cleanup_old_daily_reports(daily_reports: list[dict], rolled_up_weeks: set) -> dict:
     """
@@ -2932,6 +2970,19 @@ def main():
                 etf_net_inflow     = _get_nested(report, "etf_flows", "total_net_inflow_usd")
                 # liquidation_map is intraday data — not aggregated, passed through as null
             price_agg = aggregate_weekly_price(daily_data)
+            existing, source = fetch_existing_weekly(paths, config, yr, wk)
+            existing_days = (existing or {}).get("period_metadata", {}).get("days_included")
+            if not should_overwrite_weekly(price_agg["days_included"], existing_days):
+                print(f"  Preserving {yr}-W{wk:02d}: existing weekly has {existing_days} days, regenerated would have {price_agg['days_included']}")
+                if source == "github":
+                    try:
+                        preserved_path = paths["weekly"] / f"weekly_{yr}_W{wk:02d}.json"
+                        with open(preserved_path, "w", encoding="utf-8") as f:
+                            json.dump(existing, f, indent=2)
+                    except Exception as e:
+                        print(f"  ⚠ Could not copy down existing weekly {yr}-W{wk:02d}: {e}")
+                rolled_up_weeks.add((yr, wk))
+                continue
             derivatives_agg = aggregate_weekly_derivatives(daily_data)
             on_chain_agg = aggregate_weekly_on_chain(daily_data)
             macro_agg = aggregate_weekly_macro(daily_data)
