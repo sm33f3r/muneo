@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-16T21:05:01 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 89.45,
+    "price_change_24h_pct": 5.5538,
+    "price_change_7d_pct": 6.3256,
+    "volume_24h_usd": 5351023812,
+    "market_cap_usd": 51467704452,
+    "volume_to_mcap_ratio": 0.103969,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -69.5047,
+    "cex_price_usd": 89.36,
+    "cex_24h_high": 90.53,
+    "cex_24h_low": 83.8,
+    "cex_dex_spread_pct": -0.100615,
+    "volume_on_up_days_usd": 4465024969.052354,
+    "volume_on_down_days_usd": 2914533443.6007285,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 36.5253,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -12.850918,
+      "signal_line": -14.787183,
+      "histogram": 1.936265
+    },
+    "macd_lean": "bullish",
+    "sma_50": 129.4552,
+    "price_vs_sma50_pct": -30.9027,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 112.708749,
+      "mid": 88.7185,
+      "lower": 64.728251,
+      "width_pct": 54.0817,
+      "position": 0.3502
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 944863406.51,
+    "oi_lean": null,
+    "funding_rate_latest": 7.305e-05,
+    "funding_rate_7d_avg": 3.3504285714285716e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.7446,
+    "btc_long_account_pct": 42.68,
+    "btc_short_account_pct": 57.32,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5927213317.0,
+    "tvl_7d_change_pct": 3.5167,
+    "tvl_lean": "bullish",
+    "chain_fees_24h_usd": 7069591.0,
+    "chain_fees_7d_avg_usd": 5622200.29,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 3,
+    "negative_count": 3,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.3,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Tether To Lead $150M Recovery Program for DeFi Platform Drift Protocol",
+        "url": "https://co...(+56 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T20:42:18.000Z",
+        "source": "cointele...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Genius Foundation\u2019s GENIUS Token Surges Following TGE, Briefly Tops $800 Million FDV",
+        "url": "https://te...(+112 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T19:32:10.000Z",
+        "source": "techfina...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Top 6 DEXs of April 2026",
+        "url": "https://bi...(+52 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T19:21:08.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.2
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether challenges USDC Solana hegemony with $127. 5M Drift bailout",
+        "url": "https://bi...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T18:58:14.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether challenges USDC Solana hegemony with $127. 5M Drift bailout",
+        "url": "https://pr...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T18:57:29.000Z",
+        "source": "intomore...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Class Action Lawsuit Filed Against Circle Over Drift Protocol $280 Million Hack: Gibbs Mura Law Group",
+        "url": "https://bi...(+127 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T18:49:11.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.13
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mastercard and Lobster. cash Enable AI Card Payments - Crypto Economy",
+        "url": "https://cr...(+65 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T18:06:04.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tesla (TSLA), Apple (AAPL) Lead \"Magnificent 7\" Tech Stock Dip",
+        "url": "https://wa...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T17:40:35.000Z",
+        "source": "watcher....(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Building a Cost-Efficient Solana Node Cluster Without Sacrificing Performance",
+        "url": "https://th...(+97 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T17:17:07.000Z",
+        "source": "thedatas...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "xrp etf inflows surpass 21 million dollars in april",
+        "url": "https://en...(+67 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-16T17:12:27.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 75190.0,
+    "btc_24h_change_pct": 0.5161,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 58.9341,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2553618693283.3506,
+    "eth_btc_ratio": 0.03125,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.8552,
+    "dxy_lean": "neutral",
+    "spy_close": 701.54,
+    "spy_change_pct": 0.2286,
+    "spy_lean": "neutral",
+    "vix_close": 18.17,
+    "vix_lean": "bullish"
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 76.62,
+    "cg_sentiment_votes_down_pct": 23.38,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 7,
+    "bearish_count": 1,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "bullish",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}

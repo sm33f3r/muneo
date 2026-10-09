@@ -1,0 +1,261 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-30T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 82.71,
+    "price_change_24h_pct": 1.0819,
+    "price_change_7d_pct": -9.5097,
+    "volume_24h_usd": 3788311198,
+    "market_cap_usd": 47358826612,
+    "volume_to_mcap_ratio": 0.079992,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -71.8009,
+    "cex_price_usd": 82.73,
+    "cex_24h_high": 84.99,
+    "cex_24h_low": 78.96,
+    "cex_dex_spread_pct": 0.024181,
+    "volume_on_up_days_usd": 4424470864.81719,
+    "volume_on_down_days_usd": 2985377747.907204,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 36.4724,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -14.763964,
+      "signal_line": -16.669071,
+      "histogram": 1.905108
+    },
+    "macd_lean": "bullish",
+    "sma_50": 141.5024,
+    "price_vs_sma50_pct": -41.5487,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 145.038249,
+      "mid": 99.7865,
+      "lower": 54.534751,
+      "width_pct": 90.6971,
+      "position": 0.3141
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 800057694.21,
+    "oi_lean": null,
+    "funding_rate_latest": -1.962e-05,
+    "funding_rate_7d_avg": -0.00012695285714285713,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.9326,
+    "btc_long_account_pct": 65.9,
+    "btc_short_account_pct": 34.1,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 6362634377.0,
+    "tvl_7d_change_pct": -5.8667,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 6011235.0,
+    "chain_fees_7d_avg_usd": 5507908.71,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 4,
+    "negative_count": 0,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.4,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Ethereum May Lose Its #2 Spot in 2026: Can USDT, XRP, BNB, or SOL Take It?",
+        "url": "https://bi...(+100 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T13:50:07.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Investment Products Lose $414M, Ending 5-Week Inflows",
+        "url": "https://bi...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T13:45:12.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Funds See $414M Outflows as Solana Tests $74 Support",
+        "url": "https://co...(+76 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T13:43:40.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OnePay Expands Crypto Offerings With Arbitrum and Polygon",
+        "url": "https://co...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T13:06:25.000Z",
+        "source": "coinfoma...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chiliz (CHZ) Price Analysis: 11% Surge Signals Market Shift",
+        "url": "https://bl...(+86 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T13:01:23.000Z",
+        "source": "blockcha...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ICYMI: Council Meeting Recap for March 2026 - Victoria County",
+        "url": "https://vi...(+60 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T12:56:18.000Z",
+        "source": "victoria...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kevin O'Leary: BTC & ETH Capture 98% Crypto Value",
+        "url": "https://co...(+45 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T12:30:38.000Z",
+        "source": "coinfoma...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Letter 106: The Token Graveyard",
+        "url": "https://ww...(+45 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T12:29:39.000Z",
+        "source": "zeneca33...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cryptocurrency prices rise after Trump signals talks with new Iranian leadership",
+        "url": "https://en...(+96 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T12:22:35.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bybit Expands AI Trading Skills Hub with Earn Dual Asset and On-Chain Alpha Trading - Money Compass",
+        "url": "https://mo...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-03-30T12:00:00.000Z",
+        "source": "acnur.or...(+1 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.12
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 66575.0,
+    "btc_24h_change_pct": 0.0278,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 57.9443,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2299141222964.4414,
+    "eth_btc_ratio": 0.030353,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.8851,
+    "dxy_lean": "bearish",
+    "spy_close": 631.99,
+    "spy_change_pct": -0.3312,
+    "spy_lean": "neutral",
+    "vix_close": null,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 25,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 65.85,
+    "cg_sentiment_votes_down_pct": 34.15,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "FRED VIX \u2014 HTTP 500"
+  ]
+}

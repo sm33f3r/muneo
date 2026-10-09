@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-26T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 86.8,
+    "price_change_24h_pct": 0.9603,
+    "price_change_7d_pct": 1.7289,
+    "volume_24h_usd": 1859469739,
+    "market_cap_usd": 49966135483,
+    "volume_to_mcap_ratio": 0.037215,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -70.4077,
+    "cex_price_usd": 86.82,
+    "cex_24h_high": 87.2,
+    "cex_24h_low": 85.74,
+    "cex_dex_spread_pct": 0.023041,
+    "volume_on_up_days_usd": 4106016733.9227786,
+    "volume_on_down_days_usd": 2915987605.2191286,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 41.3002,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -10.192051,
+      "signal_line": -12.870197,
+      "histogram": 2.678146
+    },
+    "macd_lean": "bullish",
+    "sma_50": 121.1064,
+    "price_vs_sma50_pct": -28.3275,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 92.572223,
+      "mid": 84.789,
+      "lower": 77.005777,
+      "width_pct": 18.359,
+      "position": 0.5919
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 800939157.62,
+    "oi_lean": null,
+    "funding_rate_latest": -3.44e-06,
+    "funding_rate_7d_avg": 1.3933809523809525e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.7544,
+    "btc_long_account_pct": 43.0,
+    "btc_short_account_pct": 57.0,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5588474709.0,
+    "tvl_7d_change_pct": 0.352,
+    "tvl_lean": "neutral",
+    "chain_fees_24h_usd": 6371899.0,
+    "chain_fees_7d_avg_usd": 5716601.71,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 1,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana Week 1, a beginner's perspective",
+        "url": "https://de...(+57 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T17:55:57.000Z",
+        "source": "dev.to...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Stabilizes at $78,000 Amid Geopolitical Stalemate",
+        "url": "https://di...(+56 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T16:57:34.000Z",
+        "source": "dinardet...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Will SOL Price Reclaim $100 as Solana Foundation Backs Aave?",
+        "url": "https://ww...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T13:04:17.000Z",
+        "source": "cryptone...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Prediction: SOL Eyes $100 Breakout as Analyst Flags 3-Day Squeeze - The Market Periodical",
+        "url": "https://th...(+110 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T12:39:11.000Z",
+        "source": "themarke...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DePIN on Solana: How Decentralized Physical Infrastructure Became a Real Business",
+        "url": "https://re...(+135 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T11:25:02.000Z",
+        "source": "resident...(+4 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana trades at $85 as volatility drops to record low",
+        "url": "https://en...(+69 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T11:07:41.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Prepares to Help Aave in Its Time of Need - They Have Made an Official Announcement",
+        "url": "https://en...(+109 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T10:35:06.000Z",
+        "source": "en.bitco...(+13 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Prediction: SOL Tests Key Resistance as Range Tightens",
+        "url": "https://bi...(+94 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T10:06:28.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Prediction: SOL Tests Key Resistance as Range Tightens",
+        "url": "https://co...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T10:04:25.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How Litecoin\u2019s 13-block reorg exposed fragile coordination in network upgrades",
+        "url": "https://bi...(+105 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T09:02:25.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.06
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 78251.0,
+    "btc_24h_change_pct": 0.9365,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 59.9398,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2613926763624.0166,
+    "eth_btc_ratio": 0.030232,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 713.94,
+    "spy_change_pct": 0.7749,
+    "spy_lean": "bullish",
+    "vix_close": 19.31,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 66.67,
+    "cg_sentiment_votes_down_pct": 33.33,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "neutral",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}

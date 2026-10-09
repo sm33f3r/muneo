@@ -1,0 +1,262 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-22T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 87.2,
+    "price_change_24h_pct": 2.0077,
+    "price_change_7d_pct": 2.8139,
+    "volume_24h_usd": 4424756072,
+    "market_cap_usd": 50194410355,
+    "volume_to_mcap_ratio": 0.088152,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -70.27,
+    "cex_price_usd": 87.21,
+    "cex_24h_high": 89.32,
+    "cex_24h_low": 84.99,
+    "cex_dex_spread_pct": 0.011468,
+    "volume_on_up_days_usd": 4711551878.327768,
+    "volume_on_down_days_usd": 2915987605.2191286,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 40.5797,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -10.963697,
+      "signal_line": -13.531237,
+      "histogram": 2.56754
+    },
+    "macd_lean": "bullish",
+    "sma_50": 124.034,
+    "price_vs_sma50_pct": -29.6967,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 95.025404,
+      "mid": 85.359,
+      "lower": 75.692596,
+      "width_pct": 22.6488,
+      "position": 0.498
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 827155177.27,
+    "oi_lean": null,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 1.6793809523809525e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 0.5133,
+    "btc_long_account_pct": 33.92,
+    "btc_short_account_pct": 66.08,
+    "btc_ls_lean": "bullish"
+  },
+  "on_chain": {
+    "tvl_usd": 5662293601.0,
+    "tvl_7d_change_pct": -3.7689,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": null,
+    "chain_fees_7d_avg_usd": null,
+    "chain_fees_lean": null
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 5,
+    "negative_count": 1,
+    "neutral_count": 4,
+    "sentiment_ratio": 0.5,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Crypto Price Today: Bitcoin Holds $74K\u2013$75K Range, Ethereum at $2. 3K",
+        "url": "https://in...(+103 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T20:20:06.000Z",
+        "source": "industry...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Price Today: Bitcoin at $76,800, Ethereum Stable at $2,350",
+        "url": "https://in...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T20:19:53.000Z",
+        "source": "industry...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SOL Builds Momentum Near $90 as Analysts Target $100 and Eye $120 Upside",
+        "url": "https://co...(+87 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T20:09:57.000Z",
+        "source": "coinpape...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aave Faces $15B Deposit Exodus Following Kelp Dao Exploit - Crypto Economy",
+        "url": "https://cr...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T19:40:10.000Z",
+        "source": "crypto-e...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.09
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia approves crypto bill with 327 votes XRP in focus",
+        "url": "https://en...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T19:39:33.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.11
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GSR debuts first active multi\u2011asset crypto staking ETF on Nasdaq",
+        "url": "https://cr...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T18:00:00.000Z",
+        "source": "crypto.n...(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.17
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GSR launches BESO ETF on Nasdaq tracking BTC, ETH, SOL",
+        "url": "https://en...(+68 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T17:50:35.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.04
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Niza Ecosystem Joins Forces With AIW3 To Advance DeFi Cross-Chain Applications With AI Agents",
+        "url": "https://bi...(+121 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T17:42:08.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Near $90 Again: Will the 8th Attempt Finally Break Resistance?",
+        "url": "https://bi...(+100 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T17:39:07.000Z",
+        "source": "bitcoine...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hata raises $8m Series A led by Bybit",
+        "url": "https://fi...(+61 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-22T16:30:11.000Z",
+        "source": "freshcot...(+7 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.06
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 78529.0,
+    "btc_24h_change_pct": 3.7317,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 59.9654,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2621946604349.601,
+    "eth_btc_ratio": 0.030492,
+    "eth_btc_lean": "neutral",
+    "dxy": 118.0795,
+    "dxy_lean": "neutral",
+    "spy_close": 711.18,
+    "spy_change_pct": 1.0084,
+    "spy_lean": "bullish",
+    "vix_close": 19.5,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 62,
+    "fear_greed_label": "Greed",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 77.08,
+    "cg_sentiment_votes_down_pct": 22.92,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 16,
+    "signals_null": 2,
+    "bullish_count": 5,
+    "bearish_count": 1,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": null,
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "DeFiLlama \u2014 chain fees overview \u2014 timeout",
+    "DeFiLlama fees: no data available for chain Solana"
+  ]
+}

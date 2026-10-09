@@ -1,0 +1,259 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-06T21:05:02 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "2.0.0",
+    "schema_version": "1.0.0"
+  },
+  "price_data": {
+    "price_usd": 81.97,
+    "price_change_24h_pct": 2.2961,
+    "price_change_7d_pct": -0.9117,
+    "volume_24h_usd": 3140198110,
+    "market_cap_usd": 46982788861,
+    "volume_to_mcap_ratio": 0.066837,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -72.0541,
+    "cex_price_usd": 81.94,
+    "cex_24h_high": 83.2,
+    "cex_24h_low": 79.1,
+    "cex_dex_spread_pct": -0.036599,
+    "volume_on_up_days_usd": 4205051932.4507675,
+    "volume_on_down_days_usd": 2662028556.27052,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 35.5777,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": -13.950373,
+      "signal_line": -15.749946,
+      "histogram": 1.799572
+    },
+    "macd_lean": "bullish",
+    "sma_50": 135.1938,
+    "price_vs_sma50_pct": -39.3685,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 129.878931,
+      "mid": 93.8525,
+      "lower": 57.826069,
+      "width_pct": 76.7724,
+      "position": 0.3184
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 776539594.07,
+    "oi_lean": null,
+    "funding_rate_latest": -1.845e-05,
+    "funding_rate_7d_avg": -3.7564761904761905e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.0218,
+    "btc_long_account_pct": 50.54,
+    "btc_short_account_pct": 49.46,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 5550700708.0,
+    "tvl_7d_change_pct": -9.9478,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 5718438.0,
+    "chain_fees_7d_avg_usd": 5980672.43,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "apitube",
+    "article_count_24h": 10,
+    "positive_count": 6,
+    "negative_count": 2,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.6,
+    "news_volume_lean": "neutral",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "XRP Price Prediction: 5% Jump Expected Ahead of XRP Tokyo \u2013 Possible Catalyst",
+        "url": "https://di...(+58 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T18:57:10.000Z",
+        "source": "dinardet...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Little Pepe ($LILPEPE) Is Gaining Attention as Dogecoin and Bonk Face Market Volatility",
+        "url": "https://fi...(+99 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T17:27:00.000Z",
+        "source": "finbold....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Index Matamoros promotes leadership through a training forum - MEXICONOW",
+        "url": "https://me...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T17:19:24.000Z",
+        "source": "mexico-n...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.14
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Institutional adoption drives onchain real world assets to $468 billion while open blockchain use expands",
+        "url": "https://en...(+120 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T17:18:27.000Z",
+        "source": "en.coin-...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.16
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Couple die in each other's arms after becoming trapped in car during storm",
+        "url": "https://ww...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T17:05:44.000Z",
+        "source": "birmingh...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.2
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "PENGU Price Analysis: Why Pudgy Penguins Token Rose 6. 5% Today",
+        "url": "https://bl...(+97 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T17:04:38.000Z",
+        "source": "blockcha...(+14 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "They died in each other's arms after getting trapped in car during horror storm",
+        "url": "https://ww...(+75 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T16:31:27.000Z",
+        "source": "westernm...(+16 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.18
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "Price Prediction for SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+        "url": "https://co...(+84 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T16:20:46.000Z",
+        "source": "cointele...(+9 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOGEBALL Crypto Presale 2026: Can This Top Crypto Outperform Toncoin? - The Market Periodical",
+        "url": "https://th...(+101 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T16:12:01.000Z",
+        "source": "themarke...(+15 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Monero vs USDT: Which Crypto Works Better for Payments in 2026? - Blockzeit",
+        "url": "https://bl...(+74 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-06T16:07:09.000Z",
+        "source": "blockzei...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.1
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 69734.0,
+    "btc_24h_change_pct": 3.1576,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 58.5556,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2383457183619.8467,
+    "eth_btc_ratio": 0.030798,
+    "eth_btc_lean": "neutral",
+    "dxy": 120.6565,
+    "dxy_lean": "neutral",
+    "spy_close": 658.94,
+    "spy_change_pct": 0.4742,
+    "spy_lean": "neutral",
+    "vix_close": 23.87,
+    "vix_lean": "neutral"
+  },
+  "sentiment": {
+    "fear_greed_value": 39,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 71.43,
+    "cg_sentiment_votes_down_pct": 28.57,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": 0,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": 3125,
+    "cg_github_forks": 3516,
+    "cg_github_stars": 11071,
+    "cg_github_commits_4w": 171,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 18,
+    "signals_available": 17,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 1,
+    "neutral_count": 13,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "neutral",
+      "sentiment_lean": "bullish"
+    }
+  },
+  "fetch_errors": []
+}
