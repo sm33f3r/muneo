@@ -2956,9 +2956,9 @@ def pull_accumulated_from_github(paths: dict, config: dict) -> dict:
     Download existing weekly/monthly/quarterly rollup files for one token (or
     "global") from GitHub into the local accumulated folders. Never overwrites
     an existing local file. A 404 on a subfolder is treated as empty.
+    Reads from a public repository; no token is used or required.
     Non-blocking — never raises.
     """
-    token = os.getenv("GITHUB_TOKEN")
     repo = os.getenv("GITHUB_REPO")
     branch = os.getenv("GITHUB_BRANCH", "main")
 
@@ -2968,15 +2968,12 @@ def pull_accumulated_from_github(paths: dict, config: dict) -> dict:
         "listing_failed": [], "skipped": False,
     }
 
-    if not token or not repo:
-        print("  ⚠ Accumulated pull skipped — GITHUB_TOKEN or GITHUB_REPO not set")
+    if not repo:
+        print("  ⚠ Accumulated pull skipped — GITHUB_REPO not set")
         result["skipped"] = True
         return result
 
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github.v3+json",
-    }
+    headers = {"Accept": "application/vnd.github.v3+json"}
 
     try:
         token_lower = config["token_name"].lower()
