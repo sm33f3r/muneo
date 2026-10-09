@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-09T21:12:04 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2793229232597.81,
+    "total_market_cap_change_24h_pct": -2.0975,
+    "total_volume_24h_usd": 77262842887.01,
+    "btc_dominance_pct": 59.2,
+    "eth_dominance_pct": 10.8284,
+    "total2_usd": 1139637761060.72,
+    "total3_usd": 837174657019.47,
+    "active_cryptocurrencies": 22119,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KAIA",
+        "name": "Kaia",
+        "price_change_24h_pct": 48.1226,
+        "price_usd": 0.055682,
+        "market_cap_usd": 357844212
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": 37.2355,
+        "price_usd": 0.134966,
+        "market_cap_usd": 201610530
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 28.5922,
+        "price_usd": 0.00645771,
+        "market_cap_usd": 379975235
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 25.1638,
+        "price_usd": 0.069161,
+        "market_cap_usd": 513454147
+      },
+      {
+        "symbol": "ZK",
+        "name": "ZKsync",
+        "price_change_24h_pct": 22.488,
+        "price_usd": 0.01403129,
+        "market_cap_usd": 151508408
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": -14.8752,
+        "price_usd": 0.0208075,
+        "market_cap_usd": 150552214
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": -8.6766,
+        "price_usd": 0.469994,
+        "market_cap_usd": 460146409
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": -6.7375,
+        "price_usd": 0.409368,
+        "market_cap_usd": 228659995
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -6.7214,
+        "price_usd": 0.0053231,
+        "market_cap_usd": 2468275296
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "price_change_24h_pct": -6.3439,
+        "price_usd": 0.05985,
+        "market_cap_usd": 127001424
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 82501,
+    "price_change_24h_pct": 1.0423,
+    "price_change_7d_pct": -2.1986,
+    "market_cap_usd": 1658097771520,
+    "volume_24h_usd": 26226550027,
+    "direction": "bullish",
+    "oi_usd": 7621069805.48,
+    "funding_rate_latest": 1.286e-05,
+    "funding_rate_7d_avg": 1.4231904761904763e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4492,
+    "long_account_pct": 59.17,
+    "short_account_pct": 40.83,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2481.55,
+    "price_change_24h_pct": 0.4027,
+    "price_change_7d_pct": -6.9913,
+    "market_cap_usd": 303018268294,
+    "volume_24h_usd": 10037363290,
+    "eth_btc_ratio": 0.030079,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 91619076349.68,
+    "stablecoin_market_cap_usd": 311422222402.3,
+    "stablecoin_dominance_pct": 11.1492
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 34,
+    "headlines": [
+      {
+        "headline": "What's behind the recovery rally in tech stocks \u2014 plus, Elon Musk's very good week",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/09/whats-behind-the-recovery-rally-in-tech-stocks-plus-musks-good-week.html",
+        "published_at": "2026-10-09T19:02:29Z"
+      },
+      {
+        "headline": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+        "summary": "Bears continued to build up positions against the semiconductor group on Friday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
+        "published_at": "2026-10-09T18:50:21Z"
+      },
+      {
+        "headline": "Wall Street set for weekly gains with earnings, inflation data on tap - Reuters",
+        "summary": "Wall Street set for weekly gains with earnings, inflation data on tap\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
+        "published_at": "2026-10-09T18:34:21Z"
+      },
+      {
+        "headline": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+        "summary": "Trump\u2019s bid to fire the Fed's Lisa Cook follows a Supreme Court ruling and could affect Jerome Powell, central bank independence and interest rates.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+        "published_at": "2026-10-09T18:20:57Z"
+      },
+      {
+        "headline": "The used car market is stagnant. Here's how to profit anyway",
+        "summary": "Michael Khouw breaks down this short strangle options trade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/the-used-car-market-is-stagnant-heres-how-to-profit-anyway.html",
+        "published_at": "2026-10-09T17:37:31Z"
+      },
+      {
+        "headline": "Tesla drops 'Full Self-Driving' brand name in Europe after regulator pushback",
+        "summary": "German regulators called Tesla's \"Full Self-Driving\" brand name \"somewhat misleading.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/tesla-full-self-driving-europe-regulator.html",
+        "published_at": "2026-10-09T17:12:32Z"
+      },
+      {
+        "headline": "Cramer: Investors selling Apple on latest iPhone 18 report are 'stupid as plywood'",
+        "summary": "Cramer says investors who don't own the stock should use Friday's weakness to build a position.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/09/cramer-investors-selling-apple-on-iphone-report-are-stupid-as-plywood.html",
+        "published_at": "2026-10-09T16:43:00Z"
+      },
+      {
+        "headline": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall - Reuters",
+        "summary": "London stocks post weekly gains as gilt yields retreat; telecom stocks fall\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVpWYUFMM2hlY2dnS0N0Q1VkcTFqLUJ1cGJzcVdJTWUzYjRvUWZXeDgyMmZsYXhsYl9wbEd1X1lRbU50dXA5c3lXLTZvd0N5clhnS1gxZHlpYUp1M01ha1BBQkp4Y0VacnRZWEFEWms0WG5UWEYtTE96ZzRuNDlsUzB6eXRUWEdKUGMzd3VGbkdsUTR1Z0VRbGtKUFZOeDVu?oc=5",
+        "published_at": "2026-10-09T16:35:20Z"
+      },
+      {
+        "headline": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos",
+        "summary": "SpaceX announced the spectrum deal Thursday, as the company aims to push deeper into the telecom market through its Starlink service.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+        "published_at": "2026-10-09T16:26:44Z"
+      },
+      {
+        "headline": "EU aviation body widens Saudi airspace warning after Houthi strikes - Reuters",
+        "summary": "EU aviation body widens Saudi airspace warning after Houthi strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5",
+        "published_at": "2026-10-09T16:25:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.1356,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 778.54,
+    "spy_change_pct": 0.5957,
+    "spy_lean": "bullish",
+    "vix_close": 15.41,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 82503.62,
+    "coinbase_premium_pct": 0.003176,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-09T21:12:04 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 229.28,
+        "change_pct": -0.5207,
+        "prev_close": 230.48
+      },
+      "AMD": {
+        "close": 608.1,
+        "change_pct": -2.0268,
+        "prev_close": 620.68
+      },
+      "TSM": {
+        "close": 453.31,
+        "change_pct": -1.0219,
+        "prev_close": 457.99
+      },
+      "SMCI": {
+        "close": 41.855,
+        "change_pct": -2.1394,
+        "prev_close": 42.77
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 751.27,
+        "change_pct": 0.4936,
+        "prev_close": 747.58
+      },
+      "SOXX": {
+        "close": 559.4,
+        "change_pct": -0.6888,
+        "prev_close": 563.28
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-08",
+    "total_net_inflow_usd": -244125629.17,
+    "total_net_assets_usd": 104913509681.65,
+    "total_value_traded_usd": 3184168708.8,
+    "cum_net_inflow_usd": 57085586587.32,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 82501,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 48,
+    "positive_count": 8,
+    "negative_count": 6,
+    "neutral_count": 34,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
+        "url": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-09T20:39:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "New York permanently bars Celsius founder Mashinsky in $35M fraud settlement",
+        "url": "https://cointelegraph.com/news/celsius-founder-alex-mashinsky-permanently-banned-from-crypto-industry-in-ny-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-09T20:14:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI and Anthropic Are Quietly Rehearsing for the Day After an AI Catastrophe",
+        "url": "https://decrypt.co/380621/openai-anthropic-quietly-rehearsing-ai-catastrophe",
+        "published_at": "2026-10-09T19:47:01+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "THORChain exec accuses Tether of temporarily freezing USDT vaults",
+        "url": "https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-09T19:04:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former FTX COO says Netflix\u2019s \u2018Altruists\u2019 trailer \u2018made me physically throw up\u2019",
+        "url": "https://www.theblock.co/news/business/2026-10-09-former-ftx-coo-netflix-the-altruists-trailer-418208",
+        "published_at": "2026-10-09T18:51:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senate Democrat Presses Cantor Fitzgerald on Tether Ties and Lutnick Family Profits",
+        "url": "https://decrypt.co/380619/senate-democrat-cantor-fitzgerald-tether-lutnick",
+        "published_at": "2026-10-09T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-09T18:30:11+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blockchain.com Seeks Approval for US Prediction Markets and Crypto Derivatives",
+        "url": "https://decrypt.co/380612/blockchain-cftc-prediction-markets-crypto-derivatives",
+        "published_at": "2026-10-09T18:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside",
+        "url": "https://decrypt.co/380599/bitcoin-rebounds-traders-predict-more-downside",
+        "published_at": "2026-10-09T17:36:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "HSBC, Ant Digital test AI-agent payments using tokenized deposits",
+        "url": "https://cointelegraph.com/news/hsbc-ant-digital-test-ai-agent-payments-using-tokenized-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-09T17:21:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
