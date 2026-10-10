@@ -5,6 +5,7 @@ import json
 import base64
 import argparse
 import shutil
+import time
 from datetime import datetime, timezone
 from dateutil.parser import parse as parse_date
 from dotenv import load_dotenv
@@ -3959,6 +3960,110 @@ def prune_global_accumulated_output(paths: dict, dry_run: bool = False, retain_w
                     print(f"  ⚠ Could not delete {path.name}: {e}")
                     continue
             result[f"{key}_deleted"].append(path.name)
+    return result
+
+def _global_covering_name(rng, covering_files) -> str | None:
+    """Name of the first covering file whose date range contains rng, or None. Never raises."""
+    try:
+        for f in covering_files:
+            cr = _global_file_range(f)
+            if cr is not None and cr[0] <= rng[0] and rng[1] <= cr[1]:
+                return f.name
+    except Exception:
+        pass
+    return None
+
+def delete_global_files_from_github(paths: dict, selection: dict) -> dict:
+    """
+    Delete selected global rollups from GitHub, only when the covering higher-level
+    file is confirmed present in the remote listing. Never raises; never touches
+    local files, the quarterly directory or accumulation_index.json.
+    """
+    result = {"deleted": [], "already_gone": [], "skipped_uncovered": [], "failed": []}
+    try:
+        token = os.environ.get("GITHUB_TOKEN")
+        repo = os.environ.get("GITHUB_REPO")
+        branch = os.environ.get("GITHUB_BRANCH", "main")
+        if not token or not repo:
+            print("  ⚠ Global GitHub prune skipped — GITHUB_TOKEN or GITHUB_REPO not set")
+            return result
+
+        headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+        base = f"https://api.github.com/repos/{repo}/contents/context/global/accumulated"
+
+        def list_remote(subdir: str):
+            """{name: sha} for files in the remote subdir, or None if the listing failed."""
+            try:
+                resp = requests.get(f"{base}/{subdir}", headers=headers, params={"ref": branch}, timeout=15)
+                if resp.status_code == 404:
+                    return {}
+                if resp.status_code != 200:
+                    print(f"  ✗ Global prune: failed to list {subdir}/ HTTP {resp.status_code}")
+                    return None
+                entries = resp.json()
+                if not isinstance(entries, list):
+                    print(f"  ✗ Global prune: unexpected listing for {subdir}/")
+                    return None
+                return {e["name"]: e.get("sha") for e in entries
+                        if isinstance(e, dict) and e.get("type") == "file" and e.get("name")}
+            except Exception as e:
+                print(f"  ✗ Global prune: failed to list {subdir}/: {e}")
+                return None
+
+        sel_weekly = selection.get("weekly") or []
+        sel_monthly = selection.get("monthly") or []
+        listings = {}
+        if sel_weekly:
+            listings["weekly"] = list_remote("weekly")
+        if sel_weekly or sel_monthly:
+            listings["monthly"] = list_remote("monthly")
+        if sel_monthly:
+            listings["quarterly"] = list_remote("quarterly")
+
+        def process(subdir: str, cover_dir: str, selected: list):
+            own, cover = listings.get(subdir), listings.get(cover_dir)
+            if own is None or cover is None:
+                result["failed"].extend(f"{subdir}/{p.name}" for p in selected)
+                return
+            covering_files = sorted(paths[cover_dir].glob(f"{cover_dir}_*.json"))
+            for path in selected:
+                key = f"{subdir}/{path.name}"
+                try:
+                    if path.name not in own:
+                        result["already_gone"].append(key)
+                        continue
+                    rng = _global_file_range(path)
+                    covering = _global_covering_name(rng, covering_files) if rng else None
+                    if covering is None or covering not in cover:
+                        result["skipped_uncovered"].append(key)
+                        continue
+                    payload = {
+                        "message": f"chore(accumulator): prune {path.name} (covered by {covering})",
+                        "sha": own[path.name],
+                        "branch": branch,
+                    }
+                    try:
+                        resp = requests.delete(f"{base}/{subdir}/{path.name}", json=payload, headers=headers, timeout=15)
+                        if resp.status_code == 200:
+                            result["deleted"].append(key)
+                            print(f"  ✓ GitHub prune — {key}")
+                        else:
+                            print(f"  ✗ GitHub prune failed — {key} HTTP {resp.status_code}")
+                            result["failed"].append(key)
+                    except Exception as e:
+                        print(f"  ✗ GitHub prune failed — {key}: {e}")
+                        result["failed"].append(key)
+                    time.sleep(0.5)
+                except Exception as e:
+                    print(f"  ✗ GitHub prune failed — {key}: {e}")
+                    result["failed"].append(key)
+
+        if sel_weekly:
+            process("weekly", "monthly", sel_weekly)
+        if sel_monthly:
+            process("monthly", "quarterly", sel_monthly)
+    except Exception as e:
+        print(f"  ✗ Global GitHub prune failed: {e}")
     return result
 
 def main():
