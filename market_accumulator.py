@@ -3422,6 +3422,18 @@ def write_global_weekly_report(iso_year, iso_week, paths, deduped, daily_data) -
         print(f"  ✗ Failed to write global weekly {iso_year}-W{iso_week:02d}: {e}")
         return None
 
+def existing_rollup_days(path: Path) -> int | None:
+    """days_included of an existing rollup file, or None if absent/unparseable/not a real int."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        days = (data.get("period_metadata") or {}).get("days_included")
+        if isinstance(days, int) and not isinstance(days, bool):
+            return days
+        return None
+    except Exception:
+        return None
+
 def run_global_weekly() -> list[Path]:
     """Build global weekly rollups from reports/market_report_global_*.json. Local only."""
     paths = setup_directories(GLOBAL_CONFIG)
@@ -3438,6 +3450,11 @@ def run_global_weekly() -> list[Path]:
         daily_data = [d for d in (load_daily_report(r["path"]) for r in deduped) if d is not None]
         if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
             print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
+            continue
+        target = paths["weekly"] / f"weekly_{yr}_W{wk:02d}.json"
+        existing_days = existing_rollup_days(target)
+        if not should_overwrite_weekly(len(daily_data), existing_days):
+            print(f"  Preserving {yr}-W{wk:02d}: existing weekly has {existing_days} days, regenerated would have {len(daily_data)}")
             continue
         out = write_global_weekly_report(yr, wk, paths, deduped, daily_data)
         if out:
@@ -3782,13 +3799,20 @@ def write_global_quarterly_report(cal_year, quarter, paths, monthly_reports) -> 
 def run_global_rollups() -> dict:
     """Build global monthly then quarterly rollups from existing global weekly files. Local only."""
     paths = setup_directories(GLOBAL_CONFIG)
-    result = {"monthly": [], "quarterly": []}
+    result = {"monthly": [], "quarterly": [], "preserved": []}
 
     weekly = discover_weekly_reports(paths["weekly"])
     print(f"Found {len(weekly)} global weekly reports")
     for (yr, mo), weeks in sorted(group_by_calendar_month(weekly).items()):
         if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
             print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
+            continue
+        new_days = sum((w["report"].get("period_metadata") or {}).get("days_included") or 0 for w in weeks)
+        target = paths["monthly"] / f"monthly_{yr}_M{mo:02d}.json"
+        existing_days = existing_rollup_days(target)
+        if not should_overwrite_weekly(new_days, existing_days):
+            print(f"  Preserving {yr}-M{mo:02d}: existing monthly has {existing_days} days, regenerated would have {new_days}")
+            result["preserved"].append(target.name)
             continue
         out = write_global_monthly_report(yr, mo, paths, weeks)
         if out:
@@ -3800,6 +3824,13 @@ def run_global_rollups() -> dict:
     for (yr, q), months in sorted(group_by_quarter(monthly).items()):
         if len(months) < MIN_MONTHS_FOR_QUARTERLY:
             print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
+            continue
+        new_days = sum((m["report"].get("period_metadata") or {}).get("days_included") or 0 for m in months)
+        target = paths["quarterly"] / f"quarterly_{yr}_Q{q}.json"
+        existing_days = existing_rollup_days(target)
+        if not should_overwrite_weekly(new_days, existing_days):
+            print(f"  Preserving {yr}-Q{q}: existing quarterly has {existing_days} days, regenerated would have {new_days}")
+            result["preserved"].append(target.name)
             continue
         out = write_global_quarterly_report(yr, q, paths, months)
         if out:
