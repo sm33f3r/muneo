@@ -3839,6 +3839,65 @@ def run_global_rollups() -> dict:
     print(f"\n{len(result['quarterly'])} global quarterly reports written.")
     return result
 
+def write_global_accumulation_index(paths: dict) -> Path | None:
+    """Write context/global/accumulation_index.json summarising every global rollup. Never raises."""
+    try:
+        periods = {"weekly": [], "monthly": [], "quarterly": []}
+        for subdir, pattern in (("weekly", "weekly_*.json"), ("monthly", "monthly_*.json"), ("quarterly", "quarterly_*.json")):
+            for f in sorted(paths[subdir].glob(pattern)):
+                try:
+                    data = json.loads(f.read_text(encoding="utf-8"))
+                    if not isinstance(data, dict):
+                        raise ValueError("not a JSON object")
+                except Exception as e:
+                    print(f"  ⚠ Skipping {f.name} in global index: {e}")
+                    continue
+                pm = data.get("period_metadata") or {}
+                dq = (data.get("accumulation_metadata") or {}).get("data_quality") or pm.get("data_quality")
+                periods[subdir].append({
+                    "period_id": pm.get("period_id"),
+                    "period_type": subdir,
+                    "start_date": pm.get("start_date"),
+                    "end_date": pm.get("end_date"),
+                    "data_quality": dq,
+                    "overall_lean": (data.get("signal_summary") or {}).get("overall_lean"),
+                    "signals_available": (data.get("signal_summary") or {}).get("signals_available"),
+                    "days_included": pm.get("days_included"),
+                    "btc_price_close": (data.get("btc") or {}).get("price_close"),
+                    "btc_period_return_pct": (data.get("btc") or {}).get("period_return_pct"),
+                    "total_market_cap_change_pct": (data.get("market_structure") or {}).get("total_market_cap_change_pct"),
+                    "fear_greed_close": (data.get("sentiment") or {}).get("fear_greed_close"),
+                    "filename": f.name,
+                })
+
+        all_entries = [e for lst in periods.values() for e in lst]
+        starts = [e["start_date"] for e in all_entries if e["start_date"]]
+        ends = [e["end_date"] for e in all_entries if e["end_date"]]
+        index = {
+            "token": "global",
+            "scope": "global",
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S UTC"),
+            "script_version": SCRIPT_VERSION,
+            "schema_version": GLOBAL_ROLLUP_SCHEMA_VERSION,
+            "total_periods": len(all_entries),
+            "weekly_count": len(periods["weekly"]),
+            "monthly_count": len(periods["monthly"]),
+            "quarterly_count": len(periods["quarterly"]),
+            "coverage_start": min(starts) if starts else None,
+            "coverage_end": max(ends) if ends else None,
+            "most_recent_weekly": periods["weekly"][-1] if periods["weekly"] else None,
+            "most_recent_monthly": periods["monthly"][-1] if periods["monthly"] else None,
+            "most_recent_quarterly": periods["quarterly"][-1] if periods["quarterly"] else None,
+            "periods": periods,
+        }
+        out_path = paths["context_root"] / "accumulation_index.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(index, f, indent=2)
+        return out_path
+    except Exception as e:
+        print(f"  ✗ Failed to write global accumulation index: {e}")
+        return None
+
 def main():
     args = parse_args()
 
@@ -3847,6 +3906,8 @@ def main():
             run_global_weekly()
         if args.global_rollups:
             run_global_rollups()
+        index_path = write_global_accumulation_index(setup_directories(GLOBAL_CONFIG))
+        print(f"Global accumulation index: {index_path}")
         return
 
     config_files = sorted(Path("configs").glob("*.json"))
