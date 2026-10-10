@@ -67,6 +67,12 @@ def parse_args():
         action="store_true",
         help="Generate global monthly and quarterly rollups from existing global weekly files (local only)"
     )
+    parser.add_argument(
+        "--global-prune-dry-run",
+        dest="global_prune_dry_run",
+        action="store_true",
+        help="Preview global rollup pruning (coverage-gated); deletes nothing"
+    )
     return parser.parse_args()
 
 def load_config(config_path: str) -> dict:
@@ -3898,8 +3904,70 @@ def write_global_accumulation_index(paths: dict) -> Path | None:
         print(f"  ✗ Failed to write global accumulation index: {e}")
         return None
 
+def _global_file_range(path: Path) -> tuple[str, str] | None:
+    """(start_date, end_date) from a rollup file's period_metadata, or None. Never raises."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return None
+        pm = data.get("period_metadata")
+        if not isinstance(pm, dict):
+            return None
+        s, e = pm.get("start_date"), pm.get("end_date")
+        if not isinstance(s, str) or not isinstance(e, str):
+            return None
+        return (s, e)
+    except Exception:
+        return None
+
+def _global_is_covered(rng, covering_ranges) -> bool:
+    return any(s <= rng[0] and rng[1] <= e for s, e in covering_ranges)
+
+def select_global_files_to_prune(paths: dict, retain_weekly: int = RETAIN_WEEKLY, retain_monthly: int = RETAIN_MONTHLY) -> dict:
+    """Pure selection: weeklies beyond the newest N covered by a monthly, monthlies beyond the newest N covered by a quarterly."""
+    weekly_files = sorted(paths["weekly"].glob("weekly_*.json"))
+    monthly_files = sorted(paths["monthly"].glob("monthly_*.json"))
+    quarterly_files = sorted(paths["quarterly"].glob("quarterly_*.json"))
+    monthly_ranges = [r for r in map(_global_file_range, monthly_files) if r]
+    quarterly_ranges = [r for r in map(_global_file_range, quarterly_files) if r]
+
+    def pick(files, retain, covering):
+        candidates = files[:-retain] if len(files) > retain else []
+        out = []
+        for c in candidates:
+            rng = _global_file_range(c)
+            if rng is not None and _global_is_covered(rng, covering):
+                out.append(c)
+        return out
+
+    return {
+        "weekly": pick(weekly_files, retain_weekly, monthly_ranges),
+        "monthly": pick(monthly_files, retain_monthly, quarterly_ranges),
+    }
+
+def prune_global_accumulated_output(paths: dict, dry_run: bool = False, retain_weekly: int = RETAIN_WEEKLY, retain_monthly: int = RETAIN_MONTHLY) -> dict:
+    """Delete (or preview deleting) coverage-gated global rollups locally. Quarterly is never pruned."""
+    selection = select_global_files_to_prune(paths, retain_weekly, retain_monthly)
+    result = {"weekly_deleted": [], "monthly_deleted": [], "dry_run": dry_run}
+    for key in ("weekly", "monthly"):
+        for path in selection[key]:
+            print(f"  {'Would prune' if dry_run else 'Pruning'}: {path.name}")
+            if not dry_run:
+                try:
+                    path.unlink()
+                except OSError as e:
+                    print(f"  ⚠ Could not delete {path.name}: {e}")
+                    continue
+            result[f"{key}_deleted"].append(path.name)
+    return result
+
 def main():
     args = parse_args()
+
+    if args.global_prune_dry_run:
+        result = prune_global_accumulated_output(setup_directories(GLOBAL_CONFIG), dry_run=True)
+        print(f"Global prune preview: {len(result['weekly_deleted'])} weekly, {len(result['monthly_deleted'])} monthly would be pruned (nothing deleted)")
+        return
 
     if args.global_weekly or args.global_rollups:
         if args.global_weekly:
