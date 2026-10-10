@@ -1,0 +1,427 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-10T21:13:38 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2817098783187.1,
+    "total_market_cap_change_24h_pct": -1.9473,
+    "total_volume_24h_usd": 47084289423.41,
+    "btc_dominance_pct": 59.0872,
+    "eth_dominance_pct": 10.8511,
+    "total2_usd": 1152552802704.83,
+    "total3_usd": 846866632614.28,
+    "active_cryptocurrencies": 22139,
+    "altcoin_season_index": 51,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": 48.2715,
+        "price_usd": 0.102406,
+        "market_cap_usd": 760054810
+      },
+      {
+        "symbol": "CHIP",
+        "name": "USD.AI",
+        "price_change_24h_pct": 32.994,
+        "price_usd": 0.067831,
+        "market_cap_usd": 135661061
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 24.2611,
+        "price_usd": 0.502074,
+        "market_cap_usd": 246043640
+      },
+      {
+        "symbol": "CFX",
+        "name": "Conflux",
+        "price_change_24h_pct": 24.0394,
+        "price_usd": 0.061903,
+        "market_cap_usd": 324761582
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": 22.7839,
+        "price_usd": 0.579126,
+        "market_cap_usd": 567092640
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -17.3484,
+        "price_usd": 0.00533733,
+        "market_cap_usd": 314263326
+      },
+      {
+        "symbol": "JST",
+        "name": "JUST",
+        "price_change_24h_pct": -3.9917,
+        "price_usd": 0.13663,
+        "market_cap_usd": 1118829771
+      },
+      {
+        "symbol": "GEOD",
+        "name": "Geodnet",
+        "price_change_24h_pct": -3.1482,
+        "price_usd": 0.293902,
+        "market_cap_usd": 135891775
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -2.7011,
+        "price_usd": 0.993689,
+        "market_cap_usd": 2270422890
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -2.5008,
+        "price_usd": 1.12,
+        "market_cap_usd": 280652155
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 82961,
+    "price_change_24h_pct": 0.5478,
+    "price_change_7d_pct": -2.1829,
+    "market_cap_usd": 1667205787991,
+    "volume_24h_usd": 15462933685,
+    "direction": "neutral",
+    "oi_usd": 7692480741.66,
+    "funding_rate_latest": 4.57e-06,
+    "funding_rate_7d_avg": 1.222952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5,
+    "long_account_pct": 60.0,
+    "short_account_pct": 40.0,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2506.04,
+    "price_change_24h_pct": 0.9637,
+    "price_change_7d_pct": -6.5987,
+    "market_cap_usd": 306042249935,
+    "volume_24h_usd": 5480422646,
+    "eth_btc_ratio": 0.030207,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92473794391.1,
+    "stablecoin_market_cap_usd": 312051337513.38,
+    "stablecoin_dominance_pct": 11.077
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 8,
+    "headlines": [
+      {
+        "headline": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says - Reuters",
+        "summary": "Several wounded in Riyadh airport attack, operations suspended, Saudi aviation authority says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o?oc=5",
+        "published_at": "2026-10-10T17:22:56Z"
+      },
+      {
+        "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
+        "summary": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
+        "published_at": "2026-10-10T15:28:16Z"
+      },
+      {
+        "headline": "Pok\u00e9mon card values are soaring. What collectors should know before buying or selling",
+        "summary": "Pok\u00e9mon card values are surging. Learn how grading, scarcity, recent sales and counterfeits can affect what collectors pay.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/10/pokemon-card-values-grading-guide.html",
+        "published_at": "2026-10-10T13:30:02Z"
+      },
+      {
+        "headline": "I work hard to stay close to my friends. A researcher says it\u2019s good for my well-being\u2014and these 3 habits can help",
+        "summary": "Keeping in touch with friends can be hard, but often worth the effort, research shows. A friendship expert recommends these three practices for connection.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/10/how-to-maintain-close-friendships.html",
+        "published_at": "2026-10-10T13:05:01Z"
+      },
+      {
+        "headline": "How Supreme Court justices are leaning in major 401(k) case over private funds and underperformance",
+        "summary": "The Supreme Court is weighing an Intel 401(k) case as employers await new Labor Department rules on private investments in retirement plans.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
+        "published_at": "2026-10-10T13:00:01Z"
+      },
+      {
+        "headline": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack - Reuters",
+        "summary": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3lBZTEwaWVLUXNScDVCZjV1eDRkb3RoWnM2M0ZkOE9DM0ZVMDNPaXA1ZDJXQ0xYZ2JqZm85dm9HbHBOSXNaQmVzUWJQN0xnMXpNR2dENDFoMXItWEQxYlB2WmZGUVVxYU1RX0E0RHNKSWd0RDNkbmk1Ty1MZnlJZFUxR3pjanFwSWZzS3hiZlktMEtTM2psOS12Y2xaMlk1MEc1Nm81NU50WjFKN0ZkY082T0pFVGU3dmd6T3JIckNPcFR0VlM0?oc=5",
+        "published_at": "2026-10-10T11:33:43Z"
+      },
+      {
+        "headline": "Wall Street posts weekly gains with earnings, inflation data on tap - Reuters",
+        "summary": "Wall Street posts weekly gains with earnings, inflation data on tap\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
+        "published_at": "2026-10-09T23:33:00Z"
+      },
+      {
+        "headline": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption - Reuters",
+        "summary": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1VpS1UxU2RzcFdfQkpkUXdBQkd5cTZPdTRrU3hTSzFhOHpaN25PcHJjblJGdGQxSlBSNjZ2S0tnSlhUYmRLZmtubDJ4NU5WYXJxRHBSdy1kSHBpdGktVFpZcGVTNTJPZHlvREE1QnVuXzE5SXR1Y19KLWdmdTlKMWIwRjBGQzFFbGVUTmw3TUNaY0FjWHRCSjdWSk1kT3NHVlJGSlY3MVR6d0REZlVjdmhpX3JPOFgwZVF0UlYtb3c?oc=5",
+        "published_at": "2026-10-09T22:04:42Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2333,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 778.57,
+    "spy_change_pct": 0.5995,
+    "spy_lean": "bullish",
+    "vix_close": 15.41,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 82941.33,
+    "coinbase_premium_pct": -0.02371,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-10T21:13:38 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 229.28,
+        "change_pct": -0.5207,
+        "prev_close": 230.48
+      },
+      "AMD": {
+        "close": 608.1,
+        "change_pct": -2.0268,
+        "prev_close": 620.68
+      },
+      "TSM": {
+        "close": 453.31,
+        "change_pct": -1.0219,
+        "prev_close": 457.99
+      },
+      "SMCI": {
+        "close": 41.855,
+        "change_pct": -2.1394,
+        "prev_close": 42.77
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 751.27,
+        "change_pct": 0.4936,
+        "prev_close": 747.58
+      },
+      "SOXX": {
+        "close": 559.4,
+        "change_pct": -0.6888,
+        "prev_close": 563.28
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-09",
+    "total_net_inflow_usd": 21128078.55,
+    "total_net_assets_usd": 105844422150.6,
+    "total_value_traded_usd": 1440037593.9,
+    "cum_net_inflow_usd": 57106714665.87,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 82961,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 57,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 10,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 9,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Kalshi is investigating bets on Trump\u2019s press secretary pick placed before announcement: WSJ",
+        "url": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+        "published_at": "2026-10-10T18:35:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC Draws the Line Between Prediction Markets and Gambling in New Rules",
+        "url": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules",
+        "published_at": "2026-10-10T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Sam Altman-Backed Life Insurer Runs Entirely on Bitcoin, and Just Raised $37.5 Million",
+        "url": "https://decrypt.co/380633/sam-altman-backed-life-insurer-bitcoin-raise",
+        "published_at": "2026-10-10T16:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+        "url": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+        "published_at": "2026-10-10T15:10:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s a Way to Predict When AI Chatbots Will Turn Bad",
+        "url": "https://decrypt.co/380624/formula-predicts-when-ai-chatbot-turn-bad",
+        "published_at": "2026-10-10T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "French Committee Backs Stablecoin Swap Tax and Crypto Exit Tax, Then Rejects the Budget",
+        "url": "https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax",
+        "published_at": "2026-10-10T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-10T12:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Justin Sun says Tron\u2019s post-quantum cryptography has gone live on testnet",
+        "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-10T11:52:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tech chief says EU can fend off rogue AI risk: Report",
+        "url": "https://cointelegraph.com/news/tech-chief-says-eu-can-fend-off-rogue-ai-risk-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-10T08:41:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds",
+        "url": "https://cointelegraph.com/news/sam-altman-backed-bitcoin-life-insurer-meanwhile-raises-more-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-10T07:10:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
