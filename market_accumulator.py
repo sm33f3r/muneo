@@ -1,6 +1,7 @@
 # Muneo Market Accumulator - A script to accumulate daily market reports into weekly, monthly, and quarterly summaries.
 
 import os
+import re
 import json
 import base64
 import argparse
@@ -73,6 +74,12 @@ def parse_args():
         dest="global_prune_dry_run",
         action="store_true",
         help="Preview global rollup pruning (coverage-gated); deletes nothing"
+    )
+    parser.add_argument(
+        "--global-accumulate",
+        dest="global_accumulate",
+        action="store_true",
+        help="Run the full stateless global pipeline: pull, weekly, push, cleanup, rollups, push, gated remote prune, index (pushes to and deletes from GitHub)"
     )
     return parser.parse_args()
 
@@ -4066,8 +4073,105 @@ def delete_global_files_from_github(paths: dict, selection: dict) -> dict:
         print(f"  ✗ Global GitHub prune failed: {e}")
     return result
 
+def _global_weeks_ready_to_confirm(paths: dict) -> list:
+    """Sorted (iso_year, iso_week) tuples with a global daily report on disk (week taken from the filename date) and a local weekly file. Never raises."""
+    try:
+        pattern = re.compile(r"^" + re.escape(GLOBAL_CONFIG["output_prefix"]) + r"_(\d{8})_(\d{6})\.json$")
+        weeks = set()
+        for f in Path(paths["reports"]).glob("*.json"):
+            m = pattern.match(f.name)
+            if not m:
+                continue
+            try:
+                iso = datetime.strptime(m.group(1), "%Y%m%d").isocalendar()
+            except ValueError:
+                continue
+            if (paths["weekly"] / f"weekly_{iso.year}_W{iso.week:02d}.json").exists():
+                weeks.add((int(iso.year), int(iso.week)))
+        return sorted(weeks)
+    except Exception:
+        return []
+
+def run_global_accumulate() -> dict:
+    """Stateless end-to-end global pipeline. Composes existing functions; each step is isolated. Never raises."""
+    errors = []
+    confirmed = set()
+    remote = None
+    try:
+        paths = setup_directories(GLOBAL_CONFIG)
+    except Exception as e:
+        print(f"  ✗ setup_directories failed: {e}")
+        return {"weeks_confirmed": 0, "remote": None, "errors": [f"setup_directories: {e}"]}
+
+    def step(name, fn):
+        try:
+            return fn()
+        except Exception as e:
+            print(f"  ✗ {name} failed: {e}")
+            errors.append(f"{name}: {e}")
+            return None
+
+    # 1-3. Restore state, build global weeklies
+    step("pull_reports", lambda: pull_reports_from_github(
+        token_symbol=GLOBAL_CONFIG["token_name"], output_prefix=GLOBAL_CONFIG["output_prefix"]))
+    step("pull_accumulated", lambda: pull_accumulated_from_github(paths, GLOBAL_CONFIG))
+    step("run_global_weekly", run_global_weekly)
+
+    # 4. Push weeklies that have dailies, confirm
+    try:
+        weeks = _global_weeks_ready_to_confirm(paths)
+        confirmed = push_weekly_files_to_github(paths, GLOBAL_CONFIG, weeks)
+    except Exception as e:
+        print(f"  ✗ push_weekly failed: {e}")
+        errors.append(f"push_weekly: {e}")
+        confirmed = set()
+
+    # 5. Daily cleanup only for confirmed weeks
+    if confirmed:
+        def _cleanup():
+            daily_reports = discover_daily_reports(paths["reports"], GLOBAL_CONFIG["output_prefix"])
+            return cleanup_old_daily_reports(daily_reports, confirmed)
+        step("cleanup_daily", _cleanup)
+    else:
+        print("  No weeks confirmed on GitHub — no daily reports will be deleted")
+
+    # 6-9. Rollups, selection, index, push
+    step("run_global_rollups", run_global_rollups)
+    selection = step("select_prune", lambda: select_global_files_to_prune(paths)) or {"weekly": [], "monthly": []}
+    step("index", lambda: write_global_accumulation_index(paths))
+    step("push_accumulated", lambda: push_accumulated_to_github(paths, GLOBAL_CONFIG))
+
+    # 10. Gated remote deletion
+    if selection["weekly"] or selection["monthly"]:
+        remote = step("remote_delete", lambda: delete_global_files_from_github(paths, selection))
+
+    # 11. Local unlink only for files gone remotely, then refresh index and push
+    if remote is not None and (remote["deleted"] or remote["already_gone"]):
+        gone = set(remote["deleted"]) | set(remote["already_gone"])
+        def _unlink_gone():
+            for path in selection["weekly"] + selection["monthly"]:
+                if f"{path.parent.name}/{path.name}" in gone:
+                    try:
+                        path.unlink()
+                        print(f"  Removed local: {path.name}")
+                    except OSError as e:
+                        print(f"  ⚠ Could not remove local {path.name}: {e}")
+        step("local_unlink", _unlink_gone)
+        step("index_refresh", lambda: write_global_accumulation_index(paths))
+        step("push_accumulated_refresh", lambda: push_accumulated_to_github(paths, GLOBAL_CONFIG))
+
+    print(
+        f"Global accumulate done: {len(confirmed)} week(s) confirmed, "
+        f"{len(remote['deleted']) if remote else 0} remote deleted, {len(errors)} error(s)"
+    )
+    return {"weeks_confirmed": len(confirmed), "remote": remote, "errors": errors}
+
 def main():
     args = parse_args()
+
+    if args.global_accumulate:
+        run_global_accumulate()
+        return
 
     if args.global_prune_dry_run:
         result = prune_global_accumulated_output(setup_directories(GLOBAL_CONFIG), dry_run=True)
