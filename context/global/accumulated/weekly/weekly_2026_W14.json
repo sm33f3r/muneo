@@ -1,0 +1,376 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W14",
+    "iso_year": 2026,
+    "iso_week": 14,
+    "start_date": "2026-03-30",
+    "end_date": "2026-04-05",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2389075019682.34,
+    "total_market_cap_usd_end": 2395797984394.76,
+    "total_market_cap_change_pct": 0.2814,
+    "btc_dominance_pct_start": 56.0422,
+    "btc_dominance_pct_end": 56.3752,
+    "eth_dominance_pct_start": 10.3135,
+    "eth_dominance_pct_end": 10.3799,
+    "total2_usd_start": 1050184235549.74,
+    "total2_usd_end": 1045161284691.65,
+    "total3_usd_start": 803786052283.71,
+    "total3_usd_end": 796480098497.48,
+    "total_volume_24h_usd_avg": 85322476618.8843,
+    "altcoin_season_index_avg": 44.5714,
+    "altcoin_season_index_close": 27,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 66815,
+    "price_close": 67438,
+    "price_high": 68459,
+    "price_low": 66815,
+    "period_return_pct": 0.9324,
+    "oi_usd_start": 5962806991.47,
+    "oi_usd_end": 6048400721.85,
+    "oi_change_pct": 1.4355,
+    "funding_rate_avg": -7.05e-06,
+    "long_short_ratio_avg": 1.6999,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 2040.88,
+    "price_close": 2059.49,
+    "period_return_pct": 0.9119,
+    "eth_btc_ratio_start": 0.030545,
+    "eth_btc_ratio_end": 0.030539,
+    "eth_btc_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 93182521796.53,
+    "total_defi_tvl_usd_end": 92653029741.96,
+    "tvl_change_pct": -0.5682,
+    "stablecoin_market_cap_usd_start": 314229134536.96,
+    "stablecoin_market_cap_usd_end": 315497965493.45,
+    "stablecoin_dominance_pct_start": 13.1528,
+    "stablecoin_dominance_pct_end": 13.1688,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 120.8851,
+    "dxy_end": 120.8851,
+    "dxy_lean_modal": "bearish",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 631.99,
+    "spy_close_end": 655.83,
+    "spy_return_pct": 3.7722,
+    "spy_lean_modal": "neutral",
+    "vix_close_avg": 26.4386,
+    "vix_close_end": 24.54,
+    "vix_lean_modal": "neutral",
+    "coinbase_premium_pct_avg": null,
+    "coinbase_premium_lean_modal": null
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": null,
+    "days_with_data": 0
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 29.1429,
+    "fear_greed_min": 26,
+    "fear_greed_max": 33,
+    "fear_greed_close": 30,
+    "fear_greed_label_close": "Fear",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 70,
+    "positive_count_sum": 13,
+    "negative_count_sum": 10,
+    "neutral_count_sum": 47,
+    "sentiment_ratio_avg": 0.1857,
+    "news_spike_days": 0,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "\u00bb This Week on Broadway for April 5, 2026: Dog Day Afternoon BroadwayRadio",
+        "url": "https://br...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:26:06.000Z",
+        "source": "laureus....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Temple Mount Set for Limited Reopening to Jews and Muslims",
+        "url": "https://je...(+92 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:25:30.000Z",
+        "source": "jewishpo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "On Easter, Pope Leo Urges World Leaders to End Wars, Renounce Conquest",
+        "url": "https://je...(+102 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:25:25.000Z",
+        "source": "jewishpo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "High-Stakes US Special Forces Mission Rescues Airman From Iran After F-15 Crash",
+        "url": "https://je...(+113 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:25:24.000Z",
+        "source": "jewishpo...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.02
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Shillong LS bypoll: BJP awaits central nod to go solo | The Shillong Times",
+        "url": "https://th...(+83 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:25:23.000Z",
+        "source": "theshill...(+12 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "When politicians meet punters \u2013 racing as refuge and springboard | Thoroughbred Racing Commentary",
+        "url": "http://www...(+98 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:25:04.000Z",
+        "source": "supertip...(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Roadside Fight Breaks Out Complete With Hair Pulling & Groin Scratching After Road Rage Incident",
+        "url": "https://ww...(+111 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:20:51.000Z",
+        "source": "outkick....(+3 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -0.15
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Leeds beat West Ham in shootout to reach FA Cup semis | The Citizen",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:20:10.000Z",
+        "source": "citizen....(+5 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.05
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "No extra auditor duties under Div 296 | SMS Magazine",
+        "url": "https://sm...(+71 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:19:28.000Z",
+        "source": "smsmagaz...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Wales Family Celebrates Easter at Windsor",
+        "url": "https://wh...(+72 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-05T21:17:55.000Z",
+        "source": "whatkate...(+8 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.23
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 283,
+    "macro_headlines": [
+      {
+        "headline": "Trump, on Easter, threatens 'hell' on Iran's infrastructure if Strait remains blocked - Reuters",
+        "summary": "Trump, on Easter, threatens 'hell' on Iran's infrastructure if Strait remains blocked\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3pCRHpvWFotR0dkUGg2a1Z5LUx3RWYwZ1BpLUw2SVNsb1pQdXROdFhjUWZXeERuNUFveE5rd0xrTEpwWWNhU3QwWFFSZHg1aDFoSmp6LWdCTXhsQXhjZjJ2VExZdDlCSWZkUTdFVnNhZEZDeUlfN3h5YnAwM3ZhVE00dEtMMy1lMmlzcHRjVGZ5ZG45Zzg3NmZ3VDlBVzdJcmd6WkJnMzlvZnpv?oc=5",
+        "published_at": "2026-04-05T18:20:56Z"
+      },
+      {
+        "headline": "The mega IPOs of SpaceX, Anthropic and OpenAI alone can't fix this stock market",
+        "summary": "We have three big headwinds draggins stocks down, and one long-shot solution.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/05/cramer-ipos-of-spacex-anthropic-and-openai-alone-cant-fix-this-market.html",
+        "published_at": "2026-04-05T17:16:39Z"
+      },
+      {
+        "headline": "Trump gives Iran until Tuesday night to open Strait of Hormuz, WSJ reports - Reuters",
+        "summary": "Trump gives Iran until Tuesday night to open Strait of Hormuz, WSJ reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTU1cDlRT2tQNUMtdkM5VTNJWGR6aTV5MXF3ZzZpcnB6bHFGLXVicFJLUExkUW1nOER1cVZDX2EwbUI2RGtlOGdwLUtLcXdpaG1mbGdZU1B6Y1lqTTNBM1VkSGpPUHNEZ3NiLUxlX2lTX1pUTEZ1MGVWcmNEX3ZBaVFhT2ZrVndqdGpldHRXOE9hMW5La29RMVN6ZC0zMEtBUXhFem1iZHJNa3VIZllPTVdDZVhJM1VxRmcydmdn?oc=5",
+        "published_at": "2026-04-05T16:49:24Z"
+      },
+      {
+        "headline": "Russia says US should abandon 'language of ultimatums' on Iran - Reuters",
+        "summary": "Russia says US should abandon 'language of ultimatums' on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaWlSY3pVZVJQUTktNExIT0ZuSmU0VkdncE5kVHpPaVh4OTR6TkJRZlI3MjMyR1A4Z215dFJxLUZFSC0yeU1SdHFDWFVGaU50UEFkc3RZbGNHUWdpMl9MVWJBcHRGZkxnRV9JMlFYRmNLblB3U3pzVVBmX1FDN09EVW1vVjJwdFdfNjh3SkU2ZW5ieXNPSGZnT0ozeS1zcFZJVFpSV3FDWDhWZDFR?oc=5",
+        "published_at": "2026-04-05T16:36:03Z"
+      },
+      {
+        "headline": "Trump threatens Iran after US rescues airman - Reuters",
+        "summary": "Trump threatens Iran after US rescues airman\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa281aFltNjZoOTB3MWNaVGNmX2lvcEYxZXl6WXJlZE5ZbzJBY1huT0Y3TjIyZlJzRzl4ZnJLNVVNblN0SGpySXdnRF9XMHI1b1U0R1RlZUV5WkR6aG1tUWZGeU4yZnJQSzR5eV95UzhTMmZuelJUOW50YW56VFJwQ2R2ODRGa0wtTFdFOVNaT2ZfWWM?oc=5",
+        "published_at": "2026-04-05T16:15:18Z"
+      },
+      {
+        "headline": "Petronas-chartered tanker loaded with Iraqi crude passes through Hormuz - Reuters",
+        "summary": "Petronas-chartered tanker loaded with Iraqi crude passes through Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzM0R3hqdmpGMGtLdjg1bDhJZmtqM2VFRnVEY1h2M2NMNXJCYy1raHY5RDZqMHdDMUZvUVNJbmQ5cGNZTm5zd0NwM2FDZWQ0N2tvMjlMdmc3MFJLSDJOMThJVFVjbU5NcVVXN0ExOGtPbjMzZkZralBIMzRCRERmR0hDWXpPd2NibVVoT3pDQ3UwdEh4eXJaaTFLYmhVLW96eHBLZ3hhdC05S0dFdE9QeXhTNlU0VTZvSU5QUWhVcU8tUQ?oc=5",
+        "published_at": "2026-04-05T16:06:19Z"
+      },
+      {
+        "headline": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens - Reuters",
+        "summary": "OPEC+ agrees to boost oil output when Strait of Hormuz reopens\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0w1SHNLQ1k1UGtoeDZfXzZ6N3pwVzNzc2tkZ2xCdmpjazMwQktBeEpzMXZLYTB0NzJZakNtdUdKV2FENkc0eW9nZHZseWQzTVNObWpidElWby1UTGhCaTlSZ2tSWU4weXlHNEppMlBXNUR0YXotR3dMbUgxdzlHSXdoM3REd2NQRG1COFlTeVlwRXZzR3RCckh6Q2pyTWRKTmExVkJjWXRpZlZBNUUzcExkdDYxdGxuRXB6QlZQTjF3MWlVdFpF?oc=5",
+        "published_at": "2026-04-05T15:59:13Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The war in the Middle East is still the most important thing for the stock market.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/05/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-04-05T15:51:16Z"
+      },
+      {
+        "headline": "Container ship reports incident at UAE's Khor Fakkan port, UKMTO says - Reuters",
+        "summary": "Container ship reports incident at UAE's Khor Fakkan port, UKMTO says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDQ3aGdMdDNBeVRPRVIwRGJCQV9aNm9oYlljZy0wMlJYYlVoTktVVVlEc292NHB1d1VvLVFnTzZFMEpDZzRUbFJSa2NtNTdlWHFwc2tPRjY3RnZLeFF0Tjd1OWI3WnhhYmtPMFdYX2ZJdzNjOVhIem9LMGJPOFQ4Vjc5R0M2YVZYUTcwR0JBRUFhX194Mmh0LUswSTRsd1ZxbjZ6cUFxMm5qckR4MWkwZXo2MC1BUjNmeWc?oc=5",
+        "published_at": "2026-04-05T14:08:30Z"
+      },
+      {
+        "headline": "Trump says deal with Iran possible by Monday, Fox News reports - Reuters",
+        "summary": "Trump says deal with Iran possible by Monday, Fox News reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQl9FSFcyNmtxS25qRmZaVnZlOF96czZtZDktRHVsRGNMUDl0RENyZmN3SmFfNjAtNWp0S05GelYyeWFzYThHV1NuaS1MalhuUGVvNzY2UXBiMHN2MTdJUDFyNjdfb1N2QUF4OWNOY1o0Z3pBMDZpQ2Uxc0JFQUJXM21nOGZxZHZKek1wMW9pZk1xdVZveUtRb01vTF9wUlptTE1mMURnbnZwVTZwcG1NeHR3OVJuZw?oc=5",
+        "published_at": "2026-04-05T13:59:43Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 12,
+    "signals_null": 5,
+    "bullish_count": 0,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 7,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "macro.coinbase_premium_pct",
+    "tech_equities.tech_sector_lean",
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "1.0.0"
+    ],
+    "days_with_fetch_errors": 1
+  }
+}
