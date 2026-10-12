@@ -3425,7 +3425,7 @@ def write_global_weekly_report(iso_year, iso_week, paths, deduped, daily_data) -
             "news": aggregate_global_weekly_news(daily_data),
             "signal_summary": aggregate_global_weekly_signal_summary(daily_data),
             "data_gaps": aggregate_global_weekly_data_gaps(daily_data),
-            "not_aggregated": {"liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"},
+            "not_aggregated": {"liquidation_map": "point-in-time modelled snapshot (see each daily report); not aggregated"},
             "accumulation_metadata": acc,
         }
         out_path = paths["weekly"] / f"weekly_{iso_year}_W{iso_week:02d}.json"
@@ -3782,7 +3782,7 @@ def _build_global_rollup(kind, pm_head, pm_tail, period_reports, unit, breakdown
             "signal_summary": aggregate_global_rollup_signal_summary(period_reports, "weeks" if unit == "week" else "months"),
             breakdown_key: build_global_rollup_breakdown(period_reports, unit),
             "data_gaps": aggregate_global_rollup_data_gaps(period_reports),
-            "not_aggregated": {"liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"},
+            "not_aggregated": {"liquidation_map": "point-in-time modelled snapshot (see each daily report); not aggregated"},
             "accumulation_metadata": acc,
         }
         with open(out_path, "w", encoding="utf-8") as f:

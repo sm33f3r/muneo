@@ -38,7 +38,7 @@ All free-tier, no paid endpoints:
 | [Alpha Vantage](https://alphavantage.co) | SPY, VIX, DXY (computed from FX basket) equities/FX data | Yes — free key, 25 req/day |
 | [CryptoPanic](https://cryptopanic.com/developers/api) | Aggregated crypto news | Yes — free Developer key |
 | [Finnhub](https://finnhub.io) | Macro news (global report only) | Yes — free key, 60 req/min |
-| [Binance](https://binance-docs.github.io/apidocs/spot/en/) | CEX ticker, funding rates, long/short ratio | No |
+| [Binance](https://binance-docs.github.io/apidocs/spot/en/) | CEX ticker, funding rates, long/short ratio, futures klines + open-interest history (liquidation heatmap) | No |
 | [DeFiLlama](https://defillama.com/docs/api) | Chain TVL | No |
 | RSS/Atom feeds (via `rss_utils.py`) | Token and macro news | No |
 
@@ -88,6 +88,23 @@ Each token is described by a small JSON file in `configs/`:
 Currently configured: `configs/sui.json` (SUI) and `configs/solana.json` (SOL). To add another token, create a new config following this schema and run `market_report.py --config configs/<name>.json`.
 
 `rss_keywords` drives that token's news search against the RSS feed pool — this replaced an earlier org-name/title-search scheme. `upcoming_unlocks` feeds the near-term-unlock signal: an unlock within 30 days contributes a bearish lean.
+
+---
+
+## Liquidation heatmap
+
+`liquidation_heatmap.py` builds a free, DIY liquidation heatmap for BTC and ETH (global report, `liquidation_map.btc_heatmap` / `eth_heatmap`) and for each token's `binance_futures_symbol` (token report, `derivatives.liquidation_heatmap`). The PNG is overwritten each run at `heatmaps/liquidation_heatmap_<symbol>.png`.
+
+It is a **model, not real positions** — Binance does not publish where open positions would be liquidated. Using the last 30 days of hourly Binance futures candles and open interest:
+
+1. When open interest rises, the new OI is treated as new longs *and* shorts opened at that hour's typical price, spread across an assumed leverage mix (5x 15%, 10x 30%, 25x 25%, 50x 20%, 100x 10%).
+2. Each gets a liquidation price: `entry × (1 ∓ 1/leverage ± 0.5% maintenance margin)`.
+3. When open interest falls, all open positions shrink proportionally.
+4. Once the price path crosses a liquidation price, those positions are counted as liquidated and removed.
+
+What remains is the estimated liquidation "fuel" at each price level — long liquidations below the price, short liquidations above it. The JSON includes the top clusters on each side, a 60-bin `levels` table, and `liq_pressure_lean` (1.5× more fuel within ±5% on one side). The global report's `liq_pressure_lean` signal uses the BTC model. Run `python liquidation_heatmap.py ETHUSDT` to build one by hand.
+
+Binance's futures API is blocked from some regions (HTTP 451, e.g. US IPs); the heatmap then shows up as a `fetch_errors` entry and a null field.
 
 ---
 
