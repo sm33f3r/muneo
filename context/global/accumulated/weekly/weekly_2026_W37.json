@@ -1,0 +1,316 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W37",
+    "iso_year": 2026,
+    "iso_week": 37,
+    "start_date": "2026-09-07",
+    "end_date": "2026-09-13",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2684600549786.65,
+    "total_market_cap_usd_end": 2633697469204.03,
+    "total_market_cap_change_pct": -1.8961,
+    "btc_dominance_pct_start": 59.1046,
+    "btc_dominance_pct_end": 58.7989,
+    "eth_dominance_pct_start": 11.3051,
+    "eth_dominance_pct_end": 11.6128,
+    "total2_usd_start": 1097879435028.29,
+    "total2_usd_end": 1085111215644.79,
+    "total3_usd_start": 794382209969.08,
+    "total3_usd_end": 779264645340.81,
+    "total_volume_24h_usd_avg": 80051363542.6929,
+    "altcoin_season_index_avg": 68.2857,
+    "altcoin_season_index_close": 63,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 79206,
+    "price_close": 77287,
+    "price_high": 79206,
+    "price_low": 77213,
+    "period_return_pct": -2.4228,
+    "oi_usd_start": 8476648218.47,
+    "oi_usd_end": 8112403754.71,
+    "oi_change_pct": -4.297,
+    "funding_rate_avg": 5.491e-05,
+    "long_short_ratio_avg": 1.4312,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 2492.5,
+    "price_close": 2512.17,
+    "period_return_pct": 0.7892,
+    "eth_btc_ratio_start": 0.031469,
+    "eth_btc_ratio_end": 0.032504,
+    "eth_btc_lean_modal": "bullish",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 88216310572.23,
+    "total_defi_tvl_usd_end": 88458082376.38,
+    "tvl_change_pct": 0.2741,
+    "stablecoin_market_cap_usd_start": 311309326050.05,
+    "stablecoin_market_cap_usd_end": 311490459745.98,
+    "stablecoin_dominance_pct_start": 11.5961,
+    "stablecoin_dominance_pct_end": 11.8271,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 118.7479,
+    "dxy_end": 118.0732,
+    "dxy_lean_modal": "neutral",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 770.19,
+    "spy_close_end": 764.29,
+    "spy_return_pct": -0.766,
+    "spy_lean_modal": "bullish",
+    "vix_close_avg": 16.4743,
+    "vix_close_end": 17.84,
+    "vix_lean_modal": "neutral",
+    "coinbase_premium_pct_avg": -0.0317,
+    "coinbase_premium_lean_modal": "neutral"
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": "bullish",
+    "days_with_data": 7
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 69.8571,
+    "fear_greed_min": 68,
+    "fear_greed_max": 73,
+    "fear_greed_close": 68,
+    "fear_greed_label_close": "Greed",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 248,
+    "positive_count_sum": 44,
+    "negative_count_sum": 47,
+    "neutral_count_sum": 157,
+    "sentiment_ratio_avg": 0.1741,
+    "news_spike_days": 5,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564",
+        "published_at": "2026-09-13T18:29:23+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T16:47:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Spending Money Online? New Research Says Not Really",
+        "url": "https://decrypt.co/378103/ai-agents-spending-money-research",
+        "published_at": "2026-09-13T13:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anthropic chief urges slowdown in AI development to safer pace",
+        "url": "https://cointelegraph.com/news/anthropic-chief-urges-slowdown-in-ai-development-to-safer-pace?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T11:09:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revolut says customer data exposed through fake government email",
+        "url": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-13T09:27:21+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin must clear resistance at $81,700 to confirm new bull market",
+        "url": "https://www.theblock.co/news/markets/2026-09-12-cryptoquant-bitcoin-resistance-support-levels-414519",
+        "published_at": "2026-09-12T21:39:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 219,
+    "macro_headlines": [
+      {
+        "headline": "Oman meeting between Gulf states and Iran postponed, Omani foreign minister says - Reuters",
+        "summary": "Oman meeting between Gulf states and Iran postponed, Omani foreign minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT01mN2pHSkgtLWNGSFhGWm9vSDBvNjlLVVB5N2lFRnczZ012SW1pZDdxTXRmY2NZWmw2MmRiOEJPZ1ZNdklvMkgxbXlEQXd6a3ozbWNrLTNaLWlMekNhalBBQjZTSXhEZEItM0s5WUM2cGN5akN6SXRVZVJseUR1M2Q1X2RoM2VBMEFMZHNrdVU0VUZyU2k5eWEtalNvbGVjQk5sS1NkbUV1QThfaUxocWV5NkVmRDBLQmdrNXJBQmp1ckhHTDBOdQ?oc=5",
+        "published_at": "2026-09-13T19:14:32Z"
+      },
+      {
+        "headline": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice - Reuters",
+        "summary": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0JoY2VGb08xV0N2bWR6cnNzaFZoVm9MMGZ4WW1aa292SHNWTVBoVERfLW96ZVllX2thQjdUU1RMOTBvRkRoMGpDd2ZyMXVyb0t2bEFabVBJczM2SnhwM0w5c3diVnZiT1E4QnBxZ3YxaEVnYjE1cVJndExhaUloWENHQjlWdmtvUHRmNG1sSWtWQ3ZIRTJQUU5wQTFDaEw0MDVIdThHdnl5NnVCSTdHUmUwR3RPU0tXalFfSA?oc=5",
+        "published_at": "2026-09-13T16:58:09Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in this week's stock market",
+        "summary": "We're looking forward to what promises to be a consequential Federal Reserve meeting and a slew of conferences.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
+        "published_at": "2026-09-13T16:57:43Z"
+      },
+      {
+        "headline": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+        "summary": "The House is scheduled to be sent home in the coming days until after November's midterm elections, leaving a narrow window to pass any form of AI regulation.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+        "published_at": "2026-09-13T16:56:17Z"
+      },
+      {
+        "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
+        "summary": "Trump says US could stay in Iran and keep oil, like Venezuela deal\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+        "published_at": "2026-09-13T15:28:53Z"
+      },
+      {
+        "headline": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups - Reuters",
+        "summary": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
+        "published_at": "2026-09-13T13:37:57Z"
+      },
+      {
+        "headline": "I'm a psychologist who studies couples: Emotionally intelligent partners ask 1 question every morning\u2014that most neglect",
+        "summary": "A \"capacity check\" might be the most thoughtful question to ask in the morning, says Mark Travers, a psychologist who studies relationships. How to do it right.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/13/emotionally-intelligent-couples-ask-question-every-morning-psychologist.html",
+        "published_at": "2026-09-13T13:07:01Z"
+      },
+      {
+        "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - Reuters",
+        "summary": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+        "published_at": "2026-09-13T02:22:00Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 3,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 3,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "2.0.0"
+    ],
+    "days_with_fetch_errors": 7
+  }
+}
