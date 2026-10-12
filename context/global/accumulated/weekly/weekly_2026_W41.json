@@ -1,0 +1,379 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W41",
+    "iso_year": 2026,
+    "iso_week": 41,
+    "start_date": "2026-10-05",
+    "end_date": "2026-10-11",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2931982706939.46,
+    "total_market_cap_usd_end": 2809778404600.43,
+    "total_market_cap_change_pct": -4.168,
+    "btc_dominance_pct_start": 58.651,
+    "btc_dominance_pct_end": 59.582,
+    "eth_dominance_pct_start": 11.2722,
+    "eth_dominance_pct_end": 10.979,
+    "total2_usd_start": 1212346540307.97,
+    "total2_usd_end": 1135655198090.24,
+    "total3_usd_start": 881846251783.11,
+    "total3_usd_end": 827169255304.51,
+    "total_volume_24h_usd_avg": 13968687708552.174,
+    "altcoin_season_index_avg": 45.5714,
+    "altcoin_season_index_close": 60,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 85721,
+    "price_close": 83533,
+    "price_high": 85721,
+    "price_low": 81617,
+    "period_return_pct": -2.5525,
+    "oi_usd_start": 8101405817.56,
+    "oi_usd_end": 7728534139.09,
+    "oi_change_pct": -4.6026,
+    "funding_rate_avg": 1.199e-05,
+    "long_short_ratio_avg": 1.4484,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 2711.1,
+    "price_close": 2532.59,
+    "period_return_pct": -6.5844,
+    "eth_btc_ratio_start": 0.031627,
+    "eth_btc_ratio_end": 0.030318,
+    "eth_btc_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 96531057995.79,
+    "total_defi_tvl_usd_end": 92748177407.18,
+    "tvl_change_pct": -3.9188,
+    "stablecoin_market_cap_usd_start": 313953078379.58,
+    "stablecoin_market_cap_usd_end": 312660007938.07,
+    "stablecoin_dominance_pct_start": 10.7079,
+    "stablecoin_dominance_pct_end": 11.1276,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 101.9191,
+    "dxy_end": 102.2333,
+    "dxy_lean_modal": "neutral",
+    "broad_dollar_index_start": 121.3848,
+    "broad_dollar_index_end": 121.3848,
+    "broad_dollar_index_lean_modal": "bullish",
+    "spy_close_start": 774.88,
+    "spy_close_end": 778.57,
+    "spy_return_pct": 0.4762,
+    "spy_lean_modal": "bullish",
+    "vix_close_avg": 15.3071,
+    "vix_close_end": 15.41,
+    "vix_lean_modal": "neutral",
+    "coinbase_premium_pct_avg": -0.0047,
+    "coinbase_premium_lean_modal": "neutral"
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": "bearish",
+    "days_with_data": 7
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": -491256207.04,
+    "unique_data_dates": 6,
+    "cum_net_inflow_usd_close": 57106714665.87,
+    "total_net_assets_usd_close": 105844422150.6,
+    "flow_lean_modal": "bullish",
+    "days_with_data": 7,
+    "daily_flows": [
+      {
+        "data_date": "2026-10-02",
+        "net_inflow_usd": 189844086.2
+      },
+      {
+        "data_date": "2026-10-05",
+        "net_inflow_usd": -89897783.0
+      },
+      {
+        "data_date": "2026-10-06",
+        "net_inflow_usd": 118862451.88
+      },
+      {
+        "data_date": "2026-10-07",
+        "net_inflow_usd": -487067411.5
+      },
+      {
+        "data_date": "2026-10-08",
+        "net_inflow_usd": -244125629.17
+      },
+      {
+        "data_date": "2026-10-09",
+        "net_inflow_usd": 21128078.55
+      }
+    ]
+  },
+  "sentiment": {
+    "fear_greed_avg": 60.1429,
+    "fear_greed_min": 55,
+    "fear_greed_max": 67,
+    "fear_greed_close": 58,
+    "fear_greed_label_close": "Neutral",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 285,
+    "positive_count_sum": 60,
+    "negative_count_sum": 33,
+    "neutral_count_sum": 192,
+    "sentiment_ratio_avg": 0.1812,
+    "news_spike_days": 5,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "XRP Ledger patches decade-old bug that could have minted trillions of XRP",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230",
+        "published_at": "2026-10-11T18:07:41+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
+        "url": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+        "published_at": "2026-10-11T17:11:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+        "url": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-11T17:11:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin, Ethereum and Solana ETFs All in the Red for October",
+        "url": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+        "published_at": "2026-10-11T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How Zcash Plans to Hide Your Keys From AI and Quantum Attacks",
+        "url": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks",
+        "published_at": "2026-10-11T13:00:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-11T12:59:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard says it\u2019s investigating how phishing link appeared on its X account",
+        "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-11T10:40:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ledger confirms unauthorized hardware implant, says losses may exceed $86M",
+        "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-11T09:05:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC proposals aimed at separating prediction markets from casino gambling",
+        "url": "https://cointelegraph.com/news/cftc-proposals-aimed-at-separating-prediction-markets-from-casino-gambling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-11T07:50:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 182,
+    "macro_headlines": [
+      {
+        "headline": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13 - Reuters",
+        "summary": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5",
+        "published_at": "2026-10-11T20:06:08Z"
+      },
+      {
+        "headline": "Here are the 6 big things we're watching in the stock market this week",
+        "summary": "Earnings season ramps up this week, with four Club holdings set to report. Two main inflation reports are also out.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/11/here-are-the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-10-11T19:46:05Z"
+      },
+      {
+        "headline": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says - Reuters",
+        "summary": "Strike reported on Yemeni Sanaa airport, Houthi-run TV says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2hZZTRZLXk2amlHSS1zWkYtUmkzdy1EUWRFZ3lRUzRLX2hOMkxkLXBSR1hnVmd1UkNrN0NpNXNneXgwcGJ2ZzgwRFRRUVo5QS1xSWlENjhWN1M0MGR5eFpPOVZQT0dMUGRWcTQ1YTN3aHhpTjZVVGVqSldfcDN3SFZTQTJSMTUyX1psaXpyb2VKTVU0OGIzeFViOXZGVnRGb0lvTDNVdERoX0tHaHc?oc=5",
+        "published_at": "2026-10-11T13:43:15Z"
+      },
+      {
+        "headline": "Most Gulf stocks in red after attack on Riyadh airport - Reuters",
+        "summary": "Most Gulf stocks in red after attack on Riyadh airport\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5",
+        "published_at": "2026-10-11T13:19:13Z"
+      },
+      {
+        "headline": "I\u2019m a psychologist who studies couples: The No. 1 way to end a fight before it escalates\u2014it works \u2018almost immediately\u2019",
+        "summary": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/11/psychologist-couples-end-fight-before-escalates-partial-yield.html",
+        "published_at": "2026-10-11T12:48:01Z"
+      },
+      {
+        "headline": "NBA commissioner Adam Silver says league could introduce \u2018smart ball\u2019 technology as soon as next year",
+        "summary": "Commissioner Adam Silver says the NBA could begin using a new \"smart ball\" in games as soon as next year, potentially transforming how officials make calls.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/11/commissioner-adam-silver-nba-could-launch-smart-ball-tech-next-year.html",
+        "published_at": "2026-10-11T12:00:01Z"
+      },
+      {
+        "headline": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports - Reuters",
+        "summary": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMUlyV0IybXFzanN6N1FSS3JuaEljNFhGMWtwXzJwR3g0S0NTVkNvUW1CSW4tSWxzY2txeTAxZGxvR2Y2RW53cklmbF8tNGVpaEFTRXlMeW15RkpkVGQ3clNwejJoOXBmQnhYd1ZXWGFJMVVBZ1hpUGFPWDdXeWV4LU1ORFVoekJleFlnOHFRenp4d29OVmV4U0c4eUJJY051RGFna01qMUJ2WFp3cGdHUm5kV0lSZ1hMMFJpdExQN21wMkJHcm1GU01yWQ?oc=5",
+        "published_at": "2026-10-11T07:34:22Z"
+      },
+      {
+        "headline": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok - Reuters",
+        "summary": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWlZqTVZkYlUxR2xKODRtSHFhLUI5ZVk4MWlwUURPZTRJSy1UYjdKak1ZbzdGMG80dmNOTVlVbUtvbW1zUU9hWE5QeU9xc19wWE50TnR4M05sQ0c0aFI0ZmYtTGN6Q0hwanJUajNzSlRfaVBQNXdPMUlfQlpfb1JHTGlQWkg5aVdOTE5SZ29NRXZLSW85enZHa2dCOVFSWmFpUEptcWMxa1JxVW15ZGhLLTRRcDEyeXBEWkw0RnJR?oc=5",
+        "published_at": "2026-10-11T04:03:00Z"
+      },
+      {
+        "headline": "US military says it disabled cargo vessel trying to run Iran blockade - Reuters",
+        "summary": "US military says it disabled cargo vessel trying to run Iran blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2Nqd2RXZnpaY3lzeHVxN2Y0VC1ZZEpTSlFVeFpYbW1nQUZqRE5kSGt1NXo0TTFQQmtLSnFFX045Qk1pc2lpMWxXaGxfVkxxazIwNVdVYl82TWJZa2VURkhNWllYX1I1Vk00OFZoNzNNRmRQLURKVFpKbVVaVzZ4SjloWnB0SE1WTi1MWEp3TWttQ1h3MkpDcktydGU4MzdvVDlJS0V3Zk8xRkpp?oc=5",
+        "published_at": "2026-10-11T01:35:00Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 3,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "3.0.0"
+    ],
+    "days_with_fetch_errors": 7
+  }
+}
