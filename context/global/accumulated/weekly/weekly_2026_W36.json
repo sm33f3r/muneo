@@ -1,0 +1,363 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W36",
+    "iso_year": 2026,
+    "iso_week": 36,
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-06",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2667011273363.93,
+    "total_market_cap_usd_end": 2707891564784.71,
+    "total_market_cap_change_pct": 1.5328,
+    "btc_dominance_pct_start": 59.1991,
+    "btc_dominance_pct_end": 59.1703,
+    "eth_dominance_pct_start": 11.1555,
+    "eth_dominance_pct_end": 11.2568,
+    "total2_usd_start": 1088163662040.57,
+    "total2_usd_end": 1105623481981.43,
+    "total3_usd_start": 790646076475.98,
+    "total3_usd_end": 800800477288.75,
+    "total_volume_24h_usd_avg": 81932737636.6657,
+    "altcoin_season_index_avg": 45.8571,
+    "altcoin_season_index_close": 54,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 78833,
+    "price_close": 79968,
+    "price_high": 81452,
+    "price_low": 77136,
+    "period_return_pct": 1.4398,
+    "oi_usd_start": 8470727016.32,
+    "oi_usd_end": 8487047822.4,
+    "oi_change_pct": 0.1927,
+    "funding_rate_avg": 5.107e-05,
+    "long_short_ratio_avg": 1.0564,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 2472.71,
+    "price_close": 2511.88,
+    "period_return_pct": 1.5841,
+    "eth_btc_ratio_start": 0.031366,
+    "eth_btc_ratio_end": 0.031411,
+    "eth_btc_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 88396968740.96,
+    "total_defi_tvl_usd_end": 88361740116.14,
+    "tvl_change_pct": -0.0399,
+    "stablecoin_market_cap_usd_start": 310871310152.94,
+    "stablecoin_market_cap_usd_end": 311585100303.56,
+    "stablecoin_dominance_pct_start": 11.6562,
+    "stablecoin_dominance_pct_end": 11.5066,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 118.7479,
+    "dxy_end": 118.7479,
+    "dxy_lean_modal": "bearish",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 767.02,
+    "spy_close_end": 770.19,
+    "spy_return_pct": 0.4133,
+    "spy_lean_modal": "neutral",
+    "vix_close_avg": 14.8357,
+    "vix_close_end": 14.32,
+    "vix_lean_modal": "bullish",
+    "coinbase_premium_pct_avg": 0.02,
+    "coinbase_premium_lean_modal": "neutral"
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": "bullish",
+    "days_with_data": 7
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 74.4286,
+    "fear_greed_min": 71,
+    "fear_greed_max": 78,
+    "fear_greed_close": 75,
+    "fear_greed_label_close": "Greed",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 269,
+    "positive_count_sum": 52,
+    "negative_count_sum": 34,
+    "neutral_count_sum": 183,
+    "sentiment_ratio_avg": 0.1911,
+    "news_spike_days": 5,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "STONK surges 250% to $140 million market cap as stock-paired Solana launchpad StonkFun pulls volume to Raydium and Jupiter",
+        "url": "https://www.theblock.co/news/defi/2026-09-06-stonk-surges-250-to-140-million-market-cap-as-stock-paired-solana-launchpad-stonkfun-pulls-volume-to-raydium-and-jupiter-413621",
+        "published_at": "2026-09-06T20:51:40+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase-backed Router Protocol to shut down, burn 303 million ROUTE tokens",
+        "url": "https://www.theblock.co/news/defi/2026-09-06-coinbase-backed-router-protocol-to-shut-down-burn-303-million-route-tokens-413618",
+        "published_at": "2026-09-06T18:03:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
+        "url": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
+        "published_at": "2026-09-06T17:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
+        "url": "https://decrypt.co/377512/xrp-boost-ripple-florida-athletics",
+        "published_at": "2026-09-06T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stablecoins Won't Scale Without Banks",
+        "url": "https://decrypt.co/377280/stablecoins-wont-scale-without-banks",
+        "published_at": "2026-09-06T15:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-06T13:24:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
+        "url": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-06T13:03:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Crypto Project Just Funded 1,000 Student Loans Entirely On-Chain",
+        "url": "https://decrypt.co/377494/pencil-finance-1-million-student-loan",
+        "published_at": "2026-09-06T13:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+        "url": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-09-06T09:07:08+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 135,
+    "macro_headlines": [
+      {
+        "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
+        "summary": "Iran to tackle economic issues, says further attacks will be 'more painful'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
+        "published_at": "2026-09-06T19:23:20Z"
+      },
+      {
+        "headline": "Iran's government to raise fuel price for heavy users - Reuters",
+        "summary": "Iran's government to raise fuel price for heavy users\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
+        "published_at": "2026-09-06T19:13:57Z"
+      },
+      {
+        "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - Reuters",
+        "summary": "Israeli strike kills a man and his daughter in Gaza, medics say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXNmc1lpWkNYV0VUaVR4bDNpWTNMcTQ1VkFPYk5tZGFHbzk3Q3pOX0JtRW9Gc01kVnJ4RjRRVVl2aVpfSU1jN1JtelYxZUNIZV9Qb3M1U3J5Y0FMdkN6SV9sd3dPckdaWFFMWktOejFtUldxdUFDd0tMbjBzRzE5R0ZsQ1pPMG1ZNHJWTXQwNWVTT05PNmNFMElJbGVLenhLbEJ3?oc=5",
+        "published_at": "2026-09-06T18:59:30Z"
+      },
+      {
+        "headline": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say - Reuters",
+        "summary": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2c0azRZQ0hqbEdRWlhzYlBWRGxQUU9NUmdOUVVtSm1WemlRVnRXd05VT0U4MkcyQjJGWVpHV0hvZHdLb0dIc1FIVDZyYUZ6SjlTYlV0NUtGZnBWckhpaHVYX1JGd3ZNZ1pCRVF4Z213dXk4ZGFNNVZtV19nNDNQOHZVX21Kei16R3pOZzVwS2Y2Zng2eVloNTVmSUx3RnZ2U09Mc1pNTWJGVjFsZ2N5Tm1IVzdOWnU5WWNXOC11SEY1a0poMG53?oc=5",
+        "published_at": "2026-09-06T15:03:45Z"
+      },
+      {
+        "headline": "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
+        "summary": "Through her project \"What We Tell AI,\" Olivia Tai has collected over 350 handwritten secrets about how people use AI to navigate dating, work and life.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
+        "published_at": "2026-09-06T14:00:01Z"
+      },
+      {
+        "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
+        "summary": "Iran's Hormuz leverage wanes as US economic squeeze bites\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
+        "published_at": "2026-09-06T13:46:13Z"
+      },
+      {
+        "headline": "Parents who are really good at handling tantrums do 5 things\u2014their kids become more emotionally intelligent, says psychologist",
+        "summary": "\"These kids become more emotionally intelligent, which helps them weather setbacks, embrace independence and try new things,\" says Juli Fraga.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/06/parents-who-are-really-good-at-handling-tantrums-do-things-psychologist.html",
+        "published_at": "2026-09-06T13:36:01Z"
+      },
+      {
+        "headline": "Gulf stocks end mixed as US-Iran tensions linger - Reuters",
+        "summary": "Gulf stocks end mixed as US-Iran tensions linger\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
+        "published_at": "2026-09-06T13:07:43Z"
+      },
+      {
+        "headline": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says - Reuters",
+        "summary": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdS1pLU5lZ2t0OVdmLTlYbjA2QzlpOWhNOVdVampxQVNMWWhERU11UnB3RlBkWUtnUDhXVUhEX0t2SERmSjB2NnUxVTVaYzZ5SWZjZEFVRGREOVYzWlRTYndMSFZqX1VSa2dzMTVoZHlyVUM5elNKaXlCRmFndThaSGwyb2ZSYmlENHNxZUpUWEVPd25mWVZKZFd1MThJN2E5VHluVl9R?oc=5",
+        "published_at": "2026-09-06T12:21:12Z"
+      },
+      {
+        "headline": "OPEC+ keeps oil output policy unchanged for October - Reuters",
+        "summary": "OPEC+ keeps oil output policy unchanged for October\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEdjS0pVMy1JLXZFN0V6ZFhjdjNOOXpjRnUtYXdYZEdjbzNaR2R6TGU4UTRDVEdLazJuMS12eHp6d0hWQjI0ZzdhRTUtbVBqR3NhSGRES0UxbG1TZ29QX1hjaWZFNWs1RWNWV1E0azdPVDNIR2x4TGJYMzdDZ3YtVUN1VzZEam5Tb3pXYy1TejN0VFMxYjI1U3ByeFZDZmZ1UnFYX053R3N3YzhST3dSWGdB?oc=5",
+        "published_at": "2026-09-06T12:03:29Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 5,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "2.0.0"
+    ],
+    "days_with_fetch_errors": 7
+  }
+}
