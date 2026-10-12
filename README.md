@@ -16,7 +16,7 @@ The purpose of Muneo is to give you people market data that you or your agent ca
 | `market_backfill.py` | One-time historical baseline (365 days). Bootstrap only, not scheduled. | — |
 | `market_report.py` | Daily token-level snapshot. Point it at a `configs/*.json` file to report on a specific token. | 21:25 UTC (SUI), 21:50 UTC (SOL) |
 | `market_global_report.py` | Daily global market snapshot — BTC dominance, Fear & Greed, sector data, macro indicators, macro news. | 21:10 UTC |
-| `market_accumulator.py` | Rolls completed daily reports up into weekly/monthly/quarterly context windows for longer-horizon trend data. | 09:00 UTC every Monday |
+| `market_accumulator.py` | Rolls completed daily reports (SUI, SOL and global) up into weekly/monthly/quarterly context windows for longer-horizon trend data, and prunes rolled-up files. | 09:00 UTC every Monday |
 | `rss_utils.py` | Shared RSS/Atom feed fetching and parsing, used by both report scripts for token and macro news. | — |
 
 All four schedule-bearing scripts run as independent cron services on [Railway](https://railway.app), deployed directly from this repository. **Production runs entirely on Railway** — there is no server or process running locally. Each run pushes its output straight to `reports/` or `context/` in this repo via the GitHub Contents API, using a fine-grained access token scoped to this repository only.
@@ -61,7 +61,11 @@ context/
   sui/accumulated/{weekly,monthly,quarterly}/*.json
   sol/accumulation_index.json
   sol/accumulated/{weekly,monthly,quarterly}/*.json
+  global/accumulation_index.json
+  global/accumulated/{weekly,monthly,quarterly}/*.json
 ```
+
+Each Monday run rolls the SUI, SOL and global daily reports up into weekly, monthly and quarterly files, then prunes what has been rolled up. Daily reports are deleted once they are 14+ days old and their weekly file is confirmed on GitHub. The newest 7 weekly and 3 monthly files are kept; older ones are deleted only when a monthly (or quarterly) file covering their dates is confirmed on GitHub. Quarterly files are never deleted.
 
 Both directories are intentionally tracked in this repo and grow continuously as the Railway cron runs — they *are* the data product, not build artifacts. Every report carries a `script_version` and `schema_version` field; `schema_version` follows semver, so a consumer can detect breaking vs. additive vs. patch-level changes to the output shape without guessing.
 
