@@ -1,0 +1,376 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W17",
+    "iso_year": 2026,
+    "iso_week": 17,
+    "start_date": "2026-04-20",
+    "end_date": "2026-04-26",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2639165776257.01,
+    "total_market_cap_usd_end": 2696781063909.95,
+    "total_market_cap_change_pct": 2.1831,
+    "btc_dominance_pct_start": 57.6236,
+    "btc_dominance_pct_end": 58.1109,
+    "eth_dominance_pct_start": 10.6315,
+    "eth_dominance_pct_end": 10.5938,
+    "total2_usd_start": 1118384353650.6,
+    "total2_usd_end": 1129656704464.04,
+    "total3_usd_start": 837801608293.13,
+    "total3_usd_end": 843963824399.76,
+    "total_volume_24h_usd_avg": 90565131196.8929,
+    "altcoin_season_index_avg": 20.5714,
+    "altcoin_season_index_close": 18,
+    "altcoin_season_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 75960,
+    "price_close": 78237,
+    "price_high": 78596,
+    "price_low": 75603,
+    "period_return_pct": 2.9976,
+    "oi_usd_start": 7097546226.24,
+    "oi_usd_end": 7524957413.85,
+    "oi_change_pct": 6.022,
+    "funding_rate_avg": -3.298e-05,
+    "long_short_ratio_avg": 0.742,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bullish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 2320.97,
+    "price_close": 2366.79,
+    "period_return_pct": 1.9742,
+    "eth_btc_ratio_start": 0.030555,
+    "eth_btc_ratio_end": 0.030252,
+    "eth_btc_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 86061327305.82,
+    "total_defi_tvl_usd_end": 85398184693.85,
+    "tvl_change_pct": -0.7705,
+    "stablecoin_market_cap_usd_start": 319143412604.21,
+    "stablecoin_market_cap_usd_end": 318954423474.23,
+    "stablecoin_dominance_pct_start": 12.0926,
+    "stablecoin_dominance_pct_end": 11.8272,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 118.0795,
+    "dxy_end": 118.0795,
+    "dxy_lean_modal": "neutral",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 708.76,
+    "spy_close_end": 713.94,
+    "spy_return_pct": 0.7309,
+    "spy_lean_modal": "bullish",
+    "vix_close_avg": 18.982,
+    "vix_close_end": 19.31,
+    "vix_lean_modal": "neutral",
+    "coinbase_premium_pct_avg": null,
+    "coinbase_premium_lean_modal": null
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": null,
+    "days_with_data": 0
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 52.0,
+    "fear_greed_min": 44,
+    "fear_greed_max": 62,
+    "fear_greed_close": 45,
+    "fear_greed_label_close": "Neutral",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 70,
+    "positive_count_sum": 26,
+    "negative_count_sum": 9,
+    "neutral_count_sum": 35,
+    "sentiment_ratio_avg": 0.3714,
+    "news_spike_days": 0,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "Why do Somali-Americans keep running for office?",
+        "url": "https://ww...(+80 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:28:45.000Z",
+        "source": "somalisp...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Do yall believe this? (Paranormal)",
+        "url": "https://ww...(+64 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:28:44.000Z",
+        "source": "somalisp...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.01
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USFSP commuter students talk campus inclusion and resources \u2013 The Crow's Nest",
+        "url": "https://cr...(+89 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:25:46.000Z",
+        "source": "crowsnes...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "USFSP Dean of Students Jacob Diaz announces resignation \u2013 The Crow's Nest",
+        "url": "https://cr...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:25:29.000Z",
+        "source": "crowsnes...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The Scandinavian Approach to Stress\u2014Calm, Clarity & Boundaries 2026",
+        "url": "https://th...(+85 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:24:29.000Z",
+        "source": "divinema...(+10 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.18
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump was likely target of shooting at White House Correspondents\u2019 dinner, says US official",
+        "url": "https://th...(+108 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:21:46.000Z",
+        "source": "thefront...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": -0.03
+        },
+        "is_breaking": true
+      },
+      {
+        "title": "FIFA set to increase 2026 World Cup prize money",
+        "url": "https://th...(+66 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:21:19.000Z",
+        "source": "thefront...(+11 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.08
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wooden rims, cork brake blocks. . . a rooster perching on a wheel hub? Feast your eyes on Ciclo Galmozzi's eccentric Super Competizione from 1973",
+        "url": "https://ro...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:45.000Z",
+        "source": "road.cc...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 0.07
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SQUARE ENIX ANNOUNCES EVERCOLD\u2014 LATEST FINAL FANTASY XIV EXPANSION SET FOR JANUARY 2027",
+        "url": "https://ww...(+90 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:40.000Z",
+        "source": "gamespre...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.03
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CCP Games Announces Winners of $80,000 EVE Frontier \u00d7 Sui 2026 Hackathon",
+        "url": "https://ww...(+88 chars hidden)...[Upgrade subscription plan]",
+        "published_at": "2026-04-26T21:20:34.000Z",
+        "source": "gamespre...(+6 chars hidden)...[Upgrade subscription plan]",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.02
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 228,
+    "macro_headlines": [
+      {
+        "headline": "Cramer: Why all the money flowing to AI stocks is a problem \u2014 and how it can be fixed",
+        "summary": "Just as anything peripherally involved with the data center is blessed, anything even tangentially associated with pharma is a nightmare.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/cramer-the-money-to-ai-stocks-is-a-problem-and-how-it-can-be-fixed.html",
+        "published_at": "2026-04-26T16:47:00Z"
+      },
+      {
+        "headline": "Trump tells Fox News Iran can call US if it wants to negotiate - Reuters",
+        "summary": "Trump tells Fox News Iran can call US if it wants to negotiate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSEwzUWFuMXB1eXNPcm15bzZCcEpvTlJuZVFibEpGVXo4MnVmZEtQdUFiSl9ERURqWGxEZkhCNTF3N1dRVmhaZVJnWGtoWldyV3BvY0xFOEgzZXZncTJVQXl0VXJYV0JfZzhtT09hN0tucmdaZHpRcnBVU2RxekZRcjFmN1pUTGc2X3Y0WnZNM2hQMm94QmVrTDFoZGFDeXlnYUt5cFZXSXlhOVpGeWdhOUtaWQ?oc=5",
+        "published_at": "2026-04-26T16:34:08Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The busiest week of the earnings season is upon us.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-04-26T14:54:56Z"
+      },
+      {
+        "headline": "I\u2019ve studied over 200 kids\u2014parents who have the closest relationships with their adult kids never do 6 things",
+        "summary": "Every parent hopes their adult child will still want to call, still want to come home, and still choose to let them in. Child psychologist Reem Raouda, who has studied over 200 kids, shares what not to do if you want your kids to stay close with you later on in life.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/26/psychologist-parents-who-have-close-bonds-with-their-adult-kids-never-do-6-things.html",
+        "published_at": "2026-04-26T12:50:48Z"
+      },
+      {
+        "headline": "Iran's Araqchi discusses efforts to end war and Hormuz security with Oman - Reuters",
+        "summary": "Iran's Araqchi discusses efforts to end war and Hormuz security with Oman\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0dPOXZSMDAzdFNTT2tRUW43eDlxMFhNa2NiX2daQlFGVUo3aFBUUDdZVDgyUzZWa01LM2lqN3ppc0tteDUxWWQ1MmZ6SkRtdHBObHYxUlpiRDZKOWU0dHpHNXQ0YWI3ZjRpS1NXWm11VUZMQ0hVME5UaW1IQWQ4YWR3WHNsZ3NPNnk1NHQ4M1hLV2VEamVvODRXX0Y5cDUzLVg2TlRjVXp2NlQ0d1JWNld0ZVVKNGdtV3N3?oc=5",
+        "published_at": "2026-04-26T11:33:43Z"
+      },
+      {
+        "headline": "China's Hengli Petrochemical denies trade with Iran in response to US sanctions - Reuters",
+        "summary": "China's Hengli Petrochemical denies trade with Iran in response to US sanctions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU1p0SFVlSExOVVpncXI1SEZpUkxnQ1BHUTFfQlVnRUt3QW5SY0dLdndfamFfbzI3WDdqcEk4M1VfWjF4N2ZWN1ZxLTA0cEdONWdsYmo2aTZscjlyZE11MXBDZzFfWEloaER2S0hOMm9LODNreE9mbC1kNWNRZmJDdUxFMmx1czN4WS0tUENfU3ZXSFdHdXF3STNYRjZtR2VtSWtHV0lWQ1Z6eWUxczlCbWFuN3ZYZ3paZVB4aVhtLThYUQ?oc=5",
+        "published_at": "2026-04-26T11:16:08Z"
+      },
+      {
+        "headline": "Shots fired at the White House Correspondents Dinner, U.S.-Iran, and condom prices surge - Reuters",
+        "summary": "Shots fired at the White House Correspondents Dinner, U.S.-Iran, and condom prices surge\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbHdBcHU1R0VweC1zaU5kUXZzZXktWTZXdlI2Z2p3TE5DRm9jX0dBZzJFOFJ0MmNtbG5sQWpWSG95aklHSVI4eVhkWTVjbDRRYU5mUmxzaWlLMzRxNWlMZTJDZTVITE5PVzFobWFtUEM0dGN5X0NjOW1sVjlzYnZHdmdCSjdIeXlDaUQ0WG12UW9uSzRCV01RSkVlajVaWXRtTnJLdk83MnQ3RGFIMXZaVFh0R19XblVjSHc?oc=5",
+        "published_at": "2026-04-26T11:15:31Z"
+      },
+      {
+        "headline": "Egypt economic outlook trimmed slightly due to Iran war: Reuters poll - Reuters",
+        "summary": "Egypt economic outlook trimmed slightly due to Iran war: Reuters poll\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGxHY0FYUlpRV2MtNVBUZXFZaGRDTVNKMEJhRXNkN09BWGtIVVlKYmw4RVJsSkp0T3U5dFVRbC11NzBVdmRUakwyOFJBRnhTYW95ZmpvSWE2MXp4NnlyVzhOdGh5OVRFdU9oTVlYZ1FkSHJ6bEJsZHFEYlpYLTNoNVUzV19od0d3aUlRdS1MY1JIVTFUU3hKN0YzcnZ0c3lwdUV6dHBHRkpHdw?oc=5",
+        "published_at": "2026-04-26T06:03:00Z"
+      },
+      {
+        "headline": "Iran executes man linked to militant group, Tasnim reports - Reuters",
+        "summary": "Iran executes man linked to militant group, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWk9ZaV9UamZwMHMtUjVTbUNYbWNzdmVnZHluM2RDSEVFZmJLbWk1N2M4djNRRExINlN0SVFtY25LWnE3YVRqVTNUaWJ1WVRpdkpETlNsQV9zek95aVBvQ2xKV3VtRVgtUFFVZmlnTUNNbnBjclNhX3dWX19fV2haeThCb3JmX1V6UHNrZlY3cHdiZU5zVUVLeG45LXdLV0xzYkE?oc=5",
+        "published_at": "2026-04-26T04:37:00Z"
+      },
+      {
+        "headline": "US intercepts sanctioned merchant vessel in Arabian Sea, Central Command says - Reuters",
+        "summary": "US intercepts sanctioned merchant vessel in Arabian Sea, Central Command says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYVd1MEJ3aWtsdUtHQ3QyVUdlbzFXSllSUjJvX0pYVFFGLUZ4YjRSZDIwWVhSUmtKdXl6cDlEZ1J5dTBfT0I3dkRhWWNPOFpVb3cxd0E1Rnh5VVlMZjBjdkE1OVd5ZnpBckZtRF9XZEMwU1lpNXFVejRPVWZNSUlldGxyY1EtZ1pCZDBibHl3ZzZ1WEliM01oTGktNlpqN1B3bktVTmJGSThIUWRQV0sxVlNzalJfRmk5RlhZbmtpTS1mLUhFVUE?oc=5",
+        "published_at": "2026-04-26T02:21:00Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 12,
+    "signals_null": 5,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bearish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bullish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 7,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "macro.coinbase_premium_pct",
+    "tech_equities.tech_sector_lean",
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "1.0.0"
+    ],
+    "days_with_fetch_errors": 2
+  }
+}
