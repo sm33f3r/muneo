@@ -1,0 +1,376 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W23",
+    "iso_year": 2026,
+    "iso_week": 23,
+    "start_date": "2026-06-01",
+    "end_date": "2026-06-07",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2517853483509.42,
+    "total_market_cap_usd_end": 2212913625969.27,
+    "total_market_cap_change_pct": -12.1111,
+    "btc_dominance_pct_start": 56.601,
+    "btc_dominance_pct_end": 55.9418,
+    "eth_dominance_pct_start": 9.5548,
+    "eth_dominance_pct_end": 8.8742,
+    "total2_usd_start": 1092724071099.64,
+    "total2_usd_end": 974968912657.14,
+    "total3_usd_start": 852147190222.76,
+    "total3_usd_end": 778589765873.66,
+    "total_volume_24h_usd_avg": 162971622870.5057,
+    "altcoin_season_index_avg": 78.2857,
+    "altcoin_season_index_close": 71,
+    "altcoin_season_lean_modal": "bullish",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 71054,
+    "price_close": 61794,
+    "price_high": 71054,
+    "price_low": 60861,
+    "period_return_pct": -13.0323,
+    "oi_usd_start": 7451981019.5,
+    "oi_usd_end": 6212905819.09,
+    "oi_change_pct": -16.6275,
+    "funding_rate_avg": 4.091e-05,
+    "long_short_ratio_avg": 2.0681,
+    "direction_modal": "bearish",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 1992.77,
+    "price_close": 1628.09,
+    "period_return_pct": -18.3002,
+    "eth_btc_ratio_start": 0.028046,
+    "eth_btc_ratio_end": 0.026347,
+    "eth_btc_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 79956880301.55,
+    "total_defi_tvl_usd_end": 70865975348.16,
+    "tvl_change_pct": -11.3698,
+    "stablecoin_market_cap_usd_start": 318776908517.41,
+    "stablecoin_market_cap_usd_end": 314806479324.39,
+    "stablecoin_dominance_pct_start": 12.6607,
+    "stablecoin_dominance_pct_end": 14.2259,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 118.8783,
+    "dxy_end": 118.8783,
+    "dxy_lean_modal": "neutral",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 758.47,
+    "spy_close_end": 737.55,
+    "spy_return_pct": -2.7582,
+    "spy_lean_modal": "bearish",
+    "vix_close_avg": 15.6286,
+    "vix_close_end": 15.4,
+    "vix_lean_modal": "bullish",
+    "coinbase_premium_pct_avg": null,
+    "coinbase_premium_lean_modal": null
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": null,
+    "days_with_data": 0
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 20.5714,
+    "fear_greed_min": 13,
+    "fear_greed_max": 31,
+    "fear_greed_close": 14,
+    "fear_greed_label_close": "Extreme fear",
+    "fear_greed_lean_modal": "bullish"
+  },
+  "news": {
+    "article_count_sum": 418,
+    "positive_count_sum": 66,
+    "negative_count_sum": 89,
+    "neutral_count_sum": 263,
+    "sentiment_ratio_avg": 0.1395,
+    "news_spike_days": 7,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "NY judge stays lawsuit seeking ownership of nearly 40,000 bitcoin wallets, sets July hearing on proposed amicus brief",
+        "url": "https://www.theblock.co/post/403910/ny-judge-stays-lawsuit-seeking-ownership-of-nearly-40000-bitcoin-wallets-sets-july-hearing-on-proposed-amicus-brief?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-07T20:59:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What happens to Bitcoin if the Nasdaq falls further?",
+        "url": "https://cointelegraph.com/markets/what-happens-to-bitcoin-if-the-nasdaq-falls-further?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-07T20:52:36+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Arthur Hayes Sells WLD Holdings After \u2018Holy Trinity Death\u2019, Sparks Exit Liquidity Controversy",
+        "url": "https://bitcoinist.com/arthur-hayes-sells-wld-holdings-holy-trinity-death/",
+        "published_at": "2026-06-07T20:00:12+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy\u2019s Saylor signals BTC buy as preferred dividend pay date vote looms",
+        "url": "https://cointelegraph.com/news/strategys-saylor-signals-btc-buy-as-preferred-dividend-pay-date-vote-looms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-07T19:45:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum\u2019s $1,500 test shows how quickly Wall Street\u2019s crypto trade has turned",
+        "url": "https://cryptoslate.com/ethereums-1500-test-shows-how-quickly-wall-streets-crypto-trade-has-turned/",
+        "published_at": "2026-06-07T19:20:40+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Frontier AI Models Can Find Crypto's Biggest Bugs. Experts Warn the Industry Isn't Ready",
+        "url": "https://decrypt.co/370232/frontier-ai-models-find-crypto-bugs-industry-isnt-ready",
+        "published_at": "2026-06-07T18:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-Affiliated Stablecoin Hit With HTX Delisting Amid Asset Freeze Controversy",
+        "url": "https://bitcoinist.com/trump-affiliated-stablecoin-hit-with-htx-delisting-amid-asset-freeze-controversy/",
+        "published_at": "2026-06-07T18:00:18+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi\u2019s old hack vectors are fading \u2013 But the new risk can hit six chains at once",
+        "url": "https://cryptoslate.com/defis-old-hacks-are-fading-the-new-risk-can-hit-six-chains-at-once/",
+        "published_at": "2026-06-07T17:10:56+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says Strategy may need to rebuild dollar reserves to restore confidence",
+        "url": "https://www.theblock.co/post/403905/jpmorgan-strategy-dollar-reserves-crypto-bill-chance?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-07T17:08:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ETH/BTC Hits Historical Support Zone \u2014 Could An Ethereum Reversal Be Next?",
+        "url": "https://bitcoinist.com/eth-btc-historical-zone-could-ethereum-reversal/",
+        "published_at": "2026-06-07T16:00:36+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 205,
+    "macro_headlines": [
+      {
+        "headline": "Iran rejects idea of using its assets to pay damages to US allies - Reuters",
+        "summary": "Iran rejects idea of using its assets to pay damages to US allies\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWENyVGtVLV9tWVN5M3FuNkRxRFlGcmNoM3Q0Y0huOVZrUjdvYnplcDRqNU1HMS1OdkZSVHR5QlRQXzV1QllZZ3RscUpFQmhUWktKVnFaWndQRzd6R2hBRTZkbzJ2OVQ5UXVfT1V0WkhsQk5DZ3hQbUtib21NSlV6NElQTzZ3RWVpbXlTRE5xN3U5TUMxdkRUbzF4TnhHenhXVWJhbEQwR0FOQ3ZodGc?oc=5",
+        "published_at": "2026-06-07T20:11:21Z"
+      },
+      {
+        "headline": "US troops, families adjust to new normal of Iran war - Reuters",
+        "summary": "US troops, families adjust to new normal of Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5",
+        "published_at": "2026-06-07T20:00:31Z"
+      },
+      {
+        "headline": "Iran's World Cup team arrive in Tijuana with US tensions high - Reuters",
+        "summary": "Iran's World Cup team arrive in Tijuana with US tensions high\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYjNBakMyWFQwSzEwLWtYTmc4TXNHb2h0RHJCYWdES3NmenJURzZWa2UwdE1TbHowVzhvRjhHLVBWX1V0YnRpeDZPcmJ2YjI1bXJ1Z05zay1FcEVlUFIxNjlCb09ydTFXVV9qVUJyZTl4Z0M5U3JpLU9MOXFjVjRNUjlRdjJnSE5RNVYta0pyWTh2S3dNNThKekUwcU9iNmxSN3hqaEw4c3RLQ1k?oc=5",
+        "published_at": "2026-06-07T19:40:41Z"
+      },
+      {
+        "headline": "Iran's top negotiator threatens US targets over Lebanon escalation - Reuters",
+        "summary": "Iran's top negotiator threatens US targets over Lebanon escalation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY3hNVzdZOFg3MlVZY1VVYkw5Nmt2bHVTUk43T184cnRoZTR0T1pHVktFVXV5akFCQ05RSnhYa2lfRzVEY1NaVjFOajVnY2poY0F0dGo5SWdoY2tLdjZNaHVOWkN2bEZMWEl3VlgyRUF1cWFKbUpkYlY4MjJucFpVbzRYOWRaRFFaaTN4S3hta1Q4R1ZHRURJRjZVbUtjUjdWUHk3eWU1MUgwQXM4MlU4aFFZX0xndF9VWDFR?oc=5",
+        "published_at": "2026-06-07T16:22:46Z"
+      },
+      {
+        "headline": "Here are the 6 big things we're watching in the stock market this week",
+        "summary": "Earnings season for Club names has come to an end, but that doesn't mean the excitement has.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/07/the-6-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-06-07T15:58:54Z"
+      },
+      {
+        "headline": "US draft resolution at IAEA demands Iran open up on sites, uranium stocks - Reuters",
+        "summary": "US draft resolution at IAEA demands Iran open up on sites, uranium stocks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUM3R3dKX21nNlNJX0RpUlpmRTlGWGc5THZwYXZjdXE2Z0M0dUVfaVpPTVhhajZZQTZIQ3JfTzNKMkZ6UUpMazRFbzFlSmRSdDFaVnRSbFl1OV9fSUs3QWU1S1RHMUJoVVQwbm9KejJnMXFOUXpudVhZaXd6a0lDV1pJYk5RdG1UaWhZOFE2b3poUU5RcFVnVmRPUFRNWmwtdi1jeGc4MXZmQWlkNVBQeGcyckRZSTh5SWRZ?oc=5",
+        "published_at": "2026-06-07T15:26:42Z"
+      },
+      {
+        "headline": "Trump says he would not unfreeze Iran's assets before peace deal is done - Reuters",
+        "summary": "Trump says he would not unfreeze Iran's assets before peace deal is done\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0t2Sk5ISElDUHNqUWthaDlabUV5czBtSVVtQ05kOTJFVVFYRm01RWRnTkZ6U2JXdEUxVFJjdXpUYUhSbGdJVFRsdEhMYS1lNENNYjVMcWtJdnE4dExueWM5TzBLQlpVYmxQUjVObEN6dDUzcnpUeUpXV2h6cnFSeWllWElnMXlZdjN6MWg4S2NQamVfd2U4dDZaQjJlOFMwX2xwNTFvcWJ5VzNMR3RIY2EtMjBQeEIxYTFhdmlxOVBkbmc?oc=5",
+        "published_at": "2026-06-07T13:59:03Z"
+      },
+      {
+        "headline": "Global airlines slash 2026 profit forecast on fuel shock from Iran war - Reuters",
+        "summary": "Global airlines slash 2026 profit forecast on fuel shock from Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQenE5amZ2NmVSM2gzMXBWVjczMDdsZnRreUZObWlzUGJ2YVpBeU45cTNOdmt2Z1lOc1MtcmZqV2JSZ1RwaktBUzYyTDcwZVRjYnhiWk9xX2hQc3QxMUJ3NjVacWF2MTdwZ2hfOFozZEh3NzdyQWpza2xGRVNIYzAxV3hKaTJlM2dmTGxUdWRuR1RuaS1od2pWcEFpRXh6Tk5FV2lycE1Na2FaSjFlNlVGRDF6dEVfa09iZHN5dDhGTDFrSWM?oc=5",
+        "published_at": "2026-06-07T13:46:25Z"
+      },
+      {
+        "headline": "Gunman kills one, wounds five in drive-by attacks in Israel - Reuters",
+        "summary": "Gunman kills one, wounds five in drive-by attacks in Israel\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTVVBY0NvY3MxTGpiWkluSFByZkZzUlBWYm1uYW9XV2pzZ3JNSmxTaGpPVm42ZjREeXF6WDZLMUN1TnZOdlZuOWsyYmhyWlEtbWZ6WWF3UDdJNWROVVB2UkFLX0lYcG8zbndnRUhqTXJ1cmxBZjVOem1LQkVqUTdlcWY2TEwxRExWNG9vTzZEalZ3WVluaUJGTTNjLWxlc3pUZG5hdlJuZWJzQ05EcDU3U1ZfcGNIQ3hMV3Q3UVpmZHc2UXoxbTQ0c19uYw?oc=5",
+        "published_at": "2026-06-07T13:19:54Z"
+      },
+      {
+        "headline": "Israel kills five in Gaza as Egypt hosts new ceasefire talks - Reuters",
+        "summary": "Israel kills five in Gaza as Egypt hosts new ceasefire talks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVmdOMkE1X05ZRTdTNHpxVnVGcnFhTHR3Ukg5MmJkbDhvQ2JYdkk0MTBVc3BMdkxmZXVIMWJva3hkQk1vQVl2OXV0MExwWk9ENXFoS0JtZS00aEtvX2NWbzV0Mzdfakk5MmduRjh3UlU3OF9kU3dfTUQ1TUF3d3lNak9yLXdzdUNOV3NLUFl2UDhSVVNmR3AwRVN6Q2syME9rUUpwRnVjV0NzeU1K?oc=5",
+        "published_at": "2026-06-07T13:00:10Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 12,
+    "signals_null": 5,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 5,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 2,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "macro.coinbase_premium_pct",
+    "tech_equities.tech_sector_lean",
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "1.0.0"
+    ],
+    "days_with_fetch_errors": 0
+  }
+}
