@@ -1,0 +1,191 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-12T21:51:29 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 106.63,
+    "price_change_24h_pct": -3.4729,
+    "price_change_7d_pct": -11.6059,
+    "volume_24h_usd": 2851405332,
+    "market_cap_usd": 62861938055,
+    "volume_to_mcap_ratio": 0.04536,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -63.6478,
+    "cex_price_usd": 107.08,
+    "cex_24h_high": 113.4,
+    "cex_24h_low": 106.38,
+    "cex_dex_spread_pct": 0.42202,
+    "volume_on_up_days_usd": 3652257492.8498974,
+    "volume_on_down_days_usd": 3342275003.1302032,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 59.0561,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": 9.342351,
+      "signal_line": 7.148643,
+      "histogram": 2.193708
+    },
+    "macd_lean": "bullish",
+    "sma_50": 86.7598,
+    "price_vs_sma50_pct": 22.9025,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 131.682106,
+      "mid": 96.17,
+      "lower": 60.657894,
+      "width_pct": 73.8528,
+      "position": 0.6815
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 908280375.26,
+    "oi_lean": null,
+    "funding_rate_latest": 4.797e-05,
+    "funding_rate_7d_avg": 2.4551904761904763e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.4783,
+    "btc_long_account_pct": 59.65,
+    "btc_short_account_pct": 40.35,
+    "btc_ls_lean": "neutral"
+  },
+  "on_chain": {
+    "tvl_usd": 6102014561.0,
+    "tvl_7d_change_pct": -7.6142,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 11576502.97,
+    "chain_fees_7d_avg_usd": 13567480.69,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 3,
+    "positive_count": 3,
+    "negative_count": 0,
+    "neutral_count": 0,
+    "sentiment_ratio": 1.0,
+    "news_volume_lean": "bullish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+        "url": "https://decrypt.co/380752/solana-treasury-firm-defi-development-keeps-buying-sol",
+        "published_at": "2026-10-12T19:07:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development grows SOL holdings 12% as CHAD hits record highs",
+        "url": "https://www.theblock.co/news/business/2026-10-12-defi-development-sol-holdings-2-59-million-chad-418307",
+        "published_at": "2026-10-12T14:53:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+        "url": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-12T14:07:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 82462.0,
+    "btc_24h_change_pct": -1.1177,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 59.688,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2777948582224.1704,
+    "eth_btc_ratio": 0.030072,
+    "eth_btc_lean": "neutral",
+    "dxy": 102.2333,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 778.07,
+    "spy_change_pct": -0.0642,
+    "spy_lean": "neutral",
+    "vix_close": 14.84,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 81.48,
+    "cg_sentiment_votes_down_pct": 18.52,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": 170050,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 2,
+    "neutral_count": 12,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bullish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": []
+}
