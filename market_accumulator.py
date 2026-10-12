@@ -2676,97 +2676,6 @@ def write_accumulation_index(config: dict, paths: dict) -> Path:
         return None
 
 
-def select_files_to_prune(files: list, retain: int) -> list:
-    """
-    Given a list of Path objects already sorted ascending (oldest first,
-    matching sorted(glob(...)) filename ordering), return the files that
-    exceed the retention count — i.e. everything except the most recent
-    `retain` files. Returns [] if len(files) <= retain. Pure — no I/O.
-    """
-    if len(files) <= retain:
-        return []
-    return files[:-retain]
-
-
-def prune_accumulated_output(paths: dict, config: dict) -> dict:
-    """
-    Prune old accumulated files according to retention thresholds, both
-    locally and on GitHub. Keeps the most recent RETAIN_WEEKLY weekly files
-    and RETAIN_MONTHLY monthly files. Quarterly files are never pruned.
-    Non-blocking — a GitHub deletion failure for one file logs and continues,
-    it never raises or stops local pruning.
-    Returns a dict summarising what was deleted locally and remotely.
-    """
-    deleted = {
-        "weekly": [], "monthly": [],
-        "weekly_remote": [], "monthly_remote": [],
-        "remote_skipped_no_sha": [], "remote_failed": [],
-    }
-
-    token = os.getenv("GITHUB_TOKEN")
-    repo = os.getenv("GITHUB_REPO")
-    branch = os.getenv("GITHUB_BRANCH", "main")
-    github_enabled = bool(token and repo)
-    if not github_enabled:
-        print("  ⚠ GitHub prune skipped — GITHUB_TOKEN or GITHUB_REPO not set in .env")
-
-    token_lower = config["token_name"].lower()
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github.v3+json",
-    } if github_enabled else {}
-
-    def delete_remote(github_path: str) -> str:
-        """Returns 'deleted', 'skipped_no_sha', or 'failed'."""
-        try:
-            api_url = f"https://api.github.com/repos/{repo}/contents/{github_path}"
-            check = requests.get(api_url, headers=headers, timeout=10)
-            if check.status_code != 200:
-                return "skipped_no_sha"
-            sha = check.json().get("sha")
-            if not sha:
-                return "skipped_no_sha"
-            payload = {
-                "message": f"accumulator: prune {github_path.split('/')[-1]}",
-                "sha": sha,
-                "branch": branch,
-            }
-            response = requests.delete(api_url, json=payload, headers=headers, timeout=15)
-            if response.status_code == 200:
-                return "deleted"
-            print(f"  ✗ GitHub prune failed — {github_path} HTTP {response.status_code}: {response.text[:100]}")
-            return "failed"
-        except Exception as e:
-            print(f"  ✗ GitHub prune failed — {github_path}: {e}")
-            return "failed"
-
-    def prune_group(files: list, retain: int, local_key: str, remote_subdir: str):
-        to_delete = select_files_to_prune(sorted(files), retain)
-        for f in to_delete:
-            try:
-                f.unlink()
-                deleted[local_key].append(f.name)
-                print(f"  Pruned {local_key}: {f.name}")
-            except Exception as e:
-                print(f"  ⚠ Failed to prune {f.name}: {e}")
-                continue
-            if github_enabled:
-                github_path = f"context/{token_lower}/accumulated/{remote_subdir}/{f.name}"
-                result = delete_remote(github_path)
-                if result == "deleted":
-                    deleted[f"{local_key}_remote"].append(f.name)
-                    print(f"  ✓ GitHub prune — {github_path}")
-                elif result == "skipped_no_sha":
-                    deleted["remote_skipped_no_sha"].append(f.name)
-                else:
-                    deleted["remote_failed"].append(f.name)
-
-    prune_group(paths["weekly"].glob("weekly_*.json"), RETAIN_WEEKLY, "weekly", "weekly")
-    prune_group(paths["monthly"].glob("monthly_*.json"), RETAIN_MONTHLY, "monthly", "monthly")
-
-    return deleted
-
-
 def push_weekly_files_to_github(paths: dict, config: dict, weeks: set) -> set:
     """
     Push the weekly rollup files for the given (iso_year, iso_week) tuples to GitHub.
@@ -2812,9 +2721,10 @@ def push_weekly_files_to_github(paths: dict, config: dict, weeks: set) -> set:
             print(f"  ✗ Weekly push failed — {github_path}: {e}")
     return confirmed
 
-def push_accumulated_to_github(paths: dict, config: dict) -> None:
+def push_accumulated_to_github(paths: dict, config: dict, index_only: bool = False) -> None:
     """
-    Push all accumulated output files to GitHub.
+    Push all accumulated output files to GitHub, or only accumulation_index.json
+    when index_only is set (used to refresh the index after pruning).
     Non-blocking — missing keys log a warning, never crash the script.
     Follows the same pattern as push_report_to_github in market_report.py.
     """
@@ -2864,9 +2774,10 @@ def push_accumulated_to_github(paths: dict, config: dict) -> None:
 
     pushed = 0
     failed = 0
+    rollup_dirs = () if index_only else ("weekly", "monthly", "quarterly")
 
     # Push weekly files
-    for f in sorted(paths["weekly"].glob("weekly_*.json")):
+    for f in sorted(paths["weekly"].glob("weekly_*.json")) if "weekly" in rollup_dirs else []:
         github_path = f"context/{token_lower}/accumulated/weekly/{f.name}"
         if push_file(f, github_path):
             pushed += 1
@@ -2874,7 +2785,7 @@ def push_accumulated_to_github(paths: dict, config: dict) -> None:
             failed += 1
 
     # Push monthly files
-    for f in sorted(paths["monthly"].glob("monthly_*.json")):
+    for f in sorted(paths["monthly"].glob("monthly_*.json")) if "monthly" in rollup_dirs else []:
         github_path = f"context/{token_lower}/accumulated/monthly/{f.name}"
         if push_file(f, github_path):
             pushed += 1
@@ -2882,7 +2793,7 @@ def push_accumulated_to_github(paths: dict, config: dict) -> None:
             failed += 1
 
     # Push quarterly files
-    for f in sorted(paths["quarterly"].glob("quarterly_*.json")):
+    for f in sorted(paths["quarterly"].glob("quarterly_*.json")) if "quarterly" in rollup_dirs else []:
         github_path = f"context/{token_lower}/accumulated/quarterly/{f.name}"
         if push_file(f, github_path):
             pushed += 1
@@ -3750,6 +3661,18 @@ def aggregate_global_rollup_accumulation_metadata(period_reports: list[dict], un
         "weeks_missing_daily_flows": no_flows,
     }
 
+def existing_period_count(path: Path, key: str) -> int | None:
+    """period_metadata[key] (e.g. weeks_included, months_included) of an existing rollup file, or None. Never raises."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        count = (data.get("period_metadata") or {}).get(key)
+        if isinstance(count, int) and not isinstance(count, bool):
+            return count
+        return None
+    except Exception:
+        return None
+
 def _build_global_rollup(kind, pm_head, pm_tail, period_reports, unit, breakdown_key, out_path):
     """Assemble and write one global monthly/quarterly report. Returns the path, or None on failure."""
     try:
@@ -3980,10 +3903,11 @@ def _global_covering_name(rng, covering_files) -> str | None:
         pass
     return None
 
-def delete_global_files_from_github(paths: dict, selection: dict) -> dict:
+def delete_global_files_from_github(paths: dict, selection: dict, scope: str = "global") -> dict:
     """
-    Delete selected global rollups from GitHub, only when the covering higher-level
-    file is confirmed present in the remote listing. Never raises; never touches
+    Delete selected rollups under context/{scope}/accumulated from GitHub, only when
+    the covering higher-level file is confirmed present in the remote listing.
+    scope is "global" or a token directory such as "sui". Never raises; never touches
     local files, the quarterly directory or accumulation_index.json.
     """
     result = {"deleted": [], "already_gone": [], "skipped_uncovered": [], "failed": []}
@@ -3992,11 +3916,11 @@ def delete_global_files_from_github(paths: dict, selection: dict) -> dict:
         repo = os.environ.get("GITHUB_REPO")
         branch = os.environ.get("GITHUB_BRANCH", "main")
         if not token or not repo:
-            print("  ⚠ Global GitHub prune skipped — GITHUB_TOKEN or GITHUB_REPO not set")
+            print(f"  ⚠ {scope} GitHub prune skipped — GITHUB_TOKEN or GITHUB_REPO not set")
             return result
 
         headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
-        base = f"https://api.github.com/repos/{repo}/contents/context/global/accumulated"
+        base = f"https://api.github.com/repos/{repo}/contents/context/{scope}/accumulated"
 
         def list_remote(subdir: str):
             """{name: sha} for files in the remote subdir, or None if the listing failed."""
@@ -4158,13 +4082,239 @@ def run_global_accumulate() -> dict:
                         print(f"  ⚠ Could not remove local {path.name}: {e}")
         step("local_unlink", _unlink_gone)
         step("index_refresh", lambda: write_global_accumulation_index(paths))
-        step("push_accumulated_refresh", lambda: push_accumulated_to_github(paths, GLOBAL_CONFIG))
+        step("push_index_refresh", lambda: push_accumulated_to_github(paths, GLOBAL_CONFIG, index_only=True))
 
     print(
         f"Global accumulate done: {len(confirmed)} week(s) confirmed, "
         f"{len(remote['deleted']) if remote else 0} remote deleted, {len(errors)} error(s)"
     )
     return {"weeks_confirmed": len(confirmed), "remote": remote, "errors": errors}
+
+def run_token_accumulate(config_path: Path, args) -> None:
+    """Full accumulation pipeline for one token config (weekly, monthly, quarterly, prune, index, push)."""
+    config = load_config(str(config_path))
+    print(f"\n{'='*60}")
+    print(f"Muneo Market Accumulator v{SCRIPT_VERSION}")
+    print(f"Config: {config_path}")
+    print(f"Mode: {'REBUILD' if args.rebuild else 'INCREMENTAL'}")
+    print(f"\nToken: {config['token_name']}")
+    print(f"Output prefix: {config['output_prefix']}")
+
+    # Setup directories
+    paths = setup_directories(config)
+
+    # Rebuild mode: clear existing accumulated output
+    if args.rebuild:
+        clear_accumulated_output(paths)
+
+    # Pull daily reports from GitHub (stateless container support)
+    downloaded = pull_reports_from_github(
+        token_symbol=config["token_name"],
+        output_prefix=config["output_prefix"]
+    )
+    if downloaded > 0:
+        print(f"  Pulled {downloaded} report(s) from GitHub")
+
+    # Pull existing weekly/monthly/quarterly rollups so monthly/quarterly are built from
+    # every week/month (not just the ones regenerated this run) and pruning sees GitHub's files
+    if not args.rebuild:
+        pull_accumulated_from_github(paths, config)
+
+    # Discover daily reports
+    print(f"\nScanning reports for {config['output_prefix']}*.json ...")
+    daily_reports = discover_daily_reports(paths["reports"], config["output_prefix"])
+    print(f"  Found {len(daily_reports)} daily reports")
+
+    if not daily_reports:
+        print("  No daily reports found. Nothing to accumulate.")
+        return
+
+    # Group by ISO week
+    weekly_groups = group_by_iso_week(daily_reports)
+    print(f"  Grouped into {len(weekly_groups)} ISO weeks:")
+    for (yr, wk), reports in sorted(weekly_groups.items()):
+        days = len(reports)
+        status = "✓ eligible" if days >= MIN_DAYS_FOR_WEEKLY else f"✗ only {days} days (need {MIN_DAYS_FOR_WEEKLY})"
+        print(f"    {yr}-W{wk:02d}: {days} days — {status}")
+
+    print("\nGenerating weekly reports...")
+    weekly_written = []
+    rolled_up_weeks = set()
+    for (yr, wk), reports in sorted(weekly_groups.items()):
+        deduped = deduplicate_by_date(reports)
+        if len(deduped) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
+            continue
+        daily_data = [d for d in [load_daily_report(r["path"]) for r in deduped] if d is not None]
+        if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
+            print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
+            continue
+        # Schema 2.0.0 fields — null-safe for pre-upgrade reports
+        for report in daily_data:
+            tech_sector_lean   = _get_nested(report, "tech_equities", "tech_sector_lean")
+            coinbase_premium   = _get_nested(report, "macro", "coinbase_premium_pct")
+            etf_net_inflow     = _get_nested(report, "etf_flows", "total_net_inflow_usd")
+            # liquidation_map is intraday data — not aggregated, passed through as null
+        price_agg = aggregate_weekly_price(daily_data)
+        existing, source = fetch_existing_weekly(paths, config, yr, wk)
+        existing_days = (existing or {}).get("period_metadata", {}).get("days_included")
+        if not should_overwrite_weekly(price_agg["days_included"], existing_days):
+            print(f"  Preserving {yr}-W{wk:02d}: existing weekly has {existing_days} days, regenerated would have {price_agg['days_included']}")
+            if source == "github":
+                try:
+                    preserved_path = paths["weekly"] / f"weekly_{yr}_W{wk:02d}.json"
+                    with open(preserved_path, "w", encoding="utf-8") as f:
+                        json.dump(existing, f, indent=2)
+                except Exception as e:
+                    print(f"  ⚠ Could not copy down existing weekly {yr}-W{wk:02d}: {e}")
+            rolled_up_weeks.add((yr, wk))
+            continue
+        derivatives_agg = aggregate_weekly_derivatives(daily_data)
+        on_chain_agg = aggregate_weekly_on_chain(daily_data)
+        macro_agg = aggregate_weekly_macro(daily_data)
+        sentiment_agg = aggregate_weekly_sentiment(daily_data)
+        news_agg = aggregate_weekly_news(daily_data)
+        signal_summary_agg = aggregate_weekly_signal_summary(daily_data)
+        accumulation_metadata = aggregate_accumulation_metadata(deduped, daily_data)
+        cex_dex_spread = aggregate_cex_dex_spread(daily_data)
+        output_path = write_weekly_report(yr, wk, config, paths, deduped, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread)
+        if output_path:
+            weekly_written.append(output_path)
+            rolled_up_weeks.add((yr, wk))
+            print(f"  Written: {output_path.name}")
+    print(f"\n{len(weekly_written)} weekly reports written.")
+
+    print("\nPushing weekly reports to GitHub before cleanup...")
+    confirmed_weeks = push_weekly_files_to_github(paths, config, rolled_up_weeks)
+    unconfirmed = rolled_up_weeks - confirmed_weeks
+    print(f"  {len(confirmed_weeks)} weekly report(s) confirmed on GitHub.")
+    if unconfirmed:
+        print(f"  ⚠ {len(unconfirmed)} week(s) not confirmed — their daily reports will NOT be deleted this run")
+
+    # Clean up old daily reports (local + GitHub) now rolled up into weekly reports
+    print("\nCleaning up old daily reports...")
+    cleanup_result = cleanup_old_daily_reports(daily_reports, confirmed_weeks)
+    local_deleted = len(cleanup_result["local"])
+    remote_deleted = len(cleanup_result["remote"])
+    if local_deleted == 0 and remote_deleted == 0:
+        print("  Nothing to clean up.")
+    else:
+        print(f"  Deleted {local_deleted} local, {remote_deleted} remote daily report(s).")
+    if cleanup_result["skipped_no_sha"]:
+        print(f"  ⚠ {len(cleanup_result['skipped_no_sha'])} file(s) skipped — could not fetch GitHub sha")
+
+    # Monthly aggregation
+    print("\nGenerating monthly reports...")
+    weekly_dir = paths["weekly"]
+    all_weekly = discover_weekly_reports(weekly_dir)
+    monthly_groups = group_by_calendar_month(all_weekly)
+    print(f"  Found {len(monthly_groups)} calendar months from {len(all_weekly)} weekly reports")
+
+    monthly_written = []
+    for (yr, mo), weeks in sorted(monthly_groups.items()):
+        if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
+            print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
+            continue
+        existing_weeks = existing_period_count(paths["monthly"] / f"monthly_{yr}_M{mo:02d}.json", "weeks_included")
+        if existing_weeks is not None and existing_weeks > len(weeks):
+            print(f"  Preserving {yr}-M{mo:02d}: existing monthly has {existing_weeks} weeks, regenerated would have {len(weeks)}")
+            continue
+        price_agg = aggregate_monthly_price(weeks)
+        technicals_agg = aggregate_monthly_technicals(weeks)
+        derivatives_agg = aggregate_monthly_derivatives(weeks)
+        on_chain_agg = aggregate_monthly_on_chain(weeks)
+        macro_agg = aggregate_monthly_macro(weeks)
+        sentiment_agg = aggregate_monthly_sentiment(weeks)
+        news_agg = aggregate_monthly_news(weeks)
+        signal_summary_agg = aggregate_monthly_signal_summary(weeks)
+        accumulation_metadata = aggregate_monthly_accumulation_metadata(weeks)
+        cex_dex_spread_agg = aggregate_cex_dex_spread_monthly(weeks)
+        weekly_breakdown = build_weekly_breakdown(weeks)
+        output_path = write_monthly_report(
+            yr, mo, config, paths, weeks,
+            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+            accumulation_metadata, cex_dex_spread_agg, weekly_breakdown
+        )
+        if output_path:
+            monthly_written.append(output_path)
+            print(f"  Written: {output_path.name}")
+    print(f"\n{len(monthly_written)} monthly reports written.")
+
+    # Quarterly aggregation
+    print("\nGenerating quarterly reports...")
+    monthly_dir = paths["monthly"]
+    all_monthly = discover_monthly_reports(monthly_dir)
+    quarterly_groups = group_by_quarter(all_monthly)
+    print(f"  Found {len(quarterly_groups)} quarters from {len(all_monthly)} monthly reports")
+
+    quarterly_written = []
+    for (yr, q), months in sorted(quarterly_groups.items()):
+        if len(months) < MIN_MONTHS_FOR_QUARTERLY:
+            print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
+            continue
+        existing_months = existing_period_count(paths["quarterly"] / f"quarterly_{yr}_Q{q}.json", "months_included")
+        if existing_months is not None and existing_months > len(months):
+            print(f"  Preserving {yr}-Q{q}: existing quarterly has {existing_months} months, regenerated would have {len(months)}")
+            continue
+        price_agg = aggregate_quarterly_price(months)
+        technicals_agg = aggregate_quarterly_technicals(months)
+        derivatives_agg = aggregate_quarterly_derivatives(months)
+        on_chain_agg = aggregate_quarterly_on_chain(months)
+        macro_agg = aggregate_quarterly_macro(months)
+        sentiment_agg = aggregate_quarterly_sentiment(months)
+        news_agg = aggregate_quarterly_news(months)
+        signal_summary_agg = aggregate_quarterly_signal_summary(months)
+        accumulation_metadata = aggregate_quarterly_accumulation_metadata(months)
+        cex_dex_spread_agg = aggregate_cex_dex_spread_quarterly(months)
+        monthly_breakdown = build_monthly_breakdown(months)
+        output_path = write_quarterly_report(
+            yr, q, config, paths, months,
+            price_agg, technicals_agg, derivatives_agg, on_chain_agg,
+            macro_agg, sentiment_agg, news_agg, signal_summary_agg,
+            accumulation_metadata, cex_dex_spread_agg, monthly_breakdown
+        )
+        if output_path:
+            quarterly_written.append(output_path)
+            print(f"  Written: {output_path.name}")
+    print(f"\n{len(quarterly_written)} quarterly reports written.")
+
+    # Select old rollups to prune: beyond the retention count AND covered by a higher-level file
+    selection = select_global_files_to_prune(paths)
+
+    # Write accumulation index
+    print("\nWriting accumulation index...")
+    index_path = write_accumulation_index(config, paths)
+    if index_path:
+        print(f"  Written: {index_path.name}")
+    else:
+        print("  WARNING: accumulation index failed to write")
+
+    # Push accumulated output to GitHub (covering monthly/quarterly files must be there before pruning)
+    print("\nPushing accumulated output to GitHub...")
+    push_accumulated_to_github(paths, config)
+
+    # Prune: delete from GitHub only when the covering file is confirmed remotely, then locally
+    print("\nPruning old accumulated files...")
+    if not (selection["weekly"] or selection["monthly"]):
+        print("  Nothing to prune.")
+    else:
+        token_dir = config["token_name"].lower()
+        remote = delete_global_files_from_github(paths, selection, scope=token_dir)
+        gone = set(remote["deleted"]) | set(remote["already_gone"])
+        for path in selection["weekly"] + selection["monthly"]:
+            if f"{path.parent.name}/{path.name}" in gone:
+                try:
+                    path.unlink()
+                except OSError as e:
+                    print(f"  ⚠ Could not remove local {path.name}: {e}")
+        print(f"  Pruned {len(remote['deleted'])} file(s) from GitHub, {len(remote['skipped_uncovered'])} skipped (not covered), {len(remote['failed'])} failed.")
+        if gone:
+            write_accumulation_index(config, paths)
+            push_accumulated_to_github(paths, config, index_only=True)
+
+    print("Accumulator run complete.")
+
 
 def main():
     args = parse_args()
@@ -4190,206 +4340,17 @@ def main():
     config_files = sorted(Path("configs").glob("*.json"))
     if not config_files:
         print("No config files found in configs/")
-        return
 
     for config_path in config_files:
-        config = load_config(str(config_path))
-        print(f"\n{'='*60}")
-        print(f"Muneo Market Accumulator v{SCRIPT_VERSION}")
-        print(f"Config: {config_path}")
-        print(f"Mode: {'REBUILD' if args.rebuild else 'INCREMENTAL'}")
-        print(f"\nToken: {config['token_name']}")
-        print(f"Output prefix: {config['output_prefix']}")
+        try:
+            run_token_accumulate(config_path, args)
+        except Exception as e:
+            # One token failing must not stop the other tokens or the global pipeline
+            print(f"  ✗ Accumulator run failed for {config_path}: {e}")
 
-        # Setup directories
-        paths = setup_directories(config)
-
-        # Rebuild mode: clear existing accumulated output
-        if args.rebuild:
-            clear_accumulated_output(paths)
-
-        # Pull daily reports from GitHub (stateless container support)
-        downloaded = pull_reports_from_github(
-            token_symbol=config["token_name"],
-            output_prefix=config["output_prefix"]
-        )
-        if downloaded > 0:
-            print(f"  Pulled {downloaded} report(s) from GitHub")
-
-        # Discover daily reports
-        print(f"\nScanning reports for {config['output_prefix']}*.json ...")
-        daily_reports = discover_daily_reports(paths["reports"], config["output_prefix"])
-        print(f"  Found {len(daily_reports)} daily reports")
-
-        if not daily_reports:
-            print("  No daily reports found. Nothing to accumulate.")
-            continue
-
-        # Group by ISO week
-        weekly_groups = group_by_iso_week(daily_reports)
-        print(f"  Grouped into {len(weekly_groups)} ISO weeks:")
-        for (yr, wk), reports in sorted(weekly_groups.items()):
-            days = len(reports)
-            status = "✓ eligible" if days >= MIN_DAYS_FOR_WEEKLY else f"✗ only {days} days (need {MIN_DAYS_FOR_WEEKLY})"
-            print(f"    {yr}-W{wk:02d}: {days} days — {status}")
-
-        print("\nGenerating weekly reports...")
-        weekly_written = []
-        rolled_up_weeks = set()
-        for (yr, wk), reports in sorted(weekly_groups.items()):
-            deduped = deduplicate_by_date(reports)
-            if len(deduped) < MIN_DAYS_FOR_WEEKLY:
-                print(f"  Skipping {yr}-W{wk:02d}: only {len(deduped)} days after dedup")
-                continue
-            daily_data = [d for d in [load_daily_report(r["path"]) for r in deduped] if d is not None]
-            if len(daily_data) < MIN_DAYS_FOR_WEEKLY:
-                print(f"  Skipping {yr}-W{wk:02d}: only {len(daily_data)} reports loaded")
-                continue
-            # Schema 2.0.0 fields — null-safe for pre-upgrade reports
-            for report in daily_data:
-                tech_sector_lean   = _get_nested(report, "tech_equities", "tech_sector_lean")
-                coinbase_premium   = _get_nested(report, "macro", "coinbase_premium_pct")
-                etf_net_inflow     = _get_nested(report, "etf_flows", "total_net_inflow_usd")
-                # liquidation_map is intraday data — not aggregated, passed through as null
-            price_agg = aggregate_weekly_price(daily_data)
-            existing, source = fetch_existing_weekly(paths, config, yr, wk)
-            existing_days = (existing or {}).get("period_metadata", {}).get("days_included")
-            if not should_overwrite_weekly(price_agg["days_included"], existing_days):
-                print(f"  Preserving {yr}-W{wk:02d}: existing weekly has {existing_days} days, regenerated would have {price_agg['days_included']}")
-                if source == "github":
-                    try:
-                        preserved_path = paths["weekly"] / f"weekly_{yr}_W{wk:02d}.json"
-                        with open(preserved_path, "w", encoding="utf-8") as f:
-                            json.dump(existing, f, indent=2)
-                    except Exception as e:
-                        print(f"  ⚠ Could not copy down existing weekly {yr}-W{wk:02d}: {e}")
-                rolled_up_weeks.add((yr, wk))
-                continue
-            derivatives_agg = aggregate_weekly_derivatives(daily_data)
-            on_chain_agg = aggregate_weekly_on_chain(daily_data)
-            macro_agg = aggregate_weekly_macro(daily_data)
-            sentiment_agg = aggregate_weekly_sentiment(daily_data)
-            news_agg = aggregate_weekly_news(daily_data)
-            signal_summary_agg = aggregate_weekly_signal_summary(daily_data)
-            accumulation_metadata = aggregate_accumulation_metadata(deduped, daily_data)
-            cex_dex_spread = aggregate_cex_dex_spread(daily_data)
-            output_path = write_weekly_report(yr, wk, config, paths, deduped, daily_data, price_agg, derivatives_agg, on_chain_agg, macro_agg, sentiment_agg, news_agg, signal_summary_agg, accumulation_metadata, cex_dex_spread)
-            if output_path:
-                weekly_written.append(output_path)
-                rolled_up_weeks.add((yr, wk))
-                print(f"  Written: {output_path.name}")
-        print(f"\n{len(weekly_written)} weekly reports written.")
-
-        print("\nPushing weekly reports to GitHub before cleanup...")
-        confirmed_weeks = push_weekly_files_to_github(paths, config, rolled_up_weeks)
-        unconfirmed = rolled_up_weeks - confirmed_weeks
-        print(f"  {len(confirmed_weeks)} weekly report(s) confirmed on GitHub.")
-        if unconfirmed:
-            print(f"  ⚠ {len(unconfirmed)} week(s) not confirmed — their daily reports will NOT be deleted this run")
-
-        # Clean up old daily reports (local + GitHub) now rolled up into weekly reports
-        print("\nCleaning up old daily reports...")
-        cleanup_result = cleanup_old_daily_reports(daily_reports, confirmed_weeks)
-        local_deleted = len(cleanup_result["local"])
-        remote_deleted = len(cleanup_result["remote"])
-        if local_deleted == 0 and remote_deleted == 0:
-            print("  Nothing to clean up.")
-        else:
-            print(f"  Deleted {local_deleted} local, {remote_deleted} remote daily report(s).")
-        if cleanup_result["skipped_no_sha"]:
-            print(f"  ⚠ {len(cleanup_result['skipped_no_sha'])} file(s) skipped — could not fetch GitHub sha")
-
-        # Monthly aggregation
-        print("\nGenerating monthly reports...")
-        weekly_dir = paths["weekly"]
-        all_weekly = discover_weekly_reports(weekly_dir)
-        monthly_groups = group_by_calendar_month(all_weekly)
-        print(f"  Found {len(monthly_groups)} calendar months from {len(all_weekly)} weekly reports")
-
-        monthly_written = []
-        for (yr, mo), weeks in sorted(monthly_groups.items()):
-            if len(weeks) < MIN_WEEKS_FOR_MONTHLY:
-                print(f"  Skipping {yr}-M{mo:02d}: only {len(weeks)} weeks (need {MIN_WEEKS_FOR_MONTHLY})")
-                continue
-            price_agg = aggregate_monthly_price(weeks)
-            technicals_agg = aggregate_monthly_technicals(weeks)
-            derivatives_agg = aggregate_monthly_derivatives(weeks)
-            on_chain_agg = aggregate_monthly_on_chain(weeks)
-            macro_agg = aggregate_monthly_macro(weeks)
-            sentiment_agg = aggregate_monthly_sentiment(weeks)
-            news_agg = aggregate_monthly_news(weeks)
-            signal_summary_agg = aggregate_monthly_signal_summary(weeks)
-            accumulation_metadata = aggregate_monthly_accumulation_metadata(weeks)
-            cex_dex_spread_agg = aggregate_cex_dex_spread_monthly(weeks)
-            weekly_breakdown = build_weekly_breakdown(weeks)
-            output_path = write_monthly_report(
-                yr, mo, config, paths, weeks,
-                price_agg, technicals_agg, derivatives_agg, on_chain_agg,
-                macro_agg, sentiment_agg, news_agg, signal_summary_agg,
-                accumulation_metadata, cex_dex_spread_agg, weekly_breakdown
-            )
-            if output_path:
-                monthly_written.append(output_path)
-                print(f"  Written: {output_path.name}")
-        print(f"\n{len(monthly_written)} monthly reports written.")
-
-        # Quarterly aggregation
-        print("\nGenerating quarterly reports...")
-        monthly_dir = paths["monthly"]
-        all_monthly = discover_monthly_reports(monthly_dir)
-        quarterly_groups = group_by_quarter(all_monthly)
-        print(f"  Found {len(quarterly_groups)} quarters from {len(all_monthly)} monthly reports")
-
-        quarterly_written = []
-        for (yr, q), months in sorted(quarterly_groups.items()):
-            if len(months) < MIN_MONTHS_FOR_QUARTERLY:
-                print(f"  Skipping {yr}-Q{q}: only {len(months)} months (need {MIN_MONTHS_FOR_QUARTERLY})")
-                continue
-            price_agg = aggregate_quarterly_price(months)
-            technicals_agg = aggregate_quarterly_technicals(months)
-            derivatives_agg = aggregate_quarterly_derivatives(months)
-            on_chain_agg = aggregate_quarterly_on_chain(months)
-            macro_agg = aggregate_quarterly_macro(months)
-            sentiment_agg = aggregate_quarterly_sentiment(months)
-            news_agg = aggregate_quarterly_news(months)
-            signal_summary_agg = aggregate_quarterly_signal_summary(months)
-            accumulation_metadata = aggregate_quarterly_accumulation_metadata(months)
-            cex_dex_spread_agg = aggregate_cex_dex_spread_quarterly(months)
-            monthly_breakdown = build_monthly_breakdown(months)
-            output_path = write_quarterly_report(
-                yr, q, config, paths, months,
-                price_agg, technicals_agg, derivatives_agg, on_chain_agg,
-                macro_agg, sentiment_agg, news_agg, signal_summary_agg,
-                accumulation_metadata, cex_dex_spread_agg, monthly_breakdown
-            )
-            if output_path:
-                quarterly_written.append(output_path)
-                print(f"  Written: {output_path.name}")
-        print(f"\n{len(quarterly_written)} quarterly reports written.")
-
-        # Prune old accumulated files
-        print("\nPruning old accumulated files...")
-        pruned = prune_accumulated_output(paths, config)
-        weekly_pruned = len(pruned["weekly"])
-        monthly_pruned = len(pruned["monthly"])
-        if weekly_pruned == 0 and monthly_pruned == 0:
-            print("  Nothing to prune.")
-        else:
-            print(f"  Pruned {weekly_pruned} weekly, {monthly_pruned} monthly files.")
-
-        # Write accumulation index
-        print("\nWriting accumulation index...")
-        index_path = write_accumulation_index(config, paths)
-        if index_path:
-            print(f"  Written: {index_path.name}")
-        else:
-            print("  WARNING: accumulation index failed to write")
-
-        # Push accumulated output to GitHub
-        print("\nPushing accumulated output to GitHub...")
-        push_accumulated_to_github(paths, config)
-
-        print("Accumulator run complete.")
+    # The scheduled run (no flags) also rolls up the global reports
+    print(f"\n{'='*60}\nGlobal accumulation")
+    run_global_accumulate()
 
 if __name__ == "__main__":
     main()
