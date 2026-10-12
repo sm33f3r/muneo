@@ -1,0 +1,415 @@
+{
+  "period_metadata": {
+    "type": "monthly",
+    "scope": "global",
+    "period_id": "2026-M05",
+    "cal_year": 2026,
+    "cal_month": 5,
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-31",
+    "token": "global",
+    "weeks_included": 4,
+    "weeks_possible": 4,
+    "days_included": 27,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:47:34 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2734943654899.86,
+    "total_market_cap_usd_end": 2572641869809.03,
+    "total_market_cap_change_pct": -5.9344,
+    "btc_dominance_pct_start": 58.727,
+    "btc_dominance_pct_end": 57.3377,
+    "eth_dominance_pct_start": 10.4102,
+    "eth_dominance_pct_end": 9.3972,
+    "total2_usd_start": 1128794335667.04,
+    "total2_usd_end": 1097548336421.06,
+    "total3_usd_start": 844081122166.69,
+    "total3_usd_end": 855791673023.8,
+    "total_volume_24h_usd_avg": 86750902577.7158,
+    "altcoin_season_index_avg": 56.3334,
+    "altcoin_season_index_close": 72,
+    "altcoin_season_lean_modal": "neutral",
+    "periods_included": 4
+  },
+  "btc": {
+    "price_open": 80210,
+    "price_close": 73530,
+    "price_high": 81559,
+    "price_low": 73472,
+    "period_return_pct": -8.3281,
+    "oi_usd_start": 8738114617.44,
+    "oi_usd_end": 7717843065.78,
+    "oi_change_pct": -11.6761,
+    "funding_rate_avg": 3.565e-05,
+    "long_short_ratio_avg": 1.1225,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "neutral",
+    "periods_included": 4
+  },
+  "eth": {
+    "price_open": 2359.56,
+    "price_close": 2004.19,
+    "period_return_pct": -15.0609,
+    "eth_btc_ratio_start": 0.029417,
+    "eth_btc_ratio_end": 0.027257,
+    "eth_btc_lean_modal": "bearish",
+    "periods_included": 4
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 85475200229.37,
+    "total_defi_tvl_usd_end": 80334869935.96,
+    "tvl_change_pct": -6.0138,
+    "stablecoin_market_cap_usd_start": 320808060622.49,
+    "stablecoin_market_cap_usd_end": 318940797596.23,
+    "stablecoin_dominance_pct_start": 11.73,
+    "stablecoin_dominance_pct_end": 12.3974,
+    "periods_included": 4
+  },
+  "macro": {
+    "dxy_start": 118.3926,
+    "dxy_end": 119.2868,
+    "dxy_lean_modal": "neutral",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 718.07,
+    "spy_close_end": 756.48,
+    "spy_return_pct": 5.3491,
+    "spy_lean_modal": "neutral",
+    "vix_close_avg": 16.9891,
+    "vix_close_end": 15.74,
+    "vix_lean_modal": "bullish",
+    "coinbase_premium_pct_avg": null,
+    "coinbase_premium_lean_modal": null
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": null,
+    "days_with_data": 0
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 42.1852,
+    "fear_greed_min": 33,
+    "fear_greed_max": 51,
+    "fear_greed_close": 35,
+    "fear_greed_label_close": "Fear",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 1050,
+    "positive_count_sum": 220,
+    "negative_count_sum": 174,
+    "neutral_count_sum": 656,
+    "sentiment_ratio_avg": 0.233,
+    "news_spike_days": 16,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "Sui traces three mainnet halts to upgrade bugs, including a fix it knew carried halt risk",
+        "url": "https://www.theblock.co/post/403124/sui-traces-three-mainnet-halts-to-upgrade-bugs-including-a-fix-it-knew-carried-halt-risk?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-31T20:46:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy's Michael Saylor teases BTC buy with 'working better' tweet",
+        "url": "https://cointelegraph.com/news/strategys-michael-saylor-says-working-better-tees-up-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T20:00:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "\u2018Now Or Never\u2019 For Crypto Clarity, CEO Warns Ahead Of Key June Push",
+        "url": "https://bitcoinist.com/now-or-never-for-crypto-clarity-ceo-warns-ahead-of-key-june-push/",
+        "published_at": "2026-05-31T19:30:08+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "UK treats crypto network like a sanctioned bank after claims it processed $90B for Russia",
+        "url": "https://cryptoslate.com/uk-treats-crypto-network-like-a-sanctioned-bank-after-claims-it-processed-90b-for-russia/",
+        "published_at": "2026-05-31T19:05:46+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken \u2018plans\u2019 regulated perp contracts as rivals are quick off the blocks",
+        "url": "https://cointelegraph.com/news/kraken-plans-regulated-perp-contracts-as-rivals-are-quick-off-the-blocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T17:40:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle Blacklists Zama Protocol Address, Freezing $12.6M In User Funds \u2013 Details",
+        "url": "https://bitcoinist.com/circle-blacklists-zama-paddress-freezing-12-6m/",
+        "published_at": "2026-05-31T17:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Revealing the moment crypto started reshaping American elections",
+        "url": "https://cryptoslate.com/revealing-the-moment-crypto-started-reshaping-american-elections/",
+        "published_at": "2026-05-31T17:10:45+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin preps 3% May downside, but US PMI data may boost BTC price",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-preps-3-may-downside-as-us-pmi-data-preps-potential-btc-price-boost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-05-31T16:39:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How President Trump\u2019s Immigration Order Will Feed the Stablecoin Economy, Bitcoin ATMs",
+        "url": "https://decrypt.co/369479/how-president-trump-immigration-order-feed-stablecoin-bitcoin-atms",
+        "published_at": "2026-05-31T15:49:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Foundation cancels 2026 summit after treasury funding vote falls just short",
+        "url": "https://www.theblock.co/post/403122/cardano-foundation-cancels-2026-summit-after-treasury-funding-vote-falls-just-short?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-05-31T15:33:24+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 748,
+    "macro_headlines": [
+      {
+        "headline": "Netanyahu orders deeper Israeli incursion into Lebanon to hit Hezbollah - Reuters",
+        "summary": "Netanyahu orders deeper Israeli incursion into Lebanon to hit Hezbollah\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ19uYndNRDdIVlVObEJCQjhHUnhNUTRqWTM3NFppenBsU01tWU5ILXU2ZHA3QmVHYllWU0ZQeU1nVzlITlhsUDlFTkJoU19OUXJPUFFyMDBYZ2l2a3EtSVo0YkFRQUF0bTlvOVJ3Vm40dHFGTUoyNm9ZTnlBQWltYXZxak1xLXdOQ29XR05ZNzd3cTF1MWtuZjZRZW14dWZlLWhEcHJfRzVMTlZTMVhhbHdsQ2I0S3hIY2NqdWZMUlZWNjJteVhRd19QVEpJVFBVMjdPd0NtRQ?oc=5",
+        "published_at": "2026-05-31T20:13:36Z"
+      },
+      {
+        "headline": "My guide to the IPOs of SpaceX, OpenAI and Anthropic \u2014 including the one I really want to buy",
+        "summary": "These three expected deals will define 2026 and maybe even 2027. Here's my advice on how to play them.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/my-guide-to-the-ipos-of-spacex-openai-and-anthropic-including-the-one-i-really-want-to-buy.html",
+        "published_at": "2026-05-31T17:56:30Z"
+      },
+      {
+        "headline": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry'",
+        "summary": "Trump threatened further military action if negotiations break down and the U.S. does not receive the concessions from Iran it desires.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/still-no-deal-to-end-us-iran-war-trump-says-hes-not-in-a-hurry.html",
+        "published_at": "2026-05-31T16:22:08Z"
+      },
+      {
+        "headline": "Eva Longoria says this quality is more important than an Ivy League education: 'Do you have the capacity to figure it out?'",
+        "summary": "Actor, director and entrepreneur Eva Longoria says this is a top quality she looks for when making a hire or partnering with new people.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/eva-longoria-says-this-quality-trumps-an-ivy-league-education.html",
+        "published_at": "2026-05-31T14:30:01Z"
+      },
+      {
+        "headline": "Here are the 4 big things we're watching in the stock market in the week ahead",
+        "summary": "Earnings from CrowdStrike, Palo Alto Networks and Broadcom. Plus, jobs data, Computex and progress on spin-offs.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-05-31T14:00:53Z"
+      },
+      {
+        "headline": "In deeply red Oklahoma, minimum wage\u2019s biggest 2026 election cycle fight is about to be decided",
+        "summary": "Oklahomans will soon vote on a measure to double the minimum wage, an election issue that may reflect the economic mood and inflation outlook across parties.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/oklahoma-minimum-wage-2026-election-vote-economy-inflation.html",
+        "published_at": "2026-05-31T13:15:18Z"
+      },
+      {
+        "headline": "Saudi shares gain, Qatar slips on Iran-US deal uncertainty - Reuters",
+        "summary": "Saudi shares gain, Qatar slips on Iran-US deal uncertainty\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZE5ycVlXQ2lyWmppTS1UaElHQzhyOEROU0hwMTBxeno2bWkzZFVxdVJIa2hRYUpRVE9nanBHNV9qTGVrMEk5ZVZ3ajRBcGpKNVJMbElKalFwQndfeDlubTlvM2J2dndOZ1lkR3RrbExaYW5BenM3TWFseHZ2RXV1cGk4enVfXzlkM3gyUUpxWXZtT1ZEWHFfYVJNbGpHU3BDSlRJTTNjdFoxdEF4?oc=5",
+        "published_at": "2026-05-31T13:09:33Z"
+      },
+      {
+        "headline": "Defense spending, China in Asia and lessons from Ukraine: Takeways from the 2026 IISS Shangri-La Dialogue",
+        "summary": "The summit sees top world leaders, defence officials and key executives gathering in Singapore from May 29 to 31",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/31/takeways-from-the-2026-shangri-la-dialogue-.html",
+        "published_at": "2026-05-31T08:38:13Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 12,
+    "signals_null": 5,
+    "bullish_count": 1,
+    "bearish_count": 1,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 4,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0,
+      "streak_unit": "weeks"
+    }
+  },
+  "weekly_breakdown": [
+    {
+      "period_id": "2026-W19",
+      "start_date": "2026-05-04",
+      "end_date": "2026-05-10",
+      "overall_lean": "neutral",
+      "btc_price_close": 80769,
+      "btc_period_return_pct": 0.6969,
+      "fear_greed_close": 49,
+      "total_market_cap_change_pct": 1.6302,
+      "days_included": 7,
+      "data_quality": "complete"
+    },
+    {
+      "period_id": "2026-W20",
+      "start_date": "2026-05-12",
+      "end_date": "2026-05-17",
+      "overall_lean": "neutral",
+      "btc_price_close": 78361,
+      "btc_period_return_pct": -2.8057,
+      "fear_greed_close": 42,
+      "total_market_cap_change_pct": -2.892,
+      "days_included": 6,
+      "data_quality": "partial"
+    },
+    {
+      "period_id": "2026-W21",
+      "start_date": "2026-05-18",
+      "end_date": "2026-05-24",
+      "overall_lean": "neutral",
+      "btc_price_close": 76492,
+      "btc_period_return_pct": -0.6197,
+      "fear_greed_close": 38,
+      "total_market_cap_change_pct": -0.3247,
+      "days_included": 7,
+      "data_quality": "complete"
+    },
+    {
+      "period_id": "2026-W22",
+      "start_date": "2026-05-25",
+      "end_date": "2026-05-31",
+      "overall_lean": "neutral",
+      "btc_price_close": 73530,
+      "btc_period_return_pct": -4.8229,
+      "fear_greed_close": 35,
+      "total_market_cap_change_pct": -3.1912,
+      "days_included": 7,
+      "data_quality": "complete"
+    }
+  ],
+  "data_gaps": [
+    "etf_flows.total_net_inflow_usd",
+    "macro.coinbase_premium_pct",
+    "tech_equities.tech_sector_lean"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 4,
+    "constituent_periods_available": 4,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "days_included_total": 27,
+    "schema_versions_input": [
+      "1.1.0"
+    ],
+    "weeks_missing_daily_flows": 0
+  }
+}
