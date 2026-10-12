@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-12T21:12:45 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2807699734092.4,
+    "total_market_cap_change_24h_pct": -3.0194,
+    "total_volume_24h_usd": 78728110235.1,
+    "btc_dominance_pct": 59.1743,
+    "eth_dominance_pct": 10.897,
+    "total2_usd": 1146262938388.4,
+    "total3_usd": 840308904386.23,
+    "active_cryptocurrencies": 22203,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RSR",
+        "name": "Reserve Rights",
+        "price_change_24h_pct": 37.8618,
+        "price_usd": 0.0022631,
+        "market_cap_usd": 142631251
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 19.7531,
+        "price_usd": 1.62,
+        "market_cap_usd": 554024792
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 10.9395,
+        "price_usd": 0.439835,
+        "market_cap_usd": 824287496
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 10.4425,
+        "price_usd": 1.78,
+        "market_cap_usd": 4806346733
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": 8.9891,
+        "price_usd": 0.087294,
+        "market_cap_usd": 686960621
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -20.1099,
+        "price_usd": 0.092774,
+        "market_cap_usd": 689266001
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -16.3901,
+        "price_usd": 0.293636,
+        "market_cap_usd": 198725394
+      },
+      {
+        "symbol": "KAIA",
+        "name": "Kaia",
+        "price_change_24h_pct": -10.9736,
+        "price_usd": 0.0463684,
+        "market_cap_usd": 298742233
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -10.7412,
+        "price_usd": 0.289742,
+        "market_cap_usd": 259221437
+      },
+      {
+        "symbol": "CFX",
+        "name": "Conflux",
+        "price_change_24h_pct": -10.5654,
+        "price_usd": 0.059632,
+        "market_cap_usd": 312861280
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 82840,
+    "price_change_24h_pct": -0.8377,
+    "price_change_7d_pct": -3.1838,
+    "market_cap_usd": 1664974517493,
+    "volume_24h_usd": 25913894821,
+    "direction": "neutral",
+    "oi_usd": 7748976037.52,
+    "funding_rate_latest": 1.944e-05,
+    "funding_rate_7d_avg": 5.550952380952381e-06,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.4783,
+    "long_account_pct": 59.65,
+    "short_account_pct": 40.35,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2510.41,
+    "price_change_24h_pct": -0.7819,
+    "price_change_7d_pct": -7.056,
+    "market_cap_usd": 306512687958,
+    "volume_24h_usd": 12358144023,
+    "eth_btc_ratio": 0.030304,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 91801806877.37,
+    "stablecoin_market_cap_usd": 312985987846.16,
+    "stablecoin_dominance_pct": 11.1474
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 34,
+    "headlines": [
+      {
+        "headline": "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
+        "summary": "Jim Cramer said bets against Salesforce were always wrong.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/12/bear-to-bull-a-double-upgrade-of-salesforce-illustrates-the-folly-of-the-saaspocalypse-.html",
+        "published_at": "2026-10-12T19:50:19Z"
+      },
+      {
+        "headline": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
+        "summary": "US hopes diesel deal can 'soften' Moscow on peace talks, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1h5ek9QWEw0bXVmSUpuTlA1MDlVNXg1SzlnSkpwT1BXLVZHVnNMT1k0V3pfaU8tVFhUcWw1TWl1SE9Kcm04T0RYNjlhbGdyaUFQZEtOU2x6NmtJOGVfYXFWaHY3b1R0TDA5SzVsSDg0UTU2M2NGZk50WEZRTHBTSnJVWTBGbUJ6RjlnWFp0WTl1bkdWYmNYcl9ISXFSNS10OTBUZmVwQXpKSkI5REN1YTdkbnE?oc=5",
+        "published_at": "2026-10-12T19:45:16Z"
+      },
+      {
+        "headline": "Saudi capital's airport to remain shut this week as airlines cancel services - Reuters",
+        "summary": "Saudi capital's airport to remain shut this week as airlines cancel services\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5",
+        "published_at": "2026-10-12T19:36:35Z"
+      },
+      {
+        "headline": "Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/12/microsoft-micron-and-meta-make-news-what-it-all-means-for-our-stakes.html",
+        "published_at": "2026-10-12T18:47:58Z"
+      },
+      {
+        "headline": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident - Reuters",
+        "summary": "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ0NVNWU296YXNLZ1BDNC11S1V3MW5uY1ViQ2M3VmZ4eVZVLWtTT2x4MG4zOGJncUVrOFFyZkcwekpYZXpWRWhvc0lxWkhveHU3MmV0VW03dEo1RmN4dzVhSVFWajBzMXlZVDFQWXRkQ3V3eFdVTDdadFpJNjFCVzVlQ05WMkYxZEpmelV6RDdBaWhSN19YVDJROXcySFo0anBOWTNQYk81TENDaUY4?oc=5",
+        "published_at": "2026-10-12T17:12:25Z"
+      },
+      {
+        "headline": "What's in the diesel deal between Putin and Trump? - Reuters",
+        "summary": "What's in the diesel deal between Putin and Trump?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+        "published_at": "2026-10-12T16:00:03Z"
+      },
+      {
+        "headline": "Trump defends Russia diesel deal as lawmakers from both parties complain - Reuters",
+        "summary": "Trump defends Russia diesel deal as lawmakers from both parties complain\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWUNYSF8xeXZscDAyZTZVNC1zZHNtdHhqMng2bVZTenRCTDJWX0FDeV9pMjllMzRMRmJ0blkwMFZ1MENpd1RmbWltR1R0SmV6Q1JUQnpHbnZxNmQtYmZZaFpxdXVLS3Vxd2xqYmI1UVhLM3hCM2gybXN2LUZ5Q2JOdDByZUIwemdsenlGY3FxOENNME5lT0xocWNDYmN6X0ZxQXBiVFNHNnlENmVTOXdqU3pxdlpscHM?oc=5",
+        "published_at": "2026-10-12T15:48:11Z"
+      },
+      {
+        "headline": "Parenting in the digital age can be \u2018a very anxiety provoking experience,\u2019 says Emily Oster: How parents can lower that anxiety",
+        "summary": "For those parents overwhelmed by headlines about the dangers of new tech, try using it and getting informed, says Emily Oster.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/12/emily-oster-how-parents-can-lower-anxiety-.html",
+        "published_at": "2026-10-12T15:03:08Z"
+      },
+      {
+        "headline": "McDonald's is leaning into chicken and drinks to grow. New data shows it could be a tough task",
+        "summary": "McDonald's is targeting growth in chicken and beverages, but Consumer Edge data shows Chick-fil-A and coffee chains gaining in customer spending.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/12/mcdonalds-chicken-beverage-growth.html",
+        "published_at": "2026-10-12T14:56:42Z"
+      },
+      {
+        "headline": "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Reuters",
+        "summary": "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0c4YlJSYUNrT1pqLTA2TmFjdDZUdmh2Z3pXbG9vWF9mdS0tZFZ6M2tYTVUzRjZVTzhodnh4WU0waXV1bjZENURjUVhmRVZPN251V2laQmNMZ3JoNmIzZE5hWU82YkxIWTdvd2xNczBkNnEta0xGdzlmaGlFNkZ5M1lxcGZUNW5pRnMxV1pPT0NxMXZmOWpEUmpBNXRUcksyZWQ5Sm9pM1QweFFWdmZYVkdid0s1dUJSanNN?oc=5",
+        "published_at": "2026-10-12T14:48:05Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2333,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3848,
+    "broad_dollar_index_lean": "bullish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 778.07,
+    "spy_change_pct": -0.0642,
+    "spy_lean": "neutral",
+    "vix_close": 14.84,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 82756.29,
+    "coinbase_premium_pct": -0.10105,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-12T21:12:45 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 226.32,
+        "change_pct": -1.291,
+        "prev_close": 229.28
+      },
+      "AMD": {
+        "close": 594.24,
+        "change_pct": -2.2792,
+        "prev_close": 608.1
+      },
+      "TSM": {
+        "close": 444.35,
+        "change_pct": -1.9766,
+        "prev_close": 453.31
+      },
+      "SMCI": {
+        "close": 39.98,
+        "change_pct": -4.4798,
+        "prev_close": 41.855
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 746.04,
+        "change_pct": -0.6962,
+        "prev_close": 751.27
+      },
+      "SOXX": {
+        "close": 544.85,
+        "change_pct": -2.601,
+        "prev_close": 559.4
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-09",
+    "total_net_inflow_usd": 21128078.55,
+    "total_net_assets_usd": 105844422150.6,
+    "total_value_traded_usd": 1440037593.9,
+    "cum_net_inflow_usd": 57106714665.87,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 82840,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 56,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 43,
+    "positive_count": 6,
+    "negative_count": 3,
+    "neutral_count": 34,
+    "sentiment_ratio": 0.1395,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "CFTC\u2019s new crypto framework could face 2028 election deadline, says TD Cowen",
+        "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358",
+        "published_at": "2026-10-12T20:53:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta's New Muse Wonder Finally Puts Zuckerberg in the Frontier AI Race",
+        "url": "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race",
+        "published_at": "2026-10-12T20:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "From GTA V on iPhone to Free Photoshop: This AI Tool Is Upending Software",
+        "url": "https://decrypt.co/380741/gta-v-iphone-free-photoshop-ai-tool-rea-upending-software",
+        "published_at": "2026-10-12T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-12T19:26:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+        "url": "https://decrypt.co/380752/solana-treasury-firm-defi-development-keeps-buying-sol",
+        "published_at": "2026-10-12T19:07:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PACs report $2.7M spending blitz on House races as midterms loom",
+        "url": "https://cointelegraph.com/news/crypto-pac-spending-house-races-2026-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-12T18:55:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance launches AI trading tool after 150,000-user beta",
+        "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349",
+        "published_at": "2026-10-12T18:44:10+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US accounting overhaul could make stablecoins more attractive to corporations: Tempo",
+        "url": "https://cointelegraph.com/news/fasb-stablecoin-accounting-rules-corporate-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-12T18:38:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple-Backed Evernorth Hits Nasdaq Holding 473 Million XRP Worth Far Less Than It Paid",
+        "url": "https://decrypt.co/380728/ripple-backed-evernorth-hits-nasdaq-holding-473-million-xrp",
+        "published_at": "2026-10-12T18:09:15+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
+        "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+        "published_at": "2026-10-12T17:06:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bullish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
