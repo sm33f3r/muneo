@@ -1,0 +1,376 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W24",
+    "iso_year": 2026,
+    "iso_week": 24,
+    "start_date": "2026-06-08",
+    "end_date": "2026-06-14",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2276139870182.12,
+    "total_market_cap_usd_end": 2295550681221.66,
+    "total_market_cap_change_pct": 0.8528,
+    "btc_dominance_pct_start": 56.072,
+    "btc_dominance_pct_end": 56.6281,
+    "eth_dominance_pct_start": 9.0558,
+    "eth_dominance_pct_end": 8.944,
+    "total2_usd_start": 999861627662.03,
+    "total2_usd_end": 995625070043.08,
+    "total3_usd_start": 793738099997.55,
+    "total3_usd_end": 790312013027.35,
+    "total_volume_24h_usd_avg": 82128124886.9657,
+    "altcoin_season_index_avg": 45.1429,
+    "altcoin_season_index_close": 36,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 63683,
+    "price_close": 64668,
+    "price_high": 64668,
+    "price_low": 61526,
+    "period_return_pct": 1.5467,
+    "oi_usd_start": 6213390975.13,
+    "oi_usd_end": 6470196686.7,
+    "oi_change_pct": 4.1331,
+    "funding_rate_avg": 6.46e-06,
+    "long_short_ratio_avg": 1.7097,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 1708.3,
+    "price_close": 1698.7,
+    "period_return_pct": -0.562,
+    "eth_btc_ratio_start": 0.026825,
+    "eth_btc_ratio_end": 0.026268,
+    "eth_btc_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 72715016013.38,
+    "total_defi_tvl_usd_end": 72231270344.94,
+    "tvl_change_pct": -0.6653,
+    "stablecoin_market_cap_usd_start": 315964069659.01,
+    "stablecoin_market_cap_usd_end": 314304526545.38,
+    "stablecoin_dominance_pct_start": 13.8816,
+    "stablecoin_dominance_pct_end": 13.6919,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 120.0831,
+    "dxy_end": 120.0831,
+    "dxy_lean_modal": "bearish",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 739.27,
+    "spy_close_end": 741.75,
+    "spy_return_pct": 0.3355,
+    "spy_lean_modal": "bullish",
+    "vix_close_avg": 20.12,
+    "vix_close_end": 19.44,
+    "vix_lean_modal": "bullish",
+    "coinbase_premium_pct_avg": null,
+    "coinbase_premium_lean_modal": null
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": null,
+    "days_with_data": 0
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 17.1429,
+    "fear_greed_min": 14,
+    "fear_greed_max": 21,
+    "fear_greed_close": 21,
+    "fear_greed_label_close": "Fear",
+    "fear_greed_lean_modal": "bullish"
+  },
+  "news": {
+    "article_count_sum": 388,
+    "positive_count_sum": 62,
+    "negative_count_sum": 79,
+    "neutral_count_sum": 247,
+    "sentiment_ratio_avg": 0.1539,
+    "news_spike_days": 7,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "Bitcoin mining difficulty drops 10% in second-largest negative adjustment of 2026",
+        "url": "https://www.theblock.co/post/404702/bitcoin-mining-difficulty-drops-10-in-second-largest-negative-adjustment-of-2026?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-14T20:42:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Appeals Court Rejects Sam Bankman-Fried Bid For New FTX Trial",
+        "url": "https://bitcoinist.com/appeals-court-rejects-sam-bankman-frieds-bid-for-new-ftx-trial/",
+        "published_at": "2026-06-14T19:30:06+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Reve 2.0 Review: The Best AI Image Generator for Layout Control",
+        "url": "https://decrypt.co/371033/reve-2-review-best-ai-image-generator-layout-control",
+        "published_at": "2026-06-14T19:11:33+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "StanChart looks for 3 signs of BTC bottom, including Strategy\u2019s Monday news",
+        "url": "https://cointelegraph.com/news/stanchart-looks-for-3-signs-of-btc-bottom-including-strategys-monday-news?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-06-14T19:05:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "HYPE ETFs quietly pulled $161M in one month as Wall Street buys crypto\u2019s on-chain exchange bet",
+        "url": "https://cryptoslate.com/hype-etfs-quietly-pulled-161m-in-one-month-as-wall-street-buys-cryptos-on-chain-exchange-bet/",
+        "published_at": "2026-06-14T19:05:22+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "From reinsurance to structured credit: The financial products you didn\u2019t know Bitcoin was powering",
+        "url": "https://cryptoslate.com/from-reinsurance-to-structured-credit-the-financial-products-you-didnt-know-bitcoin-was-powering/",
+        "published_at": "2026-06-14T17:10:20+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized SpaceX Share Allocations Canceled After Broker Shortage Hits Crypto Platforms",
+        "url": "https://bitcoinist.com/tokenized-spacex-share-allocations-canceled-after-broker-shortage-hits-crypto-pl/",
+        "published_at": "2026-06-14T17:00:02+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-backed World Liberty Financial to fund UFC fighter bonuses in USD1 stablecoin at White House event",
+        "url": "https://www.theblock.co/post/404697/trump-backed-world-liberty-financial-to-fund-ufc-fighter-bonuses-in-usd1-stablecoin-at-white-house-event?utm_source=rss&utm_medium=rss",
+        "published_at": "2026-06-14T15:44:41+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Millions of EU crypto users face exchange cutoff as MiCA deadline hits in days",
+        "url": "https://cryptoslate.com/millions-of-eu-crypto-users-face-exchange-cutoff-as-mica-deadline-hits-in-days/",
+        "published_at": "2026-06-14T15:05:19+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Token Of Power Governance Exploit Drains $1.58 Million In WETH, TRM Says",
+        "url": "https://bitcoinist.com/token-of-power-governance-exploit-drains-1-58-million-in-weth-trm-says/",
+        "published_at": "2026-06-14T14:03:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 222,
+    "macro_headlines": [
+      {
+        "headline": "Charlie Javice reportedly seeking a pardon from Trump",
+        "summary": "Javice founded a startup called Frank that JPMorgan acquired in 2021 for $175 million.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "published_at": "2026-06-14T20:29:12Z"
+      },
+      {
+        "headline": "In Tijuana, Iran's tiny diaspora agrees on little \u2014 except Team Melli - Reuters",
+        "summary": "In Tijuana, Iran's tiny diaspora agrees on little \u2014 except Team Melli\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZFJ4RE8zYXgybG1hUm1tejBnSzNXYm9uNS1rOWkzZGlHcjhvUW1fVWZaNVh2aGJuTzRQNEpKcjN0U2NLTV9QbVlRa0hRUllHaEVja19fZ3c3NTZfbHBZN3FseXppLXJVam8zeVVfN2JzV2FDRGYtWlBOWEZDWEczM1RabW9BZ01ZWWJwanp3c25RaWlSSE55dVJzYXZCWkJJb3NsVUVlZDVMVWd6bVMw?oc=5",
+        "published_at": "2026-06-14T17:31:01Z"
+      },
+      {
+        "headline": "Israel attacks Hezbollah targets in Beirut's southern suburbs - Reuters",
+        "summary": "Israel attacks Hezbollah targets in Beirut's southern suburbs\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?oc=5",
+        "published_at": "2026-06-14T16:03:43Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The Kevin Warsh era is upon us.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/14/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-06-14T12:41:44Z"
+      },
+      {
+        "headline": "Highly charismatic people use 5 'magnetic' phrases to be more likable, says public speaking expert",
+        "summary": "Public speaking expert and author Vanessa Van Edwards reveals the phrases that highly charismatic people use to build better relationships.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/14/highly-charismatic-people-use-5-phrases-to-be-more-memorable-says-public-speaking-expert.html",
+        "published_at": "2026-06-14T12:30:01Z"
+      },
+      {
+        "headline": "Iran says draft US deal includes oil sanctions waiver, nuclear limits and asset release - Reuters",
+        "summary": "Iran says draft US deal includes oil sanctions waiver, nuclear limits and asset release\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHJ5S3lQbnk2ck1TeGlCeGh2V0k3cXJQSnVwLVNSUEM3cDNIcUVFazFZazBSLW1oQzJQWHJldGo4RHp3b2NaQXQ2OUxJTjdPTVNjZEZQdUxPT1ZfaGVLWWt1MmtQa0taaUNfZnIzUVRqS3R4WFp2UUM1dFFUZlNkY3ZtZ2xOaDE3UW1uQVpFcGQ4MThHUGs4X3JETmg3SWRWdmEwa28zazRGR0dJX0VWMDBJWXd3Z2Izd19OLUNDb01OejE2?oc=5",
+        "published_at": "2026-06-14T12:18:30Z"
+      },
+      {
+        "headline": "JetBlue bets big on Fort Lauderdale, from a new airport lounge to an international gateway",
+        "summary": "JetBlue faces heavy competition from Miami International Airport, an American Airlines stronghold.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/14/jetblue-fort-lauderdale-airport.html",
+        "published_at": "2026-06-14T12:00:02Z"
+      },
+      {
+        "headline": "UK forces board sanctioned Russian shadow fleet oil tanker",
+        "summary": "The U.K.'s Ministry of Defence says the SMYRTOS was in the English Channel and will be held off the south coast during investigations.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/14/uk-forces-board-sanctioned-russian-shadow-fleet-oil-tanker.html",
+        "published_at": "2026-06-14T08:42:22Z"
+      },
+      {
+        "headline": "Iran says limited cyberattack disrupts services at four banks, state media says - Reuters",
+        "summary": "Iran says limited cyberattack disrupts services at four banks, state media says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPekNlcHljbzkyU2huU1VqQnB1SFRyVHF0bHJKWVR3RXZETDJvQTBrSVVDN3FVRzNDdjhVc2txU2cxeU5Id1dWQlVXU0l6LVJwNWZrOTlsWUMxaHFMNm16anRrMWVIWHQ5NW5vMWpLY0pUY2lDemo1c3NEVlRlSnpBTmM5dnFhSmNrRjRlTlVZbWI5RzBrdW1LQmZiVGNhNzkxeDBEb01oRUotdlA2dkdGR3Q3bWQ5bERQcHFKVDZrVlpRVUNGbXY0ZA?oc=5",
+        "published_at": "2026-06-14T07:12:05Z"
+      },
+      {
+        "headline": "Trump says Israeli strike on Lebanon should not have happened, but Iran deal close - Reuters",
+        "summary": "Trump says Israeli strike on Lebanon should not have happened, but Iran deal close\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXA2RmM1Y0lOSlBJSHJpd285cFViUGlLNFRUa0FTZWxBbC1DdUdVM1hSbUY5Z1A4R3poZEI3QjNGbFFzSlZpalRkbnVGWVFMNzYzQXlJbXhMTjdaRjFLQlk0b3FXZVIzcVVDbm9YVmd4RmtRTWVGcndQN1VJaEZRUEppeGlUZWJGaUx6WEI1OUtoeDRpbGdNbF8xRVFRTlY3Tk9Fcg?oc=5",
+        "published_at": "2026-06-14T01:53:00Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 12,
+    "signals_null": 5,
+    "bullish_count": 3,
+    "bearish_count": 2,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": null,
+      "coinbase_premium_lean": null,
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 5,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "macro.coinbase_premium_pct",
+    "tech_equities.tech_sector_lean",
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "1.0.0"
+    ],
+    "days_with_fetch_errors": 0
+  }
+}
