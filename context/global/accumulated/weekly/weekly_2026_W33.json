@@ -1,0 +1,341 @@
+{
+  "period_metadata": {
+    "type": "weekly",
+    "scope": "global",
+    "period_id": "2026-W33",
+    "iso_year": 2026,
+    "iso_week": 33,
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-16",
+    "token": "global",
+    "days_included": 7,
+    "days_possible": 7,
+    "source": "accumulated",
+    "script_version": "1.0.0",
+    "schema_version": "1.1.0",
+    "generated_at": "2026-10-12T07:42:47 UTC",
+    "data_quality": "complete"
+  },
+  "market_structure": {
+    "total_market_cap_usd_start": 2275391588963.9,
+    "total_market_cap_usd_end": 2251913812663.7,
+    "total_market_cap_change_pct": -1.0318,
+    "btc_dominance_pct_start": 56.5045,
+    "btc_dominance_pct_end": 56.1512,
+    "eth_dominance_pct_start": 9.9545,
+    "eth_dominance_pct_end": 10.0765,
+    "total2_usd_start": 989693704730.72,
+    "total2_usd_end": 987438189475.2,
+    "total3_usd_start": 763189964134.71,
+    "total3_usd_end": 760523724209.22,
+    "total_volume_24h_usd_avg": 44403141015.4371,
+    "altcoin_season_index_avg": 63.8571,
+    "altcoin_season_index_close": 69,
+    "altcoin_season_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "btc": {
+    "price_open": 64073,
+    "price_close": 63008,
+    "price_high": 64073,
+    "price_low": 62858,
+    "period_return_pct": -1.6622,
+    "oi_usd_start": 6834502690.9,
+    "oi_usd_end": 7005987048.19,
+    "oi_change_pct": 2.5091,
+    "funding_rate_avg": 5.532e-05,
+    "long_short_ratio_avg": 1.9172,
+    "direction_modal": "neutral",
+    "funding_lean_modal": "neutral",
+    "btc_ls_lean_modal": "bearish",
+    "days_included": 7
+  },
+  "eth": {
+    "price_open": 1875.65,
+    "price_close": 1880.84,
+    "period_return_pct": 0.2767,
+    "eth_btc_ratio_start": 0.029274,
+    "eth_btc_ratio_end": 0.029851,
+    "eth_btc_lean_modal": "neutral",
+    "days_included": 7
+  },
+  "defi": {
+    "total_defi_tvl_usd_start": 75317872323.58,
+    "total_defi_tvl_usd_end": 75154407408.41,
+    "tvl_change_pct": -0.217,
+    "stablecoin_market_cap_usd_start": 306057436826.1,
+    "stablecoin_market_cap_usd_end": 307356417023.81,
+    "stablecoin_dominance_pct_start": 13.4508,
+    "stablecoin_dominance_pct_end": 13.6487,
+    "days_included": 7
+  },
+  "macro": {
+    "dxy_start": 119.0649,
+    "dxy_end": 119.0649,
+    "dxy_lean_modal": "bullish",
+    "broad_dollar_index_start": null,
+    "broad_dollar_index_end": null,
+    "broad_dollar_index_lean_modal": null,
+    "spy_close_start": 770.59,
+    "spy_close_end": 776.34,
+    "spy_return_pct": 0.7462,
+    "spy_lean_modal": "neutral",
+    "vix_close_avg": 14.8686,
+    "vix_close_end": 14.63,
+    "vix_lean_modal": "neutral",
+    "coinbase_premium_pct_avg": -0.0198,
+    "coinbase_premium_lean_modal": "neutral"
+  },
+  "tech_equities": {
+    "tech_sector_lean_modal": "bullish",
+    "days_with_data": 7
+  },
+  "etf_flows": {
+    "net_inflow_sum_usd": null,
+    "unique_data_dates": 0,
+    "cum_net_inflow_usd_close": null,
+    "total_net_assets_usd_close": null,
+    "flow_lean_modal": null,
+    "days_with_data": 0,
+    "daily_flows": []
+  },
+  "sentiment": {
+    "fear_greed_avg": 36.8571,
+    "fear_greed_min": 36,
+    "fear_greed_max": 38,
+    "fear_greed_close": 37,
+    "fear_greed_label_close": "Fear",
+    "fear_greed_lean_modal": "neutral"
+  },
+  "news": {
+    "article_count_sum": 298,
+    "positive_count_sum": 36,
+    "negative_count_sum": 53,
+    "neutral_count_sum": 209,
+    "sentiment_ratio_avg": 0.1512,
+    "news_spike_days": 5,
+    "news_volume_lean_modal": "bearish",
+    "top_headlines": [
+      {
+        "title": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
+        "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934",
+        "published_at": "2026-08-16T17:18:38+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn\u2019t Dumb Anymore",
+        "url": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
+        "published_at": "2026-08-16T16:00:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers exploited macOS Screen Sharing flaw to install Monero miners, Dutch cyber agency says",
+        "url": "https://www.theblock.co/news/defi/2026-08-16-hackers-exploited-macos-screen-sharing-flaw-to-install-monero-miners-dutch-cyber-agency-says-411932",
+        "published_at": "2026-08-16T15:07:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
+        "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
+        "published_at": "2026-08-16T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
+        "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-16T12:48:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum devs to narrow 66 proposals tied to Hegot\u00e1 upgrade",
+        "url": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-08-16T11:12:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan cut Polymarket\u2019s banking ties in October but still wants a role in a potential IPO: FT",
+        "url": "https://www.theblock.co/news/business/2026-08-15-jpmorgan-cut-polymarkets-banking-ties-in-october-but-still-wants-a-role-in-a-potential-ipo-ft-411929",
+        "published_at": "2026-08-15T21:51:41+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ],
+    "macro_article_count_sum": 190,
+    "macro_headlines": [
+      {
+        "headline": "Top U.S. commander acknowledges mental health issues on USS Lincoln",
+        "summary": "Cooper's visit and statement come after reports of widespread morale and mental health concerns aboard the Lincoln.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/16/top-us-commander-acknowledges-mental-health-issues-on-uss-lincoln.html",
+        "published_at": "2026-08-16T19:58:32Z"
+      },
+      {
+        "headline": "Trump's envoys meet mediators, Israel strikes Gaza - Reuters",
+        "summary": "Trump's envoys meet mediators, Israel strikes Gaza\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
+        "published_at": "2026-08-16T19:56:03Z"
+      },
+      {
+        "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
+        "summary": "Iranian parliament advances bill to curb foreign influence\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
+        "published_at": "2026-08-16T16:43:44Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+        "summary": "The housing industry and consumer spending take center stage across earnings reports and economic releases.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/16/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-08-16T16:04:13Z"
+      },
+      {
+        "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
+        "summary": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+        "published_at": "2026-08-16T13:17:44Z"
+      },
+      {
+        "headline": "Pope calls for an end to West Bank violence against Palestinians - Reuters",
+        "summary": "Pope calls for an end to West Bank violence against Palestinians\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGQ4SWdqSHFLZE1qOUNXWDhnLVlQa09TeGtURVpuZC1BWjFPNE1CalBpTU5NM3c2Uy1qSi1mSnlmRjB6UTlab1hMd19Zd2tubTFLNUZoSWZqUWdyN2V3UFZXWlY3c3d6RGlNbGduMjRWMlZ5cDcyU3U4R3VfXzVUZlZ3T3A0TnBHdnZmWHQ2VmxLdmdSVFBBQVdrckZULUFJNEEyc0Q2cko1WmprZVdNeA?oc=5",
+        "published_at": "2026-08-16T12:23:43Z"
+      },
+      {
+        "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
+        "summary": "Trump wants more economic pressure on Iran. What are his options?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+        "published_at": "2026-08-16T11:34:57Z"
+      },
+      {
+        "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
+        "summary": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
+        "published_at": "2026-08-16T11:27:57Z"
+      },
+      {
+        "headline": "Ukrainian drones strike Moscow region, killing one - Reuters",
+        "summary": "Ukrainian drones strike Moscow region, killing one\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYUVQMGdnUEljNGo4eDhSbHFoSUtDZ2FVLU5hTHNmZXUwMFVDTTdneTR3S2owc1pSZjBtcHNtVkZKU25oLXlNbWxENHVhM2F1ZUtnUVVicEMzai1MMVgyZk5JLVJPRjRDUklLc21zcjJycVM5endpS2plUjRHS3FhMmFIa29MUlRjRzRpNDlTdnRLS0JuTUE?oc=5",
+        "published_at": "2026-08-16T11:21:14Z"
+      },
+      {
+        "headline": "Iran executes man convicted of running over police during January protests - Reuters",
+        "summary": "Iran executes man convicted of running over police during January protests\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
+        "published_at": "2026-08-16T10:50:26Z"
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 2,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_modal": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    },
+    "signal_streaks": {
+      "current_streak_lean": "neutral",
+      "current_streak_length": 7,
+      "longest_bullish_streak_in_period": 0,
+      "longest_bearish_streak_in_period": 0
+    }
+  },
+  "data_gaps": [
+    "etf_flows.total_net_inflow_usd"
+  ],
+  "not_aggregated": {
+    "liquidation_map": "all cluster fields null in every source report; intraday data, not aggregated"
+  },
+  "accumulation_metadata": {
+    "source": "accumulated",
+    "constituent_periods": 7,
+    "constituent_periods_available": 7,
+    "constituent_periods_missing": 0,
+    "data_quality": "complete",
+    "schema_versions_input": [
+      "2.0.0"
+    ],
+    "days_with_fetch_errors": 7
+  }
+}
