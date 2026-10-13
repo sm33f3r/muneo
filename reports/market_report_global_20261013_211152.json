@@ -1,0 +1,442 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-13T21:10:48 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2821834351610.03,
+    "total_market_cap_change_24h_pct": -2.7538,
+    "total_volume_24h_usd": 94669672023.14,
+    "btc_dominance_pct": 59.2538,
+    "eth_dominance_pct": 10.8374,
+    "total2_usd": 1149790867545.21,
+    "total3_usd": 843977058389.19,
+    "active_cryptocurrencies": 22229,
+    "altcoin_season_index": 43,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 36.5971,
+        "price_usd": 0.04158513,
+        "market_cap_usd": 195742396
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": 24.8418,
+        "price_usd": 0.192704,
+        "market_cap_usd": 287958852
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "price_change_24h_pct": 16.7679,
+        "price_usd": 0.157377,
+        "market_cap_usd": 361971963
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": 15.297,
+        "price_usd": 1.85,
+        "market_cap_usd": 641271426
+      },
+      {
+        "symbol": "ZK",
+        "name": "ZKsync",
+        "price_change_24h_pct": 10.3836,
+        "price_usd": 0.0165284,
+        "market_cap_usd": 178799879
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "\u5e01\u5b89\u4eba\u751f",
+        "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+        "price_change_24h_pct": -10.3661,
+        "price_usd": 0.519129,
+        "market_cap_usd": 519128906
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -10.3576,
+        "price_usd": 0.838727,
+        "market_cap_usd": 1917253630
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -8.513,
+        "price_usd": 0.084977,
+        "market_cap_usd": 630666741
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -8.379,
+        "price_usd": 0.00554214,
+        "market_cap_usd": 326947816
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -7.9403,
+        "price_usd": 0.717693,
+        "market_cap_usd": 502105121
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 83340,
+    "price_change_24h_pct": 0.6049,
+    "price_change_7d_pct": -2.6325,
+    "market_cap_usd": 1674961611142,
+    "volume_24h_usd": 32988553853,
+    "direction": "neutral",
+    "oi_usd": 7795450086.12,
+    "funding_rate_latest": 3.455e-05,
+    "funding_rate_7d_avg": 1.5254285714285715e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.2763,
+    "long_account_pct": 56.07,
+    "short_account_pct": 43.93,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2508.45,
+    "price_change_24h_pct": -0.0566,
+    "price_change_7d_pct": -6.7733,
+    "market_cap_usd": 306375110559,
+    "volume_24h_usd": 14526389338,
+    "eth_btc_ratio": 0.030099,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 91491205521.87,
+    "stablecoin_market_cap_usd": 312842230683.83,
+    "stablecoin_dominance_pct": 11.0865
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 41,
+    "headlines": [
+      {
+        "headline": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
+        "summary": "Ex-FEMA CFO Mary Comans' name was cleared by a federal judge after Elon Musk and other government officials falsely accused her of criminal actions in 2025.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/13/judge-says-elon-musk-engaged-intimidation-of-ex-fema-cfo-mary-comans.html",
+        "published_at": "2026-10-13T20:28:50Z"
+      },
+      {
+        "headline": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say - Reuters",
+        "summary": "Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWWJ1bWRqeFpzOUpDR0ZNRTB3cnlsY0gyMGxVcnY2U3VZX0Q1bnc4eFlZZldDem9uQ3dNUzBORU1rak0wWVpIcURXNEJJQ1ZMbXRpZUF1QTJZbU9Vd2gxN3A1YW5QWko0M1JnUXRlM1Y4T0JLdENPWUJUcjZsMHJDeGlDTGtpZ3R2cVowc01oOC1GRVVOUktNZTZCRWQtRUhOMDFyVURaNDZOOS10TURrcEpvQWdGYnR1WjJkRFdB?oc=5",
+        "published_at": "2026-10-13T19:14:06Z"
+      },
+      {
+        "headline": "Meta shares rise for a second straight day as new AI model family impresses",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+        "published_at": "2026-10-13T18:55:33Z"
+      },
+      {
+        "headline": "Saudi Arabia strikes Yemen capital as Houthis vow to retaliate - Reuters",
+        "summary": "Saudi Arabia strikes Yemen capital as Houthis vow to retaliate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
+        "published_at": "2026-10-13T18:50:00Z"
+      },
+      {
+        "headline": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+        "summary": "Deadly attacks at Riyadh\u2019s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+        "published_at": "2026-10-13T18:33:42Z"
+      },
+      {
+        "headline": "Iran and Russia are stepping up hybrid campaigns in Britain, UK spy chief says - Reuters",
+        "summary": "Iran and Russia are stepping up hybrid campaigns in Britain, UK spy chief says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOel94VDNzeEx1LXhzdm9vX0xSSUhyQUswNTAwUWhsVklGcEtQRm1KYlpUWXhKOUo5cE1tdTJXQV85eVZic05iV3gyVXNIZTJwV2xCRmo0QkFtMDFXMWNWR3lhaS05dHN2UVNtREJodXZLMllfOTBYdUpHelFKS1JQbUVxUFU4NzhTTUswVVlvX21QcXByY0F4akJ1ZGNtSDZ0aExrZHBYVlR4aGlCYTJz?oc=5",
+        "published_at": "2026-10-13T18:14:42Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Saudi Arabia plans hybrid format for marquee FII conference after attacks, sources say - Reuters",
+        "summary": "EXCLUSIVE: Saudi Arabia plans hybrid format for marquee FII conference after attacks, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUnMtSVRHNldwaFdHWWx4NlBQbHZLYjZvUVdHMWExSHFfVzNXLU9wQi1wblgwOE9jZlFaUjlzbDlxb2tFV085eUYwM2dyVkpkVHBVTjIzM2wtRlhUcjBmQ1I0YVNnUU53MEJTOGlWOE5SZ2xkdWRrVmlIZHNacjlfZWRJak51OWQ0OXFLWGlnWVpnd1haY3FRRXhfcGMtR3dlTVJTQ1FuOGxUaHZFY2NkcHVBMzFlcUV1WG5CTTVmM0F3dTlqam1qT2VvWQ?oc=5",
+        "published_at": "2026-10-13T17:47:25Z"
+      },
+      {
+        "headline": "Citi profit tops estimates on higher investment banking, services and wealth revenue - Reuters",
+        "summary": "Citi profit tops estimates on higher investment banking, services and wealth revenue\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaEV6WWM3S2pfSzdheVNtbFZLdnBvTk1jQWl3Z0xGQ1R6RHByTUxVVl91U01wYTFUMWVQNGl5WmZzenJIRHhJMVczUWxGOGREVF9zV2wtX2w1a0tIM3RMZ2M1T3VBRFd1YmpPLUtqM2lmc3YzTVhKdW1QeGt0WkVLTjk4UXJMMlhQSVVnd1NnQm5PRklkZngwemJfRTdxa0JFU2syRkJfZ3hnbXoxcVlXcmhIeWg3ZjltTU41eUZCSkYxU3gxSjZF?oc=5",
+        "published_at": "2026-10-13T17:05:10Z"
+      },
+      {
+        "headline": "US blockade keeps Iranian crude exports at zero in October, report says - Reuters",
+        "summary": "US blockade keeps Iranian crude exports at zero in October, report says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmFzZDZiY3ExNTlsMjFjTDcxaHlMTHhtcWlyQzhoNzZGZk52bDVFUGQyZnlPTy1vVmNWdVRucFdqU0JBVi1JclRCaGFNVy1JMjFxQzhvcy11TllRWTdpV20zWDM3d1lXNTRTNWl4N2w1ZEJNZ2d2U3pBSkVKeklCNlRITmN1eG5CejQzdU56N3oyeXVidVd0TEVIQklXVWtNZlJ4Y3hCOTVrR1ZiQnNCaUc2cjlLcEE?oc=5",
+        "published_at": "2026-10-13T16:53:43Z"
+      },
+      {
+        "headline": "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
+        "summary": "In Yemen's Taiz, shelling worsens and prices spiral\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2FlSHhCeHdBNFJVdTB4TndzdEgweWtZcktCbmVrOTRpOGNzRXVlLUplRUFqX0QzU1dCcjJQX3hHdVVFeHdHOWVjM0o1VG5FcXdwSGE2Y0pFRmpBb19lbml2T3FqY0x4VEs0NThJdFJRZVAteGlvRjhkRE1JUm0xdEZZaTE0akRfbjhQb1d4RHluWHRHeVdyZWg4MnY?oc=5",
+        "published_at": "2026-10-13T16:40:16Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.5906,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 778.05,
+    "spy_change_pct": -0.0064,
+    "spy_lean": "neutral",
+    "vix_close": 15.21,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 83345.17,
+    "coinbase_premium_pct": 0.006204,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-13T21:10:48 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 228.52,
+        "change_pct": 0.9721,
+        "prev_close": 226.32
+      },
+      "AMD": {
+        "close": 605.53,
+        "change_pct": 1.8999,
+        "prev_close": 594.24
+      },
+      "TSM": {
+        "close": 445.12,
+        "change_pct": 0.1733,
+        "prev_close": 444.35
+      },
+      "SMCI": {
+        "close": 39.07,
+        "change_pct": -2.2761,
+        "prev_close": 39.98
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 743.57,
+        "change_pct": -0.3311,
+        "prev_close": 746.04
+      },
+      "SOXX": {
+        "close": 543.9,
+        "change_pct": -0.1744,
+        "prev_close": 544.85
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": null,
+    "total_net_inflow_usd": null,
+    "total_net_assets_usd": null,
+    "total_value_traded_usd": null,
+    "cum_net_inflow_usd": null,
+    "flow_lean": null,
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 83340,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 55,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 47,
+    "positive_count": 6,
+    "negative_count": 7,
+    "neutral_count": 34,
+    "sentiment_ratio": 0.1277,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Binance Is Shutting Down Its Bitcoin Mining Pool After Six Years",
+        "url": "https://decrypt.co/380870/binance-shutting-down-bitcoin-mining-pool",
+        "published_at": "2026-10-13T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+        "url": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-13T19:48:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Whale That Sat Through Every Crash Since 2020 Just Moved $377M",
+        "url": "https://decrypt.co/380867/bitcoin-whale-every-crash-2020-moves-377m",
+        "published_at": "2026-10-13T19:38:12+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-13T19:33:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trezor reduces resellers as a \u2018preventative step\u2019 amid Ledger tampering reports",
+        "url": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-13T19:07:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strive Buys $280 Million in Bitcoin, Its Largest Purchase in Months",
+        "url": "https://decrypt.co/380858/strive-buys-280-million-bitcoin-largest-purchase-months",
+        "published_at": "2026-10-13T18:15:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Researchers Are Smoking Cigarettes to Prove AI Will Cure Cancer, Says Palantir Exec",
+        "url": "https://decrypt.co/380857/ai-researchers-smoking-cigarettes-prove-ai-cure-cancer",
+        "published_at": "2026-10-13T17:37:46+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How the SEC\u2019s lack of leadership could facilitate crypto rulemaking",
+        "url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-13T16:51:25+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Shakes Off Spooky Season Jitters: Can Bulls Keep It Going?",
+        "url": "https://decrypt.co/380842/bitcoin-shakes-off-spooky-season-jitters",
+        "published_at": "2026-10-13T16:46:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trezor Cuts Its Resellers After Ledger Finds Spy Implant in Crypto Wallets",
+        "url": "https://decrypt.co/380848/trezor-cuts-resellers-ledger-finds-spy-implant-crypto-wallets",
+        "published_at": "2026-10-13T16:14:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 15,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": null,
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "SoSoValue BTC ETF daily flows \u2014 HTTP 403"
+  ]
+}
