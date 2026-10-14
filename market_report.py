@@ -33,9 +33,10 @@ import requests
 from dateutil import parser as dateutil_parser
 from dotenv import load_dotenv
 from rss_utils import fetch_rss_feeds, score_sentiment, CRYPTO_RSS_FEEDS
+from liquidation_heatmap import build_liquidation_heatmap, push_heatmap_image_to_github
 
-SCRIPT_VERSION = "3.0.0"
-SCHEMA_VERSION = "3.0.0"
+SCRIPT_VERSION = "3.1.0"
+SCHEMA_VERSION = "3.1.0"
 API_TIMEOUT = 10  # seconds
 
 CMC_BASE  = "https://pro-api.coinmarketcap.com"
@@ -1439,6 +1440,17 @@ def build_report(
         fetch_errors.append("fetch_12:binance_futures_funding: skipped — binance_futures_symbol not in config")
     time.sleep(1)
 
+    # Modelled liquidation heatmap (estimated from open interest + assumed leverage mix)
+    liquidation_heatmap = None
+    if config.binance_futures_symbol:
+        fsym = config.binance_futures_symbol
+        liquidation_heatmap = safe_fetch(
+            f"Binance {fsym} liquidation heatmap",
+            lambda: build_liquidation_heatmap(fsym),
+            fetch_errors,
+        )
+        push_heatmap_image_to_github(liquidation_heatmap)
+
     # ------------------------------------------------------------------
     # [15/18] Binance Futures — BTC long/short ratio
     # ------------------------------------------------------------------
@@ -1720,6 +1732,7 @@ def build_report(
             "btc_long_account_pct":  round(btc_long_pct, 4)   if btc_long_pct   is not None else None,
             "btc_short_account_pct": round(btc_short_pct, 4)  if btc_short_pct  is not None else None,
             "btc_ls_lean":           btc_ls_lean_val,
+            "liquidation_heatmap":   liquidation_heatmap,
         },
         "on_chain": {
             "tvl_usd":               round(tvl_usd, 2)               if tvl_usd               is not None else None,
