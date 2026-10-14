@@ -1,0 +1,444 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-14T21:13:09 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2761393397788.93,
+    "total_market_cap_change_24h_pct": -4.8495,
+    "total_volume_24h_usd": 81117009719205.98,
+    "btc_dominance_pct": 59.3587,
+    "eth_dominance_pct": 10.6513,
+    "total2_usd": 1122266840595.58,
+    "total3_usd": 828143524290.61,
+    "active_cryptocurrencies": 22258,
+    "altcoin_season_index": 46,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "UMXM",
+        "name": "Manadia",
+        "price_change_24h_pct": 1033.1639,
+        "price_usd": 0.660448,
+        "market_cap_usd": 202165021
+      },
+      {
+        "symbol": "WAL",
+        "name": "Walrus",
+        "price_change_24h_pct": 58.0202,
+        "price_usd": 0.060321,
+        "market_cap_usd": 158048627
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 22.7621,
+        "price_usd": 0.051081,
+        "market_cap_usd": 240444473
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 15.1626,
+        "price_usd": 2.26,
+        "market_cap_usd": 3392487925
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "price_change_24h_pct": 12.2572,
+        "price_usd": 0.123545,
+        "market_cap_usd": 122061221
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -13.7866,
+        "price_usd": 0.619546,
+        "market_cap_usd": 433361087
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -13.186,
+        "price_usd": 0.06758,
+        "market_cap_usd": 171413964
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": -12.2348,
+        "price_usd": 0.211827,
+        "market_cap_usd": 247286419
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "price_change_24h_pct": -12.0829,
+        "price_usd": 0.138868,
+        "market_cap_usd": 319352610
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": -11.9533,
+        "price_usd": 0.169045,
+        "market_cap_usd": 252765927
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81630,
+    "price_change_24h_pct": -2.0856,
+    "price_change_7d_pct": -2.0635,
+    "market_cap_usd": 1640622575628,
+    "volume_24h_usd": 33256053479,
+    "direction": "bearish",
+    "oi_usd": null,
+    "funding_rate_latest": null,
+    "funding_rate_7d_avg": null,
+    "funding_lean": null,
+    "long_short_ratio": null,
+    "long_account_pct": null,
+    "short_account_pct": null,
+    "btc_ls_lean": null
+  },
+  "eth": {
+    "price_usd": 2408.93,
+    "price_change_24h_pct": -4.0141,
+    "price_change_7d_pct": -6.0657,
+    "market_cap_usd": 294212043052,
+    "volume_24h_usd": 13310012423,
+    "eth_btc_ratio": 0.02951,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89859188368.36,
+    "stablecoin_market_cap_usd": 306969629131.91,
+    "stablecoin_dominance_pct": 11.1165
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Ohio's working-class voters rethink support for Trump and the Republican Party - Reuters",
+        "summary": "Ohio's working-class voters rethink support for Trump and the Republican Party\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWno4ZFd2QmdMeXRMUWg2dk1IVGg1VmJ5U19nZVVaZFBueWhMT05PWFZLNnYxZktyVXB4cTlJeGxXdDBROURCazNsN2ZtcnNVcU5MbElLWUhrUklEVjJJcE4zaGFiRXhnVEV6N1ZhRUZlVGpld2pRWm8zNVlJdTJ5UmFYbkl5VXlyeGpOR1RDYXk2SnhiS05RYzJHbUlnaWxxVmU0SDdiR0NaMTFRaTZz?oc=5",
+        "published_at": "2026-10-14T19:28:37Z"
+      },
+      {
+        "headline": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
+        "published_at": "2026-10-14T18:41:11Z"
+      },
+      {
+        "headline": "US inflation heats up in September; Fed rate hike this month back on table - Reuters",
+        "summary": "US inflation heats up in September; Fed rate hike this month back on table\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+        "published_at": "2026-10-14T17:25:53Z"
+      },
+      {
+        "headline": "Merck CEO tells CNBC he expects breakthrough cancer vaccine will become faster to make",
+        "summary": "His comments come after Merck officially opened its new 120,000-square-foot research facility in the Greater Philadelphia area.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/14/merck-moderna-cancer-vaccine-manufacturing-time.html",
+        "published_at": "2026-10-14T17:24:20Z"
+      },
+      {
+        "headline": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters",
+        "summary": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5",
+        "published_at": "2026-10-14T17:22:06Z"
+      },
+      {
+        "headline": "'The power of shrink' \u2014 tour the little-known $25B company that chipmakers can't live without",
+        "summary": "Here's a deep dive into Qnity and how its products help build the AI semiconductors that power the world.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/14/the-power-of-shrink-tour-the-little-known-25b-company-that-chipmakers-cant-live-without.html",
+        "published_at": "2026-10-14T17:04:50Z"
+      },
+      {
+        "headline": "Jim Cramer says this healthcare stock is still a buy. Plus, what to do with BNY",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramer-says-this-healthcare-stock-is-still-a-buy-plus-what-to-do-with-bny.html",
+        "published_at": "2026-10-14T15:51:40Z"
+      },
+      {
+        "headline": "Abilene Christian University is giving Ivy League endowments a run for their money in the market",
+        "summary": "The religious school in Texas is among college endowment funds rivaling market performance of Ivy investing giants like Yale and just hit the $1 billion mark.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/14/abilene-christian-giving-ivy-endowment-billions-a-run-for-their-money.html",
+        "published_at": "2026-10-14T15:48:34Z"
+      },
+      {
+        "headline": "We're exiting our remaining stake in an industrial stock spin-off gone wrong",
+        "summary": "We're selling the rest of this tiny position to replenish cash following a series of purchases over the past few days.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/14/were-exiting-our-remaining-stake-in-an-industrial-stock-spin-off-gone-wrong.html",
+        "published_at": "2026-10-14T15:40:04Z"
+      },
+      {
+        "headline": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit - Reuters",
+        "summary": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
+        "published_at": "2026-10-14T15:09:46Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.1948,
+    "dxy_lean": "bullish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.67,
+    "spy_change_pct": -1.072,
+    "spy_lean": "bearish",
+    "vix_close": 15.27,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 81665.38,
+    "coinbase_premium_pct": 0.043342,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-14T21:13:09 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 221.3,
+        "change_pct": -3.1595,
+        "prev_close": 228.52
+      },
+      "AMD": {
+        "close": 570.82,
+        "change_pct": -5.7322,
+        "prev_close": 605.53
+      },
+      "TSM": {
+        "close": 430.0,
+        "change_pct": -3.3968,
+        "prev_close": 445.12
+      },
+      "SMCI": {
+        "close": 35.78,
+        "change_pct": -8.4208,
+        "prev_close": 39.07
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 728.95,
+        "change_pct": -1.9662,
+        "prev_close": 743.57
+      },
+      "SOXX": {
+        "close": 519.42,
+        "change_pct": -4.5008,
+        "prev_close": 543.9
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-13",
+    "total_net_inflow_usd": 175617407.25,
+    "total_net_assets_usd": 106984812515.42,
+    "total_value_traded_usd": 1654759742.19,
+    "cum_net_inflow_usd": 57216931073.12,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81630,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 50,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 60,
+    "positive_count": 6,
+    "negative_count": 15,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.1,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Surging dollar forces Bitcoin sell-off as rate hike odds double",
+        "url": "https://cryptoslate.com/surging-dollar-forces-bitcoin-sell-off-as-rate-hike-odds-double/",
+        "published_at": "2026-10-14T21:10:50+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Organizations join forces to fight Illinois crypto tax, after 6-month pause",
+        "url": "https://cointelegraph.com/news/cci-ba-fight-illinois-crypto-tax-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-14T20:56:22+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Patrick Witt exits White House crypto role as Clarity Act stalls",
+        "url": "https://www.theblock.co/news/regulation/2026-10-14-white-house-crypto-adviser-patrick-witt-departs-418611",
+        "published_at": "2026-10-14T20:30:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Made 138 Million Crypto Payments in a Year. Most Were Tiny",
+        "url": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
+        "published_at": "2026-10-14T20:16:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kraken moves to acquire $181 million European bank in major push beyond crypto trading",
+        "url": "https://cryptoslate.com/kraken-moves-to-acquire-181-million-european-bank-in-major-push-beyond-crypto-trading/",
+        "published_at": "2026-10-14T19:50:24+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Russia's Biggest Bank Sberbank Wins Approval to Trade Bitcoin",
+        "url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin",
+        "published_at": "2026-10-14T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Sets a Date for Its Next Major Upgrade",
+        "url": "https://decrypt.co/380974/solana-alpenglow-upgrade-date",
+        "published_at": "2026-10-14T19:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-14T19:13:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "EU authority classifies Circle\u2019s USDC as \u2018significant\u2019 under MiCA",
+        "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-14T19:03:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple targets trillion-dollar securities markets with new US brokerage and South Korean deals",
+        "url": "https://cryptoslate.com/ripple-targets-trillion-dollar-securities-markets-with-new-us-brokerage-and-south-korean-deals/",
+        "published_at": "2026-10-14T18:40:19+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": null,
+      "btc_ls_lean": null,
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Binance Futures BTC open interest \u2014 HTTP 451",
+    "Binance Futures BTC funding rate \u2014 HTTP 451",
+    "Binance Futures BTC long/short ratio \u2014 HTTP 451",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 451"
+  ]
+}
