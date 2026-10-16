@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-16T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2753291219210.85,
+    "total_market_cap_change_24h_pct": -3.5733,
+    "total_volume_24h_usd": 127427889081005.2,
+    "btc_dominance_pct": 59.4304,
+    "eth_dominance_pct": 10.6727,
+    "total2_usd": 1117000357303.1,
+    "total3_usd": 823148490192.8,
+    "active_cryptocurrencies": 22314,
+    "altcoin_season_index": 53,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 15.256,
+        "price_usd": 0.416158,
+        "market_cap_usd": 123460253
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": 13.9047,
+        "price_usd": 0.656754,
+        "market_cap_usd": 644749749
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 8.2839,
+        "price_usd": 0.055986,
+        "market_cap_usd": 263519803
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 5.9607,
+        "price_usd": 0.00697426,
+        "market_cap_usd": 412232223
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 5.8719,
+        "price_usd": 0.00295678,
+        "market_cap_usd": 151683328
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -17.1055,
+        "price_usd": 0.073135,
+        "market_cap_usd": 555193625
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "price_change_24h_pct": -11.6627,
+        "price_usd": 1.71,
+        "market_cap_usd": 593735371
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -11.282,
+        "price_usd": 0.300426,
+        "market_cap_usd": 271165332
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -9.4748,
+        "price_usd": 0.380901,
+        "market_cap_usd": 380767897
+      },
+      {
+        "symbol": "PYTH",
+        "name": "Pyth Network",
+        "price_change_24h_pct": -9.2284,
+        "price_usd": 0.085701,
+        "market_cap_usd": 674891494
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81561,
+    "price_change_24h_pct": -0.6018,
+    "price_change_7d_pct": -0.769,
+    "market_cap_usd": 1639284409945,
+    "volume_24h_usd": 29042903412,
+    "direction": "neutral",
+    "oi_usd": 7719365476.42,
+    "funding_rate_latest": 4.313e-05,
+    "funding_rate_7d_avg": 2.1608571428571426e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.7367,
+    "long_account_pct": 63.46,
+    "short_account_pct": 36.54,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2412.03,
+    "price_change_24h_pct": -1.6543,
+    "price_change_7d_pct": -2.519,
+    "market_cap_usd": 294624563813,
+    "volume_24h_usd": 12643396605,
+    "eth_btc_ratio": 0.029573,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89258503355.8,
+    "stablecoin_market_cap_usd": 306021503789.47,
+    "stablecoin_dominance_pct": 11.1148
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 36,
+    "headlines": [
+      {
+        "headline": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
+        "summary": "CoreWeave\u2019s bond yields and credit default swaps have surged as its stock sells off. Here\u2019s what those credit signals mean for stock investors.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
+        "published_at": "2026-10-16T20:33:55Z"
+      },
+      {
+        "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
+        "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+        "published_at": "2026-10-16T20:25:25Z"
+      },
+      {
+        "headline": "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
+        "summary": "Israeli settlers attack Palestinians during West Bank olive harvest\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczd6aXNWNkdjZTNxV0V1MXhjQm5YTUtZT2JEUXY4dm81UFNlMVprd01ZdDI0VDI2ZEducHJha09yTkRIaWZMLVpmanQ0dVRBWm56cVBxLWFCOEZkekdCU0ZISkhWeEFxTWRDaGtmR3NPRjc1MVkyQnVhdjZRSzZxWm9OODE2RmxSY19CclZ1WThuWTZrOG15SUtmSlZJd0tfZkwtcmVsQlltc0VNZnMtMWdB?oc=5",
+        "published_at": "2026-10-16T20:13:32Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
+        "summary": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
+        "published_at": "2026-10-16T19:37:19Z"
+      },
+      {
+        "headline": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+        "summary": "The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
+        "published_at": "2026-10-16T19:28:10Z"
+      },
+      {
+        "headline": "In Yemen's besieged Taiz, families take shelter as Houthis close in - Reuters",
+        "summary": "In Yemen's besieged Taiz, families take shelter as Houthis close in\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHpQQlcxQ3FCakZ6YUIzOU83eUZHcFluRjU0TDRTb0RRdU9JM0xPQUZRSDUyUm9ZcjlpWFRvR1l3bmlxemxqV0ZsTmxEVk14RV9GTkxNc1pCNUUwcmRKdFJmU2dmbHBHaEQ5WHVDRGVDVXBnb2xQYnF1eUMybVJ2U2FLcGM1MXc0MHlyTW51RnNJSVJZbzA1U05nLUJLcS0tcFVoRVN0OXpOTlR2RTJr?oc=5",
+        "published_at": "2026-10-16T18:51:44Z"
+      },
+      {
+        "headline": "We're downgrading this retail stock after a big comeback. Plus, AI names slide again",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/16/were-downgrading-this-retail-stock-after-a-big-comeback-plus-ai-names-slide-again.html",
+        "published_at": "2026-10-16T18:46:19Z"
+      },
+      {
+        "headline": "NBA tightens betting rules, develops AI to flag suspicious wagers",
+        "summary": "The NBA is tightening restrictions on bets and deploying AI to help identify suspicious wagering, according to two documents obtained by CNBC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/nba-tightens-betting-rules-develops-ai-to-flag-suspicious-wagers.html",
+        "published_at": "2026-10-16T17:50:50Z"
+      },
+      {
+        "headline": "Here's who Netflix just brought in to run content \u2014 and what it means for the streamer",
+        "summary": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+        "published_at": "2026-10-16T17:02:50Z"
+      },
+      {
+        "headline": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+        "summary": "Wealthy investors are flocking to tax-aware long short strategies, adding billions into these super-powered versions of tax-loss harvesting accounts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
+        "published_at": "2026-10-16T16:21:14Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9933,
+    "dxy_lean": "bullish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 763.23,
+    "spy_change_pct": -1.1091,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81585.29,
+    "coinbase_premium_pct": 0.029781,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-16T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.13,
+        "change_pct": -1.4271,
+        "prev_close": 217.23
+      },
+      "AMD": {
+        "close": 528.75,
+        "change_pct": -5.9549,
+        "prev_close": 562.23
+      },
+      "TSM": {
+        "close": 412.61,
+        "change_pct": -2.283,
+        "prev_close": 422.25
+      },
+      "SMCI": {
+        "close": 31.63,
+        "change_pct": -9.8604,
+        "prev_close": 35.09
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.8,
+        "change_pct": -2.5,
+        "prev_close": 728.0
+      },
+      "SOXX": {
+        "close": 493.39,
+        "change_pct": -4.1421,
+        "prev_close": 514.71
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-15",
+    "total_net_inflow_usd": 5055093.05,
+    "total_net_assets_usd": 105705899186.36,
+    "total_value_traded_usd": 2278060016.5,
+    "cum_net_inflow_usd": 56960523949.72,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81561,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 44,
+    "positive_count": 5,
+    "negative_count": 4,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.1136,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Strive\u2019s bitcoin buying spree earns 27% price target hike from TD Cowen",
+        "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+        "published_at": "2026-10-16T20:22:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tesla Roadster Rocket Is the Cool 'Flying' Car You Can\u2019t Have",
+        "url": "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+        "published_at": "2026-10-16T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Jailbreak iPhone 18 Pro on Stage, and It Survives a Reboot",
+        "url": "https://decrypt.co/381177/hackers-jailbreak-iphone-18-pro-survives-reboot",
+        "published_at": "2026-10-16T19:36:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-16T19:17:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle Plans Push Into 40 Emerging Markets as Stablecoins Go Mainstream, CEO Says",
+        "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
+        "published_at": "2026-10-16T18:55:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Treasury Giant Strategy Faces Index Removal Under Finalized MSCI Rules",
+        "url": "https://decrypt.co/381168/bitcoin-treasury-giant-strategy-faces-index-removal-under-finalized-msci-rules",
+        "published_at": "2026-10-16T18:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "India's Cyber Agency Says AI Agents Read Confidential Business Records Without Authorization",
+        "url": "https://decrypt.co/381165/indias-cyber-agency-ai-agents-read-confidential-business-records",
+        "published_at": "2026-10-16T17:48:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PACs escalate spending against Sherrod Brown in Ohio Senate race",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-spending-ohio-senate-race-sherrod-brown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-16T17:30:09+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stablecoin remittances cost 84% less than traditional transfers, report finds",
+        "url": "https://cointelegraph.com/news/stablecoin-remittances-cost-savings-traditional-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-16T17:21:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase to power stablecoin-backed cards for Marqeta customers",
+        "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+        "published_at": "2026-10-16T17:21:29+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
