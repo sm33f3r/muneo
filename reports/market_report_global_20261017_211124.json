@@ -1,0 +1,423 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-17T21:10:19 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2755935977382.3,
+    "total_market_cap_change_24h_pct": -2.7011,
+    "total_volume_24h_usd": 183244570898073.25,
+    "btc_dominance_pct": 59.3855,
+    "eth_dominance_pct": 10.7107,
+    "total2_usd": 1119309966986.88,
+    "total3_usd": 824130498693.77,
+    "active_cryptocurrencies": 22317,
+    "altcoin_season_index": 39,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 2428.7939,
+        "price_usd": 22.41,
+        "market_cap_usd": 213129334
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 116.228,
+        "price_usd": 0.121113,
+        "market_cap_usd": 570092514
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": 30.1598,
+        "price_usd": 0.00179185,
+        "market_cap_usd": 157834792
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 29.7447,
+        "price_usd": 2.53,
+        "market_cap_usd": 3811874369
+      },
+      {
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "price_change_24h_pct": 11.4394,
+        "price_usd": 0.060599,
+        "market_cap_usd": 177977085
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -11.0105,
+        "price_usd": 0.064945,
+        "market_cap_usd": 493156485
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": -8.7835,
+        "price_usd": 1.91,
+        "market_cap_usd": 762525928
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": -7.9534,
+        "price_usd": 0.182197,
+        "market_cap_usd": 272542311
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -7.7827,
+        "price_usd": 0.289421,
+        "market_cap_usd": 195274357
+      },
+      {
+        "symbol": "ZK",
+        "name": "ZKsync",
+        "price_change_24h_pct": -6.4057,
+        "price_usd": 0.01552968,
+        "market_cap_usd": 168021068
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81566,
+    "price_change_24h_pct": -0.0155,
+    "price_change_7d_pct": -1.7416,
+    "market_cap_usd": 1639382897693,
+    "volume_24h_usd": 13548915202,
+    "direction": "neutral",
+    "oi_usd": null,
+    "funding_rate_latest": null,
+    "funding_rate_7d_avg": null,
+    "funding_lean": null,
+    "long_short_ratio": null,
+    "long_account_pct": null,
+    "short_account_pct": null,
+    "btc_ls_lean": null
+  },
+  "eth": {
+    "price_usd": 2420.12,
+    "price_change_24h_pct": 0.3276,
+    "price_change_7d_pct": -3.691,
+    "market_cap_usd": 295616531823,
+    "volume_24h_usd": 5468043647,
+    "eth_btc_ratio": 0.029671,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88968187986.2,
+    "stablecoin_market_cap_usd": 306572684347.34,
+    "stablecoin_dominance_pct": 11.1241
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 7,
+    "headlines": [
+      {
+        "headline": "Explosion at Iraqi paramilitary alliance base kills one member, sources say - Reuters",
+        "summary": "Explosion at Iraqi paramilitary alliance base kills one member, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFdrc1I4NnJ2Z0NQeUM2c25pYzF4ekRXcFVHRHlYVWVVYXhhV0hDXzhVUWtUc2JCRnZmU0lZRkJlRkZudWNzUzJINWpDWWdFcG13SG5YVHJnMk9tcEE2Z3BtdHJ1VHdJcXA4eGNQYXVfcE1VX293QjhYQ0YtaVJUOU1kYjJoR2hPeUJJNlNDUzVfVnlxVUhINGJEV2UzTllWRWVrRmpuNG5ZVGY2SFFvcFpySlJsNUEtYmF6LVNEcEpnck0?oc=5",
+        "published_at": "2026-10-17T16:35:17Z"
+      },
+      {
+        "headline": "Iran's Guards say two tankers hit mines in Strait of Hormuz - Reuters",
+        "summary": "Iran's Guards say two tankers hit mines in Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+        "published_at": "2026-10-17T13:36:11Z"
+      },
+      {
+        "headline": "'Everyone laughed' when he started a pumpkin farm\u2014now it brings in $2 million a year",
+        "summary": "Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/17/great-pumpkin-farm-new-york-2-million-revenue.html",
+        "published_at": "2026-10-17T13:00:01Z"
+      },
+      {
+        "headline": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
+        "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong'\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
+        "published_at": "2026-10-17T01:17:00Z"
+      },
+      {
+        "headline": "Trump mocks popularity of the name Mohammad, common among Muslims - Reuters",
+        "summary": "Trump mocks popularity of the name Mohammad, common among Muslims\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2c4Mjd3MjA4UFF3cXBJTVZKNkFCOXdERDN0YjY3NHNydFFzR1hXZ2V6dWljeGJYaUNNR3dEV1VXVHdXU3FhaTRtc21MSF8yZmRUd1lma0wzWU03S1pZR3E5NllSZVctYlJpSTJrLVMyekNHY0F0QkRBVEVLcVM3bnVTbzhLcDcya1d1ZzVsR0MwQ0psblVBenZnYl9IRjV4ZGl6Qg?oc=5",
+        "published_at": "2026-10-16T23:52:00Z"
+      },
+      {
+        "headline": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
+        "summary": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
+        "published_at": "2026-10-16T21:51:00Z"
+      },
+      {
+        "headline": "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
+        "summary": "US solicits exchange of up to 17 million barrels of oil from strategic reserve\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
+        "published_at": "2026-10-16T21:36:21Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.7718,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 763.25,
+    "spy_change_pct": -1.1065,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81519.61,
+    "coinbase_premium_pct": -0.056874,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-17T21:10:19 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.13,
+        "change_pct": -1.4271,
+        "prev_close": 217.23
+      },
+      "AMD": {
+        "close": 528.75,
+        "change_pct": -5.9549,
+        "prev_close": 562.23
+      },
+      "TSM": {
+        "close": 412.61,
+        "change_pct": -2.283,
+        "prev_close": 422.25
+      },
+      "SMCI": {
+        "close": 31.63,
+        "change_pct": -9.8604,
+        "prev_close": 35.09
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.8,
+        "change_pct": -2.5,
+        "prev_close": 728.0
+      },
+      "SOXX": {
+        "close": 493.39,
+        "change_pct": -4.1421,
+        "prev_close": 514.71
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-16",
+    "total_net_inflow_usd": -82389305.1,
+    "total_net_assets_usd": 104290316952.11,
+    "total_value_traded_usd": 2660215590.0,
+    "cum_net_inflow_usd": 56878134644.62,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81566,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 29,
+    "positive_count": 5,
+    "negative_count": 2,
+    "neutral_count": 22,
+    "sentiment_ratio": 0.1724,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "TRON moved $2.2 trillion in stablecoins while TRX supply grew for 108 straight days",
+        "url": "https://cryptoslate.com/trons-stablecoin-growth-has-not-made-trx-deflationary/",
+        "published_at": "2026-10-17T21:00:59+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Taiwan Blocks Coinbase And Kalshi Websites Over Election Betting Concerns",
+        "url": "https://bitcoinist.com/taiwan-blocks-coinbase-and-kalshi-websites-over-election-betting-conce/",
+        "published_at": "2026-10-17T20:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
+        "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+        "published_at": "2026-10-17T19:56:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple Opens Wall Street Trading To Hyperliquid With New 24/7 Market Access",
+        "url": "https://bitcoinist.com/ripple-opens-wall-street-trading-to-hyperliquid-with-new-24-7-market-a/",
+        "published_at": "2026-10-17T19:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Who opened your crypto wallet before it reached your hands?",
+        "url": "https://cryptoslate.com/who-handled-your-wallet-before-you-did/",
+        "published_at": "2026-10-17T19:00:25+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pirate Chain Exploit Creates 39.8 Million Unauthorized Tokens In Major Security Breach",
+        "url": "https://bitcoinist.com/pirate-chain-exploit-creates-39-8-million-unauthorized-tokens-in-major/",
+        "published_at": "2026-10-17T18:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Turkey confirms Hex founder Richard Heart\u2019s arrest, says police seized $7.15 million and six cold wallets",
+        "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+        "published_at": "2026-10-17T18:14:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto King Spent $16.3 Million Of Investor Funds On Luxury Lifestyle, Court Hears",
+        "url": "https://bitcoinist.com/crypto-king-spent-16-3-million-of-investor-funds-on-luxury-lifestyle-c/",
+        "published_at": "2026-10-17T17:43:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Super PAC Fairshake Pours Millions More Into Defeating Sherrod Brown",
+        "url": "https://decrypt.co/381238/crypto-super-pac-fairshake-pours-millions-more-into-defeating-sherrod-brown",
+        "published_at": "2026-10-17T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum sets October 26 for Hoodi\u2019s 200 million gas test",
+        "url": "https://cryptoslate.com/ethereum-sets-october-26-scaling-test-with-hoodi-node-upgrades-required/",
+        "published_at": "2026-10-17T17:00:52+00:00",
+        "source": "CryptoSlate",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": null,
+      "btc_ls_lean": null,
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Binance Futures BTC open interest \u2014 HTTP 451",
+    "Binance Futures BTC funding rate \u2014 HTTP 451",
+    "Binance Futures BTC long/short ratio \u2014 HTTP 451",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 451"
+  ]
+}
