@@ -1,0 +1,171 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-18T21:25:09 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.952299,
+    "price_change_24h_pct": -3.1168,
+    "price_change_7d_pct": -15.3457,
+    "volume_24h_usd": 445202315,
+    "market_cap_usd": 3921693332,
+    "volume_to_mcap_ratio": 0.113523,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -82.1886,
+    "cex_price_usd": 0.9504,
+    "cex_24h_high": 0.9955,
+    "cex_24h_low": 0.9372,
+    "cex_dex_spread_pct": -0.199412,
+    "volume_on_up_days_usd": 1008737658.901198,
+    "volume_on_down_days_usd": 572283647.2255955,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 53.2577,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": 0.072292,
+      "signal_line": 0.041406,
+      "histogram": 0.030886
+    },
+    "macd_lean": "bullish",
+    "sma_50": 0.865049,
+    "price_vs_sma50_pct": 10.0861,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.258461,
+      "mid": 0.862154,
+      "lower": 0.465847,
+      "width_pct": 91.9341,
+      "position": 0.6422
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 105921977.3,
+    "oi_lean": null,
+    "funding_rate_latest": -3.185e-05,
+    "funding_rate_7d_avg": 4.071952380952381e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.8433,
+    "btc_long_account_pct": 64.83,
+    "btc_short_account_pct": 35.17,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 480694769.0,
+    "tvl_7d_change_pct": -9.6583,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 88093.8,
+    "chain_fees_7d_avg_usd": 120203.81,
+    "chain_fees_lean": "bearish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 1,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 1,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Sui\u2019s Hashi Bitcoin Lending Project Prepares For Mainnet With $500 Million Pledged",
+        "url": "https://bitcoinist.com/sui-hashi-bitcoin-lending-500-million-commitments/",
+        "published_at": "2026-10-18T16:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 80979.0,
+    "btc_24h_change_pct": -0.5916,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 60.2883,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2698471151839.445,
+    "eth_btc_ratio": 0.029132,
+    "eth_btc_lean": "neutral",
+    "dxy": 101.7718,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 763.25,
+    "spy_change_pct": -1.1065,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "bullish",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 47,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 84.62,
+    "cg_sentiment_votes_down_pct": 15.38,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "CoinPaprika coin detail \u2014 HTTP 403"
+  ]
+}
