@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-18T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2693030592189.82,
+    "total_market_cap_change_24h_pct": -4.8613,
+    "total_volume_24h_usd": 44032561247645.2,
+    "btc_dominance_pct": 60.232,
+    "eth_dominance_pct": 10.6392,
+    "total2_usd": 1070963335659.48,
+    "total3_usd": 784447734829.5,
+    "active_cryptocurrencies": 22340,
+    "altcoin_season_index": 34,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 15.2627,
+        "price_usd": 0.508504,
+        "market_cap_usd": 150534967
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": 11.9329,
+        "price_usd": 0.00200045,
+        "market_cap_usd": 176196146
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 7.2505,
+        "price_usd": 0.0070219,
+        "market_cap_usd": 415577739
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 5.5409,
+        "price_usd": 1.042,
+        "market_cap_usd": 260634514
+      },
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": 5.0211,
+        "price_usd": 0.859546,
+        "market_cap_usd": 128957890
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": -25.2991,
+        "price_usd": 16.74,
+        "market_cap_usd": 159207111
+      },
+      {
+        "symbol": "A",
+        "name": "Vaulta",
+        "price_change_24h_pct": -21.959,
+        "price_usd": 0.087828,
+        "market_cap_usd": 147073428
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -15.453,
+        "price_usd": 0.243934,
+        "market_cap_usd": 164540597
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -15.0342,
+        "price_usd": 0.241371,
+        "market_cap_usd": 217828679
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -14.5606,
+        "price_usd": 0.133064,
+        "market_cap_usd": 133120793
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80868,
+    "price_change_24h_pct": -0.8446,
+    "price_change_7d_pct": -3.2345,
+    "market_cap_usd": 1625390505421,
+    "volume_24h_usd": 18917805773,
+    "direction": "neutral",
+    "oi_usd": 7571413194.55,
+    "funding_rate_latest": 5.841e-05,
+    "funding_rate_7d_avg": 3.7239523809523805e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.8433,
+    "long_account_pct": 64.83,
+    "short_account_pct": 35.17,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2350.1,
+    "price_change_24h_pct": -2.8371,
+    "price_change_7d_pct": -7.3317,
+    "market_cap_usd": 287086738762,
+    "volume_24h_usd": 8514292423,
+    "eth_btc_ratio": 0.029061,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88153967199.92,
+    "stablecoin_market_cap_usd": 306097876280.54,
+    "stablecoin_dominance_pct": 11.3663
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 10,
+    "headlines": [
+      {
+        "headline": "Trump endorses Netanyahu in close Israeli election - Reuters",
+        "summary": "Trump endorses Netanyahu in close Israeli election\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
+        "published_at": "2026-10-18T17:41:20Z"
+      },
+      {
+        "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+        "summary": "Saudi-led coalition says helicopter crash in Najran kills two crew members\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
+        "published_at": "2026-10-18T15:54:36Z"
+      },
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market this week",
+        "summary": "Meta and Capital One are set to report earnings. We'll also hear from plenty of important companies outside the Club portfolio.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-10-18T15:24:37Z"
+      },
+      {
+        "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+        "summary": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+        "published_at": "2026-10-18T14:31:31Z"
+      },
+      {
+        "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
+        "summary": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5",
+        "published_at": "2026-10-18T13:51:43Z"
+      },
+      {
+        "headline": "I've studied over 200 kids\u2014parents who raise resilient, successful children teach them these 6 lessons early on",
+        "summary": "Parenting coach Reem Raouda shares lessons to help kids feel worthy regardless of achievements and handle disappointment, disagreement and difficult feelings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
+        "published_at": "2026-10-18T13:37:01Z"
+      },
+      {
+        "headline": "Turkey will get some diesel from US-Russia supply deal, energy minister says - Reuters",
+        "summary": "Turkey will get some diesel from US-Russia supply deal, energy minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjdhZ0V0TGxFRVBoQWVSMVBlOXFvdm1rcFlmWm45dVdYS3FJdm5ZdExGM2xRd3hhb1hvWUJYdnVlRG50bm1CbjJubjRnM2JtVFp3UkdiU0QxcVJEbnZyNC1HSDhOYUM1THhiTm9heG9tTV9FTHpwMW1BOEhxN0Q0WjlocVJMZV9TSUlIN0RMZDdkQmpPQUhUQk40bkNDdzdMSVhEa3U5eUZKd2R1OVBqajZYTDI5cDhTT3FaUk5uZw?oc=5",
+        "published_at": "2026-10-18T11:51:44Z"
+      },
+      {
+        "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
+        "summary": "Iran urges US to accept proposal to reopen Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
+        "published_at": "2026-10-18T10:29:43Z"
+      },
+      {
+        "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
+        "summary": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUllscVFHdi1ER1I5djNzUWkwbXpXUGVTRkRVLUNWSWRBUU9lek5waWFCVjJwMXphLXFHaV9EUkF0SjdXVGMwNnpLYl9xZ2xrWDFvZzlrN2RwV2J4QUt1UUtiLTlzZTA1Qms2eTMtTjMyRXRGblJXVkF5NV9nTzEzTE1rbDFLUDdNOWRuQlhrS1BIVXFRdVJiQUtuT0lmODVRcVZ1dTRMeU11SkJuWlJvNGNJUjJhY1RBVGN1WWJGQ0JyZw?oc=5",
+        "published_at": "2026-10-18T09:08:02Z"
+      },
+      {
+        "headline": "Rubio arrives in Central Asia while other US officials hit foreign policy hot spots - Reuters",
+        "summary": "Rubio arrives in Central Asia while other US officials hit foreign policy hot spots\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5",
+        "published_at": "2026-10-18T05:03:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.7718,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6023,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 763.25,
+    "spy_change_pct": -1.1065,
+    "spy_lean": "bearish",
+    "vix_close": 16.46,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 80868.35,
+    "coinbase_premium_pct": 0.000433,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-18T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 214.13,
+        "change_pct": -1.4271,
+        "prev_close": 217.23
+      },
+      "AMD": {
+        "close": 528.75,
+        "change_pct": -5.9549,
+        "prev_close": 562.23
+      },
+      "TSM": {
+        "close": 412.61,
+        "change_pct": -2.283,
+        "prev_close": 422.25
+      },
+      "SMCI": {
+        "close": 31.63,
+        "change_pct": -9.8604,
+        "prev_close": 35.09
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 709.8,
+        "change_pct": -2.5,
+        "prev_close": 728.0
+      },
+      "SOXX": {
+        "close": 493.39,
+        "change_pct": -4.1421,
+        "prev_close": 514.71
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-16",
+    "total_net_inflow_usd": -82389305.1,
+    "total_net_assets_usd": 104290316952.11,
+    "total_value_traded_usd": 2660215590.0,
+    "cum_net_inflow_usd": 56878134644.62,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80868,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 47,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 18,
+    "positive_count": 3,
+    "negative_count": 2,
+    "neutral_count": 13,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Crypto.com, Novig sue Missouri over sports event contracts; Kalshi, Polymarket, Robinhood hold off",
+        "url": "https://www.theblock.co/news/regulation/2026-10-18-crypto-com-novig-sue-missouri-over-sports-event-contracts-kalshi-polymarket-robinhood-hold-off-418866",
+        "published_at": "2026-10-18T19:50:28+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Aptos Burns 174,000 APT In A Month, Yet Token Supply Keeps Rising",
+        "url": "https://bitcoinist.com/aptos-token-burn-174000-supply-staking-emissions/",
+        "published_at": "2026-10-18T19:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Shielded Pools Draw Fresh Scrutiny After Stolen Crypto Transfers",
+        "url": "https://bitcoinist.com/zcash-shielded-pools-stolen-crypto-forensics/",
+        "published_at": "2026-10-18T18:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cross River Bank Adds Ripple\u2019s RLUSD To Its Payment Infrastructure",
+        "url": "https://bitcoinist.com/cross-river-bank-ripple-rlusd-payments-integration/",
+        "published_at": "2026-10-18T17:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MapQuest Now Shows Drivers Where Flock Cameras Are Watching",
+        "url": "https://decrypt.co/381255/mapquest-shows-drivers-where-flock-cameras-watching",
+        "published_at": "2026-10-18T16:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sui\u2019s Hashi Bitcoin Lending Project Prepares For Mainnet With $500 Million Pledged",
+        "url": "https://bitcoinist.com/sui-hashi-bitcoin-lending-500-million-commitments/",
+        "published_at": "2026-10-18T16:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cysic suspends bridge after attacker mints tokens and moves $727,000 to Ethereum",
+        "url": "https://www.theblock.co/news/defi/2026-10-18-cysic-suspends-bridge-after-attacker-mints-tokens-and-moves-727000-to-ethereum-418863",
+        "published_at": "2026-10-18T16:07:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC Spending Against Sherrod Brown Passes $52 Million In Ohio",
+        "url": "https://bitcoinist.com/crypto-pac-spending-sherrod-brown-ohio-52-million/",
+        "published_at": "2026-10-18T15:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+        "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
+        "published_at": "2026-10-18T15:01:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ledger Unveils $849 Atom Device To Secure Crypto, Apps And AI Activity",
+        "url": "https://bitcoinist.com/ledger-atom-849-security-device-launch/",
+        "published_at": "2026-10-18T14:30:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 7,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
