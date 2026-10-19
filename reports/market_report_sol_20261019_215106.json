@@ -1,0 +1,182 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-19T21:50:07 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 104.66,
+    "price_change_24h_pct": 2.9241,
+    "price_change_7d_pct": -3.4314,
+    "volume_24h_usd": 2744158772,
+    "market_cap_usd": 61699328761,
+    "volume_to_mcap_ratio": 0.044476,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -64.3161,
+    "cex_price_usd": 104.69,
+    "cex_24h_high": 106.22,
+    "cex_24h_low": 101.79,
+    "cex_dex_spread_pct": 0.028664,
+    "volume_on_up_days_usd": 3652257492.8498974,
+    "volume_on_down_days_usd": 2906577751.3172894,
+    "volume_lean": "bullish"
+  },
+  "technical_indicators": {
+    "rsi_14": 53.8607,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": 7.64741,
+      "signal_line": 7.495362,
+      "histogram": 0.152048
+    },
+    "macd_lean": "bullish",
+    "sma_50": 87.6392,
+    "price_vs_sma50_pct": 19.4214,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 131.656398,
+      "mid": 99.2705,
+      "lower": 66.884602,
+      "width_pct": 65.2478,
+      "position": 0.5631
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 923962063.04,
+    "oi_lean": null,
+    "funding_rate_latest": 3.464e-05,
+    "funding_rate_7d_avg": 2.6998571428571427e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 1.6205,
+    "btc_long_account_pct": 61.84,
+    "btc_short_account_pct": 38.16,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 5819031843.0,
+    "tvl_7d_change_pct": -2.6923,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 10287067.62,
+    "chain_fees_7d_avg_usd": 11063009.72,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 2,
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback",
+        "url": "https://cointelegraph.com/news/solana-treasury-skyai-sells-all-sol-holdings-launches-201m-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T21:04:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SkyAI sells off entire Solana treasury as it launches $201 million buyback",
+        "url": "https://www.theblock.co/news/business/2026-10-19-skyai-sells-off-entire-solana-treasury-launches-201-million-buyback-421037",
+        "published_at": "2026-10-19T15:28:43+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 81963.0,
+    "btc_24h_change_pct": 1.1271,
+    "btc_direction": "bullish",
+    "btc_dominance_pct": 60.2152,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2734542813248.1294,
+    "eth_btc_ratio": 0.029269,
+    "eth_btc_lean": "neutral",
+    "dxy": 101.7718,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 766.6,
+    "spy_change_pct": 0.4389,
+    "spy_lean": "neutral",
+    "vix_close": 19.99,
+    "vix_lean": "bearish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral",
+    "cg_sentiment_votes_up_pct": 78.26,
+    "cg_sentiment_votes_down_pct": 21.74,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 4,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bullish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bullish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "CoinPaprika coin detail \u2014 HTTP 403"
+  ]
+}
