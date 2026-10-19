@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-19T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2760055846948.29,
+    "total_market_cap_change_24h_pct": -0.3827,
+    "total_volume_24h_usd": 73965305525.36,
+    "btc_dominance_pct": 59.6425,
+    "eth_dominance_pct": 10.6114,
+    "total2_usd": 1113890208671.71,
+    "total3_usd": 821010079848.82,
+    "active_cryptocurrencies": 22392,
+    "altcoin_season_index": 37,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 42.9287,
+        "price_usd": 23.92,
+        "market_cap_usd": 227552665
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 32.3485,
+        "price_usd": 0.67215,
+        "market_cap_usd": 199420975
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 22.7083,
+        "price_usd": 0.296186,
+        "market_cap_usd": 267363852
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": 16.736,
+        "price_usd": 0.199808,
+        "market_cap_usd": 299334601
+      },
+      {
+        "symbol": "S",
+        "name": "Sonic",
+        "price_change_24h_pct": 15.3813,
+        "price_usd": 0.057696,
+        "market_cap_usd": 224129461
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -13.554,
+        "price_usd": 2.09,
+        "market_cap_usd": 3153396095
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -8.8081,
+        "price_usd": 2.18,
+        "market_cap_usd": 131113906
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -7.7193,
+        "price_usd": 0.00647369,
+        "market_cap_usd": 383384868
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": -3.7756,
+        "price_usd": 0.054534,
+        "market_cap_usd": 1733112455
+      },
+      {
+        "symbol": "VSN",
+        "name": "Vision",
+        "price_change_24h_pct": -3.1534,
+        "price_usd": 0.04074208,
+        "market_cap_usd": 154599906
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81953,
+    "price_change_24h_pct": 1.3486,
+    "price_change_7d_pct": -0.9988,
+    "market_cap_usd": 1647280893945,
+    "volume_24h_usd": 27643794935,
+    "direction": "bullish",
+    "oi_usd": 7804450981.7,
+    "funding_rate_latest": 7.964e-05,
+    "funding_rate_7d_avg": 4.607571428571429e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.6205,
+    "long_account_pct": 61.84,
+    "short_account_pct": 38.16,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2399.21,
+    "price_change_24h_pct": 2.0888,
+    "price_change_7d_pct": -4.7568,
+    "market_cap_usd": 293062059482,
+    "volume_24h_usd": 9903008710,
+    "eth_btc_ratio": 0.029275,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89139821135.06,
+    "stablecoin_market_cap_usd": 305169417629.69,
+    "stablecoin_dominance_pct": 11.0566
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+        "summary": "Investors are hopeful that last week's pullback was a clearing event for equities, but lingering concerns remain.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+        "published_at": "2026-10-19T20:57:14Z"
+      },
+      {
+        "headline": "Every look from the Victoria's Secret Fashion Show - Reuters",
+        "summary": "Every look from the Victoria's Secret Fashion Show\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa2lPVEdrVzBfenM5SXI3MVNXTDdLQ1R5Si12OHFWQzF1TUtJaUZYdjl6SmZjSkdZeS1FSWV2a2JzeXc5TEFGdkliY09WTFE2SWYwRUQwVUJaWWsxV2dSNGZwYWlOMFMyd0kzaTZoN0xJZmJTRm9NUjdmdmhPeG9sYlJ5d05PVDREcWlFbF9YZ0U?oc=5",
+        "published_at": "2026-10-19T20:19:56Z"
+      },
+      {
+        "headline": "Pakistan army chief Asim Munir to visit Tehran on Tuesday - Reuters",
+        "summary": "Pakistan army chief Asim Munir to visit Tehran on Tuesday\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNU5NeHoza1RQRlByV2lvS2dQTDZXOExwUktiVjJnaUE2YUJoVE1BN3N4VlhMNm1wd25CanBNSGlUeGhuSzZMTDlLUUdsMEtka0x5aWNBNGNpUEpwd1AxMnowV3RIYnZHZGxzb1ZNNGZqenFkbHNQLWlCcUxuekpVZ09UYUVlaWVsVjNmNjJpMHpjLVJiTnFiSnJLaVgyM1FlMEZuYnBUOXVhQQ?oc=5",
+        "published_at": "2026-10-19T19:54:46Z"
+      },
+      {
+        "headline": "Crushed tech stocks bounce \u2014 plus, new doctor survey keeps us positive on Lilly",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+        "published_at": "2026-10-19T18:52:35Z"
+      },
+      {
+        "headline": "Germany summons Iranian envoy over plot to kill Jewish community leader - Reuters",
+        "summary": "Germany summons Iranian envoy over plot to kill Jewish community leader\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMTBxMkF3RnVSeWFVMnUwOEZFYVAyeFRhRE9IVll1Q2czRDV3aWEtNzdvcV81TFZ1YzNjNDRkSHloSUFCUW9va0NyNEtSa1k0Wm9MeG9ZVE1sYkFpd0JoUjNXYm96NFdyY1FjNUFnNlljcEZQR3ByMUdXYVZOY2RDdnk3cEZXVHlfaTMzV19Xc0JTMDdPQmJlNHRrUE1Ua1ZtM0E5Umc2T3FrVmpXa3o3U29pZWdoSjNl?oc=5",
+        "published_at": "2026-10-19T17:45:49Z"
+      },
+      {
+        "headline": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks - Reuters",
+        "summary": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXJvV3ktdmE4WU9ZNjVBcDRBYW9yNXJVYVI3MV83aWtIV0pYN0lGNzM4UlNRZDdpRGs1bGsxR18wcjY5STVhU1Q1VEZJUmRKWFZPUnoxSlpFaThtMzhjRlVIZGl2VVVYYTlYM181N0Jyb0h4ZWRrM2FVZFZsSFRBT1haU0QtdEp5QlZ6dVg2VVpyX2RsaDEzbnN2Q1NvSFc5WW5jT2VmVQ?oc=5",
+        "published_at": "2026-10-19T17:34:43Z"
+      },
+      {
+        "headline": "Christiane Amanpour to leave CNN after four decades as Ellison era begins - Reuters",
+        "summary": "Christiane Amanpour to leave CNN after four decades as Ellison era begins\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb1RuM0JKcU9Qaks5eThna1hYUlptN2YyRWlqc2dDX1kySU51MWZPNFd6bXpCVnVPZXptVl80VmlwLU9NbTVrVmNjeWpNUEs4WFFKekVFRGU2NTZJQlZxeEFINFJRa3RmTEVJbnhvUm83R2gyMDVEb3V5cmgxNHFBWnd6OVN5ZlBKQ09HcWJnSlhvM0FxTm9ORkNBdzg4RzJSZzhVWHdROU1oT0d6VEY3LXdLdUV5VkwzZGkxWlVjOTlqcG1l?oc=5",
+        "published_at": "2026-10-19T17:12:25Z"
+      },
+      {
+        "headline": "Rubio seeks to expand Central Asia ties with pomp-filled Uzbekistan visit - Reuters",
+        "summary": "Rubio seeks to expand Central Asia ties with pomp-filled Uzbekistan visit\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjBMUkU1SEVNclFaMVR1SnljVENrS3N5RUdNcnV5UFZkdlB3RHdiWTFoSFRxcVRBVkRSOEowM0h4bHZyYmd4dDhKYlJQSzUzTUJ2QmxzaGtha2lxUldoLXRPSmczQndXbTNHRWxwRHBhZF9vdDdZRVl4WXJ0M3B0dEJrOWh1SkVzTXhIUTVydk11cEFPaXc3dGZBX0JnMk9hYlpOdkpXc3R3cllKTllGRG5MVC01QkZHNl9Td3J1VHhSckE?oc=5",
+        "published_at": "2026-10-19T16:16:25Z"
+      },
+      {
+        "headline": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict? - Reuters",
+        "summary": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEFCaTJXdXlZR1NxZkpndXE3d0hRYWpmRUtBOXpXeTI3M2hUVnFSVVJrQm1NS29LLWlobDd4enF2OWxOY1h1SmJidXVlUksxeDdZdVMyZF9tVklTdWJiQzJZZzRNVnFEX0tMQUdCTW04WHhmdWdhQW42cERybkd1QzBDTHgxMklXU3dvbF9mbUt3a3RSb3NhZlpNbkpWcFNaWXZhMWE5TUkzTTVFMlI1YWV3NXJjb0lSMTRQVFNqbzFsRmZwRmtB?oc=5",
+        "published_at": "2026-10-19T15:53:14Z"
+      },
+      {
+        "headline": "Israel to resume commercial shipments to Gaza after Hamas fee dispute - Reuters",
+        "summary": "Israel to resume commercial shipments to Gaza after Hamas fee dispute\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTE16ZHdCQXFFa1VvMzZRSFhtMER6Mmh2WVltcWZHcE9MYTByYXRIMWJvV2RJb1B4RXpoekFiTDV5Z1lyU1BmQ2FtUnZxT3ZqTnJwWEhSSnZUSmlobGRXcUYwYWxycU5NRjlNYWF0elNBR0FJUnRLZHJGeDRuSWNaXzI2aWhxbHpjNnFtbkN2N1lZa3luUHlXaHNVTnV3TzNjbmVnQVdsWnFIRGRCU2JDamM0SVZHTng0?oc=5",
+        "published_at": "2026-10-19T15:48:15Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.7718,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 766.6,
+    "spy_change_pct": 0.4389,
+    "spy_lean": "neutral",
+    "vix_close": 19.99,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 81938.55,
+    "coinbase_premium_pct": -0.017632,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-19T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.09,
+        "change_pct": 1.3823,
+        "prev_close": 214.13
+      },
+      "AMD": {
+        "close": 538.05,
+        "change_pct": 1.7589,
+        "prev_close": 528.75
+      },
+      "TSM": {
+        "close": 420.22,
+        "change_pct": 1.8444,
+        "prev_close": 412.61
+      },
+      "SMCI": {
+        "close": 32.1,
+        "change_pct": 1.4859,
+        "prev_close": 31.63
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 718.36,
+        "change_pct": 1.206,
+        "prev_close": 709.8
+      },
+      "SOXX": {
+        "close": 501.93,
+        "change_pct": 1.7309,
+        "prev_close": 493.39
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-16",
+    "total_net_inflow_usd": -82389305.1,
+    "total_net_assets_usd": 104290316952.11,
+    "total_value_traded_usd": 2660215590.0,
+    "cum_net_inflow_usd": 56878134644.62,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81953,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 49,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 56,
+    "positive_count": 7,
+    "negative_count": 11,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.125,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "XRP Ledger Repairs Its Lending Protocol Before It Goes Live",
+        "url": "https://decrypt.co/381358/xrp-ledger-repairs-lending-protocol-before-live",
+        "published_at": "2026-10-19T20:46:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto PAC pours $362K into California race voters essentially decided in August",
+        "url": "https://cointelegraph.com/news/crypto-pac-california-race-voters-special-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T20:22:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T20:02:30+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Market participants weigh in on SEC\u2019s proposed crypto regulations",
+        "url": "https://cointelegraph.com/news/public-comments-us-sec-proposed-crypto-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T19:54:38+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Are Running Apple's iOS on Android Phones for the First Time",
+        "url": "https://decrypt.co/381351/hackers-running-apple-ios-android-phones",
+        "published_at": "2026-10-19T19:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Visa, Mesh partner to enable crypto spending at 175M merchant locations",
+        "url": "https://cointelegraph.com/news/visa-mesh-partner-crypto-spending-175m-merchant-locations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T19:16:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mastercard Brings Its Fraud-Fighting Tools to Stablecoin Payments",
+        "url": "https://decrypt.co/381365/mastercard-brings-its-fraud-fighting-tools-to-stablecoin-payments",
+        "published_at": "2026-10-19T19:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mastercard launches stablecoin risk screening for banks and payment providers",
+        "url": "https://cointelegraph.com/news/mastercard-stablecoin-risk-screening-banks-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-19T19:03:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Some of America\u2019s Biggest Companies Are Objecting to Tokenized Shares",
+        "url": "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares",
+        "published_at": "2026-10-19T18:46:05+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Orders Civilian Agencies to Rip DeepSeek Out of Government Systems",
+        "url": "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems",
+        "published_at": "2026-10-19T18:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 5,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
