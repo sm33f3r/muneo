@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-20T21:10:04 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2791897478998.11,
+    "total_market_cap_change_24h_pct": -1.4816,
+    "total_volume_24h_usd": 81556875737.66,
+    "btc_dominance_pct": 59.5036,
+    "eth_dominance_pct": 10.6938,
+    "total2_usd": 1130616762788.94,
+    "total3_usd": 832057694693.43,
+    "active_cryptocurrencies": 22407,
+    "altcoin_season_index": 42,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": 22.7483,
+        "price_usd": 26.37,
+        "market_cap_usd": 263768842
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 19.7986,
+        "price_usd": 0.356065,
+        "market_cap_usd": 321436427
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 15.5288,
+        "price_usd": 0.00748477,
+        "market_cap_usd": 443536962
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": 14.1999,
+        "price_usd": 0.584296,
+        "market_cap_usd": 2234227897
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 14.0512,
+        "price_usd": 0.158162,
+        "market_cap_usd": 158128163
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": -33.3534,
+        "price_usd": 15.94,
+        "market_cap_usd": 151655298
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -18.2809,
+        "price_usd": 1.72,
+        "market_cap_usd": 2586917661
+      },
+      {
+        "symbol": "MX",
+        "name": "MX",
+        "price_change_24h_pct": -13.2892,
+        "price_usd": 1.68,
+        "market_cap_usd": 154012706
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -5.24,
+        "price_usd": 0.125734,
+        "market_cap_usd": 591849548
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -4.7669,
+        "price_usd": 1.091,
+        "market_cap_usd": 272725243
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 82811,
+    "price_change_24h_pct": 1.055,
+    "price_change_7d_pct": -0.5633,
+    "market_cap_usd": 1664295358571,
+    "volume_24h_usd": 27468112163,
+    "direction": "bullish",
+    "oi_usd": 7813031276.82,
+    "funding_rate_latest": 7.856e-05,
+    "funding_rate_7d_avg": 4.875238095238095e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.5589,
+    "long_account_pct": 60.92,
+    "short_account_pct": 39.08,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2449.81,
+    "price_change_24h_pct": 2.1033,
+    "price_change_7d_pct": -2.3936,
+    "market_cap_usd": 299230510083,
+    "volume_24h_usd": 10861745118,
+    "eth_btc_ratio": 0.029583,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89929676041.74,
+    "stablecoin_market_cap_usd": 304448530519.12,
+    "stablecoin_dominance_pct": 10.9047
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 46,
+    "headlines": [
+      {
+        "headline": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
+        "summary": "United Airlines cut its profit outlook for the year as fuel prices continued to climb.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
+        "published_at": "2026-10-20T20:03:05Z"
+      },
+      {
+        "headline": "Boeing wins FAA approval for 737 Max 10 after years of delays",
+        "summary": "The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
+        "published_at": "2026-10-20T19:41:23Z"
+      },
+      {
+        "headline": "We're booking big profits in an AI stock and trimming a credit-exposed bank",
+        "summary": "We making two trades Tuesday afternoon.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/20/were-booking-big-profits-in-an-ai-stock-and-trimming-a-credit-exposed-bank.html",
+        "published_at": "2026-10-20T19:00:39Z"
+      },
+      {
+        "headline": "Traders are betting Netflix's stock drama may be coming to an end",
+        "summary": "Current options prices are implying a 9% post-earnings move for Netflix, which is the highest since its Q3 2022 report, when it was priced for an 11% move.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/20/traders-are-betting-netflixs-stock-drama-may-be-coming-to-an-end.html",
+        "published_at": "2026-10-20T18:10:13Z"
+      },
+      {
+        "headline": "Stocks try for back-to-back gains \u2014 plus, Qnity gets iPhone business from Apple",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/20/stocks-try-for-back-to-back-gains-plus-qnity-gets-iphone-business-from-apple.html",
+        "published_at": "2026-10-20T18:09:42Z"
+      },
+      {
+        "headline": "Iran tells Pakistan army chief no talks with Washington until demands are met - Reuters",
+        "summary": "Iran tells Pakistan army chief no talks with Washington until demands are met\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVDRWMklOYkRvUmtPYU1tcnN0MVJCbzRxWlJzS3lSUFhsZzQ3SnQ2N0FKXzRsZFpmdmMwS1lVYWhKenNoNEF6UmhhcThrbVM1V0ZHQUk0aXFwWHlvbXFNWVhzQkV2aHVzM1I2am9fOHFHa19CQlN0Z3FqUG5nc2VwQUJxazBhbGZlSUhDMHExSWJLbDJNNXRjc3BOYkZrTThIUW1IUkE4QUI2azl6MzZHT0Nrb2M4aDZBQzZKYVp4OTg0VV9xWWllLUJGYkFkdw?oc=5",
+        "published_at": "2026-10-20T18:02:06Z"
+      },
+      {
+        "headline": "Israeli fire kills four people in Gaza, medics say - Reuters",
+        "summary": "Israeli fire kills four people in Gaza, medics say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNTMzR3ZQMmZ1R0RFZHQyOUxldnFwaXF4QVhEUmpwUUEwM2lGYUZXUXBILVhjS3BUZXl1WUNCbTNZTDY1RnYwWDg2Qi1EbGxqczBnY2FwcGE0eUxzOG1OQmJEZWdWbHFkbTctcHdKcDVOXzRsQ2JJQjJRUDdyN2lUUTJIYXJxSk1mLVJLYUs0UEdFTVZMMG5QcEVyRWgtWUQ4RVE?oc=5",
+        "published_at": "2026-10-20T17:51:56Z"
+      },
+      {
+        "headline": "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say - Reuters",
+        "summary": "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUFRNd3JZYUQ0bDBIdTYxNDczNExsX1h3ZUN5RU0xdTRUeThLVVljcjBHTkRlRUpxaUotM2tTUExONi15T29YQlJTZ2FPaEpoS0VkMXdiUlBGcTNNWXFoc0lEVUlHT0pIZWRZR1RUeXpVYW5aRlNZd2dGZXFIVFMyanFXcGh3V1JQcXRzM1ZzNnBSazBIT2NSVDNCa2pRTlZhNWt1cGpNeFNZTTFkd09iQ1hKZURpLThleHlNUmpFdVp2Yjg0WVA3VThydDI?oc=5",
+        "published_at": "2026-10-20T17:27:55Z"
+      },
+      {
+        "headline": "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident - Reuters",
+        "summary": "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWtHNEd1UkNWcGVXUE1HOW96YUlFbUQtRE8xdGstc1FlMTFSR0plZjc0Z21kR3lGczUwaEprd3pUcUtvX0x1VE5Cb28xSWNOd0R2UTM1TklYUFZjZVlJalVuZjRHZ0RpZVJHYVNuREdGeHJDdU9zLTRfTnRuOHNsellBOXBhLTAwSWxMV2g2d3FTa1c1dFNUM1o2c3Q4RWo5bjNpOVN3N25MaW9KZEpHQl9KRDlydlNP?oc=5",
+        "published_at": "2026-10-20T17:10:12Z"
+      },
+      {
+        "headline": "Britain says it will carry out defensive air missions over Saudi Arabia - Reuters",
+        "summary": "Britain says it will carry out defensive air missions over Saudi Arabia\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5",
+        "published_at": "2026-10-20T17:05:26Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9904,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.32,
+    "spy_change_pct": 0.3705,
+    "spy_lean": "neutral",
+    "vix_close": 18.44,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 82806.99,
+    "coinbase_premium_pct": -0.004842,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-20T21:10:04 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 216.47,
+        "change_pct": -0.2856,
+        "prev_close": 217.09
+      },
+      "AMD": {
+        "close": 534.74,
+        "change_pct": -0.6152,
+        "prev_close": 538.05
+      },
+      "TSM": {
+        "close": 425.08,
+        "change_pct": 1.1565,
+        "prev_close": 420.22
+      },
+      "SMCI": {
+        "close": 32.47,
+        "change_pct": 1.1526,
+        "prev_close": 32.1
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 717.63,
+        "change_pct": -0.1016,
+        "prev_close": 718.36
+      },
+      "SOXX": {
+        "close": 500.01,
+        "change_pct": -0.3825,
+        "prev_close": 501.93
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-19",
+    "total_net_inflow_usd": 526595998.02,
+    "total_net_assets_usd": 105459132835.06,
+    "total_value_traded_usd": 2092134412.6,
+    "cum_net_inflow_usd": 57404730642.64,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 82811,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 51,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 61,
+    "positive_count": 11,
+    "negative_count": 9,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.1803,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Wallet Linked to Drift Exploit Sends $61 Million in Ethereum to Tornado Cash",
+        "url": "https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash",
+        "published_at": "2026-10-20T20:46:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise, Hyperliquid seek SEC rule changes for token trading, airdrops",
+        "url": "https://cointelegraph.com/news/bitwise-hyperliquid-seek-sec-rule-changes-for-token-trading-airdrops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-20T20:38:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks",
+        "url": "https://decrypt.co/381448/microsoft-alphabet-goldman-sachs-growing-list-objecting-tokenized-stocks",
+        "published_at": "2026-10-20T20:16:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto\u2019s 2026 shutdown wave claims 82 projects. What went wrong?",
+        "url": "https://cointelegraph.com/news/crypto-project-shutdowns-2026-what-went-wrong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-20T19:59:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Swiss Regulator Approves First Retail Fund That Holds Bitcoin Directly",
+        "url": "https://decrypt.co/381446/swiss-regulator-first-retail-fund-holds-bitcoin-directly",
+        "published_at": "2026-10-20T19:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto firms, Wall Street push SEC to revise Regulation Crypto Assets as comments close",
+        "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+        "published_at": "2026-10-20T19:19:54+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-20T19:17:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Utah likens Kalshi to a \u2018back-alley gambling den\u2019 in lawsuit naming Susquehanna firms",
+        "url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+        "published_at": "2026-10-20T19:12:38+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
+        "url": "https://decrypt.co/381444/bitcoin-etfs-best-day-nearly-month-blackrock-does-most-buying",
+        "published_at": "2026-10-20T18:31:04+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRPL Lending Proposal Adds Closed-Ended Vault Design To Protocol Plans",
+        "url": "https://bitcoinist.com/xrpl-lending-proposal-adds-closed-ended-vault-design-to-protocol-plans/",
+        "published_at": "2026-10-20T18:15:00+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 2,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
