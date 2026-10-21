@@ -1,0 +1,443 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-21T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2842823371703.57,
+    "total_market_cap_change_24h_pct": -0.8013,
+    "total_volume_24h_usd": 84038061129.66,
+    "btc_dominance_pct": 59.6803,
+    "eth_dominance_pct": 10.6742,
+    "total2_usd": 1146218092470.45,
+    "total3_usd": 842769032088.98,
+    "active_cryptocurrencies": 22417,
+    "altcoin_season_index": 27,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HOODINU",
+        "name": "Hood Sword Inu",
+        "price_change_24h_pct": 140.7103,
+        "price_usd": 0.162148,
+        "market_cap_usd": 162147701
+      },
+      {
+        "symbol": "GRX",
+        "name": "GRX Chain",
+        "price_change_24h_pct": 46.0229,
+        "price_usd": 23.28,
+        "market_cap_usd": 221451533
+      },
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": 19.2096,
+        "price_usd": 0.416834,
+        "market_cap_usd": 131296024
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 15.0677,
+        "price_usd": 3.85,
+        "market_cap_usd": 963439409
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 13.7536,
+        "price_usd": 2.39,
+        "market_cap_usd": 842891909
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -27.4418,
+        "price_usd": 0.481747,
+        "market_cap_usd": 142918424
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -18.8345,
+        "price_usd": 0.02546733,
+        "market_cap_usd": 580559791
+      },
+      {
+        "symbol": "SOFID",
+        "name": "SoFiUSD",
+        "price_change_24h_pct": -16.8801,
+        "price_usd": 0.830609,
+        "market_cap_usd": 288347100
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": -9.4938,
+        "price_usd": 0.181019,
+        "market_cap_usd": 270755275
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -8.745,
+        "price_usd": 0.114618,
+        "market_cap_usd": 539495336
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 84607,
+    "price_change_24h_pct": 2.2064,
+    "price_change_7d_pct": 3.5282,
+    "market_cap_usd": 1700498309954,
+    "volume_24h_usd": 32093302669,
+    "direction": "bullish",
+    "oi_usd": 8319240311.07,
+    "funding_rate_latest": 4.896e-05,
+    "funding_rate_7d_avg": 5.8876190476190474e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.0296,
+    "long_account_pct": 50.73,
+    "short_account_pct": 49.27,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2490.85,
+    "price_change_24h_pct": 1.6434,
+    "price_change_7d_pct": 2.5538,
+    "market_cap_usd": 304256342954,
+    "volume_24h_usd": 14270259838,
+    "eth_btc_ratio": 0.02944,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 92911613984.33,
+    "stablecoin_market_cap_usd": 305011345889.69,
+    "stablecoin_dominance_pct": 10.7292
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 43,
+    "headlines": [
+      {
+        "headline": "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+        "summary": "Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+        "published_at": "2026-10-21T20:36:43Z"
+      },
+      {
+        "headline": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes - Reuters",
+        "summary": "EXCLUSIVE: US orders departure of diplomats from Saudi Arabia amid Houthi strikes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONDg0WFNBeGFxeHpUVUsya2RYd0k3XzF6bXU3eGpZVnh2T25MWHVsQzVrbE9PNEdaWnpfN1dmRmtxajMtbl8yZ29EWUxYaXAxcnkxcFN1NEVDLVE3bUtkR0NwZDVPN2haVXFERXRUeHRnQ2QyVDhVdjBNa2FIUFVDOWFicGJOQVVWR0JFMnZSM0NLV09nZHk5UzA2LTgtbmFEVnlYZDI1Uk9ic1hyLTZ0Z2NKbWI5QWgtWWE3ZzV4eE11bmpCcGstTFAzQnVGUQ?oc=5",
+        "published_at": "2026-10-21T20:11:06Z"
+      },
+      {
+        "headline": "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
+        "summary": "Putin agrees to resume 3-way peace talks with Ukraine and US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
+        "published_at": "2026-10-21T19:27:02Z"
+      },
+      {
+        "headline": "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
+        "summary": "SpaceX indicated there's been no slowdown in demand for AI computing.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/21/spacex-gives-the-ai-trade-a-shot-in-the-arm-what-it-means-for-our-stocks-.html",
+        "published_at": "2026-10-21T19:01:23Z"
+      },
+      {
+        "headline": "Apple's iPhone Duo in short supply \u2014 plus, the 2 stocks fueling an AI rebound",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
+        "published_at": "2026-10-21T18:45:28Z"
+      },
+      {
+        "headline": "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping - Reuters",
+        "summary": "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZFh4ZEdDSDhEcmZJWFR1VDVOUDVaYTR6aURwNjEzRnpsVGV4aTl1RFR3LVZpa1ZRZW5DY1ByTnBXZmk3RVl4VHRZM0x6UGRnUWp1dUJJUWItY3lYU3dmZ1RBYU1OLTdjc3JXOVB3V09mM051WGM1dEJsaW1WQXRmd3BmVXRaRUZMNzR4bkVBY3RTNWt1aXYxcGdWZVdUMy0xNUNzMlpJMkpyR0RaQVdKbUNENzFIdw?oc=5",
+        "published_at": "2026-10-21T18:37:59Z"
+      },
+      {
+        "headline": "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen - Reuters",
+        "summary": "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTVZLWNRalc0ZzFmaXlERE8ySDhISTVTVjV0c0o2ZzU1UThTS2RMd0RRaVlsdmlNcFZfR3BiRHAwejM0dGFaUVA2V2JtVW4zMFZUVm1JMnViVGI1M2ZQa2VySHo2M3pJemxlRmJBanJSOTgwZko5VjFoeEFpTndNRHF4TGZNT25MMmRTMDRDdENwa3ZsZ1ZkY2NGOUo4a04wNmMxNk5OUE5nSXQ1TWxuZTNsQWF6U1JuX0FHcw?oc=5",
+        "published_at": "2026-10-21T17:54:17Z"
+      },
+      {
+        "headline": "Trump-aligned super PACs pour millions into once-safe GOP House seats",
+        "summary": "Trump-aligned PACs are pouring hundreds of millions into House and Senate races as Republicans defend an expanding midterm election battleground map.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html",
+        "published_at": "2026-10-21T17:51:21Z"
+      },
+      {
+        "headline": "UK's FTSE 100 ticks higher on energy boost; hot inflation report limits gains - Reuters",
+        "summary": "UK's FTSE 100 ticks higher on energy boost; hot inflation report limits gains\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMG9KdWFSdV90N2s0bHM3d0xsTVlOMGduRE1RZ1FvSi1SbnU4MFlRQUIteDlZTC03TmNHVFl3Z2lhV2FrN1NwQjV5Wk1rU096X1pUNXB4M2c2bS1MdXlSeEZHaTJobmFsQzlvYTN6WHpyd2FkRzFqOFdkbzZUdjZoNzJCa1B6c2RxMzBmemg3RnBWdldpM0x0VEtCR0F0YXE3N3V2YXppNnN6ejBs?oc=5",
+        "published_at": "2026-10-21T16:28:42Z"
+      },
+      {
+        "headline": "Meta stock advances ahead of after-the-bell earnings. What we're looking for",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-stock-advances-ahead-of-after-the-bell-earnings-what-were-looking-for.html",
+        "published_at": "2026-10-21T16:00:25Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.7005,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": null,
+    "broad_dollar_index_lean": null,
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 773.17,
+    "spy_change_pct": 0.5357,
+    "spy_lean": "bullish",
+    "vix_close": null,
+    "vix_lean": null,
+    "coinbase_btc_price_usd": 84621.87,
+    "coinbase_premium_pct": 0.017575,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-21T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 221.97,
+        "change_pct": 2.5408,
+        "prev_close": 216.47
+      },
+      "AMD": {
+        "close": 552.72,
+        "change_pct": 3.3624,
+        "prev_close": 534.74
+      },
+      "TSM": {
+        "close": 431.89,
+        "change_pct": 1.6021,
+        "prev_close": 425.08
+      },
+      "SMCI": {
+        "close": 35.57,
+        "change_pct": 9.5473,
+        "prev_close": 32.47
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.2,
+        "change_pct": 1.0549,
+        "prev_close": 717.63
+      },
+      "SOXX": {
+        "close": 510.36,
+        "change_pct": 2.07,
+        "prev_close": 500.01
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-20",
+    "total_net_inflow_usd": 23162422.51,
+    "total_net_assets_usd": 106284266590.22,
+    "total_value_traded_usd": 1922950170.7,
+    "cum_net_inflow_usd": 57427893065.15,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 84607,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 55,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 53,
+    "positive_count": 10,
+    "negative_count": 6,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.1887,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking",
+        "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-21T20:26:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable",
+        "url": "https://cointelegraph.com/news/white-house-cybercrime-roundtable-donald-trump-crypto-ventures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-21T20:19:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia Unveils Its Full-Stack Blueprint to Contain and Monitor AI Agents",
+        "url": "https://decrypt.co/381570/nvidia-ai-agent-containment-tools-full-stack-blueprint",
+        "published_at": "2026-10-21T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-21T20:10:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood single-stock perps could be a \u2018strong positive\u2019 for HOOD shares, Mizuho says",
+        "url": "https://www.theblock.co/news/business/2026-10-21-robinhood-single-stock-perpetual-futures-mizuho-survey-421639",
+        "published_at": "2026-10-21T18:54:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Who Found the PHP Bug That Made Governments Unplug Their Websites? ChatGPT, Of Course",
+        "url": "https://decrypt.co/381567/who-found-php-bug-governments-unplug-websites-chatgpt",
+        "published_at": "2026-10-21T18:46:08+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How a SpaceX and Tesla Merger Would Reshape Musk\u2019s AI Empire",
+        "url": "https://decrypt.co/381543/elon-musk-spacex-tesla-merger-ai-empire",
+        "published_at": "2026-10-21T18:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "American Bankers Association accuses OCC of undermining Congress with final stablecoin rewards rule",
+        "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
+        "published_at": "2026-10-21T17:59:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Foundation urges EU against expanding MiCA rules to DeFi and staking",
+        "url": "https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-21T17:57:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
+        "url": "https://decrypt.co/381555/bitcoin-price-weekly-high-crypto-rebounds",
+        "published_at": "2026-10-21T17:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 14,
+    "signals_null": 3,
+    "bullish_count": 4,
+    "bearish_count": 1,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": null,
+      "spy_lean": "bullish",
+      "vix_lean": null,
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "FRED Broad Dollar Index \u2014 Expecting value: line 1 column 1 (char 0)",
+    "FRED VIX \u2014 Expecting value: line 1 column 1 (char 0)",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
