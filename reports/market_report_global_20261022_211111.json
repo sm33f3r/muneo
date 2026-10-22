@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-22T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2735577329800.38,
+    "total_market_cap_change_24h_pct": -6.3708,
+    "total_volume_24h_usd": 80642455313.06,
+    "btc_dominance_pct": 59.5029,
+    "eth_dominance_pct": 10.5983,
+    "total2_usd": 1107829214266.63,
+    "total3_usd": 817904990097.47,
+    "active_cryptocurrencies": 22442,
+    "altcoin_season_index": 40,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 21.9374,
+        "price_usd": 0.03107392,
+        "market_cap_usd": 708368777
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 14.1146,
+        "price_usd": 0.848021,
+        "market_cap_usd": 1941349664
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 7.2777,
+        "price_usd": 0.517461,
+        "market_cap_usd": 153513354
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 5.9809,
+        "price_usd": 0.121443,
+        "market_cap_usd": 571616736
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": 4.8124,
+        "price_usd": 0.077324,
+        "market_cap_usd": 608651561
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -15.146,
+        "price_usd": 0.246535,
+        "market_cap_usd": 165898432
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -13.0811,
+        "price_usd": 0.00651575,
+        "market_cap_usd": 386603768
+      },
+      {
+        "symbol": "STRK",
+        "name": "Starknet",
+        "price_change_24h_pct": -13.0061,
+        "price_usd": 0.053254,
+        "market_cap_usd": 404268944
+      },
+      {
+        "symbol": "EIGEN",
+        "name": "EigenCloud (prev. EigenLayer)",
+        "price_change_24h_pct": -12.6011,
+        "price_usd": 0.217728,
+        "market_cap_usd": 212522860
+      },
+      {
+        "symbol": "ZK",
+        "name": "ZKsync",
+        "price_change_24h_pct": -12.4743,
+        "price_usd": 0.01312994,
+        "market_cap_usd": 144687038
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81216,
+    "price_change_24h_pct": -4.0597,
+    "price_change_7d_pct": -1.3735,
+    "market_cap_usd": 1632515785230,
+    "volume_24h_usd": 33952571937,
+    "direction": "bearish",
+    "oi_usd": 7757824196.16,
+    "funding_rate_latest": 1.265e-05,
+    "funding_rate_7d_avg": 5.7000476190476194e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.0441,
+    "long_account_pct": 67.15,
+    "short_account_pct": 32.85,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2383.51,
+    "price_change_24h_pct": -4.3194,
+    "price_change_7d_pct": -2.9228,
+    "market_cap_usd": 291059441767,
+    "volume_24h_usd": 12229281918,
+    "eth_btc_ratio": 0.029348,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89976236719.29,
+    "stablecoin_market_cap_usd": 305109700026.99,
+    "stablecoin_dominance_pct": 11.1534
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 40,
+    "headlines": [
+      {
+        "headline": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here\u2019s why",
+        "summary": "Meta's in-house AI lab is not getting enough credit on Wall Street.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+        "published_at": "2026-10-22T20:11:55Z"
+      },
+      {
+        "headline": "The perfect storm behind the Nasdaq's rout \u2014 plus, some of the bright spots in the market",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/22/perfect-storm-behind-the-nasdaqs-rout-plus-some-bright-spots-in-the-market.html",
+        "published_at": "2026-10-22T18:23:05Z"
+      },
+      {
+        "headline": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia - Reuters",
+        "summary": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSjlqS1owcXdLQnhHZnV3Q3FSWUU4OXhFTkpxV1E3dVdnU1pEak1sSENZRnN5cEs1dE5YREx5NnZsODFFWm01T1FNMC0wVXF0dWhkTUl5MTZaRHhJcVVRNkdyVnh5ZFJKam9xMHYxMG42R3F3WDdyQ1lsSDBPTmJVMVJLSmhYeFRnamp1aVRWYmY0RlcwdmVibkZ2cWl6S21QS1JEOUt5UWd3M2RpTld2eVhFTjJ5bmpjX1RZX3BuaGNUZUU?oc=5",
+        "published_at": "2026-10-22T18:09:35Z"
+      },
+      {
+        "headline": "We're dipping back into the AI trade with our first data center buy in weeks",
+        "summary": "The stock is also getting an upgrade, with the expectation of a bounce ahead.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/22/were-dipping-back-into-the-data-center-trade-with-small-buy.html",
+        "published_at": "2026-10-22T17:28:19Z"
+      },
+      {
+        "headline": "US regulator is probing suspicious Iran oil trading, official says - Reuters",
+        "summary": "US regulator is probing suspicious Iran oil trading, official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPem1fOEZ2aU10cDBTVHhDUXFuN3ZTU1l3ZXR4dkpMUUNCazJDMEk4V0UxT01nZ2tNckxuTllmYXhNeUlhSTQzbzg5dHN2aVNjMUpnNnU0T2FJWmNtTGZ4ZTg0UXNjRFhReHlDbThZalczOHdVZFBKLU9pVEp3YTBTS096QUdKVm4tbTdlQzJSYWQ5eGhDZ05FSjJJWFhNYkt2dHZERzg1Zmltc2xKUkd1UjBXUEpTdjNC?oc=5",
+        "published_at": "2026-10-22T16:30:32Z"
+      },
+      {
+        "headline": "Pepsi renews contract with Taco Bell days after KFC switches to Coke in the U.S.",
+        "summary": "Taco Bell is sticking with longtime beverage supplier PepsiCo, even though sister chain KFC defected to Coca-Cola.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/22/pepsico-taco-bell-beverage-deal.html",
+        "published_at": "2026-10-22T15:52:00Z"
+      },
+      {
+        "headline": "US weekly jobless claims near 57-year lows, underscore labor market stability - Reuters",
+        "summary": "US weekly jobless claims near 57-year lows, underscore labor market stability\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1lNaWxpcFZmNGx5cEFsQ25QUUNuM0ZkVzJXaGdxdDRFdXNpNGVyYlhhV3JLcnpoMHJKLTZhMWduY0hQYXFPM2xBRjl5TF8xaXAyNU40UUtnTl94TDl3eUVjSHlleXBtenZHVDNpUmw5LUxRMDJNNzF2VVlxYmVodVpWUE5PWEdtVHRSZmdzR2w?oc=5",
+        "published_at": "2026-10-22T15:50:55Z"
+      },
+      {
+        "headline": "AI stocks tumble as the defensives rise. What it says about this uneasy market",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/22/ai-stocks-tumble-as-the-defensives-rise-what-it-says-about-this-uneasy-market.html",
+        "published_at": "2026-10-22T15:45:57Z"
+      },
+      {
+        "headline": "Cruise lines chase luxury travelers with suites for up to $25,000 a night",
+        "summary": "CNBC got a tour of the Regent Suite, a top-of-the-line offering on Regent's Seven Seas Splendor that goes for $15,000 a night.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/22/luxury-cruise-suites-regent-seven-seas.html",
+        "published_at": "2026-10-22T15:16:48Z"
+      },
+      {
+        "headline": "As Trump's support slips, white evangelicals remain his Republican bedrock - Reuters",
+        "summary": "As Trump's support slips, white evangelicals remain his Republican bedrock\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnNVTGtmN2VWX3RIWkxlUEx6d2hVV1djTnhWellIdWZMM1JMa1RrbTVKMlIycEI0em5CcHYtMXhucUFOdk5vZW9LZHVLRzNNWExIcHZqeVFtRFFxTlY3MDNka0l1VjE4T2NnOExIWFBlWXI1V1ZSVXRaRXVIVFB0UTFCcGpGZjZYUk9SekxGNE9GUWg0V3p4VW14MHVEUkY3MWNPQzdGMzRJVTZRVmIzZDRkS2Y?oc=5",
+        "published_at": "2026-10-22T15:07:32Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.696,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 764.06,
+    "spy_change_pct": -1.168,
+    "spy_lean": "bearish",
+    "vix_close": 16.68,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81316.5,
+    "coinbase_premium_pct": 0.123744,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-22T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 212.21,
+        "change_pct": -4.397,
+        "prev_close": 221.97
+      },
+      "AMD": {
+        "close": 507.93,
+        "change_pct": -8.1036,
+        "prev_close": 552.72
+      },
+      "TSM": {
+        "close": 412.35,
+        "change_pct": -4.5243,
+        "prev_close": 431.89
+      },
+      "SMCI": {
+        "close": 33.72,
+        "change_pct": -5.201,
+        "prev_close": 35.57
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.47,
+        "change_pct": -2.8585,
+        "prev_close": 725.2
+      },
+      "SOXX": {
+        "close": 475.69,
+        "change_pct": -6.7932,
+        "prev_close": 510.36
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-21",
+    "total_net_inflow_usd": 528400237.14,
+    "total_net_assets_usd": 109308814723.72,
+    "total_value_traded_usd": 3152857008.4,
+    "cum_net_inflow_usd": 57956293302.29,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81216,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 47,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 14,
+    "negative_count": 9,
+    "neutral_count": 32,
+    "sentiment_ratio": 0.2545,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "ChatGPT Teaches Messi Chess\u2014On a Board It Set Up Wrong, With an Opening That Loses in Four Moves",
+        "url": "https://decrypt.co/381644/chatgpt-messi-chess-board-wrong-loses-in-four-moves",
+        "published_at": "2026-10-22T20:39:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dune launches real-time data feeds covering 200 onchain trading venues",
+        "url": "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-22T20:36:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-22T20:09:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Earn 1.5% Daily on USDT \u2013 Fully Audited, Zero Admin Keys \u2013 Binance Smart Chain",
+        "url": "https://bitcoinist.com/earn-1-5-daily-on-usdt-fully-audited-zero-admin-keys-binance-smart-chain/",
+        "published_at": "2026-10-22T19:48:20+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "a16z Drops Crypto From Its Name, Widens Bets to AI and Frontier Tech",
+        "url": "https://decrypt.co/381642/a16z-drops-crypto-widens-bets-ai-frontier-tech",
+        "published_at": "2026-10-22T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Winklevoss PAC moves into Texas Senate race with $81K ad buy",
+        "url": "https://cointelegraph.com/news/winklevoss-pac-texas-senate-race-media-paxton-talarico?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-22T19:29:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says crypto regulatory moves partly offset Clarity Act failure, but risks remain",
+        "url": "https://www.theblock.co/news/regulation/2026-10-22-jpmorgan-crypto-regulatory-moves-clarity-act-failure-risks-423473",
+        "published_at": "2026-10-22T19:14:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta Creates Non-Voting Stock to Fund AI Buildout, Keeping Zuckerberg in Control",
+        "url": "https://decrypt.co/381640/meta-non-voting-stock-fund-ai-buildout-zuckerberg-control",
+        "published_at": "2026-10-22T19:06:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blockchain Association pushes for crypto tax clarity as broader bill stalls",
+        "url": "https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475",
+        "published_at": "2026-10-22T18:59:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Fined Again in Ireland, This Time $3.6M Over Fund Safeguarding",
+        "url": "https://decrypt.co/381638/coinbase-fined-again-ireland-3-6m-fund-safeguarding",
+        "published_at": "2026-10-22T18:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 6,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
