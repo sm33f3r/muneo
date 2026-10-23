@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-23T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2747403269974.59,
+    "total_market_cap_change_24h_pct": -2.2791,
+    "total_volume_24h_usd": 63553468289.28,
+    "btc_dominance_pct": 59.4246,
+    "eth_dominance_pct": 10.6583,
+    "total2_usd": 1114769111440.07,
+    "total3_usd": 821942428551.52,
+    "active_cryptocurrencies": 22458,
+    "altcoin_season_index": 45,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "IRYS",
+        "name": "Irys",
+        "price_change_24h_pct": 212.0921,
+        "price_usd": 0.068729,
+        "market_cap_usd": 137712545
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 25.0325,
+        "price_usd": 0.03904728,
+        "market_cap_usd": 890010996
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 12.7936,
+        "price_usd": 1.79,
+        "market_cap_usd": 2691735011
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": 10.3266,
+        "price_usd": 0.166535,
+        "market_cap_usd": 166541970
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 10.3204,
+        "price_usd": 2.63,
+        "market_cap_usd": 158001043
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -8.9689,
+        "price_usd": 3.26,
+        "market_cap_usd": 815115912
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -7.8238,
+        "price_usd": 0.111835,
+        "market_cap_usd": 526239959
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": -7.0843,
+        "price_usd": 0.744006,
+        "market_cap_usd": 634090137
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -6.9693,
+        "price_usd": 0.484242,
+        "market_cap_usd": 143655089
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -6.3785,
+        "price_usd": 0.473364,
+        "market_cap_usd": 234446423
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81360,
+    "price_change_24h_pct": 0.0841,
+    "price_change_7d_pct": -0.1641,
+    "market_cap_usd": 1635589158449,
+    "volume_24h_usd": 22647897219,
+    "direction": "neutral",
+    "oi_usd": 7519451316.48,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.980952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1114,
+    "long_account_pct": 67.86,
+    "short_account_pct": 32.14,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2401.0,
+    "price_change_24h_pct": 0.6427,
+    "price_change_7d_pct": -0.407,
+    "market_cap_usd": 293296045182,
+    "volume_24h_usd": 9745375224,
+    "eth_btc_ratio": 0.029511,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 90468646445.74,
+    "stablecoin_market_cap_usd": 304447561128.77,
+    "stablecoin_dominance_pct": 11.0813
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Trump says US may do another military operation against Iran - Reuters",
+        "summary": "Trump says US may do another military operation against Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjhrQTB6UmEzUzQ0N1RPV1BiZXhoaGdyWmhCTVpTTWgydnE3aEd0WHJHXzlpR09JXzh0SVpGSHkzc0JJR2g4M21MbVM1dUljQzd4UWNrSnlDWkw2SlgzOHlITmpJNHpuTTAtMmdPMXdXR0JGQlF4LUtHMTUxSWdWeVRoZVhMRlJtY0NmNHp4enJ2NzVwdE5xUm1zdVRfZ0pYdE0wRGFpU0k0eGpMZTlpNEl2bmQ?oc=5",
+        "published_at": "2026-10-23T20:05:43Z"
+      },
+      {
+        "headline": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
+        "summary": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5",
+        "published_at": "2026-10-23T20:04:09Z"
+      },
+      {
+        "headline": "Seven killed as gunmen open fire at church in Jordan, authorities say - Reuters",
+        "summary": "Seven killed as gunmen open fire at church in Jordan, authorities say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2lOTkU3cVRlN2NTOWxzMWZYZnZUSjBZeWV6VHprNk44Q0pWLXdaMjF6QU1iS1JjV2RLdkFkM2NyVUtTOXpDdHg3SThHN2tFZFozTGZIdlVaVzBqUFV2STZCMXcwbjMycDNTNWppUDdSTVZBaWxqTTR4dk5kWkFrTDM2TzVkYi1oNTNwTjluU2NmTmY5cHkxbEhhWGR4VUt5QTJub2hkalo1WExtNVc2MEoybC1YWkQxbnNoZ3l6QzB6c1lOdGJhZTdB?oc=5",
+        "published_at": "2026-10-23T19:38:28Z"
+      },
+      {
+        "headline": "POLL Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March - Reuters",
+        "summary": "POLL Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXBVcldURXc1c3hRcmpNWXdhcWRVR1hibkVqNF9YM1V4NzIzdmlDUzlGZHpjaVJWQlp3M1N2ckpRMzlSdlZZRTRJcVloUTNnR0l4UE1fSXlhTXpZWFlqVGdYWEljWG9DdWpXRGQyaUlvVkdyNUlhZjF0TS1iRWNLYTZjZjNZZXc0Zi1fUzdvWm0xYWk4VmNiaU9WdHhVUno5WTBxMGhkNWpkZWVJUXA4bVdtYw?oc=5",
+        "published_at": "2026-10-23T18:54:28Z"
+      },
+      {
+        "headline": "CrowdStrike CEO's alarming prediction \u2014 plus, the sell-off spreads beyond tech",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/23/crowdstrikes-alarming-prediction-plus-sell-off-spreads-beyond-tech.html",
+        "published_at": "2026-10-23T18:49:56Z"
+      },
+      {
+        "headline": "Investors are starting to find opportunities in the battered bond market",
+        "summary": "Some market participants see reason for hope in a market bludgeoned this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+        "published_at": "2026-10-23T17:40:31Z"
+      },
+      {
+        "headline": "Building collapses in Kenyan capital, rescuers on the scene - Reuters",
+        "summary": "Building collapses in Kenyan capital, rescuers on the scene\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYVpLTzd4NkFaVmRUa3lENmlHdGxvZmJuWHN0TG1DeXVNbXhlSkVDc3RxeV91MkNLYjJtdUlQY1BlUXo0TlFuOXZNTGpFd1JoWVRFMERXTVlYZEpqb2Y5WTFqd1ptMVd0ZmVjM0hWLWxtWmMtQWpyd0dhYVpaTlJZbDVfS0VQY1hMTTdZWXdtUjdmc0tENjFUMUlWNHY3QQ?oc=5",
+        "published_at": "2026-10-23T17:17:50Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
+        "summary": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5",
+        "published_at": "2026-10-23T17:08:44Z"
+      },
+      {
+        "headline": "College campuses have (largely) gone silent. Can practicing small talk and phone-free spaces change that?",
+        "summary": "College students are spending less time socializing, which has implications for later in life and the workplace.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/23/college-students-socializing-less-campus-life.html",
+        "published_at": "2026-10-23T16:44:35Z"
+      },
+      {
+        "headline": "US fines Air France, KLM over flights in prohibited Iraqi airspace - Reuters",
+        "summary": "US fines Air France, KLM over flights in prohibited Iraqi airspace\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRmlDdXhrR2VhUFlYLXFkR3JtSzlGYTZ2Sng0SUNucWQ3bmt3bGtyLUNoYnFOR3luc1FhdFFTTG5NdVAzdm1nay1iSE1RU3FKd0pmZ2JrYURHcV9XYWJwd3h1cjZxUURqRXl3RWxZUkplOU9vWU1lQUY2ai1zOUc1T010V2oxak1xSmJLR1ZNRk9Sd1NtRFFfNWFQR214UF9TN1R5UDFNOWl4aF93T0kwRi1nbTFwUU0?oc=5",
+        "published_at": "2026-10-23T16:41:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.6324,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 759.96,
+    "spy_change_pct": -0.5236,
+    "spy_lean": "bearish",
+    "vix_close": 19.03,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 81360.12,
+    "coinbase_premium_pct": 0.000147,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-23T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": -0.589,
+        "prev_close": 212.21
+      },
+      "AMD": {
+        "close": 516.79,
+        "change_pct": 1.7443,
+        "prev_close": 507.93
+      },
+      "TSM": {
+        "close": 418.51,
+        "change_pct": 1.4939,
+        "prev_close": 412.35
+      },
+      "SMCI": {
+        "close": 32.94,
+        "change_pct": -2.3132,
+        "prev_close": 33.72
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.4,
+        "change_pct": -0.0099,
+        "prev_close": 704.47
+      },
+      "SOXX": {
+        "close": 478.2,
+        "change_pct": 0.5277,
+        "prev_close": 475.69
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-22",
+    "total_net_inflow_usd": -635492639.39,
+    "total_net_assets_usd": 104707576993.8,
+    "total_value_traded_usd": 2555720648.4,
+    "cum_net_inflow_usd": 57320800662.9,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81360,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 48,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 45,
+    "positive_count": 10,
+    "negative_count": 9,
+    "neutral_count": 26,
+    "sentiment_ratio": 0.2222,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
+        "url": "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-23T20:54:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Senate Democrat Probes Tether Payments to Ex-White House Crypto Adviser\u2019s Firm",
+        "url": "https://decrypt.co/381755/senate-democrat-tether-payments-ex-white-house-crypto-adviser",
+        "published_at": "2026-10-23T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He\u2019s Staying Out Of",
+        "url": "https://decrypt.co/381753/spacex-filing-elon-musk-final-word-tesla-merger",
+        "published_at": "2026-10-23T19:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Flags AI 'Super Intelligence' and Tokenization as Systemic Market Risks",
+        "url": "https://decrypt.co/381745/sec-ai-super-intelligence-tokenization-2027-exam-list",
+        "published_at": "2026-10-23T18:54:55+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Initia halts blockchain after exploit reportedly drains over $2.6M",
+        "url": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-23T18:39:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-netanyahu-israel-blockchain-plan-possible-sanctions-427792",
+        "published_at": "2026-10-23T18:15:55+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How I Vibe Coded My Smart TV\u2014And Claude Killed It",
+        "url": "https://decrypt.co/381717/how-vibe-coded-my-smart-tv-claude-killed-it",
+        "published_at": "2026-10-23T17:53:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sen. Blumenthal seeks answers from Tether over payments to firm founded by ex-White House crypto adviser",
+        "url": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
+        "published_at": "2026-10-23T17:46:09+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
+        "url": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-23T17:42:12+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Core Rewrites Its Security Policy for a World Where AI Finds Bugs in One Prompt",
+        "url": "https://decrypt.co/381715/bitcoin-core-security-policy-ai-threats",
+        "published_at": "2026-10-23T17:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
