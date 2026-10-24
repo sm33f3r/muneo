@@ -1,0 +1,419 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-24T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2704045109010.19,
+    "total_market_cap_change_24h_pct": -4.0228,
+    "total_volume_24h_usd": 61871978667.85,
+    "btc_dominance_pct": 59.5034,
+    "eth_dominance_pct": 10.5244,
+    "total2_usd": 1095047490782.14,
+    "total3_usd": 810462770071.19,
+    "active_cryptocurrencies": 22485,
+    "altcoin_season_index": 41,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DAI",
+        "name": "DAI on PulseChain",
+        "price_change_24h_pct": 129.7907,
+        "price_usd": 0.00272632,
+        "market_cap_usd": 120942405
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 10.4752,
+        "price_usd": 0.078547,
+        "market_cap_usd": 122499827
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "price_change_24h_pct": 3.7667,
+        "price_usd": 0.07723,
+        "market_cap_usd": 607717145
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": 2.7741,
+        "price_usd": 609.49,
+        "market_cap_usd": 11474991413
+      },
+      {
+        "symbol": "CVX",
+        "name": "Convex Finance",
+        "price_change_24h_pct": 2.7349,
+        "price_usd": 2.5,
+        "market_cap_usd": 233353778
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -30.5212,
+        "price_usd": 0.077761,
+        "market_cap_usd": 366010386
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -20.3179,
+        "price_usd": 0.03124684,
+        "market_cap_usd": 712364832
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -12.6239,
+        "price_usd": 0.32067,
+        "market_cap_usd": 284087406
+      },
+      {
+        "symbol": "WLD",
+        "name": "Worldcoin",
+        "price_change_24h_pct": -9.6581,
+        "price_usd": 0.464998,
+        "market_cap_usd": 1729760634
+      },
+      {
+        "symbol": "FARTCOIN",
+        "name": "Fartcoin",
+        "price_change_24h_pct": -9.5089,
+        "price_usd": 0.126864,
+        "market_cap_usd": 126817484
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80272,
+    "price_change_24h_pct": -1.3517,
+    "price_change_7d_pct": -1.3163,
+    "market_cap_usd": 1614246446868,
+    "volume_24h_usd": 23453654826,
+    "direction": "bearish",
+    "oi_usd": 7685325966.96,
+    "funding_rate_latest": 9.6e-06,
+    "funding_rate_7d_avg": 5.547333333333333e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1636,
+    "long_account_pct": 68.39,
+    "short_account_pct": 31.61,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2336.64,
+    "price_change_24h_pct": -2.7358,
+    "price_change_7d_pct": -2.969,
+    "market_cap_usd": 285545065079,
+    "volume_24h_usd": 9728377093,
+    "eth_btc_ratio": 0.029109,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88973401053.15,
+    "stablecoin_market_cap_usd": 304133515124.91,
+    "stablecoin_dominance_pct": 11.2474
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 22,
+    "headlines": [
+      {
+        "headline": "Houthis say they targeted Saudi oil sites; attacks reported in Aden - Reuters",
+        "summary": "Houthis say they targeted Saudi oil sites; attacks reported in Aden\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
+        "published_at": "2026-10-24T19:24:39Z"
+      },
+      {
+        "headline": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+        "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+        "published_at": "2026-10-24T16:14:00Z"
+      },
+      {
+        "headline": "Libya's Dbeibah says ready to address Egypt's maritime concerns - Reuters",
+        "summary": "Libya's Dbeibah says ready to address Egypt's maritime concerns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmxsRWg3NGtsREw4YWtPYlZUcjJVN0FJcDJkbzY1ZjdycTZzVzNjVFpwajFzTk9pT1V5QW5JdmQyMWNaOTIxU1pGdHRQQ2ZXcnh2UnFFQTJjUUlrSlpTZVBkNHBvaGpVY3JZMjZoSkliSWYxWm44dEpaQTdsNmNrb0RMV1FfX0p5eUpSQWFCYkpQRWE4WXllX1FYTW1IbE01SDk2bjVpNHVLOHI5RnllbE93?oc=5",
+        "published_at": "2026-10-24T16:04:09Z"
+      },
+      {
+        "headline": "Iran has ramped up efforts to target US personnel, intelligence memo warns - Reuters",
+        "summary": "Iran has ramped up efforts to target US personnel, intelligence memo warns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?oc=5",
+        "published_at": "2026-10-24T16:03:43Z"
+      },
+      {
+        "headline": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation - Reuters",
+        "summary": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0lFZzBBODd6NDh2OUEyNmMwbFUyalpDRFpwVkVRVkR2VzlOLWdTU1N1ZmhEaFBzaUFmWUVEMFBrdDFDMVF3WVlQWHh5VVFVd2R6LVM5b3VxakFlNVhwQlNwcHVhaHV0dDZuYjgzSU5qUTdtalpZd2tmQlFxN3ZtcmNpaTdvM3hCUlhMck5ubkphU25lT2dFU0ZvSDVXNEE0amJ1X3IwLU82a2M3TWROaU1SYWhhdHJuQmpLTzZtckhsaVdwODdaOTNaNkk?oc=5",
+        "published_at": "2026-10-24T16:02:08Z"
+      },
+      {
+        "headline": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+        "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+        "published_at": "2026-10-24T15:00:01Z"
+      },
+      {
+        "headline": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+        "summary": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+        "published_at": "2026-10-24T14:36:01Z"
+      },
+      {
+        "headline": "Jordan church attack survivor says assailant pointed handgun at him - Reuters",
+        "summary": "Jordan church attack survivor says assailant pointed handgun at him\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZVhBcHBITVRDY2hGb1hueUEwVnhWbUhBc3dvc2NXTk5Yd3NybDQyUW15R3NfVnBmOHpJLVo5b2UyVmN5NjdURndGT2xQb05hSlE4UU52cnFYMDdjbnlQTm9LRHpBSkdLSDUtTlhKdGJYVjN1cGY3c2hEelZjN3FhRXM1X0ZYbVk1Q05lX3ZPdWtBRHE4U3BHUjJtNUpMemJTbXhRcEVERGFZTUt2QW1JbXlSWUpWOGZ6UWc?oc=5",
+        "published_at": "2026-10-24T14:10:20Z"
+      },
+      {
+        "headline": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
+        "summary": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
+        "published_at": "2026-10-24T14:00:01Z"
+      },
+      {
+        "headline": "Iran's Pezeshkian blames US for interim deal failure, urges new try - Reuters",
+        "summary": "Iran's Pezeshkian blames US for interim deal failure, urges new try\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0xVa2UzLXppdXQ4c2xJaWNFcUlFWWswS3NYT0ZwQkZ3by1HNGJTakpQTDdUYzhSTUpwUHMzRnMtRzNEWmhieTJqTjZOdTlUN3c3YlNFMHVGd2V5RUZUcXNnbXFMMTlQLVBsRXNUT0ZndHM5SmswcFE5U0dCRlBnMndsNnRIQk00OXhIMnFzVDlSTWVVUjJGNkdnUFprRXBhY01RdnJFcnUzb1pzMDd4Ri1nUUdJdw?oc=5",
+        "published_at": "2026-10-24T13:27:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.754,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 759.97,
+    "spy_change_pct": -0.5223,
+    "spy_lean": "bearish",
+    "vix_close": 19.03,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 80200.0,
+    "coinbase_premium_pct": -0.089695,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-24T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": -0.589,
+        "prev_close": 212.21
+      },
+      "AMD": {
+        "close": 516.79,
+        "change_pct": 1.7443,
+        "prev_close": 507.93
+      },
+      "TSM": {
+        "close": 418.51,
+        "change_pct": 1.4939,
+        "prev_close": 412.35
+      },
+      "SMCI": {
+        "close": 32.94,
+        "change_pct": -2.3132,
+        "prev_close": 33.72
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.4,
+        "change_pct": -0.0099,
+        "prev_close": 704.47
+      },
+      "SOXX": {
+        "close": 478.2,
+        "change_pct": 0.5277,
+        "prev_close": 475.69
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-22",
+    "total_net_inflow_usd": -635492639.39,
+    "total_net_assets_usd": 104707576993.8,
+    "total_value_traded_usd": 2555720648.4,
+    "cum_net_inflow_usd": 57320800662.9,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80272,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 8,
+    "positive_count": 0,
+    "negative_count": 2,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
+        "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+        "published_at": "2026-10-24T17:44:36+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads",
+        "url": "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads",
+        "published_at": "2026-10-24T17:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no \u2018criminally relevant deception\u2019",
+        "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+        "published_at": "2026-10-24T16:24:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot",
+        "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+        "published_at": "2026-10-24T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Game Publishers Have Pushed to Cut Discs Since 2007, Infinity Ward Veteran Says",
+        "url": "https://decrypt.co/381674/game-publishers-have-pushed-to-cut-discs-since-2007-infinity-ward-veteran-says",
+        "published_at": "2026-10-24T15:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hong Kong\u2019s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
+        "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets",
+        "published_at": "2026-10-24T13:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
+        "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-23T21:32:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
+        "url": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel",
+        "published_at": "2026-10-23T21:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 8,
+    "neutral_count": 7,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
