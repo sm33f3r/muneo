@@ -1,0 +1,397 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-25T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2686553299579.45,
+    "total_market_cap_change_24h_pct": -3.5377,
+    "total_volume_24h_usd": 39104393997.44,
+    "btc_dominance_pct": 60.0175,
+    "eth_dominance_pct": 10.6328,
+    "total2_usd": 1074150082774.11,
+    "total3_usd": 788494982473.04,
+    "active_cryptocurrencies": 22500,
+    "altcoin_season_index": 63,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 36.7889,
+        "price_usd": 0.107745,
+        "market_cap_usd": 167932838
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 11.5035,
+        "price_usd": 0.710829,
+        "market_cap_usd": 497525248
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": 8.7498,
+        "price_usd": 0.205831,
+        "market_cap_usd": 2760682095
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": 8.4796,
+        "price_usd": 0.04329307,
+        "market_cap_usd": 252879790
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": 8.2738,
+        "price_usd": 191.38,
+        "market_cap_usd": 2785269781
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -23.1913,
+        "price_usd": 0.059704,
+        "market_cap_usd": 281066760
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compound",
+        "price_change_24h_pct": -8.5692,
+        "price_usd": 21.45,
+        "market_cap_usd": 214496699
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": -5.8828,
+        "price_usd": 0.00298129,
+        "market_cap_usd": 152941466
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -4.6269,
+        "price_usd": 1.68,
+        "market_cap_usd": 2533482614
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -4.4155,
+        "price_usd": 0.305528,
+        "market_cap_usd": 270725952
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80401,
+    "price_change_24h_pct": 0.1802,
+    "price_change_7d_pct": -0.5248,
+    "market_cap_usd": 1616381998201,
+    "volume_24h_usd": 12934395794,
+    "direction": "neutral",
+    "oi_usd": 7500719841.38,
+    "funding_rate_latest": 8.027e-05,
+    "funding_rate_7d_avg": 5.792952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1201,
+    "long_account_pct": 67.95,
+    "short_account_pct": 32.05,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2343.1,
+    "price_change_24h_pct": 0.3088,
+    "price_change_7d_pct": 0.3772,
+    "market_cap_usd": 286274964502,
+    "volume_24h_usd": 5726125549,
+    "eth_btc_ratio": 0.029143,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 89383368268.11,
+    "stablecoin_market_cap_usd": 303335079119.64,
+    "stablecoin_dominance_pct": 11.2909
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Sri Lanka rescues 40 Iranian sailors, spokesman says - Reuters",
+        "summary": "Sri Lanka rescues 40 Iranian sailors, spokesman says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlpiem5XSDBRRmZVd1BHdS1GaGppQVhLQkVhWkFaU3dvYTl6UkJ5MnZySmFpUkxfb2xZMy14V1pQTlRURmQ3eUNISklSZlVkMkVOZjBja1ZCNkxaaHo4c3IzYUk3VEczNWR0RzFSVEhfXzRUWEliODc2Y1hNSC0wbk5hdWFoUG9IYmxtMURiOHhtYVB1SHJRTWNEbDdBV3dvWXdKTF9lQ2s1Zw?oc=5",
+        "published_at": "2026-10-25T17:06:58Z"
+      },
+      {
+        "headline": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government - Reuters",
+        "summary": "Billionaire Trump backer says Ben-Gvir, Smotrich should not serve in next Israeli government\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSlk2VkFXVkdJWWhnUXFnSFNuN25YOHpiSHdWczV3X3BHQURLcVhtVzdIVXlRbE5CWU9KSG45dkNqemxwZXBSRHpMR2hkdmhRSFhrNkpHU2dZa2RNbm1hQ3dMTUQtWGlIbElrNHhrb2Zsem4xY19hOHoxNmNlMjJPb3BUd2YybklKZXREeVNKZVNBRGJHTW5jcG5LaVdzZUhLTExFT3ZBV0Nwc29NRXhZXzJFbkRQTjR5UDQ5dVo4b2Jhcm5oVzF3ekt0MA?oc=5",
+        "published_at": "2026-10-25T16:37:54Z"
+      },
+      {
+        "headline": "Here are 4 big things we're watching in the stock market this week",
+        "summary": "Peak earnings season, plus a Fed meeting and fresh inflation data.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-10-25T14:58:26Z"
+      },
+      {
+        "headline": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+        "summary": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
+        "published_at": "2026-10-25T14:00:01Z"
+      },
+      {
+        "headline": "Should you travel together? Ask these questions before booking: 'It'll save you time, money and disappointment'",
+        "summary": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-making.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html",
+        "published_at": "2026-10-25T13:38:01Z"
+      },
+      {
+        "headline": "Most Gulf shares close lower as Saudi-Houthi fighting rages on - Reuters",
+        "summary": "Most Gulf shares close lower as Saudi-Houthi fighting rages on\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5",
+        "published_at": "2026-10-25T13:20:32Z"
+      },
+      {
+        "headline": "Jordan church attack survivor says her cousin died before her eyes - Reuters",
+        "summary": "Jordan church attack survivor says her cousin died before her eyes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVTFxbDBEOEdFZFEwX29PZzd0QTNuYm11VXE5ekQ1bUgtQjVGeU1lbHdjVG9BR21DcENBLU5BeWFCeERYd2Y4bWp4OHFEclBuWlRUQ3ltUkduNFlQOXNwSTV6ZHJ4Qi02ZGQyakE1a0lfNldTM2RBQ3dVbEJHcWpSWE96b3FKUWstUjh6aExqcTdPMmdhMkRpbEhjcEtpak5YMmFfOThiTmh4ZGd5Z2lGMk1Ucjh0U2lDQjlRZQ?oc=5",
+        "published_at": "2026-10-25T12:45:27Z"
+      },
+      {
+        "headline": "Disenchanted Netanyahu supporters are prize of Israel election campaign - Reuters",
+        "summary": "Disenchanted Netanyahu supporters are prize of Israel election campaign\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkR4bHJlcGYyMi1nYkI4Wm9SeThiSEh4ZUVrdHM1NnpJSjV4eWdVOUxOWS13NzhWZ3RLbXY4Skp2aVhhT0ZUOFR1a0pNYkZzRFRjVjEtSEttMjY1Z1RKMHNvZFI5RVZidV9ONzFuc1lfdjFnRlJlUG84Qy1SNmM5UFkwU0FGYmFLeXFiYTlqU2hsci01T2JwVW1PZFZKT0RCVlVpMTg5VVZDQktaTi01R1pDc2p3RVN3YmpWeWlER1I?oc=5",
+        "published_at": "2026-10-25T11:18:55Z"
+      },
+      {
+        "headline": "Four ways US foreign policy could change if Democrats win in November - Reuters",
+        "summary": "Four ways US foreign policy could change if Democrats win in November\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVRLMHJmdldMQ1h3TUZkbmpNUUZqUlVTY1VPaTNpU0JLc2xua051SmgtQUJzcFlnRjV3a3VaWVctNFM0dF80X2VKMlM5UTNIQkV4YmJ4TTAxdDFVS2EtdFN6R2pfTDVTVnNfZjJOYXdxbTV3eGxQeUFPZV85ZjBNb0I2dlpVdU9DQkhDaWI2Z214Wko2cUVLenFCYWUtLVY5WF9ydlJOTmlkdjN4RloxQQ?oc=5",
+        "published_at": "2026-10-25T11:02:30Z"
+      },
+      {
+        "headline": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports - Reuters",
+        "summary": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjlxWUNjczg2SHFQamFEZDV0SVhZaHA5bFdqaVQzT1oxSjd0b2ZQQjd6MldHeEhKcUstbGJEa1QxMmFBMFhad2VnREVIa2xoT0tPWlFXVW5lcXVEYjMwdUd5NTRIYm0zTFpabXUxY2pCakRGM3JnWE1iNHc3MmtlbWduRno3ZWVGVWVpa2JtRjF4VDh5TEFHN21hUV9sQUhxOWpJMVVPNlhFMDd5SkJMekZkTFdtQzlnYnBQNkd2MG1TNzZy?oc=5",
+        "published_at": "2026-10-25T07:22:39Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.754,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.4048,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 759.97,
+    "spy_change_pct": -0.5223,
+    "spy_lean": "bearish",
+    "vix_close": 19.03,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 80385.31,
+    "coinbase_premium_pct": -0.019515,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-25T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 210.96,
+        "change_pct": -0.589,
+        "prev_close": 212.21
+      },
+      "AMD": {
+        "close": 516.79,
+        "change_pct": 1.7443,
+        "prev_close": 507.93
+      },
+      "TSM": {
+        "close": 418.51,
+        "change_pct": 1.4939,
+        "prev_close": 412.35
+      },
+      "SMCI": {
+        "close": 32.94,
+        "change_pct": -2.3132,
+        "prev_close": 33.72
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 704.4,
+        "change_pct": -0.0099,
+        "prev_close": 704.47
+      },
+      "SOXX": {
+        "close": 478.2,
+        "change_pct": 0.5277,
+        "prev_close": 475.69
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-22",
+    "total_net_inflow_usd": -635492639.39,
+    "total_net_assets_usd": 104707576993.8,
+    "total_value_traded_usd": 2555720648.4,
+    "cum_net_inflow_usd": 57320800662.9,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80401,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 44,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 6,
+    "positive_count": 1,
+    "negative_count": 0,
+    "neutral_count": 5,
+    "sentiment_ratio": 0.1667,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "CoinDCX confirms $16 million loss from retired wallets days after CEO called breach reports a \u2018false alarm\u2019",
+        "url": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617",
+        "published_at": "2026-10-25T18:46:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks",
+        "url": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
+        "published_at": "2026-10-25T16:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Keystone customers say breach exposed data the hardware wallet maker promised to delete",
+        "url": "https://www.theblock.co/news/business/2026-10-25-keystone-customers-say-breach-exposed-data-the-hardware-wallet-maker-promised-to-delete-431613",
+        "published_at": "2026-10-25T15:56:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019",
+        "url": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-25T15:11:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Snap Two-Week Losing Streak Despite Late-Week Slide",
+        "url": "https://decrypt.co/381777/bitcoin-etfs-snap-two-week-losing-streak-despite-late-week-slide",
+        "published_at": "2026-10-25T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+        "url": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-25T11:42:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
