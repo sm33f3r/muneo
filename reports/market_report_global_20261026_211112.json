@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-26T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2688155040032.86,
+    "total_market_cap_change_24h_pct": -2.4854,
+    "total_volume_24h_usd": 72914396415.01,
+    "btc_dominance_pct": 59.4707,
+    "eth_dominance_pct": 10.4316,
+    "total2_usd": 1089491028927.73,
+    "total3_usd": 809074103808.53,
+    "active_cryptocurrencies": 22507,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 141.4712,
+        "price_usd": 0.143193,
+        "market_cap_usd": 674151923
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 11.8001,
+        "price_usd": 0.0033441,
+        "market_cap_usd": 171506887
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 7.8313,
+        "price_usd": 0.039907,
+        "market_cap_usd": 662779599
+      },
+      {
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "price_change_24h_pct": 6.6922,
+        "price_usd": 0.03356808,
+        "market_cap_usd": 669581134
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": 5.9233,
+        "price_usd": 0.315614,
+        "market_cap_usd": 176564291
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -32.6533,
+        "price_usd": 1.14,
+        "market_cap_usd": 1710678897
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -11.457,
+        "price_usd": 0.1505,
+        "market_cap_usd": 150569617
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -11.2796,
+        "price_usd": 0.00758792,
+        "market_cap_usd": 5393474792
+      },
+      {
+        "symbol": "ZRO",
+        "name": "LayerZero",
+        "price_change_24h_pct": -8.5112,
+        "price_usd": 1.62,
+        "market_cap_usd": 646170586
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": -8.1941,
+        "price_usd": 0.099228,
+        "market_cap_usd": 154941274
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79798,
+    "price_change_24h_pct": -0.7832,
+    "price_change_7d_pct": -2.4984,
+    "market_cap_usd": 1604299968863,
+    "volume_24h_usd": 29263393228,
+    "direction": "neutral",
+    "oi_usd": 7592820157.59,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.637523809523809e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2279,
+    "long_account_pct": 69.02,
+    "short_account_pct": 30.98,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2303.94,
+    "price_change_24h_pct": -1.6806,
+    "price_change_7d_pct": -3.7151,
+    "market_cap_usd": 281258040625,
+    "volume_24h_usd": 10692395124,
+    "eth_btc_ratio": 0.028872,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88479628095.2,
+    "stablecoin_market_cap_usd": 303106761715.4,
+    "stablecoin_dominance_pct": 11.2756
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 48,
+    "headlines": [
+      {
+        "headline": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+        "summary": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+        "published_at": "2026-10-26T20:39:45Z"
+      },
+      {
+        "headline": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+        "summary": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUluTlhFbGtJMWMtZ09ieVhSblh2b0Y4cWpleDVwWUVfUWVyanZIOHFhenFqaWRYZ0U0cEd6MFVjQk5xSXZkWjJNRmM4ZWdPa01KTHBRRjVHRnJPRWtlbGRwWFBNOFJnQ3F5Z2JZbjVFVE5ERUxDdmozN0FPUjRkaUpVNGIwRUFTVXhROU95dC1wby0wX2xzTlg2ODlZeDR2cmM3bHFFaHItbGJ6X3gxT2lwX0FONW11aGtoeWFXQmhmc00tWnlQZEhHQQ?oc=5",
+        "published_at": "2026-10-26T20:00:12Z"
+      },
+      {
+        "headline": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
+        "summary": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5",
+        "published_at": "2026-10-26T19:18:06Z"
+      },
+      {
+        "headline": "Mindful of the markets, UK's Healey is set to deliver a careful budget - Reuters",
+        "summary": "Mindful of the markets, UK's Healey is set to deliver a careful budget\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1FFNVNXLU1fbUd1NzRQT2wxeWUwRWlQU1M2X21RSGhMMzB1dzl2NmpZVG1HQ0I4RzZHRHA5elBfSHRvUmFDdWZLb1AyTERDVkxmdXJsR1ZORkQyZ29LVjZrWVl1TzcxNXFqNTRXOGp4cDZiSllBY1UzRnFsNWM2bkJwd1FUSlZDUzFoS2RRWE9XZHExUUUtSzBrcWNIUDVpZjRZ?oc=5",
+        "published_at": "2026-10-26T18:58:30Z"
+      },
+      {
+        "headline": "J&J's potential 'game-changer' drug \u2014 plus, what Microsoft's mass buyouts mean",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/26/jjs-potential-game-changer-drug-plus-what-microsofts-buyouts-mean.html",
+        "published_at": "2026-10-26T18:45:33Z"
+      },
+      {
+        "headline": "UN inquiry says Israel kept committing genocide in Gaza after truce - Reuters",
+        "summary": "UN inquiry says Israel kept committing genocide in Gaza after truce\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN2xxeTlxYThOMDR2al9fZldibDQ4bUJBczVwTEJsRGJxQUJZeWZzZWphQTlzd3pqaW1rUFJvU2VLUElyOGduUDVNYXh2eFFzNHQzU2x0OTRZMGxldlA5bXVtcWcySTdUOS1KOTBVLXNjc1JGcy0tdnFnUjRNM1RyVzk3ZFZza2dhQkhSUkE4TTFBM2RfeF9OTzRLcExrOEw0S25vMjR3aFlRcExuWE83V3dCUGQtSE5Fanc?oc=5",
+        "published_at": "2026-10-26T18:27:44Z"
+      },
+      {
+        "headline": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations - Reuters",
+        "summary": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUdmRHBJcVJmcko1NVpEVHRETC1hVFI2NFhYLXdvcFBuVFJxRFA3X0FmWWR2ZWFEelRWbHJfdDc5b3RhNFI4SzB1OXBLWkcwbnF0amRmTXJYVXFKa1Z1eFV5T3FZSzV6SWlxUUpMenZ1WG5hbzAybGFWb1luMU10NjVFbHBrM0d3UlEwVWVqanVfLThBTXRNbWxhZ0ZodjZRZHFsTXhkMUVaMVVaaS1xdzJQNXY?oc=5",
+        "published_at": "2026-10-26T15:51:19Z"
+      },
+      {
+        "headline": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+        "summary": "The judge ordered that Comey, the daughter of ex-FBI director James Comey, be retroactively reinstated to her job as an assistant United States attorney.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html",
+        "published_at": "2026-10-26T15:28:02Z"
+      },
+      {
+        "headline": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
+        "summary": "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckIwZ1pHUU1CZ1VHMmpaR3NBZmJkZkJwRlBvUjJzVTFGbXFySzkybTUxV2Jqa1R3S0dGbGhJdDNmRVdtTkRfVU5pcU1HVjVNNU51NGZHamZhdGxIUjJOS0lRYTNPejFYTHNrMVFHRjRpMTF5aWRST1JTSEpIN3ZKZUVCbXpwUjU1UXdrbGpWR21vVGN0RkVDUzVNaFpmbE1FTkRlSlNnOHQ0MVVFZ1VnWkRBSDNLZjhkY3JzME1B?oc=5",
+        "published_at": "2026-10-26T15:21:44Z"
+      },
+      {
+        "headline": "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
+        "summary": "Hezbollah readies for new regional war with funds from Iran, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?oc=5",
+        "published_at": "2026-10-26T14:53:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.754,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 765.31,
+    "spy_change_pct": 0.7027,
+    "spy_lean": "bullish",
+    "vix_close": 19.45,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 79833.47,
+    "coinbase_premium_pct": 0.04445,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-26T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 216.0,
+        "change_pct": 2.3891,
+        "prev_close": 210.96
+      },
+      "AMD": {
+        "close": 531.28,
+        "change_pct": 2.8038,
+        "prev_close": 516.79
+      },
+      "TSM": {
+        "close": 424.37,
+        "change_pct": 1.4002,
+        "prev_close": 418.51
+      },
+      "SMCI": {
+        "close": 32.69,
+        "change_pct": -0.759,
+        "prev_close": 32.94
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 712.2,
+        "change_pct": 1.1073,
+        "prev_close": 704.4
+      },
+      "SOXX": {
+        "close": 491.83,
+        "change_pct": 2.8503,
+        "prev_close": 478.2
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-23",
+    "total_net_inflow_usd": -137936364.81,
+    "total_net_assets_usd": 104432639635.6,
+    "total_value_traded_usd": 1334850085.3,
+    "cum_net_inflow_usd": 57182864298.09,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 79798,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 43,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 52,
+    "positive_count": 7,
+    "negative_count": 10,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.1346,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "NBA Embraces the CFTC on Prediction Markets as the NFL Fights It in Court",
+        "url": "https://decrypt.co/381864/nba-cftc-prediction-markets-nfl-fights-court",
+        "published_at": "2026-10-26T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korea Arrests Seven in First Big AI-Assisted Hacking Case",
+        "url": "https://decrypt.co/381862/south-korea-arrests-seven-first-big-ai-hacking-case",
+        "published_at": "2026-10-26T20:06:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
+        "url": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-26T19:47:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CZ pitches BNB Chain\u2019s role in AI as BNB Standard rings Nasdaq bell",
+        "url": "https://www.theblock.co/news/ecosystems/2026-10-26-cz-pitches-bnb-chains-role-ai-bnb-standard-rings-nasdaq-bell-431790",
+        "published_at": "2026-10-26T19:43:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Found a Way Into Anthropic's Business Systems in Under 12 Hours",
+        "url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours",
+        "published_at": "2026-10-26T19:31:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Prediction Markets Got the Brazilian Election So Wrong",
+        "url": "https://decrypt.co/381858/why-prediction-markets-got-brazilian-election-wrong",
+        "published_at": "2026-10-26T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI company Anthropic announces IPO, expected as early as November",
+        "url": "https://cointelegraph.com/news/anthropic-artificial-intelligence-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-26T18:42:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid says Kraken parent Payward to be first CFTC-regulated HIP-3 deployer",
+        "url": "https://www.theblock.co/news/markets/2026-10-26-hyperliquid-payward-kraken-cftc-regulated-hip-3-deployer-431787",
+        "published_at": "2026-10-26T18:21:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SpaceX Locks Up $40 Billion for AI Chips as Musk Warns Most Neoclouds Will Die",
+        "url": "https://decrypt.co/381848/spacex-40-billion-ai-chips-elon-musk-warns-most-neoclouds-will-die",
+        "published_at": "2026-10-26T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Y Combinator-backed Mochatrade raises $5.5 million to offer US stock perpetuals to Indian traders",
+        "url": "https://www.theblock.co/news/deals/2026-10-26-y-combinator-mochatrade-funding-crypto-431775",
+        "published_at": "2026-10-26T17:55:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 4,
+    "neutral_count": 10,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
