@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-27T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2720206028015.77,
+    "total_market_cap_change_24h_pct": -1.5557,
+    "total_volume_24h_usd": 82817364110.58,
+    "btc_dominance_pct": 59.4795,
+    "eth_dominance_pct": 10.4889,
+    "total2_usd": 1102241229184.6,
+    "total3_usd": 816922270030.04,
+    "active_cryptocurrencies": 22521,
+    "altcoin_season_index": 41,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 44.0937,
+        "price_usd": 1.64,
+        "market_cap_usd": 2464983519
+      },
+      {
+        "symbol": "STONK",
+        "name": "STONK",
+        "price_change_24h_pct": 21.7578,
+        "price_usd": 0.154683,
+        "market_cap_usd": 120968560
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 16.3063,
+        "price_usd": 0.00745996,
+        "market_cap_usd": 444042598
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 12.6489,
+        "price_usd": 1.072,
+        "market_cap_usd": 2455683365
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": 8.7939,
+        "price_usd": 0.732402,
+        "market_cap_usd": 512123577
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -62.8976,
+        "price_usd": 0.053326,
+        "market_cap_usd": 251720345
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -25.3455,
+        "price_usd": 0.02242581,
+        "market_cap_usd": 511619454
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": -6.9781,
+        "price_usd": 0.03949853,
+        "market_cap_usd": 231328628
+      },
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": -6.561,
+        "price_usd": 0.796237,
+        "market_cap_usd": 119450712
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -5.4596,
+        "price_usd": 1.74,
+        "market_cap_usd": 626524017
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80671,
+    "price_change_24h_pct": 1.0475,
+    "price_change_7d_pct": -2.2182,
+    "market_cap_usd": 1621840730645,
+    "volume_24h_usd": 23477894010,
+    "direction": "bullish",
+    "oi_usd": 7764082541.08,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 5.8532380952380956e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.06,
+    "long_account_pct": 67.32,
+    "short_account_pct": 32.68,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2341.67,
+    "price_change_24h_pct": 1.6387,
+    "price_change_7d_pct": -3.8412,
+    "market_cap_usd": 286066094210,
+    "volume_24h_usd": 9218648321,
+    "eth_btc_ratio": 0.029027,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88855105797.51,
+    "stablecoin_market_cap_usd": 303425694463.47,
+    "stablecoin_dominance_pct": 11.1545
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Robinhood quarterly revenue rises 12% as event contracts, options offset crypto slump",
+        "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+        "published_at": "2026-10-27T20:20:57Z"
+      },
+      {
+        "headline": "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
+        "summary": "Credit markets will be closely watching updates from Oracle and other hyperscalers later this week. What to expect.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/27/ai-debt-hyperscaler-earnings.html",
+        "published_at": "2026-10-27T19:57:35Z"
+      },
+      {
+        "headline": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
+        "summary": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5",
+        "published_at": "2026-10-27T19:17:53Z"
+      },
+      {
+        "headline": "What's behind the AI trade comeback \u2014 plus, our take on Intel's latest deal",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/27/the-ai-trade-comeback-plus-our-take-on-latest-intel-deal.html",
+        "published_at": "2026-10-27T18:13:51Z"
+      },
+      {
+        "headline": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' \u2014 investors are split",
+        "summary": "Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
+        "published_at": "2026-10-27T17:26:34Z"
+      },
+      {
+        "headline": "AI investment boom powers US business spending on equipment in September - Reuters",
+        "summary": "AI investment boom powers US business spending on equipment in September\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlJmQ1NMeEVTRlJIWjMxUGJPOXNBMXRLR0VnVlBkVDQwUFlUNkFKOTRnaWFUc2U5YVhxYWF0UnBVWFVkMXd3c2Juclh5a0FnOHMzeUpaOE1NVWhfYWYtVUc2MHBzVXhESFc3RXRpcTM0R3I3V2tpcFVpSE5aTkNtaEh4LXZpRjlmMUdHcHMzWUFtdjNzY2hIbmt1WThYSUg4OGVlVA?oc=5",
+        "published_at": "2026-10-27T16:59:18Z"
+      },
+      {
+        "headline": "As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say",
+        "summary": "Companies have posted more seasonal jobs in 2026 than in 2025, boosted by non-retail jobs. Major retailers are, instead, relying on permanent staff.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/27/seasonal-hiring-2026-holiday-jobs.html",
+        "published_at": "2026-10-27T16:40:57Z"
+      },
+      {
+        "headline": "Rights' monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters",
+        "summary": "Rights' monitors raise concerns over senior UAE diplomat bid for next UN boss\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVEo2NDgyNjdJcHpxNTlUcGpCRURGc2JWTjhjSUx0aHBYUEhCcVlTajg1QjRhczNUeVBRS0JURTlMYU9VMGtUVks5MnBCal8wOWI5TTA1eFA4SU8xZDBHanZ2eUZSTVMwbWVVQTRpS2VWNW5STjRVYjBsVHBKRGZEaG1nRERnS1ExTGxad1NfUllEc28tc2k2NnpiU0l6V0h5dF83WmswWUV5YWpaM1Z0UENqTlpFVFFRanI0Z21aaFZ5cGpD?oc=5",
+        "published_at": "2026-10-27T16:40:03Z"
+      },
+      {
+        "headline": "Two men charged in UK over RAF Fairford incident allegedly linked to Iran - Reuters",
+        "summary": "Two men charged in UK over RAF Fairford incident allegedly linked to Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQTFPZl9fajZtLVJ5V3dXM00xVHAtT2p6VUF5X1loNWtHZ2hSZl9CY1ZtdW01SHgxalNGbXpRVTdkZ09LanNSdVBhZ2YtRzJabk1JdFdEU25pWVMyRU40UmhnZ1UwcXpmMG4yVGJzZ1Y5QWlZYVViWVpvMVJUdGlvU0tUYnRuZUhhRHFzNkpsLURLd0w0dXBocjktUXo0Y1IxOWNMOHdGT29kcFBra2NrT2UySTNNbHNXZGFF?oc=5",
+        "published_at": "2026-10-27T16:34:46Z"
+      },
+      {
+        "headline": "Edison, Pakistan gas buyers face QatarEnergy supply halt until year-end - Reuters",
+        "summary": "Edison, Pakistan gas buyers face QatarEnergy supply halt until year-end\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZWRlZmpfTjMzTk8wb2tLV1hzbFprenNTR2JMcDVlWmFUQ3hkemhVVzd3X0loUXlGeHRENDd0Nll3cTh2eUpOSVJNVU53MThUaC1HYjJwSkFpa1BreXRxdm0teFoyZGJpaXowcXgtUmE0OTdSYXdDVzhuV0hCSlZqUjdpMHRNUjJxbDAzNDBfbDRjZjFpZUU2djNfV3RPaENwb1M2TzNUV0xIRUZFTVMtSDVhWmpFQU1ZaG0zZzhEa29Udw?oc=5",
+        "published_at": "2026-10-27T16:20:17Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.0237,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 765.37,
+    "spy_change_pct": 0.7106,
+    "spy_lean": "bullish",
+    "vix_close": 18.39,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 80620.22,
+    "coinbase_premium_pct": -0.062947,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-27T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 217.94,
+        "change_pct": 0.8981,
+        "prev_close": 216.0
+      },
+      "AMD": {
+        "close": 560.26,
+        "change_pct": 5.4548,
+        "prev_close": 531.28
+      },
+      "TSM": {
+        "close": 436.87,
+        "change_pct": 2.9455,
+        "prev_close": 424.37
+      },
+      "SMCI": {
+        "close": 35.09,
+        "change_pct": 7.3417,
+        "prev_close": 32.69
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 721.25,
+        "change_pct": 1.2707,
+        "prev_close": 712.2
+      },
+      "SOXX": {
+        "close": 511.06,
+        "change_pct": 3.9099,
+        "prev_close": 491.83
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-26",
+    "total_net_inflow_usd": 110344120.0,
+    "total_net_assets_usd": 102839745964.25,
+    "total_value_traded_usd": 1863077616.9,
+    "cum_net_inflow_usd": 57293208418.09,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80671,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 45,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 61,
+    "positive_count": 9,
+    "negative_count": 7,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.1475,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
+        "url": "https://www.theblock.co/news/business/2026-10-27-robinhood-chain-brings-in-26-million-crypto-revenue-rises-20-q2-431935",
+        "published_at": "2026-10-27T20:55:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood Misses Q3 Earnings as Crypto Revenue Rises and Prediction Market Bets Grow",
+        "url": "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+        "published_at": "2026-10-27T20:42:11+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says",
+        "url": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-27T20:33:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood Taps Ripple's Stablecoin, Treasury Software and Trading Loans",
+        "url": "https://decrypt.co/382002/robinhood-taps-ripple-stablecoin-treasury-software-trading-loans",
+        "published_at": "2026-10-27T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets",
+        "url": "https://cointelegraph.com/news/ripple-robinhood-expand-partnership-rlusd-retail-institutional-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-27T19:54:05+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Anchorage Positions Itself as Custody Backbone of US-Mexico Stablecoin Corridor",
+        "url": "https://decrypt.co/381988/anchorage-custody-backbone-us-mexico-stablecoin-corridor",
+        "published_at": "2026-10-27T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-27T19:36:13+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC sues Utah to block action against prediction markets",
+        "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-27T19:21:59+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Agents Are Creating a New Layer of Cybersecurity Spending",
+        "url": "https://decrypt.co/381987/ai-agents-creating-new-layer-cybersecurity-spending",
+        "published_at": "2026-10-27T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC sues Utah as battle over prediction market regulation intensifies",
+        "url": "https://www.theblock.co/news/regulation/2026-10-27-cftc-sues-utah-battle-over-prediction-market-regulation-intensifies-431922",
+        "published_at": "2026-10-27T18:51:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 3,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
