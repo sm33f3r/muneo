@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-28T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2743994153175.04,
+    "total_market_cap_change_24h_pct": -1.899,
+    "total_volume_24h_usd": 69268652923.83,
+    "btc_dominance_pct": 59.4581,
+    "eth_dominance_pct": 10.492,
+    "total2_usd": 1112467233470.22,
+    "total3_usd": 824568629830.82,
+    "active_cryptocurrencies": 22564,
+    "altcoin_season_index": 41,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 37.0713,
+        "price_usd": 0.07275,
+        "market_cap_usd": 342562437
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price_change_24h_pct": 13.7943,
+        "price_usd": 5.12e-06,
+        "market_cap_usd": 2153908381
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": 13.4857,
+        "price_usd": 0.287884,
+        "market_cap_usd": 193409712
+      },
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": 7.8355,
+        "price_usd": 0.452921,
+        "market_cap_usd": 143115474
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 7.4092,
+        "price_usd": 1.86,
+        "market_cap_usd": 674150366
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -7.1488,
+        "price_usd": 24.05,
+        "market_cap_usd": 1170858794
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -6.2877,
+        "price_usd": 2.32,
+        "market_cap_usd": 139146764
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -5.0856,
+        "price_usd": 0.695731,
+        "market_cap_usd": 486764898
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -3.7403,
+        "price_usd": 0.00692033,
+        "market_cap_usd": 4923949893
+      },
+      {
+        "symbol": "SFP",
+        "name": "SafePal",
+        "price_change_24h_pct": -3.5005,
+        "price_usd": 0.23736,
+        "market_cap_usd": 118696251
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 81264,
+    "price_change_24h_pct": 0.7123,
+    "price_change_7d_pct": -3.8099,
+    "market_cap_usd": 1633772457088,
+    "volume_24h_usd": 26350108185,
+    "direction": "neutral",
+    "oi_usd": 7765386630.34,
+    "funding_rate_latest": 7.984e-05,
+    "funding_rate_7d_avg": 5.9136666666666666e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.9351,
+    "long_account_pct": 65.93,
+    "short_account_pct": 34.07,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2360.18,
+    "price_change_24h_pct": 0.7691,
+    "price_change_7d_pct": -5.4099,
+    "market_cap_usd": 288349746236,
+    "volume_24h_usd": 9772845449,
+    "eth_btc_ratio": 0.029043,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88533764331.37,
+    "stablecoin_market_cap_usd": 302735033499.16,
+    "stablecoin_dominance_pct": 11.0326
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 44,
+    "headlines": [
+      {
+        "headline": "Phillips 66 posts record quarterly profit on refining strength - Reuters",
+        "summary": "Phillips 66 posts record quarterly profit on refining strength\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcFlWNWowWHgxSWhPRVdoRGpud1VHdVdJUGVSMkhVQ0F2RTJZb09lVHNPVjhwdWl6VGU4NVJjUjdNR2pERHV1ci1ickdBVzdIbmlBbVdLWHlRQW85TjMwQzVrcXFRYmc5TG52Skl1YzUtMHg0THVoWVp0bUxpSFZZc01PeTdJM3pmaDZXaWM1Wm1jNEx1RmFtOWdFdTRVRk1FVVQ5bGZteS1fdEkxclFaM1BoZGJDZVQxVmc?oc=5",
+        "published_at": "2026-10-28T19:35:02Z"
+      },
+      {
+        "headline": "Fed chairman talks tough on inflation \u2014 plus, what's behind Micron's big rally",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+        "published_at": "2026-10-28T19:17:35Z"
+      },
+      {
+        "headline": "Bond investor Jeff Gundlach talks to CNBC about Fed's rate pause, Warsh reducing vote-setting meetings",
+        "summary": "The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed announced its decision to hold interest rates steady.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+        "published_at": "2026-10-28T19:05:30Z"
+      },
+      {
+        "headline": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
+        "summary": "With the Club portfolio now down to 31 positions, we are working on new ideas to add to the Bullpen.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
+        "published_at": "2026-10-28T18:33:53Z"
+      },
+      {
+        "headline": "Cruise ship residents left stranded in Cambodia after fuel prices soar - Reuters",
+        "summary": "Cruise ship residents left stranded in Cambodia after fuel prices soar\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb3J0MEVjUDYzWV9pcnBYVTBRcFd3SHZZVVF5d29naldtQjRmRGhlOGZkemtiUEdCWU0zUXFNR3FvLS05Mjc2SFRHSXU5SlZpSnRTenZOcFYxV3lyVFBXRmlKZHNxX0lOMXZkRUJHYXNHZGFxMVgzN3kySVRJU2ctb19hYUZYRElpQ1JYY2hmTkhyeFFJVy1GWVZZc08tUERFb3RhR0wwdGM3YnNxWTMzalJISUdJRTRiN3YtczZrRQ?oc=5",
+        "published_at": "2026-10-28T18:28:26Z"
+      },
+      {
+        "headline": "Israel's election gives survivor Netanyahu a path to keep power - Reuters",
+        "summary": "Israel's election gives survivor Netanyahu a path to keep power\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUowdTlPaUFzb0tCdUQ3UzdYalJsS2ZEYWNvMUVtUzdKams0b051VWNIcXNPdG5wYlFzaWZIZVJfcVFTb192M3ozWk1kcW8wY1NNd1FSMzAzQ2FGTm9Mb0tfU21BenhMSXg5bFYxcXZqRlkzdHdESlZYVFlnLW82eUNZeER2SFU5ZXNzdExzLWxBYmtRTDRiMVFQQk1BYjB5dUdGQUEwb0pWYlA3VWluaA?oc=5",
+        "published_at": "2026-10-28T17:55:59Z"
+      },
+      {
+        "headline": "GE Vernova shares slip despite a beat-and-raise. What the sellers are getting wrong",
+        "summary": "We're reiterating our buy-equivalent 1 rating on the stock after another strong earnings report.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/28/ge-vernova-shares-slip-despite-a-beat-and-raise-what-the-sellers-are-getting-wrong.html",
+        "published_at": "2026-10-28T17:50:44Z"
+      },
+      {
+        "headline": "Explainer: What's at stake for Trump in Israel's deadlocked election? - Reuters",
+        "summary": "Explainer: What's at stake for Trump in Israel's deadlocked election?\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUlBfbXV3OGlSdDZTUTVyRzdDLTdBYVJRdUtIcUtfd0lOa3VlX0l4YnRnb1JycWZPMWdzUHUtS2l5bDZHVjAyRVV2NkkyLU1qaHBsaFhtc19CbERWUkRtY1J4MHQ0UE5RZmpObV90Q2hBT0xEVWFmZ3Fkems2aEJDaWxXWnUxNzRuWWg3S3hta2owR01wYXduMWQ1ZmhwZFY5?oc=5",
+        "published_at": "2026-10-28T17:23:42Z"
+      },
+      {
+        "headline": "Caretaker role could limit Netanyahu but not rule out war with Iran - Reuters",
+        "summary": "Caretaker role could limit Netanyahu but not rule out war with Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1JMOG03aUh5UHZjRGhLalZmOVhWc0F4YjFJY3hnN0pQcUlFdHlJN0xKZF9PWmNOT1JtN1czaGV6d3JqWUNzdEs2cWtQWnc1eU4xclJBT0haR3R2dmx3TEhSRWo2X3VIY1U1UjBpY29mZ0hnUkdqRjlZUGJFMGtsREpUajdFM1dHM09hSzVEM1JreDBubzVuMUQ3aDJDbHJ5QndDaHNFazNkcFFwSlpQTVMzN1hPR3di?oc=5",
+        "published_at": "2026-10-28T17:22:50Z"
+      },
+      {
+        "headline": "Houthis strike Yemen's Aden airport after evacuation warning - Reuters",
+        "summary": "Houthis strike Yemen's Aden airport after evacuation warning\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWktallhRGk5Y3p6WmxxWktmYm5sVm5fUlRlWmE3S0t4ZE05QzNxRGFFanQ3c3pTSHpjZ1IzcDY2RUlSSlhaTjFENVExUzJ2Q0UxOGxieGlWZDVadnVsd3N0M0dBWjIxYUcwUGNfQlNVQW0wQjYyUFVubDgwY2JZV3BKa3JHRExXNW00T3lRWDVxLUJwRWVLay1HUjVVcU5wTU5xWlY5dGFxSFE?oc=5",
+        "published_at": "2026-10-28T16:51:33Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.394,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 772.39,
+    "spy_change_pct": 0.3547,
+    "spy_lean": "neutral",
+    "vix_close": 17.52,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 81210.44,
+    "coinbase_premium_pct": -0.065909,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-28T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 215.38,
+        "change_pct": -1.1746,
+        "prev_close": 217.94
+      },
+      "AMD": {
+        "close": 578.44,
+        "change_pct": 3.2449,
+        "prev_close": 560.26
+      },
+      "TSM": {
+        "close": 439.51,
+        "change_pct": 0.6043,
+        "prev_close": 436.87
+      },
+      "SMCI": {
+        "close": 35.81,
+        "change_pct": 2.0519,
+        "prev_close": 35.09
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 725.61,
+        "change_pct": 0.6045,
+        "prev_close": 721.25
+      },
+      "SOXX": {
+        "close": 521.94,
+        "change_pct": 2.1289,
+        "prev_close": 511.06
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-27",
+    "total_net_inflow_usd": 175993377.0,
+    "total_net_assets_usd": 103943311408.88,
+    "total_value_traded_usd": 1575156229.7,
+    "cum_net_inflow_usd": 57469201795.09,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 81264,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 46,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 52,
+    "positive_count": 11,
+    "negative_count": 5,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.2115,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "AI Security Startup Upwind Raises $400M at $3.8B Valuation",
+        "url": "https://decrypt.co/382101/ai-security-startup-upwind-raises-400m",
+        "published_at": "2026-10-28T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-28T19:46:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "More Americans Have Tried Crypto, But Few Are Sticking With It: Survey",
+        "url": "https://decrypt.co/382100/more-americans-tried-crypto-few-staying-survey",
+        "published_at": "2026-10-28T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Plans to Buy Google's AI Chips as It Looks Beyond Nvidia: Report",
+        "url": "https://decrypt.co/382090/openai-plans-buy-google-ai-chips-looks-beyond-nvidia",
+        "published_at": "2026-10-28T19:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
+        "url": "https://cointelegraph.com/news/sam-bankman-fried-actor-anthony-boyle-netflix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-28T19:10:40+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed Stands Pat, Bitcoin Holds Steady\u2014But a December Rate Hike Is in Play",
+        "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+        "published_at": "2026-10-28T18:25:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Strategy shareholders approve daily dividends for four preferred stocks",
+        "url": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-28T18:00:54+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bithumb Probes Data Leak After Internal Hack",
+        "url": "https://bitcoinist.com/bithumb-probes-data-leak-after-internal-hack/",
+        "published_at": "2026-10-28T17:40:01+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Can Quietly Influence Experts\u2019 Decisions, Anthropic Study Finds",
+        "url": "https://decrypt.co/382065/ai-can-quietly-influence-experts-decisions",
+        "published_at": "2026-10-28T17:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street\u2019s bullish outlook",
+        "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+        "published_at": "2026-10-28T17:06:24+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 4,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
