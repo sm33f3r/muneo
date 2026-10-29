@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-29T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2664888424852.01,
+    "total_market_cap_change_24h_pct": -5.4631,
+    "total_volume_24h_usd": 91542731744.04,
+    "btc_dominance_pct": 59.5934,
+    "eth_dominance_pct": 10.3526,
+    "total2_usd": 1076790309680.7,
+    "total3_usd": 800903946848.89,
+    "active_cryptocurrencies": 22591,
+    "altcoin_season_index": 41,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "price_change_24h_pct": 13.4283,
+        "price_usd": 92.34,
+        "market_cap_usd": 22071294544
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": 13.0905,
+        "price_usd": 2.62,
+        "market_cap_usd": 157132439
+      },
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": 10.077,
+        "price_usd": 0.499347,
+        "market_cap_usd": 157754440
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": 7.4522,
+        "price_usd": 1.29e-06,
+        "market_cap_usd": 271786843
+      },
+      {
+        "symbol": "RLB",
+        "name": "Rollbit Coin",
+        "price_change_24h_pct": 3.4187,
+        "price_usd": 0.077186,
+        "market_cap_usd": 119376816
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -36.5879,
+        "price_usd": 0.04509441,
+        "market_cap_usd": 212861770
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -19.1586,
+        "price_usd": 0.243279,
+        "market_cap_usd": 215362068
+      },
+      {
+        "symbol": "USELESS",
+        "name": "Useless Coin",
+        "price_change_24h_pct": -19.0914,
+        "price_usd": 0.138,
+        "market_cap_usd": 137635876
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -15.9601,
+        "price_usd": 0.00627793,
+        "market_cap_usd": 373814504
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -15.2227,
+        "price_usd": 0.244084,
+        "market_cap_usd": 163595031
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 79028,
+    "price_change_24h_pct": -2.7491,
+    "price_change_7d_pct": -3.1619,
+    "market_cap_usd": 1588890929759,
+    "volume_24h_usd": 33842694995,
+    "direction": "bearish",
+    "oi_usd": 7379555691.03,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.920857142857143e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.1447,
+    "long_account_pct": 68.2,
+    "short_account_pct": 31.8,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2259.11,
+    "price_change_24h_pct": -4.2707,
+    "price_change_7d_pct": -5.3556,
+    "market_cap_usd": 276003116429,
+    "volume_24h_usd": 13817752937,
+    "eth_btc_ratio": 0.028586,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 88829371049.7,
+    "stablecoin_market_cap_usd": 301192154323.8,
+    "stablecoin_dominance_pct": 11.3022
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Yemen's hospitals buckle as fighting escalates - Reuters",
+        "summary": "Yemen's hospitals buckle as fighting escalates\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ2FrR3hGTjlic3RtRHdHQWtvbjJ5cXNPNFExeWlSMGRpOFpIOFk1WFBUX3VoUEs5MWhkMXVIcFlmc3BaMkE0NnlWbXdacUNZRXg0emVrUjhJTENacVRqY2M5aGpvY08wQmhVYWJxbkdOZlB6dzUwZGNLY3ZkUGFQOVJZekxCM19qdVAtajNOdmdrU2JIc0M5QXZuN1M?oc=5",
+        "published_at": "2026-10-29T20:16:56Z"
+      },
+      {
+        "headline": "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+        "summary": "Microsoft is faring better because of its financial spending, Jim Cramer said Thursday, a day after earnings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html",
+        "published_at": "2026-10-29T19:30:33Z"
+      },
+      {
+        "headline": "We\u2019re downgrading Alphabet after its rough quarter. Here\u2019s where we\u2019d buy again",
+        "summary": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/29/were-downgrading-alphabet-after-a-rough-quarter-where-wed-buy-again.html",
+        "published_at": "2026-10-29T19:12:06Z"
+      },
+      {
+        "headline": "Polymarket reports outage on international exchange, halts trading",
+        "summary": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
+        "published_at": "2026-10-29T18:57:22Z"
+      },
+      {
+        "headline": "Rare Stanley Druckenmiller post sends crypto-linked stock surging",
+        "summary": "Options traders pounced on the closest publicly-traded play to the news.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html",
+        "published_at": "2026-10-29T18:53:50Z"
+      },
+      {
+        "headline": "Farmer-funded attack ads targeting Republicans air across rural America - Reuters",
+        "summary": "Farmer-funded attack ads targeting Republicans air across rural America\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeFh1UFhvY1FYOW5PdDFOT0V3MERDRm9EUWNmb2ZrYlN6Rk5XbE1mOHN4UW5QUURWQ1JFY0doSG5icl9La1Bwc3NXMVFnZjFZTlpGdkp6M1BhcVBZVDk4eC10YlBYbFE4V3I1UnZYbHpMTVNONjJYY0FKWmZvSlhBZWRESGlpR2pmMFh3cHk5M1NwakZNTDVLQUxSY1ZKamtkOTBncEcxYWZmSlFneEJOSHB1ZzFIWHFqSFVjcTV2VzUyQQ?oc=5",
+        "published_at": "2026-10-29T18:17:45Z"
+      },
+      {
+        "headline": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties - Reuters",
+        "summary": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdTdkdmZXbFBHWno1WERBemlBX0tpX0lLaDlVUExXWGh6ZjlWSzBZYWYwc3RZTG1vb0ptREw5Nk8tcDFLVGJ0UmU0MzBEVW9hRnFHRWZiOU5SakNDQjEwYUp0aVFZcjc2clhraFNSZ09iLW5Md3V6MkpaSXZBcnoxdUJOVVZBLTJoQThnc0RvZkVEdFZ6WEJlakNwQXlFak5peWhfQ2h6dFdoV2traHgtZU1FN253Z0l0LU9V?oc=5",
+        "published_at": "2026-10-29T17:09:53Z"
+      },
+      {
+        "headline": "Aon CEO warns AI data center insurance risks could threaten financing",
+        "summary": "Aon CEO Greg Case said concentration risk at AI data centers could constrain insurance capacity and alter financing for new projects.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/29/aon-ai-data-center-insurance-financing.html",
+        "published_at": "2026-10-29T17:03:23Z"
+      },
+      {
+        "headline": "Europe Inc heads for second-best earnings season since 2022 - Reuters",
+        "summary": "Europe Inc heads for second-best earnings season since 2022\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHN5RlpkMThjUU5Rd0FRLXJRNEtteHQ3ODBGeE5tOEFFTWhwVmY5Y0Q5N0VtbDBYWU1wLWhYSUs0NHZJazBfUmlkNURTcDlmVHI5UU1uVkRxclEzQk1uWWxXNkswRGhwTHhjczVESE5kQnhkSjkwV0RTenpnaDJsVWNoWlFadnZyeUZpUHE5eFo0TjFILVNROERib18tQXpYdWc?oc=5",
+        "published_at": "2026-10-29T16:24:25Z"
+      },
+      {
+        "headline": "We\u2019re adding to our position in a rebounding bank stock",
+        "summary": "Today's purchase allows us to increase our position size while lowering our average cost basis.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/29/were-adding-to-our-position-in-a-rebounding-bank-stock.html",
+        "published_at": "2026-10-29T15:49:07Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.1396,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 769.49,
+    "spy_change_pct": -0.3651,
+    "spy_lean": "neutral",
+    "vix_close": 16.91,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 79004.67,
+    "coinbase_premium_pct": -0.029521,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-29T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 213.66,
+        "change_pct": -0.7986,
+        "prev_close": 215.38
+      },
+      "AMD": {
+        "close": 566.42,
+        "change_pct": -2.078,
+        "prev_close": 578.44
+      },
+      "TSM": {
+        "close": 431.81,
+        "change_pct": -1.752,
+        "prev_close": 439.51
+      },
+      "SMCI": {
+        "close": 34.43,
+        "change_pct": -3.8537,
+        "prev_close": 35.81
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 715.34,
+        "change_pct": -1.4154,
+        "prev_close": 725.61
+      },
+      "SOXX": {
+        "close": 513.86,
+        "change_pct": -1.5481,
+        "prev_close": 521.94
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-28",
+    "total_net_inflow_usd": 137330298.95,
+    "total_net_assets_usd": 104876683004.64,
+    "total_value_traded_usd": 1261862561.5,
+    "cum_net_inflow_usd": 57606532094.04,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 79028,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 40,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 15,
+    "negative_count": 6,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.2586,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Strategy reports $19.5 billion in Q3 net income as preferred shareholders approve daily dividends",
+        "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+        "published_at": "2026-10-29T20:58:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Swings to $719 Million Q3 Profit on Crypto Gains",
+        "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+        "published_at": "2026-10-29T20:46:43+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-29T19:58:57+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Public companies double share of blockchain revenue since 2022: Report",
+        "url": "https://cointelegraph.com/news/public-companies-double-share-of-blockchain-revenue-since-2022-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-29T19:53:14+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chrome Can Now Pull Details From Your Gmail to Fill Out Web Forms",
+        "url": "https://decrypt.co/382183/chrome-pull-details-from-your-gmail-web-forms",
+        "published_at": "2026-10-29T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket suspended trading amid reports of user funds being drained",
+        "url": "https://cointelegraph.com/news/polymarket-suspends-trading-user-funds-compromised?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-29T19:23:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket resumes trading after $2.65 million exploit, says third-party provider was compromised",
+        "url": "https://www.theblock.co/news/defi/2026-10-29-polymarket-exploit-2-5-million-cancel-only-mode-432158",
+        "published_at": "2026-10-29T19:00:06+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Polymarket Pauses Trading as Prediction Market Investigates Security Incident",
+        "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident",
+        "published_at": "2026-10-29T18:53:44+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Publish Work Details of 41,000 Homeland Security Employees",
+        "url": "https://decrypt.co/382181/hackers-publish-work-details-homeland-security-employees",
+        "published_at": "2026-10-29T18:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Spends $176 Million on Midterms, But Only 13% of Voters See It as a Priority",
+        "url": "https://decrypt.co/382179/crypto-spends-176-million-midterms-only-13-percent-voters-priority",
+        "published_at": "2026-10-29T17:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
