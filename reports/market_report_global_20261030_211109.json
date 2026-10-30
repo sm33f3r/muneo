@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-30T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2614278844838.9,
+    "total_market_cap_change_24h_pct": -4.1332,
+    "total_volume_24h_usd": 138951165887.32,
+    "btc_dominance_pct": 59.0491,
+    "eth_dominance_pct": 10.4592,
+    "total2_usd": 1070569470430.78,
+    "total3_usd": 797136990076.11,
+    "active_cryptocurrencies": 22643,
+    "altcoin_season_index": 49,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 37.5597,
+        "price_usd": 0.00462403,
+        "market_cap_usd": 232662262
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 18.4221,
+        "price_usd": 0.00744112,
+        "market_cap_usd": 443760026
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": 15.1621,
+        "price_usd": 0.079995,
+        "market_cap_usd": 380865774
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "price_change_24h_pct": 13.4714,
+        "price_usd": 0.116225,
+        "market_cap_usd": 266245303
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 12.5656,
+        "price_usd": 0.083722,
+        "market_cap_usd": 130606498
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -33.7181,
+        "price_usd": 0.01377836,
+        "market_cap_usd": 314095048
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -21.1051,
+        "price_usd": 1.2,
+        "market_cap_usd": 1812124864
+      },
+      {
+        "symbol": "RAIL",
+        "name": "Railgun",
+        "price_change_24h_pct": -12.0934,
+        "price_usd": 2.3,
+        "market_cap_usd": 138105567
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -9.1523,
+        "price_usd": 0.115492,
+        "market_cap_usd": 115492062
+      },
+      {
+        "symbol": "KMNO",
+        "name": "Kamino",
+        "price_change_24h_pct": -9.1082,
+        "price_usd": 0.03272624,
+        "market_cap_usd": 192389954
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76831,
+    "price_change_24h_pct": -2.7934,
+    "price_change_7d_pct": -5.3279,
+    "market_cap_usd": 1544715825995,
+    "volume_24h_usd": 193086489587,
+    "direction": "bearish",
+    "oi_usd": 7357193884.83,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 6.705666666666666e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.7467,
+    "long_account_pct": 73.31,
+    "short_account_pct": 26.69,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2235.05,
+    "price_change_24h_pct": -1.1497,
+    "price_change_7d_pct": -6.4892,
+    "market_cap_usd": 273065575769,
+    "volume_24h_usd": 24325497849,
+    "eth_btc_ratio": 0.02909,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 83763588664.35,
+    "stablecoin_market_cap_usd": 300250399870.14,
+    "stablecoin_dominance_pct": 11.485
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Iran's IRGC Navy says three tankers catch fire in Strait of Hormuz - Reuters",
+        "summary": "Iran's IRGC Navy says three tankers catch fire in Strait of Hormuz\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzdWakFCLTEzM2pYaGh6ZHpxZE9KMjh2QjkzcE1ieWVwa0dmRFZZWUlOamZJUlpwN0M1ajJuZ3dNRFJ4ZzJwSmFJaGl4cGFWTEZPYmI0UllLZ1lCRzIzWVpNSlhkQnpCejl4RFltVXJvV3QtcXhqY1JiUF91TjZmSU5XYXFHM05CcE1fbzV6dVNmOFFUNEExZm1qVTFQWnhBYnVyZkUxYmlRTnEtTHlla3l0RGxncHgwbDRyVVVuMjU?oc=5",
+        "published_at": "2026-10-30T19:06:33Z"
+      },
+      {
+        "headline": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+        "published_at": "2026-10-30T18:55:44Z"
+      },
+      {
+        "headline": "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on - Reuters",
+        "summary": "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZENlMDE4NlZPZWF5QWdydnIta3o5S0RXN1lITDA0dWNQMG9ld1U5TGNuNm1JV2lmcWZhVWNZVTBWWUxrSWhLY2MtclVHek9sS011NjNoZXZpUmVEcFNxTW9wQ3NNOHIwenBSS29MSjhXSW1OU0F4TUoyNXZVVTlKYTRlQ2F4M2ptbzlmWHduRl85VlZFU3hEQVkxQmRMWENUNFlqNTM3U0xTOUZzdU9TdHR0NGl1VHZpQzZZRzhqdVM4VnN6?oc=5",
+        "published_at": "2026-10-30T18:49:54Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation - Reuters",
+        "summary": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG4zX0dQOXRZdkNCLTVnaWQ4bm1Wem53VEh1cjZvYmdqQkx5SVZzZUlzQUkzT0w3UEc2a1Zhb3I5UDhreVlGYVZWR2NhYTMydlkzNDZWMnJvQlVCLUZkY01ZaWRaMm1WNjVmckZOZEpIRXZ4UzRLNjIxOUtTdnp2Y2hLSmNlbEZId0cxNGg4LWw5TWNEejVCUW1zdy0td3FoUm9STVJ1OVB2SUljWmtid25B?oc=5",
+        "published_at": "2026-10-30T18:39:08Z"
+      },
+      {
+        "headline": "US orders non-emergency staff to leave Saudi Arabia over security risks - Reuters",
+        "summary": "US orders non-emergency staff to leave Saudi Arabia over security risks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORW01d2dWQjEzQi1rNHpxb1hPYlE4b1dBMFgtUkxRQTZDY2RrNGlkeXpXNHNhUVU1MVRjVW9xY1lvbnpuSEFzNnZBaDM4ZkdGbEQwSUJ2Z0d0cms5bHVYcGhwYm5mZ3dIcU8zOXRlWFhFajVoMmtGRnA2cHQxdG1xQjdHMHJheWxyZ3dIMC12c0JyYzhScUZOOUdEd25UV3JEZ2ZNMl90ODJ4cnF2c09XUVFISEN5X2x1X0twYklBZw?oc=5",
+        "published_at": "2026-10-30T18:32:55Z"
+      },
+      {
+        "headline": "Why bitcoin held up better after the record Binance hack",
+        "summary": "Bitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+        "published_at": "2026-10-30T18:07:00Z"
+      },
+      {
+        "headline": "Halloween gets pricier as chocolate costs climb \u2014 Hershey may feel the pinch",
+        "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+        "published_at": "2026-10-30T16:31:15Z"
+      },
+      {
+        "headline": "St. Louis Fed's Musalem: Tighter monetary policy is needed 'soon'",
+        "summary": "Musalem's comments offer the first morsels of insight into what leaders at the Fed see next following this week's decision to hold interst rates steady.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+        "published_at": "2026-10-30T16:30:16Z"
+      },
+      {
+        "headline": "Jim Cramer reveals 3 stocks to buy \u2014 plus, why he is not selling the Intel plunge",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
+        "published_at": "2026-10-30T15:49:19Z"
+      },
+      {
+        "headline": "Tanker in Strait of Hormuz hit by limpet mines, security sources say - Reuters",
+        "summary": "Tanker in Strait of Hormuz hit by limpet mines, security sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjdDdUxXVENSNGdpbWJZOEp2QXMtSy1WSUdCVFdHc21FVnMwTE9uMC1xMkFEaS1wTHRjd2JMQzFTZEtPX0drQ3hPMlZVeDlITnc2RndQRElNUy13Ny1UdXpROVVpejNQRHJ4a3l6Q0t3TTZwOUptZDNKdlRVQWJXLXBxTldad19oZUFGS3BKSUlLWlk3d055R290THF3ckRWb3hRYjlR?oc=5",
+        "published_at": "2026-10-30T14:42:19Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.896,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 755.78,
+    "spy_change_pct": -1.7651,
+    "spy_lean": "bearish",
+    "vix_close": 17.2,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 76527.58,
+    "coinbase_premium_pct": -0.394919,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-30T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 204.64,
+        "change_pct": -4.2217,
+        "prev_close": 213.66
+      },
+      "AMD": {
+        "close": 504.8,
+        "change_pct": -10.8789,
+        "prev_close": 566.42
+      },
+      "TSM": {
+        "close": 406.13,
+        "change_pct": -5.9471,
+        "prev_close": 431.81
+      },
+      "SMCI": {
+        "close": 32.95,
+        "change_pct": -4.2986,
+        "prev_close": 34.43
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 690.49,
+        "change_pct": -3.4739,
+        "prev_close": 715.34
+      },
+      "SOXX": {
+        "close": 471.51,
+        "change_pct": -8.2415,
+        "prev_close": 513.86
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-29",
+    "total_net_inflow_usd": 17071922.46,
+    "total_net_assets_usd": 104268166683.82,
+    "total_value_traded_usd": 2108990154.7,
+    "cum_net_inflow_usd": 57623604016.49,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 76831,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 55,
+    "positive_count": 1,
+    "negative_count": 35,
+    "neutral_count": 19,
+    "sentiment_ratio": 0.0182,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "President Trump says they\u2019re looking into Binance hack as calls grow for crypto rules",
+        "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+        "published_at": "2026-10-30T21:06:03+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
+        "url": "https://decrypt.co/382287/intel-stock-suffers-worst-crash-in-50-years-as-weak-forecast-overshadows-ai-chip-demand",
+        "published_at": "2026-10-30T20:53:23+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Hack Rattles Crypto Markets \u2013 BNB Drops 8%",
+        "url": "https://bitcoinist.com/binance-hack-rattles-crypto-markets-bnb-drops-8/",
+        "published_at": "2026-10-30T20:29:24+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
+        "url": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
+        "published_at": "2026-10-30T20:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and User Growth",
+        "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+        "published_at": "2026-10-30T19:31:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+        "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-30T19:01:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+        "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+        "published_at": "2026-10-30T18:45:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+        "url": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+        "published_at": "2026-10-30T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+        "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+        "published_at": "2026-10-30T17:50:26+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+        "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-30T17:48:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 7,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
