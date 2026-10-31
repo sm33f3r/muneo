@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-10-31T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2624001838399.83,
+    "total_market_cap_change_24h_pct": -2.0893,
+    "total_volume_24h_usd": 88716890579.95,
+    "btc_dominance_pct": 59.2646,
+    "eth_dominance_pct": 10.4486,
+    "total2_usd": 1068898656397.31,
+    "total3_usd": 794728045255.89,
+    "active_cryptocurrencies": 22670,
+    "altcoin_season_index": 62,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "MORPHO",
+        "name": "Morpho",
+        "price_change_24h_pct": 16.1017,
+        "price_usd": 2.39,
+        "market_cap_usd": 1685170709
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": 14.8161,
+        "price_usd": 0.324218,
+        "market_cap_usd": 609444261
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": 14.6192,
+        "price_usd": 3.11,
+        "market_cap_usd": 776023568
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 13.2986,
+        "price_usd": 0.00523986,
+        "market_cap_usd": 263632759
+      },
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": 13.1539,
+        "price_usd": 0.56265,
+        "market_cap_usd": 179833622
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -29.6909,
+        "price_usd": 0.0322393,
+        "market_cap_usd": 151682734
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -18.2889,
+        "price_usd": 0.01127915,
+        "market_cap_usd": 257020920
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": -11.5331,
+        "price_usd": 0.074226,
+        "market_cap_usd": 115801195
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -8.0815,
+        "price_usd": 0.0068412,
+        "market_cap_usd": 408246324
+      },
+      {
+        "symbol": "TRX",
+        "name": "TRON",
+        "price_change_24h_pct": -7.8076,
+        "price_usd": 0.304541,
+        "market_cap_usd": 28953706888
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77400,
+    "price_change_24h_pct": 0.7377,
+    "price_change_7d_pct": -3.6958,
+    "market_cap_usd": 1556150899275,
+    "volume_24h_usd": 60263889998,
+    "direction": "neutral",
+    "oi_usd": 7513419162.6,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 7.737571428571429e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.5778,
+    "long_account_pct": 72.05,
+    "short_account_pct": 27.95,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2252.22,
+    "price_change_24h_pct": 0.7503,
+    "price_change_7d_pct": -3.6807,
+    "market_cap_usd": 275172490789,
+    "volume_24h_usd": 4601433298,
+    "eth_btc_ratio": 0.029098,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85072812987.6,
+    "stablecoin_market_cap_usd": 299519173506.83,
+    "stablecoin_dominance_pct": 11.4146
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 11,
+    "headlines": [
+      {
+        "headline": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+        "summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
+        "published_at": "2026-10-31T19:23:18Z"
+      },
+      {
+        "headline": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+        "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+        "published_at": "2026-10-31T18:56:37Z"
+      },
+      {
+        "headline": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+        "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+        "published_at": "2026-10-31T13:58:40Z"
+      },
+      {
+        "headline": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
+        "summary": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+        "published_at": "2026-10-31T13:07:01Z"
+      },
+      {
+        "headline": "35-year-old took on $20K in debt to launch a business from her dining room\u2014now it brings in 8 figures a year",
+        "summary": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+        "published_at": "2026-10-31T13:05:01Z"
+      },
+      {
+        "headline": "Berkshire ekes out some new highs, but October rally stalls",
+        "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+        "published_at": "2026-10-31T12:26:00Z"
+      },
+      {
+        "headline": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports - Reuters",
+        "summary": "Iranian official says US attacked fishing boats off Qeshm Island, state media reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONll1eGZDNWJMVXFsdzlXTEs4WnlXRGJONjZ4eUQ1eGlaWGs5bVB0SnR6cUlhd1U0ZHl1bUxpM0ItUUl3cEdxdEhjTHBfZHZIc3ZQY2xMM2g1eGNkbVNfanFmVFY4R0JUeFVtb0pyb3JzSllCTG05S19HdkVzVXFTVlRaaDZidS01UVJ5SVpvUC00SlNpNUxOZXIyTnFaMGVNMmJoOWpCZ1RKRWxqam9UbG9Yb1pYWERLTkR0OG0xOE9Vc0c1U0lvbGNQZzI?oc=5",
+        "published_at": "2026-10-31T12:12:26Z"
+      },
+      {
+        "headline": "The rise of the 15-foot skeleton\u2014how a viral novelty became a Halloween staple",
+        "summary": "In just six years, giant skeletons have gone from an absurd viral novelty to the centerpiece of an expanding retail arms race for the front lawn.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html",
+        "published_at": "2026-10-31T10:27:19Z"
+      },
+      {
+        "headline": "Jordan stops fighters attempting to enter from Syria, armed forces say - Reuters",
+        "summary": "Jordan stops fighters attempting to enter from Syria, armed forces say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnZYN3pDajdLZXp1ZVlXeF8xTDNIc04xR2tMRXFsUzZsZTh4ckszeDM0V3daV1haWE15THZRUU43QlhxUFZfLWp5Z05SQmVENzBEbGJEcHhRdDR2elJBM2ExRVN2NlNqRldidDJQdXBMLVBUc1BHY0JaZ25Yblpwd2hlRnF6ZEljb3p5d3VxVG9Ya0poeXJWZnEzUmZfclVwSTVROGdkZjJFdDIzczd3TzBja1UxUQ?oc=5",
+        "published_at": "2026-10-31T08:36:19Z"
+      },
+      {
+        "headline": "Egypt fears escalation in Iran war would be more destructive, foreign minister says - Reuters",
+        "summary": "Egypt fears escalation in Iran war would be more destructive, foreign minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUNZU3g2dW4xamJOV3lTQ251RzhyLXd4dHY5eTRvVFkwOXF6Vm4zUkxCdVEzaEE1R3BxQS16NlE2WlFQYlpsaUlxQkhNSHlTeGNzSmZGbXB1eFVGdUJkbExRZFUxcnJBZ0JXVklVaEpQdXExWWpyQ3FUSzg5alJFak9TSllUbUt4LWl6WHlMcWR3TU9kV3pXN3E1dUlyLUFnai1UdzhIY1RDdS1NWXQxQUU4X1FYalpRVUtWcWVBUGIwb0lNb3JrdENIVzYzdw?oc=5",
+        "published_at": "2026-10-31T08:21:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9589,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 755.72,
+    "spy_change_pct": -1.7729,
+    "spy_lean": "bearish",
+    "vix_close": 17.2,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77309.09,
+    "coinbase_premium_pct": -0.117455,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-10-31T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 204.64,
+        "change_pct": -4.2217,
+        "prev_close": 213.66
+      },
+      "AMD": {
+        "close": 504.8,
+        "change_pct": -10.8789,
+        "prev_close": 566.42
+      },
+      "TSM": {
+        "close": 406.13,
+        "change_pct": -5.9471,
+        "prev_close": 431.81
+      },
+      "SMCI": {
+        "close": 32.95,
+        "change_pct": -4.2986,
+        "prev_close": 34.43
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 690.49,
+        "change_pct": -3.4739,
+        "prev_close": 715.34
+      },
+      "SOXX": {
+        "close": 471.51,
+        "change_pct": -8.2415,
+        "prev_close": 513.86
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-30",
+    "total_net_inflow_usd": -643330345.88,
+    "total_net_assets_usd": 98139977651.38,
+    "total_value_traded_usd": 6350689995.0,
+    "cum_net_inflow_usd": 56980273670.61,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77400,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 36,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 18,
+    "positive_count": 0,
+    "negative_count": 7,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Chainalysis Hit by Cyberattack Amid Growing Crypto Industry Security Risks",
+        "url": "https://bitcoinist.com/chainalysis-hit-by-cyberattack-amid-growing-crypto-industry-security-risks/",
+        "published_at": "2026-10-31T20:28:49+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Recovers 90% of $6.3B Hack Losses \u2013 Withdrawals Set to Resume",
+        "url": "https://bitcoinist.com/binance-recovers-90-of-6-3b-hack-losses-withdrawals-set-to-resume/",
+        "published_at": "2026-10-31T20:22:30+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin White Paper 18th Anniversary Highlights Concerns Over Fiat Money",
+        "url": "https://bitcoinist.com/bitcoin-white-paper-18th-anniversary-highlights-concerns-over-fiat-money/",
+        "published_at": "2026-10-31T20:11:09+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin White Paper Turns 18, Putting Its Long-Term Security Model In Focus",
+        "url": "https://bitcoinist.com/bitcoin-white-paper-turns-18-putting-its-long-term-security-model-in-focus/",
+        "published_at": "2026-10-31T19:44:39+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+        "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-31T15:36:01+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+        "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-31T15:26:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
+        "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+        "published_at": "2026-10-31T15:26:27+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-31T15:09:55+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+        "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+        "published_at": "2026-10-31T15:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin turns 18: Has the original rebel grown up?",
+        "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-10-31T14:27:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 0,
+    "bearish_count": 7,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
