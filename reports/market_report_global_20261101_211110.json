@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-01T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2605253560488.41,
+    "total_market_cap_change_24h_pct": -3.2945,
+    "total_volume_24h_usd": 92117677663.14,
+    "btc_dominance_pct": 59.9989,
+    "eth_dominance_pct": 10.5685,
+    "total2_usd": 1042130672858.37,
+    "total3_usd": 766795002062.46,
+    "active_cryptocurrencies": 22683,
+    "altcoin_season_index": 55,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 13.2713,
+        "price_usd": 0.0071114,
+        "market_cap_usd": 5058398039
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 9.182,
+        "price_usd": 0.00746911,
+        "market_cap_usd": 446013411
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": 8.341,
+        "price_usd": 1.7,
+        "market_cap_usd": 480148934
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 6.4358,
+        "price_usd": 1.55,
+        "market_cap_usd": 564753199
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": 5.5787,
+        "price_usd": 0.121409,
+        "market_cap_usd": 290357685
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -19.5411,
+        "price_usd": 0.00905229,
+        "market_cap_usd": 206326140
+      },
+      {
+        "symbol": "AWE",
+        "name": "AWE Network",
+        "price_change_24h_pct": -15.4484,
+        "price_usd": 0.062346,
+        "market_cap_usd": 121073753
+      },
+      {
+        "symbol": "RUNE",
+        "name": "THORChain",
+        "price_change_24h_pct": -14.8124,
+        "price_usd": 0.57551,
+        "market_cap_usd": 189530265
+      },
+      {
+        "symbol": "XPL",
+        "name": "Plasma",
+        "price_change_24h_pct": -13.6589,
+        "price_usd": 0.071099,
+        "market_cap_usd": 338476422
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -7.3016,
+        "price_usd": 0.840273,
+        "market_cap_usd": 1926707236
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 77866,
+    "price_change_24h_pct": 0.6133,
+    "price_change_7d_pct": -3.2761,
+    "market_cap_usd": 1565527391675,
+    "volume_24h_usd": 66655337154,
+    "direction": "neutral",
+    "oi_usd": 7471088291.72,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.049904761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2658,
+    "long_account_pct": 69.38,
+    "short_account_pct": 30.62,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2262.85,
+    "price_change_24h_pct": 0.505,
+    "price_change_7d_pct": -3.7183,
+    "market_cap_usd": 276467058639,
+    "volume_24h_usd": 4602769975,
+    "eth_btc_ratio": 0.029061,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 85193835185.85,
+    "stablecoin_market_cap_usd": 298535940063.41,
+    "stablecoin_dominance_pct": 11.459
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 14,
+    "headlines": [
+      {
+        "headline": "Here are 3 big things we're watching in the stock market in the week ahead",
+        "summary": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+        "published_at": "2026-11-01T18:12:05Z"
+      },
+      {
+        "headline": "Democratic Rep. Stevens endorses Rogers over El-Sayed in Michigan Senate election",
+        "summary": "Haley Stevens had lost the Democratic nomination for Senate in Michigan to Abdul El-Sayed earlier this year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html",
+        "published_at": "2026-11-01T17:59:38Z"
+      },
+      {
+        "headline": "Israeli strikes kill eight people in Gaza - medics say - Reuters",
+        "summary": "Israeli strikes kill eight people in Gaza - medics say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2E3NlZWbHB1MUtZdG5sLXBXci1sVnQtMWxWYk1CM1EzTUtfMXJiWDZYRlIzN09BWlBuaUVXOThueVFEdF9nMXdVaUpobUNCSXM3dUZWQVZjN2MwZ19pQUN6cDUtbnE2Rm1PX3BwYmhTWWo4TGRqbG0xSmhKQVhWYTlVNkFpTFdsUFhmcDlVaFI5cWZRYk1jcFRoU3RIZUV2QTRBdm5B?oc=5",
+        "published_at": "2026-11-01T16:41:43Z"
+      },
+      {
+        "headline": "Russia's FSB says minor detained over park attack threat after US tip-off - Reuters",
+        "summary": "Russia's FSB says minor detained over park attack threat after US tip-off\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVEpDUVhCYWticTBIZEZxaHVlMXBZbFp0ODd6RVB2c1VzNllrVFpHRk5SR3E4Uk9YeWRJVFVoVGhlLS10ckliNzkyTzdjNi1KRU85UG9UQXpvcjlteTdLcm5iTERreDNqaF9jSU1ndTBwN2pBcXdGNlhEYTRmTFpKOXVOMUl3Q21fQW9DS2gxUWpkYjdfYnlJWmROR3VEQk5KUVhNSGFMNFFHcUZmNTZ2UENLWks?oc=5",
+        "published_at": "2026-11-01T15:32:23Z"
+      },
+      {
+        "headline": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
+        "summary": "Iran, Qatari mediators hold third day of talks to end US-Iran war\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+        "published_at": "2026-11-01T14:43:10Z"
+      },
+      {
+        "headline": "Qatar surges, bucking Gulf market slide on Iran war concerns - Reuters",
+        "summary": "Qatar surges, bucking Gulf market slide on Iran war concerns\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
+        "published_at": "2026-11-01T14:03:04Z"
+      },
+      {
+        "headline": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027 - Reuters",
+        "summary": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVRNX1Y5b0xXX3dlMU1QX2lRbVkxbkJYSU9SUVdxUFlXQ2hGcjRpRlVIbklCeTlZa1d2VnNOQWFaaVN0NHJVcnJSRVhUSngyVmcxdzlsZVpwSm1wbmduTGpNbXkwWEhKbGZQdURzZ0c0UHl2S28zLUxjbDdSUkdzZTFnMmtubVlvbmFVMHlsX3BvOVpLa2NqcWozZTJUWlhnUWUxYXFn?oc=5",
+        "published_at": "2026-11-01T13:36:05Z"
+      },
+      {
+        "headline": "German ministers pledge tough action after rioters damage stores in Frankfurt - Reuters",
+        "summary": "German ministers pledge tough action after rioters damage stores in Frankfurt\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2l3Y3cxckRlRlpIRFQzT2FWa0YzZHcxYTdSV3dDY29iN0FNUHdqa1hKWkxFdU40NFI5MG8tWEV2SU54cng3NXpoV3JhdzdjVVRKZHJPYmlPNVBYTG95Y1lQYW1PbzVscnpHZ0plMGhET096ZDNjdEg0dTlzd2dPNVNlOXV3N2NiOW5rXzRsN3VZc2pSQWk0TUxkLXl4ZTRrcV9mMW9UWnUtSzlPajJaLS16Qm8?oc=5",
+        "published_at": "2026-11-01T13:26:52Z"
+      },
+      {
+        "headline": "Pope Leo says he hopes Oleshky truce could spur Ukraine-Russia peace efforts - Reuters",
+        "summary": "Pope Leo says he hopes Oleshky truce could spur Ukraine-Russia peace efforts\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ0k4N2Y3MWpLcnU5ZW1nZGNJLVN3Ukl3aEpvLVU1c25LTWY5YkctRlE0czJHbFNoZ1lKS3RkWU51TWxpVEpveWN6ZUpjNVJEanpFeVNuTVVIazRpN1QxQU9jUnZ2MU5hUU5JdWpaVS13RzBydERpSnBYMU9RV3RJeVZZS3R0U3NGTlEzeGFsR2hxVU5PMXdBTzdGSlJ1MHpKYV93YUhtbW1yZGkyUGNndWdDLUQzQ21yMUxmS2QxVVRoRjQ?oc=5",
+        "published_at": "2026-11-01T12:20:22Z"
+      },
+      {
+        "headline": "Xiaomi's October EV deliveries top 50,000, hit 2026 monthly high - Reuters",
+        "summary": "Xiaomi's October EV deliveries top 50,000, hit 2026 monthly high\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVGJQV25faktaWGFiUks0eTdlWmFhbkcwR0RWcXdFbk95UXJ6VjBmSUV1NjRaTk1oYXk0NEtKaGF1NTJBOWNFUm1sY2tiUVhjekJVU25tRWduZVpGVFNHMGFyOTN1RjRmS1lFcnNSRExoT216QUNtaFZjOTluU1g0d19EejFmR2pRWDJuSXc4WWQ3WHJ2UngzYmZRV3d0a2dmeHFycVhhZGdvN1dUbmc?oc=5",
+        "published_at": "2026-11-01T07:42:09Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9589,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 755.72,
+    "spy_change_pct": -1.7729,
+    "spy_lean": "bearish",
+    "vix_close": 17.2,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 77798.99,
+    "coinbase_premium_pct": -0.086058,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-01T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 204.64,
+        "change_pct": -4.2217,
+        "prev_close": 213.66
+      },
+      "AMD": {
+        "close": 504.8,
+        "change_pct": -10.8789,
+        "prev_close": 566.42
+      },
+      "TSM": {
+        "close": 406.13,
+        "change_pct": -5.9471,
+        "prev_close": 431.81
+      },
+      "SMCI": {
+        "close": 32.95,
+        "change_pct": -4.2986,
+        "prev_close": 34.43
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 690.49,
+        "change_pct": -3.4739,
+        "prev_close": 715.34
+      },
+      "SOXX": {
+        "close": 471.51,
+        "change_pct": -8.2415,
+        "prev_close": 513.86
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-30",
+    "total_net_inflow_usd": -643330345.88,
+    "total_net_assets_usd": 98139977651.38,
+    "total_value_traded_usd": 6350689995.0,
+    "cum_net_inflow_usd": 56980273670.61,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 77866,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 35,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 13,
+    "positive_count": 2,
+    "negative_count": 3,
+    "neutral_count": 8,
+    "sentiment_ratio": 0.1538,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain: analyst",
+        "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+        "published_at": "2026-11-01T18:25:48+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance sees $3.64 billion in net outflows after reopening withdrawals following record hack",
+        "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+        "published_at": "2026-11-01T16:32:31+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
+        "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+        "published_at": "2026-11-01T16:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Price Recovery: $78K in Sight as LIT Surges 18%",
+        "url": "https://bitcoinist.com/bitcoin-price-recovery-78k-in-sight-as-lit-surges-18/",
+        "published_at": "2026-11-01T14:35:35+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-01T14:17:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How to Run an AI Model Locally\u2014And Why You Might Want To",
+        "url": "https://decrypt.co/382295/how-to-run-ai-model-locally-why-you-might-want",
+        "published_at": "2026-11-01T14:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeepSeek developing AI agent requiring less human input: Report",
+        "url": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-01T13:40:33+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Supply in Focus as Ripple Unlocks $1.25 Billion in Tokens",
+        "url": "https://bitcoinist.com/xrp-supply-in-focus-as-ripple-unlocks-1-25-billion-in-tokens/",
+        "published_at": "2026-11-01T13:37:31+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Withdrawals Reopened as Exchange Begins Recovery After $6.3B Hack",
+        "url": "https://bitcoinist.com/binance-withdrawals-reopened-as-exchange-begins-recovery-after-6-3b-hack/",
+        "published_at": "2026-11-01T13:22:06+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "FBI Confirms North Korea Was Behind The $6.3B Binance Hack",
+        "url": "https://bitcoinist.com/fbi-confirms-north-korea-was-behind-the-6-3b-binance-hack/",
+        "published_at": "2026-11-01T13:12:19+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 0,
+    "bearish_count": 7,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
