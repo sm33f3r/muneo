@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-02T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2598115085347.82,
+    "total_market_cap_change_24h_pct": -2.8541,
+    "total_volume_24h_usd": 68288797160.63,
+    "btc_dominance_pct": 59.2472,
+    "eth_dominance_pct": 10.5523,
+    "total2_usd": 1058803716819.58,
+    "total3_usd": 784642616797.4,
+    "active_cryptocurrencies": 22688,
+    "altcoin_season_index": 49,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KAG",
+        "name": "Kinesis Silver",
+        "price_change_24h_pct": 2.9198,
+        "price_usd": 50.51,
+        "market_cap_usd": 185482541
+      },
+      {
+        "symbol": "KAU",
+        "name": "Kinesis Gold",
+        "price_change_24h_pct": 2.8718,
+        "price_usd": 126.72,
+        "market_cap_usd": 347098048
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 2.8675,
+        "price_usd": 0.071602,
+        "market_cap_usd": 111695521
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": 2.6282,
+        "price_usd": 611.74,
+        "market_cap_usd": 11523358712
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": 2.5696,
+        "price_usd": 1.83,
+        "market_cap_usd": 152796663
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -38.4023,
+        "price_usd": 0.00561349,
+        "market_cap_usd": 126441751
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": -19.0747,
+        "price_usd": 0.00445661,
+        "market_cap_usd": 223644241
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -18.5797,
+        "price_usd": 0.02551017,
+        "market_cap_usd": 124705474
+      },
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": -17.1905,
+        "price_usd": 0.446248,
+        "market_cap_usd": 142634333
+      },
+      {
+        "symbol": "SN51",
+        "name": "lium",
+        "price_change_24h_pct": -15.1692,
+        "price_usd": 25.13,
+        "market_cap_usd": 126911081
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 76827,
+    "price_change_24h_pct": -1.367,
+    "price_change_7d_pct": -4.0544,
+    "market_cap_usd": 1544460649881,
+    "volume_24h_usd": 24966731870,
+    "direction": "bearish",
+    "oi_usd": 7594431001.24,
+    "funding_rate_latest": 9.118e-05,
+    "funding_rate_7d_avg": 8.441238095238096e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.4507,
+    "long_account_pct": 71.02,
+    "short_account_pct": 28.98,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2249.71,
+    "price_change_24h_pct": -0.5717,
+    "price_change_7d_pct": -2.9875,
+    "market_cap_usd": 274876712207,
+    "volume_24h_usd": 11434047198,
+    "eth_btc_ratio": 0.029283,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 82043581666.12,
+    "stablecoin_market_cap_usd": 298594187123.48,
+    "stablecoin_dominance_pct": 11.4927
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 48,
+    "headlines": [
+      {
+        "headline": "Trump focuses on Reflecting Pool in final public speech before midterms",
+        "summary": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+        "published_at": "2026-11-02T20:29:00Z"
+      },
+      {
+        "headline": "2 of our banks are at the heart of this week's biggest tech deals",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/02/2-of-our-banks-are-at-the-heart-of-this-weeks-biggest-tech-deals.html",
+        "published_at": "2026-11-02T19:15:55Z"
+      },
+      {
+        "headline": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+        "summary": "Just a day before the midterms, Kalshi traders give Democrats a 74% of controlling the Senate.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+        "published_at": "2026-11-02T19:15:26Z"
+      },
+      {
+        "headline": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+        "summary": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+        "published_at": "2026-11-02T18:54:04Z"
+      },
+      {
+        "headline": "Apple reports after the bell. Options traders expect a big move",
+        "summary": "Apple reports after the bell. Options traders expect a big move.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html",
+        "published_at": "2026-11-02T18:19:03Z"
+      },
+      {
+        "headline": "Options traders are getting anxious on Palantir and Apple ahead of earnings",
+        "summary": "Apple, Palantir puts were in demand ahead of earnings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/options-traders-are-getting-anxious-on-palantir-and-apple-ahead-of-earnings.html",
+        "published_at": "2026-11-02T18:16:02Z"
+      },
+      {
+        "headline": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes - Reuters",
+        "summary": "FTSE 100 notches fourth straight day of gains as oil slides on US-Iran deal hopes\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPalhUUG9VTkRaNkpZM1BUTlpIYVM0WmJMU3UxZHpaSm5KRUhDdmNNTUVNbEJncFYyS1RqUVZmd2RaMUh3eUVINWt6Wm9WeGgzZmFoR2U1TzlnZ3dkUFVkdjJIclFHaEc2X2NWYnlLRnZGREs3RDg0WWdZbEJWc3d1RERMZHZESnhDb05HQXVlMjRCbnNxNVM4TFpvdzVPQ1hDMVlXVGpNMmx0Q0gzbXVFZGl3UERXYjllcmx5MUEyeGVHUQ?oc=5",
+        "published_at": "2026-11-02T17:46:02Z"
+      },
+      {
+        "headline": "Sectors bracing for a pivot as US midterm elections loom - Reuters",
+        "summary": "Sectors bracing for a pivot as US midterm elections loom\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVM3bDhEOHNLQ3VJRDRGcEtyeXBhNUdsblBVUGQ3bDBWLXUxQXZMXzF6SmxxdWczMUpJcFRSR21RU2hRaHFTLUxGQ0xkcmFkWFVoQm1WaVVQeGROMXFCaTJTQ0xCRHhkMU9pc3k1MUVQTkFvMER3SEszZG5kNGswQkdRQVo2Z1ZONGxZb1FSWDNhWmlzTHA2R2VVQVdvNnpHSlE?oc=5",
+        "published_at": "2026-11-02T17:17:11Z"
+      },
+      {
+        "headline": "TotalEnergies says Iran war could accelerate energy transition - Reuters",
+        "summary": "TotalEnergies says Iran war could accelerate energy transition\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDNiSHhwUjBpRnJnUW4yZFM5NUp6QWlXOUJldXZ6ODRpZXdRbENpTFp3d2RJWG9tVVRTWXVzTDZQRjBLcXJOaU5EeWRBUTY2ZGJZQzJlaFVKaFJMckcwdkV2QTNSWFoyYkM4WFBlUEhwWThiS25XM2VObEJDalQyMmNLcmVPZXRBZmZNNVU3MWltVjRNNlZNcU1rcGFKLTNNWC05WDdhVGItRVpkTngxMw?oc=5",
+        "published_at": "2026-11-02T17:16:12Z"
+      },
+      {
+        "headline": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+        "published_at": "2026-11-02T17:04:34Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.9589,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.3202,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 755.72,
+    "spy_change_pct": -1.7729,
+    "spy_lean": "bearish",
+    "vix_close": 19.42,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 76677.5,
+    "coinbase_premium_pct": -0.194593,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-02T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 202.06,
+        "change_pct": -1.2608,
+        "prev_close": 204.64
+      },
+      "AMD": {
+        "close": 466.84,
+        "change_pct": -7.5198,
+        "prev_close": 504.8
+      },
+      "TSM": {
+        "close": 398.63,
+        "change_pct": -1.8467,
+        "prev_close": 406.13
+      },
+      "SMCI": {
+        "close": 30.44,
+        "change_pct": -7.6176,
+        "prev_close": 32.95
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 681.04,
+        "change_pct": -1.3686,
+        "prev_close": 690.49
+      },
+      "SOXX": {
+        "close": 453.65,
+        "change_pct": -3.7878,
+        "prev_close": 471.51
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-10-30",
+    "total_net_inflow_usd": -643330345.88,
+    "total_net_assets_usd": 98139977651.38,
+    "total_value_traded_usd": 6350689995.0,
+    "cum_net_inflow_usd": 56980273670.61,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 76827,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 34,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 49,
+    "positive_count": 3,
+    "negative_count": 15,
+    "neutral_count": 31,
+    "sentiment_ratio": 0.0612,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Claude-Built Linux Exploit Targets Bug That Ubuntu Still Hasn't Patched",
+        "url": "https://decrypt.co/382375/claude-built-linux-exploit-bug-ubuntu",
+        "published_at": "2026-11-02T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
+        "url": "https://cointelegraph.com/news/morgan-stanley-cuts-coinbase-target-to-120-as-earnings-recovery-outlook-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-02T20:22:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin, Brazil\u2019s largest crypto exchange, hit by $46 million security breach",
+        "url": "https://www.theblock.co/news/defi/2026-11-02-mercado-bitcoin-hack-46-million-brazil-exchange-432333",
+        "published_at": "2026-11-02T20:19:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
+        "url": "https://decrypt.co/382357/tom-lee-calls-bottom-ai-stock-selloff-crypto",
+        "published_at": "2026-11-02T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+        "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-02T19:27:58+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DTCC\u2019s tokenization launch could accelerate adoption and boost Securitize, StoneX says",
+        "url": "https://www.theblock.co/news/markets/2026-11-02-stonex-dtcc-tokenization-validates-securitize-secz-432331",
+        "published_at": "2026-11-02T19:15:48+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-02T19:05:35+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korea Is Laundering Binance Hack Loot at One New Wallet Every 25 Seconds",
+        "url": "https://decrypt.co/382355/north-korea-laundering-binance-hack-loot-new-wallet-every-25-seconds",
+        "published_at": "2026-11-02T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Proton Users Revolt After CEO Calls Security Caution 'Loser Thinking' Amid AI Push",
+        "url": "https://decrypt.co/382353/proton-users-revolt-ceo-calls-security-caution-loser-thinking-ai",
+        "published_at": "2026-11-02T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin Suspends Withdrawals After $40M in Suspcious Transfers",
+        "url": "https://bitcoinist.com/mercado-bitcoin-suspends-withdrawals-after-40m-in-suspcious-transfers/",
+        "published_at": "2026-11-02T18:06:50+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 0,
+    "bearish_count": 9,
+    "neutral_count": 7,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
