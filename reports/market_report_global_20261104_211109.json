@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-04T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2704452077142.56,
+    "total_market_cap_change_24h_pct": 0.0785,
+    "total_volume_24h_usd": 97984446554.28,
+    "btc_dominance_pct": 59.507,
+    "eth_dominance_pct": 10.9261,
+    "total2_usd": 1095115037595.87,
+    "total3_usd": 799623370701.66,
+    "active_cryptocurrencies": 22783,
+    "altcoin_season_index": 46,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 29.2941,
+        "price_usd": 0.095179,
+        "market_cap_usd": 148296931
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": 22.7915,
+        "price_usd": 2.47,
+        "market_cap_usd": 207231890
+      },
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": 19.7045,
+        "price_usd": 0.787467,
+        "market_cap_usd": 118043196
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": 13.7551,
+        "price_usd": 0.01757574,
+        "market_cap_usd": 141475475
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 12.2277,
+        "price_usd": 0.999887,
+        "market_cap_usd": 249981763
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "price_change_24h_pct": -19.067,
+        "price_usd": 1.28,
+        "market_cap_usd": 360916628
+      },
+      {
+        "symbol": "YELLOW",
+        "name": "Yellow",
+        "price_change_24h_pct": -9.384,
+        "price_usd": 0.139124,
+        "market_cap_usd": 127253185
+      },
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": -5.3987,
+        "price_usd": 0.04836036,
+        "market_cap_usd": 1536921621
+      },
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": -4.923,
+        "price_usd": 0.366137,
+        "market_cap_usd": 183415004
+      },
+      {
+        "symbol": "GOMINING",
+        "name": "GoMining Token",
+        "price_change_24h_pct": -4.7705,
+        "price_usd": 0.38018,
+        "market_cap_usd": 153068504
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 80213,
+    "price_change_24h_pct": 3.0608,
+    "price_change_7d_pct": -1.7712,
+    "market_cap_usd": 1612808192031,
+    "volume_24h_usd": 39808339813,
+    "direction": "bullish",
+    "oi_usd": 7739119890.5,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.920142857142858e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 1.3866,
+    "long_account_pct": 58.1,
+    "short_account_pct": 41.9,
+    "btc_ls_lean": "neutral"
+  },
+  "eth": {
+    "price_usd": 2423.16,
+    "price_change_24h_pct": 5.817,
+    "price_change_7d_pct": 2.002,
+    "market_cap_usd": 296094911556,
+    "volume_24h_usd": 16976484524,
+    "eth_btc_ratio": 0.030209,
+    "eth_btc_lean": "bullish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 84890217214.48,
+    "stablecoin_market_cap_usd": 295583870230.19,
+    "stablecoin_dominance_pct": 10.9295
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 62,
+    "headlines": [
+      {
+        "headline": "Markets cheer Democratic win, betting divided Washington means fewer policy shocks - Reuters",
+        "summary": "Markets cheer Democratic win, betting divided Washington means fewer policy shocks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa19fZ0FrSFljZ2xPQlpBRmJ4NUFwcGZfME5lOGRNYnVKb2dtdldILTNDRHBwM3c1YzRiWVpXVUY1c3NzWVlINHAweEFjTUNaeTZwNjc3Q2swM2U4ZEk3SWJvdHJkVEQ4dUU4WEFnaEhoMDFONGhSd1I3TkthSkRmbWtQUzRBRjRuNGprcEEweUJTb3RXRktwaHZKMVlEM1RyaGZTVUluX3o5dXRlcElQVS1XVVVuTlE2?oc=5",
+        "published_at": "2026-11-04T20:43:17Z"
+      },
+      {
+        "headline": "Why we're kicking CVS out of our Bullpen watchlist. Plus, Intel's CEO makes a stand",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/04/why-were-kicking-cvs-out-of-our-bullpen-watchlist-plus-intels-ceo-makes-a-stand.html",
+        "published_at": "2026-11-04T20:05:55Z"
+      },
+      {
+        "headline": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
+        "summary": "Flutter's new CEO Dan Taylor issued his first earnings report as CEO on Wednesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
+        "published_at": "2026-11-04T19:53:32Z"
+      },
+      {
+        "headline": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him - Reuters",
+        "summary": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNUZjXy1DNGJHT1JRMlBGNVZ4alh1Ymc4NnI1azRtblU5YmlGWFRmTU5KeEFvNnUtdDYta2pWZEpDRENSZVd0QXk2NlNmMmRsenAzUHlBcktGZDdzUUltbUp1YVNTYkR1cE5HZXVGbDg1dXdTS0xCUEcyQ2g1dWFZR280NDhWbC1KZmsxYVZGUWhxV1N5ZGxraG4zUUloMzBPcDhCalhRaHJnZy1LNzBobGd0R25SQQ?oc=5",
+        "published_at": "2026-11-04T19:46:21Z"
+      },
+      {
+        "headline": "From Iran to trade: how the US midterms impact the rest of the world - Reuters",
+        "summary": "From Iran to trade: how the US midterms impact the rest of the world\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMk5tUl8yRml4eVVXZThHYnhwejMtb3VqUTR6c3lIel9CUjlQYnprMFdJOGRkY1BvcXU5eS0zeEg3Wnc3bHhPTnYyMms5bmpYVmxUVGNpeEJzZGhLUUVWcWY2dDhZTXBOR1pSRldGRUZyeGVkMU5RMkREejBqLUh5Y1IzTklIRTdHeUtweFh0SWVocUZuYlNmNTg5ZGFDa3c?oc=5",
+        "published_at": "2026-11-04T19:40:29Z"
+      },
+      {
+        "headline": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran - Reuters",
+        "summary": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTU5EOWpMNjZvcmh2TzIzTHo1OWRzaUdGRWZEN0xwbWpqV09pOGFoY2M5dlEya2xHTHJnS0VsQjZGM2lSTVk1U05TbHpLc3FveFhySUgtb1dPWEtXTkNXVlg4MWlwbTBSeGw1R2pPWTg3d3ZuV01nSDNvWWVQSjRTeFRSb3N2QnFMa0FMUDBGTWY5NDVIdG41Z05wdnRQT3pBRWJvSzg3Z0tEVXZSZDM5ag?oc=5",
+        "published_at": "2026-11-04T19:36:33Z"
+      },
+      {
+        "headline": "The post-election rally masks a sharp split in the AI trade. Who stands to win?",
+        "summary": "Investors are making divergent bets on AI stocks Wednesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/04/post-election-rally-masks-a-sharp-split-in-the-ai-trade-who-wins.html",
+        "published_at": "2026-11-04T19:21:20Z"
+      },
+      {
+        "headline": "Netanyahu rivals seize on Democrats' sweep of US Congress, seeking his ouster - Reuters",
+        "summary": "Netanyahu rivals seize on Democrats' sweep of US Congress, seeking his ouster\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMXFMUXhNOFRueTBpaDBRdk9WX0pJUW5DT21NakZ4WHlIZERjUWpfZHdjUkZ5OTRlSml1WnFNOGIxUEpBakFJbG90ZnFZMFh0Y2VwMGJ0VWJXVWZyMnBMWk5pMGpEa2NyQUN1dExweU1wYVhIdUtFUVBWcEViMlFTS2VBZDNaQmRsU0dfQ09Gd1FKOE9WN2ZDeFlTYjdlQ2k0QnJXeUpUeWgzWENBTkoyTmlwa2lvRkRuRURnZUFsdkw?oc=5",
+        "published_at": "2026-11-04T19:12:12Z"
+      },
+      {
+        "headline": "A massive trade just happened in a leading mortgage lender: Watch Options Action Live",
+        "summary": "Options traders make a series of trades post election",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/04/a-massive-trade-just-happened-in-a-leading-mortgage-lender-watch-options-action-live.html",
+        "published_at": "2026-11-04T19:08:15Z"
+      },
+      {
+        "headline": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran - Reuters",
+        "summary": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEhmUWlhLUFxUEhVeEJxVXdwc3FtVndOSUg4YlNfQ2RyYUt2OUFlM200M1h3M3NLZEFpU2c1MHJza2JPV2dkWGRWU05sMlp2ZmRqVUxUa3Rvd2RSeGFyQXctSDZPYTNfUmEza1lLSEY5SUN2OUdmZkhHQW5tTTcza3FfbGZ2X1ZkZk5VWmVWWHRhLW9pZmx3QmJOSVJLdWR1OHRNaUJoQVVKZw?oc=5",
+        "published_at": "2026-11-04T19:06:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.8476,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 754.35,
+    "spy_change_pct": 0.2992,
+    "spy_lean": "neutral",
+    "vix_close": 20.83,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 80205.97,
+    "coinbase_premium_pct": -0.008764,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-04T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 200.24,
+        "change_pct": -3.1206,
+        "prev_close": 206.69
+      },
+      "AMD": {
+        "close": 488.78,
+        "change_pct": 1.0085,
+        "prev_close": 483.9
+      },
+      "TSM": {
+        "close": 395.75,
+        "change_pct": -2.2357,
+        "prev_close": 404.8
+      },
+      "SMCI": {
+        "close": 29.6,
+        "change_pct": -5.7025,
+        "prev_close": 31.39
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 691.95,
+        "change_pct": 0.9733,
+        "prev_close": 685.28
+      },
+      "SOXX": {
+        "close": 450.41,
+        "change_pct": -3.1376,
+        "prev_close": 465.0
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-03",
+    "total_net_inflow_usd": -115563333.62,
+    "total_net_assets_usd": 99157322791.53,
+    "total_value_traded_usd": 1460343755.8,
+    "cum_net_inflow_usd": 56466092983.59,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 80213,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 42,
+    "fear_greed_label": "Neutral",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 5,
+    "negative_count": 9,
+    "neutral_count": 45,
+    "sentiment_ratio": 0.0847,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Crypto Market Bounces Back as Investors Weigh Election Risks",
+        "url": "https://bitcoinist.com/crypto-market-bounces-back-as-investors-weigh-election-risks/",
+        "published_at": "2026-11-04T20:50:54+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase Says 99% of Customer Crypto Is Offline and Out of Hackers\u2019 Reach",
+        "url": "https://decrypt.co/382570/coinbase-99-percent-customer-crypto-offline-binance-hack",
+        "published_at": "2026-11-04T20:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin rebounds past $80,000 as markets shrug off midterms and Binance hack",
+        "url": "https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030",
+        "published_at": "2026-11-04T20:09:58+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Bank Regulator Issues First AI Framework as Banks Battle Rogue Agents",
+        "url": "https://decrypt.co/382560/us-bank-regulator-issues-first-ai-framework-banks-battle-rogue-agents",
+        "published_at": "2026-11-04T19:57:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+        "url": "https://cointelegraph.com/news/trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-04T19:15:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "French Hill\u2019s race still too close to call as House flips, changing the direction of crypto legislation",
+        "url": "https://www.theblock.co/news/regulation/2026-11-04-french-hill-too-close-to-call-house-flips-changing-crypto-legislation-432572",
+        "published_at": "2026-11-04T19:02:05+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+        "url": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-04T18:47:56+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Voters Back AI Data Center Restrictions in At Least 29 Communities",
+        "url": "https://decrypt.co/382556/us-voters-back-ai-data-center-restrictions",
+        "published_at": "2026-11-04T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Canton Coin Gets SEC Nod as Wall Street Tokenization Heats Up",
+        "url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization",
+        "published_at": "2026-11-04T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income",
+        "url": "https://cointelegraph.com/news/circles-arc-token-sale-earnings-yields-usdc-income?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-04T18:02:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 3,
+    "neutral_count": 11,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "neutral",
+      "eth_btc_lean": "bullish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
