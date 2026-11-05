@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-05T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2572155570377.78,
+    "total_market_cap_change_24h_pct": -7.128,
+    "total_volume_24h_usd": 96899576773.29,
+    "btc_dominance_pct": 59.2193,
+    "eth_dominance_pct": 10.6106,
+    "total2_usd": 1048942839119.79,
+    "total3_usd": 776022185348.73,
+    "active_cryptocurrencies": 22806,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 13.734,
+        "price_usd": 0.108339,
+        "market_cap_usd": 169009105
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 10.8158,
+        "price_usd": 1.15,
+        "market_cap_usd": 1726290323
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 6.292,
+        "price_usd": 1.25,
+        "market_cap_usd": 344274075
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 5.0886,
+        "price_usd": 1.64,
+        "market_cap_usd": 606631646
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": 3.6649,
+        "price_usd": 8.19,
+        "market_cap_usd": 819352800
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": -16.6471,
+        "price_usd": 0.396672,
+        "market_cap_usd": 127142603
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -15.075,
+        "price_usd": 0.188363,
+        "market_cap_usd": 126328745
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": -14.9247,
+        "price_usd": 0.112216,
+        "market_cap_usd": 112215925
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": -12.1095,
+        "price_usd": 0.141129,
+        "market_cap_usd": 164735421
+      },
+      {
+        "symbol": "GRASS",
+        "name": "Grass",
+        "price_change_24h_pct": -11.5198,
+        "price_usd": 0.509906,
+        "market_cap_usd": 368132977
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75957,
+    "price_change_24h_pct": -5.3119,
+    "price_change_7d_pct": -5.8416,
+    "market_cap_usd": 1527146292177,
+    "volume_24h_usd": 41130613463,
+    "direction": "bearish",
+    "oi_usd": 7227981301.15,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 8.962190476190476e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.9324,
+    "long_account_pct": 74.57,
+    "short_account_pct": 25.43,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2239.25,
+    "price_change_24h_pct": -7.5817,
+    "price_change_7d_pct": -3.9542,
+    "market_cap_usd": 273618653286,
+    "volume_24h_usd": 15965486778,
+    "eth_btc_ratio": 0.02948,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81174052666.3,
+    "stablecoin_market_cap_usd": 294011194837.33,
+    "stablecoin_dominance_pct": 11.4305
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 42,
+    "headlines": [
+      {
+        "headline": "How Wall Street's postelection rally got obliterated \u2014 and what's next",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html",
+        "published_at": "2026-11-05T20:06:31Z"
+      },
+      {
+        "headline": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters - Reuters",
+        "summary": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
+        "published_at": "2026-11-05T19:48:28Z"
+      },
+      {
+        "headline": "ConocoPhillips boosts dividend after beating estimates on higher oil prices - Reuters",
+        "summary": "ConocoPhillips boosts dividend after beating estimates on higher oil prices\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
+        "published_at": "2026-11-05T19:34:08Z"
+      },
+      {
+        "headline": "Iran's security chief discusses regional, bilateral affairs with Putin - Reuters",
+        "summary": "Iran's security chief discusses regional, bilateral affairs with Putin\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkR5dEUwb2FoSDZrZ2p1UVF1T3VzbjEwSmhUWFBSeElYM0lHamE3SE0zYVViRHNqZ2piYTBjbWtoZThDU01hQmpYRFlwMHJTTFl3S2MyWnFoZWh1VTRCdEFvckJZcHktYjNpMWxLbU1vOGp3N0k1Yi1FZ0xTMXYzU2I2OHVZeGZrVXdiUmJOZ0phb2dLTjVGTTQ4aGF0WEdOLTVzS2RLQzBYNXR5?oc=5",
+        "published_at": "2026-11-05T18:59:00Z"
+      },
+      {
+        "headline": "Midterms upended Congress but Trump still commands foreign policy - Reuters",
+        "summary": "Midterms upended Congress but Trump still commands foreign policy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaFdhWXVRZDFtNThlVzMtcUs4eU9nTlVZZHJHZzAxbUhKNVBYN3FoR0lSMHJNSzVkQVJQdXlaWTZQZXNwUzEwSkhxRjBwQ1dRZzIyMFV5QkhTaWRmWHVKWEdSQmhyR1NHaUhyMlpnV09GVkxPbmh5MTlUZEphbVE1OENqSXlNTmdEejZPbUlNdmdzRTBiRnVYTHNuWHVQUEo0VXFvODJTaElxQQ?oc=5",
+        "published_at": "2026-11-05T18:52:10Z"
+      },
+      {
+        "headline": "We're dipping into our large cash pile to buy this bank on Thursday's sell-off",
+        "summary": "In times of market volatility, we like to fall back on companies that offer consistent capital returns to shareholders.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/05/were-dipping-into-our-cash-to-buy-this-bank-on-thursdays-sell-off.html",
+        "published_at": "2026-11-05T18:29:21Z"
+      },
+      {
+        "headline": "New wave of bomb hoaxes hits at least 27 passenger flights across Europe - Reuters",
+        "summary": "New wave of bomb hoaxes hits at least 27 passenger flights across Europe\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSUllcFZWajRSZE9PZE82Zl9aMHl5SlF6b09IejNjUjdqLTRJb2hKemVORDZGVDdkZkFaUksyV3hxMXNCNXlHZnR2QjY5anN0RkFpeC1UMzBQcjkxRC05S0tBcVhSOTA1dWw5d2s3ZDNkX1FadkI3SGh0Ti1zaWloUFVteWRfNlJNQl9uUkRVY0FyXzNDTEo2dkI5R3NveEd2eVVSeHFTOXhGQ0V3ZjRGOFpfcWJ6dm9VUXR3bGNxXzhrLXYtV29sRkR1NTc?oc=5",
+        "published_at": "2026-11-05T18:06:19Z"
+      },
+      {
+        "headline": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+        "summary": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
+        "published_at": "2026-11-05T17:34:16Z"
+      },
+      {
+        "headline": "Bank of England raises rates for first time since 2023, warns more likely - Reuters",
+        "summary": "Bank of England raises rates for first time since 2023, warns more likely\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEhfdUpzSlRCb2JiYmFYMjdxaEZySFE1cEJFcVlEWG1qajB4V2VGTXNmcGhRNHdBSF9Wa3FKcFpwMUpVVEc5NnQtaEhnQy0xUHpBc1lpZWp3TlZoUEhMQ1NHcFplMndKcmJJNEJrYlg2VnhoZlVJSkxnUDZzRzh2N0FuSlRHcl9JQTZ0LUhVMmxOaS1NWV9uWE15X19TN3pDMHFUeWNIdkRVQlYtemNsTQ?oc=5",
+        "published_at": "2026-11-05T17:11:41Z"
+      },
+      {
+        "headline": "Las Vegas Raiders owner Mark Davis says he's 'not a fan' of sports gambling amid prediction market boom",
+        "summary": "In an interview with CNBC Sport, Las Vegas Raiders owner Mark Davis expressed concerns about the expansion of sports gambling, particularly proposition bets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/05/las-vegas-raiders-owner-mark-davis-on-sports-gambling-not-a-fan.html",
+        "published_at": "2026-11-05T16:48:55Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.5333,
+    "dxy_lean": "bullish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 766.81,
+    "spy_change_pct": 1.6518,
+    "spy_lean": "bullish",
+    "vix_close": 16.61,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 75872.27,
+    "coinbase_premium_pct": -0.11155,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-05T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 181.6,
+        "change_pct": -9.259,
+        "prev_close": 200.13
+      },
+      "AMD": {
+        "close": 404.4,
+        "change_pct": -17.2634,
+        "prev_close": 488.78
+      },
+      "TSM": {
+        "close": 353.1,
+        "change_pct": -10.777,
+        "prev_close": 395.75
+      },
+      "SMCI": {
+        "close": 27.08,
+        "change_pct": -8.5135,
+        "prev_close": 29.6
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 647.05,
+        "change_pct": -6.4889,
+        "prev_close": 691.95
+      },
+      "SOXX": {
+        "close": 130.93,
+        "change_pct": -12.7928,
+        "prev_close": 150.1367
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-04",
+    "total_net_inflow_usd": 74567738.35,
+    "total_net_assets_usd": 102255112366.23,
+    "total_value_traded_usd": 3594956562.0,
+    "cum_net_inflow_usd": 56540660721.94,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75957,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 32,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 60,
+    "positive_count": 13,
+    "negative_count": 11,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.2167,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Trump Crypto Tokens Crash as Democrats Take Control of Congress",
+        "url": "https://bitcoinist.com/trump-crypto-tokens-crash-as-democrats-take-control-of-congress/",
+        "published_at": "2026-11-05T21:04:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOJ Creates 'Super Intelligence' Task Force to Guard Against AI Abuse",
+        "url": "https://decrypt.co/382672/doj-creates-super-intelligence-task-force-to-guard-against-ai-abuse",
+        "published_at": "2026-11-05T20:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
+        "url": "https://decrypt.co/382670/mercado-bitcoin-hack-contained-blockchain-data",
+        "published_at": "2026-11-05T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations",
+        "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+        "published_at": "2026-11-05T20:11:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
+        "url": "https://decrypt.co/382663/zcash-upgrade-could-lock-16-million-crypto",
+        "published_at": "2026-11-05T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI Found 948 Linux Security Flaws\u2014And Figured Out How to Exploit Them",
+        "url": "https://decrypt.co/382632/openai-linux-security-flaws-exploit",
+        "published_at": "2026-11-05T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack",
+        "url": "https://cointelegraph.com/news/binance-deribit-revoke-signalplus-api-fake-teams-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-05T19:02:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Base deploys Denim upgrade on mainnet, replacing Flashblocks with 200ms block times",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+        "published_at": "2026-11-05T19:00:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+        "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-05T18:32:45+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump-Backed American Bitcoin Turns a Profit as Bitcoin Rise Lifts Books",
+        "url": "https://decrypt.co/382633/trump-american-bitcoin-q3-profit-bitcoin-lifts-books",
+        "published_at": "2026-11-05T18:25:31+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 6,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
