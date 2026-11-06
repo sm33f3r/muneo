@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-06T21:10:04 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2566811813090.34,
+    "total_market_cap_change_24h_pct": -2.9286,
+    "total_volume_24h_usd": 79789685378.38,
+    "btc_dominance_pct": 59.2374,
+    "eth_dominance_pct": 10.5768,
+    "total2_usd": 1046300151365.65,
+    "total3_usd": 774813081313.17,
+    "active_cryptocurrencies": 22839,
+    "altcoin_season_index": 51,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": 21.445,
+        "price_usd": 0.481684,
+        "market_cap_usd": 154874263
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 13.702,
+        "price_usd": 1.87,
+        "market_cap_usd": 691481627
+      },
+      {
+        "symbol": "XTZ",
+        "name": "Tezos",
+        "price_change_24h_pct": 12.4636,
+        "price_usd": 0.279682,
+        "market_cap_usd": 307989145
+      },
+      {
+        "symbol": "ETHFI",
+        "name": "Ether.fi",
+        "price_change_24h_pct": 10.2621,
+        "price_usd": 0.581667,
+        "market_cap_usd": 580889210
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 10.2279,
+        "price_usd": 1.38,
+        "market_cap_usd": 380190355
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -8.5418,
+        "price_usd": 0.02503043,
+        "market_cap_usd": 450512043
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": -8.5035,
+        "price_usd": 0.2436,
+        "market_cap_usd": 217022280
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": -7.3533,
+        "price_usd": 0.100473,
+        "market_cap_usd": 156745128
+      },
+      {
+        "symbol": "VSN",
+        "name": "Vision",
+        "price_change_24h_pct": -5.8905,
+        "price_usd": 0.03389762,
+        "market_cap_usd": 129861551
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -5.5005,
+        "price_usd": 0.00584912,
+        "market_cap_usd": 4171637752
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75801,
+    "price_change_24h_pct": -0.2051,
+    "price_change_7d_pct": -1.3291,
+    "market_cap_usd": 1524261669915,
+    "volume_24h_usd": 32508620600,
+    "direction": "neutral",
+    "oi_usd": 7328099348.1,
+    "funding_rate_latest": 9.043e-05,
+    "funding_rate_7d_avg": 9.276904761904763e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.1034,
+    "long_account_pct": 75.63,
+    "short_account_pct": 24.37,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2227.59,
+    "price_change_24h_pct": -0.3684,
+    "price_change_7d_pct": -0.3701,
+    "market_cap_usd": 272215550866,
+    "volume_24h_usd": 12101424263,
+    "eth_btc_ratio": 0.029387,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 80651663487.19,
+    "stablecoin_market_cap_usd": 293074243560.8,
+    "stablecoin_dominance_pct": 11.4178
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 28,
+    "headlines": [
+      {
+        "headline": "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
+        "summary": "The Connecticut Democrat Murphy has been discussed as a possible candidate for the White House in 2028.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html",
+        "published_at": "2026-11-06T20:53:13Z"
+      },
+      {
+        "headline": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+        "summary": "We closed out a wild market week on Friday at the Investing Club's fourth Annual Meeting at the New York Stock Exchange.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
+        "published_at": "2026-11-06T20:36:03Z"
+      },
+      {
+        "headline": "Top House Oversight Democrat warns Trump family to 'lawyer up'",
+        "summary": "With Democrats set to take control of the House in January, Rep. Robert Garcia is promising sweeping probes into Trump, his family and his administration.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html",
+        "published_at": "2026-11-06T19:42:36Z"
+      },
+      {
+        "headline": "Fake job interview scams like the one that hit Binance are getting more sophisticated. Here are the new signs to watch for",
+        "summary": "Binance lost more than $6 billion in a hack partly caused by fake job interviews. Here's what job seekers can learn from it, and tips to avoid job search scams.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/06/binance-hack-fake-job-interview-scams.html",
+        "published_at": "2026-11-06T19:09:56Z"
+      },
+      {
+        "headline": "AI crush is powering one stock to sky-high valuations",
+        "summary": "Despite sky-high valuations, Mike Khouw argues Costco shares could present a compelling buy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/ai-crush-is-powering-one-stock-to-sky-high-valuations.html",
+        "published_at": "2026-11-06T18:15:44Z"
+      },
+      {
+        "headline": "Data center double-down: Hassett says Blue Wave won't stop AI build-out",
+        "summary": "Data centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which continues despite the midterm results.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
+        "published_at": "2026-11-06T15:55:48Z"
+      },
+      {
+        "headline": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
+        "summary": "Kalshi traders cut the odds of an Anthropic IPO announcement before December as AI stocks sold off after Democrats won control of Congress.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/anthropic-ipo-kalshi-post-midterms-ai-sell-off.html",
+        "published_at": "2026-11-06T15:42:41Z"
+      },
+      {
+        "headline": "Watch live: Jim Cramer shares his next investing moves for this tough market",
+        "summary": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+        "published_at": "2026-11-06T15:28:14Z"
+      },
+      {
+        "headline": "Family offices boost startup investments in October, backing women's health and caregivers",
+        "summary": "Laurene Powell Jobs' Emerson Collective was the most active family-office investor with three startup bets.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/family-offices-boost-startup-investments-in-october.html",
+        "published_at": "2026-11-06T14:02:15Z"
+      },
+      {
+        "headline": "Wall Street's fear gauge may be flashing a buy sign",
+        "summary": "History shows that similar spikes in the VIX have been good entry points for stocks",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html",
+        "published_at": "2026-11-06T14:02:11Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.5904,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 733.0,
+    "spy_change_pct": -4.4092,
+    "spy_lean": "bearish",
+    "vix_close": 28.18,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 75769.83,
+    "coinbase_premium_pct": -0.041121,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-06T21:10:04 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 186.64,
+        "change_pct": 2.7753,
+        "prev_close": 181.6
+      },
+      "AMD": {
+        "close": 449.04,
+        "change_pct": 11.0386,
+        "prev_close": 404.4
+      },
+      "TSM": {
+        "close": 375.44,
+        "change_pct": 6.3268,
+        "prev_close": 353.1
+      },
+      "SMCI": {
+        "close": 28.76,
+        "change_pct": 6.2038,
+        "prev_close": 27.08
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 656.1,
+        "change_pct": 1.3987,
+        "prev_close": 647.05
+      },
+      "SOXX": {
+        "close": 136.53,
+        "change_pct": 3.5102,
+        "prev_close": 131.9
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-05",
+    "total_net_inflow_usd": -430203000.85,
+    "total_net_assets_usd": 96647198354.15,
+    "total_value_traded_usd": 3885147006.0,
+    "cum_net_inflow_usd": 56110457721.09,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75801,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 31,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 67,
+    "positive_count": 13,
+    "negative_count": 16,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.194,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+        "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+        "published_at": "2026-11-06T21:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+        "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-06T21:05:25+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
+        "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+        "published_at": "2026-11-06T21:02:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+        "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-06T20:51:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Treasury walks back crypto surveillance \u2018travel rule\u2019 proposal",
+        "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+        "published_at": "2026-11-06T20:37:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says",
+        "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-06T20:36:25+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
+        "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+        "published_at": "2026-11-06T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
+        "url": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-06T20:04:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
+        "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker",
+        "published_at": "2026-11-06T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Paraguay Protests Over Bank Lockout Intensify as Impeachment Vote Nears",
+        "url": "https://decrypt.co/382740/paraguay-protests-bitcoin-impeachment-vote-nears",
+        "published_at": "2026-11-06T19:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
