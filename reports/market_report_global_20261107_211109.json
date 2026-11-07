@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-07T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2555642848365.33,
+    "total_market_cap_change_24h_pct": -2.9748,
+    "total_volume_24h_usd": 32516627778.92,
+    "btc_dominance_pct": 59.3384,
+    "eth_dominance_pct": 10.616,
+    "total2_usd": 1039164504955.29,
+    "total3_usd": 767856952252.85,
+    "active_cryptocurrencies": 22858,
+    "altcoin_season_index": 48,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 34.5911,
+        "price_usd": 0.00539226,
+        "market_cap_usd": 122923341
+      },
+      {
+        "symbol": "MET",
+        "name": "Meteora",
+        "price_change_24h_pct": 17.2088,
+        "price_usd": 0.322949,
+        "market_cap_usd": 182472632
+      },
+      {
+        "symbol": "GEOD",
+        "name": "Geodnet",
+        "price_change_24h_pct": 4.3153,
+        "price_usd": 0.246689,
+        "market_cap_usd": 183895253
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 3.0973,
+        "price_usd": 0.03988466,
+        "market_cap_usd": 662380535
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 2.7721,
+        "price_usd": 1.42,
+        "market_cap_usd": 390566740
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "price_change_24h_pct": -10.541,
+        "price_usd": 0.174015,
+        "market_cap_usd": 116672761
+      },
+      {
+        "symbol": "NFT",
+        "name": "AINFT",
+        "price_change_24h_pct": -9.3113,
+        "price_usd": 2.04084e-07,
+        "market_cap_usd": 202064905
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "price_change_24h_pct": -9.095,
+        "price_usd": 0.00363929,
+        "market_cap_usd": 1670338289
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": -7.8112,
+        "price_usd": 0.01426832,
+        "market_cap_usd": 114861777
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": -7.1342,
+        "price_usd": 1241.99,
+        "market_cap_usd": 21149264664
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75570,
+    "price_change_24h_pct": -0.2774,
+    "price_change_7d_pct": -2.5085,
+    "market_cap_usd": 1519655415216,
+    "volume_24h_usd": 11489334929,
+    "direction": "neutral",
+    "oi_usd": 7270875354.6,
+    "funding_rate_latest": 1.302e-05,
+    "funding_rate_7d_avg": 8.449952380952381e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.0568,
+    "long_account_pct": 75.35,
+    "short_account_pct": 24.65,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2224.72,
+    "price_change_24h_pct": -0.104,
+    "price_change_7d_pct": -1.195,
+    "market_cap_usd": 271856376386,
+    "volume_24h_usd": 4435674658,
+    "eth_btc_ratio": 0.029439,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 81059415081.71,
+    "stablecoin_market_cap_usd": 293242279399.79,
+    "stablecoin_dominance_pct": 11.4743
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 17,
+    "headlines": [
+      {
+        "headline": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+        "summary": "Trump ordered DOJ to examine alleged threats against Republicans while singling out Slotkin.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+        "published_at": "2026-11-07T20:28:17Z"
+      },
+      {
+        "headline": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government - Reuters",
+        "summary": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHIwVVZqTlgycHFJTEhPM3g1WU5oWWtKelZsNW5aUEphdmpDRC1STjMxQmYyYjR5dkNZUVFiVFBfZ3J1Nm9HN0RmM25pOUlTMWJkWGZuVktLV3h5QkNmdEtrbUt5X2NBYXFuZC04TzhPZUJWLWVJeWJMM256ZWIxRENRczhNdEtIa2I2aF85VzJUejZMa1ZvVEFSZXZCQWJtZU1nTnBvaVl4cmNJTEhfcWpCNTFjMmotS090TzE1eXc?oc=5",
+        "published_at": "2026-11-07T19:52:48Z"
+      },
+      {
+        "headline": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+        "summary": "Dave Wehner, Meta\u2019s chief strategy officer, is leaving the company to become CFO of Fireworks, the AI infrastructure startup valued at $17.5 billion in July.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+        "published_at": "2026-11-07T17:51:16Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce - Reuters",
+        "summary": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGRyZ1FFOWdNalpDbFdEeHZqc1JMNVVkekpWT3NULUU4N0hXTkN3MTQ5dlNSWjdhaUVCWlVUQVdhbkZrOEdDZ2FlNS1qOENqVnhOWGNYcmgtSU8xN3pHUjIzdDZ5akJZNzhnR3g4U0w5NjR1NUNka204MWRxak1WN056VUQ1MEhpNnpnaWVGSF90RlBMaTBWY1R5NFJDa3Q0SE1rMDhUUHRJZ01EMDJHdkhqMTY5aFU5TGd6WTNsekRoQkcyUkE?oc=5",
+        "published_at": "2026-11-07T16:57:15Z"
+      },
+      {
+        "headline": "Syria denies plans to send troops to Yemen as Saudi military ties deepen - Reuters",
+        "summary": "Syria denies plans to send troops to Yemen as Saudi military ties deepen\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
+        "published_at": "2026-11-07T16:35:43Z"
+      },
+      {
+        "headline": "Decisive election. Dramatic stock swings. How we handled the market last week",
+        "summary": "On Friday, Jim Cramer revealed his strategy for navigating this new era at the Investing Club's 4th Annual Meeting.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html",
+        "published_at": "2026-11-07T16:31:00Z"
+      },
+      {
+        "headline": "31-year-old dumpster diver brought in $140,000 in 12 months: I 'did much more than I thought was possible'",
+        "summary": "Carter Stevens started reselling discarded items from dumpsters around Nashville, Tennessee, in March 2024. Months earlier, he'd been living in his car.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/07/dumpster-diver-resale-business.html",
+        "published_at": "2026-11-07T14:15:01Z"
+      },
+      {
+        "headline": "Mark Cuban says he doesn\u2019t \u2018give a f---' about growing his net worth\u2014a healthy mindset for non-billionaires too, a financial therapist says",
+        "summary": "The billionaire serial entrepreneur says he cares more about the impact he can have by spending and investing, rather than worrying about amassing more wealth.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/07/mark-cuban-net-worth-money-mindset.html",
+        "published_at": "2026-11-07T14:05:01Z"
+      },
+      {
+        "headline": "World\u2019s No. 1 restaurant crowned as contest comes under increasing scrutiny",
+        "summary": "Asador Etxebarri in Atxondo, Spain, is the world's top restaurant, according to the 50 Best Restaurants, which announced its 2026 list.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/07/worlds-50-best-restaurants-2026-asador-etxebarri.html",
+        "published_at": "2026-11-07T13:38:44Z"
+      },
+      {
+        "headline": "Cosm rides premium moviegoing wave with more immersive screenings and a wider library",
+        "summary": "Cosm tickets cost anywhere from $18 for a matinee to around $70 for prime seats or in-demand showings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html",
+        "published_at": "2026-11-07T13:00:01Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2734,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 735.29,
+    "spy_change_pct": 0.3124,
+    "spy_lean": "neutral",
+    "vix_close": 28.18,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 75547.89,
+    "coinbase_premium_pct": -0.029258,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-07T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 186.64,
+        "change_pct": 2.7753,
+        "prev_close": 181.6
+      },
+      "AMD": {
+        "close": 449.04,
+        "change_pct": 11.0386,
+        "prev_close": 404.4
+      },
+      "TSM": {
+        "close": 375.44,
+        "change_pct": 6.3268,
+        "prev_close": 353.1
+      },
+      "SMCI": {
+        "close": 28.76,
+        "change_pct": 6.2038,
+        "prev_close": 27.08
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 656.1,
+        "change_pct": 1.3987,
+        "prev_close": 647.05
+      },
+      "SOXX": {
+        "close": 136.53,
+        "change_pct": 3.5102,
+        "prev_close": 131.9
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-06",
+    "total_net_inflow_usd": -411917545.1,
+    "total_net_assets_usd": 95896862408.52,
+    "total_value_traded_usd": 2333150247.3,
+    "cum_net_inflow_usd": 55698540175.99,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75570,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 31,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 18,
+    "positive_count": 6,
+    "negative_count": 1,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.3333,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Ex-FBI agent pleads guilty to stealing $2.47 million in crypto from wallets tied to 35 investigations",
+        "url": "https://www.theblock.co/news/regulation/2026-11-07-ex-fbi-agent-pleads-guilty-to-stealing-2-47-million-in-crypto-from-wallets-tied-to-35-investigations-435988",
+        "published_at": "2026-11-07T20:59:47+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
+        "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+        "published_at": "2026-11-07T17:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
+        "url": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+        "published_at": "2026-11-07T16:46:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI Chip Stocks Bounce After Global Rout\u2014But Is the Bubble Starting to Burst?",
+        "url": "https://decrypt.co/382770/ai-chip-stocks-bounce-global-rout-bubble-starting-burst",
+        "published_at": "2026-11-07T16:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "AI IPO Dilution Could Fuel Crypto\u2019s Next Rally, Analyst Warns",
+        "url": "https://bitcoinist.com/ai-ipo-dilution-could-fuel-cryptos-next-rally-analyst-warns/",
+        "published_at": "2026-11-07T14:25:21+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-07T14:22:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
+        "url": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-07T14:16:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sony Axing Game Discs Will Have Outsized Impact on Low-Income Gamers, Experts Say",
+        "url": "https://decrypt.co/382714/sony-axing-game-discs-will-have-outsized-impact-on-low-income-gamers-experts-say",
+        "published_at": "2026-11-07T14:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin holders have received eCash \u2014 What can you do with it?",
+        "url": "https://cointelegraph.com/magazine/bitcoin-holders-have-received-ecash-what-can-you-with-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-07T13:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Is Repeating The 2023 Setup That Sparked Its Last Major Rally, Analyst Says",
+        "url": "https://bitcoinist.com/bitcoin-is-repeating-the-2023-setup-that-sparked-its-last-major-rally-analyst-says/",
+        "published_at": "2026-11-07T13:04:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
