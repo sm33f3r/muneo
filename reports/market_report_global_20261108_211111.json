@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-08T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2520873776755.89,
+    "total_market_cap_change_24h_pct": -3.5707,
+    "total_volume_24h_usd": 29870466088.3,
+    "btc_dominance_pct": 60.0128,
+    "eth_dominance_pct": 10.7215,
+    "total2_usd": 1008025795849.17,
+    "total3_usd": 737749155098.2,
+    "active_cryptocurrencies": 22870,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "JCT",
+        "name": "Janction",
+        "price_change_24h_pct": 419.6189,
+        "price_usd": 0.01486928,
+        "market_cap_usd": 172715062
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": 5.4364,
+        "price_usd": 1.24e-06,
+        "market_cap_usd": 260537854
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price_change_24h_pct": 4.8908,
+        "price_usd": 5.06e-06,
+        "market_cap_usd": 2129216760
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": 4.077,
+        "price_usd": 0.00198545,
+        "market_cap_usd": 174881654
+      },
+      {
+        "symbol": "BC",
+        "name": "BCGame Coin",
+        "price_change_24h_pct": 3.8998,
+        "price_usd": 0.03925429,
+        "market_cap_usd": 126040444
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "KNTQ",
+        "name": "Kinetiq",
+        "price_change_24h_pct": -9.7982,
+        "price_usd": 0.419574,
+        "market_cap_usd": 134906270
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -7.2967,
+        "price_usd": 0.063716,
+        "market_cap_usd": 161571199
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -7.0226,
+        "price_usd": 0.00519496,
+        "market_cap_usd": 3710923687
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -5.4937,
+        "price_usd": 0.791439,
+        "market_cap_usd": 1817187428
+      },
+      {
+        "symbol": "NFT",
+        "name": "AINFT",
+        "price_change_24h_pct": -5.2881,
+        "price_usd": 1.92895e-07,
+        "market_cap_usd": 190988582
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 75637,
+    "price_change_24h_pct": 0.0677,
+    "price_change_7d_pct": -2.63,
+    "market_cap_usd": 1521109871468,
+    "volume_24h_usd": 10605285210,
+    "direction": "neutral",
+    "oi_usd": 7271559802.47,
+    "funding_rate_latest": 3.42e-05,
+    "funding_rate_7d_avg": 7.775380952380953e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.0486,
+    "long_account_pct": 75.3,
+    "short_account_pct": 24.7,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2222.79,
+    "price_change_24h_pct": -0.0995,
+    "price_change_7d_pct": -1.4384,
+    "market_cap_usd": 271622230142,
+    "volume_24h_usd": 3636688566,
+    "eth_btc_ratio": 0.029388,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 80958270868.63,
+    "stablecoin_market_cap_usd": 293482993220.77,
+    "stablecoin_dominance_pct": 11.6421
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 13,
+    "headlines": [
+      {
+        "headline": "Pope Leo arrives in Milei's Argentina as tensions loom over austerity, Iran - Reuters",
+        "summary": "Pope Leo arrives in Milei's Argentina as tensions loom over austerity, Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYV8wSU00NXg1Q0xRcmpIZWxTdkhGYV8zZmZuZ1pxdWpwQWpabFdGQVFQY1VSUkY5cUdNd1lnQWJjV3VkYy11Sk1nUHdkeGdnbFZ3bXRTNGxaeE9XWnVHRHlMVEF2T0I3QjVEX2dLY054QlZWUi1aTnBzc01RY21GUG1MYXhTcXhmZTl2UF9XZDh5WHlrNjk4ZXZ0OU16UkNhdnBjUi1mSDAwSkpxTnRMQjBLa3BVaWs?oc=5",
+        "published_at": "2026-11-08T20:10:33Z"
+      },
+      {
+        "headline": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says - Reuters",
+        "summary": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVVxWlAwOFI0ZGd4TUdTNFozbzE5TXN5UGx3R0NnX0JRdExfcVhSb21iYklFOXJ2QUpncXdoSFB3eE1NS0FFeHljZXQxeWlEVTNKVWd1eFVLWTZmbVpsSUs5Q3NqNUk2b1JYQVNxSFIyTTMxZERFdDBWVUFfUFZ2MkFtOUlIYm5VbE9kQ2kzVmdUTV9pZHFxNWNvUVFhYkI1WHc5LTZSS0JMR1Nka3gwSjgzWWFZZXN6OFFTRHB5Rzk1THIz?oc=5",
+        "published_at": "2026-11-08T19:01:43Z"
+      },
+      {
+        "headline": "Trump says he is highly unlikely to order Iran strikes if talks progress - Reuters",
+        "summary": "Trump says he is highly unlikely to order Iran strikes if talks progress\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+        "published_at": "2026-11-08T18:58:48Z"
+      },
+      {
+        "headline": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports - Reuters",
+        "summary": "Trump says he is unlikely to order Iran attack if talks progress, CNN reports\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbV96cm81eEtLUU91T0xKaWxycHdBV3c4VGNZb2dCbzA0M2M0V2ZPZXp2R1NRcmJ1Wl9TLUxZZWtQRDRtazg2dHVzRWlIdGpmWVRJTUl3cU95cUNheHJtMFJFU2lKM2c2cndGc2ZTbmFqZUpaT0hWRFRyZ1VPYzFFbXlSZUVCR1NuLWFqM0dFaUo2UHI4dWFKZlRoUHEwZ2UwNF95T0NzUGNHME15MFQtMWpMeXZaWDhGQnNkZDNRYnQyTjlQcUE?oc=5",
+        "published_at": "2026-11-08T18:00:09Z"
+      },
+      {
+        "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+        "summary": "CoreWeave earnings and inflation data will take center stage.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-11-08T17:40:15Z"
+      },
+      {
+        "headline": "With Stephen Miller at the helm, Trump charts a course for conflict - Reuters",
+        "summary": "With Stephen Miller at the helm, Trump charts a course for conflict\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hzOUNLZUw4VklCNFBfZ0lyaU1WWTVXaFJUT0NNd3J4VUloem9VdDRfbW96WXh6MWQwLURSbC1LN3d5N2h5VGhteVRyWlB6RXI0bTBpdTBXVkVFbmQyRjZqLWlvVUl5R2g4QU13QzFlbzRKVmMwSmRCdEtyaHZQbGdBSmZvY2ZqRmFWMFJDQm5YVGVQNnRKYW03STJMVTI2RkhDLVh6N2dyX01JaWc?oc=5",
+        "published_at": "2026-11-08T17:28:10Z"
+      },
+      {
+        "headline": "Gulf markets retreat as traders await Trump's next move on Iran - Reuters",
+        "summary": "Gulf markets retreat as traders await Trump's next move on Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEhqejQxdWF5MFpVWjduZHVuY1l1VmxKYm9CN3F4aC1qWkFIWFJqZDJEZ1VoWmthUW1NaWdWQUY4UUprUGsyWFA2a0trUE5HUjEtUHpPNFV1UnBpMHRrR2RlQWo1c2xvY1J2QnprNnNkbHNpY3ZtUWxMQkRzTVpKcktuZjhJdW5zSHdsZUhxYmxBVy00UWVnbndnOEc2WWplMEEwREVib0VyZ3BzZWlR?oc=5",
+        "published_at": "2026-11-08T13:14:08Z"
+      },
+      {
+        "headline": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+        "summary": "Thanksgiving airfare will cost more than last year as fares rise and strong demand continues.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
+        "published_at": "2026-11-08T13:00:01Z"
+      },
+      {
+        "headline": "Brands are sponsoring IRL communities. Some experts say that could spell their end",
+        "summary": "Brands are sponsoring book clubs and other local groups, giving organizers new revenue while raising questions about trust and community.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/08/brand-sponsorship-local-communities.html",
+        "published_at": "2026-11-08T13:00:01Z"
+      },
+      {
+        "headline": "Houthi attack damages Aramco building in Riyadh's financial district - Reuters",
+        "summary": "Houthi attack damages Aramco building in Riyadh's financial district\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEd1Mi1tMEV0cUFGYkd2V01lQ1NkczNNYzZXTlpTOXByR3BaSk82N21DOEpTeEtNMlJ1bFJ3S2pLTVZBOUp5cDFwOUpGakNxMTR1a2RyaHJBcDNOZUJqR1dDZllfejBPWGZ3UVYyT2s3Uk9XaFE3LW1qQkxtNHhlcmFRcGk0bDlWeHZyQmNNOEJyT1lWeVZlTEJlZ0xpRHF6UUs0RnRTWExlbEJ4eDc4YTY4d0VfM2x3dllKUGhZa1Z4QQ?oc=5",
+        "published_at": "2026-11-08T05:24:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2734,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 735.29,
+    "spy_change_pct": 0.3124,
+    "spy_lean": "neutral",
+    "vix_close": 28.18,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 75659.31,
+    "coinbase_premium_pct": 0.029496,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-08T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 186.64,
+        "change_pct": 2.7753,
+        "prev_close": 181.6
+      },
+      "AMD": {
+        "close": 449.04,
+        "change_pct": 11.0386,
+        "prev_close": 404.4
+      },
+      "TSM": {
+        "close": 375.44,
+        "change_pct": 6.3268,
+        "prev_close": 353.1
+      },
+      "SMCI": {
+        "close": 28.76,
+        "change_pct": 6.2038,
+        "prev_close": 27.08
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 656.1,
+        "change_pct": 1.3987,
+        "prev_close": 647.05
+      },
+      "SOXX": {
+        "close": 136.53,
+        "change_pct": 3.5102,
+        "prev_close": 131.9
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-06",
+    "total_net_inflow_usd": -411917545.1,
+    "total_net_assets_usd": 95896862408.52,
+    "total_value_traded_usd": 2333150247.3,
+    "cum_net_inflow_usd": 55698540175.99,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 75637,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 31,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 14,
+    "positive_count": 2,
+    "negative_count": 1,
+    "neutral_count": 11,
+    "sentiment_ratio": 0.1429,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitcoin Miners Help Heat Homes Across Finland",
+        "url": "https://bitcoinist.com/bitcoin-miners-help-heat-homes-across-finland/",
+        "published_at": "2026-11-08T20:06:09+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Web3Auth says it frontran hackers by moving $5.6 million out of exposed Keplr wallets",
+        "url": "https://www.theblock.co/news/defi/2026-11-08-web3auth-says-it-frontran-hackers-by-moving-5-6-million-out-of-exposed-keplr-wallets-436029",
+        "published_at": "2026-11-08T18:32:11+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Vitalik Buterin says ETH should be valued as a store of value, not a fee-burning token",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022",
+        "published_at": "2026-11-08T15:52:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Former FBI Agent Admits to $2.47 Million Crypto Theft",
+        "url": "https://bitcoinist.com/former-fbi-agent-admits-to-2-47-million-crypto-theft/",
+        "published_at": "2026-11-08T14:26:18+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Administration Inches Closer to Opening 401(k)s to Crypto",
+        "url": "https://bitcoinist.com/trump-administration-inches-closer-to-opening-401ks-to-crypto/",
+        "published_at": "2026-11-08T14:18:59+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This Bitcoin Developer\u2019s Idea Would Make Quantum Attacks a Losing Bet",
+        "url": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet",
+        "published_at": "2026-11-08T14:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-08T13:33:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance France emails announce closure of its users\u2019 accounts on Dec. 31",
+        "url": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-08T12:57:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
+        "url": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-08T09:48:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Set To Catch Up After Record October, RSI Signals Reversal",
+        "url": "https://bitcoinist.com/solana-price-catch-up-record-october/",
+        "published_at": "2026-11-08T09:33:45+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
