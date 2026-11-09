@@ -1,9 +1,9 @@
 {
   "token": "SOL",
-  "generated_at": "2026-11-09T09:00:30 UTC",
+  "generated_at": "2026-11-09T09:00:57 UTC",
   "schema_version": "1.0.0",
-  "total_periods": 15,
-  "weekly_count": 9,
+  "total_periods": 14,
+  "weekly_count": 8,
   "monthly_count": 3,
   "quarterly_count": 3,
   "most_recent_weekly": {
@@ -55,18 +55,6 @@
         "close_usd": 81.88,
         "price_change_pct": -11.0097,
         "filename": "weekly_2026_W13.json"
-      },
-      {
-        "period_id": "2026-W38",
-        "period_type": "weekly",
-        "start_date": "2026-09-14",
-        "end_date": "2026-09-20",
-        "data_quality": "complete",
-        "overall_lean": "neutral",
-        "signals_available": 14,
-        "close_usd": 109.78,
-        "price_change_pct": 6.2936,
-        "filename": "weekly_2026_W38.json"
       },
       {
         "period_id": "2026-W39",
