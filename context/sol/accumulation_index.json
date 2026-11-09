@@ -1,22 +1,22 @@
 {
   "token": "SOL",
-  "generated_at": "2026-11-02T09:01:08 UTC",
+  "generated_at": "2026-11-09T09:00:30 UTC",
   "schema_version": "1.0.0",
-  "total_periods": 14,
-  "weekly_count": 8,
+  "total_periods": 15,
+  "weekly_count": 9,
   "monthly_count": 3,
   "quarterly_count": 3,
   "most_recent_weekly": {
-    "period_id": "2026-W44",
+    "period_id": "2026-W45",
     "period_type": "weekly",
-    "start_date": "2026-10-26",
-    "end_date": "2026-11-01",
+    "start_date": "2026-11-02",
+    "end_date": "2026-11-08",
     "data_quality": "complete",
     "overall_lean": "neutral",
     "signals_available": 14,
-    "close_usd": 94.42,
-    "price_change_pct": -6.1338,
-    "filename": "weekly_2026_W44.json"
+    "close_usd": 88.01,
+    "price_change_pct": -4.2641,
+    "filename": "weekly_2026_W45.json"
   },
   "most_recent_monthly": {
     "period_id": "2026-M10",
@@ -139,6 +139,18 @@
         "close_usd": 94.42,
         "price_change_pct": -6.1338,
         "filename": "weekly_2026_W44.json"
+      },
+      {
+        "period_id": "2026-W45",
+        "period_type": "weekly",
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-08",
+        "data_quality": "complete",
+        "overall_lean": "neutral",
+        "signals_available": 14,
+        "close_usd": 88.01,
+        "price_change_pct": -4.2641,
+        "filename": "weekly_2026_W45.json"
       }
     ],
     "monthly": [
