@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-09T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2522794463562.96,
+    "total_market_cap_change_24h_pct": -2.9133,
+    "total_volume_24h_usd": 92781012388.4,
+    "btc_dominance_pct": 59.603,
+    "eth_dominance_pct": 10.2968,
+    "total2_usd": 1019132043816.14,
+    "total3_usd": 759365631988.52,
+    "active_cryptocurrencies": 22874,
+    "altcoin_season_index": 62,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 34.8537,
+        "price_usd": 1.97,
+        "market_cap_usd": 541402686
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": 26.2304,
+        "price_usd": 0.411006,
+        "market_cap_usd": 143613157
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 22.1527,
+        "price_usd": 0.00749003,
+        "market_cap_usd": 449510688
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 11.9661,
+        "price_usd": 0.474919,
+        "market_cap_usd": 140793674
+      },
+      {
+        "symbol": "JUP",
+        "name": "Jupiter",
+        "price_change_24h_pct": 7.6292,
+        "price_usd": 0.255843,
+        "market_cap_usd": 849251353
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "JCT",
+        "name": "Janction",
+        "price_change_24h_pct": -24.0782,
+        "price_usd": 0.0113158,
+        "market_cap_usd": 129827224
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -12.6578,
+        "price_usd": 1.016,
+        "market_cap_usd": 1529947670
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -12.1079,
+        "price_usd": 0.0045593,
+        "market_cap_usd": 3253339164
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": -10.6375,
+        "price_usd": 0.02525745,
+        "market_cap_usd": 123729397
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -7.9812,
+        "price_usd": 0.0048966,
+        "market_cap_usd": 111740769
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74897,
+    "price_change_24h_pct": -0.9642,
+    "price_change_7d_pct": -2.7423,
+    "market_cap_usd": 1506168346866,
+    "volume_24h_usd": 36459304452,
+    "direction": "neutral",
+    "oi_usd": 7282685141.38,
+    "funding_rate_latest": 0.0001,
+    "funding_rate_7d_avg": 7.682714285714286e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.7994,
+    "long_account_pct": 73.68,
+    "short_account_pct": 26.32,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2128.64,
+    "price_change_24h_pct": -4.2867,
+    "price_change_7d_pct": -5.2991,
+    "market_cap_usd": 260138448701,
+    "volume_24h_usd": 17752124336,
+    "eth_btc_ratio": 0.028421,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 78946080423.05,
+    "stablecoin_market_cap_usd": 294066571712.67,
+    "stablecoin_dominance_pct": 11.6564
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 24,
+    "headlines": [
+      {
+        "headline": "Children\u2019s Place files for bankruptcy protection, seeks buyer",
+        "summary": "The Children's Place has filed for chapter 11 bankruptcy protection and is seeking bids from potential new owners by Dec. 9.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/childrens-place-chapter-11-sale.html",
+        "published_at": "2026-11-09T20:57:46Z"
+      },
+      {
+        "headline": "This beaten-down data center stock could be worth a look, says Mike Khouw",
+        "summary": "United Rentals is trading at a below-market forward multiple. Effectively, one can buy superior, market-beating growth at a discounted market multiple.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
+        "published_at": "2026-11-09T19:23:57Z"
+      },
+      {
+        "headline": "Boeing to cut 5% of commercial airplane workforce as production increase is slower than expected",
+        "summary": "Boeing said Monday that it plans to cut 5% of its commercial airplane workforce as its production ramp-up is moving at a slower pace than the company expected.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
+        "published_at": "2026-11-09T17:57:58Z"
+      },
+      {
+        "headline": "The issues a 'really frustrated' Trump may actually work with Democrats on, according to former Speaker Paul Ryan",
+        "summary": "Former House Speaker Paul Ryan said President Donald Trump is likely to become frustrated governing with a Democratic-controlled Congress.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/the-issues-a-really-frustrated-trump-may-actually-work-with-democrats-on-according-to-former-speaker-paul-ryan.html",
+        "published_at": "2026-11-09T17:52:52Z"
+      },
+      {
+        "headline": "We're adding a consumer stock to diversify beyond the volatile AI trade",
+        "summary": "We wanted to add a less cyclical company with a cheap valuation and that consistently returns capital to its shareholders.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/09/were-starting-a-position-to-diversify-beyond-the-volatile-ai-trade.html",
+        "published_at": "2026-11-09T17:31:46Z"
+      },
+      {
+        "headline": "Why Jim Cramer believes Nvidia is still valuable despite the CEO affair controversy",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/09/why-jim-cramer-believes-nvidia-is-still-valuable-despite-the-ceo-affair-controversy.html",
+        "published_at": "2026-11-09T17:09:44Z"
+      },
+      {
+        "headline": "Honda to invest $3 billion in new vehicle assembly plant in Ohio",
+        "summary": "The Japanese automaker said the plant will focus on hybrid vehicles and is expected to begin production in 2029.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html",
+        "published_at": "2026-11-09T16:10:33Z"
+      },
+      {
+        "headline": "Eli Lilly\u2019s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval",
+        "summary": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html",
+        "published_at": "2026-11-09T14:30:01Z"
+      },
+      {
+        "headline": "Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan",
+        "summary": "Goodyear Tire & Rubber appointed board member Roger Wood interim CEO and president, replacing Mark Stewart as the tire maker continues its turnaround plan.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html",
+        "published_at": "2026-11-09T14:29:35Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+        "summary": "It's all about Nvidia's Jensen Huang today.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+        "published_at": "2026-11-09T14:11:35Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2734,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.6656,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 735.29,
+    "spy_change_pct": 0.3124,
+    "spy_lean": "neutral",
+    "vix_close": 25.64,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 74787.13,
+    "coinbase_premium_pct": -0.146695,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-09T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 178.67,
+        "change_pct": -4.2703,
+        "prev_close": 186.64
+      },
+      "AMD": {
+        "close": 508.58,
+        "change_pct": 13.2594,
+        "prev_close": 449.04
+      },
+      "TSM": {
+        "close": 388.62,
+        "change_pct": 3.5105,
+        "prev_close": 375.44
+      },
+      "SMCI": {
+        "close": 28.6,
+        "change_pct": -0.5563,
+        "prev_close": 28.76
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 678.68,
+        "change_pct": 3.4415,
+        "prev_close": 656.1
+      },
+      "SOXX": {
+        "close": 146.8,
+        "change_pct": 7.5222,
+        "prev_close": 136.53
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-06",
+    "total_net_inflow_usd": -411917545.1,
+    "total_net_assets_usd": 95896862408.52,
+    "total_value_traded_usd": 2333150247.3,
+    "cum_net_inflow_usd": 55698540175.99,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 74897,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 59,
+    "positive_count": 13,
+    "negative_count": 11,
+    "neutral_count": 35,
+    "sentiment_ratio": 0.2203,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
+        "url": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-09T21:00:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
+        "url": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-09T20:26:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Takes Aim at Nvidia With New AI Chips Built for Privacy and Massive Memory",
+        "url": "https://decrypt.co/382874/google-nvidia-new-ai-chips-privacy-massive-memory-ai",
+        "published_at": "2026-11-09T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elizabeth Warren vows scrutiny of prediction markets, Trump family crypto ventures as Senate Banking chair",
+        "url": "https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898",
+        "published_at": "2026-11-09T20:04:49+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
+        "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-09T19:52:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
+        "url": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto",
+        "published_at": "2026-11-09T19:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
+        "url": "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation",
+        "published_at": "2026-11-09T19:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia's $350 Billion Scare: What Happens If Jensen Huang Leaves?",
+        "url": "https://decrypt.co/382838/nvidias-350-billion-scare-what-happens-if-jensen-huang-leaves",
+        "published_at": "2026-11-09T18:31:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation, Vitalik Buterin sued over firing after \u2018suicide pledge\u2019 dispute",
+        "url": "https://www.theblock.co/news/regulation/2026-11-09-ethereum-foundation-vitalik-buterin-sued-over-firing-suicide-pledge-dispute-436739",
+        "published_at": "2026-11-09T18:30:22+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-09T18:25:29+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 8,
+    "neutral_count": 7,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
