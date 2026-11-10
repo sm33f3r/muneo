@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-10T21:10:06 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2483645561734.1,
+    "total_market_cap_change_24h_pct": -4.0708,
+    "total_volume_24h_usd": 79106465607.89,
+    "btc_dominance_pct": 59.7901,
+    "eth_dominance_pct": 10.1287,
+    "total2_usd": 998671415074.86,
+    "total3_usd": 747109769041.15,
+    "active_cryptocurrencies": 22794,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 13.8288,
+        "price_usd": 1.16,
+        "market_cap_usd": 1740986265
+      },
+      {
+        "symbol": "GRAM",
+        "name": "Gram (prev. Toncoin)",
+        "price_change_24h_pct": 8.8961,
+        "price_usd": 1.13,
+        "market_cap_usd": 3218309738
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "price_change_24h_pct": 5.9156,
+        "price_usd": 0.07066,
+        "market_cap_usd": 802853885
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": 5.2485,
+        "price_usd": 0.00441521,
+        "market_cap_usd": 221992007
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 4.2736,
+        "price_usd": 0.04182538,
+        "market_cap_usd": 693680081
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -15.1884,
+        "price_usd": 0.00387061,
+        "market_cap_usd": 2765058354
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -11.5884,
+        "price_usd": 1.42,
+        "market_cap_usd": 531765069
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -10.2218,
+        "price_usd": 19.42,
+        "market_cap_usd": 948707730
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": -9.8307,
+        "price_usd": 1054.72,
+        "market_cap_usd": 17928323317
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "price_change_24h_pct": -8.8072,
+        "price_usd": 0.159656,
+        "market_cap_usd": 1098599749
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 73915,
+    "price_change_24h_pct": -1.2456,
+    "price_change_7d_pct": -4.9529,
+    "market_cap_usd": 1485324415282,
+    "volume_24h_usd": 30626901771,
+    "direction": "bearish",
+    "oi_usd": 7384520206.55,
+    "funding_rate_latest": 5.925e-05,
+    "funding_rate_7d_avg": 7.488666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.0733,
+    "long_account_pct": 75.45,
+    "short_account_pct": 24.55,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2061.37,
+    "price_change_24h_pct": -3.1481,
+    "price_change_7d_pct": -9.9899,
+    "market_cap_usd": 251683570467,
+    "volume_24h_usd": 13785646845,
+    "eth_btc_ratio": 0.027888,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 77327484552.52,
+    "stablecoin_market_cap_usd": 292894327892.16,
+    "stablecoin_dominance_pct": 11.7929
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 47,
+    "headlines": [
+      {
+        "headline": "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters",
+        "summary": "Fed officials open door to a half-percentage-point rate hike as inflation worsens\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
+        "published_at": "2026-11-10T20:42:14Z"
+      },
+      {
+        "headline": "US Army member arrested in UK for suspected 'espionage' for Russia - Reuters",
+        "summary": "US Army member arrested in UK for suspected 'espionage' for Russia\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT0hNNGY0T0RDZVBLMGZlOW5iREJOMXN2VEt6VGV4aEo4Y2JoejZOa3VJMXJicWRvaUtnNE9pTG5iMzNfbGlpQjZPRVc0SW9zV0xiYjJJLU4wTW9OY25oUE5uMkkwRkxtd2NlOUZrVnJlVUVPX1ozcDdmVlNwbEh2WWxqSmNvRWZvTDF4X25jWURpUzFHUFAxWkNvUUtYbnhuLWdKZFIxMWxLS2tfWUY4?oc=5",
+        "published_at": "2026-11-10T20:04:39Z"
+      },
+      {
+        "headline": "GE Vernova sellers have it all wrong \u2014 plus, why Fed rate hike odds are soaring",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+        "published_at": "2026-11-10T20:02:53Z"
+      },
+      {
+        "headline": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
+        "summary": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXZLZlE1TldPUHRna1pNTU91YTJWVHJ5NmxEZERoWGFudjU4WFI1SHlqVXl1TzFmeHBFcjNjZHhOTkNSVTIzcmFsbnktdzR3MDFaY2FYQzVlaHhBc3V5Nm52R3pvZU5vdHJhZndaV3R2LXh1cVZxUkhvcDQ0Z3lMNXA2THdaM05kZVpNOWliNGQ0cHBNOFhYYU44U3hWaVRkYldWNS11ZUtwNUs5YjBJbVdLYjhidklfMnZwYWVwRHpyMGYyMS1Z?oc=5",
+        "published_at": "2026-11-10T19:53:34Z"
+      },
+      {
+        "headline": "Traders bet on a pop for Anthropic's historic IPO",
+        "summary": "Perpetual futures traders see Anthropic popping on its IPO",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+        "published_at": "2026-11-10T19:51:18Z"
+      },
+      {
+        "headline": "Wall St retreats as hot inflation data, Fed comments fuel rate worries - Reuters",
+        "summary": "Wall St retreats as hot inflation data, Fed comments fuel rate worries\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
+        "published_at": "2026-11-10T19:45:44Z"
+      },
+      {
+        "headline": "Rubio says no need for major combat operations against Iran given US economic campaign - Reuters",
+        "summary": "Rubio says no need for major combat operations against Iran given US economic campaign\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOek5yNnd3UkRRS2RHYjY5MlR1NU9KQnFWcW43RGV1VHI5Yzhxc3RseUstNnVCbXVlUTN3T1hTcE9RUEFGT0R6Q0JUTmQxNW1aX2lZM0RXZkNjLTgwdWQ5aFN1OGM2LTBLcV91MlBkdDE0a2VCQk5nNUdDOGo1ZHI2TW9Pa010QjlrcjQwU0htVjlTMlVOUXJ2cThHQ0JHY09rSHFyYVgtNzNhMXNVVzJ3UTZTb1R6cmM?oc=5",
+        "published_at": "2026-11-10T19:35:30Z"
+      },
+      {
+        "headline": "Defiant Hegseth blasts impeachment 'farce' ahead of US House vote - Reuters",
+        "summary": "Defiant Hegseth blasts impeachment 'farce' ahead of US House vote\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVFtR2hnZ2luVDdXU010VVB4UVpubVBIbUtJc0ZkQVkzLUkzaWxMRDJKaVVoTVNUbzRyRGQ4ZFh1dUZIUFhRVDRTVVNyZ3FWQkRIMm5UTVJOY2J0MDJ4bEFZNkh2MjdUZzRnRkVYbXBKSktfNElhWU42SEVRMktOd0JHYTQyU2N4ZUF2eWZicDRpVHBCTHRYUWFYOVRMT3lrVWNuQldMQkV0MVVGYXc?oc=5",
+        "published_at": "2026-11-10T19:20:59Z"
+      },
+      {
+        "headline": "Israeli fire kills seven, including a father and son, in Gaza, medics say - Reuters",
+        "summary": "Israeli fire kills seven, including a father and son, in Gaza, medics say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUVlyOWR1akxRUHIxVWhFWjNOU3RZcnVsMTk2WXdVZDFrY1Mzcm1KbWgwYVRvUG04bUx4ZVVnTktzUHlTcnNRbVFmT1I5WDRNNWUySWlZMGo0Q2NzVVczUDRLLVNKbEpUNUpwa2VYeWI0bEN3ZlMzX3c1QTVvVkd6X3J4YXlCWkZpblFBblBFS09ycThfMWNjdEJDQzYwbHJU?oc=5",
+        "published_at": "2026-11-10T18:09:34Z"
+      },
+      {
+        "headline": "Iran's top security official says no talks underway with US - Reuters",
+        "summary": "Iran's top security official says no talks underway with US\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXVfMkI3S19RUFdwVWNlT3EyYkFfVUpBOW5ldjdoaUNXREN6OW8yaEVMb2Fwbkhhcm1seVYzR0FjMFQxTGt2NFZ6enpxaXFBSE0wQThJT2dRQ0E0aFhyamc5Y1g5djFKaE52OUJ6cTZOOFVYMGFEMWpuRHZVMGVCS18tYmo0NVFBT0tFRHlVNExEVnluNndNSnJkRk5IN0lyWlJ4VFduZTFhRzZIX0EtU2VB?oc=5",
+        "published_at": "2026-11-10T16:59:41Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 101.6652,
+    "dxy_lean": "bullish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 752.69,
+    "spy_change_pct": 2.3664,
+    "spy_lean": "bullish",
+    "vix_close": 19.92,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 73920.05,
+    "coinbase_premium_pct": 0.006832,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-10T21:10:06 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 168.7956,
+        "change_pct": -5.5266,
+        "prev_close": 178.67
+      },
+      "AMD": {
+        "close": 515.21,
+        "change_pct": 1.3036,
+        "prev_close": 508.58
+      },
+      "TSM": {
+        "close": 396.48,
+        "change_pct": 2.0225,
+        "prev_close": 388.62
+      },
+      "SMCI": {
+        "close": 27.79,
+        "change_pct": -2.8322,
+        "prev_close": 28.6
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 674.76,
+        "change_pct": -0.6756,
+        "prev_close": 679.35
+      },
+      "SOXX": {
+        "close": 146.59,
+        "change_pct": -0.1158,
+        "prev_close": 146.76
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-09",
+    "total_net_inflow_usd": -201081930.01,
+    "total_net_assets_usd": 94434986267.62,
+    "total_value_traded_usd": 1726290132.4,
+    "cum_net_inflow_usd": 55497458245.98,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 73915,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 26,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 63,
+    "positive_count": 8,
+    "negative_count": 14,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.127,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitcoin Slips Toward $74K as Fed Hike Odds Hit 96% After Waller",
+        "url": "https://bitcoinist.com/bitcoin-slips-toward-74k-as-fed-hike-odds-hit-96-after-waller/",
+        "published_at": "2026-11-10T21:03:53+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
+        "url": "https://decrypt.co/382974/nvidia-erases-2026-gains-republicans-threaten-ceo-subpoena",
+        "published_at": "2026-11-10T20:45:50+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kimber Digital Securities gains broker-dealer status for tokenized assets",
+        "url": "https://cointelegraph.com/news/kimber-digital-securities-broker-dealer-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-10T20:26:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Near AI Breach Exposes User Details and Data From 18 AI Agents",
+        "url": "https://decrypt.co/382965/near-ai-breach-exposes-user-details-data-ai-agents",
+        "published_at": "2026-11-10T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It",
+        "url": "https://decrypt.co/382956/elon-musk-calls-claude-opus-5-5-masterpiece-grok-wont-match",
+        "published_at": "2026-11-10T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
+        "url": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+        "published_at": "2026-11-10T19:38:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale Bets $1 Million on Zcash as Privacy Coin Tumbles",
+        "url": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles",
+        "published_at": "2026-11-10T19:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto\u2019s Stablecoin Giants",
+        "url": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+        "published_at": "2026-11-10T18:33:37+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
+        "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-10T18:12:07+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Grayscale pledges $1 million alongside Zcash ad blitz as token and ETF fall 12%",
+        "url": "https://www.theblock.co/news/markets/2026-11-10-grayscale-pledges-1-million-alongside-zcash-ad-blitz-as-token-and-etf-fall-12-437277",
+        "published_at": "2026-11-10T17:52:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 8,
+    "neutral_count": 5,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
