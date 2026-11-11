@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-11T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2497407734256.51,
+    "total_market_cap_change_24h_pct": -1.6924,
+    "total_volume_24h_usd": 65404806089.97,
+    "btc_dominance_pct": 59.9167,
+    "eth_dominance_pct": 10.1482,
+    "total2_usd": 1001043010048.68,
+    "total3_usd": 747600839950.56,
+    "active_cryptocurrencies": 22608,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "QFI",
+        "name": "Quantix Finance",
+        "price_change_24h_pct": 86110.2396,
+        "price_usd": 999.15,
+        "market_cap_usd": 411595029
+      },
+      {
+        "symbol": "OZO",
+        "name": "Ozone Chain",
+        "price_change_24h_pct": 68.4271,
+        "price_usd": 0.220236,
+        "market_cap_usd": 211632009
+      },
+      {
+        "symbol": "Q",
+        "name": "Quack AI",
+        "price_change_24h_pct": 17.1471,
+        "price_usd": 0.02917539,
+        "market_cap_usd": 143909237
+      },
+      {
+        "symbol": "SNDKB",
+        "name": "SanDisk (bStocks Tokenized Stock)",
+        "price_change_24h_pct": 14.0175,
+        "price_usd": 982.72,
+        "market_cap_usd": 120625290
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 13.31,
+        "price_usd": 0.04737257,
+        "market_cap_usd": 786735262
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -12.262,
+        "price_usd": 1.6,
+        "market_cap_usd": 440250139
+      },
+      {
+        "symbol": "EDGE",
+        "name": "edgeX",
+        "price_change_24h_pct": -10.8823,
+        "price_usd": 0.348244,
+        "market_cap_usd": 121885267
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -10.5928,
+        "price_usd": 1.045,
+        "market_cap_usd": 1573150822
+      },
+      {
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "price_change_24h_pct": -10.3852,
+        "price_usd": 4.75e-06,
+        "market_cap_usd": 1996345922
+      },
+      {
+        "symbol": "SN51",
+        "name": "lium",
+        "price_change_24h_pct": -8.0413,
+        "price_usd": 24.32,
+        "market_cap_usd": 124613194
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 74595,
+    "price_change_24h_pct": 0.9229,
+    "price_change_7d_pct": -6.7074,
+    "market_cap_usd": 1500164009284,
+    "volume_24h_usd": 26074102537,
+    "direction": "neutral",
+    "oi_usd": 7285160444.94,
+    "funding_rate_latest": 6.639e-05,
+    "funding_rate_7d_avg": 7.138619047619048e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.5817,
+    "long_account_pct": 72.08,
+    "short_account_pct": 27.92,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2078.13,
+    "price_change_24h_pct": 0.7981,
+    "price_change_7d_pct": -13.5226,
+    "market_cap_usd": 253911499279,
+    "volume_24h_usd": 8803553777,
+    "eth_btc_ratio": 0.027859,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 78514357148.93,
+    "stablecoin_market_cap_usd": 290774237628.71,
+    "stablecoin_dominance_pct": 11.643
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "We're adding a chipmaker to our Bullpen watchlist and downgrading another name",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/11/were-adding-a-chipmaker-to-our-bullpen-watchlist-and-downgrading-another-name.html",
+        "published_at": "2026-11-11T20:04:42Z"
+      },
+      {
+        "headline": "Iran will not allow enriched nuclear material to leave the country, security chief says - Reuters",
+        "summary": "Iran will not allow enriched nuclear material to leave the country, security chief says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmRMSFZZUld1UEFab291N25WYXZVNENjbmtrWVU0OEEwZm84Z2RONXZHM0JnY2FId2ROLTRvek9lWmZiSFNQNlMwVVpVQ0Q1V3NsSDk1alc5Z0JoMExVY3NpYjVSVDhXd3RtYmo2M2lsdHoydlUteHlDMkp5QlZsWGQxam1JUXFuRkV0UHhOTVB0ZWtxeUhCTkNHNkRMMG5TaUdQaHBUYTlmMkhBRjBWUkZUTlNMVU1ISzFfVlduXzBJd3p0U0psdDNTa1F4Zw?oc=5",
+        "published_at": "2026-11-11T20:03:05Z"
+      },
+      {
+        "headline": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters",
+        "summary": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5",
+        "published_at": "2026-11-11T19:50:43Z"
+      },
+      {
+        "headline": "Apple's record run ignites options flurry \u2014 Watch Options Action live",
+        "summary": "Apple's resilience continues to catch the attention of options traders looking for a safe harbor in tech.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/apples-record-run-ignites-options-flurry-watch-options-action-live.html",
+        "published_at": "2026-11-11T18:53:03Z"
+      },
+      {
+        "headline": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
+        "summary": "From a valuation standpoint, WYNN is trading very close to its five-year historical averages across key metrics. So how should traders play this setup?",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html",
+        "published_at": "2026-11-11T18:24:53Z"
+      },
+      {
+        "headline": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+        "summary": "Meta's head of infrastructure and co-head of engineering Santosh Janardhan will leave in 2027, with former AWS senior vice president David Brown taking over.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+        "published_at": "2026-11-11T18:10:52Z"
+      },
+      {
+        "headline": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say - Reuters",
+        "summary": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFB3XzM5cVFXcFdvTWhfdVJSY21DLVNHRE81YXh1Ykt3MlY0M29GY05FbFEwd2hMT3lTR1duaVV6UGdac003SWM2cTJpb1FqX2UzdnZqNW5YSEpEOGd2dmZ2VW5XOTZzcGlSNGl5dENGNFQ4c2JGYU9yaXV2RU84QXVRQVVtR3EtYmpaNXRKM3d2ZHJVdzlzOWxrMktEVVZYZzJVeVVzcmtMM0JLYmxsZVQ5YlRWN2tRd0UyM2dUXy04eW5PWlE?oc=5",
+        "published_at": "2026-11-11T17:59:02Z"
+      },
+      {
+        "headline": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+        "summary": "American Airlines' first class food options include sandwiches, fruit and chia bowls",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
+        "published_at": "2026-11-11T17:34:18Z"
+      },
+      {
+        "headline": "Russia and Ukraine say some progress made at talks, US cites a lack of trust - Reuters",
+        "summary": "Russia and Ukraine say some progress made at talks, US cites a lack of trust\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEZkalllTkswSW1lWVlXanFsVFBfVnBSUmE0U1VNWTJ4c3BrS3dzTDZWQUhwM3NfOTFMdjVuaHBqZVRTVFBYU2JEOWtpX2VoR1ZtUzZVcDlTN0tKVzVtczFhYThSSHpDTjJXSHV4U1Rqc0doRElpcW1WTGQwdmF6bE1VN3BpU2J4U3V1Rld3S25XNXZxWkVVNVlRZDAzLWpIVGFHWG9Bd2M?oc=5",
+        "published_at": "2026-11-11T17:11:11Z"
+      },
+      {
+        "headline": "Jim Cramer's plan for our Intel position. Plus, a rotation loser to buy here",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-plan-for-our-intel-position-plus-a-rotation-loser-to-buy-here.html",
+        "published_at": "2026-11-11T16:59:10Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.2467,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 749.92,
+    "spy_change_pct": -0.368,
+    "spy_lean": "neutral",
+    "vix_close": 19.46,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 74570.88,
+    "coinbase_premium_pct": -0.032335,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-11T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 173.73,
+        "change_pct": 2.8658,
+        "prev_close": 168.89
+      },
+      "AMD": {
+        "close": 552.9,
+        "change_pct": 7.3155,
+        "prev_close": 515.21
+      },
+      "TSM": {
+        "close": 413.35,
+        "change_pct": 4.2549,
+        "prev_close": 396.48
+      },
+      "SMCI": {
+        "close": 30.43,
+        "change_pct": 9.4998,
+        "prev_close": 27.79
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 690.38,
+        "change_pct": 2.3149,
+        "prev_close": 674.76
+      },
+      "SOXX": {
+        "close": 155.4,
+        "change_pct": 6.01,
+        "prev_close": 146.59
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-10",
+    "total_net_inflow_usd": -95001233.75,
+    "total_net_assets_usd": 92823526744.15,
+    "total_value_traded_usd": 2062983908.6,
+    "cum_net_inflow_usd": 55402457012.23,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 74595,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 28,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 68,
+    "positive_count": 13,
+    "negative_count": 12,
+    "neutral_count": 43,
+    "sentiment_ratio": 0.1912,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
+        "url": "https://cointelegraph.com/news/us-data-center-restrictions-bitcoin-miners-edge-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-11T20:43:19+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DogeOS \u2018very, very close\u2019 to launching DeFi features, app layer for Dogecoin: CEO",
+        "url": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
+        "published_at": "2026-11-11T20:32:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "This New AI Music Model Is Already Better Than Suno\u2014We Put ACE to the Test",
+        "url": "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review",
+        "published_at": "2026-11-11T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sen. Warren, Merkley raise ethics concerns over Trump aide\u2019s prediction market bets",
+        "url": "https://www.theblock.co/news/regulation/2026-11-11-sen-warren-merkley-raise-ethics-concerns-over-trump-aides-prediction-market-bets-438394",
+        "published_at": "2026-11-11T19:48:46+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tether's Tiny AI Agent Beats Models 2.5 Times Its Size at Controlling Your Phone",
+        "url": "https://decrypt.co/383066/tether-tiny-ai-agent-beats-models-phone",
+        "published_at": "2026-11-11T19:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
+        "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup",
+        "published_at": "2026-11-11T19:06:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
+        "url": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-11T18:30:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Faces First Back-to-Back Annual Losses in History, But There's a Catch",
+        "url": "https://decrypt.co/383049/bitcoin-first-back-to-back-annual-losses-history",
+        "published_at": "2026-11-11T17:56:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Stablecoin supply drops $14.2 billion in largest contraction since 2022 bear market",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-11-stablecoin-supply-drops-14-2-billion-largest-contraction-since-2022-bear-market-437907",
+        "published_at": "2026-11-11T17:23:10+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Are Solana Privacy Rings? Inside Helius\u2019 Privacy Protocol for Solana",
+        "url": "https://decrypt.co/resources/what-are-solana-privacy-rings-inside-helius-privacy-protocol-for-solana",
+        "published_at": "2026-11-11T17:09:18+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "neutral",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
