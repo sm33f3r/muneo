@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-12T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2404812990466.99,
+    "total_market_cap_change_24h_pct": -6.1531,
+    "total_volume_24h_usd": 70989910060.81,
+    "btc_dominance_pct": 59.4604,
+    "eth_dominance_pct": 10.1899,
+    "total2_usd": 974901267684.4,
+    "total3_usd": 729852655294.72,
+    "active_cryptocurrencies": 22412,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SHFL",
+        "name": "Shuffle",
+        "price_change_24h_pct": 5.0311,
+        "price_usd": 0.391905,
+        "market_cap_usd": 197755637
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 3.5145,
+        "price_usd": 0.105085,
+        "market_cap_usd": 163933024
+      },
+      {
+        "symbol": "NFT",
+        "name": "AINFT",
+        "price_change_24h_pct": 3.3569,
+        "price_usd": 2.07545e-07,
+        "market_cap_usd": 205491068
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": 3.2738,
+        "price_usd": 0.01738657,
+        "market_cap_usd": 205599059
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 3.1031,
+        "price_usd": 0.821018,
+        "market_cap_usd": 1885915558
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -11.9976,
+        "price_usd": 0.00653767,
+        "market_cap_usd": 393089717
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -10.6854,
+        "price_usd": 1.37,
+        "market_cap_usd": 516197706
+      },
+      {
+        "symbol": "STX",
+        "name": "Stacks",
+        "price_change_24h_pct": -10.4006,
+        "price_usd": 0.283551,
+        "market_cap_usd": 533663814
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quant",
+        "price_change_24h_pct": -8.9729,
+        "price_usd": 162.14,
+        "market_cap_usd": 2360124544
+      },
+      {
+        "symbol": "ZAMA",
+        "name": "Zama",
+        "price_change_24h_pct": -8.9104,
+        "price_usd": 0.059514,
+        "market_cap_usd": 151645821
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 71351,
+    "price_change_24h_pct": -4.3156,
+    "price_change_7d_pct": -6.3644,
+    "market_cap_usd": 1434950904255,
+    "volume_24h_usd": 28226283089,
+    "direction": "bearish",
+    "oi_usd": 7230706344.34,
+    "funding_rate_latest": 8.904e-05,
+    "funding_rate_7d_avg": 6.956333333333333e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.1649,
+    "long_account_pct": 75.99,
+    "short_account_pct": 24.01,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 2012.57,
+    "price_change_24h_pct": -3.1234,
+    "price_change_7d_pct": -10.8502,
+    "market_cap_usd": 245962269091,
+    "volume_24h_usd": 10648235110,
+    "eth_btc_ratio": 0.028207,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 76748947774.47,
+    "stablecoin_market_cap_usd": 289214532685.85,
+    "stablecoin_dominance_pct": 12.0265
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 34,
+    "headlines": [
+      {
+        "headline": "Microsoft outage hits Outlook. AWS and Google users also report issues",
+        "summary": "Amazon Web Services and Google users also reported outages on Thursday",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+        "published_at": "2026-11-12T20:57:54Z"
+      },
+      {
+        "headline": "United Airlines won\u2019t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
+        "summary": "AI agents can save you time, but an expert says decisions involving your health, wealth and privacy still need human input.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html",
+        "published_at": "2026-11-12T20:24:59Z"
+      },
+      {
+        "headline": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+        "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+        "published_at": "2026-11-12T20:10:49Z"
+      },
+      {
+        "headline": "Jensen Huang is out and Nvidia stock is down\u2014what market pros say about buying dips",
+        "summary": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+        "published_at": "2026-11-12T20:01:29Z"
+      },
+      {
+        "headline": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html",
+        "published_at": "2026-11-12T20:00:42Z"
+      },
+      {
+        "headline": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+        "summary": "The president's son will no longer serve as an advisor at Kalshi.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+        "published_at": "2026-11-12T19:19:38Z"
+      },
+      {
+        "headline": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption - Reuters",
+        "summary": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkdBWnZVWXZqcEFwdWFkTmw5XzVHVndjNzBhdW1GZVFfT2d2OFBzVDlLbC1pdmNvZTY5X01iRE01eGktRlh0b0s2bXJSTm9ZS19CZkdnVzR6bmEzOFJlQjNET2NvTl9yVGZjeHg5SkxVcmZ5UHFkLXcxQ1M3N1dRU3R5R05raV9VOVRsUDRFZE9sT1B6NmZ0ZTA4SFB0TlNYTUNhUHdMWVNKV0tDSmd4d19IRERyblE2QkgxSlpzSQ?oc=5",
+        "published_at": "2026-11-12T18:26:53Z"
+      },
+      {
+        "headline": "Two Iranian men found guilty in UK of assisting Iranian intelligence - Reuters",
+        "summary": "Two Iranian men found guilty in UK of assisting Iranian intelligence\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdPVmJKU0hSSFFKaHZqSjhkbmswNjdjN0V5ak1BZHdna1AzWk1YeXlsdHd0WEFxSEppRlpadHY4UTBQTWV1MVliRTVtN005WTdHNTdOWndramJPbXFCYnZQNmJTcldoM3FMbTFmU0RTcGt4TTBETnVqTGFiNDkxNnhYaUlZU2QyeTJPZ2QtR2FPaXFqR3MwamRKRkpON0VFR1NUN0dOaUFYRUxidWJ4M2F3?oc=5",
+        "published_at": "2026-11-12T18:22:50Z"
+      },
+      {
+        "headline": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+        "summary": "Fed Chair Kevin Warsh announced the move at his October news conference, though he did not set a date.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
+        "published_at": "2026-11-12T18:11:32Z"
+      },
+      {
+        "headline": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline - Reuters",
+        "summary": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5",
+        "published_at": "2026-11-12T18:05:43Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 102.9104,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 759.81,
+    "spy_change_pct": 1.3188,
+    "spy_lean": "bullish",
+    "vix_close": 17.49,
+    "vix_lean": "bullish",
+    "coinbase_btc_price_usd": 71375.81,
+    "coinbase_premium_pct": 0.034772,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-12T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 166.19,
+        "change_pct": -4.3401,
+        "prev_close": 173.73
+      },
+      "AMD": {
+        "close": 585.3,
+        "change_pct": 5.86,
+        "prev_close": 552.9
+      },
+      "TSM": {
+        "close": 405.49,
+        "change_pct": -1.9015,
+        "prev_close": 413.35
+      },
+      "SMCI": {
+        "close": 26.99,
+        "change_pct": -11.3046,
+        "prev_close": 30.43
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 688.17,
+        "change_pct": -0.3201,
+        "prev_close": 690.38
+      },
+      "SOXX": {
+        "close": 154.99,
+        "change_pct": -0.2638,
+        "prev_close": 155.4
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-11",
+    "total_net_inflow_usd": -299898422.14,
+    "total_net_assets_usd": 93696850737.42,
+    "total_value_traded_usd": 2269834567.71,
+    "cum_net_inflow_usd": 55102558590.09,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 71351,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 22,
+    "fear_greed_label": "Fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 68,
+    "positive_count": 10,
+    "negative_count": 16,
+    "neutral_count": 42,
+    "sentiment_ratio": 0.1471,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax",
+        "url": "https://cointelegraph.com/news/us-justice-department-business-groups-defi-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-12T20:58:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
+        "url": "https://decrypt.co/383201/why-path-quantum-resistance-runs-uphill-bitcoin-wallet",
+        "published_at": "2026-11-12T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+        "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-12T20:07:41+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Avalanche Owns Five Percent of Tokenized Stocks",
+        "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-12-avalanche-owns-five-percent-tokenized-stocks-437310",
+        "published_at": "2026-11-12T20:02:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Who Is Colette Kress, Jensen Huang\u2019s Successor as Nvidia CEO?",
+        "url": "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo",
+        "published_at": "2026-11-12T18:55:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
+        "url": "https://decrypt.co/383146/nvidia-amd-broadcom-ai-stock-winners-loses-jensen-huang",
+        "published_at": "2026-11-12T18:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NYDFS sets fresh advertising standards for crypto firms",
+        "url": "https://www.theblock.co/news/regulation/2026-11-12-nydfs-sets-fresh-advertising-standards-crypto-firms-439014",
+        "published_at": "2026-11-12T18:03:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Illinois Crypto Tax Draws Unlikely Alliance of DOJ, Banks and DeFi",
+        "url": "https://decrypt.co/383144/illinois-crypto-tax-draws-alliance-doj-banks-defi",
+        "published_at": "2026-11-12T17:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin falls to 12-week low as Jensen Huang\u2019s exit from Nvidia rattles markets",
+        "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
+        "published_at": "2026-11-12T17:40:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "'A Massive Mistake': Tech, AI and Crypto Founders React to Jensen Huang\u2019s Nvidia Exit",
+        "url": "https://decrypt.co/383141/massive-mistake-tech-ai-crypto-founders-react-jensen-huang-nvidia-exit",
+        "published_at": "2026-11-12T17:14:42+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 9,
+    "neutral_count": 4,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "bullish",
+      "vix_lean": "bullish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
