@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-13T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2342717133803.68,
+    "total_market_cap_change_24h_pct": -5.3248,
+    "total_volume_24h_usd": 95452081453.44,
+    "btc_dominance_pct": 58.9361,
+    "eth_dominance_pct": 10.1267,
+    "total2_usd": 962010000272.69,
+    "total3_usd": 724769432592.49,
+    "active_cryptocurrencies": 22236,
+    "altcoin_season_index": 73,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": 341.6674,
+        "price_usd": 0.01221286,
+        "market_cap_usd": 279284719
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "price_change_24h_pct": 9.4348,
+        "price_usd": 8.1,
+        "market_cap_usd": 810312140
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 8.8339,
+        "price_usd": 1.48,
+        "market_cap_usd": 559703148
+      },
+      {
+        "symbol": "ZBCN",
+        "name": "Zebec Network",
+        "price_change_24h_pct": 8.7629,
+        "price_usd": 0.00187206,
+        "market_cap_usd": 187036134
+      },
+      {
+        "symbol": "SN51",
+        "name": "lium",
+        "price_change_24h_pct": 8.5469,
+        "price_usd": 25.69,
+        "market_cap_usd": 130941194
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -23.2198,
+        "price_usd": 0.762453,
+        "market_cap_usd": 1150037003
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": -10.7652,
+        "price_usd": 0.109077,
+        "market_cap_usd": 163132138
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aero",
+        "price_change_24h_pct": -9.4636,
+        "price_usd": 0.472883,
+        "market_cap_usd": 341841246
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "price_change_24h_pct": -9.4622,
+        "price_usd": 0.473685,
+        "market_cap_usd": 130079074
+      },
+      {
+        "symbol": "TIA",
+        "name": "Celestia",
+        "price_change_24h_pct": -8.5611,
+        "price_usd": 0.393281,
+        "market_cap_usd": 389722364
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 68649,
+    "price_change_24h_pct": -3.807,
+    "price_change_7d_pct": -9.2257,
+    "market_cap_usd": 1380662162365,
+    "volume_24h_usd": 42709213868,
+    "direction": "bearish",
+    "oi_usd": 6750546212.03,
+    "funding_rate_latest": 4.045e-05,
+    "funding_rate_7d_avg": 6.517333333333333e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.09,
+    "long_account_pct": 75.55,
+    "short_account_pct": 24.45,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1938.97,
+    "price_change_24h_pct": -3.6631,
+    "price_change_7d_pct": -12.8532,
+    "market_cap_usd": 236955361468,
+    "volume_24h_usd": 14620183389,
+    "eth_btc_ratio": 0.028245,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 75137500131.43,
+    "stablecoin_market_cap_usd": 288316554098.85,
+    "stablecoin_dominance_pct": 12.3069
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 25,
+    "headlines": [
+      {
+        "headline": "Hassett denies report he's leaving White House: 'Not true'",
+        "summary": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+        "published_at": "2026-11-13T19:59:17Z"
+      },
+      {
+        "headline": "Nvidia hasn\u2019t selected search firm for permanent Huang replacement, board tells CNBC",
+        "summary": "Speculation has swirled around who Nvidia's board will select to permanently succeed Huang.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+        "published_at": "2026-11-13T19:42:52Z"
+      },
+      {
+        "headline": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
+        "summary": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+        "published_at": "2026-11-13T18:44:05Z"
+      },
+      {
+        "headline": "The common theme driving stocks lower \u2014 plus, 3 trades and another we want to make",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/13/the-common-theme-driving-stocks-lower-plus-3-trades-and-another-we-want-to-make.html",
+        "published_at": "2026-11-13T17:57:03Z"
+      },
+      {
+        "headline": "Women are taking pay cuts and 'white-knuckling it' to manage menopause and work: 'I feel like I'm sitting on the sidelines'",
+        "summary": "Women, and some trans and non-binary people, often experience career setbacks stemming from menopause that can hurt them financially and professionally.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/13/menopause-career-setbacks.html",
+        "published_at": "2026-11-13T16:00:01Z"
+      },
+      {
+        "headline": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation - Reuters",
+        "summary": "Bessent, Fed's Goolsbee divided on role of energy shock in inflation\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGl4M3I4cEx4Q1pteUwtd3I3OFBYWWFUU096V1Y3X2oxdl9KOFprODJXTEoxallGdk8tXzNuMzlWSXdjTTBFNjUxUHFwWmdVZTFHeTh0TEVYcWtNSXI2aUJkRFdKVFgtNmpWS01zTlhMS21ndThYQjY2bDhXSFpnV2c0Sl8wSzdBWnJzNmZVR05iUGdxU3BCUnBIYlcteEQtRkNMbDBQRF82QXVESmZSRGNvZG9yaGtfbm5QNHBTUE1jNjA?oc=5",
+        "published_at": "2026-11-13T15:40:04Z"
+      },
+      {
+        "headline": "We're making 3 trades to adjust our consumer exposure after an analyst downgrade",
+        "summary": "We want to take protect gains heading into earnings results next week.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/13/were-making-3-trades-to-adjust-our-consumer-exposure-after-downgrade.html",
+        "published_at": "2026-11-13T14:59:57Z"
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
+        "summary": "Stock futures picked up some steam this morning.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+        "published_at": "2026-11-13T14:12:16Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Iraq turns to trucks to export oil in overland Syrian route revival - Reuters",
+        "summary": "EXCLUSIVE: Iraq turns to trucks to export oil in overland Syrian route revival\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQclRIYjhBLWw5LV85dEh1eWFKUXJ2ZU1xTlpwbmpPSmIzYUZKTzlvNEZvTldxQnE2V1V2WVFNTHJNNVg4SWhFeHM0a0pGSGtic3d0Zk1TVUhXQWwtaFJlZHlkNXFZUnZraUJhUUN3Y2hFMVRzY2ppLUN1SmlYRW9hU2ptaFZiWkRIR3MtdE1FemE0b3M5eXJ6bDBtY2wxc0dwMXJyN0VxLTNGMDlLUUZZ?oc=5",
+        "published_at": "2026-11-13T13:27:43Z"
+      },
+      {
+        "headline": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+        "summary": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+        "published_at": "2026-11-13T13:15:35Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.194,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 757.12,
+    "spy_change_pct": -0.354,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 68598.23,
+    "coinbase_premium_pct": -0.073956,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-13T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 162.85,
+        "change_pct": -2.0097,
+        "prev_close": 166.19
+      },
+      "AMD": {
+        "close": 534.06,
+        "change_pct": -8.7545,
+        "prev_close": 585.3
+      },
+      "TSM": {
+        "close": 398.73,
+        "change_pct": -1.6671,
+        "prev_close": 405.49
+      },
+      "SMCI": {
+        "close": 26.865,
+        "change_pct": -0.4631,
+        "prev_close": 26.99
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 679.89,
+        "change_pct": -1.2032,
+        "prev_close": 688.17
+      },
+      "SOXX": {
+        "close": 149.3,
+        "change_pct": -3.6712,
+        "prev_close": 154.99
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-12",
+    "total_net_inflow_usd": -283997508.0,
+    "total_net_assets_usd": 89556010553.95,
+    "total_value_traded_usd": 2885345830.3,
+    "cum_net_inflow_usd": 54818561082.09,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 68649,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 19,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 64,
+    "positive_count": 10,
+    "negative_count": 13,
+    "neutral_count": 41,
+    "sentiment_ratio": 0.1562,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+        "url": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-13T21:01:39+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Unocoin Suspends Withdrawals After Suspicious BitGo Wallet Transfers",
+        "url": "https://bitcoinist.com/unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers/",
+        "published_at": "2026-11-13T21:01:02+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meta tests prediction market app using \u2018cred\u2019 points instead of cash: WSJ",
+        "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
+        "published_at": "2026-11-13T20:55:26+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+        "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-13T20:53:20+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China\u2019s $3.2 Billion AI Pipeline Still Calls for Nvidia Chips Washington Restricts",
+        "url": "https://decrypt.co/383266/china-ai-pipeline-nvidia-chips-washington-restricts",
+        "published_at": "2026-11-13T20:45:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan\u2019s Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
+        "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion",
+        "published_at": "2026-11-13T20:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dormant Bitcoin Wallets Wake Up After 16 Years, Moving $6.9 Million",
+        "url": "https://decrypt.co/383264/dormant-bitcoin-wallets-wake-up-after-16-years",
+        "published_at": "2026-11-13T19:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MEGA cuts 20% of workforce as former MegaETH Foundation restructures",
+        "url": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
+        "published_at": "2026-11-13T19:26:53+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "House Oversight Chair calls for possible ban on government officials\u2019 prediction market bets over insider trading concerns",
+        "url": "https://www.theblock.co/news/regulation/2026-11-13-house-oversight-chair-possible-ban-government-officials-prediction-market-bets-insider-trading-concerns-440207",
+        "published_at": "2026-11-13T19:09:12+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC\u2019s Selig accuses states of trying to \u2018lock up\u2019 prediction market founders",
+        "url": "https://www.theblock.co/news/regulation/2026-11-13-cftcs-selig-accuses-states-trying-lock-up-prediction-market-founders-440199",
+        "published_at": "2026-11-13T18:51:03+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 9,
+    "neutral_count": 6,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
