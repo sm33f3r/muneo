@@ -1,0 +1,182 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-14T21:25:08 UTC",
+    "token": "SUI",
+    "config_file": "configs/sui.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 0.691388,
+    "price_change_24h_pct": -13.3961,
+    "price_change_7d_pct": -19.0109,
+    "volume_24h_usd": 428184511,
+    "market_cap_usd": 2863737588,
+    "volume_to_mcap_ratio": 0.149519,
+    "ath_usd": 5.35,
+    "ath_drawdown_pct": -87.0686,
+    "cex_price_usd": 0.6904,
+    "cex_24h_high": 0.8012,
+    "cex_24h_low": 0.6762,
+    "cex_dex_spread_pct": -0.142901,
+    "volume_on_up_days_usd": 345808111.93518865,
+    "volume_on_down_days_usd": 422023500.9635045,
+    "volume_lean": "bearish"
+  },
+  "technical_indicators": {
+    "rsi_14": 45.2298,
+    "rsi_lean": "neutral",
+    "macd": {
+      "macd_line": 0.016108,
+      "signal_line": 0.037468,
+      "histogram": -0.02136
+    },
+    "macd_lean": "bearish",
+    "sma_50": 0.86105,
+    "price_vs_sma50_pct": -19.704,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 1.255802,
+      "mid": 0.921469,
+      "lower": 0.587136,
+      "width_pct": 72.5651,
+      "position": 0.3532
+    },
+    "bb_lean": "neutral"
+  },
+  "derivatives": {
+    "oi_usd": 64821829.88,
+    "oi_lean": null,
+    "funding_rate_latest": -5.174e-05,
+    "funding_rate_7d_avg": 2.6074285714285714e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.9002,
+    "btc_long_account_pct": 74.36,
+    "btc_short_account_pct": 25.64,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 374116744.0,
+    "tvl_7d_change_pct": -14.8338,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 152408.15,
+    "chain_fees_7d_avg_usd": 122103.7,
+    "chain_fees_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 2,
+    "positive_count": 0,
+    "negative_count": 2,
+    "neutral_count": 0,
+    "sentiment_ratio": 0.0,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Louisiana AG calls CFTC chair an \u2018obsequious standard bearer\u2019 for prediction markets following agency lawsuit",
+        "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+        "published_at": "2026-11-14T19:06:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+        "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
+        "published_at": "2026-11-14T17:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 64474.0,
+    "btc_24h_change_pct": -5.4926,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 59.7628,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2165721000355.3582,
+    "eth_btc_ratio": 0.027585,
+    "eth_btc_lean": "neutral",
+    "dxy": 103.4087,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 754.37,
+    "spy_change_pct": -0.3632,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 14,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 75.0,
+    "cg_sentiment_votes_down_pct": 25.0,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 7,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "neutral",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "neutral",
+      "volume_lean": "bearish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "bullish",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "CoinPaprika coin detail \u2014 HTTP 403"
+  ]
+}
