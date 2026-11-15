@@ -1,0 +1,443 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-15T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2197811978255.45,
+    "total_market_cap_change_24h_pct": -2.9501,
+    "total_volume_24h_usd": 103154365182.5,
+    "btc_dominance_pct": 59.3548,
+    "eth_dominance_pct": 10.1102,
+    "total2_usd": 893305562130.79,
+    "total3_usd": 671101347097.36,
+    "active_cryptocurrencies": 22253,
+    "altcoin_season_index": 69,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price_change_24h_pct": 32.865,
+        "price_usd": 0.674357,
+        "market_cap_usd": 1721847895
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 18.4052,
+        "price_usd": 20.3,
+        "market_cap_usd": 994489356
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 16.9121,
+        "price_usd": 0.296352,
+        "market_cap_usd": 314838105
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": 12.9408,
+        "price_usd": 0.142722,
+        "market_cap_usd": 341274330
+      },
+      {
+        "symbol": "XEC",
+        "name": "eCash",
+        "price_change_24h_pct": 11.9813,
+        "price_usd": 5.5e-06,
+        "market_cap_usd": 111380839
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -25.5775,
+        "price_usd": 0.547074,
+        "market_cap_usd": 821500177
+      },
+      {
+        "symbol": "STRCX",
+        "name": "Strategy PP Variable xStock",
+        "price_change_24h_pct": -6.5403,
+        "price_usd": 101.79,
+        "market_cap_usd": 113649445
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -4.5895,
+        "price_usd": 0.01147813,
+        "market_cap_usd": 261718462
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": -4.5423,
+        "price_usd": 0.00166967,
+        "market_cap_usd": 147092243
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": -3.5478,
+        "price_usd": 0.105578,
+        "market_cap_usd": 164703302
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 65026,
+    "price_change_24h_pct": 0.7958,
+    "price_change_7d_pct": -14.1649,
+    "market_cap_usd": 1307991744826,
+    "volume_24h_usd": 47366082202,
+    "direction": "neutral",
+    "oi_usd": 6097830576.97,
+    "funding_rate_latest": -2.47e-06,
+    "funding_rate_7d_avg": 6.16304761904762e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.9683,
+    "long_account_pct": 74.8,
+    "short_account_pct": 25.2,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1822.84,
+    "price_change_24h_pct": 2.5367,
+    "price_change_7d_pct": -18.1639,
+    "market_cap_usd": 222777075034,
+    "volume_24h_usd": 17815214309,
+    "eth_btc_ratio": 0.028032,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71677909547.7,
+    "stablecoin_market_cap_usd": 287783632257.7,
+    "stablecoin_dominance_pct": 13.0941
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 14,
+    "headlines": [
+      {
+        "headline": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters",
+        "summary": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5",
+        "published_at": "2026-11-15T18:59:19Z"
+      },
+      {
+        "headline": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre - Reuters",
+        "summary": "Yemen's Houthis say they launched ballistic missiles towards Riyadh airport, financial centre\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2NSdXVjeDlTU0lLeTAtMGs5RmdHaW0wTVhVbzUwempOYUdlNVB3NXprMGZqYksyVjhLUU1OV250QlczemJOT2tXcVFIZEJYb0dwblVCblExbnFmZkVyeGZnZ0NJY3Z3a3NTcmxUQ21tR0ZsQVdhTTNRNWJaZW5pOEk4RDNEMXN3aExOaEE0QVNzaXV3UTM3ZjlNa2hDenRtajR2aGVGT3RQR0NOSnY1VHQ3czdCSkJWSUgxaFFYNThEUlBBMVpn?oc=5",
+        "published_at": "2026-11-15T18:02:53Z"
+      },
+      {
+        "headline": "Battle for young male voters intensifies after US midterm rebuke of Republicans - Reuters",
+        "summary": "Battle for young male voters intensifies after US midterm rebuke of Republicans\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUXZuc1Exa0s2dzJKQ3U1bkdxd01NelRtemI0SnpSVHZNQ2Z1bGM3MlpLQ29pZ1ZRNHJLWS1OQTM5bFJySnBKUUNLSXlNeDNvUlJ2Um00ZVZFaU13bW5rSTFwWHJINlJFSkd4UHNPUVk2Y1A0dWQ4cE5VeU5tRjVtZHlXZEt2c1VPeU9tNEl4N2RZWjRCRmpPMm92NjU0VVhiLTZTQXQ4cFY2YnZld3d0OFVwRnFxRkpP?oc=5",
+        "published_at": "2026-11-15T16:18:55Z"
+      },
+      {
+        "headline": "3 big things we're watching in the stock market in the week ahead",
+        "summary": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "published_at": "2026-11-15T15:26:20Z"
+      },
+      {
+        "headline": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders - Reuters",
+        "summary": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5",
+        "published_at": "2026-11-15T13:31:43Z"
+      },
+      {
+        "headline": "Yemeni government force retreats from strait in major setback in war against Houthis - Reuters",
+        "summary": "Yemeni government force retreats from strait in major setback in war against Houthis\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
+        "published_at": "2026-11-15T13:24:58Z"
+      },
+      {
+        "headline": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
+        "summary": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+        "published_at": "2026-11-15T13:00:02Z"
+      },
+      {
+        "headline": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+        "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+        "published_at": "2026-11-15T12:51:28Z"
+      },
+      {
+        "headline": "Jordan sentences three men to death over deadly church attack - Reuters",
+        "summary": "Jordan sentences three men to death over deadly church attack\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSW5qZzl5QmYwRkpOaUNfQlVXU1FOdEhVX0RUWEtsYjU5a3ZfWEJGS3R4MjVRYlVha3ZrcWpnQVV1SHQ0c09qY0V2U2RscnZUNjlaVjUwYW1GN2pfMjNHNE1LemRjUEZTSGlQY3JhcUNFTjhOYlNDZkVQTzFVbHZ1elgzX01md3BoRG0tam4zVEFha2tnUjU5TlllRmtrb09PMHFQVFZmNXNWSm9wTVRPYUFn?oc=5",
+        "published_at": "2026-11-15T10:51:43Z"
+      },
+      {
+        "headline": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base - Reuters",
+        "summary": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?oc=5",
+        "published_at": "2026-11-15T04:25:00Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": null,
+    "dxy_lean": null,
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 754.37,
+    "spy_change_pct": -0.3632,
+    "spy_lean": "neutral",
+    "vix_close": 18.7,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 65035.44,
+    "coinbase_premium_pct": 0.014517,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-15T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 162.85,
+        "change_pct": -2.0097,
+        "prev_close": 166.19
+      },
+      "AMD": {
+        "close": 534.06,
+        "change_pct": -8.7545,
+        "prev_close": 585.3
+      },
+      "TSM": {
+        "close": 398.73,
+        "change_pct": -1.6671,
+        "prev_close": 405.49
+      },
+      "SMCI": {
+        "close": 26.865,
+        "change_pct": -0.4631,
+        "prev_close": 26.99
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 679.89,
+        "change_pct": -1.2032,
+        "prev_close": 688.17
+      },
+      "SOXX": {
+        "close": 149.3,
+        "change_pct": -3.6712,
+        "prev_close": 154.99
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-13",
+    "total_net_inflow_usd": -185450233.4,
+    "total_net_assets_usd": 86199738908.25,
+    "total_value_traded_usd": 2588280169.4,
+    "cum_net_inflow_usd": 54633110848.69,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 65026,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 12,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 2,
+    "negative_count": 6,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1333,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "XRP Price Crashes Below $0.90 as Shrinking Stablecoin Supply Drain Crypto Market",
+        "url": "https://bitcoinist.com/xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market/",
+        "published_at": "2026-11-15T20:58:20+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Breaks Below $63K as Market Panic Intensifies",
+        "url": "https://bitcoinist.com/bitcoin-breaks-below-63k-as-market-panic-intensifies/",
+        "published_at": "2026-11-15T20:48:44+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Traders claim $6 million profit by spotting BitGo\u2019s public pull request and frontrunning memecoin listing",
+        "url": "https://www.theblock.co/news/defi/2026-11-15-traders-claim-6-million-profit-by-spotting-bitgos-public-pull-request-and-frontrunning-memecoin-listing-440363",
+        "published_at": "2026-11-15T20:33:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "How Wall Street Is Racing to Claim the Onchain Dollar",
+        "url": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins",
+        "published_at": "2026-11-15T16:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Enterprise blockchain is going to come back from the dead",
+        "url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-15T14:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+        "url": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+        "published_at": "2026-11-15T14:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-15T11:18:48+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+        "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-15T10:23:17+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Blockstream And Thales Launch Bitcoin Custody System",
+        "url": "https://bitcoinist.com/blockstream-and-thales-launch-bitcoin-custody-system/",
+        "published_at": "2026-11-15T09:40:40+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Are Whales Selling Bitcoin For The Anthropic IPO? The SpaceX Playbook Hints A Bottom Is Near",
+        "url": "https://bitcoinist.com/are-whales-selling-bitcoin-for-the-anthropic-ipo/",
+        "published_at": "2026-11-15T09:14:44+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 15,
+    "signals_null": 2,
+    "bullish_count": 1,
+    "bearish_count": 7,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": null,
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Alpha Vantage USDSEK \u2014 No time series data in Alpha Vantage response",
+    "Alpha Vantage USDCHF \u2014 No time series data in Alpha Vantage response",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
