@@ -1,0 +1,270 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-16T21:50:06 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 71.81,
+    "price_change_24h_pct": -0.2022,
+    "price_change_7d_pct": -17.0627,
+    "volume_24h_usd": 2631362931,
+    "market_cap_usd": 42488620690,
+    "volume_to_mcap_ratio": 0.061931,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -75.5173,
+    "cex_price_usd": 72.07,
+    "cex_24h_high": 72.95,
+    "cex_24h_low": 69.93,
+    "cex_dex_spread_pct": 0.362067,
+    "volume_on_up_days_usd": 2584802286.326483,
+    "volume_on_down_days_usd": 2810810259.880562,
+    "volume_lean": "neutral"
+  },
+  "technical_indicators": {
+    "rsi_14": 31.3332,
+    "rsi_lean": "bullish",
+    "macd": {
+      "macd_line": -1.545216,
+      "signal_line": 3.197601,
+      "histogram": -4.742817
+    },
+    "macd_lean": "bearish",
+    "sma_50": 88.4704,
+    "price_vs_sma50_pct": -18.8316,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 127.99138,
+      "mid": 102.705,
+      "lower": 77.41862,
+      "width_pct": 49.2408,
+      "position": -0.1419
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 630686855.35,
+    "oi_lean": null,
+    "funding_rate_latest": -3.392e-05,
+    "funding_rate_7d_avg": 9.928095238095238e-06,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 2.6914,
+    "btc_long_account_pct": 72.91,
+    "btc_short_account_pct": 27.09,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4698249980.0,
+    "tvl_7d_change_pct": -7.0326,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 7171750.56,
+    "chain_fees_7d_avg_usd": 8326153.75,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 10,
+    "positive_count": 2,
+    "negative_count": 2,
+    "neutral_count": 6,
+    "sentiment_ratio": 0.2,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
+        "url": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
+        "published_at": "2026-11-16T20:27:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
+        "url": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
+        "published_at": "2026-11-16T18:59:21+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Privacy on Solana is \u2018non-negotiable\u2019 for institutional adoption, Mert Mumtaz says",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-16-privacy-solana-non-negotiable-institutional-adoption-mert-mumtaz-says-441363",
+        "published_at": "2026-11-16T17:22:19+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DeFi Development Corp. adds 9,482 SOL as CHAD dividend streak hits 31 days",
+        "url": "https://www.theblock.co/news/markets/2026-11-16-defi-development-solana-treasury-2-62-million-sol-441361",
+        "published_at": "2026-11-16T16:16:17+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Drops 'Mainnet Beta' After Six Years: Here's What 1.0 Is All About",
+        "url": "https://decrypt.co/383322/solana-drops-mainnet-beta-after-six-years",
+        "published_at": "2026-11-16T16:14:22+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Officially Exits Beta After Six Years With New Network Versioning System",
+        "url": "https://bitcoinist.com/solana-officially-exits-beta-after-six-years-with-new-network-versioning-system/",
+        "published_at": "2026-11-16T15:14:30+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+        "url": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-16T14:55:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ledger Brings Clear Signing to Solana, Ending 'Blind' Signing for Jupiter Swaps",
+        "url": "https://decrypt.co/383302/ledger-brings-clear-signing-to-solana-ending-blind-signing-for-jupiter-swaps",
+        "published_at": "2026-11-16T13:12:08+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana drops \u2018mainnet beta\u2019 label and adopts protocol version 1.0",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-label-and-adopts-protocol-version-1-0-440885",
+        "published_at": "2026-11-16T12:30:35+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CoW Swap goes live on Solana with intent-based trading",
+        "url": "https://www.theblock.co/news/defi/2026-11-16-cow-swap-goes-live-solana-440840",
+        "published_at": "2026-11-16T09:05:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 65242.0,
+    "btc_24h_change_pct": 0.2585,
+    "btc_direction": "neutral",
+    "btc_dominance_pct": 59.5141,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2205171495975.112,
+    "eth_btc_ratio": 0.027985,
+    "eth_btc_lean": "neutral",
+    "dxy": 103.4087,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 739.96,
+    "spy_change_pct": -1.9102,
+    "spy_lean": "bearish",
+    "vix_close": 19.3,
+    "vix_lean": "neutral",
+    "tech_sector_lean": "bearish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 13,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 74.14,
+    "cg_sentiment_votes_down_pct": 25.86,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 4,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bullish",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "neutral",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bearish"
+    }
+  },
+  "fetch_errors": [
+    "CoinPaprika coin detail \u2014 HTTP 403"
+  ]
+}
