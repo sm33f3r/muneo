@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-16T21:10:09 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2228871884650.9,
+    "total_market_cap_change_24h_pct": -1.636,
+    "total_volume_24h_usd": 76962440601.33,
+    "btc_dominance_pct": 58.6922,
+    "eth_dominance_pct": 9.9778,
+    "total2_usd": 920698043162.92,
+    "total3_usd": 698304655775.74,
+    "active_cryptocurrencies": 21855,
+    "altcoin_season_index": 61,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": 81.5696,
+        "price_usd": 0.00648696,
+        "market_cap_usd": 4634468602
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 17.2825,
+        "price_usd": 0.00749536,
+        "market_cap_usd": 451813550
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price_change_24h_pct": 13.7835,
+        "price_usd": 2.53,
+        "market_cap_usd": 1416612290
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 9.0581,
+        "price_usd": 1.69,
+        "market_cap_usd": 645380072
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 8.0291,
+        "price_usd": 2.01,
+        "market_cap_usd": 552084284
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": -32.1045,
+        "price_usd": 0.372361,
+        "market_cap_usd": 560696733
+      },
+      {
+        "symbol": "ASTER",
+        "name": "Aster",
+        "price_change_24h_pct": -18.2673,
+        "price_usd": 0.568735,
+        "market_cap_usd": 1462706287
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": -12.7837,
+        "price_usd": 0.04380616,
+        "market_cap_usd": 727506435
+      },
+      {
+        "symbol": "KITE",
+        "name": "Kite",
+        "price_change_24h_pct": -11.6181,
+        "price_usd": 0.12608,
+        "market_cap_usd": 301482885
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -11.3668,
+        "price_usd": 0.01016878,
+        "market_cap_usd": 231810158
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 64973,
+    "price_change_24h_pct": -0.0782,
+    "price_change_7d_pct": -13.2149,
+    "market_cap_usd": 1306796575902,
+    "volume_24h_usd": 33159745592,
+    "direction": "neutral",
+    "oi_usd": 6042354375.94,
+    "funding_rate_latest": 6.177e-05,
+    "funding_rate_7d_avg": 5.196333333333334e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.6914,
+    "long_account_pct": 72.91,
+    "short_account_pct": 27.09,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1819.35,
+    "price_change_24h_pct": -0.1732,
+    "price_change_7d_pct": -14.5775,
+    "market_cap_usd": 222368729940,
+    "volume_24h_usd": 11671929007,
+    "eth_btc_ratio": 0.028002,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 71320966611.54,
+    "stablecoin_market_cap_usd": 286908550460.7,
+    "stablecoin_dominance_pct": 12.8724
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 38,
+    "headlines": [
+      {
+        "headline": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+        "published_at": "2026-11-16T20:07:46Z"
+      },
+      {
+        "headline": "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
+        "summary": "Johnson & Johnson is a prime example of the kind of stocks doing well as investors shy away from the volatile AI trade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/16/jim-cramer-says-jj-is-a-metaphor-for-whats-working-in-the-stock-market.html",
+        "published_at": "2026-11-16T19:44:25Z"
+      },
+      {
+        "headline": "Market's Nvidia obsession obscuring an opportunity in this name",
+        "summary": "Investors might be overlooking Disney earnings.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
+        "published_at": "2026-11-16T18:56:49Z"
+      },
+      {
+        "headline": "Robert Pattinson cast as next James Bond",
+        "summary": "Pattinson has been in major films this year including Christopher Nolan's \"The Odyssey\" and will soon appear in \"Dune: Part Three.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+        "published_at": "2026-11-16T17:25:51Z"
+      },
+      {
+        "headline": "Bank of Canada Governor Macklem to step down once term ends in 2027 - Reuters",
+        "summary": "Bank of Canada Governor Macklem to step down once term ends in 2027\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5",
+        "published_at": "2026-11-16T17:16:38Z"
+      },
+      {
+        "headline": "Trump says he might meet with North Korea's Kim Jong Un in China - Reuters",
+        "summary": "Trump says he might meet with North Korea's Kim Jong Un in China\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb29EcDdndEN4TW9IeVFRVnVQTV9YVzNZVHUyT0F3aElTeTFQMFU2X05QUXR3c01hVVlrTEotZjVhU3YwNFZuTlUyZDVfM2pTTjNGTHR1Q25GalEtUFByZTFKLUd4TV84UU9vUngxd245SktvQ00tbWNOMDZ0WkRoVDV3OXh6UWxMZ0t3aWVuSC01U2VYclVHX2k1ZnpnTHFTSTh3bw?oc=5",
+        "published_at": "2026-11-16T17:15:46Z"
+      },
+      {
+        "headline": "Iran\u2019s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters",
+        "summary": "Iran\u2019s proxy in Iraq rakes in hundreds of millions through oil smuggling\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5",
+        "published_at": "2026-11-16T16:28:21Z"
+      },
+      {
+        "headline": "U.S. crude oil declines to $87 a barrel on recovering Middle East exports",
+        "summary": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+        "published_at": "2026-11-16T16:06:27Z"
+      },
+      {
+        "headline": "Prediction market odds for Tesla-SpaceX merger by April 2027 top 60%",
+        "summary": "The odds have climbed to 62% from 27% since Thursday, amid growing speculation that Musk's two companies will integrate.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html",
+        "published_at": "2026-11-16T15:50:47Z"
+      },
+      {
+        "headline": "After Yemen setback, Saudi Arabia replaces military commander - Reuters",
+        "summary": "After Yemen setback, Saudi Arabia replaces military commander\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5",
+        "published_at": "2026-11-16T15:49:18Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.4087,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 121.8803,
+    "broad_dollar_index_lean": "bearish",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 754.37,
+    "spy_change_pct": -0.3632,
+    "spy_lean": "neutral",
+    "vix_close": 19.3,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 64934.22,
+    "coinbase_premium_pct": -0.059686,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-16T21:10:09 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 156.14,
+        "change_pct": -4.1204,
+        "prev_close": 162.85
+      },
+      "AMD": {
+        "close": 504.28,
+        "change_pct": -5.5762,
+        "prev_close": 534.06
+      },
+      "TSM": {
+        "close": 373.45,
+        "change_pct": -6.3401,
+        "prev_close": 398.73
+      },
+      "SMCI": {
+        "close": 25.025,
+        "change_pct": -6.8491,
+        "prev_close": 26.865
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 661.75,
+        "change_pct": -2.6681,
+        "prev_close": 679.89
+      },
+      "SOXX": {
+        "close": 141.28,
+        "change_pct": -5.3717,
+        "prev_close": 149.3
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-13",
+    "total_net_inflow_usd": -185450233.4,
+    "total_net_assets_usd": 86199738908.25,
+    "total_value_traded_usd": 2588280169.4,
+    "cum_net_inflow_usd": 54633110848.69,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 64973,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 13,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 65,
+    "positive_count": 10,
+    "negative_count": 15,
+    "neutral_count": 40,
+    "sentiment_ratio": 0.1538,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+        "url": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-16T20:45:47+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Democratic senators warn SEC\u2019s tokenized stock exemption has illicit finance gaps",
+        "url": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432",
+        "published_at": "2026-11-16T20:44:01+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+        "url": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys",
+        "published_at": "2026-11-16T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
+        "url": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
+        "published_at": "2026-11-16T20:30:37+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cardano Holders Reject $5M Investment as Treasury Proposal Fails",
+        "url": "https://bitcoinist.com/cardano-holders-reject-5m-investment-as-treasury-proposal-fails/",
+        "published_at": "2026-11-16T20:28:57+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
+        "url": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
+        "published_at": "2026-11-16T20:27:32+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+        "url": "https://cointelegraph.com/news/boris-johnson-uk-must-lead-blockchain-development-despite-crypto-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-16T20:18:02+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+        "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-16T19:56:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Clarity Act Defeat \u2018Failure of American Leadership\u2019: Trump\u2019s Former Crypto Chief",
+        "url": "https://decrypt.co/383356/clarity-act-defeat-failure-of-american-leadership-trumps-former-crypto-chief",
+        "published_at": "2026-11-16T19:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump Backs Jensen Huang\u2019s Return to Nvidia as Sam Altman Says 'Heroes Have Flaws'",
+        "url": "https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia",
+        "published_at": "2026-11-16T19:05:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "bearish",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
