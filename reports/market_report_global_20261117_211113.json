@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-17T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2202093092890.72,
+    "total_market_cap_change_24h_pct": -3.5667,
+    "total_volume_24h_usd": 77602246557.24,
+    "btc_dominance_pct": 58.3287,
+    "eth_dominance_pct": 9.9775,
+    "total2_usd": 917640227844.13,
+    "total3_usd": 697925336346.63,
+    "active_cryptocurrencies": 21674,
+    "altcoin_season_index": 82,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": 18.6348,
+        "price_usd": 0.997894,
+        "market_cap_usd": 249482107
+      },
+      {
+        "symbol": "OZO",
+        "name": "Ozone Chain",
+        "price_change_24h_pct": 15.4462,
+        "price_usd": 0.248445,
+        "market_cap_usd": 237594498
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 14.0958,
+        "price_usd": 4.158e-05,
+        "market_cap_usd": 229652664
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 10.6415,
+        "price_usd": 0.416337,
+        "market_cap_usd": 627765937
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 9.7553,
+        "price_usd": 1.81,
+        "market_cap_usd": 691915034
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -30.0326,
+        "price_usd": 0.00455352,
+        "market_cap_usd": 3253301143
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": -15.1431,
+        "price_usd": 0.02111711,
+        "market_cap_usd": 380114919
+      },
+      {
+        "symbol": "ICP",
+        "name": "Internet Computer",
+        "price_change_24h_pct": -10.3976,
+        "price_usd": 2.27,
+        "market_cap_usd": 1268650365
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -6.7953,
+        "price_usd": 0.265379,
+        "market_cap_usd": 282048678
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": -5.0617,
+        "price_usd": 0.00154117,
+        "market_cap_usd": 135725567
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 63985,
+    "price_change_24h_pct": -1.5115,
+    "price_change_7d_pct": -12.974,
+    "market_cap_usd": 1286921712698,
+    "volume_24h_usd": 34506082563,
+    "direction": "bearish",
+    "oi_usd": 5956298449.28,
+    "funding_rate_latest": 3.565e-05,
+    "funding_rate_7d_avg": 4.098571428571429e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.0766,
+    "long_account_pct": 75.47,
+    "short_account_pct": 24.53,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1798.64,
+    "price_change_24h_pct": -1.1046,
+    "price_change_7d_pct": -12.1583,
+    "market_cap_usd": 219920204274,
+    "volume_24h_usd": 11564209853,
+    "eth_btc_ratio": 0.02811,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70580443462.92,
+    "stablecoin_market_cap_usd": 286870584090.96,
+    "stablecoin_dominance_pct": 13.0272
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 55,
+    "headlines": [
+      {
+        "headline": "A generational flight from tech to defensive stocks is underway. How we\u2019re capitalizing",
+        "summary": "Jim Cramer has pushed the message that its important for investors to balance their portfolios.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+        "published_at": "2026-11-17T20:31:27Z"
+      },
+      {
+        "headline": "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
+        "summary": "VIX up four days in a row as options traders show fear unseen since April",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html",
+        "published_at": "2026-11-17T20:28:07Z"
+      },
+      {
+        "headline": "Wall Street falters ahead of Nvidia earnings, Anthropic debut - Reuters",
+        "summary": "Wall Street falters ahead of Nvidia earnings, Anthropic debut\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemNySVhGbms1VkxVYXFsTFdtdVh1MjNQQk16Y1ZfNGFHMFhDRWUtZldZRzJzSWxpNlBLWVpTenJnU2FHZndaVUlEclFtQVNvTzJBWTNpM1p0N3dmWjlyMEFKbkowZkpSanhVcEVLUjZfOWxNcW5OZVFuLTNFNF93ZDd4b0wxX1VzNlJPODdqc0xob1ZrR0xuQkJ6bExvNDdQMk5saFVSdkVBZw?oc=5",
+        "published_at": "2026-11-17T19:29:30Z"
+      },
+      {
+        "headline": "We\u2019re watching Cramer\u2019s favorite market indicator for a signal to buy stocks",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/17/were-watching-cramers-favorite-indicator-for-a-signal-to-buy-stocks.html",
+        "published_at": "2026-11-17T19:15:27Z"
+      },
+      {
+        "headline": "Crew abandons gas tanker off Oman after being hit by projectile, sources say - Reuters",
+        "summary": "Crew abandons gas tanker off Oman after being hit by projectile, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZTTkw2LWNabWNsdzBOM1FzRF9nWk45NHcybXI1RHk2RF8wZDRDeDRiNE9uT202T2RWRHRqd1AzcFg5LWtlY3M2dlo4eTIzZHRVaUZKX21FUE5tcVNzR2VnT3RWRHdXbmU4QXlRUmZzWFZIZVZ0M2hXeFR6RE1QM1U0OWlDMi1SLUQ2V2tBVDFlU3lxM2lpeXRNa21CNjFMQTlOZV9MekM0WWUtREZHWmZ4TGJUa2dhNUxObDBIcTRRSGgwSUg0MXVB?oc=5",
+        "published_at": "2026-11-17T18:46:04Z"
+      },
+      {
+        "headline": "Yemen's Houthis say they launched drones towards Saudi East-West pipeline - Reuters",
+        "summary": "Yemen's Houthis say they launched drones towards Saudi East-West pipeline\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa1JWbURTTkJ4Z29LYnJBSXgtalBTYm56SVUyU2l2a0tDdnRBQ2hjdHRqZHFiVnFIbG9xUHBzM2EwZ2NINFhJUncxazNCSUMwUlJkRDVDTFlvU1dLR0Z3NktuSWpMRXJkUWZuRFJQRnRRbmxTVEdyZzNQd2lyd2dWbjVhUnNUUGtKVExlMzlIY0dET0NrZ0xpUW1KTWk3YkR3S2loZEpTcWdaOUxfd1FnMzFWWFlsZmJoTFowOW9JZWxYZVVq?oc=5",
+        "published_at": "2026-11-17T18:20:54Z"
+      },
+      {
+        "headline": "Jensen Huang breaks his silence ahead of Nvidia earnings \u2014 plus, 1 stock to buy on weakness",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/17/jensen-huang-breaks-his-silence-ahead-of-nvidia-earnings-plus-1-stock-to-buy.html",
+        "published_at": "2026-11-17T16:42:21Z"
+      },
+      {
+        "headline": "Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters",
+        "summary": "Trump and Tehran gamble on time as Iran war stalemate deepens\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5",
+        "published_at": "2026-11-17T16:23:42Z"
+      },
+      {
+        "headline": "Kalshi takes down controversial Trump 'mention' markets at CFTC's request",
+        "summary": "Some Trump-related Kalshi mention contracts have been taken down as the CFTC warns the contract type carries heightened manipulation risk.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/17/kalshi-takes-down-trump-mention-markets.html",
+        "published_at": "2026-11-17T16:00:50Z"
+      },
+      {
+        "headline": "North Macedonia, Greece say they uncovered Iran-linked assassination plot - Reuters",
+        "summary": "North Macedonia, Greece say they uncovered Iran-linked assassination plot\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcDI2eEdMQzBuWElTakJTMzAxa1BMY3k5aVRYS3JpZEZ0cmE2b1Y4SGlRYnZFX19oYVVGQWhWT2JXcUdUbXEyMW5vSnVBeXhWcXMyNnNLR0Z0S2ROTTJOVHlWbXB1NjkyMy1saGFFdDB4YzY5TUU4a3BkMzRDMkFZN1cxdC05dXdic3ZYZGQ1RmdYVzE0eERjME1qeUg2dGp4MzFXZUFMN2xSMVVkZV9PMHIzaG1xd2s1cl9TMjM3WEhQVWpK?oc=5",
+        "published_at": "2026-11-17T15:28:54Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.5828,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 739.95,
+    "spy_change_pct": -1.9115,
+    "spy_lean": "bearish",
+    "vix_close": 22.91,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 64000.0,
+    "coinbase_premium_pct": 0.023443,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-17T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 155.3867,
+        "change_pct": -0.4825,
+        "prev_close": 156.14
+      },
+      "AMD": {
+        "close": 503.41,
+        "change_pct": -0.1725,
+        "prev_close": 504.28
+      },
+      "TSM": {
+        "close": 359.69,
+        "change_pct": -3.6846,
+        "prev_close": 373.45
+      },
+      "SMCI": {
+        "close": 24.14,
+        "change_pct": -3.5365,
+        "prev_close": 25.025
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 656.95,
+        "change_pct": -0.7253,
+        "prev_close": 661.75
+      },
+      "SOXX": {
+        "close": 141.57,
+        "change_pct": 0.2478,
+        "prev_close": 141.22
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-16",
+    "total_net_inflow_usd": 7986219.7,
+    "total_net_assets_usd": 84315771501.68,
+    "total_value_traded_usd": 2853679712.0,
+    "cum_net_inflow_usd": 54641097068.39,
+    "flow_lean": "bullish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 63985,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 12,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 67,
+    "positive_count": 10,
+    "negative_count": 19,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.1493,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "World Bank Taps Circle and Citi to Test Stablecoins for Development Payments",
+        "url": "https://decrypt.co/383485/world-bank-circle-citi-test-stablecoins-development-payments",
+        "published_at": "2026-11-17T20:56:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Investors Are Capitulating\u2014That\u2019s Historically Been a Bottom Signal",
+        "url": "https://decrypt.co/383466/bitcoin-investors-capitulating-historical-bottom-signal",
+        "published_at": "2026-11-17T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins",
+        "url": "https://cointelegraph.com/news/eastern-europe-crypto-activity-decline-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-17T20:05:04+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cathie Wood's ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
+        "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks",
+        "published_at": "2026-11-17T19:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jito\u2019s Lucas Bruder says crypto builders need to \u2018slow down\u2019 and fix security weaknesses",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-17-jito-lucas-bruder-crypto-builders-need-slow-down-fix-security-weaknesses-442850",
+        "published_at": "2026-11-17T19:29:15+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
+        "url": "https://decrypt.co/383462/ethereum-devs-scaling-upgrade-could-break-15000-apps",
+        "published_at": "2026-11-17T19:26:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Jensen Huang Says He'd Be 'Honored' to Return as Nvidia CEO, Despite Board's Resistance",
+        "url": "https://decrypt.co/383454/jensen-huang-honored-return-nvidia-ceo-board-resistance",
+        "published_at": "2026-11-17T18:23:43+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coinbase expands onchain crypto loans to New York via Morpho",
+        "url": "https://www.theblock.co/news/business/2026-11-17-coinbase-borrow-new-york-morpho-442842",
+        "published_at": "2026-11-17T18:00:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Lighter incident exposes risks beyond withdrawal controls",
+        "url": "https://cointelegraph.com/news/lighter-incident-exposes-risks-beyond-withdrawal-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-17T17:51:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fomo pays creators $30 million, sharing \u2018lion\u2019s share\u2019 of revenue, Se Yong Park says",
+        "url": "https://www.theblock.co/news/business/2026-11-17-fomo-pays-creators-30-million-sharing-lions-share-revenue-park-says-442332",
+        "published_at": "2026-11-17T17:41:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 7,
+    "neutral_count": 6,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bullish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
