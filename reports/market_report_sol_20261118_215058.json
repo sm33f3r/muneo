@@ -1,0 +1,204 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-18T21:50:07 UTC",
+    "token": "SOL",
+    "config_file": "configs/solana.json",
+    "script_version": "3.0.0",
+    "schema_version": "3.0.0"
+  },
+  "price_data": {
+    "price_usd": 72.99,
+    "price_change_24h_pct": -0.7012,
+    "price_change_7d_pct": -14.0863,
+    "volume_24h_usd": 2327802496,
+    "market_cap_usd": 43191931971,
+    "volume_to_mcap_ratio": 0.053894,
+    "ath_usd": 293.31,
+    "ath_drawdown_pct": -75.1162,
+    "cex_price_usd": 73.02,
+    "cex_24h_high": 75.78,
+    "cex_24h_low": 72.22,
+    "cex_dex_spread_pct": 0.041102,
+    "volume_on_up_days_usd": 2584802286.326483,
+    "volume_on_down_days_usd": 2995875989.7219844,
+    "volume_lean": "bearish"
+  },
+  "technical_indicators": {
+    "rsi_14": 31.3332,
+    "rsi_lean": "bullish",
+    "macd": {
+      "macd_line": -1.545216,
+      "signal_line": 3.197601,
+      "histogram": -4.742817
+    },
+    "macd_lean": "bearish",
+    "sma_50": 88.4704,
+    "price_vs_sma50_pct": -17.4978,
+    "ema_200": null,
+    "price_vs_ema200_pct": null,
+    "ema200_lean": "neutral",
+    "bollinger_bands": {
+      "upper": 127.99138,
+      "mid": 102.705,
+      "lower": 77.41862,
+      "width_pct": 49.2408,
+      "position": -0.1419
+    },
+    "bb_lean": "bullish"
+  },
+  "derivatives": {
+    "oi_usd": 610702041.87,
+    "oi_lean": null,
+    "funding_rate_latest": -1.39e-05,
+    "funding_rate_7d_avg": -2.880095238095238e-05,
+    "funding_lean": "neutral",
+    "btc_long_short_ratio": 3.4248,
+    "btc_long_account_pct": 77.4,
+    "btc_short_account_pct": 22.6,
+    "btc_ls_lean": "bearish"
+  },
+  "on_chain": {
+    "tvl_usd": 4708624428.0,
+    "tvl_7d_change_pct": -6.4962,
+    "tvl_lean": "bearish",
+    "chain_fees_24h_usd": 8470861.29,
+    "chain_fees_7d_avg_usd": 8196577.89,
+    "chain_fees_lean": "neutral"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 4,
+    "positive_count": 1,
+    "negative_count": 1,
+    "neutral_count": 2,
+    "sentiment_ratio": 0.25,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+        "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+        "published_at": "2026-11-18T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
+        "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-18T13:42:37+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solana Price Rebounds Toward $80 As Buyers Return \u2014 Can SOL Break Its Downtrend?",
+        "url": "https://bitcoinist.com/solana-price-rebounds-toward-80-as-buyers-return-can-sol-break-its-downtrend/",
+        "published_at": "2026-11-18T09:48:49+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SOL comes out of Breakpoint 7% higher as Solana exits beta",
+        "url": "https://cointelegraph.com/markets/solana-sol-gains-7-percent-breakpoint-beta-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-18T08:41:16+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "macro": {
+    "btc_price_usd": 62353.0,
+    "btc_24h_change_pct": -3.0367,
+    "btc_direction": "bearish",
+    "btc_dominance_pct": 58.7254,
+    "btc_dominance_lean": "neutral",
+    "total_crypto_mcap_usd": 2135634459710.4385,
+    "eth_btc_ratio": 0.028308,
+    "eth_btc_lean": "neutral",
+    "dxy": 103.5613,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 730.25,
+    "spy_change_pct": -0.299,
+    "spy_lean": "neutral",
+    "vix_close": 25.46,
+    "vix_lean": "bearish",
+    "tech_sector_lean": "bullish",
+    "tech_sector_source": "global_report"
+  },
+  "sentiment": {
+    "fear_greed_value": 11,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish",
+    "cg_sentiment_votes_up_pct": 66.67,
+    "cg_sentiment_votes_down_pct": 33.33,
+    "sentiment_lean": "bullish",
+    "cg_twitter_followers": null,
+    "cg_reddit_subscribers": null,
+    "cg_reddit_active_48h": null,
+    "cg_telegram_users": null,
+    "cg_github_forks": null,
+    "cg_github_stars": null,
+    "cg_github_commits_4w": null,
+    "cp_reddit_subscribers": null,
+    "cp_github_contributors": null,
+    "cp_github_stars": null
+  },
+  "upcoming_events": {
+    "unlocks_next_30d": [],
+    "unlock_lean": "bullish"
+  },
+  "signal_summary": {
+    "signals_evaluated": 20,
+    "signals_available": 19,
+    "signals_null": 1,
+    "bullish_count": 5,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "rsi_lean": "bullish",
+      "macd_lean": "bearish",
+      "ema200_lean": "neutral",
+      "bb_lean": "bullish",
+      "volume_lean": "bearish",
+      "oi_lean": null,
+      "funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "tvl_lean": "bearish",
+      "chain_fees_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "sentiment_lean": "bullish",
+      "tech_sector_lean": "bullish"
+    }
+  },
+  "fetch_errors": [
+    "CoinPaprika coin detail \u2014 HTTP 403"
+  ]
+}
