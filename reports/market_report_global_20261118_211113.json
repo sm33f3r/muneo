@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-18T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2164175248164.11,
+    "total_market_cap_change_24h_pct": -4.2751,
+    "total_volume_24h_usd": 71352362832.88,
+    "btc_dominance_pct": 58.0259,
+    "eth_dominance_pct": 9.8792,
+    "total2_usd": 908394045063.62,
+    "total3_usd": 694591840319.94,
+    "active_cryptocurrencies": 21487,
+    "altcoin_season_index": 80,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 62.2144,
+        "price_usd": 3.36,
+        "market_cap_usd": 922096949
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 25.5332,
+        "price_usd": 2.28,
+        "market_cap_usd": 874286367
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 18.0467,
+        "price_usd": 0.492537,
+        "market_cap_usd": 741656058
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 10.0237,
+        "price_usd": 0.02013991,
+        "market_cap_usd": 145770295
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": 9.4453,
+        "price_usd": 0.02310529,
+        "market_cap_usd": 415869872
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": -13.1538,
+        "price_usd": 0.00651226,
+        "market_cap_usd": 393043711
+      },
+      {
+        "symbol": "SYRUP",
+        "name": "Maple Finance",
+        "price_change_24h_pct": -9.5571,
+        "price_usd": 0.094711,
+        "market_cap_usd": 110553540
+      },
+      {
+        "symbol": "ANVL",
+        "name": "Anvil",
+        "price_change_24h_pct": -9.0898,
+        "price_usd": 0.00139913,
+        "market_cap_usd": 123236669
+      },
+      {
+        "symbol": "OZO",
+        "name": "Ozone Chain",
+        "price_change_24h_pct": -7.8336,
+        "price_usd": 0.231147,
+        "market_cap_usd": 222116597
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam",
+        "price_change_24h_pct": -7.3705,
+        "price_usd": 0.0036754,
+        "market_cap_usd": 184931282
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 62500,
+    "price_change_24h_pct": -2.2734,
+    "price_change_7d_pct": -15.9354,
+    "market_cap_usd": 1257102129803,
+    "volume_24h_usd": 29643595716,
+    "direction": "bearish",
+    "oi_usd": 6030053750.0,
+    "funding_rate_latest": 5.963e-05,
+    "funding_rate_7d_avg": 3.7395238095238096e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.4248,
+    "long_account_pct": 77.4,
+    "short_account_pct": 22.6,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1754.13,
+    "price_change_24h_pct": -2.4101,
+    "price_change_7d_pct": -15.6797,
+    "market_cap_usd": 214408246674,
+    "volume_24h_usd": 10448965781,
+    "eth_btc_ratio": 0.028066,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70026928783.62,
+    "stablecoin_market_cap_usd": 287025215719.98,
+    "stablecoin_dominance_pct": 13.2626
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 66,
+    "headlines": [
+      {
+        "headline": "Why Anthropic's hot IPO is bringing out sellers \u2014 plus, a silver lining of the down market",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+        "published_at": "2026-11-18T19:43:29Z"
+      },
+      {
+        "headline": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows - Reuters",
+        "summary": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS21BSEJXWHdIUGpZcWRtZm0tT084cTd5WFpvbFZUeE9wdHkyelI4Y2pFamp5YmY3S09BRm9zMWQ3VE5NcHVnSGZNM20yZ3B5NE1mXzZ4VVg3NUZ5RTVuQ2owQzE4MkxpaTBIcEhCNng4MDE1ZnpyTUVOMUVHVFdzcm14Mkl2TlNGZmNuVFQ1NFMwdGFOT1JSTEFURDNOQ005cWVaUG5ybmtyNWQyTW1QMG82SHhGQXNmb3VMTUtB?oc=5",
+        "published_at": "2026-11-18T19:32:18Z"
+      },
+      {
+        "headline": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
+        "summary": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+        "published_at": "2026-11-18T19:09:48Z"
+      },
+      {
+        "headline": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+        "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+        "published_at": "2026-11-18T19:08:44Z"
+      },
+      {
+        "headline": "Nvidia's earnings report had something for the bulls, bears and everyone in between",
+        "summary": "Nvidia's commentary on its buyback and AI ecosystem support was encouraging. But it's not a shock to see the stock down Wednesday.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/18/nvidias-earnings-report-had-something-for-the-bulls-bears-and-everyone-in-between.html",
+        "published_at": "2026-11-18T19:07:39Z"
+      },
+      {
+        "headline": "Nvidia reverses, metals crash ahead of Anthropic IPO: Options Action Live",
+        "summary": "Big moves have options traders wondering if Anthropic's IPO is spurring a rotation trade.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/nvidia-reverses-metals-crash-ahead-of-anthropic-ipo-options-action-live.html",
+        "published_at": "2026-11-18T18:57:02Z"
+      },
+      {
+        "headline": "Democrats nominate Hakeem Jeffries for next US House speaker - Reuters",
+        "summary": "Democrats nominate Hakeem Jeffries for next US House speaker\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFJMeDVVWnRDWmUydUhCQ0lieV9kZjdRc0xKbHA5ZDlMeG1WZ29rTWJpcGxLSE1EZEttb1Vwd2Zrdl8tX0Q1RVNEbGR0OEZqdWxLdnpkZnFBenNBclduTWhENTdhYnY1WXdjZ2RGRTVDMjFPVkpnZnJVZEZ4VngweEtJWTVlakU2ZEtDWUxTMTliZktETXlvcXFXWTFhdU5GeUIyRUxqUkV4aGFX?oc=5",
+        "published_at": "2026-11-18T18:51:57Z"
+      },
+      {
+        "headline": "US single-family housing starts rebound, but trend remains subdued - Reuters",
+        "summary": "US single-family housing starts rebound, but trend remains subdued\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHNvWXhTdjFvTnd2ZWpsdjVvM29QLWdyUzZOMWFTTjdHUEdTazZZMGxPWFdtZk9TdVZ5WlhJb2FPbmtQbURFd1pTWUlnSS1LTk54Wk1RY2FSRWJ5cGdHOGl3NEVBaEZlcWlJVW1LblcySGxZVjUtdFNuMUlNbmhiNHJiM2tYZUZpdHg2LVdiS3dTZ1RmVjZqZzlhaXJua2JMc2FORFdFMTlNZTRSTUZpbWFIMExWdnM?oc=5",
+        "published_at": "2026-11-18T18:51:20Z"
+      },
+      {
+        "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+        "summary": "Israel launches ground operation in central Gaza, dozens flee\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+        "published_at": "2026-11-18T18:17:51Z"
+      },
+      {
+        "headline": "Read Jim Cramer\u2019s full interview with Nvidia\u2019s Colette Kress: Demand, buybacks and China",
+        "summary": "Interim CEO Kress sat down with CNBC\u2019s Jim Cramer Tuesday evening shortly after the AI chip giant delivered a quarterly beat and strong guidance.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+        "published_at": "2026-11-18T18:14:42Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.5613,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 732.44,
+    "spy_change_pct": -1.0149,
+    "spy_lean": "bearish",
+    "vix_close": 25.46,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 62458.46,
+    "coinbase_premium_pct": -0.066464,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-18T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 150.96,
+        "change_pct": -2.8946,
+        "prev_close": 155.46
+      },
+      "AMD": {
+        "close": 530.14,
+        "change_pct": 5.3098,
+        "prev_close": 503.41
+      },
+      "TSM": {
+        "close": 362.62,
+        "change_pct": 0.8146,
+        "prev_close": 359.69
+      },
+      "SMCI": {
+        "close": 24.37,
+        "change_pct": 0.9528,
+        "prev_close": 24.14
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 659.51,
+        "change_pct": 0.3897,
+        "prev_close": 656.95
+      },
+      "SOXX": {
+        "close": 141.85,
+        "change_pct": 0.2757,
+        "prev_close": 141.46
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-17",
+    "total_net_inflow_usd": -239944866.82,
+    "total_net_assets_usd": 79649640510.39,
+    "total_value_traded_usd": 2352304584.3,
+    "cum_net_inflow_usd": 54401152201.57,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 62500,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 11,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 63,
+    "positive_count": 11,
+    "negative_count": 16,
+    "neutral_count": 36,
+    "sentiment_ratio": 0.1746,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
+        "url": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-18T20:32:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
+        "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-18T20:20:37+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google's Genie 4 Is Here, Letting Ultra Subscribers Build AI Worlds in Real Time",
+        "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time",
+        "published_at": "2026-11-18T20:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+        "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+        "published_at": "2026-11-18T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance obtains $6.5 billion freezing order from Abu Dhabi court in bid to recover stolen crypto",
+        "url": "https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491",
+        "published_at": "2026-11-18T19:40:25+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Tanks Ahead of Anthropic\u2019s IPO. Should We Really Blame AI?",
+        "url": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
+        "published_at": "2026-11-18T19:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ondo to launch tokenized Anthropic stock on IPO day",
+        "url": "https://www.theblock.co/news/markets/2026-11-18-ondo-to-launch-tokenized-anthropic-stock-on-ipo-day-443482",
+        "published_at": "2026-11-18T18:51:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
+        "url": "https://decrypt.co/383568/bitcoin-miners-selling-fund-ai-boom",
+        "published_at": "2026-11-18T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
+        "url": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-18T18:27:52+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
+        "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+        "published_at": "2026-11-18T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 8,
+    "neutral_count": 5,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
