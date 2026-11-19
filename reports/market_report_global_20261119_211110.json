@@ -1,0 +1,370 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-19T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2143581034971.07,
+    "total_market_cap_change_24h_pct": -3.3838,
+    "total_volume_24h_usd": 73563634752.95,
+    "btc_dominance_pct": 57.8707,
+    "eth_dominance_pct": 9.9694,
+    "total2_usd": 903076023432.68,
+    "total3_usd": 689373568381.28,
+    "active_cryptocurrencies": 21366,
+    "altcoin_season_index": 80,
+    "altcoin_season_label": "altcoin_season",
+    "altcoin_season_lean": "bullish",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "ICNT",
+        "name": "Impossible Cloud Network Token",
+        "price_change_24h_pct": 28.9871,
+        "price_usd": 0.421833,
+        "market_cap_usd": 106726327
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 22.3131,
+        "price_usd": 0.600918,
+        "market_cap_usd": 904854255
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 18.9271,
+        "price_usd": 4.714e-05,
+        "market_cap_usd": 259964086
+      },
+      {
+        "symbol": "CARDS",
+        "name": "Collector Crypt",
+        "price_change_24h_pct": 7.1249,
+        "price_usd": 0.166166,
+        "market_cap_usd": 148039876
+      },
+      {
+        "symbol": "AKT",
+        "name": "Akash Network",
+        "price_change_24h_pct": 6.789,
+        "price_usd": 0.545254,
+        "market_cap_usd": 163584355
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -13.7221,
+        "price_usd": 0.869974,
+        "market_cap_usd": 217492230
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -12.0489,
+        "price_usd": 2.95,
+        "market_cap_usd": 811764852
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -7.2184,
+        "price_usd": 0.01347575,
+        "market_cap_usd": 159352953
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -6.5563,
+        "price_usd": 0.832552,
+        "market_cap_usd": 1914569143
+      },
+      {
+        "symbol": "ENA",
+        "name": "Ethena",
+        "price_change_24h_pct": -5.8606,
+        "price_usd": 0.105022,
+        "market_cap_usd": 1417792372
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61916,
+    "price_change_24h_pct": -0.8522,
+    "price_change_7d_pct": -13.3827,
+    "market_cap_usd": 1245412513131,
+    "volume_24h_usd": 32406934784,
+    "direction": "neutral",
+    "oi_usd": 6006904572.0,
+    "funding_rate_latest": 1.785e-05,
+    "funding_rate_7d_avg": 3.7109999999999995e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.2626,
+    "long_account_pct": 76.54,
+    "short_account_pct": 23.46,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1755.32,
+    "price_change_24h_pct": 0.072,
+    "price_change_7d_pct": -12.7701,
+    "market_cap_usd": 214558282417,
+    "volume_24h_usd": 10266723221,
+    "eth_btc_ratio": 0.02835,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70361047485.05,
+    "stablecoin_market_cap_usd": 284812297765.41,
+    "stablecoin_dominance_pct": 13.2868
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 0,
+    "headlines": []
+  },
+  "macro": {
+    "dxy": 103.794,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 730.2,
+    "spy_change_pct": -0.3058,
+    "spy_lean": "neutral",
+    "vix_close": 24.56,
+    "vix_lean": "neutral",
+    "coinbase_btc_price_usd": 61973.29,
+    "coinbase_premium_pct": 0.092529,
+    "coinbase_premium_lean": "bullish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-19T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 145.98,
+        "change_pct": -3.2989,
+        "prev_close": 150.96
+      },
+      "AMD": {
+        "close": 489.19,
+        "change_pct": -7.7244,
+        "prev_close": 530.14
+      },
+      "TSM": {
+        "close": 352.09,
+        "change_pct": -2.9039,
+        "prev_close": 362.62
+      },
+      "SMCI": {
+        "close": 23.84,
+        "change_pct": -2.1748,
+        "prev_close": 24.37
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 645.04,
+        "change_pct": -2.1941,
+        "prev_close": 659.51
+      },
+      "SOXX": {
+        "close": 137.95,
+        "change_pct": -2.7494,
+        "prev_close": 141.85
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-18",
+    "total_net_inflow_usd": -306421294.34,
+    "total_net_assets_usd": 77706592903.47,
+    "total_value_traded_usd": 2562627854.6,
+    "cum_net_inflow_usd": 54094730907.23,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 61916,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 10,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 64,
+    "positive_count": 12,
+    "negative_count": 8,
+    "neutral_count": 44,
+    "sentiment_ratio": 0.1875,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "MoonPay seeks US bank charter for stablecoin, custody services",
+        "url": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-19T21:01:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Meet SHRINCS: Bitcoin's Emerging Frontrunner for a Post-Quantum Signature",
+        "url": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature",
+        "published_at": "2026-11-19T20:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
+        "url": "https://cointelegraph.com/markets/hyperliquid-anthropic-futures-nasdaq-opening-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-19T20:33:24+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi\u2019s Quintenz says insider trading is \u2018just easier to see\u2019 in prediction markets than stocks",
+        "url": "https://www.theblock.co/news/markets/2026-11-19-kalshi-quintenz-insider-trading-prediction-markets-stocks-444133",
+        "published_at": "2026-11-19T20:20:59+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+        "url": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data",
+        "published_at": "2026-11-19T20:15:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
+        "url": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-19T20:06:34+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
+        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
+        "published_at": "2026-11-19T19:08:24+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ripple\u2019s Alderoty doubts Elizabeth Warren will \u2018set crypto policy in this country,\u2019 backs durable agency rules",
+        "url": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105",
+        "published_at": "2026-11-19T18:47:30+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
+        "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-19T18:20:49+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why higher rates could slow Bitcoin buying at treasury firms",
+        "url": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-19T18:09:32+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 3,
+    "bearish_count": 5,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "bullish",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "neutral",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bullish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
