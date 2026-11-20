@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-20T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2022767647044.36,
+    "total_market_cap_change_24h_pct": -8.4402,
+    "total_volume_24h_usd": 114932704590.94,
+    "btc_dominance_pct": 57.7942,
+    "eth_dominance_pct": 9.6506,
+    "total2_usd": 853724574828.45,
+    "total3_usd": 658515773851.15,
+    "active_cryptocurrencies": 21368,
+    "altcoin_season_index": 50,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 12.3018,
+        "price_usd": 0.670725,
+        "market_cap_usd": 1009969777
+      },
+      {
+        "symbol": "APEPE",
+        "name": "Ape and Pepe",
+        "price_change_24h_pct": 8.8094,
+        "price_usd": 1.48e-06,
+        "market_cap_usd": 311322450
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 2.4786,
+        "price_usd": 0.00651305,
+        "market_cap_usd": 393585732
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": 2.2498,
+        "price_usd": 0.851458,
+        "market_cap_usd": 1958360089
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": 1.8096,
+        "price_usd": 0.102022,
+        "market_cap_usd": 361780794
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "A7A5",
+        "name": "A7A5",
+        "price_change_24h_pct": -65.0226,
+        "price_usd": 0.00410499,
+        "market_cap_usd": 161111673
+      },
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -35.6954,
+        "price_usd": 0.00651215,
+        "market_cap_usd": 148452666
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -19.7262,
+        "price_usd": 0.00364161,
+        "market_cap_usd": 2601598477
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "price_change_24h_pct": -18.0514,
+        "price_usd": 728.38,
+        "market_cap_usd": 12420235955
+      },
+      {
+        "symbol": "LIT",
+        "name": "Lighter",
+        "price_change_24h_pct": -17.5539,
+        "price_usd": 2.32,
+        "market_cap_usd": 578810928
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 58321,
+    "price_change_24h_pct": -5.8559,
+    "price_change_7d_pct": -15.5445,
+    "market_cap_usd": 1173124549584,
+    "volume_24h_usd": 53741997179,
+    "direction": "bearish",
+    "oi_usd": 5605222795.13,
+    "funding_rate_latest": 2.551e-05,
+    "funding_rate_7d_avg": 3.233666666666667e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 3.4307,
+    "long_account_pct": 77.43,
+    "short_account_pct": 22.57,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1602.78,
+    "price_change_24h_pct": -8.7496,
+    "price_change_7d_pct": -18.1486,
+    "market_cap_usd": 195917799296,
+    "volume_24h_usd": 18590950097,
+    "eth_btc_ratio": 0.027482,
+    "eth_btc_lean": "bearish"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 66253240834.66,
+    "stablecoin_market_cap_usd": 283614210218.35,
+    "stablecoin_dominance_pct": 14.0211
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 37,
+    "headlines": [
+      {
+        "headline": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
+        "summary": "Every weekday, the Investing Club releases the Homestretch, an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/20/ai-rout-wipes-out-nasdaqs-2026-gains-alphabet-is-a-tech-bright-spot.html",
+        "published_at": "2026-11-20T20:06:12Z"
+      },
+      {
+        "headline": "A massive bearish trade just happened in the chip stocks",
+        "summary": "Options traders place big bets that semiconductor stocks have further to fall",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+        "published_at": "2026-11-20T19:33:31Z"
+      },
+      {
+        "headline": "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters",
+        "summary": "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQUE1UEFGeklRZGtscWJhNkdxRWpyWHkwQ29IcVQ1Umc2VHlkWlJGZzZPTC00SFl2a3J0SXY3TGo0X0t2a3A5ckMzbmtZXy1mYzdoa0F5Vmo1TGFaU1RIbEZHak5iTi1oRXhWWF9CbWZ2QWFLRG1HSG5Rc1dSbHZlaGNNSDlvZ2RiekJzbnpqMC1aektLZU1MSHBWN25PYURzUGduTjhURQ?oc=5",
+        "published_at": "2026-11-20T19:16:53Z"
+      },
+      {
+        "headline": "A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+        "summary": "Unhappy workers are staying put at their jobs as anxiety around the job market looms. If conditions improve, these workers could be the first to quit, according to experts.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html",
+        "published_at": "2026-11-20T18:55:39Z"
+      },
+      {
+        "headline": "UK finds fix for fridge and freezer vulnerability after European hacks - Reuters",
+        "summary": "UK finds fix for fridge and freezer vulnerability after European hacks\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVlPYjE2cEpJQjlLNzNNcjVjRnI3LUxkcnE5UVJBak9QOTlPUXR2S1htU3BEUWxfM0RfUmo2QVVfX0g3cXpzTjdUSFNRMERVR0FKUVJ4T21TYUhUU2d3bE9tV2hpaGo1bUxqc25WR0VYWFl0Z0UxZDBiMGM3RUdYODlURmFxYnVvcm9KTXVhZWdObGl0bTZfNENXTTlhdG9ibzVNX1hCOFpkQ1k?oc=5",
+        "published_at": "2026-11-20T18:35:37Z"
+      },
+      {
+        "headline": "Home Depot vs. Lowe's: Which stock has the edge after earnings and our support?",
+        "summary": "This two-way race is firmly centered on how each company can control what it can control.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/home-depot-vs-lowes-which-stock-has-the-edge-after-earnings-and-our-support.html",
+        "published_at": "2026-11-20T18:26:09Z"
+      },
+      {
+        "headline": "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
+        "summary": "Congress struggles to avert US shutdown as Iran war divides lawmakers\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUDZZTmpNTGpqLUMwR0JBZUJuaVBuMDAwYVpVanpkNTJDSGpNMEkxdXlSX1JkSDJpaG1SNUlmMnJZTHZ2Y192UmFKSjlGazN5UE9hZEJfcmFwdzVGWFE0QWk3OXBGWEpudkV5bTdiLVEwWjJicDFrTHJWVGVQT2RNMlBYZ3pMMmhQTHhKRnJ1QktWbGhVWWxRb0paRGZvdVNDdlRJNEd1N1lEbG9LOU1mTURPZE9CZlVvUk5j?oc=5",
+        "published_at": "2026-11-20T18:01:41Z"
+      },
+      {
+        "headline": "We\u2019re making another small buy as the market sell-off deepens",
+        "summary": "The market could fall further, but this is our discipline, and we strive to stick to it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/20/were-making-another-small-buy-as-the-market-sell-off-deepens.html",
+        "published_at": "2026-11-20T17:51:14Z"
+      },
+      {
+        "headline": "Here's why we want to buy the sharp decline in this chip stock",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/20/heres-why-we-want-to-buy-the-sharp-decline-in-this-chip-stock.html",
+        "published_at": "2026-11-20T17:22:17Z"
+      },
+      {
+        "headline": "Tanker catches fire after projectile strike near Strait of Hormuz, UKMTO says - Reuters",
+        "summary": "Tanker catches fire after projectile strike near Strait of Hormuz, UKMTO says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUFlEbXRhcG1QdzdPMU5DZTludFpwQllURVktV0I4cC1pX2g4V1k1dEhTWFVibXk4Wm9IUWFNYjZLRTlCZHBnM044cGo3amFOdTQ2SWdZWkVBUG9LaERYQ3pUQTdvd1loNVlxN0VPTUJTS29tcWsxWlIydFcxRGp4N2xlTUUyMDk1Y1VfLTVfXzYxZGZnVVFEUWpxaW05bS1MTlNQRGZpYUMwQ2xMY3MyMDRFUm1PM1JjaXc?oc=5",
+        "published_at": "2026-11-20T17:05:12Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.9506,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 715.87,
+    "spy_change_pct": -1.9625,
+    "spy_lean": "bearish",
+    "vix_close": 28.44,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 58241.56,
+    "coinbase_premium_pct": -0.136212,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-20T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 125.84,
+        "change_pct": -13.7964,
+        "prev_close": 145.98
+      },
+      "AMD": {
+        "close": 424.315,
+        "change_pct": -13.2617,
+        "prev_close": 489.19
+      },
+      "TSM": {
+        "close": 318.71,
+        "change_pct": -9.4805,
+        "prev_close": 352.09
+      },
+      "SMCI": {
+        "close": 21.69,
+        "change_pct": -9.0185,
+        "prev_close": 23.84
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 609.88,
+        "change_pct": -5.4508,
+        "prev_close": 645.04
+      },
+      "SOXX": {
+        "close": 123.39,
+        "change_pct": -10.5545,
+        "prev_close": 137.95
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-19",
+    "total_net_inflow_usd": -582193660.71,
+    "total_net_assets_usd": 76549156272.32,
+    "total_value_traded_usd": 3235223266.0,
+    "cum_net_inflow_usd": 53512537246.53,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 58321,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 7,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 52,
+    "positive_count": 6,
+    "negative_count": 15,
+    "neutral_count": 31,
+    "sentiment_ratio": 0.1154,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
+        "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+        "published_at": "2026-11-20T20:36:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SEC Charges Eight Firms in $37M Crypto Scam Using Fake Trading Platforms",
+        "url": "https://bitcoinist.com/sec-charges-eight-firms-in-37m-crypto-scam-using-fake-trading-platforms/",
+        "published_at": "2026-11-20T20:28:35+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Rep. Casten seeks to curb prediction market insider trading with DOJ whistleblower program",
+        "url": "https://www.theblock.co/news/regulation/2026-11-20-rep-casten-seeks-curb-prediction-market-insider-trading-doj-whistleblower-program-444779",
+        "published_at": "2026-11-20T19:41:52+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+        "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-20T19:37:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "SBF\u2019s 'The Altruists' Plot Twist: FTX\u2019s Anthropic Shares Would Be Worth $43 Billion",
+        "url": "https://decrypt.co/383739/sbf-altruists-ftx-anthropic-shares-worth-43-billion",
+        "published_at": "2026-11-20T19:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+        "url": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
+        "published_at": "2026-11-20T18:46:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims",
+        "url": "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-20T18:37:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
+        "url": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+        "published_at": "2026-11-20T18:22:39+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "JPMorgan says bitcoin price correction widens gap to estimated $86,000 production cost",
+        "url": "https://www.theblock.co/news/markets/2026-11-20-jpmorgan-bitcoin-price-correction-gap-86000-production-cost-444763",
+        "published_at": "2026-11-20T18:17:39+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks",
+        "url": "https://decrypt.co/383733/google-gives-gemini-control-mac-apps-ai-agent",
+        "published_at": "2026-11-20T18:16:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 10,
+    "neutral_count": 5,
+    "overall_lean": "bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "bearish",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
