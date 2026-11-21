@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-21T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2091111573986.69,
+    "total_market_cap_change_24h_pct": 0.4082,
+    "total_volume_24h_usd": 117513522705.25,
+    "btc_dominance_pct": 57.9981,
+    "eth_dominance_pct": 9.8293,
+    "total2_usd": 878305930006.61,
+    "total3_usd": 672764726789.81,
+    "active_cryptocurrencies": 21338,
+    "altcoin_season_index": 71,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "A7A5",
+        "name": "A7A5",
+        "price_change_24h_pct": 190.7161,
+        "price_usd": 0.01193386,
+        "market_cap_usd": 468377620
+      },
+      {
+        "symbol": "IDOL",
+        "name": "MEET48",
+        "price_change_24h_pct": 77.6987,
+        "price_usd": 0.04129086,
+        "market_cap_usd": 94003997
+      },
+      {
+        "symbol": "NPC",
+        "name": "Non-Playable Coin",
+        "price_change_24h_pct": 42.64,
+        "price_usd": 0.01189265,
+        "market_cap_usd": 95737372
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 41.9518,
+        "price_usd": 0.343698,
+        "market_cap_usd": 365094663
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": 22.7386,
+        "price_usd": 24.12,
+        "market_cap_usd": 1184961805
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "AKE",
+        "name": "Akedo",
+        "price_change_24h_pct": -20.0533,
+        "price_usd": 0.00520267,
+        "market_cap_usd": 118601468
+      },
+      {
+        "symbol": "M",
+        "name": "MemeCore",
+        "price_change_24h_pct": -10.4943,
+        "price_usd": 0.761367,
+        "market_cap_usd": 1751432235
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": -6.445,
+        "price_usd": 3.995e-05,
+        "market_cap_usd": 221141758
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -5.2261,
+        "price_usd": 1.93,
+        "market_cap_usd": 746786078
+      },
+      {
+        "symbol": "GEOD",
+        "name": "Geodnet",
+        "price_change_24h_pct": -4.4629,
+        "price_usd": 0.183858,
+        "market_cap_usd": 138521810
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60381,
+    "price_change_24h_pct": 3.5944,
+    "price_change_7d_pct": -8.2014,
+    "market_cap_usd": 1214583710870,
+    "volume_24h_usd": 58279953663,
+    "direction": "bullish",
+    "oi_usd": 5562705654.04,
+    "funding_rate_latest": 9.22e-06,
+    "funding_rate_7d_avg": 2.399047619047619e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2404,
+    "long_account_pct": 69.14,
+    "short_account_pct": 30.86,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1684.92,
+    "price_change_24h_pct": 5.1217,
+    "price_change_7d_pct": -8.2732,
+    "market_cap_usd": 205962923038,
+    "volume_24h_usd": 19408835509,
+    "eth_btc_ratio": 0.027905,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 67917173616.44,
+    "stablecoin_market_cap_usd": 283434164008.37,
+    "stablecoin_dominance_pct": 13.5542
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 15,
+    "headlines": [
+      {
+        "headline": "Bahrain says Iranian attack hits industrial facility, causes fire - Reuters",
+        "summary": "Bahrain says Iranian attack hits industrial facility, causes fire\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5",
+        "published_at": "2026-11-21T19:41:01Z"
+      },
+      {
+        "headline": "Israeli strike on vehicle in Gaza kills three, Gaza Health Ministry says - Reuters",
+        "summary": "Israeli strike on vehicle in Gaza kills three, Gaza Health Ministry says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNER6Q2NPRk9TUmtuX1hhQ21MdEdsc05rT0FxZzE4RTczVDJqbjN1My04Zm4tUkd1aUJ4cDdXSTM3ZVl6UVg0S0hLTWs1d1pjLTRDcVgtM1dVeVNvWFZHd1g3NEZCdm5HMlR1U09Cd1JfWUg1cEQ0aUZSU19uSHowSWhEUERvNE5OM1NxTDR1T3VYV21rb25pX1NSOFdFcHlOd3VzYkpMT2VzMlYwRVVSMmFuc2J3SkZ5dUM3Z0M0YXEyZw?oc=5",
+        "published_at": "2026-11-21T18:21:58Z"
+      },
+      {
+        "headline": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+        "summary": "This would make the second recent intrusion into the FBI system.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+        "published_at": "2026-11-21T16:57:34Z"
+      },
+      {
+        "headline": "US denies Iranian account that missile damaged F-16 over Gulf - Reuters",
+        "summary": "US denies Iranian account that missile damaged F-16 over Gulf\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEdyaGtabnZRdHhGLWIzeGx0MkhleGZEYlVpTmFySVFYdlUtd3JfamE1YjlXQmwzWW1xTE83UzJRZ2lra1pEWmFsTXZMbDRlUm9CNTllRHdXR0VWRExIaTlQanhkTDFaU2RjU2dCYkI3WDd2WElmSlFfY1pwVkdxVEw0cDBYNGEwTGFLUGFqUTZPMFIxU0Y4Z25pREJEai16RGNfX3JlWXZOZ05hT3liNUJnU2stVlQ5RV9NZmVBUmhlQQ?oc=5",
+        "published_at": "2026-11-21T16:23:46Z"
+      },
+      {
+        "headline": "Qatari delegation visits Tehran for talks, Iranian official says - Reuters",
+        "summary": "Qatari delegation visits Tehran for talks, Iranian official says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmR3b1p3TldvTzF4TnZyM082MXJ2dEh5YXl3Ym41SnBreUtLYUhVYUlCbjYyM0VGTHNwVWw2eXdKREJ6U0dzY2VLaHpVR0w5VFpBcFhzVmJLaGZ4Wk1YeTVlX1BtUlM3RWFNZ1lyeURLX3dTcjZ3aDNwbzl6VVpVanFETl9PZ2pWM29tYU1abHlJZFF0UkdmV2NBZEYtRU9IT2JBNWNKY1RsRkhxODlKNEEyMA?oc=5",
+        "published_at": "2026-11-21T15:01:27Z"
+      },
+      {
+        "headline": "I never wanted the American Dream and I felt like something was wrong with me\u2014until I moved abroad",
+        "summary": "\"I realized it was okay to want something different,\" says Cepee Tabibian, who moved to Spain in 2015 at age 35.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html",
+        "published_at": "2026-11-21T15:00:02Z"
+      },
+      {
+        "headline": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+        "summary": "The brutal sell-off is creating opportunities for us to put cash to work.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
+        "published_at": "2026-11-21T14:22:04Z"
+      },
+      {
+        "headline": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
+        "summary": "Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
+        "published_at": "2026-11-21T12:00:01Z"
+      },
+      {
+        "headline": "S&P 500 correction: Five forces behind the market sell-off",
+        "summary": "The S&P 500 and Dow Jones Industrial Average closed in correction territory, off 10% from their records. The Nasdaq Composite lost its gain for the year.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+        "published_at": "2026-11-21T11:29:25Z"
+      },
+      {
+        "headline": "As Trump basks in summit pomp, China's Xi strengthens his hand - Reuters",
+        "summary": "As Trump basks in summit pomp, China's Xi strengthens his hand\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWm1waHdJRVp4M2dKRlhKSHRHQmpEOFZZdGJRRndnR3ZXb0pmc1d6cUNmZWcwX3VwTHBzY1VMVmh3RDJBNVYtV2tDV1pDX25kNFhMWlE4a3N0RVpIMV80alNzRl9VQ0NMNF81UzVXTUJWVk1ZSmkwSFZDOHFNNHBLZ2RlNWloalpTOWs5UXFVQWJqenE4RGFXLWZRN1JlS1l6MnJlWQ?oc=5",
+        "published_at": "2026-11-21T09:12:54Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.8446,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 689.81,
+    "spy_change_pct": -3.6403,
+    "spy_lean": "bearish",
+    "vix_close": 28.44,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 60306.75,
+    "coinbase_premium_pct": -0.122969,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-21T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 125.53,
+        "change_pct": -14.0088,
+        "prev_close": 145.98
+      },
+      "AMD": {
+        "close": 424.39,
+        "change_pct": -13.2464,
+        "prev_close": 489.19
+      },
+      "TSM": {
+        "close": 318.71,
+        "change_pct": -9.4805,
+        "prev_close": 352.09
+      },
+      "SMCI": {
+        "close": 21.65,
+        "change_pct": -9.1862,
+        "prev_close": 23.84
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 608.45,
+        "change_pct": -5.6725,
+        "prev_close": 645.04
+      },
+      "SOXX": {
+        "close": 123.4,
+        "change_pct": -10.5473,
+        "prev_close": 137.95
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-19",
+    "total_net_inflow_usd": -582193660.71,
+    "total_net_assets_usd": 76549156272.32,
+    "total_value_traded_usd": 3235223266.0,
+    "cum_net_inflow_usd": 53512537246.53,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60381,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 8,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 19,
+    "positive_count": 2,
+    "negative_count": 10,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1053,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+        "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+        "published_at": "2026-11-21T18:51:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
+        "url": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
+        "published_at": "2026-11-21T18:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+        "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+        "published_at": "2026-11-21T17:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Wrapped Monero Token XMR1 Plunges 99.8% After Suspected Exploit",
+        "url": "https://bitcoinist.com/wrapped-monero-token-xmr1-plunges-99-8-after-suspected-exploit/",
+        "published_at": "2026-11-21T16:45:56+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "XRP Price Crashes to $0.87 as ETF Assets Fall Below $1 Billion",
+        "url": "https://bitcoinist.com/xrp-price-crashes-to-0-87-as-etf-assets-fall-below-1-billion/",
+        "published_at": "2026-11-21T16:04:23+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It",
+        "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+        "published_at": "2026-11-21T16:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto Liquidations Top $2.4B As Bitcoin Sinks Below $57,000, But Shorts Are Now Piling In",
+        "url": "https://bitcoinist.com/crypto-liquidations-top-billions-as-btc-sinks-below-57k/",
+        "published_at": "2026-11-21T15:25:43+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainflip\u2019s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
+        "url": "https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804",
+        "published_at": "2026-11-21T15:24:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+        "url": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+        "published_at": "2026-11-21T14:01:06+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "NFT Sales Climb To $33M As Buyers Return Despite The Crypto Crash",
+        "url": "https://bitcoinist.com/nft-sales-climb-to-33m-as-buyers-return-despite-the-crypto-crash/",
+        "published_at": "2026-11-21T13:48:34+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 7,
+    "neutral_count": 7,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bullish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
