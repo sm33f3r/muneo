@@ -1,0 +1,371 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-22T21:10:07 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2078299901243.11,
+    "total_market_cap_change_24h_pct": -3.0739,
+    "total_volume_24h_usd": 56410642618.09,
+    "btc_dominance_pct": 58.797,
+    "eth_dominance_pct": 10.0944,
+    "total2_usd": 856321450718.13,
+    "total3_usd": 646530403895.56,
+    "active_cryptocurrencies": 21311,
+    "altcoin_season_index": 56,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": 25.9773,
+        "price_usd": 0.979377,
+        "market_cap_usd": 146906612
+      },
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": 17.7899,
+        "price_usd": 0.470506,
+        "market_cap_usd": 139583364
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": 9.4453,
+        "price_usd": 0.377768,
+        "market_cap_usd": 401286111
+      },
+      {
+        "symbol": "NIGHT",
+        "name": "Midnight",
+        "price_change_24h_pct": 9.0974,
+        "price_usd": 0.04877548,
+        "market_cap_usd": 810034377
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 8.7263,
+        "price_usd": 0.725535,
+        "market_cap_usd": 1092501506
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -14.5289,
+        "price_usd": 0.00321786,
+        "market_cap_usd": 2298870573
+      },
+      {
+        "symbol": "FLUID",
+        "name": "Fluid",
+        "price_change_24h_pct": -7.9543,
+        "price_usd": 1.49,
+        "market_cap_usd": 124732418
+      },
+      {
+        "symbol": "CC",
+        "name": "Canton",
+        "price_change_24h_pct": -6.024,
+        "price_usd": 0.071661,
+        "market_cap_usd": 2873910292
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -5.9952,
+        "price_usd": 0.01251922,
+        "market_cap_usd": 148041864
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price_change_24h_pct": -5.5854,
+        "price_usd": 0.04191484,
+        "market_cap_usd": 979186221
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60917,
+    "price_change_24h_pct": 0.8619,
+    "price_change_7d_pct": -6.2825,
+    "market_cap_usd": 1225407344479,
+    "volume_24h_usd": 28447538806,
+    "direction": "neutral",
+    "oi_usd": 5692422569.35,
+    "funding_rate_latest": -9.88e-06,
+    "funding_rate_7d_avg": 2.1642380952380952e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.2279,
+    "long_account_pct": 69.02,
+    "short_account_pct": 30.98,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1720.71,
+    "price_change_24h_pct": 2.1214,
+    "price_change_7d_pct": -5.7845,
+    "market_cap_usd": 210342426188,
+    "volume_24h_usd": 7734143241,
+    "eth_btc_ratio": 0.028247,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 69436378455.34,
+    "stablecoin_market_cap_usd": 283717740038.64,
+    "stablecoin_dominance_pct": 13.6514
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 0,
+    "headlines": []
+  },
+  "macro": {
+    "dxy": 103.8446,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 689.81,
+    "spy_change_pct": -3.6403,
+    "spy_lean": "bearish",
+    "vix_close": 28.44,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 60801.48,
+    "coinbase_premium_pct": -0.189635,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-22T21:10:07 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 125.53,
+        "change_pct": -14.0088,
+        "prev_close": 145.98
+      },
+      "AMD": {
+        "close": 424.39,
+        "change_pct": -13.2464,
+        "prev_close": 489.19
+      },
+      "TSM": {
+        "close": 318.71,
+        "change_pct": -9.4805,
+        "prev_close": 352.09
+      },
+      "SMCI": {
+        "close": 21.65,
+        "change_pct": -9.1862,
+        "prev_close": 23.84
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 608.45,
+        "change_pct": -5.6725,
+        "prev_close": 645.04
+      },
+      "SOXX": {
+        "close": 123.4,
+        "change_pct": -10.5473,
+        "prev_close": 137.95
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-19",
+    "total_net_inflow_usd": -582193660.71,
+    "total_net_assets_usd": 76549156272.32,
+    "total_value_traded_usd": 3235223266.0,
+    "cum_net_inflow_usd": 53512537246.53,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60917,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 8,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 15,
+    "positive_count": 2,
+    "negative_count": 6,
+    "neutral_count": 7,
+    "sentiment_ratio": 0.1333,
+    "news_volume_lean": "bearish",
+    "news_spike": false,
+    "top_headlines": [
+      {
+        "title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
+        "published_at": "2026-11-22T20:58:33+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainflip\u2019s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+        "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+        "published_at": "2026-11-22T18:58:57+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Pi Network Price Bounces 11% From Record Low As DEX Launch Nears",
+        "url": "https://bitcoinist.com/pi-network-price-bounces-11-from-record-low-as-dex-launch-nears/",
+        "published_at": "2026-11-22T17:49:59+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Price Prediction: Rare Signal Seen Only 10 Times In 9.5 Years Points To $72K Bounce",
+        "url": "https://bitcoinist.com/bitcoin-price-prediction-rare-signal-seen-only-10-times-in-9-5-years-points-to-72k-bounce/",
+        "published_at": "2026-11-22T15:34:33+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "The future of onchain FX could start with users, not institutional liquidity",
+        "url": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-22T14:30:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Dogecoin Price Retests Support That Sparked 184% And 760% Rallies, Is A Rebound Next?",
+        "url": "https://bitcoinist.com/dogecoin-price-retests-support-that-sparked-184-and-760-rallies-is-a-rebound-next/",
+        "published_at": "2026-11-22T14:27:13+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+        "url": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+        "published_at": "2026-11-22T14:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-22T11:25:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+        "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-22T09:33:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Chainflip Suffers $12M Crypto Hack and Offers Attacker 10% Bounty",
+        "url": "https://bitcoinist.com/chainflip-suffers-12m-crypto-hack-and-offers-attacker-10-bounty/",
+        "published_at": "2026-11-22T09:15:49+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 8,
+    "neutral_count": 7,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404",
+    "Finnhub macro news \u2014 HTTP 502"
+  ]
+}
