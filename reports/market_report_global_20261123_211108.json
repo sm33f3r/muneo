@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-23T21:10:05 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2126535849463.51,
+    "total_market_cap_change_24h_pct": -0.5185,
+    "total_volume_24h_usd": 92696492948.07,
+    "btc_dominance_pct": 58.0016,
+    "eth_dominance_pct": 9.9234,
+    "total2_usd": 893110427628.04,
+    "total3_usd": 682085276068.42,
+    "active_cryptocurrencies": 21295,
+    "altcoin_season_index": 66,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "SOXLB",
+        "name": "Semicon Bull 3X ETF (bStocks Tokenized ETF)",
+        "price_change_24h_pct": 29.3395,
+        "price_usd": 43.5,
+        "market_cap_usd": 119826492
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": 25.3486,
+        "price_usd": 2.46,
+        "market_cap_usd": 955686166
+      },
+      {
+        "symbol": "NVDAB",
+        "name": "NVIDIA (bStocks Tokenized Stock)",
+        "price_change_24h_pct": 24.2746,
+        "price_usd": 165.38,
+        "market_cap_usd": 256230219
+      },
+      {
+        "symbol": "NVDAX",
+        "name": "NVIDIA xStock",
+        "price_change_24h_pct": 23.7467,
+        "price_usd": 165.15,
+        "market_cap_usd": 145852034
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": 15.2169,
+        "price_usd": 0.105866,
+        "market_cap_usd": 165150202
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "BR",
+        "name": "Bedrock",
+        "price_change_24h_pct": -9.3286,
+        "price_usd": 0.425896,
+        "market_cap_usd": 126349160
+      },
+      {
+        "symbol": "DRV",
+        "name": "Derive",
+        "price_change_24h_pct": -8.0624,
+        "price_usd": 0.347342,
+        "market_cap_usd": 368966352
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -7.2833,
+        "price_usd": 0.01162898,
+        "market_cap_usd": 137514615
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "price_change_24h_pct": -6.371,
+        "price_usd": 24.47,
+        "market_cap_usd": 1202542126
+      },
+      {
+        "symbol": "BAT",
+        "name": "Basic Attention",
+        "price_change_24h_pct": -5.912,
+        "price_usd": 0.075687,
+        "market_cap_usd": 113206771
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 61346,
+    "price_change_24h_pct": 0.7837,
+    "price_change_7d_pct": -5.8814,
+    "market_cap_usd": 1234061326218,
+    "volume_24h_usd": 39247799890,
+    "direction": "neutral",
+    "oi_usd": 5720702096.07,
+    "funding_rate_latest": 4.159e-05,
+    "funding_rate_7d_avg": 2.3629047619047618e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.655,
+    "long_account_pct": 72.64,
+    "short_account_pct": 27.36,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1726.93,
+    "price_change_24h_pct": 0.3786,
+    "price_change_7d_pct": -5.4436,
+    "market_cap_usd": 211108613665,
+    "volume_24h_usd": 14265287016,
+    "eth_btc_ratio": 0.028151,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 70055841711.6,
+    "stablecoin_market_cap_usd": 284274004600.52,
+    "stablecoin_dominance_pct": 13.3679
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 65,
+    "headlines": [
+      {
+        "headline": "Nvidia breathes new life into the AI trade. Plus, Qnity inks a smart deal to get stronger",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/23/nvidia-breathes-new-life-into-the-ai-trade-plus-qnity-inks-a-smart-deal-to-get-stronger.html",
+        "published_at": "2026-11-23T20:03:25Z"
+      },
+      {
+        "headline": "DNI Jay Clayton tapped as acting national cyber director",
+        "summary": "President Donald Trump last week said he decided to replace Sean Cairncross as national cyber director \"because I didn't think that person was good enough.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html",
+        "published_at": "2026-11-23T19:12:49Z"
+      },
+      {
+        "headline": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+        "summary": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
+        "published_at": "2026-11-23T19:08:37Z"
+      },
+      {
+        "headline": "An options strategy for making even more of your money back in Nvidia",
+        "summary": "Nvidia shareholders can look to the options market to recoup lost money",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/23/an-options-strategy-for-making-even-more-of-your-money-back-in-nvidia-.html",
+        "published_at": "2026-11-23T18:52:46Z"
+      },
+      {
+        "headline": "Here's where we stand on AMD shares after Jensen Huang's return to Nvidia",
+        "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/23/heres-where-we-stand-on-amd-shares-after-jensen-huangs-return-to-nvidia-.html",
+        "published_at": "2026-11-23T17:24:41Z"
+      },
+      {
+        "headline": "Mexico, China agree to create working group to boost trade - Reuters",
+        "summary": "Mexico, China agree to create working group to boost trade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGQzdEcwdnZKUC05dU4zQWZFRkRKV0tmVTM1d0oxeU5ldlM0Ukk4RVhlZTNPZXZtQ2tGejdIa1V1SEdvLUx5VHJ6dGxDWlhya041NE9MckZkOEFzbjNneGhwMzFDOXhrWGx3c0JFMFg1NnhnaURuYVNpRWRIakNqbWxueHlYeU1zY3ZLYkVtZTVoX1JEV2N0Ug?oc=5",
+        "published_at": "2026-11-23T16:47:48Z"
+      },
+      {
+        "headline": "'Iron Felix', architect of Bolshevik 'Terror', honoured with Moscow plaque - Reuters",
+        "summary": "'Iron Felix', architect of Bolshevik 'Terror', honoured with Moscow plaque\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORmZoM2ctX3Fod2Q1MDRlYnV5cUQwSmJNb1ZmVHhpaFJ1cThuLTFCU3c2SXpXU1cyVnY0VzMyMDNzTDd3eVBaV3ppeVBBYjNIUXRxSE1kTGk3cXI3TjZXd1U5Wm85T21pMGxvcGZKb2xxZG5ieVVNZmNzWWlkVXVWZGQ1Vjl4VzVQdlQ4VGNpdFBnSDNnSnRkb0dBT3F2emJhMHVXNzBkNTBVSXc?oc=5",
+        "published_at": "2026-11-23T16:45:36Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Canada and Qatar to sign investment pact on Tuesday, source says - Reuters",
+        "summary": "EXCLUSIVE: Canada and Qatar to sign investment pact on Tuesday, source says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk1ZWWo1bkc0R09JNGU4YXZQQlB2bVdfbkF0NHQySnRyY0hfMlcyQ2hTS29jblJtZWVhTmY2Ry1Qb1pUS3Q5YWZrYnFGSFJXMFJHZWUxaWRmMkRpV2hVMTFzYUlXc01GdE5YN256R2xhTnVveEdmS1RQZ3laRkN3VlNLcElDTVlPYmdFbmhHY3JBYjFtbWhQdEtHODBUNkRJWWVfcUpYMzNESGM?oc=5",
+        "published_at": "2026-11-23T16:29:51Z"
+      },
+      {
+        "headline": "Stop agonizing over the \u2018right\u2019 choice\u2014to avoid regret, save time and reduce stress, take these 3 steps",
+        "summary": "Maximizing can increase regret, anxiety and indecision, says therapist Chamin Ajjan. Take three steps to make faster, better decisions.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/23/stop-maximizing-make-decisions.html",
+        "published_at": "2026-11-23T16:25:01Z"
+      },
+      {
+        "headline": "EXCLUSIVE: US discussing military training for Syrian forces - Reuters",
+        "summary": "EXCLUSIVE: US discussing military training for Syrian forces\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd2tMTDZEYUhaR0lYVlhOTVpicEV6a3VJN2RSV1pVdXMxRmJwQkFUd1hzNWZEa0pSUkJaQ0l6SVNjM1pfMllVR2hNV2FNb2FZUTNuclJzLTdkenNHU3RncUJKUzRKcWswcTJkRkRQZjBuU0h3dDJBdlV0V25nU2xpQlA5UWFnMkZSZnlFMXRsbmQ?oc=5",
+        "published_at": "2026-11-23T16:07:17Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.8446,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 122.6503,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 689.81,
+    "spy_change_pct": -3.6403,
+    "spy_lean": "bearish",
+    "vix_close": 35.89,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 61273.34,
+    "coinbase_premium_pct": -0.118443,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-23T21:10:05 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 165.05,
+        "change_pct": 31.4825,
+        "prev_close": 125.53
+      },
+      "AMD": {
+        "close": 453.46,
+        "change_pct": 6.8498,
+        "prev_close": 424.39
+      },
+      "TSM": {
+        "close": 363.6,
+        "change_pct": 14.0849,
+        "prev_close": 318.71
+      },
+      "SMCI": {
+        "close": 24.53,
+        "change_pct": 13.3025,
+        "prev_close": 21.65
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 651.03,
+        "change_pct": 6.9981,
+        "prev_close": 608.45
+      },
+      "SOXX": {
+        "close": 140.22,
+        "change_pct": 13.6305,
+        "prev_close": 123.4
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-20",
+    "total_net_inflow_usd": -669162059.12,
+    "total_net_assets_usd": 71345056310.82,
+    "total_value_traded_usd": 4703133644.5,
+    "cum_net_inflow_usd": 52843375187.41,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 61346,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 9,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 62,
+    "positive_count": 18,
+    "negative_count": 7,
+    "neutral_count": 37,
+    "sentiment_ratio": 0.2903,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
+        "url": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-23T21:04:03+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Kalshi secures temporary win in New York gambling law dispute",
+        "url": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-23T20:38:43+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
+        "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+        "published_at": "2026-11-23T20:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
+        "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+        "published_at": "2026-11-23T20:00:34+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Why Nvidia Needed Jensen Huang Back\u2014And What His Return Really Changes",
+        "url": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
+        "published_at": "2026-11-23T19:57:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
+        "url": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-23T19:35:06+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Base makes quantum security a 2027 priority as regulators warn of risks",
+        "url": "https://cointelegraph.com/interview/base-quantum-security-2027-priority-regulators-warn-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-23T19:16:46+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "GPU Jesus Has Risen: Jensen Huang\u2019s Nvidia Comeback Gets a Meme Parade",
+        "url": "https://decrypt.co/383820/jensen-huang-returns-nvidia-memes-gpu-jesus",
+        "published_at": "2026-11-23T18:45:21+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC prediction market rules advance to White House review amid state-federal jurisdiction fight",
+        "url": "https://www.theblock.co/news/regulation/2026-11-23-cftc-prediction-market-rules-advance-white-house-review-amid-state-federal-jurisdiction-fight-445384",
+        "published_at": "2026-11-23T18:30:09+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
+        "url": "https://decrypt.co/383818/solo-bitcoin-miner-scores-again-191000-jackpot",
+        "published_at": "2026-11-23T18:16:25+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bearish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
