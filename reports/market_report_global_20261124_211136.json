@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-24T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2070337059332.84,
+    "total_market_cap_change_24h_pct": -4.8492,
+    "total_volume_24h_usd": 73330053305.25,
+    "btc_dominance_pct": 57.8162,
+    "eth_dominance_pct": 9.8468,
+    "total2_usd": 873347576377.5,
+    "total3_usd": 669486207189.14,
+    "active_cryptocurrencies": 21258,
+    "altcoin_season_index": 54,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PROS",
+        "name": "Pharos",
+        "price_change_24h_pct": 17.5121,
+        "price_usd": 0.681841,
+        "market_cap_usd": 92457621
+      },
+      {
+        "symbol": "HASH",
+        "name": "Provenance Blockchain",
+        "price_change_24h_pct": 7.2386,
+        "price_usd": 0.00650097,
+        "market_cap_usd": 393840648
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 6.2576,
+        "price_usd": 0.762762,
+        "market_cap_usd": 1148557713
+      },
+      {
+        "symbol": "STABLE",
+        "name": "\u200b\u200bStable",
+        "price_change_24h_pct": 6.2163,
+        "price_usd": 0.02452244,
+        "market_cap_usd": 441376992
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "price_change_24h_pct": 5.6564,
+        "price_usd": 4.393e-05,
+        "market_cap_usd": 242247548
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "SOXLB",
+        "name": "Semicon Bull 3X ETF (bStocks Tokenized ETF)",
+        "price_change_24h_pct": -25.2124,
+        "price_usd": 32.63,
+        "market_cap_usd": 92553864
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -22.2142,
+        "price_usd": 1.92,
+        "market_cap_usd": 745946183
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -20.1131,
+        "price_usd": 0.00923248,
+        "market_cap_usd": 109175634
+      },
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": -16.2498,
+        "price_usd": 2.99,
+        "market_cap_usd": 821296166
+      },
+      {
+        "symbol": "CAP",
+        "name": "Cap",
+        "price_change_24h_pct": -13.7835,
+        "price_usd": 0.091387,
+        "market_cap_usd": 142563902
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59697,
+    "price_change_24h_pct": -2.6819,
+    "price_change_7d_pct": -6.2454,
+    "market_cap_usd": 1200786275368,
+    "volume_24h_usd": 30489375127,
+    "direction": "bearish",
+    "oi_usd": 5792479545.8,
+    "funding_rate_latest": 2.227e-05,
+    "funding_rate_7d_avg": 2.7537142857142857e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.5575,
+    "long_account_pct": 71.89,
+    "short_account_pct": 28.11,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1672.6,
+    "price_change_24h_pct": -3.1481,
+    "price_change_7d_pct": -6.4306,
+    "market_cap_usd": 204454343448,
+    "volume_24h_usd": 11194207850,
+    "eth_btc_ratio": 0.028018,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 68543540575.8,
+    "stablecoin_market_cap_usd": 284190304698.92,
+    "stablecoin_dominance_pct": 13.7268
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 71,
+    "headlines": [
+      {
+        "headline": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
+        "summary": "Meta doesn't serve ads in its Muse personal agent, but the tool is already boosting the company's ad business, a senior executive told CNBC.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+        "published_at": "2026-11-24T20:37:40Z"
+      },
+      {
+        "headline": "Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move - Reuters",
+        "summary": "Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0ttY1ZZa0d3ajhmMUVZYmhrdHNGd0E4aC0wQWswZzc0UkFrcndsZ3pJUkJQMVF3Rlp0cjdGdkc2bG5XY093OWx6QWdtQVlJMVpRN2QzUUZicGRBZEROT2JUZEdQUTRpWHBpYzNXMVVwN1FQbmZpVmZfTm1leHQzclpZSkdsRk9MWHBzZEpaSlFoVjd0QzZQMnl2SDladHhlTzFmYkhmT2xPSlRTc2o2VmY2ZThoQ0dxbl94NXAxaXFWTHBNb1V6bzhXRTFPQQ?oc=5",
+        "published_at": "2026-11-24T19:42:27Z"
+      },
+      {
+        "headline": "Gold is doing something strange. Here's one way to play it",
+        "summary": "Gold is not acting like the traditional safe haven. How one trader is playing the move.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/gold-is-doing-something-strange-heres-one-way-to-play-it-.html",
+        "published_at": "2026-11-24T19:25:13Z"
+      },
+      {
+        "headline": "Who qualifies for Costco\u2019s $30-per-share dividend \u2014 plus, Meta puts share plan on hold",
+        "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/24/who-qualifies-for-costcos-dividend-plus-meta-pauses-share-plan.html",
+        "published_at": "2026-11-24T19:23:59Z"
+      },
+      {
+        "headline": "Roche expects approved cancer pill to become its best-selling drug - Reuters",
+        "summary": "Roche expects approved cancer pill to become its best-selling drug\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ0ZIVTBMSV9JZVhObUNuZ09CNXMwd0lHb083NUNCRmNzdWtDcTRTUVlsZjhLbUZPMm1KR0FQN0VoRW1MQUtWcUxEWllKeWU1TDdaNmlsdk95UE9oUGxOdEU0TXFpSmdXWGxuRHhOSVNidzVJbnNkNFRzTzBBblRqdkh0WU5Ra1kxa3dQRUdjMlZxWU1mVloyZnUyQ1FQLWlyNDZCeThPUk1oTER2dEtfd3RjYmhvRVk?oc=5",
+        "published_at": "2026-11-24T19:17:27Z"
+      },
+      {
+        "headline": "Hostages held in Cartagena, Colombia supermarket after failed armored car hijacking - Reuters",
+        "summary": "Hostages held in Cartagena, Colombia supermarket after failed armored car hijacking\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUklaemoxV1Blc3lnelpxZHVwbmdXYUZBVHg2M1dBUzhwcU1PNVp2STNsbWlQMU5POEpHNmFabWtzNjMyTGRwR3dVRURmbDJITXdKZHJsbGdQVkQwZ1d1dmM3cVc3RGZsUGxGbDVmeDVRQVJMZ0c2b3ZNcTdyQ08ycHlSMlNnT3dYMUJzWXZ1VXh0LWJBdkFpeDF5TjRyMk40Y0FHZDdaSWoxQjFIUGNEYlJQWEZKZl9BQ04tTnl1WXl1cElH?oc=5",
+        "published_at": "2026-11-24T18:53:16Z"
+      },
+      {
+        "headline": "Trump awards Rudy Giuliani the Medal of Freedom - Reuters",
+        "summary": "Trump awards Rudy Giuliani the Medal of Freedom\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR0F4ZGZfQ1BGUjhqR1J0ZURDMUtadkprYURwenhLd2pDandGTlVXR0xYVThJWWFySlVkZmk2Z0pUR1hlTjlpcFZQOTRMY3NMTWZpT0taWndxaEw0OVlNRUVnSEhpeTFUek9FYjQyM2lFYmVuUVl0aWlvOTZJeWIzZlBWRC1xOGlpODdvTzVB?oc=5",
+        "published_at": "2026-11-24T18:51:43Z"
+      },
+      {
+        "headline": "HPE shares tumble as shrinking AI margins overshadow upbeat forecast - Reuters",
+        "summary": "HPE shares tumble as shrinking AI margins overshadow upbeat forecast\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPamhxOU8weWdPQlYzdmRWR0hKdVBPdGhpcXVzUVBOcWpmNmdlTXUxSXFiSUE0SUF2Q0NWVlNUOE43TG0tYXFZYm50TnlrNDRJdGxGTUlpeUhKT0lRVjFHb3NPVS1CLS0tWmZoc1lNcEtKTDBWVDhmSVRmVlpxbWRSUmNsWkFva1czcWxXdUJBLW9mVFNLZmk3LU9ZOHZaWFZoNmlV?oc=5",
+        "published_at": "2026-11-24T18:50:25Z"
+      },
+      {
+        "headline": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
+        "summary": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
+        "published_at": "2026-11-24T18:48:05Z"
+      },
+      {
+        "headline": "Venezuela moves toward possible debt restructuring with release of economic framework - Reuters",
+        "summary": "Venezuela moves toward possible debt restructuring with release of economic framework\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOakxRRS1xODNKVEMzdlowcjUzd2g4amNoV0JSSzdQc0JEUXg1WWxSbGxOaGhYWDZWSlQzeldBelpvUnpXb3g3bHdMUWd4NWhiZFJRZnEtSWU4TDBXS0Q1Q21CWE9QUkxkT2YxYVI5MzlJNkVJS3FRZ3NuMG90Y0JBMFNKRGEtOEhlOUktTVJwU2hoSHVVVW56NXI0ZlZIOHo3TGt0UTc3VnA4VlV5MGZoTmlfS05qQlpQcWpiUWNtSjI?oc=5",
+        "published_at": "2026-11-24T18:46:35Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 104.3363,
+    "dxy_lean": "bearish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 123.5978,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 722.29,
+    "spy_change_pct": 4.7085,
+    "spy_lean": "bullish",
+    "vix_close": 26.62,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 59684.03,
+    "coinbase_premium_pct": -0.021726,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-24T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 155.38,
+        "change_pct": -5.8588,
+        "prev_close": 165.05
+      },
+      "AMD": {
+        "close": 413.27,
+        "change_pct": -8.863,
+        "prev_close": 453.46
+      },
+      "TSM": {
+        "close": 349.2,
+        "change_pct": -3.9604,
+        "prev_close": 363.6
+      },
+      "SMCI": {
+        "close": 22.62,
+        "change_pct": -7.7864,
+        "prev_close": 24.53
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 638.1,
+        "change_pct": -1.9861,
+        "prev_close": 651.03
+      },
+      "SOXX": {
+        "close": 128.62,
+        "change_pct": -8.2727,
+        "prev_close": 140.22
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-23",
+    "total_net_inflow_usd": -569739636.3,
+    "total_net_assets_usd": 74124798305.69,
+    "total_value_traded_usd": 3527036174.8,
+    "cum_net_inflow_usd": 52273635551.11,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59697,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 8,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 65,
+    "positive_count": 15,
+    "negative_count": 11,
+    "neutral_count": 39,
+    "sentiment_ratio": 0.2308,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "SEC staff gives Molecule no-action relief for scientific research tokens",
+        "url": "https://www.theblock.co/news/regulation/2026-11-24-sec-staff-gives-molecule-no-action-relief-scientific-research-tokens-446067",
+        "published_at": "2026-11-24T20:53:14+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+        "url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-24T20:48:27+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
+        "url": "https://decrypt.co/383927/ethereum-foundation-ai-more-urgent-threat-quantum-computing",
+        "published_at": "2026-11-24T20:36:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+        "url": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-24T19:44:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
+        "url": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near",
+        "published_at": "2026-11-24T19:35:32+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+        "url": "https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-24T19:04:26+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What the CFTC\u2019s New Crypto Reserves Guidance Actually Allows\u2014And What It Doesn\u2019t",
+        "url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt",
+        "published_at": "2026-11-24T18:55:27+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "South Korea Moves to Lift Its ICO Ban After Nearly a Decade",
+        "url": "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade",
+        "published_at": "2026-11-24T18:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Payward\u2019s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC",
+        "url": "https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498",
+        "published_at": "2026-11-24T18:35:02+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CFTC sets new prediction market rules as more firms seek US entry",
+        "url": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-24T18:31:42+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 8,
+    "neutral_count": 6,
+    "overall_lean": "slight_bearish",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bearish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "bullish",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
