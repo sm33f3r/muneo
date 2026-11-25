@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-25T21:10:09 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2091499675444.36,
+    "total_market_cap_change_24h_pct": -1.6725,
+    "total_volume_24h_usd": 84991141221.34,
+    "btc_dominance_pct": 57.8386,
+    "eth_dominance_pct": 9.8398,
+    "total2_usd": 881805423200.3,
+    "total3_usd": 676006998079.47,
+    "active_cryptocurrencies": 21248,
+    "altcoin_season_index": 57,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "PIEVERSE",
+        "name": "Pieverse",
+        "price_change_24h_pct": 24.2153,
+        "price_usd": 3.69,
+        "market_cap_usd": 1016376881
+      },
+      {
+        "symbol": "SOSO",
+        "name": "SoSoValue",
+        "price_change_24h_pct": 19.8447,
+        "price_usd": 0.318933,
+        "market_cap_usd": 114260030
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": 18.9412,
+        "price_usd": 0.01098755,
+        "market_cap_usd": 129950166
+      },
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 17.8828,
+        "price_usd": 0.899166,
+        "market_cap_usd": 1354275456
+      },
+      {
+        "symbol": "PROM",
+        "name": "Prom",
+        "price_change_24h_pct": 15.5584,
+        "price_usd": 5.23,
+        "market_cap_usd": 95539820
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "DGAI",
+        "name": "DGrid AI",
+        "price_change_24h_pct": -5.2044,
+        "price_usd": 0.992319,
+        "market_cap_usd": 148879623
+      },
+      {
+        "symbol": "GEOD",
+        "name": "Geodnet",
+        "price_change_24h_pct": -3.7679,
+        "price_usd": 0.17776,
+        "market_cap_usd": 134103001
+      },
+      {
+        "symbol": "NVDAB",
+        "name": "NVIDIA (bStocks Tokenized Stock)",
+        "price_change_24h_pct": -3.5504,
+        "price_usd": 149.08,
+        "market_cap_usd": 194864591
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -3.5422,
+        "price_usd": 0.0027472,
+        "market_cap_usd": 1962620975
+      },
+      {
+        "symbol": "NVDAX",
+        "name": "NVIDIA xStock",
+        "price_change_24h_pct": -3.3544,
+        "price_usd": 149.16,
+        "market_cap_usd": 132154303
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60297,
+    "price_change_24h_pct": 0.9931,
+    "price_change_7d_pct": -3.8349,
+    "market_cap_usd": 1213018731144,
+    "volume_24h_usd": 36594070421,
+    "direction": "neutral",
+    "oi_usd": 5861515145.62,
+    "funding_rate_latest": 6.085e-05,
+    "funding_rate_7d_avg": 3.0146190476190477e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.8911,
+    "long_account_pct": 74.3,
+    "short_account_pct": 25.7,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1687.65,
+    "price_change_24h_pct": 0.914,
+    "price_change_7d_pct": -3.7365,
+    "market_cap_usd": 206326343619,
+    "volume_24h_usd": 12917075234,
+    "eth_btc_ratio": 0.027989,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 68306300510.17,
+    "stablecoin_market_cap_usd": 283484151431.44,
+    "stablecoin_dominance_pct": 13.5541
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 52,
+    "headlines": [
+      {
+        "headline": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+        "summary": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+        "published_at": "2026-11-25T20:28:42Z"
+      },
+      {
+        "headline": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+        "summary": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
+        "published_at": "2026-11-25T20:07:57Z"
+      },
+      {
+        "headline": "We're buying more of a stock down big from its July highs",
+        "summary": "We're dipping into our large cash position as the market remains oversold.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/25/were-buying-more-of-a-stock-down-big-from-its-july-highs.html",
+        "published_at": "2026-11-25T19:55:18Z"
+      },
+      {
+        "headline": "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
+        "summary": "With stocks mounting a comeback Wednesday, options trading across a few key volatility products suggests big swings in stocks may dampen in the near term.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/bullish-hopes-spring-as-traders-bet-against-a-higher-vix-options-action-live.html",
+        "published_at": "2026-11-25T19:12:45Z"
+      },
+      {
+        "headline": "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region - Reuters",
+        "summary": "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeGlKWlRMLUx5SDRZY3FLU3VLM19RX2JqVko0T3dBakVEVHVldFVtQ21MbGo2WEEzUXU1clEteTVvWWh3bkdkQzZPX3RSemt5eWlBVjJQZy1RdjNjNnlpT19ZZUd0ekFDc3JuVHZKVWJfX2VtTlBzU3ZTTHlBX3dkV1NNVXA4NmJMVlRGX3FidmJsa0VacW5fQ2E1ZHBZTnJrN2pVc1BkUk1aZVliX2lMdHJBcUFaYlh5WmY3a05aSVZYN1hKemFtTGFUMG0?oc=5",
+        "published_at": "2026-11-25T18:58:04Z"
+      },
+      {
+        "headline": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+        "summary": "SpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+        "published_at": "2026-11-25T18:22:59Z"
+      },
+      {
+        "headline": "EXCLUSIVE: Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
+        "summary": "EXCLUSIVE: Boehly signs US-backed share swap deal to buy Lukoil global assets\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5",
+        "published_at": "2026-11-25T18:02:40Z"
+      },
+      {
+        "headline": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+        "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+        "published_at": "2026-11-25T17:10:17Z"
+      },
+      {
+        "headline": "UK is moving military aircraft to hangars at night over possible drone threats, media reports say - Reuters",
+        "summary": "UK is moving military aircraft to hangars at night over possible drone threats, media reports say\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNXk4cTJiN1hVeGlydEtUN2JpRTVCMF9CRFVBUkh3cUs2c0NJRHNnendsV1ZjWkxicDhPZUhESnlTNy1paWtzQlNHaHlSMkpLTVRvYXVGdFVDVEFGeVFGN2tQWElwRDZwREoyaXU2QUtNSm5oaGsyZ2VoSVNtT2c0aVlhbXlabU02Mm1menJtMGpNQXdzal9lM2dYeUtxZ0xFZ3lnc0FoODhBaklCa0M3eTQzbFF4dXVyNmc?oc=5",
+        "published_at": "2026-11-25T16:34:53Z"
+      },
+      {
+        "headline": "There are 5,100 newly minted Anthropic millionaires\u2014here\u2019s all the stuff they don\u2019t tell you about when you suddenly get rich",
+        "summary": "Anthropic\u2019s IPO made about 5,100 employees paper millionaires. Experts explain the risks of sudden wealth.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html",
+        "published_at": "2026-11-25T16:32:55Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.8305,
+    "dxy_lean": "bullish",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 123.5978,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 718.78,
+    "spy_change_pct": -0.486,
+    "spy_lean": "neutral",
+    "vix_close": 26.36,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 60128.63,
+    "coinbase_premium_pct": -0.279234,
+    "coinbase_premium_lean": "bearish"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-25T21:10:09 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 149.3,
+        "change_pct": -3.913,
+        "prev_close": 155.38
+      },
+      "AMD": {
+        "close": 406.03,
+        "change_pct": -1.7519,
+        "prev_close": 413.27
+      },
+      "TSM": {
+        "close": 342.34,
+        "change_pct": -1.9645,
+        "prev_close": 349.2
+      },
+      "SMCI": {
+        "close": 23.31,
+        "change_pct": 3.0504,
+        "prev_close": 22.62
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 633.93,
+        "change_pct": -0.6535,
+        "prev_close": 638.1
+      },
+      "SOXX": {
+        "close": 127.98,
+        "change_pct": -0.4976,
+        "prev_close": 128.62
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-24",
+    "total_net_inflow_usd": -231556490.07,
+    "total_net_assets_usd": 72009917872.68,
+    "total_value_traded_usd": 2499017019.7,
+    "cum_net_inflow_usd": 52042079061.04,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60297,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 9,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 58,
+    "positive_count": 13,
+    "negative_count": 15,
+    "neutral_count": 30,
+    "sentiment_ratio": 0.2241,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Another Bitcoin Mining Firm Flags 'Hashrate Hijacking' Attacks That Reroute Rewards",
+        "url": "https://decrypt.co/383999/another-bitcoin-mining-firm-hashrate-hijacking-attacks",
+        "published_at": "2026-11-25T20:36:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach",
+        "url": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach",
+        "published_at": "2026-11-25T20:06:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
+        "url": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
+        "published_at": "2026-11-25T19:37:10+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
+        "url": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
+        "published_at": "2026-11-25T19:32:42+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
+        "url": "https://decrypt.co/383994/nvidia-290-million-settle-crypto-mining-disclosure-lawsuit",
+        "published_at": "2026-11-25T19:28:54+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats",
+        "url": "https://cointelegraph.com/news/ethereum-foundation-keccak-256-counter-quantum-ai-threats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-25T18:54:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Elon Musk\u2019s SpaceX Gets FCC Approval to Launch AI Data Centers in Space",
+        "url": "https://decrypt.co/383991/elon-musk-spacex-fcc-approval-ai-data-centers-space",
+        "published_at": "2026-11-25T18:18:10+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Justice Department takes aim at billions in crypto fraud proceeds in historic \u2018largest ever crackdown\u2019",
+        "url": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711",
+        "published_at": "2026-11-25T18:05:18+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
+        "url": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+        "published_at": "2026-11-25T18:00:13+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+        "url": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-25T17:53:10+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "neutral",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "bullish",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "bearish",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
