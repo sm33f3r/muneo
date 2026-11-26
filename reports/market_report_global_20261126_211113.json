@@ -1,0 +1,441 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-26T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2104814656086.65,
+    "total_market_cap_change_24h_pct": -2.0189,
+    "total_volume_24h_usd": 56356470347.19,
+    "btc_dominance_pct": 57.9096,
+    "eth_dominance_pct": 9.8727,
+    "total2_usd": 885924455294.54,
+    "total3_usd": 678122396735.69,
+    "active_cryptocurrencies": 21239,
+    "altcoin_season_index": 50,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "A7A5",
+        "name": "A7A5",
+        "price_change_24h_pct": 550.7596,
+        "price_usd": 0.01154403,
+        "market_cap_usd": 453091988
+      },
+      {
+        "symbol": "SEI",
+        "name": "Sei",
+        "price_change_24h_pct": 19.4981,
+        "price_usd": 0.03956449,
+        "market_cap_usd": 266400914
+      },
+      {
+        "symbol": "B",
+        "name": "BUILDon",
+        "price_change_24h_pct": 13.572,
+        "price_usd": 0.101831,
+        "market_cap_usd": 101831127
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price_change_24h_pct": 11.1644,
+        "price_usd": 0.04570873,
+        "market_cap_usd": 1064503936
+      },
+      {
+        "symbol": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "price_change_24h_pct": 10.4995,
+        "price_usd": 0.120407,
+        "market_cap_usd": 278321290
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": -14.2508,
+        "price_usd": 447.55,
+        "market_cap_usd": 8430075897
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "price_change_24h_pct": -8.9103,
+        "price_usd": 0.784612,
+        "market_cap_usd": 196151722
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -8.2152,
+        "price_usd": 1.92,
+        "market_cap_usd": 750312092
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -7.5395,
+        "price_usd": 0.00254007,
+        "market_cap_usd": 1814653367
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "price_change_24h_pct": -5.6066,
+        "price_usd": 0.01037153,
+        "market_cap_usd": 267693950
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 60745,
+    "price_change_24h_pct": 0.8057,
+    "price_change_7d_pct": -2.5085,
+    "market_cap_usd": 1222100860700,
+    "volume_24h_usd": 23998145693,
+    "direction": "neutral",
+    "oi_usd": 5975342959.99,
+    "funding_rate_latest": 4.502e-05,
+    "funding_rate_7d_avg": 3.156619047619047e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.3967,
+    "long_account_pct": 70.56,
+    "short_account_pct": 29.44,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1703.52,
+    "price_change_24h_pct": 0.9467,
+    "price_change_7d_pct": -3.6682,
+    "market_cap_usd": 208255178566,
+    "volume_24h_usd": 7813931086,
+    "eth_btc_ratio": 0.028044,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 68608586452.56,
+    "stablecoin_market_cap_usd": 283259368961.31,
+    "stablecoin_dominance_pct": 13.4577
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 75,
+    "headlines": [
+      {
+        "headline": "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
+        "summary": "Two Italians killed in attack on Kuwait site, Iran denies involvement\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE9DZXQ0VUMxV052eWlmWWlKM3R0LTFiMS1ITm93Ty1NOWpta1ZVNU5MeWVVMHRlcmdXd0NpZmxJeGlGZEhCeklaaEs2VWlSWnR0RVRLUHhCNm9MeFNTMmNUZFEyWWdoUVVBWUZTcVc0LVNFY0gxN050ZHNtS3psSVRHQWtBVEM5N3dPYVl6T1Flb0tBb1BlUGVxQ3ZaNURWVU9vTHYtTGxFRDJSQVhaMU1Tbw?oc=5",
+        "published_at": "2026-11-26T18:54:12Z"
+      },
+      {
+        "headline": "Settlers smash foundations of Palestinian family's homes in West Bank - Reuters",
+        "summary": "Settlers smash foundations of Palestinian family's homes in West Bank\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1JfSF9vcWp6cVBxNTNjV2NnZkd4aUN5ektmYU4wSF9Qa18weEFlbGhTZlRtTEhuY1haWW1pTk4wZjExSHo3Rk5jY1VHd09FblJPSHJfazNMenFsYWRlVDdYYjJobXd2TnRFRlYwWXBvaWlLWjQyWTFIZnF0VWNVSHYzQmxMRVVxYUlad21JWXBseHJ3VUlqOXVFRk5EQXpHODZoUExmMWFVVW5HT1Nrd1ZCMklXVHc?oc=5",
+        "published_at": "2026-11-26T18:29:43Z"
+      },
+      {
+        "headline": "Trump demands probe into \u2018record setting error\u2019 after third-quarter GDP data gets massive revision higher",
+        "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a historic mistake, claiming that it should be \"immediately investigated.\"",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+        "published_at": "2026-11-26T17:57:32Z"
+      },
+      {
+        "headline": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says - Reuters",
+        "summary": "Turkish elections to be held in 2028, ruling alliance agrees on Erdogan candidacy, vice president says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOWczelB1MldEZ2RSX1luOHBST0ZrMGtNMl81TTgwVE5fQTZtNnJxeElKMmlzSmdnLVpVTDRfVjluMVZSa09QaTluWGk5X2VTcEw2aFlPcmx1VmlsVHd5eUFMaWM4Nm5EX29OYlhlMzZyZW9fMmcxLUxkZ2kycGFiLWtQbU1jSVBsbWRwM3p0RDFEUU8yXzVOOGM5T3pRTWx0ZDZkTmptem0teU1WVjZCdk5lcDFpZ2F2UU1mbTVHOHJqRWVnRUFYdmR3?oc=5",
+        "published_at": "2026-11-26T17:41:43Z"
+      },
+      {
+        "headline": "Iraq closes two border crossings in Kurdistan region with Syria and Iran - Reuters",
+        "summary": "Iraq closes two border crossings in Kurdistan region with Syria and Iran\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXo4cXNsVjIzOVYyWnIxR1JOUjY5UUkzU0xCSXc2ampKcnhKajJ2VjdjWWdzSkY3QlV5Z0xNQkd1aUtKUWh6d19mMXlsTEc5RTk3T0NvbkJyM2Y4VWZ5bW9sRFhUX2Q4aGx5dGhLLXVLb0VDWDFaSGQ0eGZaZVRacTVlWkx1eVYwZEwwUWNSZEFpVGlQbVA5dkRGWXVmeHlpYzE5VFB3NVo5TzBmWHk1YXZjZmN2XzZjdS0w?oc=5",
+        "published_at": "2026-11-26T17:32:41Z"
+      },
+      {
+        "headline": "Russia arrests deputy aerospace commander in reported corruption case - Reuters",
+        "summary": "Russia arrests deputy aerospace commander in reported corruption case\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQzFOeDFjM0VPTXBIZkxlelN0ZFAtQ25fOUZkTVVheGM0cURoX1RqVXUzTGttUDlLTmhuczVlelh1eGJUYkVWQllDQ1ZzTlB3OUdQMjloczZsRGR4WGwzbF9XWURoSk9Tb2FybGNlbExBc243elBHTGxtNnpacDR3Y1pSaDctcFZqdUs5UkJiZ1R1Q09lTWxkUmN2TnNSZUdaQlpPNUl1N0tZVDJGd0xOT0lTU0tGUzA?oc=5",
+        "published_at": "2026-11-26T16:29:52Z"
+      },
+      {
+        "headline": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam - Reuters",
+        "summary": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnltOGlBZG16OU1LUGlBS25WVUFhN2VnM0NhWHpzTlVscC1iOE5kdFZnaGhBbmNOdm80b05IQWttZm9MV0liVmZzVE56bXVxSHJXYXBmMktWSVQwZ2hfNmVGdWVJQmp5RkRtS1dXR0wwT0pXX1dFdUM5dDJrUWNTNHVsYjRNWXBWcmx3RTlqQ0ZQNEJWWFVxalA1Z0tkRExSbGJVOWpWX1pMY25aZHB3VnlvTWF0QUNvaElpM0FORVM5a1ZPa05mWDBXQQ?oc=5",
+        "published_at": "2026-11-26T16:16:29Z"
+      },
+      {
+        "headline": "Argentina's Senate poised to suspend primaries, boosting Milei's re-election bid - Reuters",
+        "summary": "Argentina's Senate poised to suspend primaries, boosting Milei's re-election bid\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOME12Z2hWeXJDdjhYQll0TW9vYWFaMzgwdWdBQ05BR3k4ckdrdFo3SkdfOXZrOGVXU1VUOTNtYXRXWEJBYlExUllERjdYRGxqR3lCelZyQTJxd0o2Q1VacWw0Sk5QajJWbGlDaDV1Y2hjWDE4dEVjNFpSQXdhQWg4MmFydGdDMEhmQjI2TjNiMUliZ1hBX1lXaDBoRlN0RHoxeUpxV3JuMkU2TmFncHhfWXdyOFNaUlVrUC1NZnlSS0NoRFE?oc=5",
+        "published_at": "2026-11-26T16:11:15Z"
+      },
+      {
+        "headline": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery - Reuters",
+        "summary": "Saudi-led coalition says Houthis attacked Aramco's Jazan refinery\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5",
+        "published_at": "2026-11-26T16:05:09Z"
+      },
+      {
+        "headline": "Trump demands probe of GDP data released before midterms - Reuters",
+        "summary": "Trump demands probe of GDP data released before midterms\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdjAtVm85ZE55RGw0MXhaM3NVV1NlaHdlazNjODRQQjRPOGh2eDQ5aWYzcmxNSHpVWHNacEhhMDFaRDZ3YWIxalJzY3JCTXdjLVE4RXpmbktlZXNZTUc3RlE0LVhtTlo5Rl8xMm9nOXVPZmZ1eEd2XzJjcXQxX2otajdiUHN6djBScGpldmJvUXBIaG9UeUJxeW5kSWtnTTQ?oc=5",
+        "published_at": "2026-11-26T16:04:27Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.732,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 123.5978,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 716.7,
+    "spy_change_pct": -0.2894,
+    "spy_lean": "neutral",
+    "vix_close": 26.36,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 60725.87,
+    "coinbase_premium_pct": -0.031492,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-26T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 149.3,
+        "change_pct": -3.913,
+        "prev_close": 155.38
+      },
+      "AMD": {
+        "close": 406.03,
+        "change_pct": -1.7519,
+        "prev_close": 413.27
+      },
+      "TSM": {
+        "close": 342.34,
+        "change_pct": -1.9645,
+        "prev_close": 349.2
+      },
+      "SMCI": {
+        "close": 23.31,
+        "change_pct": 3.0504,
+        "prev_close": 22.62
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 633.93,
+        "change_pct": -0.6535,
+        "prev_close": 638.1
+      },
+      "SOXX": {
+        "close": 127.98,
+        "change_pct": -0.4976,
+        "prev_close": 128.62
+      }
+    },
+    "tech_sector_lean": "bearish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-25",
+    "total_net_inflow_usd": -453119620.96,
+    "total_net_assets_usd": 72026690545.29,
+    "total_value_traded_usd": 3092525408.1,
+    "cum_net_inflow_usd": 51588959440.08,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 60745,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 10,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 53,
+    "positive_count": 9,
+    "negative_count": 6,
+    "neutral_count": 38,
+    "sentiment_ratio": 0.1698,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "What Is Self-Custody? How to Hold Your Own Crypto Keys",
+        "url": "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
+        "published_at": "2026-11-26T21:01:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
+        "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-26T20:05:18+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Before the Sell-Off, AI Stocks Showed Dot-Com-Level Bubble Signals: Study",
+        "url": "https://decrypt.co/384066/before-the-sell-off-ai-stocks-showed-dot-com-level-bubble-signals-study",
+        "published_at": "2026-11-26T19:01:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
+        "url": "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-26T18:26:31+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spain Moves to Give Authorities Power to Freeze Crypto Accounts Without a Court Order",
+        "url": "https://bitcoinist.com/spain-crypto-regulation-account-freeze/",
+        "published_at": "2026-11-26T18:18:19+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
+        "url": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
+        "published_at": "2026-11-26T18:15:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019",
+        "url": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-26T17:39:53+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Tokenized Anthropic Holders Doubled in 3 Days",
+        "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-26-tokenized-anthropic-holders-doubled-in-3-days-446013",
+        "published_at": "2026-11-26T17:32:00+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "US Strategic Bitcoin Reserve Bill Would Block BTC Sales for 20 Years",
+        "url": "https://bitcoinist.com/us-strategic-bitcoin-reserve-20-year-lockup/",
+        "published_at": "2026-11-26T17:20:43+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
+        "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+        "published_at": "2026-11-26T16:43:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 1,
+    "bearish_count": 6,
+    "neutral_count": 9,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "neutral",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bearish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
