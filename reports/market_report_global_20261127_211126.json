@@ -1,0 +1,442 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-27T21:10:08 UTC",
+    "report_type": "global",
+    "script_version": "2.0.0",
+    "schema_version": "3.0.0"
+  },
+  "market_structure": {
+    "total_market_cap_usd": 2080854675563.56,
+    "total_market_cap_change_24h_pct": -3.8401,
+    "total_volume_24h_usd": 73361771081.16,
+    "btc_dominance_pct": 57.706,
+    "eth_dominance_pct": 9.7777,
+    "total2_usd": 880075892668.74,
+    "total3_usd": 676615504713.3,
+    "active_cryptocurrencies": 21218,
+    "altcoin_season_index": 52,
+    "altcoin_season_label": "neutral",
+    "altcoin_season_lean": "neutral",
+    "altcoin_season_data_note": "Computed from 7d returns (CoinGecko free tier does not support 90d window)",
+    "top_gainers": [
+      {
+        "symbol": "BTW",
+        "name": "Bitway",
+        "price_change_24h_pct": 16.8465,
+        "price_usd": 1.16,
+        "market_cap_usd": 1746437828
+      },
+      {
+        "symbol": "SKY",
+        "name": "Sky",
+        "price_change_24h_pct": 13.0004,
+        "price_usd": 0.051783,
+        "market_cap_usd": 1205361142
+      },
+      {
+        "symbol": "SENT",
+        "name": "Sentient",
+        "price_change_24h_pct": 7.2712,
+        "price_usd": 0.02304067,
+        "market_cap_usd": 166765676
+      },
+      {
+        "symbol": "GEOD",
+        "name": "Geodnet",
+        "price_change_24h_pct": 6.5848,
+        "price_usd": 0.190985,
+        "market_cap_usd": 143924360
+      },
+      {
+        "symbol": "SOXLB",
+        "name": "Semicon Bull 3X ETF (bStocks Tokenized ETF)",
+        "price_change_24h_pct": 5.8529,
+        "price_usd": 35.88,
+        "market_cap_usd": 121950240
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "WLFI",
+        "name": "World Liberty Financial",
+        "price_change_24h_pct": -13.5527,
+        "price_usd": 0.03649734,
+        "market_cap_usd": 1155605475
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "price_change_24h_pct": -9.7445,
+        "price_usd": 1.73,
+        "market_cap_usd": 678870659
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "price_change_24h_pct": -9.318,
+        "price_usd": 406.42,
+        "market_cap_usd": 7655635288
+      },
+      {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "price_change_24h_pct": -9.3143,
+        "price_usd": 0.00230317,
+        "market_cap_usd": 1645408207
+      },
+      {
+        "symbol": "FF",
+        "name": "Falcon Finance",
+        "price_change_24h_pct": -7.4802,
+        "price_usd": 0.096102,
+        "market_cap_usd": 340789906
+      }
+    ]
+  },
+  "btc": {
+    "price_usd": 59792,
+    "price_change_24h_pct": -1.5854,
+    "price_change_7d_pct": 2.1763,
+    "market_cap_usd": 1202896757942,
+    "volume_24h_usd": 29249078544,
+    "direction": "bearish",
+    "oi_usd": 5880600899.28,
+    "funding_rate_latest": 1.156e-05,
+    "funding_rate_7d_avg": 3.668476190476191e-05,
+    "funding_lean": "neutral",
+    "long_short_ratio": 2.973,
+    "long_account_pct": 74.83,
+    "short_account_pct": 25.17,
+    "btc_ls_lean": "bearish"
+  },
+  "eth": {
+    "price_usd": 1666.9,
+    "price_change_24h_pct": -2.1566,
+    "price_change_7d_pct": 3.7523,
+    "market_cap_usd": 203790175078,
+    "volume_24h_usd": 11563138692,
+    "eth_btc_ratio": 0.027878,
+    "eth_btc_lean": "neutral"
+  },
+  "defi": {
+    "total_defi_tvl_usd": 68143261619.6,
+    "stablecoin_market_cap_usd": 283890988794.83,
+    "stablecoin_dominance_pct": 13.643
+  },
+  "macro_news": {
+    "source": "finnhub",
+    "article_count_24h": 33,
+    "headlines": [
+      {
+        "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
+        "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+        "published_at": "2026-11-27T20:56:01Z"
+      },
+      {
+        "headline": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+        "summary": "Jensen Huang's return sparked a fleeting AI rally, but persistent market volatility gave us another opportunity to put cash to work.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+        "published_at": "2026-11-27T18:46:20Z"
+      },
+      {
+        "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
+        "summary": "Son of Hamas chief survives Israeli strike, Hamas says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
+        "published_at": "2026-11-27T18:33:44Z"
+      },
+      {
+        "headline": "US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
+        "summary": "US disables ship trying to leave Iran, as Tehran vows to confront blockade\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+        "published_at": "2026-11-27T18:01:54Z"
+      },
+      {
+        "headline": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
+        "summary": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSFRCSGhuNWlueUFObDgwZDBGenpUODhVdkhrQWtra2lxOWdNVldJZXNLVnRQNldMVTdaTmtRNUNjM3hndjJRYmtUNXE5c2p1TmMyaVVZY1M1a2dSX1Bfbm00ck8zamF0SkVUc0p2ZkM0Z0pfVVIyU0VzeU5vYklZRkxDUnBxZ3cwbktSQmROQVVacnlWekpNY3hLS2IyampaZEJPMFJ0X2dIQQ?oc=5",
+        "published_at": "2026-11-27T17:16:14Z"
+      },
+      {
+        "headline": "At least eight found dead on migrant boat off Spain's Canary Islands - Reuters",
+        "summary": "At least eight found dead on migrant boat off Spain's Canary Islands\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFg3b1hQNEFySWI3WEZRY21RRGFIQndWTWhVZkdpYUlVczFmR2hiSnZaemxZTzFqYU1uSThFbEVMSkgyVFR1SXE3UEpBd09jOWNzcW9IaXl0TXZIS3k2VXlEUDBVcEJjc25UOHBEXzhJcFBCX2YtdXpqLVVMN1lmVFliYWJ0QnY0YUhOOWJGblFRaXlmbFFpMUZ0aWdvRHRWQ0E4RFd3?oc=5",
+        "published_at": "2026-11-27T16:43:46Z"
+      },
+      {
+        "headline": "'The Traitors' ended with a $246,300 prize\u2014here's who won and what they told us about spending it",
+        "summary": "Winning prize money can come with some big financial decisions, including how much to set aside for taxes.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/make-it/2026/11/27/the-traitors-ends-with-246300-prize-heres-how-much-goes-to-taxes.html",
+        "published_at": "2026-11-27T15:49:29Z"
+      },
+      {
+        "headline": "Top 10 things to watch in the stock market on Black Friday",
+        "summary": "Stocks are on pace for a record Black Friday as Anthropic tries to regain its IPO price.",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
+        "published_at": "2026-11-27T14:28:36Z"
+      },
+      {
+        "headline": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy - Reuters",
+        "summary": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
+        "published_at": "2026-11-27T13:37:31Z"
+      },
+      {
+        "headline": "India's Adani Group targets capex of nearly $24 billion in FY27, CFO Singh says - Reuters",
+        "summary": "India's Adani Group targets capex of nearly $24 billion in FY27, CFO Singh says\u00a0\u00a0Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOHlTQnpYYzNEZjVsMG9Yb3ViN2hTZEFtNmh0M1cwSktEaTRRdUpJY0owNkZoN1VZeUY0WUdGLUU0dXRCRnJ6NzExTHk3MEpRbUhKQ0Z1QkdocDVYUnowY0JFMFZ3VzZJLUVzSUlYUjMtaGNPelNYVVdvV2xKVFExNG10NXRJbHRKaWpBUVNGRm1fekVseXVqXzlsRUNoZkZqU2hQTGNwQXlEZFJCMHFiSm51MzAtZnZ0c2c?oc=5",
+        "published_at": "2026-11-27T13:25:37Z"
+      }
+    ]
+  },
+  "macro": {
+    "dxy": 103.7874,
+    "dxy_lean": "neutral",
+    "dxy_source": "computed_ice_formula",
+    "dxy_calculation_note": "Computed from Alpha Vantage FX_DAILY closes (EURUSD, USDJPY, GBPUSD, USDCAD, USDSEK, USDCHF) using ICE's published DXY formula. Null if any of the six FX pairs failed to fetch.",
+    "broad_dollar_index": 123.5978,
+    "broad_dollar_index_lean": "neutral",
+    "broad_dollar_index_note": "FRED DTWEXBGS (Nominal Broad U.S. Dollar Index, base Jan 2006=100) \u2014 a different, broader basket than ICE DXY. Not comparable in scale to dxy above.",
+    "spy_close": 716.7,
+    "spy_change_pct": -0.2894,
+    "spy_lean": "neutral",
+    "vix_close": 26.8,
+    "vix_lean": "bearish",
+    "coinbase_btc_price_usd": 59770.42,
+    "coinbase_premium_pct": -0.036092,
+    "coinbase_premium_lean": "neutral"
+  },
+  "tech_equities": {
+    "fetched_at": "2026-11-27T21:10:08 UTC",
+    "stocks": {
+      "NVDA": {
+        "close": 150.49,
+        "change_pct": 0.7971,
+        "prev_close": 149.3
+      },
+      "AMD": {
+        "close": 424.54,
+        "change_pct": 4.5588,
+        "prev_close": 406.03
+      },
+      "TSM": {
+        "close": 353.34,
+        "change_pct": 3.2132,
+        "prev_close": 342.34
+      },
+      "SMCI": {
+        "close": 23.76,
+        "change_pct": 1.9305,
+        "prev_close": 23.31
+      },
+      "005930.KS": {
+        "close": null,
+        "change_pct": null,
+        "prev_close": null
+      },
+      "QQQ": {
+        "close": 650.99,
+        "change_pct": 2.6911,
+        "prev_close": 633.93
+      },
+      "SOXX": {
+        "close": 134.07,
+        "change_pct": 4.7586,
+        "prev_close": 127.98
+      }
+    },
+    "tech_sector_lean": "bullish"
+  },
+  "etf_flows": {
+    "source": "sosovalue",
+    "data_date": "2026-11-25",
+    "total_net_inflow_usd": -453119620.96,
+    "total_net_assets_usd": 72026690545.29,
+    "total_value_traded_usd": 3092525408.1,
+    "cum_net_inflow_usd": 51588959440.08,
+    "flow_lean": "bearish",
+    "fetch_note": null
+  },
+  "liquidation_map": {
+    "source": "binance_futures",
+    "window_hours": 24,
+    "band_pct": 5.0,
+    "btc_reference_price": 59792,
+    "liq_clusters_above_usd": null,
+    "liq_clusters_below_usd": null,
+    "liq_pressure_lean": null,
+    "liq_count_above": 0,
+    "liq_count_below": 0,
+    "fetch_note": null
+  },
+  "sentiment": {
+    "fear_greed_value": 9,
+    "fear_greed_label": "Extreme fear",
+    "fear_greed_lean": "bullish"
+  },
+  "news": {
+    "source": "rss",
+    "article_count_24h": 43,
+    "positive_count": 8,
+    "negative_count": 8,
+    "neutral_count": 27,
+    "sentiment_ratio": 0.186,
+    "news_volume_lean": "bearish",
+    "news_spike": true,
+    "top_headlines": [
+      {
+        "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
+        "url": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+        "published_at": "2026-11-27T20:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
+        "url": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
+        "published_at": "2026-11-27T19:46:02+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
+        "url": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-27T19:23:00+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "$7 Billion in Bitcoin Options Just Expired: Here\u2019s What It Means",
+        "url": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
+        "published_at": "2026-11-27T18:16:03+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "CryptoQuant says bitcoin price recovery needs USDT supply growth",
+        "url": "https://www.theblock.co/news/markets/2026-11-27-cryptoquant-bitcoin-price-recovery-usdt-supply-growth-447560",
+        "published_at": "2026-11-27T18:13:45+00:00",
+        "source": "The Block",
+        "sentiment": {
+          "polarity": "positive",
+          "score": 1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Will Bitcoin Recover? New Whale Data Offers Hope After 29.5% Price Drop",
+        "url": "https://bitcoinist.com/will-bitcoin-recover/",
+        "published_at": "2026-11-27T17:50:15+00:00",
+        "source": "Bitcoinist.com",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Hackers Hit US Air Force Cloud System Running Air-Defense and Munitions Data",
+        "url": "https://decrypt.co/384174/us-air-force-hack-cloud-system-air-defense-munitions-data",
+        "published_at": "2026-11-27T17:43:29+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "China sets March 2027 rollout for blockchain identity regulations",
+        "url": "https://cointelegraph.com/news/china-march-2027-rollout-blockchain-identity-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-27T17:37:23+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Nvidia's Blackwell Chips Turn Up in China as Trump Floats Government Stake",
+        "url": "https://decrypt.co/384153/nvidias-blackwell-chips-turn-up-in-china-as-trump-floats-government-stake",
+        "published_at": "2026-11-27T17:09:30+00:00",
+        "source": "Decrypt",
+        "sentiment": {
+          "polarity": "neutral",
+          "score": 0.0
+        },
+        "is_breaking": false
+      },
+      {
+        "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published_at": "2026-11-27T16:48:51+00:00",
+        "source": "Cointelegraph.com News",
+        "sentiment": {
+          "polarity": "negative",
+          "score": -1.0
+        },
+        "is_breaking": false
+      }
+    ]
+  },
+  "signal_summary": {
+    "signals_evaluated": 17,
+    "signals_available": 16,
+    "signals_null": 1,
+    "bullish_count": 2,
+    "bearish_count": 6,
+    "neutral_count": 8,
+    "overall_lean": "neutral",
+    "signals": {
+      "market_cap_direction_lean": "bearish",
+      "btc_dominance_lean": "neutral",
+      "altcoin_season_lean": "neutral",
+      "btc_direction_lean": "bearish",
+      "btc_funding_lean": "neutral",
+      "btc_ls_lean": "bearish",
+      "eth_btc_lean": "neutral",
+      "dxy_lean": "neutral",
+      "broad_dollar_index_lean": "neutral",
+      "spy_lean": "neutral",
+      "vix_lean": "bearish",
+      "fear_greed_lean": "bullish",
+      "news_volume_lean": "bearish",
+      "tech_sector_lean": "bullish",
+      "coinbase_premium_lean": "neutral",
+      "etf_flow_lean": "bearish",
+      "liq_pressure_lean": null
+    }
+  },
+  "fetch_errors": [
+    "CoinGecko global market data \u2014 rate limited, backing off 15s",
+    "Finnhub 005930.KS quote \u2014 HTTP 403",
+    "Binance BTC liquidation clusters \u2014 HTTP 404"
+  ]
+}
